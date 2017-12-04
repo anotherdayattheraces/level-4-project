@@ -7,11 +7,10 @@ import java.util.Scanner;
 
 public class DbpediaReferenceParser {
 	String path;
-	
 	Boolean isFirstLine;
 	public DbpediaReferenceParser(String pathName){
 		this.path = pathName;
-		this.isFirstLine = false;
+		this.isFirstLine = true;
 	}
 	public DbpediaReferenceParser(){
 		this.path = "C:/Work/Project/samples/dbpediaDataDump/mappingbased_literals_en.ttl/mappingbased_literals_en.ttl";
@@ -24,8 +23,9 @@ public class DbpediaReferenceParser {
 		ArrayList<String> entities = new ArrayList();
 		while (sc.hasNextLine()) {
 	        String line = sc.nextLine();
-	        if(!this.isFirstLine){
-	        	int endOfSubject = line.indexOf('>');
+	        //example line: <http://dbpedia.org/resource/Tell_Hawsh> <http://dbpedia.org/ontology/utcOffset> "+2"
+	        if(!this.isFirstLine && !line.startsWith("#")){ //final line is not valid data and begins with #
+	        	int endOfSubject = line.indexOf('>'); //lines arrive in the format <subject)> <reference> "literal"
 	        	int startOfReference = endOfSubject+3;
 	        	String reference = line.substring(startOfReference);
 	        	reference = reference.substring(0, reference.indexOf('>'));
