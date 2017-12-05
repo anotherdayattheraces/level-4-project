@@ -3,6 +3,7 @@ package level_4_project.entity_linker;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class DbpediaReferenceParser {
@@ -17,7 +18,7 @@ public class DbpediaReferenceParser {
 		this.isFirstLine = true;
 	}
 	
-	public ArrayList<String> generateEntities() throws FileNotFoundException{
+	public ArrayList<String> generateEntities(List<String> references) throws FileNotFoundException{
 		FileInputStream inputStream = new FileInputStream(path);
 		Scanner sc = new Scanner(inputStream, "UTF-8");
 		ArrayList<String> entities = new ArrayList();
@@ -25,16 +26,11 @@ public class DbpediaReferenceParser {
 	        String line = sc.nextLine();
 	        //example line: <http://dbpedia.org/resource/Tell_Hawsh> <http://dbpedia.org/ontology/utcOffset> "+2"
 	        if(!this.isFirstLine && !line.startsWith("#")){ //final line is not valid data and begins with #
-	        	int endOfSubject = line.indexOf('>'); //lines arrive in the format <subject)> <reference> "literal"
-	        	int startOfReference = endOfSubject+3;
-	        	String reference = line.substring(startOfReference);
-	        	reference = reference.substring(0, reference.indexOf('>'));
-	        	reference = reference.substring(reference.lastIndexOf('/')+1);
-	        	reference = reference.trim();
-	        	String subject = line.substring(1, endOfSubject);
-	        	subject = subject.substring(subject.lastIndexOf('/')+1);
-	        	subject = subject.trim();
-	        	if (reference.equals("icd9") || reference.equals("icd10")){
+	        	//lines arrive in the format <subject)> <reference> "literal"
+	        	String[] items = line.split(">");
+	        	String subject = format(items[0]);
+	        	String reference = format(items[1]);
+	        	if (references.contains(reference)){
 	        		subject = subject.replace('_', ' ');
 	        		if (!entities.contains(subject)){
 	        			entities.add(subject);}
@@ -45,7 +41,14 @@ public class DbpediaReferenceParser {
 	        	
 	        	}
 	        }
+		
+		
 		return entities;
+	}
+	public String format(String s){
+		int start = s.lastIndexOf('/')+1;
+		return s.substring(start).trim();
+
 	}
 
 }
