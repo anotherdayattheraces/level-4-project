@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>prototype3</groupId>
-  <artifactId>EntityLinker</artifactId>
+  <groupId>Entity_Retrieval_Engine</groupId>
+  <artifactId>Entity_Linker</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>EntityLinker</name>
+  <name>Entity_Linker</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -15,16 +15,11 @@
   </properties>
 
   <dependencies>
-	<dependency>
-       	<groupId>org.lemurproject</groupId>
-       	<artifactId>galago</artifactId>
-       	<version>3.13-SNAPSHOT</version>
-	</dependency>
-	<dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
-	</dependency>
+    </dependency>
   </dependencies>
 </project>
