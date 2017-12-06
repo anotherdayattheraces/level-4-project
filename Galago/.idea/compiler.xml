@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="contrib" />
+        <module name="core" />
+        <module name="eval" />
+        <module name="krovetz-stemmer" />
+        <module name="snowball-stemmers" />
+        <module name="tupleflow" />
+        <module name="tupleflow-gridengine" />
+        <module name="tupleflow-typebuilder" />
+        <module name="utility" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="contrib" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="eval" target="1.8" />
+      <module name="galago" target="1.8" />
+      <module name="krovetz-stemmer" target="1.8" />
+      <module name="snowball-stemmers" target="1.8" />
+      <module name="tupleflow" target="1.8" />
+      <module name="tupleflow-gridengine" target="1.8" />
+      <module name="tupleflow-typebuilder" target="1.8" />
+      <module name="utility" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

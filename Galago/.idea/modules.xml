@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/contrib/contrib.iml" filepath="$PROJECT_DIR$/contrib/contrib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eval/eval.iml" filepath="$PROJECT_DIR$/eval/eval.iml" />
+      <module fileurl="file://$PROJECT_DIR$/galago.iml" filepath="$PROJECT_DIR$/galago.iml" />
+      <module fileurl="file://$PROJECT_DIR$/krovetz-stemmer/krovetz-stemmer.iml" filepath="$PROJECT_DIR$/krovetz-stemmer/krovetz-stemmer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/snowball-stemmers/snowball-stemmers.iml" filepath="$PROJECT_DIR$/snowball-stemmers/snowball-stemmers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tupleflow/tupleflow.iml" filepath="$PROJECT_DIR$/tupleflow/tupleflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tupleflow-gridengine/tupleflow-gridengine.iml" filepath="$PROJECT_DIR$/tupleflow-gridengine/tupleflow-gridengine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tupleflow-typebuilder/tupleflow-typebuilder.iml" filepath="$PROJECT_DIR$/tupleflow-typebuilder/tupleflow-typebuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utility/utility.iml" filepath="$PROJECT_DIR$/utility/utility.iml" />
+    </modules>
+  </component>
+</project>
