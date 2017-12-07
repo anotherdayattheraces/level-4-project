@@ -18,10 +18,10 @@ public class DbpediaReferenceParser {
 		this.isFirstLine = true;
 	}
 	
-	public ArrayList<String> generateEntities(List<String> references) throws FileNotFoundException{
+	public ArrayList<Entity> generateEntities(List<String> references) throws FileNotFoundException{
 		FileInputStream inputStream = new FileInputStream(path);
 		Scanner sc = new Scanner(inputStream, "UTF-8");
-		ArrayList<String> entities = new ArrayList();
+		ArrayList<Entity> entities = new ArrayList<Entity>();
 		while (sc.hasNextLine()) {
 	        String line = sc.nextLine();
 	        //example line: <http://dbpedia.org/resource/Tell_Hawsh> <http://dbpedia.org/ontology/utcOffset> "+2"
@@ -33,7 +33,7 @@ public class DbpediaReferenceParser {
 	        	if (references.contains(reference)){
 	        		subject = subject.replace('_', ' ');
 	        		if (!entities.contains(subject)){
-	        			entities.add(subject);}
+	        			entities.add(new Entity(subject));}
 	        				}
 	        			}
 	        else{
