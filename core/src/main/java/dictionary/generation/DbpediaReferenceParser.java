@@ -1,10 +1,13 @@
-package Entity_Retrieval_Engine.Entity_Linker;
+package dictionary.generation;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
+import dictionary.DictionaryHashMap;
+import entityRetrieval.core.Entity;
 
 public class DbpediaReferenceParser {
 	String path;
@@ -18,10 +21,10 @@ public class DbpediaReferenceParser {
 		this.isFirstLine = true;
 	}
 	
-	public ArrayList<Entity> generateEntities(List<String> references) throws FileNotFoundException{
+	public DictionaryHashMap generateEntities(List<String> references) throws FileNotFoundException{
 		FileInputStream inputStream = new FileInputStream(path);
 		Scanner sc = new Scanner(inputStream, "UTF-8");
-		ArrayList<Entity> entities = new ArrayList<Entity>();
+		DictionaryHashMap dhm = new DictionaryHashMap();
 		while (sc.hasNextLine()) {
 	        String line = sc.nextLine();
 	        //example line: <http://dbpedia.org/resource/Tell_Hawsh> <http://dbpedia.org/ontology/utcOffset> "+2"
@@ -31,20 +34,18 @@ public class DbpediaReferenceParser {
 	        	String subject = format(items[0]);
 	        	String reference = format(items[1]);
 	        	if (references.contains(reference)){
-	        		subject = subject.replace('_', ' ');
-	        		if (!entities.contains(subject)){
-	        			entities.add(new Entity(subject));}
+	        		if (!dhm.lookupString(subject)){
+	        			Entity toBeAdded = new Entity(subject);
+	        			dhm.addEntity(toBeAdded);;}
 	        				}
 	        			}
 	        else{
 	        	isFirstLine=false;
-	        	
 	        	}
 	        }
-		
-		
-		return entities;
+		return dhm;
 	}
+	
 	public String format(String s){
 		int start = s.lastIndexOf('/')+1;
 		return s.substring(start).trim();

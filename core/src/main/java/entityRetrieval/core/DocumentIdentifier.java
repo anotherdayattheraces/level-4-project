@@ -1,4 +1,4 @@
-package Entity_Retrieval_Engine.Entity_Linker;
+package entityRetrieval.core;
 
 import java.io.File;
 import java.io.IOException;
