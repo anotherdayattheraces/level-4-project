@@ -9,14 +9,15 @@ import java.util.Scanner;
 import dictionary.DictionaryHashMap;
 import entityRetrieval.core.Entity;
 
-public class DbpediaReferenceParser {
+public class DictionaryBuilder {
 	String path;
 	Boolean isFirstLine;
-	public DbpediaReferenceParser(String pathName){
+	
+	public DictionaryBuilder(String pathName){
 		this.path = pathName;
 		this.isFirstLine = true;
 	}
-	public DbpediaReferenceParser(){
+	public DictionaryBuilder(){
 		this.path = "C:/Work/Project/samples/dbpediaDataDump/mappingbased_literals_en.ttl/mappingbased_literals_en.ttl";
 		this.isFirstLine = true;
 	}

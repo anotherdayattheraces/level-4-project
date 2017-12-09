@@ -1,5 +1,7 @@
 package entityRetrieval.core;
 
+import java.util.Comparator;
+
 public class Pair<L, R> {
 	private L l;
     private R r;
@@ -12,13 +14,22 @@ public class Pair<L, R> {
     public void setL(L l){ this.l = l; }
     public void setR(R r){ this.r = r; }
     
-    public int compareTo(Pair other) {
-        int compareVal=(Integer) other.getR();
-        /* For Ascending order*/
-        return (Integer) this.getR()-compareVal;
-
-        /* For Descending order do like this */
-        //return compareage-this.studentage;
+    
+    
+    public static Comparator<Pair> EntityMentionsComparator = new Comparator<Pair>() {
+    	public int compare(Pair p1, Pair p2) {
+    		   int first = (Integer) p1.getR();
+    		   int second = (Integer) p2.getR();
+    		   //ascending order
+    		   return first-second;
     }
+
+
+
+
+    	
+    };
+
+    
 
 }

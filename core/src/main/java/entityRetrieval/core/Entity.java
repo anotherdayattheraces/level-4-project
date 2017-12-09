@@ -11,5 +11,5 @@ public class Entity {
 	public String getName(){
 		return this.name;
 	}
-
+	
 }

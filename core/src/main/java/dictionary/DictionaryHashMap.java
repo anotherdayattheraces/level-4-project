@@ -20,44 +20,59 @@ public class DictionaryHashMap {
 	
 	public void addEntity(Entity e){
 		String key = e.getName().substring(0,3);
-		if(!dictionary.containsKey(key)){ //if hashmap contains not entrys for given key yet
+		if(!dictionary.containsKey(key)){ //if hashmap contains no entrys for given key yet
 			dictionary.put(key, new ArrayList<Entity>());}
+		else {
+			if(lookupString(e.getName())) return;
+			
+		}
 		dictionary.get(key).add(e); //add entity to dictionary	
+	}
+	public int getSize(){
+		int size=0;
+		Set<String> keys = dictionary.keySet();
+		Iterator<String> i = keys.iterator();
+		String key;
+		while(i.hasNext()){
+			key = i.next();
+			size+=dictionary.get(key).size(); 
+		}
+		return size;
 	}
 	
 	public Boolean lookupEntity(Entity e){
+		if(e.getName().length()<3) return false; //string is not large enough to have a key
 		String key = e.getName().substring(0,3);
-		Set<String> keys = dictionary.keySet();
-		Iterator<String> i = keys.iterator();
-		while(i.hasNext()){
-			String currentKey = i.next();
-			if(key==currentKey){
-				for(Entity currentValue:dictionary.get(currentKey)){
-					if(currentValue.getName()==e.getName()){
-						return true;
-					}
+		if(dictionary.get(key)==null){
+			return false;
+		}
+		else{
+			for(Entity entity:dictionary.get(key)){
+				if(entity.getName().equals(e.getName())) {
+					return true;
 				}
 			}
+			return false;
 		}
-		return false;
+
 	}
 	
 	public Boolean lookupString(String s){
 		if(s.length()<3) return false; //string is not large enough to have a key
 		String key = s.substring(0,3);
-		Set<String> keys = dictionary.keySet();
-		Iterator<String> i = keys.iterator();
-		while(i.hasNext()){
-			String currentKey = i.next();
-			if(key==currentKey){
-				for(Entity currentValue:dictionary.get(currentKey)){
-					if(currentValue.getName()==s){
-						return true;
-					}
+		if(dictionary.get(key)==null){
+			return false;
+		}
+		else{
+			for(Entity e:dictionary.get(key)){
+				if(e.getName().equals(s)) {
+					return true;
 				}
 			}
+			return false;
 		}
-		return false;
 	}
+	
+
 
 }
