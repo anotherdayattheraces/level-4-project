@@ -21,9 +21,9 @@ public class ResultSet {
 	public ArrayList<Pair<Entity,Integer>> getResultSet(){
 		return this.resultSet;
 	}
-	public ArrayList<Pair<Entity,Integer>> sort(){
+	public ResultSet sort(){
 		Collections.sort(this.resultSet, Pair.EntityMentionsComparator);
-		return this.resultSet;
+		return this;
 	}
 
 }

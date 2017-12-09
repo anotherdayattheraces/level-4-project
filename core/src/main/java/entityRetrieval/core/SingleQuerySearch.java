@@ -1,15 +1,12 @@
 package entityRetrieval.core;
 
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
 
 import dictionary.DictionaryHashMap;
-import dictionary.generation.DictionaryBuilder;
+import generation.DictionaryBuilder;
 
 public class SingleQuerySearch {
 	private String query;
@@ -28,14 +25,12 @@ public class SingleQuerySearch {
 		 ArrayList<Long> documents = di.getRelevantDocuments(query); //finds the doc id's that contain the query word
 		 TermCounter tc = new TermCounter(documents,dictionary);
 		 ResultSet results = tc.matchEntities();
-		 results.sort();
+		 results = results.sort();
 		 System.out.println("result size " + results.getResultSet().size());
 		 for(Pair<Entity,Integer> result:results.getResultSet()){
-			 System.out.println(result.getL().getName().toString()+" "+result.getR()+" time(s)");
-			 resultStrings.add(result.getL().toString()+": "+result.getR());
-		    	}
+			 resultStrings.add(result.getL().getName()+": "+result.getR());
+		    		}
 		 	 return resultStrings;
-		    		
 		    	}
 	
 	

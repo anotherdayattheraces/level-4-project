@@ -48,7 +48,7 @@ public class DictionaryHashMap {
 		}
 		else{
 			for(Entity entity:dictionary.get(key)){
-				if(entity.getName().equals(e.getName())) {
+				if(entity.getName().toLowerCase().equals(e.getName().toLowerCase())) {
 					return true;
 				}
 			}
@@ -59,13 +59,13 @@ public class DictionaryHashMap {
 	
 	public Boolean lookupString(String s){
 		if(s.length()<3) return false; //string is not large enough to have a key
-		String key = s.substring(0,3);
+		String key = s.toLowerCase().substring(0,3);
 		if(dictionary.get(key)==null){
 			return false;
 		}
 		else{
 			for(Entity e:dictionary.get(key)){
-				if(e.getName().equals(s)) {
+				if(e.getName().toLowerCase().equals(s.toLowerCase())) {
 					return true;
 				}
 			}

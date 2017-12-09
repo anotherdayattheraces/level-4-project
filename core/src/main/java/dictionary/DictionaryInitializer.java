@@ -26,6 +26,7 @@ public class DictionaryInitializer {
 			dictionary.addEntity(new Entity(line));
 			
 		}
+		br.close();
 		return dictionary;
 		
 	}

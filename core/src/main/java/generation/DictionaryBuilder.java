@@ -1,8 +1,7 @@
-package dictionary.generation;
+package generation;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -34,6 +33,8 @@ public class DictionaryBuilder {
 	        	String[] items = line.split(">");
 	        	String subject = format(items[0]);
 	        	String reference = format(items[1]);
+	        	subject = subject.toLowerCase();
+	        	subject = subject.replace('_', ' ');
 	        	if (references.contains(reference)){
 	        		if (!dhm.lookupString(subject)){
 	        			Entity toBeAdded = new Entity(subject);
@@ -44,6 +45,7 @@ public class DictionaryBuilder {
 	        	isFirstLine=false;
 	        	}
 	        }
+		sc.close();
 		return dhm;
 	}
 	
