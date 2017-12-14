@@ -21,9 +21,12 @@ public class DictionaryInitializer {
 		String line;
 		DictionaryHashMap dictionary = new DictionaryHashMap();
 		while((line=br.readLine())!=null){
-			line.replace('_', ' ');
-			line.toLowerCase();
-			dictionary.addEntity(new Entity(line));
+			int endOfEntity = line.indexOf('/');
+			String entity = line.substring(0, endOfEntity);
+			String url = line.substring(endOfEntity+1);
+			entity.replace('_', ' ');
+			entity.toLowerCase();
+			dictionary.addEntity(new Entity(entity,url));
 			
 		}
 		br.close();

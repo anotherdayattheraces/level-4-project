@@ -50,7 +50,6 @@ public class DocumentIdentifier {
 		    while ( !iterator.isDone() ) {
 			    sc.document = iterator.currentCandidate();
 			    String docno = index.getName( sc.document ); // get the docno (external ID) of the current document
-			    
 			    if(!releventDocuments.contains(docno)){
 			    	releventDocuments.add(sc.document);}
 			    //System.out.printf( "%-10s%-15s%-10s\n", sc.document, docno, freq );
