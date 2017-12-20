@@ -2,6 +2,8 @@ package generation;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -13,15 +15,15 @@ public class DbpediaDictionaryGenerator extends DictionaryGenerator {
 	private Boolean isFirstLine;
 	private List<String> references;
 	
-	public DbpediaDictionaryGenerator(String pathName, List<String> references){
+	public DbpediaDictionaryGenerator(String pathName){
 		this.path = pathName;
 		this.isFirstLine = true;
-		this.references = references;
+		this.references = new ArrayList<String>(Arrays.asList("icd9", "icd10", "meshId", "icdo"));
 	}
-	public DbpediaDictionaryGenerator(List<String> references){
+	public DbpediaDictionaryGenerator(){
 		this.path = "C:/Work/Project/samples/dbpediaDataDump/mappingbased_literals_en.ttl/mappingbased_literals_en.ttl";
 		this.isFirstLine = true;
-		this.references = references;
+		this.references = new ArrayList<String>(Arrays.asList("icd9", "icd10", "meshId", "icdo"));
 	}
 	
 	public DictionaryHashMap generateEntities() throws FileNotFoundException{

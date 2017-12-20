@@ -1,21 +1,17 @@
 package entityRetrieval.core;
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import dictionary.DictionaryHashMap;
-import generation.DbpediaDictionaryGenerator;
+import dictionary.DictionaryInitializer;
 
 public class SingleQuerySearch {
 	private String query;
 	private DictionaryHashMap dictionary;
 	
-	public SingleQuerySearch(String query) throws FileNotFoundException{
-		List<String> x = new ArrayList<String>(Arrays.asList("icd9", "icd10", "meshId", "icdo"));
-		DbpediaDictionaryGenerator drp = new DbpediaDictionaryGenerator(x);
-		this.dictionary = drp.generateEntities();
+	public SingleQuerySearch(String query) throws IOException{
+		DictionaryInitializer di = new DictionaryInitializer();
+		this.dictionary = di.initialize();
 		this.query = query;
 	}
 	

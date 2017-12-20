@@ -26,8 +26,6 @@ public class SnomedDictionaryGenerator extends DictionaryGenerator{
 				started=true;
 				char[] array = line.toCharArray();
 				endOfString = array[6];
-				System.out.println(array[8]);
-
 			}
 			if(started){
 				if(line.contains("(organism")){
@@ -59,7 +57,11 @@ public class SnomedDictionaryGenerator extends DictionaryGenerator{
 					position++;
 				}
 				position++;
-				while(array[position]!='('){
+				Boolean endOfName=false;
+				while(!endOfName){
+					if(array[position]=='('){
+						endOfName = investigate(array,position,type);
+					}
 					nameBuilder.append(array[position++]);
 				}
 				String name = nameBuilder.toString().substring(0, nameBuilder.length()-1);
@@ -74,6 +76,15 @@ public class SnomedDictionaryGenerator extends DictionaryGenerator{
 		
 		sc.close();
 		return dhm;
+	}
+	public Boolean investigate(char[] line, int position, String type){
+		int i=1;
+		for(char c:type.toCharArray()){
+			if(line[position+i++]!=c){
+				return false;
+				}
+			}
+			return true;
 	}
 
 }

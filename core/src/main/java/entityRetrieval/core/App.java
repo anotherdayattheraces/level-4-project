@@ -1,15 +1,18 @@
 package entityRetrieval.core;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 import dictionary.DictionaryHashMap;
 import dictionary.DictionaryInitializer;
-import dictionary.DictionarySaver;
-import evaluation.SearchEvaluator;
-import evaluation.Topic;
-import evaluation.TopicRetriever;
+import dictionary.SnomedDictionarySaver;
+import evaluation.QrelReader;
+import dictionary.DbpediaDictionarySaver;
 import generation.DbpediaDictionaryGenerator;
 import generation.SnomedDictionaryGenerator;
 
@@ -17,31 +20,28 @@ import generation.SnomedDictionaryGenerator;
 public class App 
 {
     public static void main( String[] args ) throws Exception{
+    	
     	String query = "autism";
-    	//List<String> x = new ArrayList<String>(Arrays.asList("icd9", "icd10", "meshId", "icdo"));
-    	//DbpediaDictionaryGenerator db = new DbpediaDictionaryGenerator(x);
-    	//DictionaryHashMap dhm = db.generateEntities();
-    	//DictionarySaver ds = new DictionarySaver(dhm);
-    	//ds.save();
     	//SnomedDictionaryGenerator sdg = new SnomedDictionaryGenerator();
-    	//sdg.generateEntities();
+    	//DictionaryHashMap dhm = sdg.generateEntities();
+    	//SnomedDictionarySaver ds = new SnomedDictionarySaver(dhm);
+    	//ds.save();
     	//DictionaryInitializer di = new DictionaryInitializer();
     	//DictionaryHashMap dictionary = di.initialize();
-    	TopicRetriever tr = new TopicRetriever();
-    	ArrayList<Topic> topics = tr.retreiveTopics();
-    	for(Topic t:topics){
-    		System.out.println(t.getDisease());
-    	}
-    	SearchEvaluator se = new SearchEvaluator(topics);
-    	//SingleQuerySearch sqs = new SingleQuerySearch(query);
-    	//ArrayList<Pair<Entity,Integer>> results = sqs.search();
-    	//System.out.println("These are the entities found to be the most relevant to your query: "+query);
-    	//for(Pair<Entity,Integer> result:results){
-        	//System.out.println(result);
+    	//TopicRetriever tr = new TopicRetriever();
+    	//ArrayList<Topic> topics = tr.retreiveTopics();
+    	//SearchEvaluator se = new SearchEvaluator(topics);
+    	//se.evaluate();
+    	QrelReader qr = new QrelReader();
+    	qr.generateRelevantEntities();
 
-    	//}
+	        
 
 	   
+    }
+    
+    public void run(String[] args){
+    	
     }
 	    
 }

@@ -13,7 +13,7 @@ public class DictionaryInitializer {
 		this.filepath=filepath;
 	}
 	public DictionaryInitializer(){
-		this.filepath="C:/Work/Project/samples/prototype4/level-4-project/core/Dictionary.txt";
+		this.filepath="C:/Work/Project/samples/prototype4/level-4-project/core/DbpediaDictionary.txt";
 	}
 	public DictionaryHashMap initialize() throws IOException{
 		FileReader file = new FileReader(filepath);

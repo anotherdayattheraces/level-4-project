@@ -4,7 +4,6 @@ public class Entity {
 	private String name;
 	private String url;
 	
-	
 	public Entity(String name, String url){
 		this.name = name;
 		this.url=url;

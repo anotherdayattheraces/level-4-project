@@ -1,6 +1,7 @@
 package entityRetrieval.core;
 
 
+import java.io.IOException;
 import java.util.ArrayList;
 import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.retrieval.Retrieval;
@@ -23,8 +24,15 @@ public class TermCounter {
 		
 	}
 	
-	public ResultSet matchEntities() throws Exception{
-		Retrieval index = RetrievalFactory.instance( path );
+	public ResultSet matchEntities(){
+		Retrieval index=null;
+		try {
+			index = RetrievalFactory.instance( path );
+		} catch (Exception e1) {
+			System.err.println("index not found");
+			e1.printStackTrace();
+			return null;
+		}
 		String twoTerms = null;
 		String threeTerms=null;
 		Boolean doubleTerm=false;
@@ -34,7 +42,14 @@ public class TermCounter {
 		int line=1;
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, false, true );
 		for(Long d:documents){
-			Document doc = index.getDocument( index.getDocumentName( d ), dc );
+			Document doc=null;
+			try {
+				doc = index.getDocument( index.getDocumentName( d ), dc );
+			} catch (IOException e) {
+				System.err.println("article: "+d+" not contained within index");
+				e.printStackTrace();
+				return null;
+			}
 			for(String term : doc.terms ) {
 				if(line>1){
 					twoTerms = term;
@@ -79,14 +94,11 @@ public class TermCounter {
 					}
 					if(!exists){
 						if(one){
-						    System.out.println("adding term: "+term);
 							matchedEntities.add(new Pair<Entity, Integer>(new Entity(term),1));}
 						else if(two){
-						    System.out.println("adding term: "+twoWords);
 							matchedEntities.add(new Pair<Entity, Integer>(new Entity(twoWords),1));
 							}
 						else if(three){
-						    System.out.println("adding term: "+threeWords);
 							matchedEntities.add(new Pair<Entity, Integer>(new Entity(threeWords),1));
 							}
 						}
