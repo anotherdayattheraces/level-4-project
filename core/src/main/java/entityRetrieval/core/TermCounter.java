@@ -20,7 +20,7 @@ public class TermCounter {
 		this.dictionary = dictionary;
 		this.documents = docs;
 		this.matchedEntities = new ArrayList<Pair<Entity,Integer>>();
-		this.path =  "C:/Work/Project/samples/Pub_Med_Index";
+		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		
 	}
 	
@@ -33,13 +33,12 @@ public class TermCounter {
 			e1.printStackTrace();
 			return null;
 		}
-		String twoTerms = null;
-		String threeTerms=null;
+		String previousTerm=null; // the previous term
+		String twopreviousTerm=null; // the term before the previous term
 		Boolean doubleTerm=false;
 		Boolean tripleTerm=false;
 		String twoWords = null;
 		String threeWords = null;
-		int line=1;
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, false, true );
 		for(Long d:documents){
 			Document doc=null;
@@ -50,23 +49,33 @@ public class TermCounter {
 				e.printStackTrace();
 				return null;
 			}
+			int line=1;
 			for(String term : doc.terms ) {
 				if(line>1){
-					twoTerms = term;
 					doubleTerm=true;
 					
 				}
-				else if(line>2){
-					threeTerms = twoTerms;
+				if(line>2){
 					tripleTerm=true;
 				}
 				Boolean one=false;
 				Boolean two=false;
 				Boolean three=false;
 				Boolean exists =  false;
+				
+				if(doubleTerm){
+					twoWords=previousTerm+" "+term;
+					System.out.println(twoWords);
+				}
+				if(tripleTerm){
+					threeWords=twopreviousTerm+" "+previousTerm+" "+term;
+					System.out.println(threeWords);
+				}
+				if(line>1){
+					twopreviousTerm = previousTerm;
+				}
+				previousTerm = term;
 				line++;
-				if(doubleTerm) twoWords=twoTerms+" "+term;
-				if(tripleTerm) threeWords=threeTerms+" "+twoTerms+" "+term;
 				if(term.length()<3) continue; //term must have length >=3
 				if(dictionary.lookupString(term)){ //dictionary contains term
 						one = true;
@@ -102,6 +111,8 @@ public class TermCounter {
 							matchedEntities.add(new Pair<Entity, Integer>(new Entity(threeWords),1));
 							}
 						}
+					
+					
 					}
 							
 						}

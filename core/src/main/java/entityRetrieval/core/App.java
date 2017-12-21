@@ -11,7 +11,8 @@ import java.util.Scanner;
 import dictionary.DictionaryHashMap;
 import dictionary.DictionaryInitializer;
 import dictionary.SnomedDictionarySaver;
-import evaluation.QrelReader;
+import evaluation.SearchEvaluator;
+import evaluation.TopicToEntityMapper;
 import dictionary.DbpediaDictionarySaver;
 import generation.DbpediaDictionaryGenerator;
 import generation.SnomedDictionaryGenerator;
@@ -30,10 +31,11 @@ public class App
     	//DictionaryHashMap dictionary = di.initialize();
     	//TopicRetriever tr = new TopicRetriever();
     	//ArrayList<Topic> topics = tr.retreiveTopics();
-    	//SearchEvaluator se = new SearchEvaluator(topics);
-    	//se.evaluate();
-    	QrelReader qr = new QrelReader();
-    	qr.generateRelevantEntities();
+    	SearchEvaluator se = new SearchEvaluator();
+    	se.evaluate();
+    	//SingleQuerySearch sqs = new SingleQuerySearch(query);
+    	//sqs.search();
+
 
 	        
 

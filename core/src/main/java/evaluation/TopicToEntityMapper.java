@@ -4,21 +4,18 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Scanner;
-
 import entityRetrieval.core.Entity;
-import entityRetrieval.core.Pair;
 
-public class QrelReader {
+public class TopicToEntityMapper {
 	private String qrelPath;
 	private ArrayList<String> topics;
 	
-	public QrelReader(String qrelPath, String topicPath){
+	public TopicToEntityMapper(String qrelPath, String topicPath){
 		this.qrelPath=qrelPath;
 		this.topics = readTopics(topicPath);
 	}
-	public QrelReader(){
+	public TopicToEntityMapper(){
 		this.qrelPath="C:/Work/Project/samples/treccar/benchmarkY1train/train.benchmarkY1train.cbor.hierarchical.entity.qrels";
 		this.topics =readTopics("C:/Work/Project/samples/treccar/topics.txt");
 	}
@@ -48,7 +45,6 @@ public class QrelReader {
 	        String primaryTopic = subjects[0];
 	        if(topics.contains(primaryTopic)){
 	        	mappings.get(primaryTopic).add(new Entity(entity));
-	        	System.out.println("adding mapping from: "+primaryTopic+" to: "+entity);
 		}
 	        else{
 	        	continue;
@@ -58,7 +54,7 @@ public class QrelReader {
 		return mappings;
 
 }
-	private ArrayList<String> readTopics(String path){
+	public static ArrayList<String> readTopics(String path){
 		ArrayList<String> topics = new ArrayList<String>();
 		FileInputStream inputStream=null;
 		try {
@@ -67,10 +63,16 @@ public class QrelReader {
 			e.printStackTrace();
 		}
 		Scanner sc = new Scanner(inputStream, "UTF-8");
-		while(sc.hasNext()){
-			topics.add(sc.next());
+		while(sc.hasNextLine()){
+			String line = sc.nextLine();
+			if(line.length()==0) continue;
+			topics.add(line);
 		}
 		sc.close();
 		return topics;
+	}
+	
+	public ArrayList<String> getTopics(){
+		return this.topics;
 	}
 }

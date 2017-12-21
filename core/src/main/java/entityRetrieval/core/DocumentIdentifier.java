@@ -18,25 +18,20 @@ public class DocumentIdentifier {
 		this.path = path;
 	}
 	public DocumentIdentifier(){
-		this.path = "C:/Work/Project/samples/Pub_Med_Index";
+		this.path = "C:/Work/Project/samples/treccar/paragraphcorpus";
 	}
 	
 	
 	public ArrayList<Long> getRelevantDocuments(String term) throws IOException{
-	
+		term = term.toLowerCase();
 		ArrayList<Long> releventDocuments = new ArrayList<Long>();
-		// Let's just retrieve the posting list for the term "reformulation" in the "text" field
+		// Let's just retrieve the posting list for the term in the "text" field
 		String field = "krovetz";
-		
-		
 		// by default, the posting list for a field (without using stemming) is stored as a file with the name field.{fieldname}
 		File pathPosting = new File( new File( path ), "postings." + field );
 	
 		DiskIndex index = new DiskIndex( path );
 		IndexPartReader posting = DiskIndex.openIndexPart( pathPosting.getAbsolutePath() );
-	
-		//System.out.printf( "%-10s%-15s%-10s\n", "DOCID", "DOCNO", "FREQ" );
-	
 		KeyIterator vocabulary = posting.getIterator();
 		// try to locate the term in the vocabulary
 		if ( vocabulary.skipToKey( ByteUtil.fromString( term ) ) && term.equals( vocabulary.getKeyString() ) ) {
