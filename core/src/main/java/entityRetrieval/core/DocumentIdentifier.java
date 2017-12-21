@@ -22,23 +22,23 @@ public class DocumentIdentifier {
 	}
 	
 	
-	public ArrayList<Long> getRelevantDocuments(String term) throws IOException{
+	public ArrayList<Long> getRelevantDocuments(String term) throws IOException{ //retrieves all the docId's of documents which contain the term
 		term = term.toLowerCase();
+		term = term.replaceAll(" ", "%20"); //spaces are encoded as %20 in the links
+		System.out.println(term);
 		ArrayList<Long> releventDocuments = new ArrayList<Long>();
 		// Let's just retrieve the posting list for the term in the "text" field
-		String field = "krovetz";
 		// by default, the posting list for a field (without using stemming) is stored as a file with the name field.{fieldname}
-		File pathPosting = new File( new File( path ), "postings." + field );
-	
+		File pathPosting = new File( new File( path ), "field.link");
 		DiskIndex index = new DiskIndex( path );
 		IndexPartReader posting = DiskIndex.openIndexPart( pathPosting.getAbsolutePath() );
 		KeyIterator vocabulary = posting.getIterator();
 		// try to locate the term in the vocabulary
 		if ( vocabulary.skipToKey( ByteUtil.fromString( term ) ) && term.equals( vocabulary.getKeyString() ) ) {
 		    // get an iterator for the term's posting list
+			System.out.println(vocabulary.getKeyString());
 		    CountIterator iterator = (CountIterator) vocabulary.getValueIterator();
 		    ScoringContext sc = new ScoringContext();
-		    
 		    // Get the current entry's document id.
 		    // Note that you need to assign the value of sc.document,
 		    // otherwise count(sc) and others will not work correctly.
@@ -46,6 +46,7 @@ public class DocumentIdentifier {
 			    sc.document = iterator.currentCandidate();
 			    String docno = index.getName( sc.document ); // get the docno (external ID) of the current document
 			    if(!releventDocuments.contains(docno)){
+					System.out.println(docno);
 			    	releventDocuments.add(sc.document);}
 			    //System.out.printf( "%-10s%-15s%-10s\n", sc.document, docno, freq );
 			    iterator.movePast( iterator.currentCandidate() ); // jump to the entry right after the current one

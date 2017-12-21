@@ -1,49 +1,43 @@
 package entityRetrieval.core;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileReader;
+
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
-import dictionary.DictionaryHashMap;
-import dictionary.DictionaryInitializer;
-import dictionary.SnomedDictionarySaver;
+import java.util.HashMap;
 import evaluation.SearchEvaluator;
-import evaluation.TopicToEntityMapper;
-import dictionary.DbpediaDictionarySaver;
-import generation.DbpediaDictionaryGenerator;
-import generation.SnomedDictionaryGenerator;
 
 
-public class App 
-{
+
+
+public class App {
+	
+	
+	
     public static void main( String[] args ) throws Exception{
-    	
-    	String query = "autism";
-    	//SnomedDictionaryGenerator sdg = new SnomedDictionaryGenerator();
-    	//DictionaryHashMap dhm = sdg.generateEntities();
-    	//SnomedDictionarySaver ds = new SnomedDictionarySaver(dhm);
-    	//ds.save();
-    	//DictionaryInitializer di = new DictionaryInitializer();
-    	//DictionaryHashMap dictionary = di.initialize();
-    	//TopicRetriever tr = new TopicRetriever();
-    	//ArrayList<Topic> topics = tr.retreiveTopics();
-    	SearchEvaluator se = new SearchEvaluator();
-    	se.evaluate();
-    	//SingleQuerySearch sqs = new SingleQuerySearch(query);
-    	//sqs.search();
-
-
-	        
-
-	   
+    	HashMap<String, ArrayList<String>> appFunctions = App.initializeFunctions();
+    	App.run(args, appFunctions);
     }
     
-    public void run(String[] args){
+    public static void run(String[] args, HashMap<String, ArrayList<String>> appFunctions) throws Exception{
+    	String fn = "help";
+    	if(args.length>0 && appFunctions.containsKey(args[0])){
+    		fn = args[0];
+    	}
+    	if(fn.equals("search")){
+    		SingleQuerySearch sqs = new SingleQuerySearch(args[1]);
+    		sqs.search();
+    	}
+    	else if(fn.equals("evaluate")){
+    		SearchEvaluator se = new SearchEvaluator();
+    		se.evaluate();
+    	}
     	
+    }
+    private static HashMap<String, ArrayList<String>> initializeFunctions(){
+    	HashMap<String, ArrayList<String>> appFunctions = new HashMap<String, ArrayList<String>>();
+    	appFunctions.put("search", new ArrayList<String>());
+    	appFunctions.put("evaluate", new ArrayList<String>());
+		return appFunctions;
+
     }
 	    
 }

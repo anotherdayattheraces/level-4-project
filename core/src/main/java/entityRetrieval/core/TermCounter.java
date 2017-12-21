@@ -65,11 +65,11 @@ public class TermCounter {
 				
 				if(doubleTerm){
 					twoWords=previousTerm+" "+term;
-					System.out.println(twoWords);
+					//System.out.println(twoWords);
 				}
 				if(tripleTerm){
 					threeWords=twopreviousTerm+" "+previousTerm+" "+term;
-					System.out.println(threeWords);
+					//System.out.println(threeWords);
 				}
 				if(line>1){
 					twopreviousTerm = previousTerm;

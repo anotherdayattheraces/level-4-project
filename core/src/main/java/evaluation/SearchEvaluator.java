@@ -25,7 +25,6 @@ public class SearchEvaluator {
 		this.mapping = mapper.generateRelevantEntities();
 		Random r = new Random();
 		int topicChoice = r.nextInt(mapping.keySet().size()-1);
-		System.out.println(topicChoice);
 		Set<String> keySet = mapping.keySet();
 		Iterator<String> i = keySet.iterator();
 		int count = 0;
