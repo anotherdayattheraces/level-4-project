@@ -9,6 +9,8 @@ import java.util.Set;
 
 import dictionary.DictionaryHashMap;
 import dictionary.DictionaryInitializer;
+import dictionary.SnomedDictionaryInitializer;
+import dictionary.DbpediaDictionaryInitializer;
 import entityRetrieval.core.DocumentIdentifier;
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.Pair;
@@ -25,6 +27,7 @@ public class SearchEvaluator {
 		this.mapping = mapper.generateRelevantEntities();
 		Random r = new Random();
 		int topicChoice = r.nextInt(mapping.keySet().size()-1);
+		//topicChoice = 1;
 		Set<String> keySet = mapping.keySet();
 		Iterator<String> i = keySet.iterator();
 		int count = 0;
@@ -34,7 +37,7 @@ public class SearchEvaluator {
 		}
 		this.query=i.next().toString();
 		System.out.println("Chosen query: "+query);
-		DictionaryInitializer di = new DictionaryInitializer();
+		DictionaryInitializer di = new SnomedDictionaryInitializer();
 		this.dictionary=di.initialize();
 	}
 	
@@ -42,13 +45,12 @@ public class SearchEvaluator {
 		DocumentIdentifier di = new DocumentIdentifier();
 		try {
 			ArrayList<Long> docids = di.getRelevantDocuments(query);
-			System.out.println(docids.size());
 			TermCounter tc = new TermCounter(docids,dictionary);
 			ResultSet results = tc.matchEntities();
 			TopicToEntityMapper mapper = new TopicToEntityMapper();
 			HashMap<String,ArrayList<Entity>> mapping = mapper.generateRelevantEntities();
 			ArrayList<Entity> relevantEntities = mapping.get(query);
-			evaluator(relevantEntities,results);
+			printStatistics(relevantEntities,results);
 			
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -56,13 +58,14 @@ public class SearchEvaluator {
 		
 		
 	}
-	private void evaluator(ArrayList<Entity> truthEntities, ResultSet returnedEntities){
+	private void printStatistics(ArrayList<Entity> truthEntities, ResultSet returnedEntities){
 		System.out.println("Number of returned entities: "+returnedEntities.size);
 		System.out.println("Number of relevant entities: "+truthEntities.size());
 		int matches=0;
 		for(Pair<Entity,Integer> returnedEntity:returnedEntities.getResultSet()){
 			for(Entity truthEntity:truthEntities){
 				if(truthEntity.getName().toLowerCase().equals(returnedEntity.getL().getName())){
+					System.out.println("Relevant&returned entity: "+truthEntity.getName());
 					matches++;
 				}
 			}

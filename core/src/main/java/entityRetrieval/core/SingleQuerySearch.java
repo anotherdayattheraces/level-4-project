@@ -3,14 +3,14 @@ package entityRetrieval.core;
 import java.io.IOException;
 import java.util.ArrayList;
 import dictionary.DictionaryHashMap;
-import dictionary.DictionaryInitializer;
+import dictionary.DbpediaDictionaryInitializer;
 
 public class SingleQuerySearch {
 	private String query;
 	private DictionaryHashMap dictionary;
 	
 	public SingleQuerySearch(String query) throws IOException{
-		DictionaryInitializer di = new DictionaryInitializer();
+		DbpediaDictionaryInitializer di = new DbpediaDictionaryInitializer();
 		this.dictionary = di.initialize();
 		this.query = query;
 	}
