@@ -3,7 +3,13 @@ package entityRetrieval.core;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import dictionary.DbpediaDictionarySaver;
+import dictionary.DictionaryHashMap;
+import dictionary.SnomedDictionarySaver;
 import evaluation.SearchEvaluator;
+import generation.DbpediaDictionaryGenerator;
+import generation.SnomedDictionaryGenerator;
 
 
 
@@ -30,12 +36,23 @@ public class App {
     		SearchEvaluator se = new SearchEvaluator();
     		se.evaluate();
     	}
+    	else if(fn.equals("initialize")){
+    		DbpediaDictionaryGenerator ddg = new DbpediaDictionaryGenerator();
+    		DictionaryHashMap dbpediaDictionary = ddg.generateEntities();
+    		DbpediaDictionarySaver dds = new DbpediaDictionarySaver(dbpediaDictionary);
+    		dds.save();
+    		SnomedDictionaryGenerator sdg = new SnomedDictionaryGenerator();
+    		DictionaryHashMap snomedDictionary = sdg.generateEntities();
+    		SnomedDictionarySaver sds = new SnomedDictionarySaver(snomedDictionary);
+    		sds.save();
+    	}
     	
     }
     private static HashMap<String, ArrayList<String>> initializeFunctions(){
     	HashMap<String, ArrayList<String>> appFunctions = new HashMap<String, ArrayList<String>>();
     	appFunctions.put("search", new ArrayList<String>());
     	appFunctions.put("evaluate", new ArrayList<String>());
+    	appFunctions.put("initialize", new ArrayList<String>()); // initialize dictionarys
 		return appFunctions;
 
     }

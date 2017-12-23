@@ -22,13 +22,12 @@ public class DocumentIdentifier {
 	}
 	
 	
-	public ArrayList<Long> getRelevantDocuments(String term) throws IOException{ //retrieves all the docId's of documents which contain the term
+	public ArrayList<Long> getRelevantDocuments(String term) throws IOException{ //retrieves all the docId's of documents which contain links with the term
 		//term = "Gut–brain axis";
 		term = term.toLowerCase();
 		term = term.replaceAll(" ", "%20"); //spaces are encoded as %20 in the links
 		term = term.replaceAll("'", ""); //apostophes are not encoded in the links
-		
-		System.out.println(term);
+
 		ArrayList<Long> releventDocuments = new ArrayList<Long>();
 		// Let's just retrieve the posting list for the term in the "text" field
 		// by default, the posting list for a field (without using stemming) is stored as a file with the name field.{fieldname}
@@ -37,12 +36,7 @@ public class DocumentIdentifier {
 		IndexPartReader posting = DiskIndex.openIndexPart( pathPosting.getAbsolutePath() );
 		KeyIterator vocabulary = posting.getIterator();
 		// try to locate the term in the vocabulary
-		int count = 0;
-		//while(vocabulary.nextKey()){
-		//	if(vocabulary.getKeyString().contains("gut-")){
-		//		System.out.println(vocabulary.getKeyString());
-		//	}
-		//}
+
 		if ( vocabulary.skipToKey( ByteUtil.fromString( term ) ) && term.equals( vocabulary.getKeyString() ) ) {
 			System.out.println(vocabulary.getKeyString());
 		    // get an iterator for the term's posting list

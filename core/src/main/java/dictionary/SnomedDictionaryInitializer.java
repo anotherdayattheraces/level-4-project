@@ -23,6 +23,8 @@ public class SnomedDictionaryInitializer extends DictionaryInitializer{
 		String line;
 		DictionaryHashMap dictionary = new DictionaryHashMap();
 		while((line=br.readLine())!=null){
+			line = line.trim();
+			if(line.length()<3) continue;
 			//System.out.println("adding entity with name: "+line);
 			dictionary.addEntity(new Entity(line));
 			

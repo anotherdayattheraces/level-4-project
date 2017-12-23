@@ -47,6 +47,8 @@ public class SearchEvaluator {
 			ArrayList<Long> docids = di.getRelevantDocuments(query);
 			TermCounter tc = new TermCounter(docids,dictionary);
 			ResultSet results = tc.matchEntities();
+			System.out.println(dictionary.getDictionary().size());
+			System.out.println(dictionary.getDictionary().get("rap").get(0).getName());
 			TopicToEntityMapper mapper = new TopicToEntityMapper();
 			HashMap<String,ArrayList<Entity>> mapping = mapper.generateRelevantEntities();
 			ArrayList<Entity> relevantEntities = mapping.get(query);
