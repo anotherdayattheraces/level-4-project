@@ -66,7 +66,7 @@ public class SnomedDictionaryGenerator extends DictionaryGenerator{
 				}
 				String name = nameBuilder.toString().substring(0, nameBuilder.length()-1);
 				System.out.println("Adding entity with name: "+name+" id: "+idBuilder.toString()+" type: "+type);
-				dhm.addEntity(new SnomedEntity(name.toLowerCase(),idBuilder.toString(),type));
+				dhm.addEntity(new SnomedEntity(name.toLowerCase(),idBuilder.toString(),type,0));
 
 
 				}

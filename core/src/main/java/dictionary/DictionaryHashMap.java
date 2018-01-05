@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 import entityRetrieval.core.Entity;
+import entityRetrieval.core.SnomedEntity;
 
 public class DictionaryHashMap {
 	private HashMap<String,ArrayList<Entity>> dictionary;
@@ -13,6 +14,7 @@ public class DictionaryHashMap {
 	public DictionaryHashMap(){
 		this.dictionary = new HashMap<String,ArrayList<Entity>>();
 	}
+	
 	
 	public HashMap<String, ArrayList<Entity>> getDictionary(){
 		return dictionary;
@@ -72,6 +74,19 @@ public class DictionaryHashMap {
 			return false;
 		}
 	}
+	public ArrayList<Entity> toArray(){
+		ArrayList<Entity> entities = new ArrayList<Entity>();
+		for(String key:dictionary.keySet()){
+			for(Entity e:dictionary.get(key)){
+				entities.add(e);
+			}
+		}
+		return entities;
+	}
+	
+
+	
+	
 	
 
 

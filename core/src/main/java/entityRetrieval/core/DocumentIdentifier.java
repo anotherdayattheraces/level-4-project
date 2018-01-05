@@ -38,7 +38,7 @@ public class DocumentIdentifier {
 		// try to locate the term in the vocabulary
 
 		if ( vocabulary.skipToKey( ByteUtil.fromString( term ) ) && term.equals( vocabulary.getKeyString() ) ) {
-			System.out.println(vocabulary.getKeyString());
+			//System.out.println(vocabulary.getKeyString());
 		    // get an iterator for the term's posting list
 		    CountIterator iterator = (CountIterator) vocabulary.getValueIterator();
 		    ScoringContext sc = new ScoringContext();
@@ -49,7 +49,7 @@ public class DocumentIdentifier {
 			    sc.document = iterator.currentCandidate();
 			    String docno = index.getName( sc.document ); // get the docno (external ID) of the current document
 			    if(!releventDocuments.contains(docno)){
-			    	System.out.println(docno);
+			    	//System.out.println(docno);
 			    	releventDocuments.add(sc.document);}
 			    //System.out.printf( "%-10s%-15s%-10s\n", sc.document, docno, freq );
 			    iterator.movePast( iterator.currentCandidate() ); // jump to the entry right after the current one
