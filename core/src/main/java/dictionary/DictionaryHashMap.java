@@ -83,6 +83,22 @@ public class DictionaryHashMap {
 		}
 		return entities;
 	}
+
+	public Boolean lookupId(String name, String s){
+		if(name.length()<3) return false; //string is not large enough to have a key
+		String key = name.substring(0,3);
+		if(dictionary.get(key)==null){
+			return false;
+		}
+		else{
+			for(Entity e:dictionary.get(key)){
+				if(e.getId().equals(s)) {
+					return true;
+				}
+			}
+			return false;
+		}
+	}
 	
 
 	

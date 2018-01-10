@@ -10,14 +10,12 @@ public class SnomedEntity extends Entity{
 	}
 	
 	public SnomedEntity(String name,String conceptID, String type, int score) {
-		super(name);
-		this.conceptID=conceptID;
+		super(name,conceptID);
 		this.type=type;
 		this.score=score;
 	}
 	public SnomedEntity(String name,String conceptID, int score) {
-		super(name);
-		this.conceptID=conceptID;
+		super(name,conceptID);
 		this.score=score;
 	}
 	public void addScore(int score){

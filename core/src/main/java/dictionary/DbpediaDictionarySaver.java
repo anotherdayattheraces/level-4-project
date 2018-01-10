@@ -33,8 +33,8 @@ public class DbpediaDictionarySaver extends DictionarySaver{
 			String currentKey = i.next();
 			for(Entity e:dictionary.getDictionary().get(currentKey)){
 				bw.write((e.getName()));
-				bw.write("/");
-				bw.write(e.getUrl());
+				//bw.write("/");
+				//bw.write(e.getUrl());
 				bw.newLine();
 				
 			}

@@ -44,9 +44,6 @@ public class TopicToEntityMapper {
 	        String articlePath = newElements.get(0);
 	        String[] subjects = articlePath.split("/");
 	        String primaryTopic = subjects[0];
-	        
-	        
-	        
 	        if(topics.contains(primaryTopic)){
 	        	//if(entity.contains("%")) System.out.println(entity);
 	        	mappings.get(primaryTopic).add(new Entity(entity));

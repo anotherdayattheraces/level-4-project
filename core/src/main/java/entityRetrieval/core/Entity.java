@@ -2,11 +2,11 @@ package entityRetrieval.core;
 
 public class Entity {
 	private String name;
-	private String url;
+	private String id;
 	
-	public Entity(String name, String url){
+	public Entity(String name, String id){
 		this.name = name;
-		this.url=url;
+		this.id=id;
 	}
 	public Entity(String name){
 		this.name = name;
@@ -14,8 +14,8 @@ public class Entity {
 	public String getName(){
 		return this.name;
 	}
-	public String getUrl(){
-		return this.url;
+	public String getId(){
+		return this.id;
 	}
 	
 }

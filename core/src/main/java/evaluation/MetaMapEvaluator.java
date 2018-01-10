@@ -20,7 +20,8 @@ public class MetaMapEvaluator {
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
 		this.mapping = mapper.generateRelevantEntities();
 		Random r = new Random();
-		int topicChoice = r.nextInt(mapping.keySet().size()-1);
+		int topicChoice = r.nextInt(mapping.keySet().size());
+		topicChoice = 4;
 		Set<String> keySet = mapping.keySet();
 		Iterator<String> i = keySet.iterator();
 		int count = 0;
@@ -49,17 +50,24 @@ public class MetaMapEvaluator {
 		
 	}
 	private void printStatistics(ArrayList<Entity> truthEntities, ArrayList<Entity> returnedEntities){
-		System.out.println("Number of returned entities: "+returnedEntities.size());
-		System.out.println("Number of relevant entities: "+truthEntities.size());
+	
+		
 		int matches=0;
+		ArrayList<String> idMatches = new ArrayList<String>();
 		for(Entity te:truthEntities){
 			for(Entity re:returnedEntities){
-				if(te.getName().equals(re.getName())){
+				if(te.getName().substring(0, 3).toLowerCase().equals(re.getName().substring(0, 3).toLowerCase())){
+					System.out.println("possible match: "+te.getName()+" "+re.getName());
+				}
+				if(te.getName().toLowerCase().equals(re.getName().toLowerCase())){
 					matches++;
-					System.out.println("Relevant & returned entity: "+te.getName());
+					idMatches.add(te.getId());
+					System.out.println("Relevant & returned entity: "+re.getName()+ " "+re.getId());
 				}
 			}
 		}
+		System.out.println("Number of returned entities: "+returnedEntities.size());
+		System.out.println("Number of relevant entities: "+truthEntities.size());
 		System.out.println("Number of relevant returned entities: "+matches);
 	}
 }

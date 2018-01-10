@@ -37,7 +37,7 @@ public class MetaMapEntityLinker {
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 	}
 	
-	public DictionaryHashMap linkArticles() throws Exception{
+	public DictionaryHashMap linkArticles(){
 		DictionaryHashMap dhm = new DictionaryHashMap();
 		Retrieval index=null;
 		try {
@@ -50,6 +50,8 @@ public class MetaMapEntityLinker {
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, false, true );
 		MetaMapApi api = new MetaMapApiImpl();
 		api.setOptions(options);
+		System.out.println("Found "+documents.size()+" documents relevant to the query");
+		int docNo=1;
 		for(Long d:documents){
 			Document doc=null;
 			try {
@@ -60,30 +62,36 @@ public class MetaMapEntityLinker {
 				return null;
 			}
 			String documentText = generateString(doc.terms);
-			//System.out.println(documentText);
+			System.out.println(documentText);
+			System.out.println("Processing document "+docNo++ +" of "+documents.size());
 			List<Result> resultList = api.processCitationsFromString(documentText);
 			Result result = resultList.get(0);
-			for (Utterance utterance: result.getUtteranceList()) {
-				//System.out.println("Utterance:");
-				//System.out.println(" Id: " + utterance.getId());
-				//System.out.println(" Utterance text: " + utterance.getString());
-				//System.out.println(" Position: " + utterance.getPosition());
-				//System.out.println("Candidates:");
-				for (PCM pcm: utterance.getPCMList()) {
-					if(pcm.getMappingList().size()==0) continue;
-			          for (Mapping map: pcm.getMappingList()) {
-			            for (Ev mapEv: map.getEvList()) {
-			              if(mapEv.getPreferredName().length()<3) continue;
-			              //System.out.println("   Score: " + mapEv.getScore());
-				          //System.out.println("   Preferred Name: " + mapEv.getPreferredName());
-				          //System.out.println("   Matched Words: " + mapEv.getMatchedWords());
-			              if(!dhm.lookupString(mapEv.getPreferredName())){
-			            	  dhm.addEntity(new SnomedEntity(mapEv.getPreferredName(),mapEv.getConceptId(),mapEv.getScore()));
-			              }
-			              
-		}
+			try {
+				for (Utterance utterance: result.getUtteranceList()) {
+					//System.out.println("Utterance:");
+					//System.out.println(" Id: " + utterance.getId());
+					//System.out.println(" Utterance text: " + utterance.getString());
+					//System.out.println(" Position: " + utterance.getPosition());
+					//System.out.println("Candidates:");
+					for (PCM pcm: utterance.getPCMList()) {
+						if(pcm.getMappingList().size()==0) continue;
+				          for (Mapping map: pcm.getMappingList()) {
+				            for (Ev mapEv: map.getEvList()) {
+				              if(mapEv.getPreferredName().length()<3) continue;
+				              //System.out.println("   Score: " + mapEv.getScore());
+					          //System.out.println("   Preferred Name: " + mapEv.getPreferredName());
+					          //System.out.println("   Matched Words: " + mapEv.getMatchedWords());
+				              if(!dhm.lookupId(mapEv.getPreferredName(),mapEv.getConceptId())){
+				            	  dhm.addEntity(new SnomedEntity(mapEv.getPreferredName(),mapEv.getConceptId(),mapEv.getScore()));
+				              }
+				              
+}
+					}
+					}
 				}
-				}
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 		}
 			

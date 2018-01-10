@@ -44,8 +44,10 @@ public class App {
     		se.evaluate();
     	}
     	else if(fn.equals("test")){
-    		MetaMapEvaluator evaulator = new MetaMapEvaluator();
-    		evaulator.evauluate();
+    		//MetaMapEvaluator evaulator = new MetaMapEvaluator();
+    		//evaulator.evauluate();
+    		SearchEvaluator sEval = new SearchEvaluator();
+    		sEval.evaluate();
     	}
     	else if(fn.equals("initialize")){
     		DbpediaDictionaryGenerator ddg = new DbpediaDictionaryGenerator();
