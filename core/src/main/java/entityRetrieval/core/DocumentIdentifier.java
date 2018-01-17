@@ -26,7 +26,7 @@ public class DocumentIdentifier {
 		//term = "Gut–brain axis";
 		term = term.toLowerCase();
 		term = term.replaceAll(" ", "%20"); //spaces are encoded as %20 in the links
-		term = term.replaceAll("'", ""); //apostophes are not encoded in the links
+		term = term.replaceAll("'", ""); //Apostrophes are not encoded in the links
 
 		ArrayList<Long> releventDocuments = new ArrayList<Long>();
 		// Let's just retrieve the posting list for the term in the "text" field
@@ -50,6 +50,7 @@ public class DocumentIdentifier {
 			    String docno = index.getName( sc.document ); // get the docno (external ID) of the current document
 			    if(!releventDocuments.contains(docno)){
 			    	//System.out.println(docno);
+			    	System.out.println(sc.document);
 			    	releventDocuments.add(sc.document);}
 			    //System.out.printf( "%-10s%-15s%-10s\n", sc.document, docno, freq );
 			    iterator.movePast( iterator.currentCandidate() ); // jump to the entry right after the current one

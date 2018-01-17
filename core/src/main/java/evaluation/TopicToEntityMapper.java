@@ -2,14 +2,19 @@ package evaluation;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
+
+import dictionary.DictionaryHashMap;
+import dictionary.SnomedDictionaryInitializer;
 import entityRetrieval.core.Entity;
 
 public class TopicToEntityMapper {
 	private String qrelPath;
 	private ArrayList<String> topics;
+	private DictionaryHashMap dictionary;
 	
 	public TopicToEntityMapper(String qrelPath, String topicPath){
 		this.qrelPath=qrelPath;
@@ -18,10 +23,20 @@ public class TopicToEntityMapper {
 	public TopicToEntityMapper(){
 		this.qrelPath="C:/Work/Project/samples/treccar/benchmarkY1train/train.benchmarkY1train.cbor.hierarchical.entity.qrels";
 		this.topics =readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		SnomedDictionaryInitializer init = new SnomedDictionaryInitializer();
+		try {
+			this.dictionary = init.initialize();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	public DictionaryHashMap getDictionary(){
+		return this.dictionary;
 	}
 	
 	public HashMap<String,ArrayList<Entity>> generateRelevantEntities(){
 		HashMap<String,ArrayList<Entity>> mappings = new HashMap<String,ArrayList<Entity>>();
+
 		for(String topic:topics){
 			mappings.put(topic, new ArrayList<Entity>());
 		}
@@ -41,12 +56,30 @@ public class TopicToEntityMapper {
 	        	newElements.add(element.replaceAll("%20", " ")); // spaces are encoded as %20 in the qrels file
 	        }
         	String entity = newElements.get(2);
+        	//if(entity.contains("(")){
+        	//	int pos = entity.lastIndexOf("(");
+        	//	entity = entity.substring(0, pos-1);
+        	//}
 	        String articlePath = newElements.get(0);
 	        String[] subjects = articlePath.split("/");
 	        String primaryTopic = subjects[0];
 	        if(topics.contains(primaryTopic)){
-	        	//if(entity.contains("%")) System.out.println(entity);
-	        	mappings.get(primaryTopic).add(new Entity(entity));
+	        	//System.out.println(line);
+	        	if(filterConcept(entity)){
+	        		Boolean exists = false;
+	        		for(Entity e:mappings.get(primaryTopic)){
+	        			if(e.getName().equals(entity)){
+	        				exists = true;
+	        			}
+	        		}
+	        		if(!exists){
+	        			//System.out.println("Adding entity: "+entity+" to topic: "+primaryTopic);
+			        	mappings.get(primaryTopic).add(new Entity(entity));
+	        		}
+	        		
+	        	}
+	        	
+	        	
 		}
 	        else{
 	        	continue;
@@ -81,5 +114,11 @@ public class TopicToEntityMapper {
 	
 	public ArrayList<String> getTopics(){
 		return this.topics;
+	}
+	public Boolean filterConcept(String conceptName){
+		if(dictionary.lookupString(conceptName)){
+			return true;
+		}
+		return false;
 	}
 }

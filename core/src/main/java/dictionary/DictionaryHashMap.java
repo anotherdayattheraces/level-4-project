@@ -99,6 +99,38 @@ public class DictionaryHashMap {
 			return false;
 		}
 	}
+	public Entity getEntity(String name){
+		if(name.length()<3) return null; //string is not large enough to have a key
+		String key = name.substring(0,3);
+		if(dictionary.get(key)==null){
+			return null;
+		}
+		else{
+			for(Entity e:dictionary.get(key)){
+				if(e.getName().equals(name)) {
+					return e;
+				}
+			}
+			return null;
+		}
+	}
+	
+	
+	public Entity getEntity(String name,String id){
+		if(name.length()<3) return null; //string is not large enough to have a key
+		String key = name.substring(0,3);
+		if(dictionary.get(key)==null){
+			return null;
+		}
+		else{
+			for(Entity e:dictionary.get(key)){
+				if(e.getId().equals(id)) {
+					return e;
+				}
+			}
+			return null;
+		}
+	}
 	
 
 	

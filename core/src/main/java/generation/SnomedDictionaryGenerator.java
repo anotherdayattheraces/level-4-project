@@ -3,8 +3,6 @@ package generation;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import java.util.regex.Pattern;
-
 import dictionary.DictionaryHashMap;
 import entityRetrieval.core.SnomedEntity;
 

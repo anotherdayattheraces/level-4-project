@@ -8,19 +8,14 @@ import java.util.List;
 import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
-
 import dictionary.DictionaryHashMap;
 import entityRetrieval.core.Entity;
-import entityRetrieval.core.ResultSet;
 import entityRetrieval.core.SnomedEntity;
-import gov.nih.nlm.nls.metamap.ConceptPair;
 import gov.nih.nlm.nls.metamap.Ev;
 import gov.nih.nlm.nls.metamap.Mapping;
 import gov.nih.nlm.nls.metamap.MetaMapApi;
 import gov.nih.nlm.nls.metamap.MetaMapApiImpl;
-import gov.nih.nlm.nls.metamap.Negation;
 import gov.nih.nlm.nls.metamap.PCM;
-import gov.nih.nlm.nls.metamap.Position;
 import gov.nih.nlm.nls.metamap.Result;
 import gov.nih.nlm.nls.metamap.Utterance;
 
@@ -40,6 +35,7 @@ public class MetaMapEntityLinker {
 	public DictionaryHashMap linkArticles(){
 		DictionaryHashMap dhm = new DictionaryHashMap();
 		Retrieval index=null;
+		//Boolean twothree=true;
 		try {
 			index = RetrievalFactory.instance( path );
 		} catch (Exception e1) {
@@ -49,10 +45,14 @@ public class MetaMapEntityLinker {
 		}
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, false, true );
 		MetaMapApi api = new MetaMapApiImpl();
+		
 		api.setOptions(options);
 		System.out.println("Found "+documents.size()+" documents relevant to the query");
 		int docNo=1;
 		for(Long d:documents){
+			//if(count++>=50){
+		//		break;
+		//	}
 			Document doc=null;
 			try {
 				doc = index.getDocument( index.getDocumentName( d ), dc );
@@ -63,7 +63,12 @@ public class MetaMapEntityLinker {
 			}
 			String documentText = generateString(doc.terms);
 			System.out.println(documentText);
+			//if(docNo == 11&&twothree){
+			//	twothree = false;
+			//	continue;
+			//}
 			System.out.println("Processing document "+docNo++ +" of "+documents.size());
+			//if(docNo!=12) continue;
 			List<Result> resultList = api.processCitationsFromString(documentText);
 			Result result = resultList.get(0);
 			try {
@@ -81,10 +86,16 @@ public class MetaMapEntityLinker {
 				              //System.out.println("   Score: " + mapEv.getScore());
 					          //System.out.println("   Preferred Name: " + mapEv.getPreferredName());
 					          //System.out.println("   Matched Words: " + mapEv.getMatchedWords());
-				              if(!dhm.lookupId(mapEv.getPreferredName(),mapEv.getConceptId())){
-				            	  dhm.addEntity(new SnomedEntity(mapEv.getPreferredName(),mapEv.getConceptId(),mapEv.getScore()));
-				              }
 				              
+				              if(!dhm.lookupId(mapEv.getPreferredName(),mapEv.getConceptId())){
+				            	  dhm.addEntity(new Entity(mapEv.getPreferredName(),mapEv.getConceptId(),mapEv.getScore(),d));
+				              }
+				              else if(!dhm.getEntity(mapEv.getPreferredName(), mapEv.getConceptId()).getHashMap().containsKey(d)){
+				            	  dhm.getEntity(mapEv.getPreferredName(), mapEv.getConceptId()).addAppearance(d);
+				              }
+				              else{
+				            	  dhm.getEntity(mapEv.getPreferredName(), mapEv.getConceptId()).incrementAppearance(d);
+				              }
 }
 					}
 					}
@@ -98,7 +109,7 @@ public class MetaMapEntityLinker {
 		System.out.println(dhm.getDictionary().size());
 		return dhm;
 }
-	public String generateString(List<String> terms){
+	public static String generateString(List<String> terms){
 		StringBuilder sb = new StringBuilder();
 		for(String s:terms){
 			if(s.contains("%20")){ //links are not to be matched

@@ -3,6 +3,7 @@ package evaluation;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Random;
 import java.util.Set;
@@ -10,6 +11,8 @@ import java.util.Set;
 
 import entityRetrieval.core.DocumentIdentifier;
 import entityRetrieval.core.Entity;
+import entityRetrieval.core.GalagoOrchestrator;
+import entityRetrieval.core.Pair;
 import metamap.MetaMapEntityLinker;
 
 public class MetaMapEvaluator {
@@ -21,7 +24,7 @@ public class MetaMapEvaluator {
 		this.mapping = mapper.generateRelevantEntities();
 		Random r = new Random();
 		int topicChoice = r.nextInt(mapping.keySet().size());
-		topicChoice = 4;
+		//topicChoice = 3;
 		Set<String> keySet = mapping.keySet();
 		Iterator<String> i = keySet.iterator();
 		int count = 0;
@@ -35,10 +38,10 @@ public class MetaMapEvaluator {
 	
 	public void evauluate() throws IOException{
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
-		HashMap<String,ArrayList<Entity>> mapping = mapper.generateRelevantEntities();
-		ArrayList<Entity> relevantEntities = mapping.get(query);
-		DocumentIdentifier di =  new DocumentIdentifier();
-		ArrayList<Long> documents = di.getRelevantDocuments(query);
+		HashMap<String,ArrayList<Entity>> mapping = mapper.generateRelevantEntities(); //generate topics->entities mapping
+		ArrayList<Entity> relevantEntities = mapping.get(query); // create data structure for mapping
+		GalagoOrchestrator orchestrator =  new GalagoOrchestrator();
+		ArrayList<Long> documents = SearchEvaluator.getDocIds(orchestrator.getDocuments(query, 10)); //get top 50 documents from galago search of query
 		MetaMapEntityLinker linker = new MetaMapEntityLinker(documents);
 		ArrayList<Entity> returnedEntities = null;
 		try {
@@ -50,24 +53,43 @@ public class MetaMapEvaluator {
 		
 	}
 	private void printStatistics(ArrayList<Entity> truthEntities, ArrayList<Entity> returnedEntities){
-	
-		
-		int matches=0;
-		ArrayList<String> idMatches = new ArrayList<String>();
+
+		Set<String> idMatches = new HashSet<String>();
+		System.out.println("Truth entities");
+		System.out.println("");
+		for(Entity te:truthEntities){
+			System.out.println(te.getName());
+		}
 		for(Entity te:truthEntities){
 			for(Entity re:returnedEntities){
+				
 				if(te.getName().substring(0, 3).toLowerCase().equals(re.getName().substring(0, 3).toLowerCase())){
 					System.out.println("possible match: "+te.getName()+" "+re.getName());
 				}
 				if(te.getName().toLowerCase().equals(re.getName().toLowerCase())){
-					matches++;
-					idMatches.add(te.getId());
-					System.out.println("Relevant & returned entity: "+re.getName()+ " "+re.getId());
+					idMatches.add((re.getName()));
+					System.out.println("Entity: "+re.getName()+ " "+re.getTotalAppearances());
+					for(Long docno:re.getHashMap().keySet()){
+						System.out.println("Docno: "+docno+" appearances: "+re.getHashMap().get(docno));
+					}
+					
 				}
 			}
 		}
+		
+		Iterator<String> i = idMatches.iterator();
+		System.out.println("Matched entities");
+		System.out.println("");
+		while(i.hasNext()){
+			String p = i.next();
+			System.out.println(p);
+		}
 		System.out.println("Number of returned entities: "+returnedEntities.size());
 		System.out.println("Number of relevant entities: "+truthEntities.size());
-		System.out.println("Number of relevant returned entities: "+matches);
+		System.out.println("Number of relevant returned entities: "+idMatches.size());
+		double precision  = ((double) idMatches.size()/(double)returnedEntities.size());
+		double recall  =  ((double)idMatches.size()/(double)truthEntities.size());
+		double f1 = 2*((precision*recall)/(precision+recall));
+		System.out.println("precision: "+precision+" recall: "+recall+" f1: "+f1);
 	}
 }

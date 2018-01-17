@@ -16,15 +16,18 @@ public class TermCounter {
 	private ArrayList<Pair<Entity,Integer>> matchedEntities;
 	private String path;
 	
+	
 	public TermCounter(ArrayList<Long> docs, DictionaryHashMap dictionary){
 		this.dictionary = dictionary;
 		this.documents = docs;
 		this.matchedEntities = new ArrayList<Pair<Entity,Integer>>();
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		
+		
 	}
 	
-	public ResultSet matchEntities(){
+	public ArrayList<Entity> matchEntities(){
+		ArrayList<Entity> foundEntities = new ArrayList<Entity>();
 		Retrieval index=null;
 		try {
 			index = RetrievalFactory.instance( path );
@@ -40,20 +43,21 @@ public class TermCounter {
 		String twoWords = null;
 		String threeWords = null;
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, false, true );
+		int docNo = 1;
 		for(Long d:documents){
+			System.out.println("Processing doc "+docNo++ +" of "+documents.size());
 			Document doc=null;
 			try {
 				doc = index.getDocument( index.getDocumentName( d ), dc );
 			} catch (IOException e) {
-				System.err.println("article: "+d+" not contained within index");
-				e.printStackTrace();
 				return null;
 			}
 			int line=1;
 			for(String term : doc.terms ) {
+				//System.out.println(term);
+
 				if(line>1){
 					doubleTerm=true;
-					
 				}
 				if(line>2){
 					tripleTerm=true;
@@ -87,28 +91,48 @@ public class TermCounter {
 						three = true;
 					}
 					if(!one&&!two&&!three) continue; //no entity matches
-					for(Pair<Entity,Integer> pair:matchedEntities){
-						if(one&&pair.getL().getName().equals(term)){
-							pair.setR(pair.getR()+1);
+					for(Entity entity:foundEntities){
+						if(one&&entity.getName().equals(term)){
+							if(dictionary.getEntity(term).getHashMap().containsKey(d)){
+								entity.incrementAppearance(d);
+							}
+							else{
+								entity.addAppearance(d);
+							}
 							exists = true;
 						}
-						else if(two&&pair.getL().getName().equals(twoWords)){
-							pair.setR(pair.getR()+1);
+						else if(two&&entity.getName().equals(twoWords)){
+							if(dictionary.getEntity(twoWords).getHashMap().containsKey(d)){
+								entity.incrementAppearance(d);
+							}
+							else{
+								entity.addAppearance(d);
+							}
 							exists = true;
 						}
-						else if(three&&pair.getL().getName().equals(threeWords)){
-							pair.setR(pair.getR()+1);
+						else if(three&&entity.getName().equals(threeWords)){
+							if(dictionary.getEntity(threeWords).getHashMap().containsKey(d)){
+								entity.incrementAppearance(d);
+							}
+							else{
+								entity.addAppearance(d);
+							}
+							
 							exists=true;
 						}
 					}
 					if(!exists){
-						if(one){
-							matchedEntities.add(new Pair<Entity, Integer>(new Entity(term),1));}
+						if(one){		
+							foundEntities.add(dictionary.getEntity(term));
+							//matchedEntities.add(new Pair<Entity, Integer>(new Entity(term),1));
+							}
 						else if(two){
-							matchedEntities.add(new Pair<Entity, Integer>(new Entity(twoWords),1));
+							foundEntities.add(dictionary.getEntity(twoWords));
+							//matchedEntities.add(new Pair<Entity, Integer>(new Entity(twoWords),1));
 							}
 						else if(three){
-							matchedEntities.add(new Pair<Entity, Integer>(new Entity(threeWords),1));
+							foundEntities.add(dictionary.getEntity(threeWords));
+							//matchedEntities.add(new Pair<Entity, Integer>(new Entity(threeWords),1));
 							}
 						}
 					
@@ -116,7 +140,7 @@ public class TermCounter {
 					}
 							
 						}
-		return new ResultSet(matchedEntities);
+		return foundEntities;
 		
 	}
 

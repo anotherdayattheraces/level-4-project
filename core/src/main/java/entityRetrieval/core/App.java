@@ -8,14 +8,17 @@ import java.util.List;
 import dictionary.DbpediaDictionarySaver;
 import dictionary.DictionaryHashMap;
 import dictionary.SnomedDictionarySaver;
+import evaluation.DictionaryComparator;
 import evaluation.MetaMapEvaluator;
 import evaluation.SearchEvaluator;
+import evaluation.TopicToEntityMapper;
 import generation.DbpediaDictionaryGenerator;
 import generation.SnomedDictionaryGenerator;
 import gov.nih.nlm.nls.metamap.MetaMapApi;
 import gov.nih.nlm.nls.metamap.MetaMapApiImpl;
 import gov.nih.nlm.nls.metamap.Result;
 import metamap.MetaMapEntityLinker;
+import pseudoRelavanceFeedback.QueryEnhancer;
 
 
 
@@ -36,24 +39,32 @@ public class App {
     		fn = args[0];
     	}
     	if(fn.equals("search")){
-    		SingleQuerySearch sqs = new SingleQuerySearch(args[1]);
-    		sqs.search();
+    		//DocumentIdentifier di = new DocumentIdentifier();
+    		//ArrayList<Long> documents = di.getRelevantDocuments("Autism");
+    		//QueryEnhancer enhancer = new QueryEnhancer(documents);
+    		//enhancer.enhanceQuery();
+    		//SingleQuerySearch sqs = new SingleQuerySearch(args[1]);
+    		//sqs.search();
     	}
     	else if(fn.equals("evaluate")){
-    		SearchEvaluator se = new SearchEvaluator();
-    		se.evaluate();
+    		//MetaMapEvaluator mmeval = new MetaMapEvaluator();
+    		//mmeval.evauluate();
+    		SearchEvaluator seval = new SearchEvaluator();
+    		seval.evaluate();
     	}
     	else if(fn.equals("test")){
+    		//DictionaryComparator comp = new DictionaryComparator();
+    		//comp.compareResults();
     		//MetaMapEvaluator evaulator = new MetaMapEvaluator();
     		//evaulator.evauluate();
-    		SearchEvaluator sEval = new SearchEvaluator();
-    		sEval.evaluate();
+    		//SearchEvaluator sEval = new SearchEvaluator();
+    		//sEval.evaluate();
     	}
     	else if(fn.equals("initialize")){
-    		DbpediaDictionaryGenerator ddg = new DbpediaDictionaryGenerator();
-    		DictionaryHashMap dbpediaDictionary = ddg.generateEntities();
-    		DbpediaDictionarySaver dds = new DbpediaDictionarySaver(dbpediaDictionary);
-    		dds.save();
+    		//DbpediaDictionaryGenerator ddg = new DbpediaDictionaryGenerator();
+    		//DictionaryHashMap dbpediaDictionary = ddg.generateEntities();
+    		//DbpediaDictionarySaver dds = new DbpediaDictionarySaver(dbpediaDictionary);
+    		//dds.save();
     		SnomedDictionaryGenerator sdg = new SnomedDictionaryGenerator();
     		DictionaryHashMap snomedDictionary = sdg.generateEntities();
     		SnomedDictionarySaver sds = new SnomedDictionarySaver(snomedDictionary);
