@@ -122,15 +122,18 @@ public class TermCounter {
 						}
 					}
 					if(!exists){
-						if(one){		
+						if(one){
+							dictionary.getEntity(term).addAppearance(d);;
 							foundEntities.add(dictionary.getEntity(term));
 							//matchedEntities.add(new Pair<Entity, Integer>(new Entity(term),1));
 							}
 						else if(two){
+							dictionary.getEntity(twoWords).addAppearance(d);;
 							foundEntities.add(dictionary.getEntity(twoWords));
 							//matchedEntities.add(new Pair<Entity, Integer>(new Entity(twoWords),1));
 							}
 						else if(three){
+							dictionary.getEntity(threeWords).addAppearance(d);;
 							foundEntities.add(dictionary.getEntity(threeWords));
 							//matchedEntities.add(new Pair<Entity, Integer>(new Entity(threeWords),1));
 							}

@@ -1,6 +1,7 @@
 package entityRetrieval.core;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.lemurproject.galago.core.retrieval.Retrieval;
@@ -17,8 +18,7 @@ public class GalagoOrchestrator {
 	public GalagoOrchestrator(){
 		this.path = "C:/Work/Project/samples/treccar/paragraphcorpus";
 	}
-	public ArrayList<Pair<Long,Double>> getDocuments(String query,int docsNeeded){
-		ArrayList<Pair<Long,Double>> docIDS = new ArrayList<Pair<Long,Double>>();
+	public List<ScoredDocument> getDocuments(String query,int docsNeeded){
 		Retrieval retrieval = null;
 		try {
 			retrieval = RetrievalFactory.instance(path);
@@ -46,12 +46,7 @@ public class GalagoOrchestrator {
 			e1.printStackTrace();
 		}
 		System.out.println(transformed.toSimplePrettyString());
-		for(ScoredDocument scoredDoc:results){
-			System.out.println(scoredDoc.document+" : "+scoredDoc);
-			docIDS.add(new Pair<Long,Double>(scoredDoc.document,scoredDoc.score));
-			//System.out.println(scoredDoc.document);
-		}
-		return docIDS;
+		return results;
 
 		
 		

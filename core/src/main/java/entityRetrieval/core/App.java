@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import KB.SnomedToWikiMapper;
 import dictionary.DbpediaDictionarySaver;
 import dictionary.DictionaryHashMap;
 import dictionary.SnomedDictionarySaver;
@@ -53,12 +54,8 @@ public class App {
     		seval.evaluate();
     	}
     	else if(fn.equals("test")){
-    		//DictionaryComparator comp = new DictionaryComparator();
-    		//comp.compareResults();
-    		//MetaMapEvaluator evaulator = new MetaMapEvaluator();
-    		//evaulator.evauluate();
-    		//SearchEvaluator sEval = new SearchEvaluator();
-    		//sEval.evaluate();
+    		SnomedToWikiMapper mapper = new SnomedToWikiMapper();
+    		mapper.generateMappings();
     	}
     	else if(fn.equals("initialize")){
     		//DbpediaDictionaryGenerator ddg = new DbpediaDictionaryGenerator();

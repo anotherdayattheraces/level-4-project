@@ -2,6 +2,9 @@ package entityRetrieval.core;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
+
+import org.lemurproject.galago.core.retrieval.ScoredDocument;
 
 public class Entity {
 	private String name;
@@ -10,7 +13,8 @@ public class Entity {
 	private HashMap<Long,Integer> appearances;
 	private double idf;
 	private double tfidf;
-	private ArrayList<Pair<Long,Double>> mentionProbability;
+	private HashMap<Long,Double> mentionProbability;
+	private int rank;
 	
 	public Entity(String name, String id, double score, long docID){
 		this.name = name;
@@ -18,11 +22,13 @@ public class Entity {
 		this.score=score;
 		this.appearances = new HashMap<Long,Integer>();
 		this.appearances.put(docID, 1);
+		this.mentionProbability = new HashMap<Long,Double>();
 	}
 	public Entity(String name, String id){
 		this.name = name;
 		this.id=id;
 		this.appearances =  new HashMap<Long,Integer>();
+		this.mentionProbability = new HashMap<Long,Double>();
 	}
 	public Entity(String name){
 		this.name = name;
@@ -33,12 +39,27 @@ public class Entity {
 	public String getId(){
 		return this.id;
 	}
-	public void setScore(double score){
-		this.score=score;
+	public double getScore(){
+		return this.score;
+	}
+	public void setScore(Map<ScoredDocument,Double> docScores){
+		double currentScore=0;
+		for(ScoredDocument scoredDoc:docScores.keySet()){
+			if(this.mentionProbability.containsKey(scoredDoc.document)){
+				currentScore+=this.mentionProbability.get(scoredDoc.document)*(docScores.get(scoredDoc));
+			}
+		}
+		this.score=currentScore;
+	}
+	public void setRank(int rank){
+		this.rank=rank;
+	}
+	public HashMap<Long,Double> getMentionProbability(){
+		return this.mentionProbability;
 	}
 	public void addMentionProbability(Long docno, double entityMentions, double totalMentions){
 		double mp = entityMentions/totalMentions;
-		this.mentionProbability.add(new Pair<Long, Double>(docno,mp));
+		this.mentionProbability.put(docno,mp);
 	}
 	public void incrementAppearance(long docID){
 		int currentVal = this.appearances.get(docID);
@@ -64,7 +85,6 @@ public class Entity {
 		}
 		return appearances;
 	}
-
 	public double getTFIDF(){
 		return this.tfidf;
 	}

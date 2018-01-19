@@ -5,9 +5,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
+import org.lemurproject.galago.core.retrieval.ScoredDocument;
 
 import entityRetrieval.core.DocumentIdentifier;
 import entityRetrieval.core.Entity;
@@ -18,6 +20,8 @@ import metamap.MetaMapEntityLinker;
 public class MetaMapEvaluator {
 	private HashMap<String,ArrayList<Entity>> mapping;
 	private String query;
+	private List<ScoredDocument> docScores;
+
 	
 	public MetaMapEvaluator(){
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
@@ -34,15 +38,19 @@ public class MetaMapEvaluator {
 		}
 		this.query=i.next().toString();
 		System.out.println("Chosen query: "+query);
-	}
+		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
+		this.docScores = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+	} 
 	
 	public void evauluate() throws IOException{
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
 		HashMap<String,ArrayList<Entity>> mapping = mapper.generateRelevantEntities(); //generate topics->entities mapping
 		ArrayList<Entity> relevantEntities = mapping.get(query); // create data structure for mapping
-		GalagoOrchestrator orchestrator =  new GalagoOrchestrator();
-		ArrayList<Long> documents = SearchEvaluator.getDocIds(orchestrator.getDocuments(query, 10)); //get top 50 documents from galago search of query
-		MetaMapEntityLinker linker = new MetaMapEntityLinker(documents);
+		ArrayList<Long> docids = new ArrayList<Long>();
+		for(ScoredDocument sd:docScores){
+			docids.add(sd.document);
+		}
+		MetaMapEntityLinker linker = new MetaMapEntityLinker(docids);
 		ArrayList<Entity> returnedEntities = null;
 		try {
 			returnedEntities = linker.linkArticles().toArray();
