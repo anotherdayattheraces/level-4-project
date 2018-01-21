@@ -55,7 +55,7 @@ public class TermCounter {
 			int line=1;
 			for(String term : doc.terms ) {
 				//System.out.println(term);
-
+				term = term.toLowerCase();
 				if(line>1){
 					doubleTerm=true;
 				}
@@ -93,31 +93,15 @@ public class TermCounter {
 					if(!one&&!two&&!three) continue; //no entity matches
 					for(Entity entity:foundEntities){
 						if(one&&entity.getName().equals(term)){
-							if(dictionary.getEntity(term).getHashMap().containsKey(d)){
-								entity.incrementAppearance(d);
-							}
-							else{
-								entity.addAppearance(d);
-							}
+							entity.addAppearance(d);
 							exists = true;
 						}
 						else if(two&&entity.getName().equals(twoWords)){
-							if(dictionary.getEntity(twoWords).getHashMap().containsKey(d)){
-								entity.incrementAppearance(d);
-							}
-							else{
-								entity.addAppearance(d);
-							}
+							entity.addAppearance(d);
 							exists = true;
 						}
 						else if(three&&entity.getName().equals(threeWords)){
-							if(dictionary.getEntity(threeWords).getHashMap().containsKey(d)){
-								entity.incrementAppearance(d);
-							}
-							else{
-								entity.addAppearance(d);
-							}
-							
+							entity.addAppearance(d);
 							exists=true;
 						}
 					}
@@ -146,5 +130,6 @@ public class TermCounter {
 		return foundEntities;
 		
 	}
+
 
 }

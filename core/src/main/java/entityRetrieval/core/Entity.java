@@ -61,10 +61,10 @@ public class Entity {
 		double mp = entityMentions/totalMentions;
 		this.mentionProbability.put(docno,mp);
 	}
-	public void incrementAppearance(long docID){
-		int currentVal = this.appearances.get(docID);
-		this.appearances.put(docID, currentVal+1);
-	}
+	//public void incrementAppearance(long docID){
+	//	int currentVal = this.appearances.get(docID);
+	//	this.appearances.put(docID, currentVal+1);
+	//}
 	public ArrayList<Pair<Long,Integer>> appearancesToArray(){
 		ArrayList<Pair<Long,Integer>> array = new ArrayList<Pair<Long,Integer>>();
 		for(long key:this.appearances.keySet()){
@@ -76,7 +76,13 @@ public class Entity {
 		return this.appearances;
 	}
 	public void addAppearance(Long docID){
-		this.appearances.put(docID, 1);
+		if(this.appearances.containsKey(docID)){
+			int currentVal = this.appearances.get(docID);
+			this.appearances.put(docID, currentVal+1);
+		}
+		else{
+			this.appearances.put(docID, 1);
+		}
 	}
 	public int getTotalAppearances(){
 		int appearances = 0;

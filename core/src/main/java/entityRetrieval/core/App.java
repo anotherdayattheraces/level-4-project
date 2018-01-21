@@ -5,11 +5,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import KB.SnomedToWikiMapper;
 import dictionary.DbpediaDictionarySaver;
 import dictionary.DictionaryHashMap;
 import dictionary.SnomedDictionarySaver;
 import evaluation.DictionaryComparator;
+import evaluation.DocumentLinkReader;
 import evaluation.MetaMapEvaluator;
 import evaluation.SearchEvaluator;
 import evaluation.TopicToEntityMapper;
@@ -18,6 +18,8 @@ import generation.SnomedDictionaryGenerator;
 import gov.nih.nlm.nls.metamap.MetaMapApi;
 import gov.nih.nlm.nls.metamap.MetaMapApiImpl;
 import gov.nih.nlm.nls.metamap.Result;
+import knowledgeBase.KBLinker;
+import knowledgeBase.SnomedToWikiMapper;
 import metamap.MetaMapEntityLinker;
 import pseudoRelavanceFeedback.QueryEnhancer;
 
@@ -54,8 +56,8 @@ public class App {
     		seval.evaluate();
     	}
     	else if(fn.equals("test")){
-    		SnomedToWikiMapper mapper = new SnomedToWikiMapper();
-    		mapper.generateMappings();
+    		KBLinker kbl = new KBLinker();
+    		kbl.getEntitiesFromText();
     	}
     	else if(fn.equals("initialize")){
     		//DbpediaDictionaryGenerator ddg = new DbpediaDictionaryGenerator();

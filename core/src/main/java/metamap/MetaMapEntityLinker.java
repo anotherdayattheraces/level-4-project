@@ -90,11 +90,9 @@ public class MetaMapEntityLinker {
 				              if(!dhm.lookupId(mapEv.getPreferredName(),mapEv.getConceptId())){
 				            	  dhm.addEntity(new Entity(mapEv.getPreferredName(),mapEv.getConceptId(),mapEv.getScore(),d));
 				              }
-				              else if(!dhm.getEntity(mapEv.getPreferredName(), mapEv.getConceptId()).getHashMap().containsKey(d)){
-				            	  dhm.getEntity(mapEv.getPreferredName(), mapEv.getConceptId()).addAppearance(d);
-				              }
+
 				              else{
-				            	  dhm.getEntity(mapEv.getPreferredName(), mapEv.getConceptId()).incrementAppearance(d);
+				            	  dhm.getEntity(mapEv.getPreferredName(), mapEv.getConceptId()).addAppearance(d);;
 				              }
 }
 					}
