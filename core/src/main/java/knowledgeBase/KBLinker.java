@@ -14,6 +14,7 @@ import org.lemurproject.galago.core.retrieval.ScoredDocument;
 
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.GalagoOrchestrator;
+import evaluation.MedLinkEvaluator;
 import evaluation.TopicToEntityMapper;
 
 public class KBLinker {
@@ -21,6 +22,7 @@ public class KBLinker {
 	private String query;
 	private HashMap<String,ArrayList<Entity>> mapping;
 	private List<ScoredDocument> scoredDocs;
+	private HashMap<Long,Integer> entitiesPerDoc;
 
 	
 	public KBLinker(){
@@ -29,7 +31,6 @@ public class KBLinker {
 		this.mapping = mapper.generateRelevantEntities();
 		Random r = new Random();
 		int topicChoice = r.nextInt(mapping.keySet().size());
-		topicChoice=1;
 		Set<String> keySet = mapping.keySet();
 		Iterator<String> i = keySet.iterator();
 		int count = 0;
@@ -97,37 +98,35 @@ public class KBLinker {
 					fourWords = SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(fourWords);
 				}
 				if(searcher.lookupTerm(currentWord)){
-					System.out.println("Entity identified: "+currentWord);
 					addEntity(currentWord,entities,sd.document);
 
 				}
 				if(twoWords!=null){
 					if(searcher.lookupTerm(twoWords)){
-						System.out.println("Entity identified: "+twoWords);
 						addEntity(twoWords,entities,sd.document);
 
 					}
 				}
 				if(threeWords!=null){
 					if(searcher.lookupTerm(threeWords)){
-						System.out.println("Entity identified: "+threeWords);
 						addEntity(threeWords,entities,sd.document);
 
 					}
 				}
 				if(fourWords!=null){
 					if(searcher.lookupTerm(fourWords)){
-						System.out.println("Entity identified: "+fourWords);
 						addEntity(fourWords,entities,sd.document);
 					}
 				}
 
 			}
 		}
-		for(Entity e:entities){
-			System.out.println(e.getName()+" "+e.getTotalAppearances());
-		}
+		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(entities);
+		MedLinkEvaluator.setMentionProbablities(entities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
 		return entities;
+	}
+	public List<ScoredDocument> getScoredDocuments(){
+		return this.scoredDocs;
 	}
 	public void addEntity(String name, ArrayList<Entity> entities, Long docid){
 		for(Entity e:entities){

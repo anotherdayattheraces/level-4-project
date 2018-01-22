@@ -10,8 +10,10 @@ import dictionary.DictionaryHashMap;
 import dictionary.SnomedDictionarySaver;
 import evaluation.DictionaryComparator;
 import evaluation.DocumentLinkReader;
+import evaluation.DocumentLinkReaderEvaluator;
+import evaluation.KBLinkerEvaluator;
 import evaluation.MetaMapEvaluator;
-import evaluation.SearchEvaluator;
+import evaluation.MedLinkEvaluator;
 import evaluation.TopicToEntityMapper;
 import generation.DbpediaDictionaryGenerator;
 import generation.SnomedDictionaryGenerator;
@@ -52,12 +54,16 @@ public class App {
     	else if(fn.equals("evaluate")){
     		//MetaMapEvaluator mmeval = new MetaMapEvaluator();
     		//mmeval.evauluate();
-    		SearchEvaluator seval = new SearchEvaluator();
+    		MedLinkEvaluator seval = new MedLinkEvaluator();
     		seval.evaluate();
     	}
     	else if(fn.equals("test")){
-    		KBLinker kbl = new KBLinker();
-    		kbl.getEntitiesFromText();
+    		DocumentLinkReaderEvaluator dlre = new DocumentLinkReaderEvaluator();
+    		dlre.computeStatistics();
+    		//MedLinkEvaluator mle = new MedLinkEvaluator();
+    		//mle.evaluate();
+    		//KBLinkerEvaluator kble = new KBLinkerEvaluator();
+    		//kble.computeStatistics();
     	}
     	else if(fn.equals("initialize")){
     		//DbpediaDictionaryGenerator ddg = new DbpediaDictionaryGenerator();

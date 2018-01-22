@@ -1,4 +1,4 @@
-package entityRetrieval.core;
+package customEntityLinker;
 
 
 import java.io.IOException;
@@ -8,16 +8,18 @@ import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
 
 import dictionary.DictionaryHashMap;
+import entityRetrieval.core.Entity;
+import entityRetrieval.core.Pair;
 
 
-public class TermCounter {
+public class MedLink {
 	private DictionaryHashMap dictionary;
 	private ArrayList<Long> documents;
 	private ArrayList<Pair<Entity,Integer>> matchedEntities;
 	private String path;
 	
 	
-	public TermCounter(ArrayList<Long> docs, DictionaryHashMap dictionary){
+	public MedLink(ArrayList<Long> docs, DictionaryHashMap dictionary){
 		this.dictionary = dictionary;
 		this.documents = docs;
 		this.matchedEntities = new ArrayList<Pair<Entity,Integer>>();

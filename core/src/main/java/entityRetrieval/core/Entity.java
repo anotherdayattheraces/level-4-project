@@ -15,6 +15,7 @@ public class Entity {
 	private double tfidf;
 	private HashMap<Long,Double> mentionProbability;
 	private int rank;
+	private double precision;
 	
 	public Entity(String name, String id, double score, long docID){
 		this.name = name;
@@ -61,10 +62,7 @@ public class Entity {
 		double mp = entityMentions/totalMentions;
 		this.mentionProbability.put(docno,mp);
 	}
-	//public void incrementAppearance(long docID){
-	//	int currentVal = this.appearances.get(docID);
-	//	this.appearances.put(docID, currentVal+1);
-	//}
+
 	public ArrayList<Pair<Long,Integer>> appearancesToArray(){
 		ArrayList<Pair<Long,Integer>> array = new ArrayList<Pair<Long,Integer>>();
 		for(long key:this.appearances.keySet()){
@@ -104,6 +102,17 @@ public class Entity {
 			tfidf+=(this.idf*pair.getR());
 		}
 		this.tfidf = tfidf;
+	}
+	public int getRank(){
+		return this.rank;
+	}
+	public double setPrecision(double currentSum,int rank,int related){
+		 this.precision = (currentSum*related)/rank;
+		 return this.precision;
+		
+	}
+	public double getPrecision(){
+		return this.precision;
 	}
 	
 }

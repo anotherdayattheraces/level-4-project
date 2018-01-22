@@ -15,12 +15,12 @@ import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
 import org.lemurproject.galago.core.retrieval.iterator.DataIterator;
 
+import customEntityLinker.MedLink;
 import dictionary.DictionaryHashMap;
 import dictionary.SnomedDictionaryInitializer;
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.Pair;
 import entityRetrieval.core.ResultSet;
-import entityRetrieval.core.TermCounter;
 import metamap.MetaMapEntityLinker;
 
 public class DictionaryComparator {
@@ -47,9 +47,9 @@ public class DictionaryComparator {
     	System.out.println("Using document number: "+docid);
 		this.documents = documents;
 		SnomedDictionaryInitializer init = new SnomedDictionaryInitializer();
-		TermCounter snomedCounter = null;
+		MedLink snomedCounter = null;
 		try {
-			snomedCounter = new TermCounter(documents, init.initialize());
+			snomedCounter = new MedLink(documents, init.initialize());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

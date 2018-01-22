@@ -28,7 +28,6 @@ public class KBSearcher {
 			//e.printStackTrace();
 		}
 		if(id!=-1){
-			System.out.println(id);
 			return true;
 		}
 		return false;

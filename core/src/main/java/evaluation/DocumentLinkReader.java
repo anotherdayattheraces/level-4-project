@@ -2,7 +2,11 @@ package evaluation;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Random;
+import java.util.Set;
 
 import org.lemurproject.galago.core.index.disk.DiskIndex;
 import org.lemurproject.galago.core.parse.Document;
@@ -14,11 +18,26 @@ import entityRetrieval.core.GalagoOrchestrator;
 
 public class DocumentLinkReader {
 	private List<ScoredDocument> documents;
-	private String query;
 	private String path;
+	private String query;
+	private HashMap<String,ArrayList<Entity>> mapping;
+	private HashMap<Long,Integer> entitiesPerDoc;
+
 	
-	public DocumentLinkReader(String query){
-		this.query=query;
+	public DocumentLinkReader(){
+		TopicToEntityMapper mapper = new TopicToEntityMapper();
+		this.mapping = mapper.generateRelevantEntities();
+		Random r = new Random();
+		int topicChoice = r.nextInt(mapping.keySet().size());
+		Set<String> keySet = mapping.keySet();
+		Iterator<String> i = keySet.iterator();
+		int count = 0;
+		while(count!=topicChoice){
+			i.next();
+			count++;
+		}
+		this.query=i.next().toString();
+		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
 		this.documents=orchestrator.getDocuments(query, 50);
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
@@ -69,7 +88,18 @@ public class DocumentLinkReader {
 			
 			
 		}
+		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
+		MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc);
 		return foundEntities;
+	}
+	public List<ScoredDocument> getScoredDocuments(){
+		return this.documents;
+	}
+	public HashMap<String,ArrayList<Entity>> getMapping(){
+		return this.mapping;
+	}
+	public String getQuery(){
+		return this.query;
 	}
 
 }
