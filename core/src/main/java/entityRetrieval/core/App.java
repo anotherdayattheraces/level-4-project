@@ -52,14 +52,14 @@ public class App {
     		//sqs.search();
     	}
     	else if(fn.equals("evaluate")){
-    		//MetaMapEvaluator mmeval = new MetaMapEvaluator();
-    		//mmeval.evauluate();
+    		MetaMapEvaluator mmeval = new MetaMapEvaluator();
+    		mmeval.evauluate();
     		MedLinkEvaluator seval = new MedLinkEvaluator();
-    		seval.evaluate();
+    		seval.computeStatistics();
     	}
     	else if(fn.equals("test")){
-    		DocumentLinkReaderEvaluator dlre = new DocumentLinkReaderEvaluator();
-    		dlre.computeStatistics();
+    		//DocumentLinkReaderEvaluator dlre = new DocumentLinkReaderEvaluator();
+    		//dlre.computeStatistics();
     		//MedLinkEvaluator mle = new MedLinkEvaluator();
     		//mle.evaluate();
     		//KBLinkerEvaluator kble = new KBLinkerEvaluator();

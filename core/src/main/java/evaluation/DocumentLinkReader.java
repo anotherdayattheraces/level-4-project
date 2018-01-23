@@ -29,6 +29,7 @@ public class DocumentLinkReader {
 		this.mapping = mapper.generateRelevantEntities();
 		Random r = new Random();
 		int topicChoice = r.nextInt(mapping.keySet().size());
+		topicChoice=6;
 		Set<String> keySet = mapping.keySet();
 		Iterator<String> i = keySet.iterator();
 		int count = 0;
@@ -87,6 +88,11 @@ public class DocumentLinkReader {
 			} 
 			
 			
+		}
+		try {
+			index.close();
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
 		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
 		MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc);

@@ -3,27 +3,37 @@ package customEntityLinker;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
+import org.lemurproject.galago.core.retrieval.ScoredDocument;
 
 import dictionary.DictionaryHashMap;
 import entityRetrieval.core.Entity;
-import entityRetrieval.core.Pair;
+import entityRetrieval.core.GalagoOrchestrator;
+import evaluation.MedLinkEvaluator;
+import evaluation.TopicToEntityMapper;
 
 
 public class MedLink {
 	private DictionaryHashMap dictionary;
-	private ArrayList<Long> documents;
-	private ArrayList<Pair<Entity,Integer>> matchedEntities;
+	private List<ScoredDocument> scoredDocs;
 	private String path;
+	private HashMap<String,ArrayList<Entity>> mapping;
+	private String query;
 	
 	
-	public MedLink(ArrayList<Long> docs, DictionaryHashMap dictionary){
-		this.dictionary = dictionary;
-		this.documents = docs;
-		this.matchedEntities = new ArrayList<Pair<Entity,Integer>>();
+	public MedLink(){
+		TopicToEntityMapper mapper = new TopicToEntityMapper();
+		this.mapping = mapper.generateRelevantEntities();
+		this.dictionary = mapper.getDictionary();
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
+		this.query=MedLinkEvaluator.generateRandomTopic(mapping);
+		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
+		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 		
 		
 	}
@@ -46,11 +56,11 @@ public class MedLink {
 		String threeWords = null;
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, false, true );
 		int docNo = 1;
-		for(Long d:documents){
-			System.out.println("Processing doc "+docNo++ +" of "+documents.size());
+		for(ScoredDocument sd:scoredDocs){
+			System.out.println("Processing doc "+docNo++ +" of "+scoredDocs.size());
 			Document doc=null;
 			try {
-				doc = index.getDocument( index.getDocumentName( d ), dc );
+				doc = index.getDocument( index.getDocumentName( sd.document ), dc );
 			} catch (IOException e) {
 				return null;
 			}
@@ -95,31 +105,31 @@ public class MedLink {
 					if(!one&&!two&&!three) continue; //no entity matches
 					for(Entity entity:foundEntities){
 						if(one&&entity.getName().equals(term)){
-							entity.addAppearance(d);
+							entity.addAppearance(sd.document);
 							exists = true;
 						}
 						else if(two&&entity.getName().equals(twoWords)){
-							entity.addAppearance(d);
+							entity.addAppearance(sd.document);
 							exists = true;
 						}
 						else if(three&&entity.getName().equals(threeWords)){
-							entity.addAppearance(d);
+							entity.addAppearance(sd.document);
 							exists=true;
 						}
 					}
 					if(!exists){
 						if(one){
-							dictionary.getEntity(term).addAppearance(d);;
+							dictionary.getEntity(term).addAppearance(sd.document);;
 							foundEntities.add(dictionary.getEntity(term));
 							//matchedEntities.add(new Pair<Entity, Integer>(new Entity(term),1));
 							}
 						else if(two){
-							dictionary.getEntity(twoWords).addAppearance(d);;
+							dictionary.getEntity(twoWords).addAppearance(sd.document);;
 							foundEntities.add(dictionary.getEntity(twoWords));
 							//matchedEntities.add(new Pair<Entity, Integer>(new Entity(twoWords),1));
 							}
 						else if(three){
-							dictionary.getEntity(threeWords).addAppearance(d);;
+							dictionary.getEntity(threeWords).addAppearance(sd.document);;
 							foundEntities.add(dictionary.getEntity(threeWords));
 							//matchedEntities.add(new Pair<Entity, Integer>(new Entity(threeWords),1));
 							}
@@ -129,8 +139,22 @@ public class MedLink {
 					}
 							
 						}
+		try {
+			index.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		return foundEntities;
 		
+	}
+	public List<ScoredDocument> getScoredDocs(){
+		return this.scoredDocs;
+	}
+	public HashMap<String,ArrayList<Entity>> getMapping(){
+		return this.mapping;
+	}
+	public String getQuery(){
+		return this.query;
 	}
 
 

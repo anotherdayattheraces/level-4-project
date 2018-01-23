@@ -33,9 +33,16 @@ public class DocumentLinkReaderEvaluator {
 		MedLinkEvaluator.setAllRanks(listOfEntities);
 		ArrayList<Entity> relevantEntities = mapping.get(query);
 		MedLinkEvaluator.calculatePrecision(listOfEntities, relevantEntities);
+		for(Entity e:relevantEntities){
+			System.out.println(e.getName());
+		}
+		double averagePrecision=0;
 		for(Entity entity:listOfEntities){
+			averagePrecision+=entity.getPrecision();
 			System.out.println(entity.getName()+" Rank: "+entity.getRank()+" Score: "+entity.getScore()+ " Precision: "+entity.getPrecision());
 		}
+		averagePrecision=averagePrecision/(double)listOfEntities.size();
+		System.out.println(averagePrecision);
 	}
 
 }

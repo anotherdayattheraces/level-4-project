@@ -3,14 +3,20 @@ package metamap;
 import java.io.IOException;
 import java.text.Normalizer;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
+import org.lemurproject.galago.core.retrieval.ScoredDocument;
+
 import dictionary.DictionaryHashMap;
 import entityRetrieval.core.Entity;
+import entityRetrieval.core.GalagoOrchestrator;
 import entityRetrieval.core.SnomedEntity;
+import evaluation.MedLinkEvaluator;
+import evaluation.TopicToEntityMapper;
 import gov.nih.nlm.nls.metamap.Ev;
 import gov.nih.nlm.nls.metamap.Mapping;
 import gov.nih.nlm.nls.metamap.MetaMapApi;
@@ -23,19 +29,24 @@ import gov.nih.nlm.nls.metamap.Utterance;
 
 public class MetaMapEntityLinker {
 	private List<String> options = new ArrayList<String>();
-	private ArrayList<Long> documents;
+	private List<ScoredDocument> scoredDocs;
 	private String path;
+	private String query;
+	private HashMap<String,ArrayList<Entity>> mapping;
 	
-	public MetaMapEntityLinker(ArrayList<Long> documents){
+	public MetaMapEntityLinker(){
 		this.options = setOptions("-A,-K");
-		this.documents=documents;
+		TopicToEntityMapper mapper = new TopicToEntityMapper();
+		this.mapping = mapper.generateRelevantEntities();
+		this.query=MedLinkEvaluator.generateRandomTopic(mapping);
+		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
+		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 	}
 	
-	public DictionaryHashMap linkArticles(){
-		DictionaryHashMap dhm = new DictionaryHashMap();
+	public ArrayList<Entity> linkArticles(){
+		ArrayList<Entity> foundEntities = new ArrayList<Entity>();
 		Retrieval index=null;
-		//Boolean twothree=true;
 		try {
 			index = RetrievalFactory.instance( path );
 		} catch (Exception e1) {
@@ -47,28 +58,19 @@ public class MetaMapEntityLinker {
 		MetaMapApi api = new MetaMapApiImpl();
 		
 		api.setOptions(options);
-		System.out.println("Found "+documents.size()+" documents relevant to the query");
+		System.out.println("Found "+scoredDocs.size()+" documents relevant to the query");
 		int docNo=1;
-		for(Long d:documents){
-			//if(count++>=50){
-		//		break;
-		//	}
+		for(ScoredDocument scoredDoc:scoredDocs){
 			Document doc=null;
 			try {
-				doc = index.getDocument( index.getDocumentName( d ), dc );
+				doc = index.getDocument( index.getDocumentName( scoredDoc.document ), dc );
 			} catch (IOException e) {
-				System.err.println("article: "+d+" not contained within index");
+				System.err.println("article: "+scoredDoc.document+" not contained within index");
 				e.printStackTrace();
 				return null;
 			}
 			String documentText = generateString(doc.terms);
-			System.out.println(documentText);
-			//if(docNo == 11&&twothree){
-			//	twothree = false;
-			//	continue;
-			//}
-			System.out.println("Processing document "+docNo++ +" of "+documents.size());
-			//if(docNo!=12) continue;
+			System.out.println("Processing document "+docNo++ +" of "+scoredDocs.size());
 			List<Result> resultList = api.processCitationsFromString(documentText);
 			Result result = resultList.get(0);
 			try {
@@ -86,16 +88,9 @@ public class MetaMapEntityLinker {
 				              //System.out.println("   Score: " + mapEv.getScore());
 					          //System.out.println("   Preferred Name: " + mapEv.getPreferredName());
 					          //System.out.println("   Matched Words: " + mapEv.getMatchedWords());
-				              
-				              if(!dhm.lookupId(mapEv.getPreferredName(),mapEv.getConceptId())){
-				            	  dhm.addEntity(new Entity(mapEv.getPreferredName(),mapEv.getConceptId(),mapEv.getScore(),d));
-				              }
-
-				              else{
-				            	  dhm.getEntity(mapEv.getPreferredName(), mapEv.getConceptId()).addAppearance(d);;
-				              }
-}
-					}
+				              addEntity(mapEv,foundEntities,scoredDoc.document);
+				            }
+				          }
 					}
 				}
 			} catch (Exception e) {
@@ -104,8 +99,8 @@ public class MetaMapEntityLinker {
 			}
 		}
 			
-		System.out.println(dhm.getDictionary().size());
-		return dhm;
+		System.out.println(foundEntities.size());
+		return foundEntities;
 }
 	public static String generateString(List<String> terms){
 		StringBuilder sb = new StringBuilder();
@@ -130,4 +125,34 @@ public class MetaMapEntityLinker {
 	}
 		return optionList;
 }
+	public void addEntity(Ev mapEv, ArrayList<Entity> entities, Long docid){
+		for(Entity e:entities){
+			try {
+				if(e.getName().equals(mapEv.getPreferredName())){
+					e.addAppearance(docid);
+					return;
+				}
+			} catch (Exception e1) {
+				e1.printStackTrace();
+			}
+		}
+		Entity toAdd = null;
+		try {
+			toAdd = new Entity(mapEv.getPreferredName(),mapEv.getConceptId());
+		} catch (Exception e1) {
+			e1.printStackTrace();
+		}
+		toAdd.addAppearance(docid);
+		entities.add(toAdd);
+		return;
+	}
+	public List<ScoredDocument> getScoredDocuments(){
+		return this.scoredDocs;
+	}
+	public String getQuery(){
+		return this.query;
+	}
+	public HashMap<String,ArrayList<Entity>> getMapping(){
+		return this.mapping;
+	}
 }

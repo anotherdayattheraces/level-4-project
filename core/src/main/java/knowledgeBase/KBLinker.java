@@ -29,16 +29,7 @@ public class KBLinker {
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
 		this.mapping = mapper.generateRelevantEntities();
-		Random r = new Random();
-		int topicChoice = r.nextInt(mapping.keySet().size());
-		Set<String> keySet = mapping.keySet();
-		Iterator<String> i = keySet.iterator();
-		int count = 0;
-		while(count!=topicChoice){
-			i.next();
-			count++;
-		}
-		this.query=i.next().toString();
+		this.query=MedLinkEvaluator.generateRandomTopic(mapping);
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
@@ -141,8 +132,14 @@ public class KBLinker {
 		return;
 		
 	}
-	public String createID(String name){
+	public String getQuery(){
+		return this.query;
+	}
+	public static String createID(String name){
 		return name.replaceAll(" ", "%20");
+	}
+	public HashMap<String,ArrayList<Entity>> getMapping(){
+		return this.mapping;
 	}
 
 }

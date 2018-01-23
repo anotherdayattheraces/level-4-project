@@ -107,8 +107,11 @@ public class Entity {
 		return this.rank;
 	}
 	public double setPrecision(double currentSum,int rank,int related){
-		 this.precision = (currentSum*related)/rank;
-		 return this.precision;
+		if(currentSum==0){
+			currentSum=1;
+		}
+		this.precision = (currentSum*related)/rank;
+		return this.precision;
 		
 	}
 	public double getPrecision(){

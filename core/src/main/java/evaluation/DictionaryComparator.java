@@ -48,11 +48,11 @@ public class DictionaryComparator {
 		this.documents = documents;
 		SnomedDictionaryInitializer init = new SnomedDictionaryInitializer();
 		MedLink snomedCounter = null;
-		try {
-			snomedCounter = new MedLink(documents, init.initialize());
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		//try {
+		//	snomedCounter = new MedLink(documents, init.initialize());
+		//} catch (IOException e) {
+		//	e.printStackTrace();
+		//}
 		this.customDictionaryResults = snomedCounter.matchEntities();
 		MetaMapEntityLinker mmlinker = new MetaMapEntityLinker(documents);
 		this.metamapResults = mmlinker.linkArticles();
