@@ -26,7 +26,7 @@ import metamap.MetaMapEntityLinker;
 public class DictionaryComparator {
 	private ArrayList<Long> documents;
 	private ArrayList<Entity> customDictionaryResults;
-	private DictionaryHashMap metamapResults;
+	private ArrayList<Entity> metamapResults;
 	private String path;
 	
 	public DictionaryComparator() throws IOException{
@@ -54,8 +54,8 @@ public class DictionaryComparator {
 		//	e.printStackTrace();
 		//}
 		this.customDictionaryResults = snomedCounter.matchEntities();
-		MetaMapEntityLinker mmlinker = new MetaMapEntityLinker(documents);
-		this.metamapResults = mmlinker.linkArticles();
+		MetaMapEntityLinker mmlinker = new MetaMapEntityLinker();
+		this.metamapResults = mmlinker.generateEntities();
 		
 	}
 	
@@ -77,8 +77,8 @@ public class DictionaryComparator {
 		String docText = MetaMapEntityLinker.generateString(doc.terms);
 		System.out.println("Document text:");
 		System.out.println(docText);
-		System.out.println("Metamap found "+metamapResults.getSize()+" entities:");
-		for(Entity entity:metamapResults.toArray()){
+		System.out.println("Metamap found "+metamapResults.size()+" entities:");
+		for(Entity entity:metamapResults){
 			System.out.println(entity.getName());
 		}
 		System.out.println("Alternative dictionary found "+customDictionaryResults.size()+" entities:");

@@ -17,10 +17,10 @@ public class QueryEnhancer {
 	}
 
 	public ArrayList<Entity> enhanceQuery(){
-		MetaMapEntityLinker linker = new MetaMapEntityLinker(documents);
-		DictionaryHashMap dictionaryMap = linker.linkArticles();
+		MetaMapEntityLinker linker = new MetaMapEntityLinker();
+		ArrayList<Entity> mmentities = linker.generateEntities();
 		ArrayList<Entity> entityList = new ArrayList<Entity>();
-		for(Entity e:dictionaryMap.toArray()){
+		for(Entity e:mmentities){
 			e.calculateIDF(50);
 			e.calculateTFIDF();
 			System.out.println("Entity name: "+e.getName()+" entity ID: "+e.getId()+" tfidf: "+e.getTFIDF());

@@ -11,10 +11,8 @@ import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 
-import dictionary.DictionaryHashMap;
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.GalagoOrchestrator;
-import entityRetrieval.core.SnomedEntity;
 import evaluation.MedLinkEvaluator;
 import evaluation.TopicToEntityMapper;
 import gov.nih.nlm.nls.metamap.Ev;
@@ -28,14 +26,15 @@ import gov.nih.nlm.nls.metamap.Utterance;
 
 
 public class MetaMapEntityLinker {
-	private List<String> options = new ArrayList<String>();
 	private List<ScoredDocument> scoredDocs;
 	private String path;
 	private String query;
 	private HashMap<String,ArrayList<Entity>> mapping;
+	private HashMap<Long,Integer> entitiesPerDoc;
+
 	
 	public MetaMapEntityLinker(){
-		this.options = setOptions("-A,-K");
+		//this.options = setOptions("-A,-K,-R [SNOMEDCT]");
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
 		this.mapping = mapper.generateRelevantEntities();
 		this.query=MedLinkEvaluator.generateRandomTopic(mapping);
@@ -44,7 +43,7 @@ public class MetaMapEntityLinker {
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 	}
 	
-	public ArrayList<Entity> linkArticles(){
+	public ArrayList<Entity> generateEntities(){
 		ArrayList<Entity> foundEntities = new ArrayList<Entity>();
 		Retrieval index=null;
 		try {
@@ -56,8 +55,8 @@ public class MetaMapEntityLinker {
 		}
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, false, true );
 		MetaMapApi api = new MetaMapApiImpl();
-		
-		api.setOptions(options);
+		//api.setTimeout(5000);
+		api.setOptions("-K -A -y");
 		System.out.println("Found "+scoredDocs.size()+" documents relevant to the query");
 		int docNo=1;
 		for(ScoredDocument scoredDoc:scoredDocs){
@@ -69,22 +68,26 @@ public class MetaMapEntityLinker {
 				e.printStackTrace();
 				return null;
 			}
+			
 			String documentText = generateString(doc.terms);
+			System.out.println(documentText);
 			System.out.println("Processing document "+docNo++ +" of "+scoredDocs.size());
 			List<Result> resultList = api.processCitationsFromString(documentText);
 			Result result = resultList.get(0);
 			try {
-				for (Utterance utterance: result.getUtteranceList()) {
-					//System.out.println("Utterance:");
+				for (Utterance utterance: result.getUtteranceList()) {					
 					//System.out.println(" Id: " + utterance.getId());
 					//System.out.println(" Utterance text: " + utterance.getString());
 					//System.out.println(" Position: " + utterance.getPosition());
 					//System.out.println("Candidates:");
 					for (PCM pcm: utterance.getPCMList()) {
+						//System.out.println(pcm.getMappingList().size());
 						if(pcm.getMappingList().size()==0) continue;
 				          for (Mapping map: pcm.getMappingList()) {
 				            for (Ev mapEv: map.getEvList()) {
-				              if(mapEv.getPreferredName().length()<3) continue;
+				              //if(mapEv.getPreferredName().length()<3) continue;
+				              if(!mapEv.getSources().contains("SNOMEDCT_US")&& !mapEv.getSources().contains("SNOMEDCT_VET")) continue;
+				              //System.out.println("   Sources: " + mapEv.getSources());
 				              //System.out.println("   Score: " + mapEv.getScore());
 					          //System.out.println("   Preferred Name: " + mapEv.getPreferredName());
 					          //System.out.println("   Matched Words: " + mapEv.getMatchedWords());
@@ -94,14 +97,14 @@ public class MetaMapEntityLinker {
 					}
 				}
 			} catch (Exception e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
-			
-		System.out.println(foundEntities.size());
+		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
+		MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
 		return foundEntities;
 }
+
 	public static String generateString(List<String> terms){
 		StringBuilder sb = new StringBuilder();
 		for(String s:terms){
@@ -116,15 +119,7 @@ public class MetaMapEntityLinker {
 		return sb.toString();
 	}
 	
-	public List<String> setOptions(String additionalOptions){ //options are in format -a,-b,-c 
-		List<String> optionList = new ArrayList<String>();
-		optionList.add("-y");
-		if(additionalOptions.length()>0){
-			String[] options = additionalOptions.split(",");
-			for(String s:options) optionList.add(s);
-	}
-		return optionList;
-}
+
 	public void addEntity(Ev mapEv, ArrayList<Entity> entities, Long docid){
 		for(Entity e:entities){
 			try {

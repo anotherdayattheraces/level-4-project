@@ -108,4 +108,5 @@ public class DocumentLinkReader {
 		return this.query;
 	}
 
+
 }

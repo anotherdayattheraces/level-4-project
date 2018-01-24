@@ -1,23 +1,13 @@
 package evaluation;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
-import java.util.Set;
-
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
-
-import entityRetrieval.core.DocumentIdentifier;
 import entityRetrieval.core.Entity;
-import entityRetrieval.core.GalagoOrchestrator;
-import entityRetrieval.core.Pair;
 import metamap.MetaMapEntityLinker;
 
 public class MetaMapEvaluator {
@@ -30,12 +20,12 @@ public class MetaMapEvaluator {
 	
 	public MetaMapEvaluator(){
 		MetaMapEntityLinker linker = new MetaMapEntityLinker();
-		this.returnedEntities=linker.linkArticles();
+		this.returnedEntities=linker.generateEntities();
 		this.mapping = linker.getMapping();
 		this.query=linker.getQuery();
+		System.out.println("Chosen query: "+query);
 		this.scoredDocs=linker.getScoredDocuments();
 		this.finalDocScores=RelevanceModel1.logstoposteriors(scoredDocs);
-		System.out.println("Chosen query: "+query);
 	} 
 	
 	public void computeStatistics(){

@@ -23,6 +23,7 @@ import gov.nih.nlm.nls.metamap.Result;
 import knowledgeBase.KBLinker;
 import knowledgeBase.SnomedToWikiMapper;
 import metamap.MetaMapEntityLinker;
+import misc.CategoryGenerator;
 import pseudoRelavanceFeedback.QueryEnhancer;
 
 
@@ -53,17 +54,24 @@ public class App {
     	}
     	else if(fn.equals("evaluate")){
     		MetaMapEvaluator mmeval = new MetaMapEvaluator();
-    		mmeval.evauluate();
+    		mmeval.computeStatistics();
     		MedLinkEvaluator seval = new MedLinkEvaluator();
     		seval.computeStatistics();
     	}
     	else if(fn.equals("test")){
+    		//SnomedToWikiMapper stwm = new SnomedToWikiMapper();
+    		//stwm.saveMappings(stwm.generateMappings());
+    		CategoryGenerator cg = new CategoryGenerator();
+    		HashMap<String,Integer> categories = cg.findCategories();
+    		cg.saveCategories(categories);
     		//DocumentLinkReaderEvaluator dlre = new DocumentLinkReaderEvaluator();
     		//dlre.computeStatistics();
     		//MedLinkEvaluator mle = new MedLinkEvaluator();
     		//mle.evaluate();
     		//KBLinkerEvaluator kble = new KBLinkerEvaluator();
     		//kble.computeStatistics();
+    		//MetaMapEvaluator mme = new MetaMapEvaluator();
+    		//mme.computeStatistics();
     	}
     	else if(fn.equals("initialize")){
     		//DbpediaDictionaryGenerator ddg = new DbpediaDictionaryGenerator();

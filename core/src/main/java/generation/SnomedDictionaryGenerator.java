@@ -38,6 +38,15 @@ public class SnomedDictionaryGenerator extends DictionaryGenerator{
 				else if(line.contains("(disorder)")){
 					type = "disorder";
 				}
+				else if(line.contains("(observable entity)")){
+					type = "observable entity";
+				}
+				else if(line.contains("(procedure)")){
+					type = "procedure";
+				}
+				else if(line.contains("(body structure)")){
+					type = "body structure";
+				}
 				else{
 					continue;
 				}

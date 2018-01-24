@@ -10,26 +10,17 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
-
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
-
 import customEntityLinker.MedLink;
-import dictionary.DictionaryHashMap;
-import dictionary.DictionaryInitializer;
-import dictionary.SnomedDictionaryInitializer;
-import dictionary.DbpediaDictionaryInitializer;
-import entityRetrieval.core.DocumentIdentifier;
 import entityRetrieval.core.Entity;
-import entityRetrieval.core.GalagoOrchestrator;
 import entityRetrieval.core.Pair;
-import entityRetrieval.core.ResultSet;
+
 
 public class MedLinkEvaluator {
 	private HashMap<String,ArrayList<Entity>> mapping;
 	private ArrayList<Entity> returnedEntities;
 	private String query;
-	private DictionaryHashMap dictionary;
 	private List<ScoredDocument> scoredDocs;
 	private HashMap<Long,Integer> entitiesPerDoc;
 	private Map<ScoredDocument, Double> finalDocScores;
