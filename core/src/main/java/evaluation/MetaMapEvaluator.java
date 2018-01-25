@@ -45,6 +45,7 @@ public class MetaMapEvaluator {
 		averagePrecision=averagePrecision/(double)returnedEntities.size();
 		System.out.println(averagePrecision);
 	}
+	
 		
 	
 

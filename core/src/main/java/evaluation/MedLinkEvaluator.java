@@ -158,6 +158,12 @@ public class MedLinkEvaluator {
 				if(EntityMatcher.removeBracketDescription(relevantEntity.getName()).equals(EntityMatcher.removeBracketDescription(returnedEntity.getName()))){
 					related=1;
 				}
+				if(returnedEntity.getName().split(" ").length>=3){
+					if(EntityMatcher.lastTwoWords(returnedEntity.getName()).equals(relevantEntity.getName())){
+						related=1;
+						System.out.println("Dodgy match of: "+returnedEntity.getName()+" to: "+relevantEntity.getName());
+					}
+				}
 			}
 			currentSum=returnedEntity.setPrecision(currentSum, returnedEntity.getRank(),related);
 		}

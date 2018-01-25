@@ -37,7 +37,6 @@ public class CategoryGenerator {
 		}
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, true, true );
 		String categoryIndicator = "<link tokenizeTagContent=\"false\">Category:";
-		int line=0;
 		String previous = null;
 		for(String key:mappedEntities.keySet()){
 			for(String wikiEntity:mappedEntities.get(key) ){

@@ -53,25 +53,20 @@ public class App {
     		//sqs.search();
     	}
     	else if(fn.equals("evaluate")){
-    		MetaMapEvaluator mmeval = new MetaMapEvaluator();
-    		mmeval.computeStatistics();
-    		MedLinkEvaluator seval = new MedLinkEvaluator();
-    		seval.computeStatistics();
+    		//MetaMapEvaluator mmeval = new MetaMapEvaluator();
+    		//mmeval.computeStatistics();
+    		//MedLinkEvaluator seval = new MedLinkEvaluator();
+    		//seval.computeStatistics();
+    		KBLinkerEvaluator kble = new KBLinkerEvaluator();
+    		kble.computeStatistics();
     	}
     	else if(fn.equals("test")){
-    		//SnomedToWikiMapper stwm = new SnomedToWikiMapper();
-    		//stwm.saveMappings(stwm.generateMappings());
+    		SnomedToWikiMapper stwm = new SnomedToWikiMapper();
+    		stwm.saveMappings(stwm.generateMappings());
     		CategoryGenerator cg = new CategoryGenerator();
     		HashMap<String,Integer> categories = cg.findCategories();
     		cg.saveCategories(categories);
-    		//DocumentLinkReaderEvaluator dlre = new DocumentLinkReaderEvaluator();
-    		//dlre.computeStatistics();
-    		//MedLinkEvaluator mle = new MedLinkEvaluator();
-    		//mle.evaluate();
-    		//KBLinkerEvaluator kble = new KBLinkerEvaluator();
-    		//kble.computeStatistics();
-    		//MetaMapEvaluator mme = new MetaMapEvaluator();
-    		//mme.computeStatistics();
+
     	}
     	else if(fn.equals("initialize")){
     		//DbpediaDictionaryGenerator ddg = new DbpediaDictionaryGenerator();

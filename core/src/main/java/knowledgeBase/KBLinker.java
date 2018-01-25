@@ -58,6 +58,7 @@ public class KBLinker {
 			String threeWords = null;
 			String fourWords = null;
 			for(String currentWord:currentDoc.terms){
+				if(currentWord==null||currentWord.contains(" ")) continue;
 				if(lineNum>1){
 					twoWords = onePreviousWord+" "+currentWord;
 				}
@@ -74,40 +75,37 @@ public class KBLinker {
 				if(lineNum>1){
 					twoPreviousWord=onePreviousWord;
 				}
+				System.out.println(currentWord);
 				onePreviousWord=currentWord;
 				lineNum++;
-				currentWord = currentWord.substring(0, 1).toUpperCase()+currentWord.substring(1);
+				currentWord = currentWord.substring(0, 1).toUpperCase()+currentWord.substring(1); //format current word: brass -> Brass
 				if(twoWords!=null){
 					twoWords = SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(twoWords);
+					if(searcher.lookupTerm(twoWords)){
+						addEntity(twoWords,entities,sd.document);
+						//System.out.println("Found entity: "+twoWords);
+					}
 				}
 				if(threeWords!=null){
 					threeWords = SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(threeWords);
+					if(searcher.lookupTerm(threeWords)){
+						addEntity(threeWords,entities,sd.document);
+						//System.out.println("Found entity: "+threeWords);
+
+					}
 				}
 				if(fourWords!=null){
 					fourWords = SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(fourWords);
+					if(searcher.lookupTerm(fourWords)){
+						addEntity(fourWords,entities,sd.document);
+						//System.out.println("Found entity: "+fourWords);
+
+					}
 				}
 				if(searcher.lookupTerm(currentWord)){
 					addEntity(currentWord,entities,sd.document);
-
+					//System.out.println("Found entity: "+currentWord);
 				}
-				if(twoWords!=null){
-					if(searcher.lookupTerm(twoWords)){
-						addEntity(twoWords,entities,sd.document);
-
-					}
-				}
-				if(threeWords!=null){
-					if(searcher.lookupTerm(threeWords)){
-						addEntity(threeWords,entities,sd.document);
-
-					}
-				}
-				if(fourWords!=null){
-					if(searcher.lookupTerm(fourWords)){
-						addEntity(fourWords,entities,sd.document);
-					}
-				}
-
 			}
 		}
 		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(entities);

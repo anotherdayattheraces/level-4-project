@@ -26,10 +26,10 @@ public class SnomedDictionaryGenerator extends DictionaryGenerator{
 				endOfString = array[6];
 			}
 			if(started){
-				if(line.contains("(organism")){
-					type = "organism";
-				}
-				else if(line.contains("(substance)")){
+				//if(line.contains("(organism")){ removed as gave me too many non medical entities
+				//	type = "organism";
+				//}
+				if(line.contains("(substance)")){
 					type = "substance";
 				}
 				else if(line.contains("(disease)")){

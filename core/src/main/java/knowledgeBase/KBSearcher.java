@@ -25,9 +25,10 @@ public class KBSearcher {
 		try {
 			id = index.getIdentifier(term);
 		} catch (IOException e) {
-			//e.printStackTrace();
+			e.printStackTrace();
 		}
 		if(id!=-1){
+
 			return true;
 		}
 		return false;

@@ -31,7 +31,7 @@ public class SnomedDictionaryInitializer extends DictionaryInitializer{
 			dictionary.addEntity(new Entity(name,id));
 			
 		}
-
+		br.close();
 		return dictionary;
 	}
 
