@@ -15,6 +15,7 @@ import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
 import customEntityLinker.MedLink;
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.Pair;
+import knowledgeBase.KBFilter;
 
 
 public class MedLinkEvaluator {
@@ -32,31 +33,30 @@ public class MedLinkEvaluator {
 		this.finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
 		this.mapping=medlink.getMapping();
 		this.query=medlink.getQuery();
+		
 	}
 	
 	public void computeStatistics(){
 		ArrayList<Entity> relevantEntities = mapping.get(query);
+		System.out.println("Num unfiltered entities: "+returnedEntities.size());
+		KBFilter kbfilter = new KBFilter(returnedEntities);
+		returnedEntities=kbfilter.filterEntities();
+		System.out.println("Num filtered entities: "+returnedEntities.size());
 		this.entitiesPerDoc = calculateEntitiesPerDoc(returnedEntities); //fill the Long,Int hashmap for each entity for it's appearances per doc
 		setMentionProbablities(returnedEntities,entitiesPerDoc);
 		setScores(returnedEntities,finalDocScores); //compute final scores for all entities
 		Collections.sort(returnedEntities, score);
 		MedLinkEvaluator.setAllRanks(returnedEntities);
-		MedLinkEvaluator.calculatePrecision(returnedEntities, relevantEntities);
 		for(Entity e:relevantEntities){
 			System.out.println(e.getName());
 		}
-		double averagePrecision=0;
+		System.out.println("Returned: ");
 		for(Entity entity:returnedEntities){
-			averagePrecision+=entity.getPrecision();
-			System.out.println(entity.getName()+" Rank: "+entity.getRank()+" Score: "+entity.getScore()+ " Precision: "+entity.getPrecision());
+			System.out.println(entity.getName()+" Rank: "+entity.getRank()+" Score: "+entity.getScore());
 		}
-		averagePrecision=averagePrecision/(double)returnedEntities.size();
-		System.out.println(averagePrecision);
 		
 		}
 		
-		
-	
 
 	public static void sortByScore(ArrayList<Entity> unorderedList){
 	}
@@ -81,17 +81,10 @@ public class MedLinkEvaluator {
 					}
 				}
 	}
-	public static String generateRandomTopic(HashMap<String,ArrayList<Entity>> mapping){
+	public static String generateRandomTopic(ArrayList<String> mapping){
 		Random r = new Random();
-		int topicChoice = r.nextInt(mapping.keySet().size());
-		Set<String> keySet = mapping.keySet();
-		Iterator<String> i = keySet.iterator();
-		int count = 0;
-		while(count!=topicChoice){
-			i.next();
-			count++;
-		}
-		return i.next().toString();
+		int topicChoice = r.nextInt(mapping.size());		
+		return mapping.get(topicChoice);
 	}
 	public static HashMap<Long,Integer> calculateEntitiesPerDoc(ArrayList<Entity> listofEntities){
 		HashMap<Long,Integer> entitiesPerDoc = new HashMap<Long,Integer>();

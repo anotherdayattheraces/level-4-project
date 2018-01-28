@@ -21,14 +21,17 @@ public class KBLinker {
 	private HashMap<String,ArrayList<Entity>> mapping;
 	private List<ScoredDocument> scoredDocs;
 	private HashMap<Long,Integer> entitiesPerDoc;
+	private ArrayList<String> topics;
+
 
 	
 	public KBLinker(){
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
-		TopicToEntityMapper mapper = new TopicToEntityMapper();
-		this.mapping = mapper.generateRelevantEntities();
-		this.query=MedLinkEvaluator.generateRandomTopic(mapping);
+		this.query=MedLinkEvaluator.generateRandomTopic(topics);
 		System.out.println("Chosen query: "+query);
+		TopicToEntityMapper mapper = new TopicToEntityMapper();
+		this.mapping = mapper.generateRelevantEntities(query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 	}
@@ -75,7 +78,7 @@ public class KBLinker {
 				if(lineNum>1){
 					twoPreviousWord=onePreviousWord;
 				}
-				System.out.println(currentWord);
+				//System.out.println(currentWord);
 				onePreviousWord=currentWord;
 				lineNum++;
 				currentWord = currentWord.substring(0, 1).toUpperCase()+currentWord.substring(1); //format current word: brass -> Brass

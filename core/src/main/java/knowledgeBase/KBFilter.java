@@ -21,11 +21,11 @@ public class KBFilter {
 	public KBFilter(ArrayList<Entity> returnedEntities){
 		this.path="C:/Work/Project/samples/prototype4/level-4-project/core/categories.txt";
 		this.kbPath="C:/Work/Project/samples/Unprocessed_Index";
-		this.categories=readInCategories();
+		this.categories=readInCategories(path);
 		this.returnedEntities=returnedEntities;
 	}
 		
-	public ArrayList<String> readInCategories(){
+	public static ArrayList<String> readInCategories(String path){
 		FileReader file = null;
 		try {
 			file = new FileReader(path);
@@ -42,12 +42,12 @@ public class KBFilter {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("Inital list size: "+categories.size());
+		//System.out.println("Inital list size: "+categories.size());
 		Double catSize = (double) (categories.size()/100);
 		Double N = (double) 30; //the percent of the top categories to keep
 		catSize=catSize*N;
 		int topNPercent = Integer.valueOf(catSize.intValue());
-		System.out.println("Final list size: "+topNPercent);
+		//System.out.println("Final list size: "+topNPercent);
 		while(categories.size()!=topNPercent){
 			categories.remove(categories.size()-1); //keep removing final element until list is right size
 		}
@@ -57,28 +57,20 @@ public class KBFilter {
 	public ArrayList<Entity> filterEntities(){
 		HashMap<String,ArrayList<String>> entityToCategoriesMapping = getEntityCategories();
 		ArrayList<Entity> filteredEntities = new ArrayList<Entity>();
-		for(int i=0;i<returnedEntities.size();i++){
-			for(String entity:entityToCategoriesMapping.keySet()){
-				if(returnedEntities.get(i).getName().equals(entity)){
-					Boolean catMatch = false;
-					for(String category:categories){
-						for(String entityCat:entityToCategoriesMapping.get(entity)){
-							if(category.equals(entityCat)){
-								if(!filteredEntities.contains(returnedEntities.get(i))){
-									System.out.println("Matched category: "+entityCat+" for entity: "+entity);
-									filteredEntities.add(returnedEntities.get(i));
-									catMatch=true;
-								}
-								
-							}
-						}
-					}
-					if(!catMatch){
-						System.out.println("Removed entity: "+returnedEntities.get(i).getName());
-					}			
+		for(Entity entity:returnedEntities){
+			if((entityToCategoriesMapping.get(entity.getName())!=null)){
+				Boolean catMatch = findCategoryMatch(categories,entityToCategoriesMapping.get(entity.getName()),entity);
+				if(catMatch){
+					filteredEntities.add(entity);
 				}
+				else{
+					System.out.println("Removed entity: "+entity.getName());
+					}
+				}
+			else{
+				System.out.println("Couldn't find any categories for: "+entity.getName());
 			}
-		}
+			}
 		return filteredEntities;
 	}
 	
@@ -100,7 +92,15 @@ public class KBFilter {
 				e.printStackTrace();
 			}
 			if(document==null){
+				try {
+					document=index.getDocument(SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(entity.getName()), dc);
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+			if(document==null){
 				System.out.println("Unable to match entity: "+entity.getName());
+				continue;
 			}
 			Boolean first = true;
 			for (int i = -1; (i = document.text.indexOf(categoryIndicator, i + 1)) != -1; i++) {
@@ -116,6 +116,18 @@ public class KBFilter {
 								}	
 				}
 		return entityToCategoriesMapping;
+	}
+	public Boolean findCategoryMatch(ArrayList<String> topCategories, ArrayList<String> entityCategories, Entity currentEntity){
+		for(String category:topCategories){
+			for(String entityCat:entityCategories){
+				if(category.equals(entityCat)){
+					System.out.println("Matched entity: "+currentEntity.getName()+" for category: "+entityCat);
+					return true;
+					
+				}
+			}
+		}
+		return false;
 	}
 
 		 

@@ -22,23 +22,15 @@ public class DocumentLinkReader {
 	private String query;
 	private HashMap<String,ArrayList<Entity>> mapping;
 	private HashMap<Long,Integer> entitiesPerDoc;
+	private ArrayList<String> topics;
 
 	
 	public DocumentLinkReader(){
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
-		this.mapping = mapper.generateRelevantEntities();
-		Random r = new Random();
-		int topicChoice = r.nextInt(mapping.keySet().size());
-		topicChoice=6;
-		Set<String> keySet = mapping.keySet();
-		Iterator<String> i = keySet.iterator();
-		int count = 0;
-		while(count!=topicChoice){
-			i.next();
-			count++;
-		}
-		this.query=i.next().toString();
+		this.query=MedLinkEvaluator.generateRandomTopic(topics);
 		System.out.println("Chosen query: "+query);
+		this.mapping = mapper.generateRelevantEntities(query);
 		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
 		this.documents=orchestrator.getDocuments(query, 50);
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";

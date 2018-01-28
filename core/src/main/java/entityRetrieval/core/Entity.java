@@ -16,6 +16,7 @@ public class Entity {
 	private HashMap<Long,Double> mentionProbability;
 	private int rank;
 	private double precision;
+	private Boolean relevant;
 	
 	public Entity(String name, String id, double score, long docID){
 		this.name = name;
@@ -34,8 +35,14 @@ public class Entity {
 	public Entity(String name){
 		this.name = name;
 	}
+	public void setName(String name){
+		this.name=name;
+	}
 	public String getName(){
 		return this.name;
+	}
+	public Boolean getRelevant(){
+		return this.relevant;
 	}
 	public String getId(){
 		return this.id;
@@ -107,11 +114,12 @@ public class Entity {
 		return this.rank;
 	}
 	public double setPrecision(double currentSum,int rank,int related){
-		if(currentSum==0){
-			currentSum=1;
+		if(related==1){
+			this.relevant=true;
 		}
-		this.precision = (currentSum*related)/rank;
-		return this.precision;
+		currentSum=+related;
+		this.precision = (currentSum)/rank;
+		return currentSum;
 		
 	}
 	public double getPrecision(){

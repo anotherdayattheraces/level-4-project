@@ -1,0 +1,27 @@
+Legionella\s+N\s+Legionella\s+0.21244247057395801
+Legionella\s+N\s+Legionella pneumophila\s+0.013482506635807889
+Legionella\s+N\s+Pneumonia\s+0.013366839063794968
+Legionella\s+N\s+Disease\s+0.008655779918757652
+Legionella\s+N\s+Species\s+0.008223877333140471
+Legionella\s+N\s+Catalase\s+0.0071885203732414684
+Legionella\s+N\s+Fever\s+0.005462438660607315
+Legionella\s+N\s+Pontiac fever\s+0.003350455900812817
+Legionella\s+N\s+Proteobacteria\s+0.0027160265580708463
+Legionella\s+N\s+Antigen\s+0.0021684298281647134
+Legionella\s+N\s+Endocytosis\s+0.001971512784499478
+Legionella\s+N\s+Lung\s+0.0018692096135366808
+Legionella\s+N\s+Health\s+0.0017670954712495836
+Legionella\s+N\s+Pathogen\s+0.0016889847094687309
+Legionella\s+N\s+Culture\s+8.827791408890703E-4
+Legionella\s+N\s+Mycobacterium\s+8.479963218714958E-4
+Legionella\s+N\s+Cistern\s+8.450432303734612E-4
+Legionella\s+N\s+Region\s+8.412021247808551E-4
+Legionella\s+N\s+Shower\s+7.700542548520392E-4
+Legionella\s+N\s+Blood\s+6.584051126565736E-4
+Legionella\s+N\s+Bronchial brushing\s+5.296179875252624E-4
+Legionella\s+N\s+Drinking\s+5.279323796719037E-4
+Legionella\s+N\s+Cytotoxicity\s+4.3084221304826015E-4
+Legionella\s+N\s+Nursing\s+4.0069584873499945E-4
+Legionella\s+N\s+Antibody\s+2.814203722770361E-4
+Legionella\s+N\s+Iron\s+2.814203722770361E-4
+Legionella\s+N\s+Temperature\s+1.4361407101608673E-4

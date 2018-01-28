@@ -11,6 +11,7 @@ import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 
+import customEntityLinker.MedLink;
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.GalagoOrchestrator;
 import evaluation.MedLinkEvaluator;
@@ -30,17 +31,24 @@ public class MetaMapEntityLinker {
 	private String path;
 	private String query;
 	private HashMap<String,ArrayList<Entity>> mapping;
-	private HashMap<Long,Integer> entitiesPerDoc;
+	private String mappingPath;
+	private HashMap<String,HashMap<String,String>> snomedToWikiMappings;
+	private ArrayList<String> topics;
+	
 
 	
 	public MetaMapEntityLinker(){
 		//this.options = setOptions("-A,-K,-R [SNOMEDCT]");
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.query=MedLinkEvaluator.generateRandomTopic(topics);
+		System.out.println("Chosen query: "+query);
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
-		this.mapping = mapper.generateRelevantEntities();
-		this.query=MedLinkEvaluator.generateRandomTopic(mapping);
+		this.mapping = mapper.generateRelevantEntities(query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 10); //get top 50 documents from galago search of query
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
+		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
+		this.snomedToWikiMappings=MedLink.readInMappings(mappingPath);
 	}
 	
 	public ArrayList<Entity> generateEntities(){
@@ -100,8 +108,9 @@ public class MetaMapEntityLinker {
 				e.printStackTrace();
 			}
 		}
-		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
-		MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
+		System.out.println("Num unmapped entities: "+foundEntities.size());
+		foundEntities = MedLink.mapEntities(snomedToWikiMappings, foundEntities); //map snomed Entities to wiki entities
+		System.out.println("Num mapped entities: "+foundEntities.size());
 		return foundEntities;
 }
 

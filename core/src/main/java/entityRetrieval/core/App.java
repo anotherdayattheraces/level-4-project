@@ -53,12 +53,14 @@ public class App {
     		//sqs.search();
     	}
     	else if(fn.equals("evaluate")){
+    		//DocumentLinkReaderEvaluator documentLinkReaderEvaluator = new DocumentLinkReaderEvaluator();
+    		//documentLinkReaderEvaluator.computeStatistics();
     		//MetaMapEvaluator mmeval = new MetaMapEvaluator();
     		//mmeval.computeStatistics();
-    		//MedLinkEvaluator seval = new MedLinkEvaluator();
-    		//seval.computeStatistics();
-    		KBLinkerEvaluator kble = new KBLinkerEvaluator();
-    		kble.computeStatistics();
+    		MedLinkEvaluator seval = new MedLinkEvaluator();
+    		seval.computeStatistics();
+    		//KBLinkerEvaluator kble = new KBLinkerEvaluator();
+    		//kble.computeStatistics();
     	}
     	else if(fn.equals("test")){
     		SnomedToWikiMapper stwm = new SnomedToWikiMapper();

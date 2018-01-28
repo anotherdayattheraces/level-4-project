@@ -14,6 +14,7 @@ import org.lemurproject.galago.core.index.disk.DiskIndex;
 import dictionary.DictionaryHashMap;
 import dictionary.SnomedDictionaryInitializer;
 import entityRetrieval.core.Entity;
+import evaluation.EntityMatcher;
 
 public class SnomedToWikiMapper {
 	private String path;
@@ -59,6 +60,28 @@ public class SnomedToWikiMapper {
 					if(id!=-1){
 						wikiEntity=formatNameForAtLeast4Terms(e.getName());
 						System.out.println("Mapped "+e.getName()+" to: "+formatNameForAtLeast4Terms(e.getName()));
+					}
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}
+			}
+			if(id==-1&&e.getName().split(" ").length>3){
+				try {
+					id=index.getIdentifier(EntityMatcher.lastTwoWords(e.getName()));
+					if(id!=-1){
+						System.out.println("Mapped "+e.getName()+" to: "+EntityMatcher.lastTwoWords(e.getName()));
+						wikiEntity=EntityMatcher.lastTwoWords(e.getName());
+					}
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}
+			}
+			if(id==-1&&e.getName().split(" ").length>3){
+				try {
+					id=index.getIdentifier(EntityMatcher.FirstTwoWords(e.getName()));
+					if(id!=-1){
+						System.out.println("Mapped "+e.getName()+" to: "+EntityMatcher.FirstTwoWords(e.getName()));
+						wikiEntity=EntityMatcher.FirstTwoWords(e.getName());
 					}
 				} catch (IOException e1) {
 					e1.printStackTrace();
@@ -140,6 +163,7 @@ public class SnomedToWikiMapper {
 		}
 		return formattedName.toString().trim();
 	}
+
 	public static String formatNameForAtLeast4Terms(String name){
 		String[] entityTerms = name.split(" ");
 		StringBuilder formattedName = new StringBuilder();

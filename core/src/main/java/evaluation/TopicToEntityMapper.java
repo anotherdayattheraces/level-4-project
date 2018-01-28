@@ -7,22 +7,34 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
+import org.lemurproject.galago.core.index.disk.DiskIndex;
+import org.lemurproject.galago.core.parse.Document;
+
 import dictionary.DictionaryHashMap;
 import dictionary.SnomedDictionaryInitializer;
 import entityRetrieval.core.Entity;
+import knowledgeBase.KBFilter;
+import misc.CategoryGenerator;
 
 public class TopicToEntityMapper {
 	private String qrelPath;
 	private ArrayList<String> topics;
 	private DictionaryHashMap dictionary;
+	private String categoryPath;
+	private ArrayList<String> topCategories;
+	private String kbPath;
+	
 	
 	public TopicToEntityMapper(String qrelPath, String topicPath){
 		this.qrelPath=qrelPath;
 		this.topics = readTopics(topicPath);
 	}
 	public TopicToEntityMapper(){
+		this.kbPath="C:/Work/Project/samples/Unprocessed_Index";
+		this.categoryPath="C:/Work/Project/samples/prototype4/level-4-project/core/categories.txt";
 		this.qrelPath="C:/Work/Project/samples/treccar/benchmarkY1train/train.benchmarkY1train.cbor.hierarchical.entity.qrels";
 		this.topics =readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.topCategories=KBFilter.readInCategories(categoryPath);
 		SnomedDictionaryInitializer init = new SnomedDictionaryInitializer();
 		try {
 			this.dictionary = init.initialize();
@@ -34,7 +46,7 @@ public class TopicToEntityMapper {
 		return this.dictionary;
 	}
 	
-	public HashMap<String,ArrayList<Entity>> generateRelevantEntities(){
+	public HashMap<String,ArrayList<Entity>> generateRelevantEntities(String entityToMap){
 		HashMap<String,ArrayList<Entity>> mappings = new HashMap<String,ArrayList<Entity>>();
 
 		for(String topic:topics){
@@ -47,6 +59,7 @@ public class TopicToEntityMapper {
 			e.printStackTrace();
 		}
 		Scanner sc = new Scanner(inputStream, "UTF-8");
+		Boolean seen = false;
 		while (sc.hasNextLine()) {
 	        String line = sc.nextLine();
 	        String[] elements = line.split(" ");
@@ -63,9 +76,18 @@ public class TopicToEntityMapper {
 	        String articlePath = newElements.get(0);
 	        String[] subjects = articlePath.split("/");
 	        String primaryTopic = subjects[0];
+	        if(primaryTopic.equals(entityToMap)){
+	        	seen = true;
+	        }
+	        if(!primaryTopic.equals(entityToMap)&&seen){
+	        	break;
+	        }
+	        if(!primaryTopic.equals(entityToMap)){
+	        	continue;
+	        }
 	        if(topics.contains(primaryTopic)){
 	        	//System.out.println(line);
-	        	if(filterConcept(entity)){
+	        	if(filterConceptByCategory(entity)){
 	        		Boolean exists = false;
 	        		for(Entity e:mappings.get(primaryTopic)){
 	        			if(e.getName().equals(entity)){
@@ -118,6 +140,25 @@ public class TopicToEntityMapper {
 	public Boolean filterConcept(String conceptName){
 		if(dictionary.lookupString(conceptName)){
 			return true;
+		}
+		return false;
+	}
+	public Boolean filterConceptByCategory(String conceptName){
+		DiskIndex index=null;
+		try {
+			index = new DiskIndex(kbPath);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		Document.DocumentComponents dc = new Document.DocumentComponents( false, true, true );
+		ArrayList<String> entityCategories = CategoryGenerator.findEntityCategories(index, conceptName, dc);
+		if(entityCategories==null){
+			return false;
+		}
+		for(String category:entityCategories){
+			if(topCategories.contains(category)){
+				return true;
+			}
 		}
 		return false;
 	}

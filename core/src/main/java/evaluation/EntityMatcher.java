@@ -12,5 +12,9 @@ public class EntityMatcher {
 		String[] split = name.split(" ");
 		return split[split.length-2].substring(0, 1).toUpperCase()+split[split.length-2].substring(1)+" "+split[split.length-1];
 	}
+	public static String FirstTwoWords(String name){
+		String[] split = name.split(" ");
+		return split[0].substring(0, 1).toUpperCase()+split[0].substring(1)+" "+split[1];
+	}
 
 }
