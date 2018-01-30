@@ -15,7 +15,9 @@ import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
 import customEntityLinker.MedLink;
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.Pair;
+import entityRetrieval.core.TopicRun;
 import knowledgeBase.KBFilter;
+import knowledgeBase.KBLinker;
 
 
 public class MedLinkEvaluator {
@@ -25,8 +27,13 @@ public class MedLinkEvaluator {
 	private List<ScoredDocument> scoredDocs;
 	private HashMap<Long,Integer> entitiesPerDoc;
 	private Map<ScoredDocument, Double> finalDocScores;
-	
-	public MedLinkEvaluator() throws IOException{
+	private ArrayList<TopicRun> topicRuns;
+	private String qrelFile;
+	private String runFile;
+
+	public MedLinkEvaluator(){
+		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/filteredQrels.txt";
+		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MedLinkResults.txt";		
 		MedLink medlink = new MedLink();
 		this.returnedEntities = medlink.matchEntities();
 		this.scoredDocs = medlink.getScoredDocs();
@@ -35,29 +42,42 @@ public class MedLinkEvaluator {
 		this.query=medlink.getQuery();
 		
 	}
-	
-	public void computeStatistics(){
-		ArrayList<Entity> relevantEntities = mapping.get(query);
-		System.out.println("Num unfiltered entities: "+returnedEntities.size());
-		KBFilter kbfilter = new KBFilter(returnedEntities);
-		returnedEntities=kbfilter.filterEntities();
-		System.out.println("Num filtered entities: "+returnedEntities.size());
-		this.entitiesPerDoc = calculateEntitiesPerDoc(returnedEntities); //fill the Long,Int hashmap for each entity for it's appearances per doc
-		setMentionProbablities(returnedEntities,entitiesPerDoc);
-		setScores(returnedEntities,finalDocScores); //compute final scores for all entities
-		Collections.sort(returnedEntities, score);
+	public MedLinkEvaluator(Boolean multiple){
+		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/filteredQrels.txt";
+		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/KBResults.txt";		
+		if(multiple){
+			int runNum=1;
+			MedLink medLinker = new MedLink(0);
+			addQuery(medLinker);
+			while(runNum<medLinker.getMaxTopics()){
+				MedLink medLinkerMul = new MedLink(runNum); //compute map of all queries
+				addQuery(medLinkerMul);
+				runNum++;
+			}
+		}
+		else{
+			MedLink medLinker = new MedLink();//generate random query
+			addQuery(medLinker);
+		}
+	}
+	public void addQuery(MedLink medLinker){
+		//ArrayList<Entity> relevantEntities = mapping.get(query);	
+		ArrayList<Entity> returnedEntities = medLinker.matchEntities();
+		List<ScoredDocument> scoredDocs = medLinker.getScoredDocuments();
+		Map<ScoredDocument, Double> finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
+		MedLinkEvaluator.setScores(returnedEntities, finalDocScores);//set scores for all entities, using entity metadata
+		Collections.sort(returnedEntities, MedLinkEvaluator.score);//sort by score
 		MedLinkEvaluator.setAllRanks(returnedEntities);
-		for(Entity e:relevantEntities){
-			System.out.println(e.getName());
-		}
-		System.out.println("Returned: ");
-		for(Entity entity:returnedEntities){
-			System.out.println(entity.getName()+" Rank: "+entity.getRank()+" Score: "+entity.getScore());
-		}
-		
-		}
-		
+		ArrayList<TopicRun> topicRuns = new ArrayList<TopicRun>();
+		topicRuns.add(new TopicRun(medLinker.getQuery(),medLinker.topicChoice,returnedEntities));
+	}
+	
+	public void evaluate(){
+		KBLinkerEvaluator.createResultsFile("KBResults.txt", topicRuns);
+		KBLinkerEvaluator.runEval(runFile,qrelFile);
+	}
 
+	
 	public static void sortByScore(ArrayList<Entity> unorderedList){
 	}
 	public static Comparator<Entity> score = new Comparator<Entity>() {
@@ -81,10 +101,10 @@ public class MedLinkEvaluator {
 					}
 				}
 	}
-	public static String generateRandomTopic(ArrayList<String> mapping){
+	public static Pair<Integer,String> generateRandomTopic(ArrayList<String> mapping){
 		Random r = new Random();
 		int topicChoice = r.nextInt(mapping.size());		
-		return mapping.get(topicChoice);
+		return new Pair<Integer, String>(topicChoice,mapping.get(topicChoice));
 	}
 	public static HashMap<Long,Integer> calculateEntitiesPerDoc(ArrayList<Entity> listofEntities){
 		HashMap<Long,Integer> entitiesPerDoc = new HashMap<Long,Integer>();

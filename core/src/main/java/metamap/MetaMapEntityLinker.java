@@ -14,6 +14,7 @@ import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import customEntityLinker.MedLink;
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.GalagoOrchestrator;
+import entityRetrieval.core.Pair;
 import evaluation.MedLinkEvaluator;
 import evaluation.TopicToEntityMapper;
 import gov.nih.nlm.nls.metamap.Ev;
@@ -23,6 +24,7 @@ import gov.nih.nlm.nls.metamap.MetaMapApiImpl;
 import gov.nih.nlm.nls.metamap.PCM;
 import gov.nih.nlm.nls.metamap.Result;
 import gov.nih.nlm.nls.metamap.Utterance;
+import knowledgeBase.KBFilter;
 
 
 
@@ -34,13 +36,31 @@ public class MetaMapEntityLinker {
 	private String mappingPath;
 	private HashMap<String,HashMap<String,String>> snomedToWikiMappings;
 	private ArrayList<String> topics;
+	private HashMap<Long,Integer> entitiesPerDoc;
+	public int topicChoice;
 	
 
 	
 	public MetaMapEntityLinker(){
 		//this.options = setOptions("-A,-K,-R [SNOMEDCT]");
 		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
-		this.query=MedLinkEvaluator.generateRandomTopic(topics);
+		Pair<Integer, String> topicChoicePair=MedLinkEvaluator.generateRandomTopic(topics);
+		this.query=topicChoicePair.getR();
+		this.topicChoice=topicChoicePair.getL();
+		System.out.println("Chosen query: "+query);
+		TopicToEntityMapper mapper = new TopicToEntityMapper();
+		this.mapping = mapper.generateRelevantEntities(query);
+		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
+		this.scoredDocs = orchestrator.getDocuments(query, 10); //get top 50 documents from galago search of query
+		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
+		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
+		this.snomedToWikiMappings=MedLink.readInMappings(mappingPath);
+	}
+	public MetaMapEntityLinker(int topicChoice){
+		//this.options = setOptions("-A,-K,-R [SNOMEDCT]");
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.query=topics.get(topicChoice);
+		this.topicChoice=topicChoice;
 		System.out.println("Chosen query: "+query);
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
 		this.mapping = mapper.generateRelevantEntities(query);
@@ -108,9 +128,15 @@ public class MetaMapEntityLinker {
 				e.printStackTrace();
 			}
 		}
+		
 		System.out.println("Num unmapped entities: "+foundEntities.size());
 		foundEntities = MedLink.mapEntities(snomedToWikiMappings, foundEntities); //map snomed Entities to wiki entities
-		System.out.println("Num mapped entities: "+foundEntities.size());
+		System.out.println("Num mapped-unfiltered entities: "+foundEntities.size());
+		KBFilter kbfilter = new KBFilter(foundEntities);
+		foundEntities=kbfilter.filterEntities();
+		System.out.println("Num filtered entities: "+foundEntities.size());
+		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
+		MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
 		return foundEntities;
 }
 
@@ -158,5 +184,8 @@ public class MetaMapEntityLinker {
 	}
 	public HashMap<String,ArrayList<Entity>> getMapping(){
 		return this.mapping;
+	}
+	public int getMaxTopics(){
+		return this.topics.size();
 	}
 }

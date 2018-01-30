@@ -12,6 +12,7 @@ import org.lemurproject.galago.core.retrieval.ScoredDocument;
 
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.GalagoOrchestrator;
+import entityRetrieval.core.Pair;
 import evaluation.MedLinkEvaluator;
 import evaluation.TopicToEntityMapper;
 
@@ -22,13 +23,27 @@ public class KBLinker {
 	private List<ScoredDocument> scoredDocs;
 	private HashMap<Long,Integer> entitiesPerDoc;
 	private ArrayList<String> topics;
+	public int topicChoice;
 
 
 	
 	public KBLinker(){
 		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
-		this.query=MedLinkEvaluator.generateRandomTopic(topics);
+		Pair<Integer, String> topicChoicePair=MedLinkEvaluator.generateRandomTopic(topics);
+		this.query=topicChoicePair.getR();
+		this.topicChoice=topicChoicePair.getL();
+		System.out.println("Chosen query: "+query);
+		TopicToEntityMapper mapper = new TopicToEntityMapper();
+		this.mapping = mapper.generateRelevantEntities(query);
+		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
+		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+	}
+	public KBLinker(int topicChoice){
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
+		this.query=topics.get(topicChoice);
+		this.topicChoice=topicChoice;
 		System.out.println("Chosen query: "+query);
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
 		this.mapping = mapper.generateRelevantEntities(query);
@@ -111,6 +126,10 @@ public class KBLinker {
 				}
 			}
 		}
+		System.out.println("Num unfiltered entities: "+entities.size());
+		KBFilter kbfilter = new KBFilter(entities);
+		entities=kbfilter.filterEntities();
+		System.out.println("Num filtered entities: "+entities.size());
 		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(entities);
 		MedLinkEvaluator.setMentionProbablities(entities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
 		return entities;
@@ -139,6 +158,9 @@ public class KBLinker {
 	}
 	public HashMap<String,ArrayList<Entity>> getMapping(){
 		return this.mapping;
+	}
+	public int getMaxTopics(){
+		return this.topics.size();
 	}
 
 }

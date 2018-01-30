@@ -10,44 +10,49 @@ import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
 
 import entityRetrieval.core.Entity;
+import entityRetrieval.core.TopicRun;
 import knowledgeBase.KBFilter;
+import knowledgeBase.KBLinker;
 
 public class DocumentLinkReaderEvaluator {
-	private ArrayList<Entity> listOfEntities;
-	private List<ScoredDocument> scoredDocs;
-	private Map<ScoredDocument, Double> finalDocScores;
-	private HashMap<String,ArrayList<Entity>> mapping;
-	private String query;
+	private ArrayList<TopicRun> topicRuns;
+	private String qrelFile;
+	private String runFile;
 	
-	public DocumentLinkReaderEvaluator(){
-		DocumentLinkReader dlr = new DocumentLinkReader();
-		this.listOfEntities=dlr.getEntitiesFromLinks();
-		this.scoredDocs=dlr.getScoredDocuments();
-		this.finalDocScores=RelevanceModel1.logstoposteriors(scoredDocs);
-		this.mapping=dlr.getMapping();
-		this.query=dlr.getQuery();
+	public DocumentLinkReaderEvaluator(Boolean multiple){
+		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/filteredQrels.txt";
+		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/DLRResults.txt";		
+		if(multiple){
+			int runNum=1;
+			DocumentLinkReader dlr = new DocumentLinkReader(0);
+			addQuery(dlr);
+			while(runNum<dlr.getMaxTopics()){
+				DocumentLinkReader kbLinkerMul = new DocumentLinkReader(runNum); //compute map of all queries
+				addQuery(kbLinkerMul);
+				runNum++;
+			}
+		}
+		else{
+			DocumentLinkReader dlr = new DocumentLinkReader();//generate random query
+			addQuery(dlr);
+		}
+	}
+	public void addQuery(DocumentLinkReader dlr){
+		//ArrayList<Entity> relevantEntities = mapping.get(query);	
+		ArrayList<Entity> returnedEntities = dlr.getEntitiesFromLinks();
+		List<ScoredDocument> scoredDocs = dlr.getScoredDocuments();
+		Map<ScoredDocument, Double> finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
+		MedLinkEvaluator.setScores(returnedEntities, finalDocScores);//set scores for all entities, using entity metadata
+		Collections.sort(returnedEntities, MedLinkEvaluator.score);//sort by score
+		MedLinkEvaluator.setAllRanks(returnedEntities);
+		this.topicRuns = new ArrayList<TopicRun>();
+		topicRuns.add(new TopicRun(dlr.getQuery(),dlr.topicChoice,returnedEntities));
+	}
+	public void evaluate(){
+		KBLinkerEvaluator.createResultsFile("KBResults.txt", topicRuns);
+		KBLinkerEvaluator.runEval(runFile,qrelFile);
+
 	}
 	
-	public void computeStatistics(){
-		KBFilter kbfilter = new KBFilter(listOfEntities);
-		System.out.println("Num unfiltered entities: "+listOfEntities.size());
-		listOfEntities=kbfilter.filterEntities();
-		System.out.println("Num unfiltered entities: "+listOfEntities.size());
-		MedLinkEvaluator.setScores(listOfEntities, finalDocScores);//set scores for all entities, using entity metadata
-		Collections.sort(listOfEntities, MedLinkEvaluator.score);//sort by score
-		MedLinkEvaluator.setAllRanks(listOfEntities);
-		ArrayList<Entity> relevantEntities = mapping.get(query);
-		MedLinkEvaluator.calculatePrecision(listOfEntities, relevantEntities);
-		for(Entity e:relevantEntities){
-			System.out.println(e.getName());
-		}
-		double averagePrecision=0;
-		for(Entity entity:listOfEntities){
-			averagePrecision+=entity.getPrecision();
-			System.out.println(entity.getName()+" Rank: "+entity.getRank()+" Score: "+entity.getScore()+ " Precision: "+entity.getPrecision());
-		}
-		averagePrecision=averagePrecision/(double)listOfEntities.size();
-		System.out.println(averagePrecision*2);
-	}
 
 }

@@ -9,8 +9,10 @@ import java.util.HashMap;
 
 import org.lemurproject.galago.core.index.disk.DiskIndex;
 import org.lemurproject.galago.core.parse.Document;
+import org.lemurproject.galago.core.parse.Document.DocumentComponents;
 
 import entityRetrieval.core.Entity;
+import misc.CategoryGenerator;
 
 public class KBFilter {
 	private ArrayList<Entity> returnedEntities;
@@ -102,18 +104,17 @@ public class KBFilter {
 				System.out.println("Unable to match entity: "+entity.getName());
 				continue;
 			}
-			Boolean first = true;
+			entityToCategoriesMapping.put(entity.getName(), new ArrayList<String>());
 			for (int i = -1; (i = document.text.indexOf(categoryIndicator, i + 1)) != -1; i++) {
 				int start = i+categoryIndicator.length();
 				int end = document.text.substring(start).indexOf("</link>")+start;
 				String category = document.text.substring(start, end);
-				category = category.replaceAll(" ", "%20");
-				if(first){ //if arraylist for this entity has not yet been initialized 
-					entityToCategoriesMapping.put(entity.getName(), new ArrayList<String>());
-					first=false;
-				}
+				category = category.replaceAll(" ", "%20");				
 				entityToCategoriesMapping.get(entity.getName()).add(category);
-								}	
+																				}
+			if(entityToCategoriesMapping.get(entity.getName()).isEmpty()&&document.text.contains("#REDIRECT")){ //if there is no categories for an entity - possibly is a redirect
+				searchRedirect(index,dc,document.text,entity.getName());
+			}
 				}
 		return entityToCategoriesMapping;
 	}
@@ -123,12 +124,20 @@ public class KBFilter {
 				if(category.equals(entityCat)){
 					System.out.println("Matched entity: "+currentEntity.getName()+" for category: "+entityCat);
 					return true;
-					
 				}
 			}
 		}
 		return false;
 	}
+	public ArrayList<String> searchRedirect(DiskIndex index, DocumentComponents dc, String docText, String entity){
+		int start = docText.indexOf("#REDIRECT <link tokenizeTagContent=\"false\">")+43;//plus 43 because its the length of "#REDIRECT <link tokenizeTagContent="false">" plus a space
+		int end = docText.indexOf("</link>");
+		String redirect = docText.substring(start,end);
+		System.out.println("Redirected from entity: "+entity+" to entity: "+redirect);
+		return CategoryGenerator.findEntityCategories(index,redirect,dc);
+
+	}
+
 
 		 
 }

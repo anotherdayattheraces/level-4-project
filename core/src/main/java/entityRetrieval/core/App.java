@@ -57,17 +57,19 @@ public class App {
     		//documentLinkReaderEvaluator.computeStatistics();
     		//MetaMapEvaluator mmeval = new MetaMapEvaluator();
     		//mmeval.computeStatistics();
-    		MedLinkEvaluator seval = new MedLinkEvaluator();
-    		seval.computeStatistics();
-    		//KBLinkerEvaluator kble = new KBLinkerEvaluator();
-    		//kble.computeStatistics();
+    		//MedLinkEvaluator seval = new MedLinkEvaluator();
+    		//seval.computeStatistics();
+    		KBLinkerEvaluator kble = new KBLinkerEvaluator(true);
+    		kble.evaluate();
     	}
     	else if(fn.equals("test")){
-    		SnomedToWikiMapper stwm = new SnomedToWikiMapper();
-    		stwm.saveMappings(stwm.generateMappings());
-    		CategoryGenerator cg = new CategoryGenerator();
-    		HashMap<String,Integer> categories = cg.findCategories();
-    		cg.saveCategories(categories);
+    		//SnomedToWikiMapper stwm = new SnomedToWikiMapper();
+    		//stwm.saveMappings(stwm.generateMappings());
+    		//CategoryGenerator cg = new CategoryGenerator();
+    		//HashMap<String,Integer> categories = cg.findCategories();
+    		//cg.saveCategories(categories);
+    		TopicToEntityMapper ttem = new TopicToEntityMapper();
+    		ttem.saveFilteredQrels(ttem.filterQrels());
 
     	}
     	else if(fn.equals("initialize")){

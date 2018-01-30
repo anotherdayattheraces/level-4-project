@@ -8,7 +8,9 @@ import java.util.Map;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
 import entityRetrieval.core.Entity;
+import entityRetrieval.core.TopicRun;
 import knowledgeBase.KBFilter;
+import knowledgeBase.KBLinker;
 import metamap.MetaMapEntityLinker;
 
 public class MetaMapEvaluator {
@@ -18,42 +20,47 @@ public class MetaMapEvaluator {
 	private List<ScoredDocument> scoredDocs;
 	private Map<ScoredDocument, Double> finalDocScores;
 	private HashMap<Long,Integer> entitiesPerDoc;
-
+	private ArrayList<TopicRun> topicRuns;
+	private String qrelFile;
+	private String runFile;
 
 	
-	public MetaMapEvaluator(){
-		MetaMapEntityLinker linker = new MetaMapEntityLinker();
-		this.returnedEntities=linker.generateEntities();
-		this.mapping = linker.getMapping();
-		this.query=linker.getQuery();
-		System.out.println("Chosen query: "+query);
-		this.scoredDocs=linker.getScoredDocuments();
-		this.finalDocScores=RelevanceModel1.logstoposteriors(scoredDocs);
-	} 
-	
-	public void computeStatistics(){
-		ArrayList<Entity> relevantEntities = mapping.get(query); // create data structure for mapping
-		System.out.println("Num unfiltered entities: "+returnedEntities.size());
-		KBFilter kbfilter = new KBFilter(returnedEntities);
-		returnedEntities=kbfilter.filterEntities();
-		System.out.println("Num filtered entities: "+returnedEntities.size());
-		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(returnedEntities);
-		MedLinkEvaluator.setMentionProbablities(returnedEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
+
+	public MetaMapEvaluator(Boolean multiple){
+		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/filteredQrels.txt";
+		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/KBResults.txt";		
+		if(multiple){
+			int runNum=1;
+			MetaMapEntityLinker mmlinker = new MetaMapEntityLinker(0);
+			addQuery(mmlinker);
+			while(runNum<mmlinker.getMaxTopics()){
+				MetaMapEntityLinker kbLinkerMul = new MetaMapEntityLinker(runNum); //compute map of all queries
+				addQuery(kbLinkerMul);
+				runNum++;
+			}
+		}
+		else{
+			MetaMapEntityLinker kbLinker = new MetaMapEntityLinker();//generate random query
+			addQuery(kbLinker);
+		}
+	}
+	public void addQuery(MetaMapEntityLinker kblinker){
+		//ArrayList<Entity> relevantEntities = mapping.get(query);	
+		ArrayList<Entity> returnedEntities = kblinker.generateEntities();
+		List<ScoredDocument> scoredDocs = kblinker.getScoredDocuments();
+		Map<ScoredDocument, Double> finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
 		MedLinkEvaluator.setScores(returnedEntities, finalDocScores);//set scores for all entities, using entity metadata
 		Collections.sort(returnedEntities, MedLinkEvaluator.score);//sort by score
 		MedLinkEvaluator.setAllRanks(returnedEntities);
-		MedLinkEvaluator.calculatePrecision(returnedEntities, relevantEntities);
-		for(Entity e:relevantEntities){
-			System.out.println(e.getName());
-		}
-		double averagePrecision=0;
-		for(Entity entity:returnedEntities){
-			averagePrecision+=entity.getPrecision();
-			System.out.println(entity.getName()+" Rank: "+entity.getRank()+" Score: "+entity.getScore()+ " Precision: "+entity.getPrecision());
-		}
-		averagePrecision=averagePrecision/(double)returnedEntities.size();
-		System.out.println(averagePrecision);
+		this.topicRuns = new ArrayList<TopicRun>();
+		topicRuns.add(new TopicRun(kblinker.getQuery(),kblinker.topicChoice,returnedEntities));
 	}
+	public void evaluate(){
+		KBLinkerEvaluator.createResultsFile("KBResults.txt", topicRuns);
+		KBLinkerEvaluator.runEval(runFile,qrelFile);
+
+	}
+	
 	
 		
 	

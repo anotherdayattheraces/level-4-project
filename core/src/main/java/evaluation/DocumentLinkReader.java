@@ -15,6 +15,8 @@ import org.lemurproject.galago.core.retrieval.ScoredDocument;
 
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.GalagoOrchestrator;
+import entityRetrieval.core.Pair;
+import knowledgeBase.KBFilter;
 
 public class DocumentLinkReader {
 	private List<ScoredDocument> documents;
@@ -23,14 +25,24 @@ public class DocumentLinkReader {
 	private HashMap<String,ArrayList<Entity>> mapping;
 	private HashMap<Long,Integer> entitiesPerDoc;
 	private ArrayList<String> topics;
+	public int topicChoice;
 
 	
 	public DocumentLinkReader(){
 		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
-		TopicToEntityMapper mapper = new TopicToEntityMapper();
-		this.query=MedLinkEvaluator.generateRandomTopic(topics);
+		Pair<Integer, String> topicChoicePair=MedLinkEvaluator.generateRandomTopic(topics);
+		this.query=topicChoicePair.getR();
+		this.topicChoice=topicChoicePair.getL();
 		System.out.println("Chosen query: "+query);
-		this.mapping = mapper.generateRelevantEntities(query);
+		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
+		this.documents=orchestrator.getDocuments(query, 50);
+		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
+	}
+	public DocumentLinkReader(int topicChoice){
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.query=topics.get(topicChoice);
+		this.topicChoice=topicChoice;
+		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
 		this.documents=orchestrator.getDocuments(query, 50);
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
@@ -78,16 +90,18 @@ public class DocumentLinkReader {
 			   }
 			   
 			} 
-			
-			
 		}
 		try {
 			index.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		System.out.println("Num unfiltered entities: "+foundEntities.size());
+		KBFilter kbfilter = new KBFilter(foundEntities);
+		foundEntities=kbfilter.filterEntities();
+		System.out.println("Num filtered entities: "+foundEntities.size());
 		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
-		MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc);
+		MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
 		return foundEntities;
 	}
 	public List<ScoredDocument> getScoredDocuments(){
@@ -98,6 +112,9 @@ public class DocumentLinkReader {
 	}
 	public String getQuery(){
 		return this.query;
+	}
+	public int getMaxTopics(){
+		return this.topics.size();
 	}
 
 
