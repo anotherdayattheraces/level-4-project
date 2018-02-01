@@ -38,6 +38,7 @@ public class DocumentLinkReader {
 		this.documents=orchestrator.getDocuments(query, 50);
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
 	}
+	
 	public DocumentLinkReader(int topicChoice){
 		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
 		this.query=topics.get(topicChoice);

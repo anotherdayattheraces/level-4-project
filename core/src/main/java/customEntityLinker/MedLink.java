@@ -5,6 +5,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -15,6 +16,7 @@ import org.lemurproject.galago.core.retrieval.RetrievalFactory;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 
 import dictionary.DictionaryHashMap;
+import dictionary.SnomedDictionaryInitializer;
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.GalagoOrchestrator;
 import entityRetrieval.core.Pair;
@@ -44,9 +46,12 @@ public class MedLink {
 		this.query=topicChoicePair.getR();
 		this.topicChoice=topicChoicePair.getL();
 		System.out.println("Chosen query: "+query);
-		TopicToEntityMapper mapper = new TopicToEntityMapper();
-		this.mapping = mapper.generateRelevantEntities(query);
-		this.dictionary = mapper.getDictionary();
+		SnomedDictionaryInitializer sdi = new SnomedDictionaryInitializer();
+		try {
+			this.dictionary = sdi.initialize();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
@@ -58,9 +63,24 @@ public class MedLink {
 		this.query=topics.get(topicChoice);
 		this.topicChoice=topicChoice;
 		System.out.println("Chosen query: "+query);
-		TopicToEntityMapper mapper = new TopicToEntityMapper();
-		this.mapping = mapper.generateRelevantEntities(query);
-		this.dictionary = mapper.getDictionary();
+		SnomedDictionaryInitializer sdi = new SnomedDictionaryInitializer();
+		try {
+			this.dictionary = sdi.initialize();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
+		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
+		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
+		this.snomedToWikiMappings=readInMappings(mappingPath);	
+	}
+	public MedLink(int topicChoice, DictionaryHashMap dictionary){
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.query=topics.get(topicChoice);
+		this.topicChoice=topicChoice;
+		System.out.println("Chosen query: "+query);
+		this.dictionary=dictionary;
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
@@ -68,7 +88,7 @@ public class MedLink {
 		this.snomedToWikiMappings=readInMappings(mappingPath);	
 	}
 	
-	public ArrayList<Entity> matchEntities(){
+	public ArrayList<Entity> matchEntities(PrintStream outputStream){
 		ArrayList<Entity> foundEntities = new ArrayList<Entity>();
 		Retrieval index=null;
 		try {
@@ -80,14 +100,16 @@ public class MedLink {
 		}
 		String previousTerm=null; // the previous term
 		String twopreviousTerm=null; // the term before the previous term
+		String threepreviousTerm=null;
 		Boolean doubleTerm=false;
 		Boolean tripleTerm=false;
+		Boolean quadTerm=false;
 		String twoWords = null;
 		String threeWords = null;
+		String fourWords=null;
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, false, true );
-		int docNo = 1;
 		for(ScoredDocument sd:scoredDocs){
-			System.out.println("Processing doc "+docNo++ +" of "+scoredDocs.size());
+			//System.out.println("Processing doc "+docNo++ +" of "+scoredDocs.size());
 			Document doc=null;
 			try {
 				doc = index.getDocument( index.getDocumentName( sd.document ), dc );
@@ -104,10 +126,13 @@ public class MedLink {
 				if(line>2){
 					tripleTerm=true;
 				}
+				if(line>3){
+					quadTerm=true;
+				}
 				Boolean one=false;
 				Boolean two=false;
 				Boolean three=false;
-				Boolean exists =  false;
+				Boolean four=false;
 				
 				if(doubleTerm){
 					twoWords=previousTerm+" "+term;
@@ -116,6 +141,12 @@ public class MedLink {
 				if(tripleTerm){
 					threeWords=twopreviousTerm+" "+previousTerm+" "+term;
 					//System.out.println(threeWords);
+				}
+				if(quadTerm){
+					fourWords=threepreviousTerm+" "+twopreviousTerm+" "+previousTerm+" "+term;
+				}
+				if(line>2){
+					threepreviousTerm=twopreviousTerm;
 				}
 				if(line>1){
 					twopreviousTerm = previousTerm;
@@ -126,44 +157,72 @@ public class MedLink {
 				if(dictionary.lookupString(term)){ //dictionary contains term
 						one = true;
 					}
-					else if(two&&dictionary.lookupString(twoWords)){
+				if(doubleTerm&&dictionary.lookupString(twoWords)){
+						//System.out.println("found match for term: "+twoWords);
 						two = true;
 					}
-					else if(three&&dictionary.lookupString(threeWords)){
+				if(tripleTerm&&dictionary.lookupString(threeWords)){
 						three = true;
 					}
-					if(!one&&!two&&!three) continue; //no entity matches
-					for(Entity entity:foundEntities){
-						if(one&&entity.getName().equals(term)){
-							entity.addAppearance(sd.document);
-							exists = true;
-						}
-						else if(two&&entity.getName().equals(twoWords)){
-							entity.addAppearance(sd.document);
-							exists = true;
-						}
-						else if(three&&entity.getName().equals(threeWords)){
-							entity.addAppearance(sd.document);
-							exists=true;
-						}
+				if(quadTerm&&dictionary.lookupString(fourWords)){
+						four = true;
 					}
-					if(!exists){
-						if(one){
-							//System.out.println("Found entity: "+term+" from term: "+dictionary.getEntity(term).getName());
-							dictionary.getEntity(term).addAppearance(sd.document);;
-							foundEntities.add(dictionary.getEntity(term));
+					if(!one&&!two&&!three&&!four) continue; //no entity matches
+							if(one){
+								if(!addAppearance(foundEntities,term,sd.document)){
+									if(foundEntities.isEmpty()){
+										foundEntities.add(0, new Entity(term,term));
+										foundEntities.get(0).addAppearance(sd.document);
+									}
+									else{
+										foundEntities.add(new Entity(term,term.replaceAll(" ", "%20")));
+										System.out.println("Adding new entity: "+term);
+										foundEntities.get(foundEntities.size()-1).addAppearance(sd.document);
+										System.out.println("Adding app for entity: "+foundEntities.get(foundEntities.size()-1).getName());
+
+										
+									}			
+								}
 							}
-						else if(two){
-							System.out.println("Found entity: "+twoWords+" from term: "+dictionary.getEntity(twoWords).getName());
-							dictionary.getEntity(twoWords).addAppearance(sd.document);;
-							foundEntities.add(dictionary.getEntity(twoWords));
+							if(two){
+								if(!addAppearance(foundEntities,twoWords,sd.document)){
+									if(foundEntities.isEmpty()){
+										foundEntities.add(0, new Entity(twoWords,twoWords.replaceAll(" ", "%20")));
+										foundEntities.get(0).addAppearance(sd.document);
+									}
+									else{
+										foundEntities.add(new Entity(twoWords,twoWords.replaceAll(" ", "%20")));
+										foundEntities.get(foundEntities.size()-1).addAppearance(sd.document);;
+										
+									}			
+								}
 							}
-						else if(three){
-							System.out.println("Found entity: "+threeWords+" from term: "+dictionary.getEntity(threeWords).getName());
-							dictionary.getEntity(threeWords).addAppearance(sd.document);;
-							foundEntities.add(dictionary.getEntity(threeWords));
+							else if(three){
+								if(!addAppearance(foundEntities,threeWords,sd.document)){
+									if(foundEntities.isEmpty()){
+										foundEntities.add(0, new Entity(threeWords,threeWords.replaceAll(" ", "%20")));
+										foundEntities.get(0).addAppearance(sd.document);
+									}
+									else{
+										foundEntities.add(new Entity(threeWords,threeWords.replaceAll(" ", "%20")));
+										foundEntities.get(foundEntities.size()-1).addAppearance(sd.document);;
+										
+									}			
+								}
 							}
-						}
+							else if(four){
+								if(!addAppearance(foundEntities,fourWords,sd.document)){
+									if(foundEntities.isEmpty()){
+										foundEntities.add(0, new Entity(fourWords,fourWords.replaceAll(" ", "%20")));
+										foundEntities.get(0).addAppearance(sd.document);
+									}
+									else{
+										foundEntities.add(new Entity(fourWords,fourWords.replaceAll(" ", "%20")));
+										foundEntities.get(foundEntities.size()-1).addAppearance(sd.document);;
+										
+									}			
+								}
+							}
 					}
 							
 						}
@@ -172,13 +231,16 @@ public class MedLink {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		outputStream.println(query);
 		System.out.println("Num unmapped entities: "+foundEntities.size());
+		outputStream.println("Num unmapped entities: "+foundEntities.size());
 		foundEntities = mapEntities(snomedToWikiMappings, foundEntities); //map snomed Entities to wiki entities
+		outputStream.println("Num mapped entities: "+foundEntities.size());
 		System.out.println("Num mapped-unfiltered entities: "+foundEntities.size());
 		KBFilter kbfilter = new KBFilter(foundEntities);
 		foundEntities=kbfilter.filterEntities();
 		System.out.println("Num filtered entities: "+foundEntities.size());
-		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
+		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities); //calculate the number of found entities per document
 		MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
 		return foundEntities; 
 		
@@ -198,18 +260,18 @@ public class MedLink {
 		for(Entity e:unmappedEntities){
 			Boolean mapped=false;
 			String mappedName = null;
-			System.out.println("Mapping entity: "+e.getName());
+			//System.out.println("Mapping entity: "+e.getName());
 			if(!snomedToWikiMappings.containsKey(e.getName().substring(0, 3).toLowerCase())){
-				System.out.println("Unable to map entity: "+e.getName());
+				//System.out.println("Unable to map entity: "+e.getName());
 				continue;
 			}
 			mappedName=snomedToWikiMappings.get(e.getName().substring(0, 3).toLowerCase()).get(e.getName().toLowerCase());
 			if(mappedName==null&&e.getName().contains("(")){
 				mappedName=snomedToWikiMappings.get(e.getName().substring(0, 3).toLowerCase()).get(EntityMatcher.removeBracketDescription(e.getName().toLowerCase().trim()));
-				System.out.println("Formatted: "+e.getName()+" without brackets");
+				//System.out.println("Formatted: "+e.getName()+" without brackets");
 			}
 			if(mappedName!=null){
-				System.out.println("Mapped "+e.getName()+" to "+mappedName);
+				//System.out.println("Mapped "+e.getName()+" to "+mappedName);
 				e.setName(mappedName);
 				mappedEntities.add(e);
 				mapped=true;
@@ -259,6 +321,18 @@ public class MedLink {
 	}
 	public List<ScoredDocument> getScoredDocuments(){
 		return this.scoredDocs;
+	}
+	public DictionaryHashMap getDictionary(){
+		return this.dictionary;
+	}
+	public Boolean addAppearance(ArrayList<Entity> foundEntities,String term,Long docID){
+		for(Entity entity:foundEntities){
+			if(entity.getName().equals(term)){
+				entity.addAppearance(docID);
+				return true;
+			}
+		}
+		return false;
 	}
 	
 

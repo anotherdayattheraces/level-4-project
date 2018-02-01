@@ -8,7 +8,6 @@ import java.util.List;
 import dictionary.DbpediaDictionarySaver;
 import dictionary.DictionaryHashMap;
 import dictionary.SnomedDictionarySaver;
-import evaluation.DictionaryComparator;
 import evaluation.DocumentLinkReader;
 import evaluation.DocumentLinkReaderEvaluator;
 import evaluation.KBLinkerEvaluator;
@@ -53,14 +52,14 @@ public class App {
     		//sqs.search();
     	}
     	else if(fn.equals("evaluate")){
-    		//DocumentLinkReaderEvaluator documentLinkReaderEvaluator = new DocumentLinkReaderEvaluator();
-    		//documentLinkReaderEvaluator.computeStatistics();
-    		//MetaMapEvaluator mmeval = new MetaMapEvaluator();
-    		//mmeval.computeStatistics();
-    		//MedLinkEvaluator seval = new MedLinkEvaluator();
-    		//seval.computeStatistics();
-    		KBLinkerEvaluator kble = new KBLinkerEvaluator(true);
-    		kble.evaluate();
+    		//DocumentLinkReaderEvaluator documentLinkReaderEvaluator = new DocumentLinkReaderEvaluator(true);
+    		//documentLinkReaderEvaluator.evaluate();
+    		MetaMapEvaluator mmeval = new MetaMapEvaluator(true);
+    		mmeval.evaluate();
+    		//MedLinkEvaluator seval = new MedLinkEvaluator(true);
+    		//seval.evaluate();
+    		//KBLinkerEvaluator kble = new KBLinkerEvaluator(true);
+    		//kble.evaluate();
     	}
     	else if(fn.equals("test")){
     		//SnomedToWikiMapper stwm = new SnomedToWikiMapper();

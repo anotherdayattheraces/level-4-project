@@ -1,9 +1,7 @@
 package entityRetrieval.core;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
+import java.util.List;
 import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
@@ -45,7 +43,7 @@ public class GalagoOrchestrator {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		System.out.println(transformed.toSimplePrettyString());
+		//System.out.println(transformed.toSimplePrettyString());
 		return results;
 
 		

@@ -214,7 +214,7 @@ public class TopicToEntityMapper {
 			e.printStackTrace();
 		}
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, true, true );
-		ArrayList<String> entityCategories = CategoryGenerator.findEntityCategories(index, conceptName, dc);
+		ArrayList<String> entityCategories = KBFilter.findEntityCategories(index, conceptName, dc);
 
 		if(entityCategories==null){
 			return false;

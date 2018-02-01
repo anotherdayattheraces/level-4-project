@@ -34,8 +34,6 @@ public class KBLinker {
 		this.query=topicChoicePair.getR();
 		this.topicChoice=topicChoicePair.getL();
 		System.out.println("Chosen query: "+query);
-		TopicToEntityMapper mapper = new TopicToEntityMapper();
-		this.mapping = mapper.generateRelevantEntities(query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 	}
@@ -45,8 +43,6 @@ public class KBLinker {
 		this.query=topics.get(topicChoice);
 		this.topicChoice=topicChoice;
 		System.out.println("Chosen query: "+query);
-		TopicToEntityMapper mapper = new TopicToEntityMapper();
-		this.mapping = mapper.generateRelevantEntities(query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 	}

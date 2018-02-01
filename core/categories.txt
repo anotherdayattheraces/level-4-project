@@ -1,4 +1,4 @@
-RTT///2938
+﻿RTT///2938
 Immune%20system///2868
 Diseases%20and%20disorders///2469
 Skeletal%20system///2387
@@ -28,11 +28,6 @@ Human%20female%20reproductive%20system///948
 Allergology///917
 Human%20body///883
 Human%20eye%20anatomy///880
-Types%20of%20country%20subdivisions///872
-Geography///870
-Regional%20geography///870
-Regions///870
-Geography%20terminology///870
 Epidemiology///841
 Demography///839
 Medicine%20in%20society///825
@@ -54,7 +49,6 @@ Lymphoid%20organ///605
 Nerves///600
 Peripheral%20nervous%20system///600
 Human%20anatomy///580
-Articles%20with%20inconsistent%20citation%20formats///576
 Sensory%20organs///569
 Medical%20devices///566
 Respiratory%20diseases///555
@@ -87,8 +81,6 @@ Gustatory%20system///377
 Knowledge%20sharing///375
 Valves///375
 Education///375
-Piping///374
-Water%20industry///374
 Animal%20locomotion///371
 Liver///370
 Disability///364
@@ -99,13 +91,8 @@ Bionics///349
 Biomedical%20engineering///346
 Biological%20engineering///345
 Healthcare%20robotics///345
-Open-source%20robots///345
-Home///343
 Women's%20health///341
 Medical%20emergencies///340
-Archaeological%20features///340
-Property%20law///338
-Walls///338
 Human%20voice///337
 Gastroenterology///335
 Autoimmune%20diseases///330

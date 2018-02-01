@@ -1,56 +1,48 @@
 package evaluation;
 
-import java.io.IOException;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
-import java.util.Set;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
 import customEntityLinker.MedLink;
+import dictionary.DictionaryHashMap;
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.Pair;
 import entityRetrieval.core.TopicRun;
-import knowledgeBase.KBFilter;
-import knowledgeBase.KBLinker;
 
 
 public class MedLinkEvaluator {
-	private HashMap<String,ArrayList<Entity>> mapping;
-	private ArrayList<Entity> returnedEntities;
-	private String query;
-	private List<ScoredDocument> scoredDocs;
-	private HashMap<Long,Integer> entitiesPerDoc;
-	private Map<ScoredDocument, Double> finalDocScores;
 	private ArrayList<TopicRun> topicRuns;
 	private String qrelFile;
 	private String runFile;
+	private PrintStream outputStream;
 
-	public MedLinkEvaluator(){
+
+	public MedLinkEvaluator(Boolean multiple){ //multiple=true if you want to carry out a set comparison, false for single eval
 		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/filteredQrels.txt";
-		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MedLinkResults.txt";		
-		MedLink medlink = new MedLink();
-		this.returnedEntities = medlink.matchEntities();
-		this.scoredDocs = medlink.getScoredDocs();
-		this.finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
-		this.mapping=medlink.getMapping();
-		this.query=medlink.getQuery();
-		
-	}
-	public MedLinkEvaluator(Boolean multiple){
-		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/filteredQrels.txt";
-		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/KBResults.txt";		
+		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MLResults.txt";
+		try {
+			this.outputStream = new PrintStream(new FileOutputStream("MLextraDetails.txt",true));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		this.topicRuns = new ArrayList<TopicRun>();
 		if(multiple){
 			int runNum=1;
 			MedLink medLinker = new MedLink(0);
 			addQuery(medLinker);
+			DictionaryHashMap reusableDictionary = new DictionaryHashMap(medLinker.getDictionary().getDictionary());
+			//reusableDictionary.getDictionary().putAll(medLinker.getMapping());
 			while(runNum<medLinker.getMaxTopics()){
-				MedLink medLinkerMul = new MedLink(runNum); //compute map of all queries
+				MedLink medLinkerMul = new MedLink(runNum,reusableDictionary); //compute map of all queries
 				addQuery(medLinkerMul);
 				runNum++;
 			}
@@ -60,25 +52,23 @@ public class MedLinkEvaluator {
 			addQuery(medLinker);
 		}
 	}
-	public void addQuery(MedLink medLinker){
-		//ArrayList<Entity> relevantEntities = mapping.get(query);	
-		ArrayList<Entity> returnedEntities = medLinker.matchEntities();
+	public void addQuery(MedLink medLinker){ //add a completed topic run to be used for evaluation
+		ArrayList<Entity> returnedEntities = medLinker.matchEntities(outputStream);
 		List<ScoredDocument> scoredDocs = medLinker.getScoredDocuments();
 		Map<ScoredDocument, Double> finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
 		MedLinkEvaluator.setScores(returnedEntities, finalDocScores);//set scores for all entities, using entity metadata
 		Collections.sort(returnedEntities, MedLinkEvaluator.score);//sort by score
 		MedLinkEvaluator.setAllRanks(returnedEntities);
-		ArrayList<TopicRun> topicRuns = new ArrayList<TopicRun>();
 		topicRuns.add(new TopicRun(medLinker.getQuery(),medLinker.topicChoice,returnedEntities));
 	}
 	
 	public void evaluate(){
-		KBLinkerEvaluator.createResultsFile("KBResults.txt", topicRuns);
+		KBLinkerEvaluator.createResultsFile("MLResults.txt", topicRuns);
 		KBLinkerEvaluator.runEval(runFile,qrelFile);
 	}
 
 	
-	public static void sortByScore(ArrayList<Entity> unorderedList){
+	public static void sortByScore(ArrayList<Entity> unorderedList){ // method for sorting entities in a list by their score
 	}
 	public static Comparator<Entity> score = new Comparator<Entity>() {
 
@@ -89,7 +79,7 @@ public class MedLinkEvaluator {
 		   return Double.compare(score2,score1);
 
 	   }};
-	public static void setScores(ArrayList<Entity> listOfEntities,  Map<ScoredDocument, Double> finalDocScores){
+	public static void setScores(ArrayList<Entity> listOfEntities,  Map<ScoredDocument, Double> finalDocScores){ //static method for setting scores of all entities, details handled by entity class
 		for(Entity re:listOfEntities){
 			re.setScore(finalDocScores);
 		}
@@ -160,25 +150,5 @@ public class MedLinkEvaluator {
 		return orderedByFreq;
 
 }
-	public static void calculatePrecision(ArrayList<Entity> orderedListOfEntities, ArrayList<Entity> relevantEntities){
-		double currentSum=0;
-		for(Entity returnedEntity:orderedListOfEntities){
-			int related=0;
-			for(Entity relevantEntity:relevantEntities){
-				if(relevantEntity.getName().equals(returnedEntity.getName())){
-					related=1;
-				}
-				if(EntityMatcher.removeBracketDescription(relevantEntity.getName()).equals(EntityMatcher.removeBracketDescription(returnedEntity.getName()))){
-					related=1;
-				}
-				if(returnedEntity.getName().split(" ").length>=3){
-					if(EntityMatcher.lastTwoWords(returnedEntity.getName()).equals(relevantEntity.getName())){
-						related=1;
-						System.out.println("Dodgy match of: "+returnedEntity.getName()+" to: "+relevantEntity.getName());
-					}
-				}
-			}
-			currentSum=returnedEntity.setPrecision(currentSum, returnedEntity.getRank(),related);
-		}
-	}
+	
 	}

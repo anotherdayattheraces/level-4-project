@@ -1,6 +1,7 @@
 package metamap;
 
 import java.io.IOException;
+import java.io.PrintStream;
 import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -51,7 +52,7 @@ public class MetaMapEntityLinker {
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
 		this.mapping = mapper.generateRelevantEntities(query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 10); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
 		this.snomedToWikiMappings=MedLink.readInMappings(mappingPath);
@@ -65,13 +66,13 @@ public class MetaMapEntityLinker {
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
 		this.mapping = mapper.generateRelevantEntities(query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 10); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
 		this.snomedToWikiMappings=MedLink.readInMappings(mappingPath);
 	}
 	
-	public ArrayList<Entity> generateEntities(){
+	public ArrayList<Entity> generateEntities(PrintStream outputStream){
 		ArrayList<Entity> foundEntities = new ArrayList<Entity>();
 		Retrieval index=null;
 		try {
@@ -84,8 +85,8 @@ public class MetaMapEntityLinker {
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, false, true );
 		MetaMapApi api = new MetaMapApiImpl();
 		//api.setTimeout(5000);
-		api.setOptions("-K -A -y");
-		System.out.println("Found "+scoredDocs.size()+" documents relevant to the query");
+		api.setOptions("-K -A -y --prune 20");
+		//System.out.println("Found "+scoredDocs.size()+" documents relevant to the query");
 		int docNo=1;
 		for(ScoredDocument scoredDoc:scoredDocs){
 			Document doc=null;
@@ -98,7 +99,7 @@ public class MetaMapEntityLinker {
 			}
 			
 			String documentText = generateString(doc.terms);
-			System.out.println(documentText);
+			//System.out.println(documentText);
 			System.out.println("Processing document "+docNo++ +" of "+scoredDocs.size());
 			List<Result> resultList = api.processCitationsFromString(documentText);
 			Result result = resultList.get(0);
@@ -128,9 +129,11 @@ public class MetaMapEntityLinker {
 				e.printStackTrace();
 			}
 		}
-		
+		outputStream.println(query);
 		System.out.println("Num unmapped entities: "+foundEntities.size());
+		outputStream.println("Num unmapped entities: "+foundEntities.size());
 		foundEntities = MedLink.mapEntities(snomedToWikiMappings, foundEntities); //map snomed Entities to wiki entities
+		outputStream.println("Num mapped entities: "+foundEntities.size());
 		System.out.println("Num mapped-unfiltered entities: "+foundEntities.size());
 		KBFilter kbfilter = new KBFilter(foundEntities);
 		foundEntities=kbfilter.filterEntities();
@@ -168,7 +171,7 @@ public class MetaMapEntityLinker {
 		}
 		Entity toAdd = null;
 		try {
-			toAdd = new Entity(mapEv.getPreferredName(),mapEv.getConceptId());
+			toAdd = new Entity(mapEv.getPreferredName().toLowerCase(),mapEv.getConceptId());
 		} catch (Exception e1) {
 			e1.printStackTrace();
 		}

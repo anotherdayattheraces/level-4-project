@@ -1,5 +1,6 @@
 package pseudoRelavanceFeedback;
 
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -11,6 +12,8 @@ import metamap.MetaMapEntityLinker;
 
 public class QueryEnhancer {
 	private ArrayList<Long> documents;
+	private PrintStream outputStream;
+
 	
 	public QueryEnhancer(ArrayList<Long> documents){
 		this.documents=documents;
@@ -18,7 +21,7 @@ public class QueryEnhancer {
 
 	public ArrayList<Entity> enhanceQuery(){
 		MetaMapEntityLinker linker = new MetaMapEntityLinker();
-		ArrayList<Entity> mmentities = linker.generateEntities();
+		ArrayList<Entity> mmentities = linker.generateEntities(outputStream);
 		ArrayList<Entity> entityList = new ArrayList<Entity>();
 		for(Entity e:mmentities){
 			e.calculateIDF(50);

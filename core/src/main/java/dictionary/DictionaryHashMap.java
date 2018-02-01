@@ -14,6 +14,9 @@ public class DictionaryHashMap {
 	public DictionaryHashMap(){
 		this.dictionary = new HashMap<String,ArrayList<Entity>>();
 	}
+	public DictionaryHashMap(HashMap<String,ArrayList<Entity>> mapping){
+		this.dictionary = mapping;
+	}
 	
 	
 	public HashMap<String, ArrayList<Entity>> getDictionary(){
