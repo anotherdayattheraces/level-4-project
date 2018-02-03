@@ -96,14 +96,14 @@ public class KBLinker {
 				if(twoWords!=null){
 					twoWords = SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(twoWords);
 					if(searcher.lookupTerm(twoWords)){
-						addEntity(twoWords,entities,sd.document);
+						addEntity(twoWords,entities,sd);
 						//System.out.println("Found entity: "+twoWords);
 					}
 				}
 				if(threeWords!=null){
 					threeWords = SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(threeWords);
 					if(searcher.lookupTerm(threeWords)){
-						addEntity(threeWords,entities,sd.document);
+						addEntity(threeWords,entities,sd);
 						//System.out.println("Found entity: "+threeWords);
 
 					}
@@ -111,20 +111,20 @@ public class KBLinker {
 				if(fourWords!=null){
 					fourWords = SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(fourWords);
 					if(searcher.lookupTerm(fourWords)){
-						addEntity(fourWords,entities,sd.document);
+						addEntity(fourWords,entities,sd);
 						//System.out.println("Found entity: "+fourWords);
 
 					}
 				}
 				if(searcher.lookupTerm(currentWord)){
-					addEntity(currentWord,entities,sd.document);
+					addEntity(currentWord,entities,sd);
 					//System.out.println("Found entity: "+currentWord);
 				}
 			}
 		}
 		System.out.println("Num unfiltered entities: "+entities.size());
 		KBFilter kbfilter = new KBFilter(entities);
-		entities=kbfilter.filterEntities();
+		entities=kbfilter.filterEntities(null);
 		System.out.println("Num filtered entities: "+entities.size());
 		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(entities);
 		MedLinkEvaluator.setMentionProbablities(entities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
@@ -133,7 +133,7 @@ public class KBLinker {
 	public List<ScoredDocument> getScoredDocuments(){
 		return this.scoredDocs;
 	}
-	public void addEntity(String name, ArrayList<Entity> entities, Long docid){
+	public void addEntity(String name, ArrayList<Entity> entities, ScoredDocument docid){
 		for(Entity e:entities){
 			if(e.getName().equals(name)){
 				e.addAppearance(docid);

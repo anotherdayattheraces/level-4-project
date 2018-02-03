@@ -10,7 +10,7 @@ public class Entity {
 	private String name;
 	private String id;
 	private double score;
-	private HashMap<Long,Integer> appearances;
+	private HashMap<ScoredDocument,Integer> appearances;
 	private double idf;
 	private double tfidf;
 	private HashMap<Long,Double> mentionProbability;
@@ -18,18 +18,18 @@ public class Entity {
 	private double precision;
 	private Boolean relevant;
 	
-	public Entity(String name, String id, double score, long docID){
+	public Entity(String name, String id, double score, ScoredDocument scoredDoc){
 		this.name = name;
 		this.id=id;
 		this.score=score;
-		this.appearances = new HashMap<Long,Integer>();
-		this.appearances.put(docID, 1);
+		this.appearances = new HashMap<ScoredDocument,Integer>();
+		this.appearances.put(scoredDoc, 1);
 		this.mentionProbability = new HashMap<Long,Double>();
 	}
 	public Entity(String name, String id){
 		this.name = name;
 		this.id=id;
-		this.appearances =  new HashMap<Long,Integer>();
+		this.appearances =  new HashMap<ScoredDocument,Integer>();
 		this.mentionProbability = new HashMap<Long,Double>();
 	}
 	public Entity(String name){
@@ -72,21 +72,21 @@ public class Entity {
 
 	public ArrayList<Pair<Long,Integer>> appearancesToArray(){
 		ArrayList<Pair<Long,Integer>> array = new ArrayList<Pair<Long,Integer>>();
-		for(long key:this.appearances.keySet()){
-			array.add(new Pair<Long, Integer>(key,appearances.get(key)));
+		for(ScoredDocument key:this.appearances.keySet()){
+			array.add(new Pair<Long, Integer>(key.document,appearances.get(key)));
 		}
 		return array;
 	}
-	public HashMap<Long, Integer> getHashMap(){
+	public HashMap<ScoredDocument, Integer> getHashMap(){
 		return this.appearances;
 	}
-	public void addAppearance(Long docID){
-		if(this.appearances.containsKey(docID)){
-			int currentVal = this.appearances.get(docID);
-			this.appearances.put(docID, currentVal+1);
+	public void addAppearance(ScoredDocument scoredDoc){
+		if(this.appearances.containsKey(scoredDoc)){
+			int currentVal = this.appearances.get(scoredDoc);
+			this.appearances.put(scoredDoc, currentVal+1);
 		}
 		else{
-			this.appearances.put(docID, 1);
+			this.appearances.put(scoredDoc, 1);
 		}
 	}
 	public int getTotalAppearances(){
@@ -106,9 +106,9 @@ public class Entity {
 	public void calculateTFIDF(){
 		double tfidf = 0;
 		for(Pair<Long,Integer> pair:this.appearancesToArray()){
-			tfidf+=(this.idf*pair.getR());
+			tfidf+=pair.getR();
 		}
-		this.tfidf = tfidf;
+		this.tfidf = (this.idf*tfidf);
 	}
 	public int getRank(){
 		return this.rank;
@@ -125,5 +125,7 @@ public class Entity {
 	public double getPrecision(){
 		return this.precision;
 	}
-	
+	public HashMap<ScoredDocument,Integer> getAppearances(){
+		return this.appearances;
+	}
 }

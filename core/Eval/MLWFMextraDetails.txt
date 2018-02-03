@@ -1,0 +1,57 @@
+Inflammatory bowel disease
+Num unmapped entities: 241
+Num mapped entities: 138
+Contact dermatitis
+Num unmapped entities: 152
+Num mapped entities: 90
+Gut-brain axis
+Num unmapped entities: 39
+Num mapped entities: 19
+Antibiotic misuse
+Num unmapped entities: 89
+Num mapped entities: 48
+Legionella
+Num unmapped entities: 51
+Num mapped entities: 21
+Irritable bowel syndrome
+Num unmapped entities: 205
+Num mapped entities: 107
+Norepinephrine
+Num unmapped entities: 136
+Num mapped entities: 64
+Gut flora
+Num unmapped entities: 114
+Num mapped entities: 63
+Noise-induced hearing loss
+Num unmapped entities: 78
+Num mapped entities: 33
+Fever
+Num unmapped entities: 180
+Num mapped entities: 94
+Antiviral drug
+Num unmapped entities: 147
+Num mapped entities: 77
+Diarrhea
+Num unmapped entities: 164
+Num mapped entities: 88
+Allergy
+Num unmapped entities: 139
+Num mapped entities: 73
+Large intestine
+Num unmapped entities: 133
+Num mapped entities: 63
+Crohn's disease
+Num unmapped entities: 261
+Num mapped entities: 140
+Cholera
+Num unmapped entities: 96
+Num mapped entities: 47
+Immunology
+Num unmapped entities: 47
+Num mapped entities: 25
+Riboflavin
+Num unmapped entities: 156
+Num mapped entities: 81
+Sugar
+Num unmapped entities: 120
+Num mapped entities: 68

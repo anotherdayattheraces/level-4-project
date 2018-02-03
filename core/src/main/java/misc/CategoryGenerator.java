@@ -94,7 +94,6 @@ public class CategoryGenerator {
 			e.printStackTrace();
 		}
 		return entities;
-		
 	}
 	public void saveCategories(HashMap<String,Integer> categories){
 		ArrayList<Pair<String,Integer>> toptencats = new ArrayList<Pair<String,Integer>>();

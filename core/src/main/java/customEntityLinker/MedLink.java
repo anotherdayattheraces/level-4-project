@@ -169,15 +169,15 @@ public class MedLink {
 					}
 					if(!one&&!two&&!three&&!four) continue; //no entity matches
 							if(one){
-								if(!addAppearance(foundEntities,term,sd.document)){
+								if(!addAppearance(foundEntities,term,sd)){
 									if(foundEntities.isEmpty()){
 										foundEntities.add(0, new Entity(term,term));
-										foundEntities.get(0).addAppearance(sd.document);
+										foundEntities.get(0).addAppearance(sd);
 									}
 									else{
 										foundEntities.add(new Entity(term,term.replaceAll(" ", "%20")));
 										System.out.println("Adding new entity: "+term);
-										foundEntities.get(foundEntities.size()-1).addAppearance(sd.document);
+										foundEntities.get(foundEntities.size()-1).addAppearance(sd);
 										System.out.println("Adding app for entity: "+foundEntities.get(foundEntities.size()-1).getName());
 
 										
@@ -185,40 +185,40 @@ public class MedLink {
 								}
 							}
 							if(two){
-								if(!addAppearance(foundEntities,twoWords,sd.document)){
+								if(!addAppearance(foundEntities,twoWords,sd)){
 									if(foundEntities.isEmpty()){
 										foundEntities.add(0, new Entity(twoWords,twoWords.replaceAll(" ", "%20")));
-										foundEntities.get(0).addAppearance(sd.document);
+										foundEntities.get(0).addAppearance(sd);
 									}
 									else{
 										foundEntities.add(new Entity(twoWords,twoWords.replaceAll(" ", "%20")));
-										foundEntities.get(foundEntities.size()-1).addAppearance(sd.document);;
+										foundEntities.get(foundEntities.size()-1).addAppearance(sd);;
 										
 									}			
 								}
 							}
 							else if(three){
-								if(!addAppearance(foundEntities,threeWords,sd.document)){
+								if(!addAppearance(foundEntities,threeWords,sd)){
 									if(foundEntities.isEmpty()){
 										foundEntities.add(0, new Entity(threeWords,threeWords.replaceAll(" ", "%20")));
-										foundEntities.get(0).addAppearance(sd.document);
+										foundEntities.get(0).addAppearance(sd);
 									}
 									else{
 										foundEntities.add(new Entity(threeWords,threeWords.replaceAll(" ", "%20")));
-										foundEntities.get(foundEntities.size()-1).addAppearance(sd.document);;
+										foundEntities.get(foundEntities.size()-1).addAppearance(sd);;
 										
 									}			
 								}
 							}
 							else if(four){
-								if(!addAppearance(foundEntities,fourWords,sd.document)){
+								if(!addAppearance(foundEntities,fourWords,sd)){
 									if(foundEntities.isEmpty()){
 										foundEntities.add(0, new Entity(fourWords,fourWords.replaceAll(" ", "%20")));
-										foundEntities.get(0).addAppearance(sd.document);
+										foundEntities.get(0).addAppearance(sd);
 									}
 									else{
 										foundEntities.add(new Entity(fourWords,fourWords.replaceAll(" ", "%20")));
-										foundEntities.get(foundEntities.size()-1).addAppearance(sd.document);;
+										foundEntities.get(foundEntities.size()-1).addAppearance(sd);;
 										
 									}			
 								}
@@ -234,11 +234,13 @@ public class MedLink {
 		outputStream.println(query);
 		System.out.println("Num unmapped entities: "+foundEntities.size());
 		outputStream.println("Num unmapped entities: "+foundEntities.size());
-		foundEntities = mapEntities(snomedToWikiMappings, foundEntities); //map snomed Entities to wiki entities
+		foundEntities = mapEntities(snomedToWikiMappings, foundEntities,outputStream); //map snomed Entities to wiki entities
 		outputStream.println("Num mapped entities: "+foundEntities.size());
+		outputStream.println("Mappings: ");
+		outputStream.println(" ");
 		System.out.println("Num mapped-unfiltered entities: "+foundEntities.size());
 		KBFilter kbfilter = new KBFilter(foundEntities);
-		foundEntities=kbfilter.filterEntities();
+		foundEntities=kbfilter.filterEntities(outputStream);
 		System.out.println("Num filtered entities: "+foundEntities.size());
 		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities); //calculate the number of found entities per document
 		MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
@@ -255,12 +257,13 @@ public class MedLink {
 		return this.query;
 	}
 	
-	public static ArrayList<Entity> mapEntities( HashMap<String,HashMap<String,String>> snomedToWikiMappings, ArrayList<Entity> unmappedEntities){
+	public static ArrayList<Entity> mapEntities( HashMap<String,HashMap<String,String>> snomedToWikiMappings, ArrayList<Entity> unmappedEntities, PrintStream outputStream){
 		ArrayList<Entity> mappedEntities = new ArrayList<Entity>();
 		for(Entity e:unmappedEntities){
 			Boolean mapped=false;
 			String mappedName = null;
 			//System.out.println("Mapping entity: "+e.getName());
+			
 			if(!snomedToWikiMappings.containsKey(e.getName().substring(0, 3).toLowerCase())){
 				//System.out.println("Unable to map entity: "+e.getName());
 				continue;
@@ -271,12 +274,14 @@ public class MedLink {
 				//System.out.println("Formatted: "+e.getName()+" without brackets");
 			}
 			if(mappedName!=null){
+				outputStream.println("Mapped "+e.getName()+" to "+mappedName);
 				//System.out.println("Mapped "+e.getName()+" to "+mappedName);
 				e.setName(mappedName);
 				mappedEntities.add(e);
 				mapped=true;
 			}
 			if(!mapped){
+				outputStream.println("Unable to map entity: "+e.getName());
 				System.out.println("Unable to map entity: "+e.getName());
 			}
 		}
@@ -325,10 +330,10 @@ public class MedLink {
 	public DictionaryHashMap getDictionary(){
 		return this.dictionary;
 	}
-	public Boolean addAppearance(ArrayList<Entity> foundEntities,String term,Long docID){
+	public Boolean addAppearance(ArrayList<Entity> foundEntities,String term,ScoredDocument scoredDoc){
 		for(Entity entity:foundEntities){
 			if(entity.getName().equals(term)){
-				entity.addAppearance(docID);
+				entity.addAppearance(scoredDoc);
 				return true;
 			}
 		}

@@ -4,11 +4,8 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-
-import dictionary.DictionaryHashMap;
 import entityRetrieval.core.Entity;
-import entityRetrieval.core.Pair;
-import metamap.MetaMapEntityLinker;
+import evaluation.DocumentLinkReader;
 
 public class QueryEnhancer {
 	private ArrayList<Long> documents;
@@ -19,24 +16,32 @@ public class QueryEnhancer {
 		this.documents=documents;
 	}
 
-	public ArrayList<Entity> enhanceQuery(){
-		MetaMapEntityLinker linker = new MetaMapEntityLinker();
-		ArrayList<Entity> mmentities = linker.generateEntities(outputStream);
-		ArrayList<Entity> entityList = new ArrayList<Entity>();
-		for(Entity e:mmentities){
+	public static ArrayList<Entity> enhanceQuery(){
+		DocumentLinkReader linker = new DocumentLinkReader();
+		ArrayList<Entity> entities = linker.getEntitiesFromLinks();
+		for(Entity e:entities){
 			e.calculateIDF(50);
 			e.calculateTFIDF();
-			System.out.println("Entity name: "+e.getName()+" entity ID: "+e.getId()+" tfidf: "+e.getTFIDF());
 			}
-		Collections.sort(entityList, new Comparator<Entity>() {
-			public int compare(Entity e1, Entity e2) {
-				return Double.compare(e1.getTFIDF(),e2.getTFIDF());
-			}
-		});
-		for(Entity e:entityList){
+		Collections.sort(entities,QueryEnhancer.tfidf);
+		for(Entity e:entities){
 			System.out.println("Entity name: "+e.getName()+" entity ID: "+e.getId()+" tfidf: "+e.getTFIDF());
 			}
 		return null;
 	}
+	
+	
+	public static void sortBytfidf(ArrayList<Entity> unorderedList){ // method for sorting entities in a list by their score
+	}
+	public static Comparator<Entity> tfidf = new Comparator<Entity>() {
+
+		public int compare(Entity e1, Entity e2) {
+
+			double score1 = e1.getTFIDF();
+			double score2 = e2.getTFIDF();
+		   return Double.compare(score2,score1);
+
+	   }};
+
 	
 }

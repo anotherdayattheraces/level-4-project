@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -57,21 +58,22 @@ public class KBFilter {
 		return categories;
 	}
 	
-	public ArrayList<Entity> filterEntities(){ //using the instance arraylist of entities return a list of entities that have at least 1 category in the top N categories 
+	public ArrayList<Entity> filterEntities(PrintStream outputStream){ //using the instance arraylist of entities return a list of entities that have at least 1 category in the top N categories 
 		HashMap<String,ArrayList<String>> entityToCategoriesMapping = getEntityCategories();
 		ArrayList<Entity> filteredEntities = new ArrayList<Entity>();
 		for(Entity entity:returnedEntities){
 			if((entityToCategoriesMapping.get(entity.getName())!=null)){
-				Boolean catMatch = findCategoryMatch(categories,entityToCategoriesMapping.get(entity.getName()),entity);
+				Boolean catMatch = findCategoryMatch(categories,entityToCategoriesMapping.get(entity.getName()),entity,outputStream);
 				if(catMatch){
 					filteredEntities.add(entity);
 				}
 				else{
+					outputStream.println("Removed entity: "+entity.getName());
 					System.out.println("Removed entity: "+entity.getName());
 					}
 				}
 			else{
-				System.out.println("Couldn't find any categories for: "+entity.getName());
+				outputStream.println("Removed entity: "+entity.getName());
 			}
 			}
 		return filteredEntities;
@@ -126,10 +128,11 @@ public class KBFilter {
 				}
 		return entityToCategoriesMapping;
 	}
-	public Boolean findCategoryMatch(ArrayList<String> topCategories, ArrayList<String> entityCategories, Entity currentEntity){ //given list of top N categories and an entity's associated categories, see if you can match any
+	public Boolean findCategoryMatch(ArrayList<String> topCategories, ArrayList<String> entityCategories, Entity currentEntity, PrintStream outputStream){ //given list of top N categories and an entity's associated categories, see if you can match any
 		for(String category:topCategories){
 			for(String entityCat:entityCategories){
 				if(category.equals(entityCat)){
+					outputStream.println("Matched entity: "+currentEntity.getName()+" for category: "+entityCat);
 					System.out.println("Matched entity: "+currentEntity.getName()+" for category: "+entityCat);
 					return true;
 				}

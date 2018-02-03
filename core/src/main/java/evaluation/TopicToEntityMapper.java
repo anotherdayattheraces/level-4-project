@@ -10,17 +10,12 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
-import java.util.Set;
-
 import org.lemurproject.galago.core.index.disk.DiskIndex;
 import org.lemurproject.galago.core.parse.Document;
-import org.lemurproject.galago.core.parse.Document.DocumentComponents;
-
 import dictionary.DictionaryHashMap;
 import dictionary.SnomedDictionaryInitializer;
 import entityRetrieval.core.Entity;
 import knowledgeBase.KBFilter;
-import misc.CategoryGenerator;
 
 public class TopicToEntityMapper {
 	private String qrelPath;

@@ -120,7 +120,7 @@ public class MetaMapEntityLinker {
 				              //System.out.println("   Score: " + mapEv.getScore());
 					          //System.out.println("   Preferred Name: " + mapEv.getPreferredName());
 					          //System.out.println("   Matched Words: " + mapEv.getMatchedWords());
-				              addEntity(mapEv,foundEntities,scoredDoc.document);
+				              addEntity(mapEv,foundEntities,scoredDoc);
 				            }
 				          }
 					}
@@ -132,11 +132,11 @@ public class MetaMapEntityLinker {
 		outputStream.println(query);
 		System.out.println("Num unmapped entities: "+foundEntities.size());
 		outputStream.println("Num unmapped entities: "+foundEntities.size());
-		foundEntities = MedLink.mapEntities(snomedToWikiMappings, foundEntities); //map snomed Entities to wiki entities
+		foundEntities = MedLink.mapEntities(snomedToWikiMappings, foundEntities, outputStream); //map snomed Entities to wiki entities
 		outputStream.println("Num mapped entities: "+foundEntities.size());
 		System.out.println("Num mapped-unfiltered entities: "+foundEntities.size());
 		KBFilter kbfilter = new KBFilter(foundEntities);
-		foundEntities=kbfilter.filterEntities();
+		foundEntities=kbfilter.filterEntities(outputStream);
 		System.out.println("Num filtered entities: "+foundEntities.size());
 		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
 		MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
@@ -158,7 +158,7 @@ public class MetaMapEntityLinker {
 	}
 	
 
-	public void addEntity(Ev mapEv, ArrayList<Entity> entities, Long docid){
+	public void addEntity(Ev mapEv, ArrayList<Entity> entities, ScoredDocument docid){
 		for(Entity e:entities){
 			try {
 				if(e.getName().equals(mapEv.getPreferredName())){

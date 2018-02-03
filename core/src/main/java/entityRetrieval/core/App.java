@@ -23,6 +23,7 @@ import knowledgeBase.KBLinker;
 import knowledgeBase.SnomedToWikiMapper;
 import metamap.MetaMapEntityLinker;
 import misc.CategoryGenerator;
+import misc.QrelFilter;
 import pseudoRelavanceFeedback.QueryEnhancer;
 
 
@@ -54,10 +55,10 @@ public class App {
     	else if(fn.equals("evaluate")){
     		//DocumentLinkReaderEvaluator documentLinkReaderEvaluator = new DocumentLinkReaderEvaluator(true);
     		//documentLinkReaderEvaluator.evaluate();
-    		MetaMapEvaluator mmeval = new MetaMapEvaluator(true);
-    		mmeval.evaluate();
-    		//MedLinkEvaluator seval = new MedLinkEvaluator(true);
-    		//seval.evaluate();
+    		//MetaMapEvaluator mmeval = new MetaMapEvaluator(true);
+    		//mmeval.evaluate();
+    		MedLinkEvaluator seval = new MedLinkEvaluator(true);
+    		seval.evaluate();
     		//KBLinkerEvaluator kble = new KBLinkerEvaluator(true);
     		//kble.evaluate();
     	}
@@ -67,8 +68,11 @@ public class App {
     		//CategoryGenerator cg = new CategoryGenerator();
     		//HashMap<String,Integer> categories = cg.findCategories();
     		//cg.saveCategories(categories);
-    		TopicToEntityMapper ttem = new TopicToEntityMapper();
-    		ttem.saveFilteredQrels(ttem.filterQrels());
+    		//TopicToEntityMapper ttem = new TopicToEntityMapper();
+    		//ttem.saveFilteredQrels(ttem.filterQrels());
+    		//QueryEnhancer.enhanceQuery();
+    		QrelFilter qf = new QrelFilter();
+    		qf.filterByMapping();
 
     	}
     	else if(fn.equals("initialize")){

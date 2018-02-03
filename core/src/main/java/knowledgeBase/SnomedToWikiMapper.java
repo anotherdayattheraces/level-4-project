@@ -8,6 +8,8 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
 import org.lemurproject.galago.core.index.disk.DiskIndex;
 
@@ -19,6 +21,7 @@ import evaluation.EntityMatcher;
 public class SnomedToWikiMapper {
 	private String path;
 	private DictionaryHashMap snomedDictionary;
+	private double jaccardThreshhold;
 	
 	public SnomedToWikiMapper(){
 		this.path="C:/Work/Project/samples/Unprocessed_Index";
@@ -28,6 +31,7 @@ public class SnomedToWikiMapper {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		this.jaccardThreshhold=0.3;
 	}
 	public HashMap<String,ArrayList<String>> generateMappings(){
 		DiskIndex index = null;
@@ -43,13 +47,25 @@ public class SnomedToWikiMapper {
 			String wikiEntity=null;
 			try {
 				id = index.getIdentifier(formatEntityName(e.getName()));
-				wikiEntity=formatEntityName(e.getName());
+				if(id!=-1&&jaccard(e.getName(),formatEntityName(e.getName()))<jaccardThreshhold){
+					System.out.println("Removed mapping of: "+e.getName()+" to: "+formatEntityName(e.getName()));
+					id=-1L;
+				}
+				if(id!=-1){
+					wikiEntity=formatEntityName(e.getName());
+				}
 			} catch (IOException e1) {
 			}
 			if(id==-1){ //if first mapping attempt was unsuccsessful 
 				try {
 					id = index.getIdentifier(formatEntityNameFirstLetterUpperCase(e.getName()));
-					wikiEntity=formatEntityNameFirstLetterUpperCase(e.getName());
+					if(id!=-1&&jaccard(e.getName(),formatEntityNameFirstLetterUpperCase(e.getName()))<jaccardThreshhold){
+						System.out.println("Removed mapping of: "+e.getName()+" to: "+formatEntityNameFirstLetterUpperCase(e.getName()));
+						id=-1L;
+					}
+					if(id!=-1){
+						wikiEntity=formatEntityNameFirstLetterUpperCase(e.getName());
+					}
 				} catch (IOException e1) {
 					e1.printStackTrace();
 				}
@@ -57,6 +73,10 @@ public class SnomedToWikiMapper {
 			if(id==-1&&e.getName().split(" ").length>=4){
 				try {
 					id=index.getIdentifier(formatNameForAtLeast4Terms(e.getName()));
+					if(id!=-1&&jaccard(e.getName(),formatNameForAtLeast4Terms(e.getName()))<jaccardThreshhold){
+						System.out.println("Removed mapping of: "+e.getName()+" to: "+formatNameForAtLeast4Terms(e.getName()));
+						id=-1L;
+					}
 					if(id!=-1){
 						wikiEntity=formatNameForAtLeast4Terms(e.getName());
 						System.out.println("Mapped "+e.getName()+" to: "+formatNameForAtLeast4Terms(e.getName()));
@@ -68,6 +88,10 @@ public class SnomedToWikiMapper {
 			if(id==-1&&e.getName().split(" ").length>3){
 				try {
 					id=index.getIdentifier(EntityMatcher.lastTwoWords(e.getName()));
+					if(id!=-1&&jaccard(e.getName(),EntityMatcher.lastTwoWords(e.getName()))<jaccardThreshhold){
+						System.out.println("Removed mapping of: "+e.getName()+" to: "+EntityMatcher.lastTwoWords(e.getName()));
+						id=-1L;
+					}
 					if(id!=-1){
 						System.out.println("Mapped "+e.getName()+" to: "+EntityMatcher.lastTwoWords(e.getName()));
 						wikiEntity=EntityMatcher.lastTwoWords(e.getName());
@@ -79,6 +103,10 @@ public class SnomedToWikiMapper {
 			if(id==-1&&e.getName().split(" ").length>3){
 				try {
 					id=index.getIdentifier(EntityMatcher.FirstTwoWords(e.getName()));
+					if(id!=-1&&jaccard(e.getName(),EntityMatcher.FirstTwoWords(e.getName()))<jaccardThreshhold){
+						System.out.println("Removed mapping of: "+e.getName()+" to: "+EntityMatcher.FirstTwoWords(e.getName()));
+						id=-1L;
+					}
 					if(id!=-1){
 						System.out.println("Mapped "+e.getName()+" to: "+EntityMatcher.FirstTwoWords(e.getName()));
 						wikiEntity=EntityMatcher.FirstTwoWords(e.getName());
@@ -90,6 +118,10 @@ public class SnomedToWikiMapper {
 			if(id==-1&&e.getName().split(" ").length>=3){
 				try {
 					id=index.getIdentifier(takeFinalWord(e.getName()));
+					if(id!=-1&&jaccard(e.getName(),takeFinalWord(e.getName()))<jaccardThreshhold){
+						System.out.println("Removed mapping of: "+e.getName()+" to: "+takeFinalWord(e.getName()));
+						id=-1L;
+					}
 					if(id!=-1){
 						System.out.println("Mapped "+e.getName()+" to: "+takeFinalWord(e.getName()));
 						wikiEntity=takeFinalWord(e.getName());
@@ -209,6 +241,23 @@ public class SnomedToWikiMapper {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+	
+	public double jaccard(String entityName, String wikiName){
+		Set<String> union = new HashSet<String>();
+		Set<String> intersection = new HashSet<String>();
+		for(String eName:entityName.toLowerCase().split(" ")){
+			union.add(eName);
+			for(String wName:wikiName.toLowerCase().split(" ")){
+				union.add(wName);
+				if(wName.equals(eName)){
+					intersection.add(eName);
+				}
+			}
+		}
+		double jaccard = (double)intersection.size()/(double)union.size();
+		return jaccard;
+		
 	}
 	
 

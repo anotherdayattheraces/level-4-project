@@ -73,7 +73,7 @@ public class DocumentLinkReader {
 			   String entityName=entityID.replaceAll("%20", " ");			   
 			   if(foundEntities.isEmpty()){
 				   Entity e = new Entity(entityName,entityID);
-				   e.addAppearance(sd.document);
+				   e.addAppearance(sd);
 				   foundEntities.add(e);
 				   continue;
 			   }
@@ -81,12 +81,12 @@ public class DocumentLinkReader {
 			   for(Entity fe:foundEntities){
 				   if(fe.getId().equals(entityID)){ //entity has already been found
 					   exists=true;
-					   fe.addAppearance(sd.document);
+					   fe.addAppearance(sd);
 				   		}
 				   }
 			   if(!exists){
 				   Entity e = new Entity(entityName,entityID);
-				   e.addAppearance(sd.document);
+				   e.addAppearance(sd);
 				   foundEntities.add(e);
 			   }
 			   
@@ -99,7 +99,7 @@ public class DocumentLinkReader {
 		}
 		System.out.println("Num unfiltered entities: "+foundEntities.size());
 		KBFilter kbfilter = new KBFilter(foundEntities);
-		foundEntities=kbfilter.filterEntities();
+		foundEntities=kbfilter.filterEntities(null);
 		System.out.println("Num filtered entities: "+foundEntities.size());
 		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
 		MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
