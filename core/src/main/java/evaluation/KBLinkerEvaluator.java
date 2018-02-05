@@ -14,6 +14,7 @@ import java.util.Map;
 import org.lemurproject.galago.core.eval.Eval;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
+import org.lemurproject.galago.core.retrieval.prf.WeightedTerm;
 import org.lemurproject.galago.utility.Parameters;
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.TopicRun;
@@ -56,6 +57,29 @@ public class KBLinkerEvaluator {
 		ArrayList<Entity> returnedEntities = kblinker.getEntitiesFromText();
 		List<ScoredDocument> scoredDocs = kblinker.getScoredDocuments();
 		Map<ScoredDocument, Double> finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
+		scoredDocs = MedLinkEvaluator.calculateEntitiesPerDoc(returnedEntities,scoredDocs);
+		Boolean customScore=false;
+		if(customScore){
+			MedLinkEvaluator.setMentionProbablities(returnedEntities, scoredDocs); //calculate the mention probabilities for each entity per doc
+			MedLinkEvaluator.setScores(returnedEntities, finalDocScores);//set scores for all entities, using entity metadata
+		}
+		else{
+			List<WeightedTerm> scoredTerms = null;
+			try {
+				scoredTerms = RelevanceModel1.scoreGrams(MedLinkEvaluator.formatDataForApi(returnedEntities, scoredDocs),finalDocScores);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			for(WeightedTerm wt:scoredTerms){
+				for(Entity entity:returnedEntities){
+					if(entity.getName()==wt.getTerm()){
+						entity.setScore(wt.score);
+					}
+				}
+			}
+		}
+		
+		
 		MedLinkEvaluator.setScores(returnedEntities, finalDocScores);//set scores for all entities, using entity metadata
 		Collections.sort(returnedEntities, MedLinkEvaluator.score);//sort by score
 		MedLinkEvaluator.setAllRanks(returnedEntities);

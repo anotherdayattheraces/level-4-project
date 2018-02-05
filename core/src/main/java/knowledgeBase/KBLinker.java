@@ -24,6 +24,7 @@ public class KBLinker {
 	private HashMap<Long,Integer> entitiesPerDoc;
 	private ArrayList<String> topics;
 	public int topicChoice;
+	
 
 
 	
@@ -126,8 +127,8 @@ public class KBLinker {
 		KBFilter kbfilter = new KBFilter(entities);
 		entities=kbfilter.filterEntities(null);
 		System.out.println("Num filtered entities: "+entities.size());
-		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(entities);
-		MedLinkEvaluator.setMentionProbablities(entities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
+		//this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(entities);
+		//MedLinkEvaluator.setMentionProbablities(entities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
 		return entities;
 	}
 	public List<ScoredDocument> getScoredDocuments(){

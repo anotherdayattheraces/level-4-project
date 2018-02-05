@@ -2,8 +2,13 @@ package generation;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Scanner;
 import dictionary.DictionaryHashMap;
+import entityRetrieval.core.Entity;
+import entityRetrieval.core.Pair;
 import entityRetrieval.core.SnomedEntity;
 
 public class SnomedDictionaryGenerator extends DictionaryGenerator{
@@ -18,6 +23,7 @@ public class SnomedDictionaryGenerator extends DictionaryGenerator{
 		Boolean started=false;
 		String type = null;
 	    char endOfString = 0;
+
 		while(sc.hasNext()){
 			String line = sc.nextLine();
 			if(!started&&line.contains("101009")){
@@ -71,7 +77,10 @@ public class SnomedDictionaryGenerator extends DictionaryGenerator{
 					}
 					nameBuilder.append(array[position++]);
 				}
+				
 				String name = nameBuilder.toString().substring(0, nameBuilder.length()-1);
+
+					
 				System.out.println("Adding entity with name: "+name+" id: "+idBuilder.toString()+" type: "+type);
 				dhm.addEntity(new SnomedEntity(name.toLowerCase(),idBuilder.toString(),type,0));
 
@@ -80,6 +89,8 @@ public class SnomedDictionaryGenerator extends DictionaryGenerator{
 				
 			}
 
+
+		
 		
 		sc.close();
 		return dhm;
@@ -93,5 +104,7 @@ public class SnomedDictionaryGenerator extends DictionaryGenerator{
 			}
 			return true;
 	}
+	
+	
 
 }

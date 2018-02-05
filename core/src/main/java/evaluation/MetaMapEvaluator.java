@@ -2,6 +2,7 @@ package evaluation;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,6 +10,8 @@ import java.util.List;
 import java.util.Map;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
+import org.lemurproject.galago.core.retrieval.prf.WeightedTerm;
+
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.TopicRun;
 import metamap.MetaMapEntityLinker;
@@ -46,10 +49,30 @@ public class MetaMapEvaluator {
 		}
 	}
 	public void addQuery(MetaMapEntityLinker kblinker){ //add a completed topic run to be used for evaluation
-		//ArrayList<Entity> relevantEntities = mapping.get(query);	
 		ArrayList<Entity> returnedEntities = kblinker.generateEntities(outputStream);
 		List<ScoredDocument> scoredDocs = kblinker.getScoredDocuments();
 		Map<ScoredDocument, Double> finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
+		scoredDocs = MedLinkEvaluator.calculateEntitiesPerDoc(returnedEntities,scoredDocs);
+		Boolean customScore = false;
+		if(customScore){
+			MedLinkEvaluator.setMentionProbablities(returnedEntities, scoredDocs); //calculate the mention probabilities for each entity per doc
+			MedLinkEvaluator.setScores(returnedEntities, finalDocScores);//set scores for all entities, using entity metadata
+		}
+		else{
+			List<WeightedTerm> scoredTerms = null;
+			try {
+				scoredTerms = RelevanceModel1.scoreGrams(MedLinkEvaluator.formatDataForApi(returnedEntities, scoredDocs),finalDocScores);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			for(WeightedTerm wt:scoredTerms){
+				for(Entity entity:returnedEntities){
+					if(entity.getName()==wt.getTerm()){
+						entity.setScore(wt.score);
+					}
+				}
+			}
+		}
 		MedLinkEvaluator.setScores(returnedEntities, finalDocScores);//set scores for all entities, using entity metadata
 		Collections.sort(returnedEntities, MedLinkEvaluator.score);//sort by score
 		MedLinkEvaluator.setAllRanks(returnedEntities);

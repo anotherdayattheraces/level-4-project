@@ -1,0 +1,3981 @@
+Inflammatory bowel disease
+Num unmapped entities: 241
+Mapping: 
+ 
+Mapped calprotectin to Calprotectin
+Mapped disease to Disease
+Unable to map entity: colitis
+Unable to map entity: ulcerative colitis
+Mapped inflammatory bowel disease to Inflammatory Bowel Disease
+Unable to map entity: protein
+Mapped indium to Indium
+Mapped gold to Gold
+Mapped irritable bowel syndrome to Irritable Bowel Syndrome
+Mapped coeliac disease to Coeliac Disease
+Unable to map entity: gluten
+Mapped lead to Lead
+Mapped interleukin to Interleukin
+Unable to map entity: gene
+Mapped beta 2 microglobulin to Beta 2 microglobulin
+Unable to map entity: injury
+Unable to map entity: various
+Unable to map entity: activity
+Unable to map entity: process
+Mapped prostaglandin to Prostaglandin
+Mapped atherosclerosis to Atherosclerosis
+Mapped arthritis to Arthritis
+Mapped rheumatoid arthritis to Rheumatoid Arthritis
+Mapped autoimmune disease to Autoimmune Disease
+Mapped rhinitis to Rhinitis
+Unable to map entity: allergic rhinitis
+Mapped conjunctivitis to Conjunctivitis
+Mapped asthma to Asthma
+Unable to map entity: eczema
+Mapped angioedema to Angioedema
+Mapped urticaria to Urticaria
+Mapped zileuton to Zileuton
+Unable to map entity: allergic asthma
+Mapped exercise to Exercise
+Unable to map entity: psoriasis
+Unable to map entity: acne
+Mapped acne vulgaris to Acne Vulgaris
+Unable to map entity: clinical trial
+Unable to map entity: imatinib
+Unable to map entity: leukemia
+Mapped myeloid leukemia to Myeloid leukemia
+Mapped fiber to Fiber
+Unable to map entity: constipation
+Unable to map entity: inulin
+Unable to map entity: oligosaccharide
+Unable to map entity: acid
+Unable to map entity: fatty acid
+Mapped feces to Feces
+Unable to map entity: celiac disease
+Unable to map entity: diabetes type
+Unable to map entity: schizophrenia
+Unable to map entity: obesity
+Mapped fatty liver to Fatty liver
+Unable to map entity: atopy
+Mapped human tissue to Human tissue
+Mapped endothelium to Endothelium
+Unable to map entity: infiltration
+Mapped expression to Expression
+Mapped thyroiditis to Thyroiditis
+Mapped autoimmune thyroiditis to Autoimmune thyroiditis
+Mapped recruitment to Recruitment
+Mapped indeterminate colitis to Indeterminate colitis
+Unable to map entity: inflammatory disorder
+Unable to map entity: entire colon
+Unable to map entity: movement
+Mapped eating to Eating
+Mapped air to Air
+Mapped diabetes mellitus to Diabetes Mellitus
+Mapped dyspepsia to Dyspepsia
+Mapped transient to Transient
+Unable to map entity: milk
+Unable to map entity: milk intolerance
+Unable to map entity: lactose
+Unable to map entity: lactose intolerance
+Unable to map entity: infection
+Mapped poisoning to Poisoning
+Mapped food poisoning to Food Poisoning
+Unable to map entity: ulcer
+Mapped peptic ulcer to Peptic Ulcer
+Mapped microscopic colitis to Microscopic colitis
+Mapped entire gastrointestinal tract to Tract
+Unable to map entity: vasculitis
+Unable to map entity: small vessel vasculitis
+Mapped granulomatosis to Granulomatosis
+Mapped granulomatosis with polyangiitis to Granulomatosis with polyangiitis
+Mapped glomerulonephritis to Glomerulonephritis
+Mapped rapidly progressive glomerulonephritis to Rapidly progressive glomerulonephritis
+Unable to map entity: crescentic glomerulonephritis
+Mapped drug to Drug
+Mapped cystic fibrosis to Cystic Fibrosis
+Mapped antigen to Antigen
+Unable to map entity: cholangitis
+Mapped sclerosing cholangitis to Sclerosing cholangitis
+Unable to map entity: hepatitis
+Unable to map entity: autoimmune hepatitis
+Mapped autoimmune liver disease to Disease
+Mapped systemic vasculitis to Systemic vasculitis
+Mapped nutrients to Nutrients
+Mapped toxin to Toxin
+Mapped food allergy to Food Allergy
+Mapped shock to Shock
+Mapped septic shock to Septic Shock
+Mapped aspirin to Aspirin
+Mapped tuberculosis to Tuberculosis
+Unable to map entity: diagnosis
+Mapped anxiety disorder to Anxiety Disorder
+Mapped hypothyroidism to Hypothyroidism
+Mapped hyperthyroidism to Hyperthyroidism
+Mapped hyperprolactinemia to Hyperprolactinemia
+Unable to map entity: metabolic disorders
+Mapped vitamin to Vitamin
+Mapped riboflavin to Riboflavin
+Unable to map entity: vitamin b12
+Mapped folic acid to Folic Acid
+Mapped gluten sensitivity to Gluten sensitivity
+Mapped blood to Blood
+Unable to map entity: blood diseases
+Unable to map entity: anemia
+Unable to map entity: dementia
+Unable to map entity: multiple sclerosis
+Mapped transient ischemic attack to Attack
+Unable to map entity: anorexia nervosa
+Unable to map entity: foods
+Unable to map entity: management
+Mapped eating disorder to Eating Disorder
+Unable to map entity: vomiting
+Mapped epithelium to Epithelium
+Mapped nucleotide to Nucleotide
+Mapped molecule to Molecule
+Mapped dipeptide to Dipeptide
+Unable to map entity: gastroenteritis
+Unable to map entity: appendicitis
+Mapped volvulus to Volvulus
+Unable to map entity: pancreatic insufficiency
+Mapped short bowel syndrome to Short bowel syndrome
+Mapped laxative to Laxative
+Mapped receptor to Receptor
+Mapped cannabinoid to Cannabinoid
+Unable to map entity: motility
+Mapped spondylitis to Spondylitis
+Unable to map entity: ankylosing spondylitis
+Mapped psoriatic arthritis to Psoriatic Arthritis
+Unable to map entity: infectious disease
+Unable to map entity: eye
+Unable to map entity: pyoderma
+Unable to map entity: pyoderma gangrenosum
+Mapped erythema nodosum to Erythema nodosum
+Unable to map entity: polysaccharide
+Mapped blood test to Blood Test
+Unable to map entity: elevation
+Unable to map entity: endometriosis
+Mapped lupus erythematosus to Lupus Erythematosus
+Mapped leiomyoma to Leiomyoma
+Unable to map entity: immunosuppressive acidic protein
+Unable to map entity: haptoglobin
+Mapped osteopontin to Osteopontin
+Mapped growth factor to Growth Factor
+Mapped calcium to Calcium
+Mapped mineral to Mineral
+Mapped defecation to Defecation
+Mapped intestinal infection to Intestinal infection
+Unable to map entity: age
+Mapped bile to Bile
+Unable to map entity: bile acid
+Unable to map entity: malabsorption
+Mapped azathioprine to Azathioprine
+Unable to map entity: immunosuppressive therapy
+Unable to map entity: transplant
+Mapped transplantation to Transplantation
+Mapped pemphigus to Pemphigus
+Mapped dermatitis to Dermatitis
+Mapped atopic dermatitis to Atopic Dermatitis
+Unable to map entity: myasthenia gravis
+Unable to map entity: neuromyelitis
+Unable to map entity: neuromyelitis optica
+Mapped restrictive lung disease to Restrictive lung disease
+Mapped steroid to Steroid
+Mapped immunology to Immunology
+Mapped linoleic acid to Linoleic Acid
+Mapped insulin to Insulin
+Mapped abscisic acid to Abscisic Acid
+Unable to map entity: division
+Mapped bleeding to Bleeding
+Mapped infectious colitis to Infectious colitis
+Mapped hemorrhoids to Hemorrhoids
+Unable to map entity: anal fissure
+Mapped ischemic colitis to Ischemic colitis
+Unable to map entity: proctitis
+Mapped radiation proctitis to Radiation proctitis
+Mapped risk factor to Risk factor
+Mapped colonoscopy to Colonoscopy
+Unable to map entity: amyotrophic lateral sclerosis
+Unable to map entity: traumatic encephalopathy
+Unable to map entity: epilepsy
+Unable to map entity: seizure disorder
+Mapped fibromyalgia to Fibromyalgia
+Unable to map entity: glaucoma
+Mapped spinal cord injury to Spinal Cord Injury
+Unable to map entity: traumatic brain injury
+Mapped appearance to Appearance
+Mapped cytokine to Cytokine
+Mapped candidiasis to Candidiasis
+Unable to map entity: mucocutaneous candidiasis
+Mapped function to Function
+Unable to map entity: manipulation
+Mapped immunodeficiency to Immunodeficiency
+Unable to map entity: sepsis
+Unable to map entity: vitamin d deficiency
+Unable to map entity: fat
+Mapped renal failure to Renal Failure
+Mapped histone deacetylase inhibitor to Histone deacetylase inhibitor
+Unable to map entity: brain damage
+Mapped chronic disease to Chronic disease
+Unable to map entity: mesalazine
+Unable to map entity: name
+Mapped aminosalicylic acid to Aminosalicylic acid
+Mapped arthropathy to Arthropathy
+Unable to map entity: scleroderma
+Mapped juvenile idiopathic arthritis to Juvenile Idiopathic Arthritis
+Unable to map entity: diarrhoea
+Mapped ileus to Ileus
+Mapped intussusception to Intussusception
+Unable to map entity: infective diarrhea
+Mapped reflex to Reflex
+Mapped gastrocolic reflex to Gastrocolic reflex
+Mapped dietary fiber to Dietary Fiber
+Unable to map entity: rice
+Mapped fruit to Fruit
+Unable to map entity: fresh fruit
+Unable to map entity: vegetable
+Unable to map entity: meat
+Mapped red meat to Red Meat
+Mapped oil to Oil
+Mapped chocolate to Chocolate
+Mapped coffee to Coffee
+Unable to map entity: alcoholic beverage
+Mapped alcohol to Alcohol
+Mapped sorbitol to Sorbitol
+Mapped sugar to Sugar
+Unable to map entity: cramp
+Num mapped entities: 137
+Filtering: 
+ 
+Removed entity: Calprotectin
+Matched entity: Disease for category: Diseases%20and%20disorders
+Matched entity: Inflammatory bowel disease for category: Autoimmune%20diseases
+Matched entity: Indium for category: Chemical%20elements
+Matched entity: Gold for category: Chemical%20elements
+Matched entity: Irritable bowel syndrome for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: Coeliac disease for category: Pediatrics
+Matched entity: Lead for category: Toxicology
+Removed entity: Interleukin
+Removed entity: Beta 2 microglobulin
+Removed entity: Prostaglandin
+Matched entity: Atherosclerosis for category: Inflammations
+Matched entity: Arthritis for category: Inflammations
+Matched entity: Rheumatoid arthritis for category: Autoimmune%20diseases
+Matched entity: Autoimmune disease for category: Autoimmune%20diseases
+Matched entity: Rhinitis for category: Allergology
+Matched entity: Conjunctivitis for category: Inflammations
+Matched entity: Asthma for category: RTT(full)
+Matched entity: Angioedema for category: Effects%20of%20external%20causes
+Removed entity: Urticaria
+Removed entity: Zileuton
+Removed entity: Exercise
+Removed entity: Acne vulgaris
+Removed entity: Myeloid leukemia
+Removed entity: Fiber
+Matched entity: Feces for category: Animal%20physiology
+Matched entity: Fatty liver for category: Medical%20conditions%20related%20to%20obesity
+Removed entity: Human tissue
+Matched entity: Endothelium for category: Angiology
+Removed entity: Expression
+Matched entity: Thyroiditis for category: Inflammations
+Matched entity: Autoimmune thyroiditis for category: Thyroid%20disease
+Removed entity: Recruitment
+Matched entity: Inflammatory bowel disease for category: Autoimmune%20diseases
+Matched entity: Eating for category: Physiology
+Removed entity: Air
+Matched entity: Diabetes mellitus for category: Diabetes
+Removed entity: Dyspepsia
+Removed entity: Transience
+Matched entity: Poisoning for category: Diseases%20and%20disorders
+Removed entity: Foodborne illness
+Matched entity: Peptic ulcer for category: Acute%20pain
+Removed entity: Microscopic colitis
+Removed entity: Tract
+Matched entity: Granuloma for category: Anatomical%20pathology
+Matched entity: Granulomatosis with polyangiitis for category: Autoimmune%20diseases
+Matched entity: Glomerulonephritis for category: Inflammations
+Matched entity: Rapidly progressive glomerulonephritis for category: Kidney%20diseases
+Matched entity: Drug for category: Drugs
+Matched entity: Cystic fibrosis for category: Pediatrics
+Matched entity: Antigen for category: Immune%20system
+Matched entity: Primary sclerosing cholangitis for category: Inflammations
+Matched entity: Systemic vasculitis for category: Vascular-related%20cutaneous%20conditions
+Removed entity: Nutrients
+Matched entity: Toxin for category: Toxicology
+Removed entity: Food Allergy
+Removed entity: Shock
+Matched entity: Septic shock for category: Medical%20emergencies
+Matched entity: Aspirin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Tuberculosis for category: RTT(full)
+Matched entity: Anxiety disorder for category: Psychiatric%20diagnosis
+Matched entity: Hypothyroidism for category: RTT(full)
+Matched entity: Hyperthyroidism for category: Thyroid%20disease
+Removed entity: Hyperprolactinemia
+Matched entity: Vitamin for category: Nutrition
+Matched entity: Riboflavin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Folic acid for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Gluten sensitivity
+Matched entity: Blood for category: Hematology
+Removed entity: Attack
+Matched entity: Eating disorder for category: Psychiatric%20diagnosis
+Removed entity: Epithelium
+Removed entity: Nucleotide
+Removed entity: Molecule
+Removed entity: Dipeptide
+Matched entity: Volvulus for category: Diseases%20of%20intestines
+Matched entity: Short bowel syndrome for category: Diseases%20of%20intestines
+Matched entity: Laxative for category: Gastroenterology
+Removed entity: Receptor
+Removed entity: Cannabinoid
+Matched entity: Spondylitis for category: Orthopedic%20problems
+Matched entity: Psoriatic arthritis for category: Autoimmune%20diseases
+Matched entity: Erythema nodosum for category: Autoimmune%20diseases
+Matched entity: Blood test for category: Blood%20tests
+Matched entity: Lupus erythematosus for category: Autoimmune%20diseases
+Matched entity: Leiomyoma for category: Anatomical%20pathology
+Matched entity: Osteopontin for category: Glycoproteins
+Matched entity: Growth factor for category: Immune%20system
+Matched entity: Calcium for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Mineral
+Matched entity: Defecation for category: Digestive%20system
+Removed entity: Intestinal infection
+Matched entity: Bile for category: Digestive%20system
+Matched entity: Azathioprine for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Transplantation
+Matched entity: Pemphigus for category: Autoimmune%20diseases
+Matched entity: Dermatitis for category: Autoimmune%20diseases
+Removed entity: Atopic dermatitis
+Matched entity: Restrictive lung disease for category: Respiratory%20therapy
+Removed entity: Steroid
+Matched entity: Immunology for category: Immunology
+Removed entity: Linoleic acid
+Matched entity: Insulin for category: World%20Anti-Doping%20Agency%20prohibited%20substances
+Matched entity: Abscisic acid for category: Alcohols
+Removed entity: Bleeding
+Removed entity: Infectious colitis
+Removed entity: Hemorrhoids
+Removed entity: Ischemic colitis
+Matched entity: Radiation proctitis for category: Radiation%20therapy
+Matched entity: Risk factor for category: Epidemiology
+Matched entity: Colonoscopy for category: Endoscopy
+Matched entity: Fibromyalgia for category: Disorders%20of%20fascia
+Matched entity: Spinal cord injury for category: Medical%20emergencies
+Removed entity: Appearance
+Matched entity: Cytokine for category: Immune%20system
+Matched entity: Candidiasis for category: Mycosis-related%20cutaneous%20conditions
+Removed entity: Function
+Removed entity: Immunodeficiency
+Matched entity: Kidney failure for category: Organ%20failure
+Removed entity: Histone deacetylase inhibitor
+Removed entity: Chronic disease
+Removed entity: Aminosalicylic acid
+Matched entity: Arthropathy for category: Inflammatory%20polyarthropathies
+Matched entity: Juvenile idiopathic arthritis for category: Pediatrics
+Matched entity: Ileus for category: Digestive%20system
+Removed entity: Intussusception
+Matched entity: Reflex for category: Reflexes
+Matched entity: Gastrocolic reflex for category: Physiology
+Matched entity: Dietary fiber for category: Nutrition
+Matched entity: Fruit for category: Pollination
+Removed entity: Red Meat
+Matched entity: Oil for category: Foods
+Removed entity: Chocolate
+Matched entity: Coffee for category: IARC%20Group%202B%20carcinogens
+Matched entity: Alcohol for category: Alcohols
+Removed entity: Sorbitol
+Removed entity: Sugar
+Contact dermatitis
+Num unmapped entities: 152
+Mapping: 
+ 
+Mapped dermatitis to Dermatitis
+Mapped atopic dermatitis to Atopic Dermatitis
+Mapped contact dermatitis to Contact dermatitis
+Unable to map entity: irritant
+Unable to map entity: stasis dermatitis
+Unable to map entity: skin lesion
+Mapped allergen to Allergen
+Mapped sensitization to Sensitization
+Mapped nickel to Nickel
+Mapped allergy to nickel to Nickel
+Unable to map entity: foods
+Unable to map entity: dyshidrosis
+Mapped contact allergen to Contact allergen
+Unable to map entity: release
+Mapped address to Address
+Mapped risk factor to Risk factor
+Mapped substance to Substance
+Unable to map entity: allergens
+Unable to map entity: phototoxic dermatitis
+Mapped sunlight to Sunlight
+Unable to map entity: diagnosis
+Mapped urticaria to Urticaria
+Unable to map entity: grease
+Mapped oil to Oil
+Mapped detergent to Detergent
+Unable to map entity: water
+Unable to map entity: metal
+Mapped cream to Cream
+Unable to map entity: per
+Mapped leaves to Leaves
+Mapped anaphylaxis to Anaphylaxis
+Mapped juice to Juice
+Unable to map entity: infection
+Unable to map entity: various
+Mapped lead to Lead
+Unable to map entity: blepharitis
+Mapped rosacea to Rosacea
+Unable to map entity: herpes simplex
+Unable to map entity: varicella
+Mapped molluscum contagiosum to Molluscum contagiosum
+Mapped seborrheic dermatitis to Seborrheic dermatitis
+Mapped vulvitis to Vulvitis
+Unable to map entity: lichen
+Mapped application to Application
+Unable to map entity: laundry detergent
+Unable to map entity: sodium
+Mapped bicarbonate to Bicarbonate
+Unable to map entity: sodium bicarbonate
+Unable to map entity: hydroxyzine
+Unable to map entity: hydroxyzine hydrochloride
+Unable to map entity: cortisol
+Mapped hydrocortisone to Hydrocortisone
+Unable to map entity: name
+Unable to map entity: insect repellent
+Mapped ingestion to Ingestion
+Mapped central nervous system depression to Central Nervous System Depression
+Unable to map entity: coordination
+Unable to map entity: nausea
+Mapped aspiration to Aspiration
+Mapped chemical to Chemical
+Unable to map entity: eczema
+Mapped balsam to Balsam
+Mapped balsam of peru to Peru
+Unable to map entity: stomatitis
+Mapped cheilitis to Cheilitis
+Mapped pruritus to Pruritus
+Mapped feces to Feces
+Mapped hand eczema to Hand eczema
+Mapped rhinitis to Rhinitis
+Mapped conjunctivitis to Conjunctivitis
+Unable to map entity: intercourse
+Unable to map entity: acne
+Unable to map entity: occupational acne
+Mapped tracheitis to Tracheitis
+Mapped esophagitis to Esophagitis
+Unable to map entity: bronchitis
+Mapped asthma to Asthma
+Unable to map entity: pneumonitis
+Unable to map entity: sunburn
+Mapped allergic reaction to Allergic Reaction
+Unable to map entity: psoriasis
+Unable to map entity: caterpillar dermatitis
+Mapped patch test to Patch Test
+Mapped latex to Latex
+Mapped latex allergy to Latex Allergy
+Mapped radical to Radical
+Mapped prostatectomy to Prostatectomy
+Mapped radical prostatectomy to Radical prostatectomy
+Unable to map entity: wound
+Unable to map entity: open wound
+Mapped contact urticaria to Contact urticaria
+Mapped removal to Removal
+Mapped water repellent to Water repellent
+Mapped zinc to Zinc
+Unable to map entity: zinc oxide
+Mapped talc to Talc
+Mapped kaolin to Kaolin
+Mapped root to Root
+Mapped nipple to Nipple
+Mapped polylysine to Polylysine
+Unable to map entity: desonide
+Mapped ointment to Ointment
+Mapped disease to Disease
+Unable to map entity: eye
+Mapped dye to Dye
+Mapped hair dye to Hair dye
+Mapped alcohol to Alcohol
+Unable to map entity: emollient
+Unable to map entity: glycerin
+Mapped skin irritation to Skin irritation
+Unable to map entity: soap
+Unable to map entity: washing
+Mapped erythroderma to Erythroderma
+Mapped generalized exfoliative dermatitis to Dermatitis
+Mapped lichen planus to Lichen Planus
+Unable to map entity: pityriasis
+Unable to map entity: pityriasis rubra pilaris
+Mapped drug to Drug
+Mapped exudate to Exudate
+Mapped air to Air
+Mapped propylene to Propylene
+Mapped glycol to Glycol
+Mapped propylene glycol to Propylene Glycol
+Unable to map entity: minoxidil
+Mapped lipid to Lipid
+Mapped thimerosal to Thimerosal
+Unable to map entity: osteochondritis
+Mapped renal failure to Renal Failure
+Mapped chromium to Chromium
+Mapped tea to Tea
+Unable to map entity: bullous dermatosis
+Unable to map entity: immunoglobulin
+Unable to map entity: erythema multiforme
+Mapped phytochemical to Phytochemical
+Mapped lactone to Lactone
+Mapped pollen to Pollen
+Mapped triethanolamine to Triethanolamine
+Mapped diethanolamine to Diethanolamine
+Unable to map entity: dermatitis herpetiformis
+Mapped impetigo to Impetigo
+Mapped candidiasis to Candidiasis
+Mapped bleeding to Bleeding
+Unable to map entity: phenolics
+Mapped farnesol to Farnesol
+Unable to map entity: hydroquinone
+Unable to map entity: acid
+Mapped hydroxybenzoic acid to Hydroxybenzoic acid
+Mapped biopsy to Biopsy
+Unable to map entity: beryllium
+Mapped dust to Dust
+Unable to map entity: powder
+Num mapped entities: 88
+Filtering: 
+ 
+Matched entity: Dermatitis for category: Autoimmune%20diseases
+Removed entity: Atopic dermatitis
+Matched entity: Contact dermatitis for category: Allergology
+Matched entity: Allergen for category: Immune%20system
+Removed entity: Sensitization
+Matched entity: Nickel for category: Chemical%20elements
+Matched entity: Allergen for category: Immune%20system
+Removed entity: Address
+Matched entity: Risk factor for category: Epidemiology
+Removed entity: Substance
+Removed entity: Sunlight
+Removed entity: Urticaria
+Matched entity: Oil for category: Foods
+Removed entity: Detergent
+Removed entity: Cream
+Matched entity: Leaf for category: Plant%20morphology
+Matched entity: Anaphylaxis for category: Allergology
+Removed entity: Juice
+Matched entity: Lead for category: Toxicology
+Removed entity: Rosacea
+Removed entity: Molluscum contagiosum
+Removed entity: Seborrheic dermatitis
+Removed entity: Vulvitis
+Removed entity: Application
+Removed entity: Bicarbonate
+Matched entity: Hydrocortisone for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Ingestion for category: Digestive%20system
+Matched entity: Central nervous system depression for category: Central%20nervous%20system
+Removed entity: Aspiration
+Matched entity: Chemical substance for category: Chemical%20substances
+Removed entity: Balsam
+Removed entity: Peru
+Matched entity: Cheilitis for category: Conditions%20of%20the%20mucous%20membranes
+Removed entity: Itch
+Matched entity: Feces for category: Animal%20physiology
+Matched entity: Hand eczema for category: Eczema
+Matched entity: Rhinitis for category: Allergology
+Matched entity: Conjunctivitis for category: Inflammations
+Matched entity: Tracheitis for category: Human%20head%20and%20neck
+Matched entity: Esophagitis for category: Inflammations
+Matched entity: Asthma for category: RTT(full)
+Removed entity: Allergic Reaction
+Removed entity: Patch test
+Removed entity: Latex
+Matched entity: Latex allergy for category: Allergology
+Removed entity: Radical
+Matched entity: Prostatectomy for category: Surgical%20removal%20procedures
+Matched entity: Prostatectomy for category: Surgical%20removal%20procedures
+Matched entity: Contact urticaria for category: Contact%20dermatitis
+Removed entity: Removal
+Removed entity: Water repellent
+Matched entity: Zinc for category: Chemical%20elements
+Removed entity: Talc
+Removed entity: Kaolin
+Removed entity: Root
+Matched entity: Nipple for category: Glands
+Removed entity: Polylysine
+Matched entity: Ointment for category: Dosage%20forms
+Matched entity: Disease for category: Diseases%20and%20disorders
+Removed entity: Dye
+Removed entity: Hair dye
+Matched entity: Alcohol for category: Alcohols
+Removed entity: Skin irritation
+Removed entity: Erythroderma
+Matched entity: Lichen planus for category: Autoimmune%20diseases
+Matched entity: Drug for category: Drugs
+Matched entity: Exudate for category: Body%20fluids
+Removed entity: Air
+Removed entity: Propylene
+Removed entity: Glycol
+Removed entity: Propylene glycol
+Removed entity: Lipid
+Removed entity: Thiomersal
+Matched entity: Kidney failure for category: Organ%20failure
+Matched entity: Chromium for category: Occupational%20safety%20and%20health
+Removed entity: Tea
+Matched entity: Phytochemical for category: Nutrition
+Matched entity: Lactone for category: Functional%20groups
+Matched entity: Pollen for category: Allergology
+Matched entity: Triethanolamine for category: Amines
+Matched entity: Diethanolamine for category: Alcohols
+Matched entity: Impetigo for category: Pediatrics
+Matched entity: Candidiasis for category: Mycosis-related%20cutaneous%20conditions
+Removed entity: Bleeding
+Matched entity: Farnesol for category: Alcohols
+Removed entity: Hydroxybenzoic acid
+Matched entity: Biopsy for category: Biopsy
+Removed entity: Dust
+Gut-brain axis
+Num unmapped entities: 39
+Mapping: 
+ 
+Unable to map entity: material
+Unable to map entity: quartz
+Mapped magnesium to Magnesium
+Mapped fluoride to Fluoride
+Unable to map entity: revision
+Unable to map entity: refraction
+Mapped index of refraction to Index Of Refraction
+Unable to map entity: release
+Mapped axis of motion to Motion
+Unable to map entity: various
+Mapped iron to Iron
+Unable to map entity: qrs axis
+Mapped frontal plane to Frontal plane
+Mapped lead to Lead
+Mapped qrs complex to Qrs complex
+Unable to map entity: name
+Unable to map entity: chital
+Mapped air to Air
+Unable to map entity: activity
+Mapped radical to Radical
+Mapped attitude to Attitude
+Unable to map entity: stabilization
+Mapped pitch to Pitch
+Unable to map entity: astigmatism
+Mapped fiber to Fiber
+Mapped removal to Removal
+Mapped transplantation to Transplantation
+Unable to map entity: diagonal axis
+Unable to map entity: brass
+Unable to map entity: metal
+Mapped temperature to Temperature
+Mapped vibration to Vibration
+Unable to map entity: adjustment
+Unable to map entity: water
+Unable to map entity: waste material
+Mapped photon to Photon
+Mapped function to Function
+Unable to map entity: port
+Num mapped entities: 19
+Filtering: 
+ 
+Matched entity: Magnesium for category: Chemical%20elements
+Removed entity: Fluoride
+Removed entity: Index Of Refraction
+Removed entity: Motion
+Matched entity: Iron for category: Chemical%20elements
+Matched entity: Coronal plane for category: Anatomy
+Matched entity: Lead for category: Toxicology
+Removed entity: Qrs complex
+Removed entity: Air
+Removed entity: Radical
+Removed entity: Attitude
+Removed entity: Pitch
+Removed entity: Fiber
+Removed entity: Removal
+Removed entity: Transplantation
+Matched entity: Temperature for category: Physical%20quantities
+Removed entity: Vibration
+Removed entity: Photon
+Removed entity: Function
+Antibiotic misuse
+Num unmapped entities: 89
+Mapping: 
+ 
+Mapped antibiotic to Antibiotic
+Mapped drug to Drug
+Unable to map entity: drug resistance
+Unable to map entity: antifungal
+Mapped administration to Administration
+Mapped rest to Rest
+Mapped prescription to Prescription
+Unable to map entity: common cold
+Unable to map entity: infection
+Unable to map entity: respiratory tract infection
+Unable to map entity: promotion
+Unable to map entity: protein
+Unable to map entity: animal protein
+Mapped rheumatic fever to Rheumatic Fever
+Mapped disease to Disease
+Mapped heart disease to Heart Disease
+Unable to map entity: per
+Unable to map entity: erythromycin
+Unable to map entity: injection
+Unable to map entity: eye
+Mapped conjunctivitis to Conjunctivitis
+Mapped otitis to Otitis
+Unable to map entity: otitis externa
+Unable to map entity: acne
+Mapped acne vulgaris to Acne Vulgaris
+Mapped cellulitis to Cellulitis
+Mapped application to Application
+Mapped dermatitis to Dermatitis
+Mapped contact dermatitis to Contact dermatitis
+Unable to map entity: race
+Mapped pesticide to Pesticide
+Unable to map entity: gene
+Unable to map entity: activity
+Mapped alcohol to Alcohol
+Unable to map entity: antibiotic prophylaxis
+Unable to map entity: bactericide
+Mapped influenza to Influenza
+Mapped chemical to Chemical
+Unable to map entity: chemical compound
+Unable to map entity: agar
+Mapped root to Root
+Unable to map entity: other antibiotics
+Mapped fertilizer to Fertilizer
+Unable to map entity: water
+Mapped oxygen to Oxygen
+Mapped otitis media to Otitis media
+Mapped address to Address
+Mapped drug administration to Drug administration
+Mapped tuberculosis to Tuberculosis
+Mapped animal husbandry to Animal Husbandry
+Unable to map entity: age
+Unable to map entity: foods
+Mapped food additive to Food additive
+Mapped hormone to Hormone
+Mapped molecule to Molecule
+Unable to map entity: process
+Mapped nutrients to Nutrients
+Unable to map entity: vocal
+Mapped drug prescription to Drug prescription
+Mapped self-control to Self-control
+Unable to map entity: triclosan
+Unable to map entity: soap
+Unable to map entity: infectious disease
+Unable to map entity: malaria
+Unable to map entity: mucus
+Unable to map entity: management
+Unable to map entity: beta-lactam
+Unable to map entity: vancomycin
+Unable to map entity: doxycycline
+Mapped scheduling to Scheduling
+Mapped drug abuse to Drug Abuse
+Unable to map entity: drug dependence
+Unable to map entity: sedative
+Mapped advice to Advice
+Mapped substance to Substance
+Mapped ampicillin to Ampicillin
+Unable to map entity: dicloxacillin
+Mapped beta-lactamase to Beta-lactamase
+Mapped carbapenem to Carbapenem
+Mapped enzyme to Enzyme
+Mapped enzyme inhibitor to Enzyme Inhibitor
+Mapped exercise to Exercise
+Mapped adoption to Adoption
+Mapped animal feed to Animal Feed
+Unable to map entity: tetracycline
+Mapped tetracyclines to Tetracyclines
+Mapped acute diarrhea to Acute diarrhea
+Mapped hemolytic uremic syndrome to Hemolytic Uremic Syndrome
+Num mapped entities: 48
+Filtering: 
+ 
+Removed entity: Antibiotic
+Matched entity: Drug for category: Drugs
+Removed entity: Administration
+Removed entity: Rest
+Removed entity: Prescription
+Matched entity: Rheumatic fever for category: Inflammations
+Matched entity: Disease for category: Diseases%20and%20disorders
+Removed entity: Heart Disease
+Matched entity: Conjunctivitis for category: Inflammations
+Matched entity: Otitis for category: Otitis
+Removed entity: Acne vulgaris
+Matched entity: Cellulitis for category: Inflammations
+Removed entity: Application
+Matched entity: Dermatitis for category: Autoimmune%20diseases
+Matched entity: Contact dermatitis for category: Allergology
+Matched entity: Pesticide for category: Chemical%20substances
+Matched entity: Alcohol for category: Alcohols
+Matched entity: Influenza for category: Healthcare-associated%20infections
+Matched entity: Chemical substance for category: Chemical%20substances
+Removed entity: Root
+Removed entity: Fertilizer
+Matched entity: Oxygen for category: Chemical%20elements
+Matched entity: Otitis media for category: Pediatrics
+Removed entity: Address
+Removed entity: Drug administration
+Matched entity: Tuberculosis for category: RTT(full)
+Removed entity: Animal husbandry
+Removed entity: Food additive
+Matched entity: Hormone for category: Physiology
+Removed entity: Molecule
+Removed entity: Nutrients
+Removed entity: Drug prescription
+Removed entity: Self-control
+Removed entity: Scheduling
+Matched entity: Substance abuse for category: Psychiatric%20diagnosis
+Removed entity: Advice
+Removed entity: Substance
+Matched entity: Ampicillin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Beta-lactamase for category: Enzymes%20of%20known%20structure
+Removed entity: Carbapenem
+Matched entity: Enzyme for category: Biomolecules
+Matched entity: Enzyme inhibitor for category: Metabolism
+Removed entity: Exercise
+Removed entity: Adoption
+Removed entity: Animal feed
+Removed entity: Tetracycline antibiotics
+Removed entity: Acute diarrhea
+Removed entity: Hemolytic Uremic Syndrome
+Legionella
+Num unmapped entities: 51
+Mapping: 
+ 
+Mapped pontiac fever to Pontiac fever
+Unable to map entity: water
+Mapped disease to Disease
+Unable to map entity: aerosol
+Unable to map entity: diagnosis
+Mapped pneumonia to Pneumonia
+Mapped blood to Blood
+Mapped sputum to Sputum
+Unable to map entity: mucus
+Unable to map entity: urine
+Mapped antibody to Antibody
+Mapped antigen to Antigen
+Mapped antigen test to Antigen test
+Unable to map entity: infection
+Unable to map entity: stain
+Mapped gram stain to Gram Stain
+Unable to map entity: silver
+Mapped yeast to Yeast
+Mapped iron to Iron
+Mapped cysteine to Cysteine
+Unable to map entity: agar
+Unable to map entity: q fever
+Unable to map entity: atypical pneumonia
+Unable to map entity: process
+Unable to map entity: legionella infection
+Mapped catalase to Catalase
+Unable to map entity: oxidase
+Mapped drinking to Drinking
+Unable to map entity: name
+Unable to map entity: various
+Mapped hot water to Hot Water
+Unable to map entity: legionella pneumonia
+Mapped antigen of legionella to Legionella
+Unable to map entity: investigations
+Unable to map entity: release
+Unable to map entity: extraction
+Unable to map entity: base
+Mapped temperature to Temperature
+Mapped acetyltransferase to Acetyltransferase
+Mapped reading to Reading
+Unable to map entity: gene
+Unable to map entity: protein
+Unable to map entity: hemolysis
+Unable to map entity: peptide
+Unable to map entity: carbon
+Mapped tap water to Tap Water
+Mapped air to Air
+Unable to map entity: pond
+Num mapped entities: 21
+Filtering: 
+ 
+Matched entity: Pontiac fever for category: Epidemiology
+Matched entity: Disease for category: Diseases%20and%20disorders
+Matched entity: Pneumonia for category: RTT(full)
+Matched entity: Blood for category: Hematology
+Removed entity: Sputum
+Matched entity: Antibody for category: Immune%20system
+Matched entity: Antigen for category: Immune%20system
+Removed entity: ELISA
+Removed entity: Gram staining
+Removed entity: Yeast
+Matched entity: Iron for category: Chemical%20elements
+Removed entity: Cysteine
+Matched entity: Catalase for category: Enzymes
+Matched entity: Drinking for category: Physiology
+Removed entity: Hot Water
+Matched entity: Legionella for category: Gram-negative%20bacteria
+Matched entity: Temperature for category: Physical%20quantities
+Removed entity: Acetyltransferase
+Removed entity: Reading
+Removed entity: Tap water
+Removed entity: Air
+Irritable bowel syndrome
+Num unmapped entities: 205
+Mapping: 
+ 
+Unable to map entity: constipation
+Mapped irritable bowel syndrome to Irritable Bowel Syndrome
+Mapped bile to Bile
+Unable to map entity: acid
+Unable to map entity: bile acid
+Unable to map entity: diagnosis
+Mapped lactobacillus to Lactobacillus
+Unable to map entity: probiotic agent
+Mapped disease to Disease
+Unable to map entity: cholangitis
+Mapped fiber to Fiber
+Unable to map entity: inulin
+Unable to map entity: oligosaccharide
+Mapped inflammatory bowel disease to Inflammatory Bowel Disease
+Unable to map entity: colitis
+Unable to map entity: ulcerative colitis
+Unable to map entity: fatty acid
+Mapped insomnia to Insomnia
+Mapped calprotectin to Calprotectin
+Unable to map entity: protein
+Mapped indium to Indium
+Mapped gold to Gold
+Mapped coeliac disease to Coeliac Disease
+Unable to map entity: gluten
+Unable to map entity: fructose
+Unable to map entity: malabsorption
+Unable to map entity: celiac disease
+Mapped fibromyalgia to Fibromyalgia
+Mapped chronic fatigue syndrome to Chronic Fatigue Syndrome
+Mapped cystitis to Cystitis
+Mapped gluten sensitivity to Gluten sensitivity
+Mapped reflex to Reflex
+Mapped gastrocolic reflex to Gastrocolic reflex
+Mapped eating to Eating
+Mapped drinking to Drinking
+Mapped lead to Lead
+Unable to map entity: serotonin
+Unable to map entity: rheumatism
+Unable to map entity: connective tissue
+Unable to map entity: mental disorder
+Mapped tuberculosis to Tuberculosis
+Mapped drug to Drug
+Mapped nutrients to Nutrients
+Mapped toxin to Toxin
+Mapped antigen to Antigen
+Mapped food allergy to Food Allergy
+Unable to map entity: infection
+Mapped fatty liver to Fatty liver
+Mapped diabetes mellitus to Diabetes Mellitus
+Mapped shock to Shock
+Mapped septic shock to Septic Shock
+Mapped biopsy to Biopsy
+Mapped serine to Serine
+Unable to map entity: protease
+Unable to map entity: serine protease
+Mapped introduction to Introduction
+Mapped alcohol to Alcohol
+Unable to map entity: alcohol dependence
+Mapped angina to Angina
+Unable to map entity: angina pectoris
+Mapped attention deficit hyperactivity disorder to Attention deficit
+Mapped asthma to Asthma
+Unable to map entity: injury
+Unable to map entity: traumatic brain injury
+Mapped carpal tunnel syndrome to Carpal Tunnel Syndrome
+Mapped cerebral hemorrhage to Cerebral hemorrhage
+Mapped cocaine to Cocaine
+Unable to map entity: cocaine dependence
+Unable to map entity: neuropathy
+Unable to map entity: eye
+Mapped dysmenorrhoea to Dysmenorrhoea
+Unable to map entity: primary dysmenorrhoea
+Unable to map entity: endometriosis
+Unable to map entity: epilepsy
+Mapped essential hypertension to Essential Hypertension
+Unable to map entity: glaucoma
+Unable to map entity: nausea
+Unable to map entity: vomiting
+Unable to map entity: ischemic encephalopathy
+Unable to map entity: spinal stenosis
+Mapped depressive disorder to Depressive disorder
+Unable to map entity: myopia
+Unable to map entity: obesity
+Unable to map entity: polycystic ovary syndrome
+Mapped restless legs to Restless legs
+Unable to map entity: schizophrenia
+Unable to map entity: hearing loss
+Unable to map entity: stress urinary incontinence
+Mapped tinnitus to Tinnitus
+Mapped pruritus to Pruritus
+Unable to map entity: uterine fibroid
+Unable to map entity: dementia
+Mapped vascular dementia to Vascular Dementia
+Mapped tegaserod to Tegaserod
+Unable to map entity: management
+Mapped administration to Administration
+Mapped drug administration to Drug administration
+Mapped guar gum to Guar Gum
+Unable to map entity: water
+Mapped laxative to Laxative
+Unable to map entity: burning mouth syndrome
+Mapped atypical facial pain to Pain
+Unable to map entity: atypical odontalgia
+Unable to map entity: functional disorder
+Unable to map entity: back pain
+Unable to map entity: functional abdominal pain syndrome
+Unable to map entity: habits
+Unable to map entity: bowel dysfunction
+Unable to map entity: infective diarrhea
+Mapped dietary fiber to Dietary Fiber
+Unable to map entity: foods
+Unable to map entity: rice
+Mapped fruit to Fruit
+Unable to map entity: fresh fruit
+Unable to map entity: vegetable
+Unable to map entity: meat
+Mapped red meat to Red Meat
+Mapped oil to Oil
+Unable to map entity: fat
+Unable to map entity: lactose
+Unable to map entity: lactose intolerance
+Mapped chocolate to Chocolate
+Mapped coffee to Coffee
+Unable to map entity: alcoholic beverage
+Mapped sorbitol to Sorbitol
+Mapped sugar to Sugar
+Unable to map entity: age
+Unable to map entity: cramp
+Unable to map entity: movement
+Mapped air to Air
+Mapped dyspepsia to Dyspepsia
+Mapped transient to Transient
+Unable to map entity: milk
+Unable to map entity: milk intolerance
+Mapped poisoning to Poisoning
+Mapped food poisoning to Food Poisoning
+Unable to map entity: ulcer
+Mapped peptic ulcer to Peptic Ulcer
+Mapped alverine to Alverine
+Unable to map entity: smooth muscle relaxant
+Mapped diverticular disease to Diverticular disease
+Unable to map entity: activity
+Unable to map entity: diarrhoea
+Mapped citrate to Citrate
+Unable to map entity: alverine citrate
+Unable to map entity: dysmenorrhea
+Unable to map entity: various
+Unable to map entity: intervention
+Unable to map entity: menopausal syndrome
+Unable to map entity: encopresis
+Mapped defecation to Defecation
+Unable to map entity: mucus
+Mapped feces to Feces
+Mapped food intolerance to Food Intolerance
+Mapped barium to Barium
+Mapped polyp to Polyp
+Mapped colonoscopy to Colonoscopy
+Mapped intussusception to Intussusception
+Unable to map entity: appendicitis
+Unable to map entity: acute appendicitis
+Mapped ischemic colitis to Ischemic colitis
+Mapped function to Function
+Unable to map entity: chronic constipation
+Unable to map entity: hepatitis
+Unable to map entity: chronic hepatitis
+Unable to map entity: eczema
+Mapped rhinitis to Rhinitis
+Mapped esophagitis to Esophagitis
+Mapped eosinophilic esophagitis to Eosinophilic esophagitis
+Mapped influenza to Influenza
+Unable to map entity: avian influenza
+Mapped anthrax to Anthrax
+Mapped lubiprostone to Lubiprostone
+Mapped chronic diarrhea to Chronic diarrhea
+Unable to map entity: diabetes type
+Unable to map entity: carcinoid syndrome
+Mapped arthritis to Arthritis
+Mapped rheumatoid arthritis to Rheumatoid Arthritis
+Mapped antibiotic to Antibiotic
+Mapped calcium to Calcium
+Mapped polycarbophil to Polycarbophil
+Mapped calcium polycarbophil to Calcium polycarbophil
+Mapped personality disorder to Personality Disorder
+Mapped substance to Substance
+Mapped substance abuse to Substance Abuse
+Mapped anxiety disorder to Anxiety Disorder
+Mapped migraine to Migraine
+Unable to map entity: process
+Mapped screening to Screening
+Mapped thyroiditis to Thyroiditis
+Mapped autoimmune thyroiditis to Autoimmune thyroiditis
+Mapped dermatitis to Dermatitis
+Unable to map entity: dermatitis herpetiformis
+Mapped chemical to Chemical
+Unable to map entity: alcohol intoxication
+Unable to map entity: mood disorder
+Unable to map entity: bipolar disorder
+Mapped posttraumatic stress disorder to Posttraumatic Stress Disorder
+Unable to map entity: alcoholism
+Mapped receptor to Receptor
+Mapped cannabinoid to Cannabinoid
+Unable to map entity: motility
+Mapped ion to Ion
+Mapped balance to Balance
+Num mapped entities: 107
+Filtering: 
+ 
+Matched entity: Irritable bowel syndrome for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: Bile for category: Digestive%20system
+Removed entity: Lactobacillus
+Matched entity: Disease for category: Diseases%20and%20disorders
+Removed entity: Fiber
+Matched entity: Inflammatory bowel disease for category: Autoimmune%20diseases
+Matched entity: Insomnia for category: Psychiatric%20diagnosis
+Removed entity: Calprotectin
+Matched entity: Indium for category: Chemical%20elements
+Matched entity: Gold for category: Chemical%20elements
+Matched entity: Coeliac disease for category: Pediatrics
+Matched entity: Fibromyalgia for category: Disorders%20of%20fascia
+Matched entity: Chronic fatigue syndrome for category: Neurological%20disorders
+Removed entity: Cystitis
+Removed entity: Gluten sensitivity
+Matched entity: Reflex for category: Reflexes
+Matched entity: Gastrocolic reflex for category: Physiology
+Matched entity: Eating for category: Physiology
+Matched entity: Drinking for category: Physiology
+Matched entity: Lead for category: Toxicology
+Matched entity: Tuberculosis for category: RTT(full)
+Matched entity: Drug for category: Drugs
+Removed entity: Nutrients
+Matched entity: Toxin for category: Toxicology
+Matched entity: Antigen for category: Immune%20system
+Removed entity: Food Allergy
+Matched entity: Fatty liver for category: Medical%20conditions%20related%20to%20obesity
+Matched entity: Diabetes mellitus for category: Diabetes
+Removed entity: Shock
+Matched entity: Septic shock for category: Medical%20emergencies
+Matched entity: Biopsy for category: Biopsy
+Removed entity: Serine
+Removed entity: Introduction
+Matched entity: Alcohol for category: Alcohols
+Removed entity: Angina
+Removed entity: Attention deficit
+Matched entity: Asthma for category: RTT(full)
+Matched entity: Carpal tunnel syndrome for category: Syndromes
+Matched entity: Intracerebral hemorrhage for category: Neurotrauma
+Removed entity: Cocaine
+Removed entity: Dysmenorrhoea
+Matched entity: Essential hypertension for category: Medical%20conditions%20related%20to%20obesity
+Removed entity: Depressive disorder
+Removed entity: Restless legs
+Removed entity: Tinnitus
+Removed entity: Itch
+Matched entity: Vascular dementia for category: Psychiatric%20diagnosis
+Matched entity: Tegaserod for category: Phenol%20ethers
+Removed entity: Administration
+Removed entity: Drug administration
+Removed entity: Guar gum
+Matched entity: Laxative for category: Gastroenterology
+Matched entity: Pain for category: Acute%20pain
+Matched entity: Dietary fiber for category: Nutrition
+Matched entity: Fruit for category: Pollination
+Removed entity: Red Meat
+Matched entity: Oil for category: Foods
+Removed entity: Chocolate
+Matched entity: Coffee for category: IARC%20Group%202B%20carcinogens
+Removed entity: Sorbitol
+Removed entity: Sugar
+Removed entity: Air
+Removed entity: Dyspepsia
+Removed entity: Transience
+Matched entity: Poisoning for category: Diseases%20and%20disorders
+Removed entity: Foodborne illness
+Matched entity: Peptic ulcer for category: Acute%20pain
+Matched entity: Alverine for category: Amines
+Matched entity: Diverticular disease for category: Diseases%20and%20disorders
+Removed entity: Citrate
+Matched entity: Defecation for category: Digestive%20system
+Matched entity: Feces for category: Animal%20physiology
+Removed entity: Food Intolerance
+Matched entity: Barium for category: Toxicology
+Removed entity: Polyp
+Matched entity: Colonoscopy for category: Endoscopy
+Removed entity: Intussusception
+Removed entity: Ischemic colitis
+Removed entity: Function
+Matched entity: Rhinitis for category: Allergology
+Matched entity: Esophagitis for category: Inflammations
+Removed entity: Eosinophilic esophagitis
+Matched entity: Influenza for category: Healthcare-associated%20infections
+Matched entity: Anthrax for category: Bacterium-related%20cutaneous%20conditions
+Matched entity: Lubiprostone for category: Alcohols
+Removed entity: Chronic diarrhea
+Matched entity: Arthritis for category: Inflammations
+Matched entity: Rheumatoid arthritis for category: Autoimmune%20diseases
+Removed entity: Antibiotic
+Matched entity: Calcium for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Polycarbophil calcium
+Removed entity: Polycarbophil calcium
+Matched entity: Personality disorder for category: Psychiatric%20diagnosis
+Removed entity: Substance
+Removed entity: Substance Abuse
+Matched entity: Anxiety disorder for category: Psychiatric%20diagnosis
+Matched entity: Migraine for category: RTT(full)
+Removed entity: Screening
+Matched entity: Thyroiditis for category: Inflammations
+Matched entity: Autoimmune thyroiditis for category: Thyroid%20disease
+Matched entity: Dermatitis for category: Autoimmune%20diseases
+Matched entity: Chemical substance for category: Chemical%20substances
+Matched entity: Posttraumatic stress disorder for category: Psychiatric%20diagnosis
+Removed entity: Receptor
+Removed entity: Cannabinoid
+Removed entity: Ion
+Removed entity: Balance
+Norepinephrine
+Num unmapped entities: 136
+Mapping: 
+ 
+Unable to map entity: venlafaxine
+Unable to map entity: serotonin
+Mapped norepinephrine to Norepinephrine
+Unable to map entity: dopamine
+Mapped neurotransmitter to Neurotransmitter
+Mapped drug to Drug
+Mapped cocaine to Cocaine
+Mapped chemical to Chemical
+Unable to map entity: release
+Mapped receptor to Receptor
+Mapped adrenergic receptor to Adrenergic Receptor
+Unable to map entity: solution
+Unable to map entity: eye
+Unable to map entity: process
+Mapped bupropion to Bupropion
+Unable to map entity: activity
+Unable to map entity: hydroxybupropion
+Mapped acetylcholine to Acetylcholine
+Mapped plasma to Plasma
+Unable to map entity: epinephrine
+Unable to map entity: antidepressant
+Mapped motivation to Motivation
+Unable to map entity: amphetamine
+Unable to map entity: methamphetamine
+Unable to map entity: imipramine
+Mapped enzyme to Enzyme
+Unable to map entity: tyrosine
+Mapped expression to Expression
+Unable to map entity: suppression
+Unable to map entity: protein
+Mapped g protein to G protein
+Mapped administration to Administration
+Unable to map entity: desvenlafaxine
+Unable to map entity: name
+Mapped depressive disorder to Depressive disorder
+Unable to map entity: clinical trial
+Unable to map entity: guanethidine
+Unable to map entity: amitriptyline
+Unable to map entity: nortriptyline
+Unable to map entity: sodium
+Mapped chloride to Chloride
+Unable to map entity: schizophrenia
+Mapped ziprasidone to Ziprasidone
+Mapped glucose to Glucose
+Mapped blood to Blood
+Mapped sugar to Sugar
+Mapped function to Function
+Mapped lurasidone to Lurasidone
+Mapped risperidone to Risperidone
+Unable to map entity: clozapine
+Unable to map entity: olanzapine
+Mapped cocaethylene to Cocaethylene
+Unable to map entity: stimulant
+Mapped anesthetic to Anesthetic
+Unable to map entity: local anesthetic
+Unable to map entity: elevation
+Unable to map entity: mental disorder
+Unable to map entity: synephrine
+Unable to map entity: phenylephrine
+Unable to map entity: management
+Unable to map entity: problem solving
+Unable to map entity: catecholamine
+Unable to map entity: methylphenidate
+Unable to map entity: catechol
+Unable to map entity: estrogen
+Mapped steroid to Steroid
+Unable to map entity: methyltransferase
+Unable to map entity: spiperone
+Unable to map entity: estradiol
+Mapped estrone to Estrone
+Mapped estriol to Estriol
+Unable to map entity: digit
+Unable to map entity: duloxetine
+Mapped milnacipran to Milnacipran
+Mapped hormone to Hormone
+Mapped gland to Gland
+Unable to map entity: panic disorder
+Mapped disease to Disease
+Unable to map entity: reboxetine
+Unable to map entity: atomoxetine
+Mapped insulin to Insulin
+Unable to map entity: stain
+Mapped dopexamine to Dopexamine
+Mapped heart failure to Heart Failure
+Mapped dobutamine to Dobutamine
+Unable to map entity: levosimendan
+Unable to map entity: dopamine receptor
+Mapped shock to Shock
+Mapped septic shock to Septic Shock
+Mapped first line treatment to First line treatment
+Mapped heart rate to Heart Rate
+Unable to map entity: blood pressure
+Mapped dopa to Dopa
+Unable to map entity: l-phenylalanine
+Mapped phenylalanine to Phenylalanine
+Mapped l-tyrosine to L-tyrosine
+Mapped vitamin to Vitamin
+Mapped vasodilator to Vasodilator
+Mapped oxygen to Oxygen
+Mapped serum to Serum
+Mapped ethylamine to Ethylamine
+Mapped electron to Electron
+Unable to map entity: piperazine
+Unable to map entity: glaucoma
+Mapped migraine to Migraine
+Mapped alcohol to Alcohol
+Unable to map entity: alcohol dependence
+Unable to map entity: carbon
+Mapped fiber to Fiber
+Unable to map entity: carbon fiber
+Mapped adenosine to Adenosine
+Mapped fruit to Fruit
+Unable to map entity: oxidase
+Mapped monoamine oxidase inhibitor to Monoamine oxidase inhibitor
+Unable to map entity: hypertensive crisis
+Unable to map entity: foods
+Unable to map entity: acid
+Unable to map entity: amino acid
+Unable to map entity: tyramine
+Unable to map entity: various
+Unable to map entity: gene
+Mapped enjoyment of life to Life
+Mapped histamine to Histamine
+Mapped intracellular fluid to Intracellular fluid
+Unable to map entity: storage
+Unable to map entity: desipramine
+Unable to map entity: protriptyline
+Mapped amoxapine to Amoxapine
+Mapped glutamate to Glutamate
+Mapped glucocorticoid to Glucocorticoid
+Mapped steroid hormone to Steroid Hormone
+Unable to map entity: peptide
+Mapped prazosin to Prazosin
+Unable to map entity: suspension
+Unable to map entity: reserpine
+Num mapped entities: 64
+Filtering: 
+ 
+Matched entity: Norepinephrine for category: Neuroanatomy
+Removed entity: Neurotransmitter
+Matched entity: Drug for category: Drugs
+Removed entity: Cocaine
+Matched entity: Chemical substance for category: Chemical%20substances
+Removed entity: Receptor
+Removed entity: Adrenergic receptor
+Matched entity: Bupropion for category: Chloroarenes
+Removed entity: Acetylcholine
+Removed entity: Plasma
+Matched entity: Motivation for category: Human%20behavior
+Matched entity: Enzyme for category: Biomolecules
+Removed entity: Expression
+Matched entity: G protein for category: Signal%20transduction
+Removed entity: Administration
+Removed entity: Depressive disorder
+Removed entity: Chloride
+Matched entity: Ziprasidone for category: Lactams
+Matched entity: Glucose for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Blood for category: Hematology
+Removed entity: Sugar
+Removed entity: Function
+Matched entity: Lurasidone for category: Lactams
+Matched entity: Risperidone for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Cocaethylene
+Matched entity: Anesthetic for category: Anesthetics
+Removed entity: Steroid
+Matched entity: Estrone for category: Alcohols
+Removed entity: Estriol
+Matched entity: Milnacipran for category: Amines
+Matched entity: Hormone for category: Physiology
+Matched entity: Gland for category: Glands
+Matched entity: Disease for category: Diseases%20and%20disorders
+Matched entity: Insulin for category: World%20Anti-Doping%20Agency%20prohibited%20substances
+Removed entity: Dopexamine
+Matched entity: Heart failure for category: Aging-associated%20diseases
+Removed entity: Dobutamine
+Removed entity: Shock
+Matched entity: Septic shock for category: Medical%20emergencies
+Removed entity: First line treatment
+Matched entity: Heart rate for category: Medical%20signs
+Removed entity: Dopa
+Removed entity: Phenylalanine
+Removed entity: L-tyrosine
+Matched entity: Vitamin for category: Nutrition
+Removed entity: Vasodilator
+Matched entity: Oxygen for category: Chemical%20elements
+Removed entity: Serum
+Removed entity: Ethylamine
+Removed entity: Electron
+Matched entity: Migraine for category: RTT(full)
+Matched entity: Alcohol for category: Alcohols
+Removed entity: Fiber
+Removed entity: Adenosine
+Matched entity: Fruit for category: Pollination
+Removed entity: Monoamine oxidase inhibitor
+Removed entity: Life
+Matched entity: Histamine for category: Immune%20system
+Removed entity: Intracellular fluid
+Matched entity: Amoxapine for category: Chloroarenes
+Removed entity: Glutamate
+Removed entity: Glucocorticoid
+Removed entity: Steroid hormone
+Matched entity: Prazosin for category: Phenol%20ethers
+Gut flora
+Num unmapped entities: 114
+Mapping: 
+ 
+Unable to map entity: various
+Mapped disease to Disease
+Mapped epithelium to Epithelium
+Unable to map entity: obesity
+Unable to map entity: process
+Mapped drive to Drive
+Mapped fiber to Fiber
+Mapped eating to Eating
+Mapped lead to Lead
+Mapped toxin to Toxin
+Mapped feeding to Feeding
+Mapped air to Air
+Unable to map entity: meat
+Unable to map entity: serotonin
+Mapped inflammatory bowel disease to Inflammatory Bowel Disease
+Unable to map entity: colitis
+Unable to map entity: ulcerative colitis
+Unable to map entity: driving
+Unable to map entity: water
+Unable to map entity: microbiology
+Mapped antibiotic to Antibiotic
+Mapped carbohydrate to Carbohydrate
+Unable to map entity: acid
+Unable to map entity: fatty acid
+Unable to map entity: acetate
+Unable to map entity: propionate
+Mapped vitamin to Vitamin
+Mapped bile to Bile
+Unable to map entity: bile acid
+Unable to map entity: sterol
+Mapped function to Function
+Mapped gland to Gland
+Mapped dietary fiber to Dietary Fiber
+Mapped acetic acid to Acetic Acid
+Unable to map entity: butyric acid
+Unable to map entity: material
+Mapped plant material to Plant material
+Unable to map entity: wound
+Unable to map entity: infection
+Mapped immunodeficiency to Immunodeficiency
+Unable to map entity: activity
+Mapped chemical to Chemical
+Mapped esophagitis to Esophagitis
+Mapped gastritis to Gastritis
+Mapped acetylcholine to Acetylcholine
+Mapped histamine to Histamine
+Unable to map entity: melatonin
+Unable to map entity: release
+Unable to map entity: diarrhoea
+Mapped flagellin to Flagellin
+Mapped enzyme to Enzyme
+Unable to map entity: polysaccharide
+Unable to map entity: starch
+Mapped sugar to Sugar
+Unable to map entity: lactose
+Unable to map entity: lactose intolerance
+Mapped alcohol to Alcohol
+Mapped sugar alcohol to Sugar Alcohol
+Unable to map entity: mucus
+Unable to map entity: periodontal disease
+Mapped chronic fatigue syndrome to Chronic Fatigue Syndrome
+Mapped bacterial vaginosis to Bacterial Vaginosis
+Unable to map entity: biotin
+Unable to map entity: gene
+Mapped root to Root
+Mapped nitrogen to Nitrogen
+Mapped fixation to Fixation
+Unable to map entity: nitrogen gas
+Mapped folic acid to Folic Acid
+Unable to map entity: milk
+Unable to map entity: protein
+Mapped milk protein to Milk protein
+Unable to map entity: lactic acid
+Mapped lactobacillus to Lactobacillus
+Unable to map entity: genome
+Mapped yeast to Yeast
+Mapped cellulose to Cellulose
+Mapped hydrogen to Hydrogen
+Mapped removal to Removal
+Mapped feces to Feces
+Unable to map entity: name
+Unable to map entity: wood
+Unable to map entity: per
+Unable to map entity: carbon
+Mapped sewage to Sewage
+Unable to map entity: infectious disease
+Mapped cholera to Cholera
+Unable to map entity: syphilis
+Mapped anthrax to Anthrax
+Mapped leprosy to Leprosy
+Mapped plague to Plague
+Mapped bubonic plague to Bubonic Plague
+Mapped tuberculosis to Tuberculosis
+Mapped oil to Oil
+Unable to map entity: cheese
+Mapped yogurt to Yogurt
+Mapped gold to Gold
+Unable to map entity: palladium
+Unable to map entity: copper
+Mapped nucleic acid to Nucleic Acid
+Mapped pseudomembranous colitis to Pseudomembranous Colitis
+Unable to map entity: indole
+Mapped ammonia to Ammonia
+Mapped autointoxication to Autointoxication
+Unable to map entity: age
+Unable to map entity: enterotoxin
+Mapped grapes to Grapes
+Mapped blood to Blood
+Unable to map entity: peptide
+Mapped hormone to Hormone
+Mapped glucose to Glucose
+Mapped insulin to Insulin
+Mapped administration to Administration
+Num mapped entities: 63
+Filtering: 
+ 
+Matched entity: Disease for category: Diseases%20and%20disorders
+Removed entity: Epithelium
+Removed entity: Drive
+Removed entity: Fiber
+Matched entity: Eating for category: Physiology
+Matched entity: Lead for category: Toxicology
+Matched entity: Toxin for category: Toxicology
+Matched entity: Eating for category: Physiology
+Removed entity: Air
+Matched entity: Inflammatory bowel disease for category: Autoimmune%20diseases
+Removed entity: Antibiotic
+Matched entity: Carbohydrate for category: Nutrition
+Matched entity: Vitamin for category: Nutrition
+Matched entity: Bile for category: Digestive%20system
+Removed entity: Function
+Matched entity: Gland for category: Glands
+Matched entity: Dietary fiber for category: Nutrition
+Matched entity: Acetic acid for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Plant material
+Removed entity: Immunodeficiency
+Matched entity: Chemical substance for category: Chemical%20substances
+Matched entity: Esophagitis for category: Inflammations
+Matched entity: Gastritis for category: Inflammations
+Removed entity: Acetylcholine
+Matched entity: Histamine for category: Immune%20system
+Removed entity: Flagellin
+Matched entity: Enzyme for category: Biomolecules
+Removed entity: Sugar
+Matched entity: Alcohol for category: Alcohols
+Removed entity: Sugar alcohol
+Matched entity: Chronic fatigue syndrome for category: Neurological%20disorders
+Matched entity: Bacterial vaginosis for category: Vagina
+Removed entity: Root
+Matched entity: Nitrogen for category: Chemical%20elements
+Removed entity: Fixation
+Matched entity: Folic acid for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Milk protein
+Removed entity: Lactobacillus
+Removed entity: Yeast
+Removed entity: Cellulose
+Matched entity: Hydrogen for category: Chemical%20elements
+Removed entity: Removal
+Matched entity: Feces for category: Animal%20physiology
+Removed entity: Sewage
+Matched entity: Cholera for category: Gastrointestinal%20tract%20disorders
+Matched entity: Anthrax for category: Bacterium-related%20cutaneous%20conditions
+Matched entity: Leprosy for category: Bacterial%20diseases
+Removed entity: Plague
+Removed entity: Bubonic plague
+Matched entity: Tuberculosis for category: RTT(full)
+Matched entity: Oil for category: Foods
+Removed entity: Yogurt
+Matched entity: Gold for category: Chemical%20elements
+Matched entity: Nucleic acid for category: Biomolecules
+Removed entity: Pseudomembranous Colitis
+Matched entity: Ammonia for category: Toxicology
+Removed entity: Autointoxication
+Removed entity: Grapes
+Matched entity: Blood for category: Hematology
+Matched entity: Hormone for category: Physiology
+Matched entity: Glucose for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Insulin for category: World%20Anti-Doping%20Agency%20prohibited%20substances
+Removed entity: Administration
+Noise-induced hearing loss
+Num unmapped entities: 78
+Mapping: 
+ 
+Unable to map entity: hearing loss
+Unable to map entity: infection
+Unable to map entity: syphilis
+Unable to map entity: rubella
+Unable to map entity: perception
+Unable to map entity: both ears
+Mapped screening to Screening
+Unable to map entity: outer ear
+Unable to map entity: cerumen
+Unable to map entity: gene
+Unable to map entity: various
+Mapped discussion to Discussion
+Unable to map entity: injury
+Unable to map entity: herpes simplex
+Mapped oxygen to Oxygen
+Unable to map entity: toxemia
+Unable to map entity: birth weight
+Mapped alcohol to Alcohol
+Mapped blood to Blood
+Unable to map entity: jaundice
+Mapped recessive gene to Recessive gene
+Mapped auditory processing disorder to Auditory Processing Disorder
+Unable to map entity: audiogram
+Unable to map entity: audiometry
+Mapped presbycusis to Presbycusis
+Unable to map entity: age
+Mapped education to Education
+Mapped evaluation to Evaluation
+Unable to map entity: process
+Mapped vibration to Vibration
+Mapped lead to Lead
+Unable to map entity: arsenic
+Unable to map entity: mercury
+Unable to map entity: construction
+Mapped function to Function
+Unable to map entity: audiometric test
+Unable to map entity: management
+Unable to map entity: intervention
+Mapped hemifacial microsomia to Hemifacial Microsomia
+Unable to map entity: eye
+Unable to map entity: distorted hearing
+Unable to map entity: referral
+Unable to map entity: pure tone audiometry
+Unable to map entity: examination
+Unable to map entity: impacted cerumen
+Unable to map entity: procedure
+Mapped otitis to Otitis
+Mapped otitis media to Otitis media
+Unable to map entity: effusion
+Mapped otitis media with effusion to Otitis media
+Mapped air to Air
+Mapped gold to Gold
+Unable to map entity: treacher collins syndrome
+Unable to map entity: cleft palate
+Mapped microtia to Microtia
+Unable to map entity: ear structure
+Unable to map entity: diagnosis
+Mapped stickler syndrome to Stickler Syndrome
+Mapped disease to Disease
+Mapped congenital disease to Congenital disease
+Mapped schooling to Schooling
+Unable to map entity: neuroma
+Mapped acoustic neuroma to Acoustic Neuroma
+Unable to map entity: sound level
+Unable to map entity: complete deafness
+Mapped proteinuria to Proteinuria
+Mapped transient to Transient
+Mapped balance to Balance
+Unable to map entity: developmental delay
+Mapped mental retardation to Mental Retardation
+Mapped ability to speak to Speak
+Unable to map entity: congenital blindness
+Unable to map entity: velopharyngeal inadequacy
+Mapped tinnitus to Tinnitus
+Unable to map entity: coal
+Unable to map entity: vocal
+Mapped rinne test to Rinne test
+Mapped pitch to Pitch
+Num mapped entities: 32
+Filtering: 
+ 
+Removed entity: Screening
+Removed entity: Discussion
+Matched entity: Oxygen for category: Chemical%20elements
+Matched entity: Alcohol for category: Alcohols
+Matched entity: Blood for category: Hematology
+Removed entity: Recessive gene
+Matched entity: Auditory processing disorder for category: Neurological%20disorders
+Matched entity: Presbycusis for category: Audiology
+Matched entity: Education for category: Knowledge%20sharing
+Matched entity: Evaluation for category: Evaluation
+Removed entity: Vibration
+Matched entity: Lead for category: Toxicology
+Removed entity: Function
+Matched entity: Hemifacial microsomia for category: Congenital%20disorders
+Matched entity: Otitis for category: Otitis
+Matched entity: Otitis media for category: Pediatrics
+Removed entity: Air
+Matched entity: Gold for category: Chemical%20elements
+Removed entity: Microtia
+Matched entity: Stickler syndrome for category: Rare%20diseases
+Matched entity: Disease for category: Diseases%20and%20disorders
+Removed entity: Congenital disease
+Removed entity: Schooling
+Matched entity: Vestibular schwannoma for category: Rare%20diseases
+Removed entity: Proteinuria
+Removed entity: Transience
+Removed entity: Balance
+Removed entity: Mental Retardation
+Removed entity: Speak
+Removed entity: Tinnitus
+Removed entity: Rinne test
+Removed entity: Pitch
+Fever
+Num unmapped entities: 180
+Mapping: 
+ 
+Mapped ribavirin to Ribavirin
+Unable to map entity: hepatitis
+Mapped viral hemorrhagic fever to Fever
+Mapped interferon to Interferon
+Mapped interferon alfa to Interferon alfa
+Mapped immunodeficiency to Immunodeficiency
+Mapped lassa fever to Lassa Fever
+Mapped congo hemorrhagic fever to Fever
+Mapped venezuelan hemorrhagic fever to Venezuelan hemorrhagic fever
+Unable to map entity: infection
+Mapped drug to Drug
+Unable to map entity: activity
+Mapped dengue to Dengue
+Mapped yellow fever to Yellow Fever
+Mapped omsk hemorrhagic fever to Fever
+Mapped disease to Disease
+Mapped kyasanur forest disease to Disease
+Unable to map entity: aerosol
+Unable to map entity: infectious disease
+Unable to map entity: infectious disease notification
+Mapped rest to Rest
+Mapped smallpox to Smallpox
+Mapped cholera to Cholera
+Mapped diphtheria to Diphtheria
+Unable to map entity: croup
+Unable to map entity: erysipelas
+Mapped scarlet fever to Scarlet Fever
+Unable to map entity: typhus
+Unable to map entity: typhoid fever
+Unable to map entity: relapsing fever
+Mapped puerperal fever to Puerperal fever
+Mapped start to Start
+Mapped schooling to Schooling
+Mapped anthrax to Anthrax
+Mapped tularemia to Tularemia
+Unable to map entity: brucellosis
+Unable to map entity: q fever
+Unable to map entity: encephalitis
+Unable to map entity: venezuelan equine encephalitis
+Unable to map entity: botulism
+Unable to map entity: enterotoxin
+Mapped eastern equine encephalitis to Eastern Equine Encephalitis
+Mapped western equine encephalitis to Western equine encephalitis
+Mapped argentinian hemorrhagic fever to Fever
+Mapped bolivian hemorrhagic fever to Fever
+Mapped glanders to Glanders
+Unable to map entity: melioidosis
+Mapped plague to Plague
+Mapped bubonic plague to Bubonic Plague
+Mapped psittacosis to Psittacosis
+Mapped rift valley fever to Rift Valley Fever
+Mapped rinderpest to Rinderpest
+Mapped newcastle disease to Newcastle Disease
+Mapped influenza to Influenza
+Unable to map entity: avian influenza
+Mapped toxin to Toxin
+Unable to map entity: ricin
+Unable to map entity: diagnosis
+Unable to map entity: lyme disease
+Unable to map entity: tick fever
+Mapped rocky mountain spotted fever to Rocky Mountain Spotted Fever
+Unable to map entity: tick bite
+Unable to map entity: african tick bite fever
+Mapped babesiosis to Babesiosis
+Mapped ehrlichiosis to Ehrlichiosis
+Mapped meningoencephalitis to Meningoencephalitis
+Unable to map entity: anaplasmosis
+Unable to map entity: venom
+Unable to map entity: tick paralysis
+Mapped feeding to Feeding
+Mapped ebola virus disease to Ebola Virus Disease
+Mapped marburg virus disease to Disease
+Unable to map entity: boutonneuse fever
+Unable to map entity: neurotoxin
+Mapped bleeding to Bleeding
+Mapped bleeding diathesis to Bleeding diathesis
+Mapped flushing to Flushing
+Mapped edema to Edema
+Mapped blood to Blood
+Unable to map entity: blood pressure
+Mapped hypotension to Hypotension
+Mapped shock to Shock
+Unable to map entity: vomiting
+Unable to map entity: south american hemorrhagic fever
+Unable to map entity: heroin
+Unable to map entity: injection
+Mapped fiberglass to Fiberglass
+Unable to map entity: endocarditis
+Mapped infective endocarditis to Infective endocarditis
+Unable to map entity: jaundice
+Unable to map entity: hematemesis
+Unable to map entity: malaria
+Unable to map entity: quinine
+Unable to map entity: paratyphoid fever
+Unable to map entity: serotype
+Unable to map entity: color
+Unable to map entity: injury
+Unable to map entity: vaccine
+Mapped oroya fever to Oroya fever
+Unable to map entity: poliomyelitis
+Unable to map entity: trachoma
+Mapped leptospirosis to Leptospirosis
+Unable to map entity: paracetamol
+Mapped ibuprofen to Ibuprofen
+Mapped antipyretic to Antipyretic
+Mapped introduction to Introduction
+Unable to map entity: immunoglobulin
+Mapped aspirin to Aspirin
+Unable to map entity: mercury
+Mapped tuberculosis to Tuberculosis
+Unable to map entity: drug resistance
+Unable to map entity: superadded infection
+Mapped drug allergy to Drug Allergy
+Mapped rifampicin to Rifampicin
+Mapped rabies to Rabies
+Mapped brazilian hemorrhagic fever to Fever
+Unable to map entity: pel
+Mapped familial mediterranean fever to Familial Mediterranean Fever
+Mapped renal failure to Renal Failure
+Unable to map entity: amyloidosis
+Unable to map entity: mycosis
+Mapped air to Air
+Unable to map entity: yellow fever vaccine
+Mapped quarantine to Quarantine
+Unable to map entity: investigations
+Mapped measles to Measles
+Mapped mediterranean spotted fever to Mediterranean Spotted Fever
+Unable to map entity: indian tick typhus
+Unable to map entity: filariasis
+Mapped leishmaniasis to Leishmaniasis
+Unable to map entity: trypanosomiasis
+Unable to map entity: african trypanosomiasis
+Mapped west nile fever to Fever
+Mapped rickettsialpox to Rickettsialpox
+Mapped queensland tick typhus to Queensland tick typhus
+Unable to map entity: name
+Unable to map entity: rickets
+Mapped vitamin to Vitamin
+Mapped antibiotic to Antibiotic
+Unable to map entity: tetracycline
+Unable to map entity: per
+Unable to map entity: foot injury
+Mapped appearance to Appearance
+Mapped ankle injury to Ankle injury
+Unable to map entity: fascia
+Mapped lead to Lead
+Mapped insecticide to Insecticide
+Unable to map entity: insect repellent
+Unable to map entity: various
+Unable to map entity: constipation
+Mapped arthritis to Arthritis
+Mapped dengue hemorrhagic fever to Fever
+Unable to map entity: borreliosis
+Unable to map entity: pyemia
+Unable to map entity: louping ill
+Unable to map entity: rat bite
+Mapped rat bite fever to Fever
+Unable to map entity: water
+Mapped pasteurization to Pasteurization
+Unable to map entity: milk
+Mapped feces to Feces
+Unable to map entity: widal test
+Mapped serum to Serum
+Unable to map entity: salmonella infection
+Mapped typhoid vaccination to Typhoid vaccination
+Mapped antibody to Antibody
+Unable to map entity: urine
+Unable to map entity: faeces
+Mapped bismuth to Bismuth
+Unable to map entity: agar
+Unable to map entity: vasculitis
+Mapped lymph to Lymph
+Unable to map entity: nausea
+Mapped tetracyclines to Tetracyclines
+Mapped blood test to Blood Test
+Unable to map entity: hop
+Mapped fort bragg fever to Fever
+Mapped biopsy to Biopsy
+Unable to map entity: viral hepatitis
+Num mapped entities: 83
+Filtering: 
+ 
+Matched entity: Ribavirin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Fever for category: Fever
+Removed entity: Interferon
+Removed entity: Interferon alfa
+Removed entity: Immunodeficiency
+Matched entity: Lassa fever for category: Zoonoses
+Removed entity: Venezuelan hemorrhagic fever
+Matched entity: Drug for category: Drugs
+Matched entity: Dengue fever for category: RTT(full)
+Removed entity: Yellow fever
+Matched entity: Disease for category: Diseases%20and%20disorders
+Removed entity: Rest
+Removed entity: Smallpox
+Matched entity: Cholera for category: Gastrointestinal%20tract%20disorders
+Matched entity: Diphtheria for category: Bacterial%20diseases
+Matched entity: Scarlet fever for category: Pediatrics
+Removed entity: Puerperal fever
+Removed entity: Start
+Removed entity: Schooling
+Matched entity: Anthrax for category: Bacterium-related%20cutaneous%20conditions
+Matched entity: Tularemia for category: Bacterium-related%20cutaneous%20conditions
+Removed entity: Eastern Equine Encephalitis
+Removed entity: Western equine encephalitis
+Matched entity: Glanders for category: Bacterium-related%20cutaneous%20conditions
+Removed entity: Plague
+Removed entity: Bubonic plague
+Matched entity: Psittacosis for category: Respiratory%20diseases
+Matched entity: Rift Valley fever for category: Zoonoses
+Removed entity: Rinderpest
+Removed entity: Newcastle disease
+Matched entity: Influenza for category: Healthcare-associated%20infections
+Matched entity: Toxin for category: Toxicology
+Matched entity: Rocky Mountain spotted fever for category: Bacterium-related%20cutaneous%20conditions
+Matched entity: Babesiosis for category: Zoonoses
+Matched entity: Ehrlichiosis for category: Bacterium-related%20cutaneous%20conditions
+Removed entity: Meningoencephalitis
+Matched entity: Eating for category: Physiology
+Removed entity: Ebola Virus Disease
+Removed entity: Bleeding
+Removed entity: Bleeding diathesis
+Removed entity: Flushing
+Matched entity: Edema for category: Medical%20signs
+Matched entity: Blood for category: Hematology
+Matched entity: Hypotension for category: Vascular%20diseases
+Removed entity: Shock
+Removed entity: Fiberglass
+Removed entity: Infective endocarditis
+Matched entity: Oroya fever for category: Bacterium-related%20cutaneous%20conditions
+Matched entity: Leptospirosis for category: Bacterium-related%20cutaneous%20conditions
+Matched entity: Ibuprofen for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Antipyretic
+Removed entity: Introduction
+Matched entity: Aspirin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Tuberculosis for category: RTT(full)
+Matched entity: Drug allergy for category: Allergology
+Matched entity: Rifampicin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Rabies for category: Neurological%20disorders
+Matched entity: Familial Mediterranean fever for category: Arthritis
+Matched entity: Kidney failure for category: Organ%20failure
+Removed entity: Air
+Matched entity: Quarantine for category: Infectious%20diseases
+Matched entity: Measles for category: Pediatrics
+Removed entity: Mediterranean Spotted Fever
+Removed entity: Leishmaniasis
+Matched entity: Rickettsialpox for category: Bacterium-related%20cutaneous%20conditions
+Matched entity: Queensland tick typhus for category: Bacterium-related%20cutaneous%20conditions
+Matched entity: Vitamin for category: Nutrition
+Removed entity: Antibiotic
+Removed entity: Appearance
+Removed entity: Ankle injury
+Matched entity: Lead for category: Toxicology
+Removed entity: Insecticide
+Matched entity: Arthritis for category: Inflammations
+Removed entity: Pasteurization
+Matched entity: Feces for category: Animal%20physiology
+Removed entity: Serum
+Removed entity: Typhoid vaccine
+Matched entity: Antibody for category: Immune%20system
+Matched entity: Bismuth for category: Chemical%20elements
+Matched entity: Lymph for category: Lymphatic%20system
+Removed entity: Tetracycline antibiotics
+Matched entity: Blood test for category: Blood%20tests
+Matched entity: Biopsy for category: Biopsy
+Antiviral drug
+Num unmapped entities: 147
+Mapping: 
+ 
+Unable to map entity: ganciclovir
+Unable to map entity: nucleoside
+Unable to map entity: activity
+Unable to map entity: protein
+Unable to map entity: kinase
+Mapped protein kinase to Protein Kinase
+Mapped drug to Drug
+Unable to map entity: cidofovir
+Mapped nucleotide to Nucleotide
+Unable to map entity: foscarnet
+Mapped function to Function
+Mapped pyrophosphate to Pyrophosphate
+Unable to map entity: drug resistance
+Mapped lead to Lead
+Unable to map entity: antiviral therapy
+Mapped peer review to Peer Review
+Unable to map entity: clinical trial
+Unable to map entity: diagnosis
+Unable to map entity: vaccine
+Mapped influenza to Influenza
+Unable to map entity: infection
+Mapped address to Address
+Mapped chemical to Chemical
+Unable to map entity: thymidine
+Mapped thymidine kinase to Thymidine kinase
+Unable to map entity: gene
+Unable to map entity: herpes simplex
+Unable to map entity: varicella
+Unable to map entity: nucleoside analog
+Unable to map entity: hepatitis
+Mapped rna polymerase inhibitor to Inhibitor
+Mapped pneumonia to Pneumonia
+Unable to map entity: dehydration
+Mapped coughing to Coughing
+Unable to map entity: septicaemia
+Unable to map entity: bronchopneumonia
+Mapped disease to Disease
+Mapped heart disease to Heart Disease
+Mapped enzyme to Enzyme
+Mapped yellow fever to Yellow Fever
+Mapped molecule to Molecule
+Unable to map entity: zanamivir
+Mapped start to Start
+Unable to map entity: peramivir
+Unable to map entity: eye
+Unable to map entity: acid
+Unable to map entity: deoxyribonucleic acid
+Unable to map entity: encephalitis
+Mapped keratitis to Keratitis
+Unable to map entity: transplant
+Mapped herpes zoster to Herpes Zoster
+Unable to map entity: deoxyuridine
+Mapped idoxuridine to Idoxuridine
+Unable to map entity: name
+Mapped introduction to Introduction
+Unable to map entity: vidarabine
+Unable to map entity: management
+Mapped administration to Administration
+Mapped drug administration to Drug administration
+Unable to map entity: heparin
+Mapped interferon to Interferon
+Unable to map entity: guanine
+Mapped antibody to Antibody
+Mapped antibiotic to Antibiotic
+Unable to map entity: antifungal
+Mapped aciclovir to Aciclovir
+Mapped lamivudine to Lamivudine
+Unable to map entity: protease
+Unable to map entity: fat
+Mapped alcohol to Alcohol
+Mapped fatty alcohol to Fatty alcohol
+Mapped application to Application
+Mapped herpes labialis to Herpes labialis
+Mapped prescription to Prescription
+Mapped anesthetic to Anesthetic
+Mapped cream to Cream
+Mapped zinc to Zinc
+Unable to map entity: zinc oxide
+Mapped zinc sulfate to Zinc Sulfate
+Mapped adenosine to Adenosine
+Mapped dengue to Dengue
+Mapped screening to Screening
+Mapped smallpox to Smallpox
+Unable to map entity: neuraminidase inhibitor
+Mapped amantadine to Amantadine
+Mapped rimantadine to Rimantadine
+Mapped organic compound to Organic compound
+Unable to map entity: ribonucleoside
+Mapped immunodeficiency to Immunodeficiency
+Mapped decitabine to Decitabine
+Mapped gemcitabine to Gemcitabine
+Unable to map entity: chemotherapy
+Unable to map entity: various
+Unable to map entity: adapalene
+Mapped memantine to Memantine
+Mapped saxagliptin to Saxagliptin
+Mapped tromantadine to Tromantadine
+Unable to map entity: vildagliptin
+Mapped polymer to Polymer
+Unable to map entity: base
+Mapped lassa fever to Lassa Fever
+Mapped ebola virus disease to Ebola Virus Disease
+Mapped rift valley fever to Rift Valley Fever
+Mapped nucleic acid to Nucleic Acid
+Mapped pesticide to Pesticide
+Unable to map entity: carcinogen
+Mapped supportive care to Supportive care
+Mapped balance to Balance
+Mapped swine influenza to Swine Influenza
+Mapped ion to Ion
+Unable to map entity: poultry
+Unable to map entity: malaria
+Unable to map entity: phosphorus
+Mapped oxygen to Oxygen
+Mapped singlet oxygen to Singlet oxygen
+Unable to map entity: lead compound
+Unable to map entity: genome
+Unable to map entity: viral genome
+Unable to map entity: water
+Unable to map entity: water intake
+Unable to map entity: paracetamol
+Unable to map entity: sedative
+Unable to map entity: antiviral agent
+Unable to map entity: lactoferrin
+Mapped ribavirin to Ribavirin
+Unable to map entity: microbiology
+Mapped neuralgia to Neuralgia
+Mapped postherpetic neuralgia to Postherpetic Neuralgia
+Unable to map entity: valaciclovir
+Unable to map entity: famciclovir
+Unable to map entity: process
+Mapped antiepileptics to Antiepileptics
+Unable to map entity: endocrine function
+Unable to map entity: analgesic
+Mapped tramadol to Tramadol
+Mapped penciclovir to Penciclovir
+Mapped neutropenia to Neutropenia
+Mapped complication to Complication
+Mapped transient to Transient
+Unable to map entity: immunoglobulin
+Mapped polyethylene to Polyethylene
+Mapped glycol to Glycol
+Unable to map entity: per
+Unable to map entity: genotype
+Unable to map entity: boceprevir
+Mapped telaprevir to Telaprevir
+Num mapped entities: 77
+Filtering: 
+ 
+Removed entity: Protein kinase
+Matched entity: Drug for category: Drugs
+Removed entity: Nucleotide
+Removed entity: Function
+Removed entity: Pyrophosphate
+Matched entity: Lead for category: Toxicology
+Removed entity: Peer review
+Matched entity: Influenza for category: Healthcare-associated%20infections
+Removed entity: Address
+Matched entity: Chemical substance for category: Chemical%20substances
+Removed entity: Thymidine kinase
+Removed entity: Inhibitor
+Matched entity: Pneumonia for category: RTT(full)
+Removed entity: Cough
+Matched entity: Disease for category: Diseases%20and%20disorders
+Removed entity: Heart Disease
+Matched entity: Enzyme for category: Biomolecules
+Removed entity: Yellow fever
+Removed entity: Molecule
+Removed entity: Start
+Matched entity: Keratitis for category: Inflammations
+Removed entity: Herpes Zoster
+Removed entity: Idoxuridine
+Removed entity: Introduction
+Removed entity: Administration
+Removed entity: Drug administration
+Removed entity: Interferon
+Matched entity: Antibody for category: Immune%20system
+Removed entity: Antibiotic
+Matched entity: Aciclovir for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Lamivudine for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Alcohol for category: Alcohols
+Removed entity: Fatty alcohol
+Removed entity: Application
+Removed entity: Herpes labialis
+Removed entity: Prescription
+Matched entity: Anesthetic for category: Anesthetics
+Removed entity: Cream
+Matched entity: Zinc for category: Chemical%20elements
+Removed entity: Zinc sulfate
+Removed entity: Adenosine
+Matched entity: Dengue fever for category: RTT(full)
+Removed entity: Screening
+Removed entity: Smallpox
+Matched entity: Amantadine for category: Amines
+Matched entity: Rimantadine for category: Amines
+Removed entity: Organic compound
+Removed entity: Immunodeficiency
+Matched entity: Decitabine for category: Lactams
+Matched entity: Gemcitabine for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Memantine for category: Amines
+Matched entity: Saxagliptin for category: Alcohols
+Matched entity: Tromantadine for category: Amines
+Removed entity: Polymer
+Matched entity: Lassa fever for category: Zoonoses
+Removed entity: Ebola Virus Disease
+Matched entity: Rift Valley fever for category: Zoonoses
+Matched entity: Nucleic acid for category: Biomolecules
+Matched entity: Pesticide for category: Chemical%20substances
+Removed entity: Supportive care
+Removed entity: Balance
+Removed entity: Swine influenza
+Removed entity: Ion
+Matched entity: Oxygen for category: Chemical%20elements
+Removed entity: Singlet oxygen
+Matched entity: Ribavirin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Neuralgia for category: Neurological%20disorders
+Matched entity: Postherpetic neuralgia for category: Neurological%20disorders
+Removed entity: Antiepileptics
+Matched entity: Tramadol for category: Phenol%20ethers
+Removed entity: Penciclovir
+Matched entity: Neutropenia for category: Autoimmune%20diseases
+Removed entity: Complication
+Removed entity: Transience
+Removed entity: Polyethylene
+Removed entity: Glycol
+Removed entity: Telaprevir
+Diarrhea
+Num unmapped entities: 164
+Mapping: 
+ 
+Mapped acute diarrhea to Acute diarrhea
+Mapped antibiotic to Antibiotic
+Unable to map entity: per
+Mapped intussusception to Intussusception
+Mapped blood to Blood
+Unable to map entity: vaccine
+Mapped rotavirus vaccine to Rotavirus vaccine
+Unable to map entity: age
+Mapped saccharomyces boulardii to Saccharomyces boulardii
+Mapped lactobacillus to Lactobacillus
+Mapped hypokalemia to Hypokalemia
+Unable to map entity: dehydration
+Mapped rest to Rest
+Unable to map entity: nausea
+Unable to map entity: vomiting
+Mapped glucose to Glucose
+Mapped achlorhydria to Achlorhydria
+Mapped flushing to Flushing
+Unable to map entity: carcinoid syndrome
+Mapped loperamide to Loperamide
+Mapped irritable bowel syndrome to Irritable Bowel Syndrome
+Mapped chronic diarrhea to Chronic diarrhea
+Mapped disease to Disease
+Mapped inflammatory bowel disease to Inflammatory Bowel Disease
+Unable to map entity: ileostomy
+Unable to map entity: chemotherapy
+Mapped irinotecan to Irinotecan
+Unable to map entity: contaminated food
+Unable to map entity: water
+Unable to map entity: colestyramine
+Mapped bile to Bile
+Unable to map entity: acid
+Unable to map entity: bile acid
+Unable to map entity: functional diarrhea
+Mapped postcholecystectomy syndrome to Postcholecystectomy syndrome
+Mapped vagotomy to Vagotomy
+Unable to map entity: osmotic diarrhea
+Unable to map entity: drinks
+Mapped sugar to Sugar
+Mapped coeliac disease to Coeliac Disease
+Mapped nutrients to Nutrients
+Unable to map entity: constipation
+Mapped magnesium to Magnesium
+Mapped vitamin to Vitamin
+Unable to map entity: lactose
+Unable to map entity: lactose intolerance
+Unable to map entity: fructose
+Unable to map entity: malabsorption
+Unable to map entity: fructose intake
+Unable to map entity: foods
+Mapped sorbitol to Sorbitol
+Mapped lead to Lead
+Unable to map entity: milk
+Unable to map entity: washing
+Unable to map entity: soap
+Mapped pneumonia to Pneumonia
+Mapped yeast to Yeast
+Unable to map entity: infection
+Mapped eating to Eating
+Unable to map entity: toilet
+Unable to map entity: intervention
+Unable to map entity: various
+Unable to map entity: colitis
+Mapped microscopic colitis to Microscopic colitis
+Unable to map entity: collagenous colitis
+Mapped colonoscopy to Colonoscopy
+Mapped helminthiasis to Helminthiasis
+Mapped entacapone to Entacapone
+Mapped drug to Drug
+Unable to map entity: potassium
+Unable to map entity: codeine
+Mapped prescription to Prescription
+Mapped diphenoxylate to Diphenoxylate
+Mapped paregoric to Paregoric
+Unable to map entity: laudanum
+Mapped secretory diarrhea to Secretory diarrhea
+Unable to map entity: gastroenteritis
+Mapped defecation to Defecation
+Unable to map entity: gastroparesis
+Mapped delayed gastric emptying to Delayed gastric emptying
+Unable to map entity: hypoglycemia
+Unable to map entity: movement
+Unable to map entity: hyperglycemia
+Mapped cholera to Cholera
+Unable to map entity: clear fluid
+Mapped start to Start
+Mapped ingestion to Ingestion
+Unable to map entity: rice
+Mapped electrolyte to Electrolyte
+Unable to map entity: diagnosis
+Mapped eosinophilia to Eosinophilia
+Unable to map entity: brainerd diarrhea
+Unable to map entity: process
+Unable to map entity: gene
+Mapped neutropenia to Neutropenia
+Mapped administration to Administration
+Mapped drug administration to Drug administration
+Unable to map entity: genotype
+Mapped toxin to Toxin
+Mapped cholera toxin to Cholera toxin
+Unable to map entity: protein
+Mapped skin turgor to Skin turgor
+Mapped hypotension to Hypotension
+Mapped renal failure to Renal Failure
+Mapped coma to Coma
+Unable to map entity: severe dehydration
+Unable to map entity: management
+Unable to map entity: management of dehydration
+Mapped rehydration therapy to Rehydration therapy
+Mapped cause of death to Cause of death
+Mapped colesevelam to Colesevelam
+Mapped bile salt to Bile salt
+Unable to map entity: fat
+Unable to map entity: fat absorption
+Mapped candidiasis to Candidiasis
+Mapped pseudomembranous colitis to Pseudomembranous Colitis
+Unable to map entity: amoxicillin
+Unable to map entity: clavulanic acid
+Unable to map entity: truncal vagotomy
+Unable to map entity: selective vagotomy
+Mapped function to Function
+Unable to map entity: clostridium difficile infection
+Mapped toxic megacolon to Toxic megacolon
+Unable to map entity: sepsis
+Mapped allergic reaction to Allergic Reaction
+Mapped clostridium difficile diarrhea to Clostridium difficile diarrhea
+Unable to map entity: antifolate
+Mapped third generation cephalosporin to Third generation cephalosporin
+Mapped shiga toxin to Shiga toxin
+Mapped giardiasis to Giardiasis
+Unable to map entity: cryptosporidiosis
+Mapped dyspepsia to Dyspepsia
+Mapped feeding to Feeding
+Unable to map entity: injection
+Mapped anaphylaxis to Anaphylaxis
+Mapped imipenem to Imipenem
+Mapped carbapenem to Carbapenem
+Mapped cilastatin to Cilastatin
+Unable to map entity: activity
+Unable to map entity: antibiotic therapy
+Mapped carbohydrate to Carbohydrate
+Unable to map entity: fatty acid
+Mapped feces to Feces
+Unable to map entity: dysentery
+Unable to map entity: inflammatory diarrhea
+Mapped chloride to Chloride
+Mapped opium to Opium
+Mapped glass to Glass
+Mapped juice to Juice
+Unable to map entity: promotion
+Mapped zinc to Zinc
+Unable to map entity: flutamide
+Mapped androgen to Androgen
+Mapped bicalutamide to Bicalutamide
+Mapped antiandrogen to Antiandrogen
+Mapped nilutamide to Nilutamide
+Unable to map entity: nausea and vomiting
+Mapped expression to Expression
+Unable to map entity: enterotoxin
+Unable to map entity: medullary thyroid carcinoma
+Mapped calcitonin to Calcitonin
+Unable to map entity: peptide
+Unable to map entity: serotonin
+Num mapped entities: 88
+Filtering: 
+ 
+Removed entity: Acute diarrhea
+Removed entity: Antibiotic
+Removed entity: Intussusception
+Matched entity: Blood for category: Hematology
+Matched entity: Rotavirus vaccine for category: Gastroenterology
+Removed entity: Saccharomyces boulardii
+Removed entity: Lactobacillus
+Removed entity: Hypokalemia
+Removed entity: Rest
+Matched entity: Glucose for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Achlorhydria for category: Stomach%20disorders
+Removed entity: Flushing
+Matched entity: Loperamide for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Irritable bowel syndrome for category: Conditions%20diagnosed%20by%20stool%20test
+Removed entity: Chronic diarrhea
+Matched entity: Disease for category: Diseases%20and%20disorders
+Matched entity: Inflammatory bowel disease for category: Autoimmune%20diseases
+Matched entity: Irinotecan for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Bile for category: Digestive%20system
+Matched entity: Postcholecystectomy syndrome for category: Medical%20terminology
+Removed entity: Vagotomy
+Removed entity: Sugar
+Matched entity: Coeliac disease for category: Pediatrics
+Removed entity: Nutrients
+Matched entity: Magnesium for category: Chemical%20elements
+Matched entity: Vitamin for category: Nutrition
+Removed entity: Sorbitol
+Matched entity: Lead for category: Toxicology
+Matched entity: Pneumonia for category: RTT(full)
+Removed entity: Yeast
+Matched entity: Eating for category: Physiology
+Removed entity: Microscopic colitis
+Matched entity: Colonoscopy for category: Endoscopy
+Matched entity: Helminthiasis for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: Entacapone for category: Carboxamides
+Matched entity: Drug for category: Drugs
+Removed entity: Prescription
+Matched entity: Diphenoxylate for category: Piperidines
+Removed entity: Paregoric
+Matched entity: Diarrhea for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: Defecation for category: Digestive%20system
+Removed entity: Delayed gastric emptying
+Matched entity: Cholera for category: Gastrointestinal%20tract%20disorders
+Removed entity: Start
+Matched entity: Ingestion for category: Digestive%20system
+Matched entity: Electrolyte for category: Blood%20tests
+Removed entity: Eosinophilia
+Matched entity: Neutropenia for category: Autoimmune%20diseases
+Removed entity: Administration
+Removed entity: Drug administration
+Matched entity: Toxin for category: Toxicology
+Removed entity: Cholera toxin
+Removed entity: Skin turgor
+Matched entity: Hypotension for category: Vascular%20diseases
+Matched entity: Kidney failure for category: Organ%20failure
+Matched entity: Coma for category: Intensive%20care%20medicine
+Removed entity: Rehydration therapy
+Matched entity: Cause of death for category: Medical%20terminology
+Matched entity: Colesevelam for category: Hepatology
+Removed entity: Bile salt
+Matched entity: Candidiasis for category: Mycosis-related%20cutaneous%20conditions
+Removed entity: Pseudomembranous Colitis
+Removed entity: Function
+Matched entity: Toxic megacolon for category: Diseases%20of%20intestines
+Removed entity: Allergic Reaction
+Removed entity: Clostridium difficile diarrhea
+Removed entity: Third generation cephalosporin
+Removed entity: Shiga toxin
+Matched entity: Giardiasis for category: Zoonoses
+Removed entity: Dyspepsia
+Matched entity: Eating for category: Physiology
+Matched entity: Anaphylaxis for category: Allergology
+Removed entity: Imipenem
+Removed entity: Carbapenem
+Removed entity: Cilastatin
+Matched entity: Carbohydrate for category: Nutrition
+Matched entity: Feces for category: Animal%20physiology
+Removed entity: Chloride
+Removed entity: Opium
+Removed entity: Glass
+Removed entity: Juice
+Matched entity: Zinc for category: Chemical%20elements
+Removed entity: Androgen
+Matched entity: Bicalutamide for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Antiandrogen
+Matched entity: Nilutamide for category: Organofluorides
+Removed entity: Expression
+Removed entity: Calcitonin
+Allergy
+Num unmapped entities: 139
+Mapping: 
+ 
+Mapped asthma to Asthma
+Mapped immunology to Immunology
+Unable to map entity: diagnosis
+Mapped serum to Serum
+Unable to map entity: immunoglobulin
+Unable to map entity: allergy to soy
+Unable to map entity: foods
+Unable to map entity: milk
+Mapped blood to Blood
+Mapped urticaria to Urticaria
+Mapped angioedema to Angioedema
+Mapped ingestion to Ingestion
+Mapped anaphylaxis to Anaphylaxis
+Unable to map entity: allergens
+Mapped pollen to Pollen
+Unable to map entity: grass pollen
+Mapped food allergy to Food Allergy
+Mapped celery to Celery
+Mapped corn to Corn
+Mapped grapes to Grapes
+Unable to map entity: cypress pollen
+Unable to map entity: protease
+Unable to map entity: smoke
+Unable to map entity: cigarette smoke
+Mapped exercise to Exercise
+Unable to map entity: wheat
+Unable to map entity: storage
+Mapped serine to Serine
+Unable to map entity: serine protease
+Mapped allergen to Allergen
+Mapped aspirin to Aspirin
+Mapped gliadin to Gliadin
+Unable to map entity: protein
+Mapped disease to Disease
+Unable to map entity: celiac disease
+Unable to map entity: nausea
+Unable to map entity: atopy
+Unable to map entity: gluten
+Mapped gluten sensitivity to Gluten sensitivity
+Unable to map entity: egg allergy
+Unable to map entity: nut
+Unable to map entity: tree nut
+Unable to map entity: nut allergy
+Unable to map entity: seafood
+Unable to map entity: rice
+Mapped inhaling to Inhaling
+Unable to map entity: various
+Mapped plague to Plague
+Mapped rhinitis to Rhinitis
+Unable to map entity: allergic rhinitis
+Unable to map entity: activity
+Unable to map entity: sacroiliitis
+Unable to map entity: eczema
+Unable to map entity: immunosuppressant
+Unable to map entity: prednisone
+Mapped povidone to Povidone
+Mapped chemical to Chemical
+Mapped substance to Substance
+Mapped iodine to Iodine
+Mapped drug to Drug
+Mapped drug allergy to Drug Allergy
+Unable to map entity: name
+Mapped attitude to Attitude
+Mapped allergy testing to Allergy testing
+Unable to map entity: counseling
+Mapped advice to Advice
+Unable to map entity: examination
+Mapped administration to Administration
+Mapped drug administration to Drug administration
+Mapped application to Application
+Mapped povidone iodine to Povidone Iodine
+Mapped impetigo to Impetigo
+Unable to map entity: solution
+Unable to map entity: iodine solution
+Unable to map entity: paracetamol
+Unable to map entity: allergen extract
+Unable to map entity: process
+Mapped immunotherapy to Immunotherapy
+Mapped oxygen to Oxygen
+Mapped dust to Dust
+Mapped house dust to House dust
+Unable to map entity: cedar pollen
+Mapped history and physical examination to History and physical
+Mapped food intolerance to Food Intolerance
+Unable to map entity: allergic asthma
+Mapped latex to Latex
+Mapped latex allergy to Latex Allergy
+Mapped shock to Shock
+Unable to map entity: acid
+Mapped anesthetic to Anesthetic
+Unable to map entity: local anesthetic
+Mapped education to Education
+Unable to map entity: management
+Mapped oil to Oil
+Mapped sesame oil to Sesame oil
+Unable to map entity: sesame seed
+Mapped allergic reaction to Allergic Reaction
+Mapped lead to Lead
+Unable to map entity: epinephrine
+Unable to map entity: wound
+Unable to map entity: infection
+Mapped cellulitis to Cellulitis
+Mapped septicemia to Septicemia
+Mapped rabies to Rabies
+Mapped saliva to Saliva
+Unable to map entity: ulcer
+Unable to map entity: childhood asthma
+Mapped conjunctivitis to Conjunctivitis
+Mapped dermatitis to Dermatitis
+Mapped atopic dermatitis to Atopic Dermatitis
+Mapped contact dermatitis to Contact dermatitis
+Mapped immunodeficiency to Immunodeficiency
+Mapped air to Air
+Unable to map entity: washing
+Unable to map entity: glycoprotein
+Mapped histamine to Histamine
+Mapped coughing to Coughing
+Unable to map entity: seasonal asthma
+Unable to map entity: allergic disorder
+Unable to map entity: release
+Unable to map entity: pollen allergen
+Unable to map entity: fusion protein
+Mapped lactobacillus to Lactobacillus
+Mapped sensitization to Sensitization
+Mapped flavoring to Flavoring
+Unable to map entity: chlorphenamine
+Unable to map entity: phenylpropanolamine
+Mapped antihistamine to Antihistamine
+Unable to map entity: decongestant
+Unable to map entity: investigations
+Unable to map entity: meat
+Mapped beef to Beef
+Unable to map entity: grain
+Mapped mulberries to Mulberries
+Mapped flowers to Flowers
+Mapped butter to Butter
+Unable to map entity: peanut butter
+Mapped sunflower seed to Sunflower seed
+Num mapped entities: 73
+Filtering: 
+ 
+Matched entity: Asthma for category: RTT(full)
+Matched entity: Immunology for category: Immunology
+Removed entity: Serum
+Matched entity: Blood for category: Hematology
+Removed entity: Urticaria
+Matched entity: Angioedema for category: Effects%20of%20external%20causes
+Matched entity: Ingestion for category: Digestive%20system
+Matched entity: Anaphylaxis for category: Allergology
+Matched entity: Pollen for category: Allergology
+Removed entity: Food Allergy
+Removed entity: Celery
+Matched entity: Maize for category: Plants%20described%20in%201753
+Removed entity: Grapes
+Removed entity: Exercise
+Removed entity: Serine
+Matched entity: Allergen for category: Immune%20system
+Matched entity: Aspirin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Gliadin for category: Glycoproteins
+Matched entity: Disease for category: Diseases%20and%20disorders
+Removed entity: Gluten sensitivity
+Matched entity: Breathing for category: Human%20body
+Removed entity: Plague
+Matched entity: Rhinitis for category: Allergology
+Removed entity: Povidone
+Matched entity: Chemical substance for category: Chemical%20substances
+Removed entity: Substance
+Matched entity: Iodine for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Drug for category: Drugs
+Matched entity: Drug allergy for category: Allergology
+Removed entity: Attitude
+Matched entity: Allergy test for category: Allergology
+Removed entity: Advice
+Removed entity: Administration
+Removed entity: Drug administration
+Removed entity: Application
+Removed entity: Povidone Iodine
+Matched entity: Impetigo for category: Pediatrics
+Matched entity: Immunotherapy for category: Immunology
+Matched entity: Oxygen for category: Chemical%20elements
+Removed entity: Dust
+Removed entity: Dust
+Removed entity: History and physical
+Removed entity: Food Intolerance
+Removed entity: Latex
+Matched entity: Latex allergy for category: Allergology
+Removed entity: Shock
+Matched entity: Anesthetic for category: Anesthetics
+Matched entity: Education for category: Knowledge%20sharing
+Matched entity: Oil for category: Foods
+Removed entity: Sesame oil
+Removed entity: Allergic Reaction
+Matched entity: Lead for category: Toxicology
+Matched entity: Cellulitis for category: Inflammations
+Removed entity: Septicemia
+Matched entity: Rabies for category: Neurological%20disorders
+Matched entity: Saliva for category: Body%20fluids
+Matched entity: Conjunctivitis for category: Inflammations
+Matched entity: Dermatitis for category: Autoimmune%20diseases
+Removed entity: Atopic dermatitis
+Matched entity: Contact dermatitis for category: Allergology
+Removed entity: Immunodeficiency
+Removed entity: Air
+Matched entity: Histamine for category: Immune%20system
+Removed entity: Cough
+Removed entity: Lactobacillus
+Removed entity: Sensitization
+Removed entity: Flavor
+Removed entity: Antihistamine
+Removed entity: Beef
+Removed entity: Morus (plant)
+Removed entity: Flowers
+Removed entity: Butter
+Removed entity: Sunflower seed
+Large intestine
+Num unmapped entities: 133
+Mapping: 
+ 
+Unable to map entity: division
+Mapped bile to Bile
+Mapped cholecystokinin to Cholecystokinin
+Unable to map entity: per
+Unable to map entity: water
+Unable to map entity: motility
+Mapped chronic diarrhea to Chronic diarrhea
+Mapped disease to Disease
+Mapped inflammatory bowel disease to Inflammatory Bowel Disease
+Unable to map entity: ileitis
+Unable to map entity: colitis
+Unable to map entity: ulcerative colitis
+Unable to map entity: metal
+Unable to map entity: metal element
+Unable to map entity: emotion
+Mapped function to Function
+Unable to map entity: material
+Unable to map entity: waste material
+Unable to map entity: faeces
+Mapped lead to Lead
+Unable to map entity: constipation
+Mapped epithelium to Epithelium
+Mapped gastrointestinal perforation to Gastrointestinal perforation
+Unable to map entity: sepsis
+Mapped heart rate to Heart Rate
+Unable to map entity: storage
+Unable to map entity: digested food
+Unable to map entity: process
+Unable to map entity: diagnosis
+Mapped colonoscopy to Colonoscopy
+Unable to map entity: entire large intestine
+Mapped bleeding to Bleeding
+Mapped blood to Blood
+Mapped nutrients to Nutrients
+Unable to map entity: anemia
+Mapped iron to Iron
+Unable to map entity: fructose
+Mapped hydrogen to Hydrogen
+Mapped breath to Breath
+Mapped breath test to Breath test
+Unable to map entity: carbon
+Unable to map entity: carbon dioxide
+Unable to map entity: acid
+Unable to map entity: fatty acid
+Mapped exercise to Exercise
+Mapped chemical to Chemical
+Unable to map entity: procedure
+Unable to map entity: surgical procedure
+Unable to map entity: colectomy
+Mapped diverticular disease to Diverticular disease
+Unable to map entity: endometriosis
+Unable to map entity: scar
+Mapped polyp to Polyp
+Unable to map entity: ileostomy
+Unable to map entity: colostomy
+Mapped short bowel syndrome to Short bowel syndrome
+Unable to map entity: starch
+Mapped fiber to Fiber
+Mapped amylase to Amylase
+Mapped food intake to Food intake
+Mapped expression to Expression
+Mapped balance to Balance
+Unable to map entity: management
+Unable to map entity: activity
+Mapped foreign body to Foreign Body
+Unable to map entity: fat
+Unable to map entity: powder
+Mapped substance to Substance
+Mapped noodles to Noodles
+Unable to map entity: ganglion
+Mapped neural crest to Neural Crest
+Mapped feces to Feces
+Unable to map entity: entire colon
+Unable to map entity: longevity
+Unable to map entity: age
+Mapped vinegar to Vinegar
+Unable to map entity: milk
+Unable to map entity: infection
+Mapped litter to Litter
+Mapped ingestion to Ingestion
+Mapped passed out to Passed out
+Unable to map entity: ascending colon
+Unable to map entity: colonic contents
+Unable to map entity: urine
+Mapped laxative to Laxative
+Mapped sugar to Sugar
+Unable to map entity: xylitol
+Mapped maltitol to Maltitol
+Unable to map entity: nausea
+Unable to map entity: name
+Mapped mucin to Mucin
+Unable to map entity: tears
+Mapped gland to Gland
+Unable to map entity: mucus
+Unable to map entity: acetate
+Unable to map entity: propionate
+Unable to map entity: protein
+Mapped carbohydrate to Carbohydrate
+Mapped plant material to Plant material
+Mapped enzyme to Enzyme
+Mapped digestive enzyme to Digestive enzyme
+Mapped cellulose to Cellulose
+Mapped laparotomy to Laparotomy
+Unable to map entity: wound
+Unable to map entity: bullet wound
+Mapped lymph to Lymph
+Unable to map entity: injury
+Unable to map entity: enterostomy
+Unable to map entity: various
+Mapped mineral to Mineral
+Mapped vitamin to Vitamin
+Unable to map entity: base
+Unable to map entity: muscularis mucosae
+Mapped feeding to Feeding
+Mapped defecation to Defecation
+Mapped hormone to Hormone
+Unable to map entity: release
+Mapped rest to Rest
+Unable to map entity: secretin
+Unable to map entity: sodium
+Mapped bicarbonate to Bicarbonate
+Unable to map entity: sodium bicarbonate
+Unable to map entity: chyle
+Mapped juice to Juice
+Mapped oxygen to Oxygen
+Mapped lipase to Lipase
+Mapped pancreatic lipase to Pancreatic lipase
+Mapped chylomicrons to Chylomicrons
+Mapped intestinal villus to Intestinal villus
+Mapped removal to Removal
+Unable to map entity: surgical removal
+Num mapped entities: 63
+Filtering: 
+ 
+Matched entity: Bile for category: Digestive%20system
+Matched entity: Cholecystokinin for category: Hepatology
+Removed entity: Chronic diarrhea
+Matched entity: Disease for category: Diseases%20and%20disorders
+Matched entity: Inflammatory bowel disease for category: Autoimmune%20diseases
+Removed entity: Function
+Matched entity: Lead for category: Toxicology
+Removed entity: Epithelium
+Matched entity: Gastrointestinal perforation for category: Medical%20emergencies
+Matched entity: Heart rate for category: Medical%20signs
+Matched entity: Colonoscopy for category: Endoscopy
+Removed entity: Bleeding
+Matched entity: Blood for category: Hematology
+Removed entity: Nutrients
+Matched entity: Iron for category: Chemical%20elements
+Matched entity: Hydrogen for category: Chemical%20elements
+Matched entity: Breathing for category: Human%20body
+Removed entity: Breath test
+Removed entity: Exercise
+Matched entity: Chemical substance for category: Chemical%20substances
+Matched entity: Diverticular disease for category: Diseases%20and%20disorders
+Removed entity: Polyp
+Matched entity: Short bowel syndrome for category: Diseases%20of%20intestines
+Removed entity: Fiber
+Matched entity: Amylase for category: Chemical%20pathology
+Matched entity: Eating for category: Physiology
+Removed entity: Expression
+Removed entity: Balance
+Matched entity: Foreign body for category: Pediatrics
+Removed entity: Substance
+Removed entity: Noodles
+Removed entity: Neural crest
+Matched entity: Feces for category: Animal%20physiology
+Removed entity: Vinegar
+Removed entity: Litter
+Matched entity: Ingestion for category: Digestive%20system
+Removed entity: Passed out
+Matched entity: Laxative for category: Gastroenterology
+Removed entity: Sugar
+Removed entity: Maltitol
+Matched entity: Mucin for category: Proteins
+Matched entity: Gland for category: Glands
+Matched entity: Carbohydrate for category: Nutrition
+Removed entity: Plant material
+Matched entity: Enzyme for category: Biomolecules
+Matched entity: Digestive enzyme for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Cellulose
+Matched entity: Laparotomy for category: Digestive%20system%20surgery
+Matched entity: Lymph for category: Lymphatic%20system
+Removed entity: Mineral
+Matched entity: Vitamin for category: Nutrition
+Matched entity: Eating for category: Physiology
+Matched entity: Defecation for category: Digestive%20system
+Matched entity: Hormone for category: Physiology
+Removed entity: Rest
+Removed entity: Bicarbonate
+Removed entity: Juice
+Matched entity: Oxygen for category: Chemical%20elements
+Removed entity: Lipase
+Removed entity: Pancreatic lipase
+Removed entity: Chylomicrons
+Matched entity: Intestinal villus for category: Digestive%20system
+Removed entity: Removal
+Crohn's disease
+Num unmapped entities: 261
+Mapping: 
+ 
+Unable to map entity: diagnosis
+Mapped hypothyroidism to Hypothyroidism
+Unable to map entity: anemia
+Mapped disease to Disease
+Mapped coeliac disease to Coeliac Disease
+Unable to map entity: mental disorder
+Unable to map entity: infection
+Mapped influenza to Influenza
+Mapped tuberculosis to Tuberculosis
+Unable to map entity: lyme disease
+Mapped thyroiditis to Thyroiditis
+Mapped fibromyalgia to Fibromyalgia
+Mapped polymyalgia to Polymyalgia
+Unable to map entity: polymyalgia rheumatica
+Unable to map entity: giant
+Unable to map entity: arteritis
+Mapped giant cell arteritis to Giant cell arteritis
+Unable to map entity: polymyositis
+Unable to map entity: dermatomyositis
+Unable to map entity: bipolar disorder
+Unable to map entity: schizophrenia
+Mapped delusional disorder to Delusional Disorder
+Unable to map entity: dementia
+Unable to map entity: anorexia nervosa
+Unable to map entity: bulimia nervosa
+Mapped sleep apnea to Sleep Apnea
+Mapped parkinsonism to Parkinsonism
+Unable to map entity: multiple sclerosis
+Unable to map entity: nasal obstruction
+Unable to map entity: sinusitis
+Mapped autoimmune disease to Autoimmune Disease
+Mapped alcohol to Alcohol
+Mapped substance to Substance
+Mapped substance abuse to Substance Abuse
+Unable to map entity: metal
+Mapped heavy metal to Heavy Metal
+Mapped body weight to Body Weight
+Mapped lipid to Lipid
+Unable to map entity: storage
+Mapped sphingolipid to Sphingolipid
+Mapped leukodystrophy to Leukodystrophy
+Unable to map entity: metachromatic leukodystrophy
+Mapped sulfatase to Sulfatase
+Unable to map entity: multiple sulfatase deficiency
+Mapped enzyme to Enzyme
+Unable to map entity: replacement therapy
+Unable to map entity: age
+Unable to map entity: longevity
+Mapped drug to Drug
+Unable to map entity: activity
+Mapped physical activity to Physical Activity
+Mapped eating to Eating
+Mapped heart disease to Heart Disease
+Unable to map entity: obesity
+Mapped arthritis to Arthritis
+Mapped atherosclerosis to Atherosclerosis
+Mapped asthma to Asthma
+Mapped chronic liver disease to Chronic liver disease
+Unable to map entity: diabetes type
+Mapped renal failure to Renal Failure
+Unable to map entity: osteoporosis
+Unable to map entity: communicable disease
+Mapped diabetes mellitus to Diabetes Mellitus
+Mapped kidney disease to Kidney disease
+Unable to map entity: cataract
+Unable to map entity: management
+Mapped complication to Complication
+Unable to map entity: process
+Mapped measles to Measles
+Mapped blood to Blood
+Mapped coronary artery disease to Coronary Artery Disease
+Mapped angina to Angina
+Unable to map entity: angina pectoris
+Mapped myocardial infarction to Myocardial Infarction
+Mapped heart failure to Heart Failure
+Unable to map entity: cardiomyopathy
+Unable to map entity: carditis
+Mapped aneurysm to Aneurysm
+Mapped aortic aneurysm to Aortic Aneurysm
+Mapped thrombosis to Thrombosis
+Mapped venous thrombosis to Venous thrombosis
+Mapped granulomatosis to Granulomatosis
+Mapped granulomatosis with polyangiitis to Granulomatosis with polyangiitis
+Unable to map entity: collagen
+Unable to map entity: collagen disease
+Mapped langerhans cell histiocytosis to Histiocytosis
+Mapped eosinophilic granuloma of bone to Eosinophilic granuloma
+Unable to map entity: glomus
+Mapped glomus tumor to Glomus tumor
+Mapped glomus jugulare to Glomus jugulare
+Unable to map entity: endocarditis
+Unable to map entity: infectious disease
+Unable to map entity: cerebrovascular disease
+Mapped motor neuron disease to Motor Neuron Disease
+Mapped oxygen to Oxygen
+Mapped nitrogen to Nitrogen
+Mapped dengue to Dengue
+Unable to map entity: malaria
+Mapped smallpox to Smallpox
+Unable to map entity: coccidioidal granuloma
+Mapped diphtheria to Diphtheria
+Unable to map entity: meningitis
+Unable to map entity: meningococcal meningitis
+Mapped scarlet fever to Scarlet Fever
+Unable to map entity: typhoid fever
+Mapped pemphigus to Pemphigus
+Mapped leprosy to Leprosy
+Mapped cat scratch to Cat scratch
+Mapped cat scratch disease to Cat Scratch Disease
+Mapped viral disease to Viral disease
+Unable to map entity: actinomycosis
+Mapped rickettsialpox to Rickettsialpox
+Unable to map entity: perception
+Unable to map entity: gender
+Mapped anxiety disorder to Anxiety Disorder
+Mapped hyperthyroidism to Hyperthyroidism
+Mapped hyperprolactinemia to Hyperprolactinemia
+Unable to map entity: metabolic disorders
+Mapped vitamin to Vitamin
+Mapped riboflavin to Riboflavin
+Unable to map entity: vitamin b12
+Unable to map entity: acid
+Mapped folic acid to Folic Acid
+Unable to map entity: celiac disease
+Unable to map entity: gluten
+Mapped gluten sensitivity to Gluten sensitivity
+Mapped inflammatory bowel disease to Inflammatory Bowel Disease
+Unable to map entity: blood diseases
+Mapped transient to Transient
+Mapped transient ischemic attack to Attack
+Unable to map entity: gene
+Mapped human gene to Human gene
+Unable to map entity: protein
+Mapped function to Function
+Mapped prion disease to Prion disease
+Unable to map entity: amyloidosis
+Mapped nephritis to Nephritis
+Mapped renal function to Renal function
+Unable to map entity: injury
+Mapped screening to Screening
+Mapped bile to Bile
+Mapped diverticulitis to Diverticulitis
+Mapped irritable bowel syndrome to Irritable Bowel Syndrome
+Unable to map entity: various
+Unable to map entity: acidosis
+Unable to map entity: lactic acidosis
+Unable to map entity: myopathy
+Mapped male infertility to Male Infertility
+Unable to map entity: per
+Unable to map entity: whooping cough
+Mapped mumps to Mumps
+Unable to map entity: types of diseases
+Mapped pneumonia to Pneumonia
+Unable to map entity: foods
+Unable to map entity: water
+Unable to map entity: urine
+Mapped lead to Lead
+Unable to map entity: hematology
+Mapped meetings to Meetings
+Mapped muscular dystrophy to Muscular Dystrophy
+Mapped chylomicronemia syndrome to Chylomicronemia syndrome
+Unable to map entity: neuropathy
+Unable to map entity: spongiform encephalopathy
+Mapped spinocerebellar ataxia to Spinocerebellar Ataxia
+Unable to map entity: adrenoleukodystrophy
+Unable to map entity: kinase
+Mapped pantothenate kinase to Pantothenate kinase
+Unable to map entity: blood pressure
+Mapped risk factor to Risk factor
+Mapped sphingolipidosis to Sphingolipidosis
+Mapped paraplegia to Paraplegia
+Unable to map entity: spastic paraplegia
+Mapped coenzyme to Coenzyme
+Mapped coenzyme q10 to Coenzyme Q10
+Unable to map entity: coenzyme q10 deficiency
+Mapped pesticide to Pesticide
+Unable to map entity: epilepsy
+Mapped chronic fatigue syndrome to Chronic Fatigue Syndrome
+Unable to map entity: retinitis
+Mapped retinitis pigmentosa to Retinitis Pigmentosa
+Unable to map entity: movement
+Mapped imaging to Imaging
+Unable to map entity: scanning
+Unable to map entity: amyotrophic lateral sclerosis
+Unable to map entity: mood disorder
+Mapped electrolyte to Electrolyte
+Mapped rheumatoid arthritis to Rheumatoid Arthritis
+Mapped cystitis to Cystitis
+Unable to map entity: pyelonephritis
+Unable to map entity: urosepsis
+Unable to map entity: nephritic syndrome
+Unable to map entity: base
+Unable to map entity: rickets
+Mapped osteomalacia to Osteomalacia
+Mapped osteogenesis imperfecta to Osteogenesis Imperfecta
+Unable to map entity: osteopetrosis
+Unable to map entity: hypophosphatasia
+Unable to map entity: phosphorus
+Mapped calcium to Calcium
+Unable to map entity: malabsorption
+Mapped malabsorption syndrome to Malabsorption syndrome
+Unable to map entity: constipation
+Unable to map entity: chronic constipation
+Mapped rheumatic fever to Rheumatic Fever
+Mapped infective endocarditis to Infective endocarditis
+Mapped lupus erythematosus to Lupus Erythematosus
+Mapped rhinitis to Rhinitis
+Unable to map entity: allergic rhinitis
+Mapped conjunctivitis to Conjunctivitis
+Mapped dermatitis to Dermatitis
+Mapped atopic dermatitis to Atopic Dermatitis
+Mapped urticaria to Urticaria
+Mapped chronic urticaria to Chronic urticaria
+Mapped drug allergy to Drug Allergy
+Mapped mineral to Mineral
+Mapped immunology to Immunology
+Mapped metabolic disease to Metabolic disease
+Unable to map entity: fat
+Mapped attitude to Attitude
+Unable to map entity: eye
+Unable to map entity: retinopathy
+Mapped occupational asthma to Occupational Asthma
+Unable to map entity: pneumoconiosis
+Unable to map entity: mesothelioma
+Mapped silicosis to Silicosis
+Mapped asbestos to Asbestos
+Unable to map entity: beryllium
+Mapped interstitial lung disease to Interstitial lung disease
+Mapped pulmonary fibrosis to Pulmonary Fibrosis
+Unable to map entity: lipoprotein
+Unable to map entity: low density lipoprotein
+Mapped food intake to Food intake
+Unable to map entity: vasculitis
+Unable to map entity: sarcoidosis
+Mapped chronic disease to Chronic disease
+Unable to map entity: respiratory insufficiency
+Mapped poisoning to Poisoning
+Unable to map entity: alcoholism
+Unable to map entity: chronic alcoholism
+Mapped temperature to Temperature
+Mapped cystic fibrosis to Cystic Fibrosis
+Mapped familial dysautonomia to Familial Dysautonomia
+Mapped glycogen to Glycogen
+Unable to map entity: storage disease
+Mapped mucolipidosis to Mucolipidosis
+Unable to map entity: encephalitis
+Unable to map entity: poliomyelitis
+Unable to map entity: essential tremor
+Unable to map entity: encephalomyelitis
+Unable to map entity: acute disseminated encephalomyelitis
+Unable to map entity: genome
+Mapped human genome to Human Genome
+Unable to map entity: apolipoprotein
+Mapped fuel to Fuel
+Mapped chestnut to Chestnut
+Unable to map entity: rice
+Unable to map entity: cyst
+Mapped crop to Crop
+Mapped motor neurone disease to Disease
+Num mapped entities: 139
+Filtering: 
+ 
+Matched entity: Hypothyroidism for category: RTT(full)
+Matched entity: Disease for category: Diseases%20and%20disorders
+Matched entity: Coeliac disease for category: Pediatrics
+Matched entity: Influenza for category: Healthcare-associated%20infections
+Matched entity: Tuberculosis for category: RTT(full)
+Matched entity: Thyroiditis for category: Inflammations
+Matched entity: Fibromyalgia for category: Disorders%20of%20fascia
+Removed entity: Polymyalgia
+Removed entity: Giant cell arteritis
+Matched entity: Delusional disorder for category: Psychiatric%20diagnosis
+Matched entity: Sleep apnea for category: Medical%20conditions%20related%20to%20obesity
+Removed entity: Parkinsonism
+Matched entity: Autoimmune disease for category: Autoimmune%20diseases
+Matched entity: Alcohol for category: Alcohols
+Removed entity: Substance
+Removed entity: Substance Abuse
+Removed entity: Heavy metal
+Removed entity: Body Weight
+Removed entity: Lipid
+Removed entity: Sphingolipid
+Matched entity: Leukodystrophy for category: Rare%20diseases
+Removed entity: Sulfatase
+Matched entity: Enzyme for category: Biomolecules
+Matched entity: Drug for category: Drugs
+Removed entity: Physical Activity
+Matched entity: Eating for category: Physiology
+Removed entity: Heart Disease
+Matched entity: Arthritis for category: Inflammations
+Matched entity: Atherosclerosis for category: Inflammations
+Matched entity: Asthma for category: RTT(full)
+Matched entity: Chronic liver disease for category: Diseases%20of%20liver
+Matched entity: Kidney failure for category: Organ%20failure
+Matched entity: Diabetes mellitus for category: Diabetes
+Matched entity: Kidney disease for category: Kidney%20diseases
+Removed entity: Complication
+Matched entity: Measles for category: Pediatrics
+Matched entity: Blood for category: Hematology
+Matched entity: Coronary artery disease for category: Aging-associated%20diseases
+Removed entity: Angina
+Matched entity: Myocardial infarction for category: Medical%20emergencies
+Matched entity: Heart failure for category: Aging-associated%20diseases
+Matched entity: Aneurysm for category: Gross%20pathology
+Matched entity: Aortic aneurysm for category: Diseases%20of%20arteries,%20arterioles%20and%20capillaries
+Matched entity: Thrombosis for category: Hematology
+Matched entity: Venous thrombosis for category: Hematology
+Matched entity: Granuloma for category: Anatomical%20pathology
+Matched entity: Granulomatosis with polyangiitis for category: Autoimmune%20diseases
+Removed entity: Histiocytosis
+Removed entity: Eosinophilic granuloma
+Matched entity: Glomus tumor for category: Dermal%20and%20subcutaneous%20growths
+Removed entity: Glomus jugulare
+Removed entity: Motor Neuron Disease
+Matched entity: Oxygen for category: Chemical%20elements
+Matched entity: Nitrogen for category: Chemical%20elements
+Matched entity: Dengue fever for category: RTT(full)
+Removed entity: Smallpox
+Matched entity: Diphtheria for category: Bacterial%20diseases
+Matched entity: Scarlet fever for category: Pediatrics
+Matched entity: Pemphigus for category: Autoimmune%20diseases
+Matched entity: Leprosy for category: Bacterial%20diseases
+Removed entity: Cat scratch
+Removed entity: Cat Scratch Disease
+Removed entity: Viral disease
+Matched entity: Rickettsialpox for category: Bacterium-related%20cutaneous%20conditions
+Matched entity: Anxiety disorder for category: Psychiatric%20diagnosis
+Matched entity: Hyperthyroidism for category: Thyroid%20disease
+Removed entity: Hyperprolactinemia
+Matched entity: Vitamin for category: Nutrition
+Matched entity: Riboflavin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Folic acid for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Gluten sensitivity
+Matched entity: Inflammatory bowel disease for category: Autoimmune%20diseases
+Removed entity: Transience
+Removed entity: Attack
+Removed entity: List of human genes
+Removed entity: Function
+Removed entity: Prion disease
+Matched entity: Nephritis for category: Inflammations
+Matched entity: Renal function for category: Blood%20tests
+Removed entity: Screening
+Matched entity: Bile for category: Digestive%20system
+Matched entity: Diverticulitis for category: Diseases%20of%20intestines
+Matched entity: Irritable bowel syndrome for category: Conditions%20diagnosed%20by%20stool%20test
+Removed entity: Male Infertility
+Matched entity: Mumps for category: Pediatrics
+Matched entity: Pneumonia for category: RTT(full)
+Matched entity: Lead for category: Toxicology
+Removed entity: Meetings
+Removed entity: Muscular dystrophy
+Removed entity: Chylomicronemia syndrome
+Removed entity: Spinocerebellar Ataxia
+Removed entity: Pantothenate kinase
+Matched entity: Risk factor for category: Epidemiology
+Removed entity: Sphingolipidoses
+Matched entity: Paraplegia for category: Disability
+Matched entity: Cofactor (biochemistry) for category: Enzymes
+Matched entity: Coenzyme Q10 for category: Phenol%20ethers
+Matched entity: Pesticide for category: Chemical%20substances
+Matched entity: Chronic fatigue syndrome for category: Neurological%20disorders
+Matched entity: Retinitis pigmentosa for category: Disorders%20of%20choroid%20and%20retina
+Removed entity: Imaging
+Matched entity: Electrolyte for category: Blood%20tests
+Matched entity: Rheumatoid arthritis for category: Autoimmune%20diseases
+Removed entity: Cystitis
+Matched entity: Osteomalacia for category: Pediatrics
+Matched entity: Osteogenesis imperfecta for category: Rare%20diseases
+Matched entity: Calcium for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Malabsorption syndrome
+Matched entity: Rheumatic fever for category: Inflammations
+Removed entity: Infective endocarditis
+Matched entity: Lupus erythematosus for category: Autoimmune%20diseases
+Matched entity: Rhinitis for category: Allergology
+Matched entity: Conjunctivitis for category: Inflammations
+Matched entity: Dermatitis for category: Autoimmune%20diseases
+Removed entity: Atopic dermatitis
+Removed entity: Urticaria
+Removed entity: Chronic urticaria
+Matched entity: Drug allergy for category: Allergology
+Removed entity: Mineral
+Matched entity: Immunology for category: Immunology
+Removed entity: Metabolic disease
+Removed entity: Attitude
+Removed entity: Occupational asthma
+Matched entity: Silicosis for category: Connective%20tissue%20diseases
+Matched entity: Asbestos for category: Occupational%20safety%20and%20health
+Matched entity: Interstitial lung disease for category: Lung%20disorders
+Matched entity: Pulmonary fibrosis for category: Lung%20disorders
+Matched entity: Eating for category: Physiology
+Removed entity: Chronic disease
+Matched entity: Poisoning for category: Diseases%20and%20disorders
+Matched entity: Temperature for category: Physical%20quantities
+Matched entity: Cystic fibrosis for category: Pediatrics
+Matched entity: Familial dysautonomia for category: Autosomal%20recessive%20disorders
+Matched entity: Glycogen for category: Hepatology
+Matched entity: Mucolipidosis for category: Autosomal%20recessive%20disorders
+Removed entity: Human genome
+Removed entity: Fuel
+Removed entity: Chestnut
+Removed entity: Crop
+Cholera
+Num unmapped entities: 96
+Mapping: 
+ 
+Mapped cholera to Cholera
+Unable to map entity: water
+Unable to map entity: mobility
+Mapped disease to Disease
+Mapped river to River
+Unable to map entity: material
+Mapped bile to Bile
+Unable to map entity: name
+Unable to map entity: faeces
+Unable to map entity: snow
+Mapped removal to Removal
+Mapped air to Air
+Mapped nitrogen to Nitrogen
+Unable to map entity: phosphorus
+Mapped drinking to Drinking
+Mapped sewage to Sewage
+Unable to map entity: fresh water
+Unable to map entity: vomiting
+Unable to map entity: various
+Unable to map entity: microbiology
+Mapped address to Address
+Mapped delegation to Delegation
+Mapped immunology to Immunology
+Mapped blood to Blood
+Mapped plasma to Plasma
+Unable to map entity: foods
+Mapped struck to Struck
+Mapped boiled water to Boiled Water
+Unable to map entity: typhoid fever
+Unable to map entity: dysentery
+Unable to map entity: hepatitis
+Unable to map entity: infection
+Unable to map entity: walking
+Mapped smallpox to Smallpox
+Unable to map entity: wool
+Unable to map entity: tobacco
+Mapped fruit to Fruit
+Unable to map entity: tinned fruit
+Unable to map entity: bactericide
+Unable to map entity: activity
+Mapped toxin to Toxin
+Mapped cholera toxin to Cholera toxin
+Unable to map entity: protein
+Unable to map entity: rice
+Unable to map entity: dehydration
+Mapped skin turgor to Skin turgor
+Mapped hypotension to Hypotension
+Mapped renal failure to Renal Failure
+Mapped coma to Coma
+Unable to map entity: severe dehydration
+Unable to map entity: management
+Unable to map entity: management of dehydration
+Mapped rehydration therapy to Rehydration therapy
+Mapped cause of death to Cause of death
+Unable to map entity: age
+Unable to map entity: construction
+Unable to map entity: color
+Unable to map entity: per
+Unable to map entity: wood
+Mapped measles to Measles
+Unable to map entity: malaria
+Mapped dengue to Dengue
+Mapped drug to Drug
+Mapped tuberculosis to Tuberculosis
+Mapped drug resistant tuberculosis to Tuberculosis
+Unable to map entity: gender
+Mapped lead to Lead
+Unable to map entity: mortality rate
+Unable to map entity: starvation
+Unable to map entity: port
+Mapped gold to Gold
+Unable to map entity: solution
+Unable to map entity: sodium
+Mapped chloride to Chloride
+Unable to map entity: sodium chloride
+Unable to map entity: potassium
+Unable to map entity: carbonate
+Mapped phosphate to Phosphate
+Mapped muscle tissue to Muscle tissue
+Mapped plague to Plague
+Mapped bubonic plague to Bubonic Plague
+Unable to map entity: bathing
+Unable to map entity: vaccine
+Unable to map entity: cholera vaccine
+Mapped beer to Beer
+Unable to map entity: base
+Mapped offal to Offal
+Unable to map entity: urine
+Mapped brackish water to Brackish Water
+Mapped ingestion to Ingestion
+Mapped quarantine to Quarantine
+Mapped body fluid to Body fluid
+Mapped secretory diarrhea to Secretory diarrhea
+Mapped chlorophyll to Chlorophyll
+Mapped temperature to Temperature
+Num mapped entities: 46
+Filtering: 
+ 
+Matched entity: Cholera for category: Gastrointestinal%20tract%20disorders
+Matched entity: Disease for category: Diseases%20and%20disorders
+Removed entity: River
+Matched entity: Bile for category: Digestive%20system
+Removed entity: Removal
+Removed entity: Air
+Matched entity: Nitrogen for category: Chemical%20elements
+Matched entity: Drinking for category: Physiology
+Removed entity: Sewage
+Removed entity: Address
+Removed entity: Delegation
+Matched entity: Immunology for category: Immunology
+Matched entity: Blood for category: Hematology
+Removed entity: Plasma
+Removed entity: Struck
+Removed entity: Boiling
+Removed entity: Smallpox
+Matched entity: Fruit for category: Pollination
+Matched entity: Toxin for category: Toxicology
+Removed entity: Cholera toxin
+Removed entity: Skin turgor
+Matched entity: Hypotension for category: Vascular%20diseases
+Matched entity: Kidney failure for category: Organ%20failure
+Matched entity: Coma for category: Intensive%20care%20medicine
+Removed entity: Rehydration therapy
+Matched entity: Cause of death for category: Medical%20terminology
+Matched entity: Measles for category: Pediatrics
+Matched entity: Dengue fever for category: RTT(full)
+Matched entity: Drug for category: Drugs
+Matched entity: Tuberculosis for category: RTT(full)
+Matched entity: Lead for category: Toxicology
+Matched entity: Gold for category: Chemical%20elements
+Removed entity: Chloride
+Matched entity: Phosphate for category: Functional%20groups
+Matched entity: Muscle tissue for category: Muscular%20system
+Removed entity: Plague
+Removed entity: Bubonic plague
+Removed entity: Beer
+Removed entity: Offal
+Removed entity: Brackish water
+Matched entity: Ingestion for category: Digestive%20system
+Matched entity: Quarantine for category: Infectious%20diseases
+Matched entity: Body fluid for category: Medical%20terminology
+Matched entity: Diarrhea for category: Conditions%20diagnosed%20by%20stool%20test
+Removed entity: Chlorophyll
+Matched entity: Temperature for category: Physical%20quantities
+Immunology
+Num unmapped entities: 47
+Mapping: 
+ 
+Mapped immunology to Immunology
+Unable to map entity: gene
+Unable to map entity: vaccine
+Unable to map entity: division
+Unable to map entity: name
+Mapped disease to Disease
+Mapped evaluation to Evaluation
+Mapped antigen to Antigen
+Mapped robin to Robin
+Mapped education to Education
+Unable to map entity: management
+Unable to map entity: per
+Unable to map entity: microbiology
+Unable to map entity: infectious disease
+Unable to map entity: mycosis
+Mapped antibody to Antibody
+Mapped function to Function
+Mapped asthma to Asthma
+Unable to map entity: diagnosis
+Mapped serum to Serum
+Unable to map entity: immunoglobulin
+Mapped peer review to Peer Review
+Mapped meetings to Meetings
+Mapped attitude to Attitude
+Mapped transplantation to Transplantation
+Unable to map entity: infection
+Mapped arthritis to Arthritis
+Mapped rheumatoid arthritis to Rheumatoid Arthritis
+Unable to map entity: multiple sclerosis
+Mapped insulin to Insulin
+Mapped diabetes mellitus to Diabetes Mellitus
+Unable to map entity: t cell subsets
+Mapped blood to Blood
+Unable to map entity: transplant
+Mapped leprosy to Leprosy
+Mapped immunotherapy to Immunotherapy
+Unable to map entity: clinical investigation
+Unable to map entity: various
+Mapped marrow to Marrow
+Mapped bone marrow to Bone Marrow
+Mapped obsessive compulsive disorder to Obsessive Compulsive Disorder
+Unable to map entity: protein
+Unable to map entity: hematology
+Unable to map entity: leukemia
+Mapped immunodeficiency to Immunodeficiency
+Unable to map entity: process
+Unable to map entity: examination
+Num mapped entities: 25
+Filtering: 
+ 
+Matched entity: Immunology for category: Immunology
+Matched entity: Disease for category: Diseases%20and%20disorders
+Matched entity: Evaluation for category: Evaluation
+Matched entity: Antigen for category: Immune%20system
+Removed entity: Robin
+Matched entity: Education for category: Knowledge%20sharing
+Matched entity: Antibody for category: Immune%20system
+Removed entity: Function
+Matched entity: Asthma for category: RTT(full)
+Removed entity: Serum
+Removed entity: Peer review
+Removed entity: Meetings
+Removed entity: Attitude
+Removed entity: Transplantation
+Matched entity: Arthritis for category: Inflammations
+Matched entity: Rheumatoid arthritis for category: Autoimmune%20diseases
+Matched entity: Insulin for category: World%20Anti-Doping%20Agency%20prohibited%20substances
+Matched entity: Diabetes mellitus for category: Diabetes
+Matched entity: Blood for category: Hematology
+Matched entity: Leprosy for category: Bacterial%20diseases
+Matched entity: Immunotherapy for category: Immunology
+Removed entity: Marrow
+Matched entity: Bone marrow for category: Skeletal%20system
+Removed entity: Obsessive Compulsive Disorder
+Removed entity: Immunodeficiency
+Riboflavin
+Num unmapped entities: 156
+Mapping: 
+ 
+Mapped enzyme to Enzyme
+Mapped molecule to Molecule
+Mapped riboflavin to Riboflavin
+Mapped vitamin to Vitamin
+Unable to map entity: kinase
+Unable to map entity: riboflavin kinase
+Mapped phosphate to Phosphate
+Mapped adenine to Adenine
+Mapped nucleotide to Nucleotide
+Mapped adenosine to Adenosine
+Unable to map entity: adenosine triphosphate
+Unable to map entity: protein
+Unable to map entity: various
+Mapped antibiotic to Antibiotic
+Mapped ampicillin to Ampicillin
+Mapped chemical to Chemical
+Unable to map entity: color
+Mapped pyridine to Pyridine
+Unable to map entity: acid
+Mapped succinic acid to Succinic Acid
+Mapped glutathione to Glutathione
+Unable to map entity: activity
+Mapped electron to Electron
+Mapped reductase to Reductase
+Mapped glutathione reductase to Glutathione reductase
+Unable to map entity: ribulose
+Unable to map entity: riboflavin synthase
+Mapped bifunctional enzyme to Bifunctional enzyme
+Mapped baby food to Baby food
+Unable to map entity: foods
+Mapped cereal to Cereal
+Unable to map entity: breakfast cereal
+Unable to map entity: pasta
+Unable to map entity: water
+Unable to map entity: food coloring
+Unable to map entity: name
+Mapped pteridine to Pteridine
+Unable to map entity: adenosine diphosphate
+Mapped failure to thrive to Thrive
+Mapped dermatitis to Dermatitis
+Unable to map entity: corneal opacity
+Unable to map entity: storage
+Unable to map entity: oxidoreductase
+Mapped dehydrogenase to Dehydrogenase
+Mapped nicotinamide to Nicotinamide
+Unable to map entity: nicotinamide adenine dinucleotide
+Mapped receptor to Receptor
+Mapped transferase to Transferase
+Unable to map entity: urine
+Unable to map entity: dietary intake
+Mapped eating to Eating
+Unable to map entity: alcoholism
+Unable to map entity: chronic alcoholism
+Mapped disease to Disease
+Mapped inflammatory bowel disease to Inflammatory Bowel Disease
+Mapped heart disease to Heart Disease
+Unable to map entity: celiac disease
+Unable to map entity: gluten
+Mapped nutrients to Nutrients
+Unable to map entity: wheat
+Mapped flour to Flour
+Unable to map entity: wheat flour
+Mapped bread to Bread
+Unable to map entity: jaundice
+Mapped cation to Cation
+Mapped application to Application
+Unable to map entity: solution
+Unable to map entity: eye
+Unable to map entity: collagen
+Unable to map entity: procedure
+Mapped blood to Blood
+Mapped transfusion to Transfusion
+Mapped blood transfusion to Blood Transfusion
+Unable to map entity: antibacterial drugs
+Mapped plasma to Plasma
+Unable to map entity: whole blood
+Mapped nucleic acid to Nucleic Acid
+Unable to map entity: carrier protein
+Mapped antibody to Antibody
+Mapped specific antibody to Specific antibody
+Mapped biopsy to Biopsy
+Unable to map entity: diagnosis
+Mapped termination of pregnancy to Termination of pregnancy
+Unable to map entity: nicotinamide adenine dinucleotide phosphate
+Mapped hydrogen to Hydrogen
+Mapped ion to Ion
+Unable to map entity: riboflavin mononucleotide
+Mapped folic acid to Folic Acid
+Unable to map entity: carbon
+Mapped binding protein to Binding Protein
+Unable to map entity: guanosine
+Mapped guanosine triphosphate to Guanosine Triphosphate
+Unable to map entity: guanine
+Unable to map entity: tapetum lucidum
+Unable to map entity: visual acuity
+Mapped yeast to Yeast
+Mapped pigment to Pigment
+Unable to map entity: acidemia
+Unable to map entity: acidosis
+Unable to map entity: hypoglycemia
+Mapped heart failure to Heart Failure
+Unable to map entity: carnitine
+Mapped carnitine deficiency to Carnitine deficiency
+Unable to map entity: infection
+Mapped gold to Gold
+Unable to map entity: white flour
+Unable to map entity: rice
+Unable to map entity: brown rice
+Unable to map entity: process
+Unable to map entity: milk
+Mapped whole milk to Whole Milk
+Mapped egg white to Egg white
+Mapped egg yolk to Egg yolk
+Unable to map entity: flavoprotein
+Unable to map entity: amyotrophic lateral sclerosis
+Unable to map entity: fatty acid
+Unable to map entity: fat
+Unable to map entity: anemia
+Mapped migraine to Migraine
+Unable to map entity: per
+Mapped barbituric acid to Barbituric Acid
+Mapped function to Function
+Unable to map entity: ascorbic acid
+Unable to map entity: nicotinic acid
+Unable to map entity: ribitol
+Mapped nitrotoluene to Nitrotoluene
+Mapped ammonia to Ammonia
+Mapped calcium to Calcium
+Mapped iron to Iron
+Mapped niacin to Niacin
+Unable to map entity: phosphorus
+Mapped magnesium to Magnesium
+Unable to map entity: polysaccharide
+Mapped noodles to Noodles
+Mapped rutin to Rutin
+Mapped quercetin to Quercetin
+Mapped choline to Choline
+Unable to map entity: thiamine
+Unable to map entity: vitamin b12
+Mapped thymine to Thymine
+Mapped uracil to Uracil
+Mapped corn to Corn
+Mapped corneal ectasia to Corneal Ectasia
+Mapped keratoconus to Keratoconus
+Mapped glucose to Glucose
+Unable to map entity: copper
+Mapped zinc to Zinc
+Unable to map entity: cinnamon
+Mapped iodine to Iodine
+Unable to map entity: tryptophan
+Unable to map entity: amino acid
+Unable to map entity: meat
+Mapped red meat to Red Meat
+Unable to map entity: creatine
+Mapped cobalamin to Cobalamin
+Unable to map entity: lipoic acid
+Num mapped entities: 81
+Filtering: 
+ 
+Matched entity: Enzyme for category: Biomolecules
+Removed entity: Molecule
+Matched entity: Riboflavin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Vitamin for category: Nutrition
+Matched entity: Phosphate for category: Functional%20groups
+Removed entity: Adenine
+Removed entity: Nucleotide
+Removed entity: Adenosine
+Removed entity: Antibiotic
+Matched entity: Ampicillin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Chemical substance for category: Chemical%20substances
+Matched entity: Pyridine for category: Functional%20groups
+Removed entity: Succinic acid
+Removed entity: Glutathione
+Removed entity: Electron
+Matched entity: Reductase for category: Enzymes
+Removed entity: Glutathione reductase
+Removed entity: Bifunctional enzyme
+Removed entity: Baby food
+Removed entity: Cereal
+Removed entity: Pteridine
+Removed entity: Thrive
+Matched entity: Dermatitis for category: Autoimmune%20diseases
+Matched entity: Dehydrogenase for category: Oxidoreductases
+Matched entity: Nicotinamide for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Receptor
+Removed entity: Transferase
+Matched entity: Eating for category: Physiology
+Matched entity: Disease for category: Diseases%20and%20disorders
+Matched entity: Inflammatory bowel disease for category: Autoimmune%20diseases
+Removed entity: Heart Disease
+Removed entity: Nutrients
+Removed entity: Flour
+Removed entity: Bread
+Removed entity: Ion
+Removed entity: Application
+Matched entity: Blood for category: Hematology
+Removed entity: Transfusion
+Matched entity: Blood transfusion for category: Hematology
+Removed entity: Plasma
+Matched entity: Nucleic acid for category: Biomolecules
+Matched entity: Antibody for category: Immune%20system
+Matched entity: Antibody for category: Immune%20system
+Matched entity: Biopsy for category: Biopsy
+Matched entity: Abortion for category: Abortion
+Matched entity: Hydrogen for category: Chemical%20elements
+Removed entity: Ion
+Matched entity: Folic acid for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Binding protein
+Removed entity: Guanosine triphosphate
+Removed entity: Yeast
+Removed entity: Pigment
+Matched entity: Heart failure for category: Aging-associated%20diseases
+Removed entity: Carnitine deficiency
+Matched entity: Gold for category: Chemical%20elements
+Removed entity: Whole Milk
+Removed entity: Egg white
+Removed entity: Egg yolk
+Matched entity: Migraine for category: RTT(full)
+Removed entity: Barbituric Acid
+Removed entity: Function
+Removed entity: Nitrotoluene
+Matched entity: Ammonia for category: Toxicology
+Matched entity: Calcium for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Iron for category: Chemical%20elements
+Matched entity: Niacin for category: GABAA%20receptor%20positive%20allosteric%20modulators
+Matched entity: Magnesium for category: Chemical%20elements
+Removed entity: Noodles
+Removed entity: Rutin
+Removed entity: Quercetin
+Matched entity: Choline for category: Alcohols
+Removed entity: Thymine
+Removed entity: Uracil
+Matched entity: Maize for category: Plants%20described%20in%201753
+Matched entity: Corneal ectatic disorders for category: Diseases%20of%20the%20eye%20and%20adnexa
+Matched entity: Keratoconus for category: Diseases%20of%20the%20eye%20and%20adnexa
+Matched entity: Glucose for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Zinc for category: Chemical%20elements
+Matched entity: Iodine for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Red Meat
+Removed entity: Cobalamin
+Sugar
+Num unmapped entities: 120
+Mapping: 
+ 
+Mapped sugar to Sugar
+Unable to map entity: drinks
+Mapped brown sugar to Brown Sugar
+Mapped corn to Corn
+Unable to map entity: syrup
+Unable to map entity: corn syrup
+Mapped dextrose to Dextrose
+Unable to map entity: fructose
+Mapped glucose to Glucose
+Unable to map entity: honey
+Unable to map entity: lactose
+Mapped malt to Malt
+Unable to map entity: maltose
+Unable to map entity: molasses
+Mapped sucrose to Sucrose
+Unable to map entity: obesity
+Mapped disease to Disease
+Mapped heart disease to Heart Disease
+Unable to map entity: gout
+Mapped fruit to Fruit
+Unable to map entity: milk
+Mapped juice to Juice
+Mapped fruit juice to Fruit juice
+Unable to map entity: foods
+Mapped eating to Eating
+Unable to map entity: habits
+Mapped application to Application
+Mapped icing to Icing
+Mapped icing sugar to Icing Sugar
+Mapped tea to Tea
+Mapped animal feed to Animal Feed
+Mapped glyphosate to Glyphosate
+Unable to map entity: process
+Unable to map entity: material
+Mapped genetic material to Genetic material
+Unable to map entity: protein
+Unable to map entity: port
+Unable to map entity: name
+Unable to map entity: per
+Unable to map entity: water
+Mapped radical to Radical
+Unable to map entity: various
+Mapped fuel to Fuel
+Unable to map entity: construction
+Mapped body weight to Body Weight
+Unable to map entity: fat
+Mapped diabetes mellitus to Diabetes Mellitus
+Mapped lead to Lead
+Mapped metabolic disease to Metabolic disease
+Mapped fiber to Fiber
+Mapped dietary fiber to Dietary Fiber
+Mapped insulin to Insulin
+Mapped chronic disease to Chronic disease
+Mapped carbohydrate to Carbohydrate
+Unable to map entity: consultation
+Unable to map entity: white sugar
+Mapped mineral to Mineral
+Mapped country of origin to Origin
+Mapped chemical to Chemical
+Mapped river to River
+Mapped crop to Crop
+Unable to map entity: wine
+Mapped grapes to Grapes
+Mapped yeast to Yeast
+Mapped alcohol to Alcohol
+Unable to map entity: carbon
+Unable to map entity: carbon dioxide
+Mapped leaves to Leaves
+Mapped enzyme to Enzyme
+Mapped arabinose to Arabinose
+Unable to map entity: rhamnose
+Mapped xylose to Xylose
+Unable to map entity: shouting
+Unable to map entity: walking
+Unable to map entity: identification number
+Mapped reading to Reading
+Unable to map entity: manipulation
+Unable to map entity: genome
+Unable to map entity: hyperglycemia
+Mapped blood to Blood
+Mapped hyperglycaemia to Hyperglycaemia
+Mapped plasma to Plasma
+Mapped start to Start
+Unable to map entity: extraction
+Mapped irrigation to Irrigation
+Unable to map entity: decision making
+Mapped sugar alcohol to Sugar Alcohol
+Unable to map entity: sucralose
+Unable to map entity: wheat
+Unable to map entity: liqueur
+Mapped noodles to Noodles
+Mapped fertilizer to Fertilizer
+Mapped hexose to Hexose
+Mapped berry to Berry
+Unable to map entity: dehydration
+Unable to map entity: convenience food
+Mapped rum to Rum
+Unable to map entity: grain
+Mapped rest to Rest
+Mapped root to Root
+Unable to map entity: bacon
+Unable to map entity: cone
+Unable to map entity: ice
+Unable to map entity: herbicide
+Mapped inspection to Inspection
+Mapped environmental assessment to Environmental Assessment
+Mapped maple syrup to Maple Syrup
+Unable to map entity: vanilla
+Mapped cream to Cream
+Unable to map entity: ice cream
+Mapped cake to Cake
+Mapped doughnut to Doughnut
+Mapped egg white to Egg white
+Mapped coagulation to Coagulation
+Mapped air to Air
+Mapped hydrogen to Hydrogen
+Mapped thinking to Thinking
+Num mapped entities: 68
+Filtering: 
+ 
+Removed entity: Sugar
+Removed entity: Brown sugar
+Matched entity: Maize for category: Plants%20described%20in%201753
+Matched entity: Glucose for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Glucose for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Malt
+Removed entity: Sucrose
+Matched entity: Disease for category: Diseases%20and%20disorders
+Removed entity: Heart Disease
+Matched entity: Fruit for category: Pollination
+Removed entity: Juice
+Removed entity: Fruit juice
+Matched entity: Eating for category: Physiology
+Removed entity: Application
+Removed entity: Icing
+Removed entity: Powdered sugar
+Removed entity: Tea
+Removed entity: Animal feed
+Matched entity: Glyphosate for category: Amines
+Removed entity: Genetic material
+Removed entity: Radical
+Removed entity: Fuel
+Removed entity: Body Weight
+Matched entity: Diabetes mellitus for category: Diabetes
+Matched entity: Lead for category: Toxicology
+Removed entity: Metabolic disease
+Removed entity: Fiber
+Matched entity: Dietary fiber for category: Nutrition
+Matched entity: Insulin for category: World%20Anti-Doping%20Agency%20prohibited%20substances
+Removed entity: Chronic disease
+Matched entity: Carbohydrate for category: Nutrition
+Removed entity: Mineral
+Removed entity: Origin
+Matched entity: Chemical substance for category: Chemical%20substances
+Removed entity: River
+Removed entity: Crop
+Removed entity: Grapes
+Removed entity: Yeast
+Matched entity: Alcohol for category: Alcohols
+Matched entity: Leaf for category: Plant%20morphology
+Matched entity: Enzyme for category: Biomolecules
+Removed entity: Arabinose
+Removed entity: Xylose
+Removed entity: Reading
+Matched entity: Blood for category: Hematology
+Removed entity: Hyperglycaemia
+Removed entity: Plasma
+Removed entity: Start
+Removed entity: Irrigation
+Removed entity: Sugar alcohol
+Removed entity: Noodles
+Removed entity: Fertilizer
+Removed entity: Hexose
+Removed entity: Berry
+Removed entity: Rum
+Removed entity: Rest
+Removed entity: Root
+Removed entity: Inspection
+Removed entity: Environmental impact assessment
+Removed entity: Maple syrup
+Removed entity: Cream
+Removed entity: Cake
+Removed entity: Doughnut
+Removed entity: Egg white
+Matched entity: Coagulation for category: Traumatology
+Removed entity: Air
+Matched entity: Hydrogen for category: Chemical%20elements
+Removed entity: Thinking

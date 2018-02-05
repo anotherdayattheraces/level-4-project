@@ -35,8 +35,8 @@ public class MedLink {
 	private String mappingPath;
 	private HashMap<String,HashMap<String,String>> snomedToWikiMappings;
 	private ArrayList<String> topics;
-	private HashMap<Long,Integer> entitiesPerDoc;
 	public int topicChoice;
+
 
 	
 	
@@ -176,11 +176,7 @@ public class MedLink {
 									}
 									else{
 										foundEntities.add(new Entity(term,term.replaceAll(" ", "%20")));
-										System.out.println("Adding new entity: "+term);
 										foundEntities.get(foundEntities.size()-1).addAppearance(sd);
-										System.out.println("Adding app for entity: "+foundEntities.get(foundEntities.size()-1).getName());
-
-										
 									}			
 								}
 							}
@@ -231,19 +227,24 @@ public class MedLink {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
 		outputStream.println(query);
 		System.out.println("Num unmapped entities: "+foundEntities.size());
 		outputStream.println("Num unmapped entities: "+foundEntities.size());
+		outputStream.println("Mapping: ");
+		outputStream.println(" ");
 		foundEntities = mapEntities(snomedToWikiMappings, foundEntities,outputStream); //map snomed Entities to wiki entities
+		
 		outputStream.println("Num mapped entities: "+foundEntities.size());
-		outputStream.println("Mappings: ");
+		outputStream.println("Filtering: ");
 		outputStream.println(" ");
 		System.out.println("Num mapped-unfiltered entities: "+foundEntities.size());
 		KBFilter kbfilter = new KBFilter(foundEntities);
 		foundEntities=kbfilter.filterEntities(outputStream);
 		System.out.println("Num filtered entities: "+foundEntities.size());
-		this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities); //calculate the number of found entities per document
-		MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
+		
+		//this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities); //calculate the number of found entities per document
+		
 		return foundEntities; 
 		
 	}
@@ -276,6 +277,18 @@ public class MedLink {
 			if(mappedName!=null){
 				outputStream.println("Mapped "+e.getName()+" to "+mappedName);
 				//System.out.println("Mapped "+e.getName()+" to "+mappedName);
+				Boolean merge=false;
+				for(Entity entity:mappedEntities){
+					if(entity.getName().equals(mappedName)){
+						entity.mergeEntityApps(e);
+						System.out.println("Merged apps for entities: "+entity.getName()+" and "+e.getName());
+						merge=true;
+						break;
+					}
+				}
+				if(merge){
+					continue;
+				}
 				e.setName(mappedName);
 				mappedEntities.add(e);
 				mapped=true;

@@ -28,6 +28,7 @@ public class KBFilter {
 		this.categories=readInCategories(path);
 		this.returnedEntities=returnedEntities;
 	}
+
 		
 	public static ArrayList<String> readInCategories(String path){ //read in saved file of top categories
 		FileReader file = null;
@@ -46,20 +47,24 @@ public class KBFilter {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		//System.out.println("Inital list size: "+categories.size());
 		Double catSize = (double) (categories.size()/100);
 		Double N = (double) 30; //the percent of the top categories to keep
 		catSize=catSize*N;
 		int topNPercent = Integer.valueOf(catSize.intValue());
-		//System.out.println("Final list size: "+topNPercent);
 		while(categories.size()!=topNPercent){
 			categories.remove(categories.size()-1); //keep removing final element until list is right size
 		}
 		return categories;
 	}
+	public ArrayList<String> getCategories(){
+		return categories;
+	}
+	public String getKBPath(){
+		return kbPath;
+	}
 	
 	public ArrayList<Entity> filterEntities(PrintStream outputStream){ //using the instance arraylist of entities return a list of entities that have at least 1 category in the top N categories 
-		HashMap<String,ArrayList<String>> entityToCategoriesMapping = getEntityCategories();
+		HashMap<String,ArrayList<String>> entityToCategoriesMapping = getEntityCategories(kbPath,returnedEntities);
 		ArrayList<Entity> filteredEntities = new ArrayList<Entity>();
 		for(Entity entity:returnedEntities){
 			if((entityToCategoriesMapping.get(entity.getName())!=null)){
@@ -68,18 +73,18 @@ public class KBFilter {
 					filteredEntities.add(entity);
 				}
 				else{
-					outputStream.println("Removed entity: "+entity.getName());
+					if(outputStream!=null) outputStream.println("Removed entity: "+entity.getName());
 					System.out.println("Removed entity: "+entity.getName());
 					}
 				}
 			else{
-				outputStream.println("Removed entity: "+entity.getName());
-			}
+				if(outputStream!=null) outputStream.println("Removed entity: "+entity.getName());
+				}
 			}
 		return filteredEntities;
 	}
 	
-	public HashMap<String,ArrayList<String>> getEntityCategories(){ //using the list of entities given on initilization, find the associated categories for each entity
+	public static HashMap<String,ArrayList<String>> getEntityCategories(String kbPath, ArrayList<Entity> returnedEntities){ //using the list of entities given on initilization, find the associated categories for each entity
 		DiskIndex index=null;
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, true, true );
 		String categoryIndicator = "<link tokenizeTagContent=\"false\">Category:";
@@ -128,11 +133,11 @@ public class KBFilter {
 				}
 		return entityToCategoriesMapping;
 	}
-	public Boolean findCategoryMatch(ArrayList<String> topCategories, ArrayList<String> entityCategories, Entity currentEntity, PrintStream outputStream){ //given list of top N categories and an entity's associated categories, see if you can match any
+	public static Boolean findCategoryMatch(ArrayList<String> topCategories, ArrayList<String> entityCategories, Entity currentEntity, PrintStream outputStream){ //given list of top N categories and an entity's associated categories, see if you can match any
 		for(String category:topCategories){
 			for(String entityCat:entityCategories){
 				if(category.equals(entityCat)){
-					outputStream.println("Matched entity: "+currentEntity.getName()+" for category: "+entityCat);
+					if(outputStream!=null) outputStream.println("Matched entity: "+currentEntity.getName()+" for category: "+entityCat);
 					System.out.println("Matched entity: "+currentEntity.getName()+" for category: "+entityCat);
 					return true;
 				}
@@ -140,7 +145,7 @@ public class KBFilter {
 		}
 		return false;
 	}
-	public Pair<String,ArrayList<String>> searchRedirect(DiskIndex index, DocumentComponents dc, String docText, String entity){  //given a known redirect - find the redirected entity's categories
+	public static Pair<String,ArrayList<String>> searchRedirect(DiskIndex index, DocumentComponents dc, String docText, String entity){  //given a known redirect - find the redirected entity's categories
 		int start = 0;
 		if(docText.contains("#REDIRECT <link tokenizeTagContent=\"false\">")){ //there is a subtle difference between the two strings, this i think is due to incorrect formatting but it was giving me the wrong entities so i need to address both cases
 			start = docText.indexOf("#REDIRECT <link tokenizeTagContent=\"false\">")+43; //plus 43 because its the length of "#REDIRECT <link tokenizeTagContent="false">" plus a space

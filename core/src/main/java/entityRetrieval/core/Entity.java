@@ -128,4 +128,17 @@ public class Entity {
 	public HashMap<ScoredDocument,Integer> getAppearances(){
 		return this.appearances;
 	}
+	public void setScore(double score){
+		this.score=score;
+	}
+	public void mergeEntityApps(Entity otherEntity){
+		for(ScoredDocument sd:otherEntity.getAppearances().keySet()){
+			if(!this.appearances.containsKey(sd)){
+				this.appearances.put(sd, otherEntity.getAppearances().get(sd));
+			}
+			else{
+				this.appearances.put(sd, this.appearances.get(sd)+otherEntity.getAppearances().get(sd));
+			}
+		}
+	}
 }

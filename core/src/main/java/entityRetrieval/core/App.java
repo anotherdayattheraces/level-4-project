@@ -1,12 +1,15 @@
 package entityRetrieval.core;
 
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 import dictionary.DbpediaDictionarySaver;
 import dictionary.DictionaryHashMap;
+import dictionary.SnomedDictionaryEnhancer;
+import dictionary.SnomedDictionaryInitializer;
 import dictionary.SnomedDictionarySaver;
 import evaluation.DocumentLinkReader;
 import evaluation.DocumentLinkReaderEvaluator;
@@ -24,6 +27,7 @@ import knowledgeBase.SnomedToWikiMapper;
 import metamap.MetaMapEntityLinker;
 import misc.CategoryGenerator;
 import misc.QrelFilter;
+import misc.ResultsAnalyzer;
 import pseudoRelavanceFeedback.QueryEnhancer;
 
 
@@ -71,10 +75,26 @@ public class App {
     		//TopicToEntityMapper ttem = new TopicToEntityMapper();
     		//ttem.saveFilteredQrels(ttem.filterQrels());
     		//QueryEnhancer.enhanceQuery();
-    		QrelFilter qf = new QrelFilter();
-    		qf.filterByMapping();
-
+    		//QrelFilter qf = new QrelFilter();
+    		//qf.filterByMapping();
+    		//ResultsAnalyzer ra = new ResultsAnalyzer("ML");
+    		//ra.findCommonEntities();
+    		SnomedDictionaryEnhancer sde = new SnomedDictionaryEnhancer();
+    		//sde.enhanceDictionary();
+    		//sde.mapSythesizedEntities();
+    		//sde.filterSythesizedEntitiesByCategory();
+    		SnomedDictionaryInitializer sdi = new SnomedDictionaryInitializer();
+    		DictionaryHashMap dhm = new DictionaryHashMap();
+    		try {
+    			dhm = sdi.initialize();
+    		} catch (IOException e) {
+    			e.printStackTrace();
+    		}
+    		
+    		SnomedDictionarySaver sds = new SnomedDictionarySaver(dhm,sde.readInCompleteEntities());
+    		sds.save();
     	}
+    	
     	else if(fn.equals("initialize")){
     		//DbpediaDictionaryGenerator ddg = new DbpediaDictionaryGenerator();
     		//DictionaryHashMap dbpediaDictionary = ddg.generateEntities();

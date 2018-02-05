@@ -1,11 +1,14 @@
 package evaluation;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
+import org.lemurproject.galago.core.retrieval.prf.WeightedTerm;
+
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.TopicRun;
 
@@ -34,10 +37,33 @@ public class DocumentLinkReaderEvaluator {
 		}
 	}
 	public void addQuery(DocumentLinkReader dlr){ //add a completed topic run to be used for evaluation
-		//ArrayList<Entity> relevantEntities = mapping.get(query);	
+		Boolean customScore=false;
 		ArrayList<Entity> returnedEntities = dlr.getEntitiesFromLinks();
 		List<ScoredDocument> scoredDocs = dlr.getScoredDocuments();
+		scoredDocs = MedLinkEvaluator.calculateEntitiesPerDoc(returnedEntities,scoredDocs);
 		Map<ScoredDocument, Double> finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
+		if(customScore){
+			MedLinkEvaluator.setMentionProbablities(returnedEntities, scoredDocs); //calculate the mention probabilities for each entity per doc
+			MedLinkEvaluator.setScores(returnedEntities, finalDocScores);//set scores for all entities, using entity metadata
+
+		}
+		else{
+			List<WeightedTerm> scoredTerms = null;
+			try {
+				scoredTerms = RelevanceModel1.scoreGrams(MedLinkEvaluator.formatDataForApi(returnedEntities, scoredDocs),finalDocScores);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			for(WeightedTerm wt:scoredTerms){
+				for(Entity entity:returnedEntities){
+					if(entity.getName()==wt.getTerm()){
+						entity.setScore(wt.score);
+					}
+				}
+			}
+			
+		}
+		
 		MedLinkEvaluator.setScores(returnedEntities, finalDocScores);//set scores for all entities, using entity metadata
 		Collections.sort(returnedEntities, MedLinkEvaluator.score);//sort by score
 		MedLinkEvaluator.setAllRanks(returnedEntities);

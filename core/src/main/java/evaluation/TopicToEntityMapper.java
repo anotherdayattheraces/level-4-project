@@ -61,7 +61,6 @@ public class TopicToEntityMapper {
 			e.printStackTrace();
 		}
 		Scanner sc = new Scanner(inputStream, "UTF-8");
-		Boolean seen = false;
 		while (sc.hasNextLine()) {
 	        String line = sc.nextLine();
 	        String[] elements = line.split(" ");

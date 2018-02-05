@@ -15,6 +15,7 @@ public class QrelFilter {
 	private String qrelPath;
 	private String mappingPath;
 	private HashMap<String,HashMap<String,ArrayList<String>>> mappings;
+	private String mappableQrels;
 
 	public QrelFilter(){
 		this.qrelPath="C:/Work/Project/samples/prototype4/level-4-project/core/filteredQrels.txt";
