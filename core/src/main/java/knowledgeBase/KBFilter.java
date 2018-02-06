@@ -93,6 +93,7 @@ public class KBFilter {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		ArrayList<Entity> redirectedEntities = new ArrayList<Entity>();
 		HashMap<String,ArrayList<String>> entityToCategoriesMapping = new HashMap<String,ArrayList<String>>();
 		for(Entity entity:returnedEntities){
 			Document document=null;
@@ -126,11 +127,24 @@ public class KBFilter {
 				if(redirectPair.getR()==null) continue; //the redirected entity was not contained within the kb
 				entityToCategoriesMapping.remove(entity.getName()); //remove the old entity -> categories mapping 
 				System.out.println("Removed entity: "+entity.getName()+" replaced with: "+redirectPair.getL());
+				Boolean alreadyExists=false;
+				for(Entity re:redirectedEntities){
+					if(re.getName().equals(redirectPair.getL())){ // if the redirected entity is already present - merge the two
+						re.mergeEntityApps(entity);
+						alreadyExists=true;
+					}
+				}
+				if(alreadyExists) continue;
 				entity.setName(redirectPair.getL()); //set new entity name
 				entityToCategoriesMapping.put(entity.getName(), new ArrayList<String>());
-				entityToCategoriesMapping.get(entity.getName()).addAll(redirectPair.getR()); 
+				entityToCategoriesMapping.get(entity.getName()).addAll(redirectPair.getR());
+				redirectedEntities.add(entity);
+			}
+			else{
+				redirectedEntities.add(entity);
 			}
 				}
+		returnedEntities = redirectedEntities;
 		return entityToCategoriesMapping;
 	}
 	public static Boolean findCategoryMatch(ArrayList<String> topCategories, ArrayList<String> entityCategories, Entity currentEntity, PrintStream outputStream){ //given list of top N categories and an entity's associated categories, see if you can match any

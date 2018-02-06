@@ -87,7 +87,7 @@ public class MedLinkEvaluator {
 		
 		MedLinkEvaluator.setAllRanks(returnedEntities);
 		for(Entity entity:returnedEntities){
-			System.out.println(entity.getName()+" "+entity.getScore());
+			//System.out.println(entity.getName()+" "+entity.getScore());
 		}
 		topicRuns.add(new TopicRun(medLinker.getQuery(),medLinker.topicChoice,returnedEntities));
 	}
@@ -117,7 +117,7 @@ public class MedLinkEvaluator {
 	public static void setMentionProbablities(ArrayList<Entity> listOfEntities, List<ScoredDocument> scoredDoc){ 
 		for(Entity re:listOfEntities){
 			for(ScoredDocument sd:re.getAppearances().keySet()){
-					re.addMentionProbability(sd.document, re.getAppearances().get(sd.document), Integer.parseInt(sd.annotation.extraInfo)); //calculate the total number of entity mentions in all docs
+					re.addMentionProbability(sd.document, re.getAppearances().get(sd), Integer.parseInt(sd.annotation.extraInfo)); //calculate the total number of entity mentions in all docs
 					}
 				}
 	}

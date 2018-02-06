@@ -97,7 +97,6 @@ Human%20voice///337
 Gastroenterology///335
 Autoimmune%20diseases///330
 Tendons///329
-Dog%20health///327
 Diabetes///325
 Prostate///315
 Sexual%20anatomy///311
@@ -117,11 +116,6 @@ Facial%20features///275
 Plant%20morphology///272
 Tongue///269
 Aorta///259
-American%20films///257
-1990s%20crime%20thriller%20films///254
-American%20comedy-drama%20films///254
-1999%20films///254
-1990s%20comedy-drama%20films///254
 Vagina///251
 Shoulder///249
 Biopsy///241
@@ -160,7 +154,6 @@ Mechanics///184
 Trilobite%20anatomy///184
 Alcohols///184
 Materials%20science///184
-Building%20defects///183
 Solid%20mechanics///183
 Plasticity%20(physics)///183
 Elasticity%20(physics)///183
@@ -169,7 +162,6 @@ Ulna///180
 Bones%20of%20the%20upper%20limb///180
 Fluid%20dynamics///179
 Dermal%20and%20subcutaneous%20growths///178
-Parts%20of%20a%20bird%20beak///175
 Occupational%20safety%20and%20health///174
 Scrotum///174
 Cranial%20nerves///172
@@ -183,12 +175,9 @@ Trachea///162
 Invertebrate%20respiratory%20system///162
 Phenol%20ethers///160
 Tissues%20(biology)///159
-Plant%20anatomy///159
 Physiology///159
-Hand%20gestures///153
 Stem%20cells///153
 Veins%20of%20the%20torso///152
-Engines///152
 Bones%20of%20the%20thorax///150
 Dental%20anatomy///149
 Arthritis///149
@@ -230,10 +219,7 @@ Flat%20bones///117
 Main%20topic%20classifications///117
 Medical%20conditions%20related%20to%20obesity///116
 Oncology///114
-Motor%20system///113
 Connective%20tissue%20diseases///112
-Astrological%20aspects///112
-Orbits///112
 Pathogenic%20bacteria///111
 Gram-positive%20bacteria///110
 Body%20fluids///110
@@ -241,8 +227,6 @@ Anthropology///110
 Functional%20groups///110
 Health%20issues%20in%20pregnancy///109
 Chemical%20elements///108
-Culture///107
-Architectural%20elements///107
 Obstetrics///107
 GABAA%20receptor%20positive%20allosteric%20modulators///106
 Medical%20treatments///106
@@ -291,7 +275,6 @@ Physical%20quantities///88
 Thyroid%20disease///88
 Polysaccharide%20encapsulated%20bacteria///87
 Food%20Watchlist%20Articles///87
-Cuisine///87
 Patterns///87
 Central%20nervous%20system///87
 Educational%20psychology///85

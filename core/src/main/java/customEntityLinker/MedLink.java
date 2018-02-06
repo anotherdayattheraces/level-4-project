@@ -54,7 +54,7 @@ public class MedLink {
 		}
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 25); //get top 50 documents from galago search of query
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
 		this.snomedToWikiMappings=readInMappings(mappingPath);
 	}
@@ -263,7 +263,7 @@ public class MedLink {
 		for(Entity e:unmappedEntities){
 			Boolean mapped=false;
 			String mappedName = null;
-			//System.out.println("Mapping entity: "+e.getName());
+			outputStream.println("Mapping entity: "+e.getName());
 			
 			if(!snomedToWikiMappings.containsKey(e.getName().substring(0, 3).toLowerCase())){
 				//System.out.println("Unable to map entity: "+e.getName());
@@ -272,7 +272,7 @@ public class MedLink {
 			mappedName=snomedToWikiMappings.get(e.getName().substring(0, 3).toLowerCase()).get(e.getName().toLowerCase());
 			if(mappedName==null&&e.getName().contains("(")){
 				mappedName=snomedToWikiMappings.get(e.getName().substring(0, 3).toLowerCase()).get(EntityMatcher.removeBracketDescription(e.getName().toLowerCase().trim()));
-				//System.out.println("Formatted: "+e.getName()+" without brackets");
+				outputStream.println("Formatted: "+e.getName()+" without brackets");
 			}
 			if(mappedName!=null){
 				outputStream.println("Mapped "+e.getName()+" to "+mappedName);
@@ -281,6 +281,7 @@ public class MedLink {
 				for(Entity entity:mappedEntities){
 					if(entity.getName().equals(mappedName)){
 						entity.mergeEntityApps(e);
+						outputStream.println("Merged apps for entities: "+entity.getName()+" and "+e.getName());
 						System.out.println("Merged apps for entities: "+entity.getName()+" and "+e.getName());
 						merge=true;
 						break;

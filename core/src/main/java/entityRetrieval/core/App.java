@@ -72,27 +72,27 @@ public class App {
     		//CategoryGenerator cg = new CategoryGenerator();
     		//HashMap<String,Integer> categories = cg.findCategories();
     		//cg.saveCategories(categories);
-    		//TopicToEntityMapper ttem = new TopicToEntityMapper();
-    		//ttem.saveFilteredQrels(ttem.filterQrels());
+    		TopicToEntityMapper ttem = new TopicToEntityMapper();
+    		ttem.saveFilteredQrels(ttem.filterQrels());
     		//QueryEnhancer.enhanceQuery();
     		//QrelFilter qf = new QrelFilter();
     		//qf.filterByMapping();
     		//ResultsAnalyzer ra = new ResultsAnalyzer("ML");
     		//ra.findCommonEntities();
-    		SnomedDictionaryEnhancer sde = new SnomedDictionaryEnhancer();
+    		//SnomedDictionaryEnhancer sde = new SnomedDictionaryEnhancer();
     		//sde.enhanceDictionary();
     		//sde.mapSythesizedEntities();
     		//sde.filterSythesizedEntitiesByCategory();
-    		SnomedDictionaryInitializer sdi = new SnomedDictionaryInitializer();
-    		DictionaryHashMap dhm = new DictionaryHashMap();
-    		try {
-    			dhm = sdi.initialize();
-    		} catch (IOException e) {
-    			e.printStackTrace();
-    		}
+    		//SnomedDictionaryInitializer sdi = new SnomedDictionaryInitializer();
+    		//DictionaryHashMap dhm = new DictionaryHashMap();
+    		//try {
+    		//	dhm = sdi.initialize();
+    		//} catch (IOException e) {
+    		//	e.printStackTrace();
+    		//}
     		
-    		SnomedDictionarySaver sds = new SnomedDictionarySaver(dhm,sde.readInCompleteEntities());
-    		sds.save();
+    		//SnomedDictionarySaver sds = new SnomedDictionarySaver(dhm,sde.readInCompleteEntities());
+    		//sds.save();
     	}
     	
     	else if(fn.equals("initialize")){

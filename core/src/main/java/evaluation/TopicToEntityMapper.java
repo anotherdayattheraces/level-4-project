@@ -54,52 +54,64 @@ public class TopicToEntityMapper {
 		for(String topic:topics){
 			mappings.put(topic, new ArrayList<Entity>());
 		}
+		int i=0;
 		FileInputStream inputStream=null;
-		try {
-			inputStream = new FileInputStream(qrelPath);
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+		while(i++<3){
+			if(i==2){
+				qrelPath="C:/Work/Project/samples/prototype4/level-4-project/core/qrels/automatic.benchmarkY1test.cbor.hierarchical.entity.qrels";
+			}
+			if(i==3){
+				qrelPath="C:/Work/Project/samples/prototype4/level-4-project/core/qrels/train.test200.cbor.hierarchical.entity.qrels";
+			}
+			try {
+				inputStream = new FileInputStream(qrelPath);
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			}
+			Scanner sc = new Scanner(inputStream, "UTF-8");
+			while (sc.hasNextLine()) {
+		        String line = sc.nextLine();
+		        String[] elements = line.split(" ");
+		        ArrayList<String> newElements= new ArrayList<String>();
+		        for(String element:elements){
+		        	element = element.replaceAll("%E2%80%93", "-"); //- encoded as %E2%80%93 - you wont believe how much frustration/time - vs – caused me
+		        	newElements.add(element.replaceAll("%20", " ")); // spaces are encoded as %20 in the qrels file
+		        }
+	        	String entity = newElements.get(2);
+	        	//if(entity.contains("(")){
+	        	//	int pos = entity.lastIndexOf("(");
+	        	//	entity = entity.substring(0, pos-1);
+	        	//}
+		        String articlePath = newElements.get(0);
+		        String[] subjects = articlePath.split("/");
+		        String primaryTopic = subjects[0];
+		        if(topics.contains(primaryTopic)){
+		        	//System.out.println(line);
+		        	if(filterConceptByCategory(entity)){
+		        		Boolean exists = false;
+		        		for(Entity e:mappings.get(primaryTopic)){
+		        			if(e.getName().equals(entity)){
+		        				exists = true;
+		        			}
+		        		}
+		        		if(!exists){
+		        			//System.out.println("Adding entity: "+entity+" to topic: "+primaryTopic);
+				        	mappings.get(primaryTopic).add(new Entity(entity));
+		        		}
+		        		
+		        	}
+		        	
+		        	
+			}
+		        else{
+		        	continue;
+		        }
+			
+		
+		
+			}
+			sc.close();
 		}
-		Scanner sc = new Scanner(inputStream, "UTF-8");
-		while (sc.hasNextLine()) {
-	        String line = sc.nextLine();
-	        String[] elements = line.split(" ");
-	        ArrayList<String> newElements= new ArrayList<String>();
-	        for(String element:elements){
-	        	element = element.replaceAll("%E2%80%93", "-"); //- encoded as %E2%80%93 - you wont believe how much frustration/time - vs – caused me
-	        	newElements.add(element.replaceAll("%20", " ")); // spaces are encoded as %20 in the qrels file
-	        }
-        	String entity = newElements.get(2);
-        	//if(entity.contains("(")){
-        	//	int pos = entity.lastIndexOf("(");
-        	//	entity = entity.substring(0, pos-1);
-        	//}
-	        String articlePath = newElements.get(0);
-	        String[] subjects = articlePath.split("/");
-	        String primaryTopic = subjects[0];
-	        if(topics.contains(primaryTopic)){
-	        	//System.out.println(line);
-	        	if(filterConceptByCategory(entity)){
-	        		Boolean exists = false;
-	        		for(Entity e:mappings.get(primaryTopic)){
-	        			if(e.getName().equals(entity)){
-	        				exists = true;
-	        			}
-	        		}
-	        		if(!exists){
-	        			//System.out.println("Adding entity: "+entity+" to topic: "+primaryTopic);
-			        	mappings.get(primaryTopic).add(new Entity(entity));
-	        		}
-	        		
-	        	}
-	        	
-	        	
-		}
-	        else{
-	        	continue;
-	        }
-		}
-		sc.close();
 		return mappings;
 
 }
@@ -109,57 +121,59 @@ public class TopicToEntityMapper {
 			mappings.put(topic, new ArrayList<Entity>());
 		}
 		FileInputStream inputStream=null;
-		try {
-			inputStream = new FileInputStream(filteredQrelPath);
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-		Scanner sc = new Scanner(inputStream, "UTF-8");
-		Boolean seen = false;
-		while (sc.hasNextLine()) {
-	        String line = sc.nextLine();
-	        String[] elements = line.split(" ");
-	        ArrayList<String> newElements= new ArrayList<String>();
-	        for(String element:elements){
-	        	element = element.replaceAll("%E2%80%93", "-"); //- encoded as %E2%80%93 - you wont believe how much frustration/time - vs – caused me
-	        	newElements.add(element.replaceAll("%20", " ")); // spaces are encoded as %20 in the qrels file
-	        }
-        	String entity = newElements.get(2);
-        	//if(entity.contains("(")){
-        	//	int pos = entity.lastIndexOf("(");
-        	//	entity = entity.substring(0, pos-1);
-        	//}
-	        String articlePath = newElements.get(0);
-	        String[] subjects = articlePath.split("/");
-	        String primaryTopic = subjects[0];
-	        if(primaryTopic.equals(entityToMap)){
-	        	seen = true;
-	        }
-	        if(!primaryTopic.equals(entityToMap)&&seen){
-	        	break;
-	        }
-	        if(!primaryTopic.equals(entityToMap)){
-	        	continue;
-	        }
-	        if(topics.contains(primaryTopic)){
-	        	//System.out.println(line);
-	        	if(filterConceptByCategory(entity)){
-	        		Boolean exists = false;
-	        		for(Entity e:mappings.get(primaryTopic)){
-	        			if(e.getName().equals(entity)){
-	        				exists = true;
-	        			}
-	        		}
-	        		if(!exists){
-	        			//System.out.println("Adding entity: "+entity+" to topic: "+primaryTopic);
-			        	mappings.get(primaryTopic).add(new Entity(entity));
-	        		}
-	        		
-	        	}
+			
+			try {
+				inputStream = new FileInputStream(filteredQrelPath);
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			}
+			Scanner sc = new Scanner(inputStream, "UTF-8");
+			Boolean seen = false;
+			while (sc.hasNextLine()) {
+		        String line = sc.nextLine();
+		        String[] elements = line.split(" ");
+		        ArrayList<String> newElements= new ArrayList<String>();
+		        for(String element:elements){
+		        	element = element.replaceAll("%E2%80%93", "-"); //- encoded as %E2%80%93 - you wont believe how much frustration/time - vs – caused me
+		        	newElements.add(element.replaceAll("%20", " ")); // spaces are encoded as %20 in the qrels file
+		        }
+	        	String entity = newElements.get(2);
+	        	//if(entity.contains("(")){
+	        	//	int pos = entity.lastIndexOf("(");
+	        	//	entity = entity.substring(0, pos-1);
+	        	//}
+		        String articlePath = newElements.get(0);
+		        String[] subjects = articlePath.split("/");
+		        String primaryTopic = subjects[0];
+		        if(primaryTopic.equals(entityToMap)){
+		        	seen = true;
+		        }
+		        if(!primaryTopic.equals(entityToMap)&&seen){
+		        	break;
+		        }
+		        if(!primaryTopic.equals(entityToMap)){
+		        	continue;
+		        }
+		        if(topics.contains(primaryTopic)){
+		        	//System.out.println(line);
+		        	if(filterConceptByCategory(entity)){
+		        		Boolean exists = false;
+		        		for(Entity e:mappings.get(primaryTopic)){
+		        			if(e.getName().equals(entity)){
+		        				exists = true;
+		        			}
+		        		}
+		        		if(!exists){
+		        			//System.out.println("Adding entity: "+entity+" to topic: "+primaryTopic);
+				        	mappings.get(primaryTopic).add(new Entity(entity));
+		        		}
+		        		
+		        	
 		}
 	        else{
 	        	continue;
 	        }
+		        }
 		}
 		sc.close();
 		return mappings;
