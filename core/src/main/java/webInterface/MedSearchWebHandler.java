@@ -130,7 +130,7 @@ public class MedSearchWebHandler implements WebHandler{
 	        PrintWriter writer = response.getWriter();
 	        writer.append("<html>\n");
 	        writer.append("<head>\n");
-	        writer.append(String.format("<title>%s - Galago Search</title>\n", displayQuery));
+	        writer.append(String.format("<title>%s - MedSearch 3000</title>\n", displayQuery));
 	        writeStyle(writer);
 	        writer.append("<script type=\"text/javascript\">\n");
 	        writer.append("function toggleDebug() {\n");
@@ -147,7 +147,7 @@ public class MedSearchWebHandler implements WebHandler{
 	        writer.append("<div id=\"header\">\n");
 	        writer.append("<table><tr>");
 	        writer.append("<td><a href=\"http://lemurproject.org\">"
-	                + "<img src=\"/images/galago.png\"></a></td>");
+	                + "<img src=\"/images/medsearch.png\"></a></td>");
 	        writer.append("<td><br/><form action=\"search\">")
 	                .append("<input name=\"q\" size=\"40\" value=\"")
 	                .append(displayQuery).append("\" />")
@@ -219,7 +219,7 @@ public class MedSearchWebHandler implements WebHandler{
 	        writer.close();
 	    }
 	 public void retrieveImage(OutputStream output) throws IOException {
-	        InputStream image = getClass().getResourceAsStream("/images/galago.png");
+	        InputStream image = getClass().getResourceAsStream("/images/medsearch.png");
 	        StreamUtil.copyStream(image, output);
 	        output.close();
 	    }
@@ -361,7 +361,7 @@ public class MedSearchWebHandler implements WebHandler{
 	        writer.write("body { font-family: Helvetica, sans-serif; }\n");
 	        writer.write("img { border-style: none; }\n");
 	        writer.write("#box { border: 1px solid #ccc; margin: 100px auto; width: 500px;"
-	                + "background: rgb(210, 233, 217); }\n");
+	                + "background: rgb(110, 133, 217); }\n");
 	        writer.write("#box a { font-size: small; text-decoration: none; }\n");
 	        writer.write("#box a:link { color: rgb(0, 93, 40); }\n");
 	        writer.write("#box a:visited { color: rgb(90, 93, 90); }\n");
@@ -380,11 +380,11 @@ public class MedSearchWebHandler implements WebHandler{
 	        writer.append("<html>\n");
 	        writer.append("<head>\n");
 	        writeStyle(writer);
-	        writer.append("<title>Gareth Keenan Investigates</title></head>");
+	        writer.append("<title>MedSearch 3000</title></head>");
 	        writer.append("<body>");
 	        writer.append("<center><br/><br/><div id=\"box\">"
-	                + "<a href=\"http://lemurproject.org\">"
-	                + "<img src=\"/images/galago.png\"/></a><br/>\n");
+	                //+ "<a href=\"http://lemurproject.org\">"
+	                + "<img src=\"C:/Work/Project/samples/prototype4/level-4-project/core/images\"/><br/>\n");
 	        writer.append("<form action=\"search\"><input name=\"q\" size=\"40\">"
 	                + "<input value=\"Search\" type=\"submit\" /></form><br/><br/>");
 	        writer.append("</div></center></body></html>\n");
