@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import org.lemurproject.galago.core.tools.Search;
+import org.lemurproject.galago.core.tools.SearchWebHandler;
+
 import dictionary.DbpediaDictionarySaver;
 import dictionary.DictionaryHashMap;
 import dictionary.SnomedDictionaryEnhancer;
@@ -29,6 +32,8 @@ import misc.CategoryGenerator;
 import misc.QrelFilter;
 import misc.ResultsAnalyzer;
 import pseudoRelavanceFeedback.QueryEnhancer;
+import webInterface.MedStreamContextHandler;
+import webInterface.MedWebServer;
 
 
 
@@ -49,12 +54,9 @@ public class App {
     		fn = args[0];
     	}
     	if(fn.equals("search")){
-    		//DocumentIdentifier di = new DocumentIdentifier();
-    		//ArrayList<Long> documents = di.getRelevantDocuments("Autism");
-    		//QueryEnhancer enhancer = new QueryEnhancer(documents);
-    		//enhancer.enhanceQuery();
-    		//SingleQuerySearch sqs = new SingleQuerySearch(args[1]);
-    		//sqs.search();
+    		SearchFn searchfn = new SearchFn();
+    		searchfn.run(System.out);
+    		
     	}
     	else if(fn.equals("evaluate")){
     		//DocumentLinkReaderEvaluator documentLinkReaderEvaluator = new DocumentLinkReaderEvaluator(true);

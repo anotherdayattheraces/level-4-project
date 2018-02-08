@@ -7,13 +7,17 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+import org.lemurproject.galago.core.index.disk.DiskIndex;
 import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
+import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
 
 import dictionary.DictionaryHashMap;
 import dictionary.SnomedDictionaryInitializer;
@@ -36,6 +40,7 @@ public class MedLink {
 	private HashMap<String,HashMap<String,String>> snomedToWikiMappings;
 	private ArrayList<String> topics;
 	public int topicChoice;
+	private static String kbPath ="C:/Work/Project/samples/Unprocessed_Index";
 
 
 	
@@ -244,7 +249,7 @@ public class MedLink {
 		System.out.println("Num filtered entities: "+foundEntities.size());
 		
 		//this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities); //calculate the number of found entities per document
-		
+		getEntityDocuments(foundEntities,kbPath); //set internal identifiers for each doc
 		return foundEntities; 
 		
 	}
@@ -352,6 +357,33 @@ public class MedLink {
 			}
 		}
 		return false;
+	}
+	public static void getEntityDocuments(ArrayList<Entity> entities, String kbPath){
+		DiskIndex index=null;
+		try {
+			index = new DiskIndex(kbPath);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		for(Entity entity:entities){
+			long document = 0;
+			try {
+				document = index.getIdentifier(entity.getName());
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			entity.setDocument(document);
+		}
+	}
+	
+	public static ArrayList<Entity> scoreAndRankEntities(ArrayList<Entity> entities, List<ScoredDocument> scoredDocs){
+		MedLinkEvaluator.calculateEntitiesPerDoc(entities, scoredDocs);
+		Map<ScoredDocument, Double> finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
+		MedLinkEvaluator.setMentionProbablities(entities, scoredDocs); //calculate the mention probabilities for each entity per doc
+		MedLinkEvaluator.setScores(entities, finalDocScores);//set scores for all entities, using entity metadata
+		Collections.sort(entities, MedLinkEvaluator.score);//sort by score
+		MedLinkEvaluator.setAllRanks(entities);
+		return entities;
 	}
 	
 

@@ -13,6 +13,7 @@ import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.parse.Tag;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 
+import customEntityLinker.MedLink;
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.GalagoOrchestrator;
 import entityRetrieval.core.Pair;
@@ -33,6 +34,13 @@ public class DocumentLinkReader {
 		Pair<Integer, String> topicChoicePair=MedLinkEvaluator.generateRandomTopic(topics);
 		this.query=topicChoicePair.getR();
 		this.topicChoice=topicChoicePair.getL();
+		System.out.println("Chosen query: "+query);
+		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
+		this.documents=orchestrator.getDocuments(query, 50);
+		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
+	}
+	public DocumentLinkReader(String query){
+		this.query=query;
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
 		this.documents=orchestrator.getDocuments(query, 50);
@@ -101,6 +109,7 @@ public class DocumentLinkReader {
 		KBFilter kbfilter = new KBFilter(foundEntities);
 		foundEntities=kbfilter.filterEntities(null);
 		System.out.println("Num filtered entities: "+foundEntities.size());
+		foundEntities=MedLink.scoreAndRankEntities(foundEntities, getScoredDocuments());
 		//this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
 		//MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
 		return foundEntities;

@@ -78,10 +78,7 @@ public class TopicToEntityMapper {
 		        	newElements.add(element.replaceAll("%20", " ")); // spaces are encoded as %20 in the qrels file
 		        }
 	        	String entity = newElements.get(2);
-	        	//if(entity.contains("(")){
-	        	//	int pos = entity.lastIndexOf("(");
-	        	//	entity = entity.substring(0, pos-1);
-	        	//}
+
 		        String articlePath = newElements.get(0);
 		        String[] subjects = articlePath.split("/");
 		        String primaryTopic = subjects[0];

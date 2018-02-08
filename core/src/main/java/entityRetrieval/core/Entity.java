@@ -17,6 +17,7 @@ public class Entity {
 	private int rank;
 	private double precision;
 	private Boolean relevant;
+	private long document;
 	
 	public Entity(String name, String id, double score, ScoredDocument scoredDoc){
 		this.name = name;
@@ -31,6 +32,13 @@ public class Entity {
 		this.id=id;
 		this.appearances =  new HashMap<ScoredDocument,Integer>();
 		this.mentionProbability = new HashMap<Long,Double>();
+	}
+	public Entity(String name, String id, long document){
+		this.name = name;
+		this.id=id;
+		this.appearances =  new HashMap<ScoredDocument,Integer>();
+		this.mentionProbability = new HashMap<Long,Double>();
+		this.document=document;
 	}
 	public Entity(String name){
 		this.name = name;
@@ -141,4 +149,11 @@ public class Entity {
 			}
 		}
 	}
+	public void setDocument(long document){
+		this.document=document;
+	}
+	public long getDocument(){
+		return this.document;
+	}
+				
 }
