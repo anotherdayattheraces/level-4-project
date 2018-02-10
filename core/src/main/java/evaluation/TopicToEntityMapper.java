@@ -36,7 +36,7 @@ public class TopicToEntityMapper {
 		this.kbPath="C:/Work/Project/samples/Unprocessed_Index";
 		this.categoryPath="C:/Work/Project/samples/prototype4/level-4-project/core/categories.txt";
 		this.qrelPath="C:/Work/Project/samples/treccar/benchmarkY1train/train.benchmarkY1train.cbor.hierarchical.entity.qrels";
-		this.topics =readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.topics =readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
 		this.topCategories=KBFilter.readInCategories(categoryPath);
 		SnomedDictionaryInitializer init = new SnomedDictionaryInitializer();
 		try {
@@ -52,6 +52,7 @@ public class TopicToEntityMapper {
 	public HashMap<String,ArrayList<Entity>> filterQrels(){
 		HashMap<String,ArrayList<Entity>> mappings = new HashMap<String,ArrayList<Entity>>();
 		for(String topic:topics){
+			System.out.println(topic);
 			mappings.put(topic, new ArrayList<Entity>());
 		}
 		int i=0;
@@ -82,8 +83,9 @@ public class TopicToEntityMapper {
 		        String articlePath = newElements.get(0);
 		        String[] subjects = articlePath.split("/");
 		        String primaryTopic = subjects[0];
+		        
 		        if(topics.contains(primaryTopic)){
-		        	//System.out.println(line);
+		        	System.out.println(primaryTopic);
 		        	if(filterConceptByCategory(entity)){
 		        		Boolean exists = false;
 		        		for(Entity e:mappings.get(primaryTopic)){
@@ -205,7 +207,7 @@ public class TopicToEntityMapper {
 	public ArrayList<String> getTopics(){
 		return this.topics;
 	}
-	public Boolean filterConcept(String conceptName){
+	public Boolean filterConceptByDictionary(String conceptName){
 		if(dictionary.lookupString(conceptName)){
 			return true;
 		}

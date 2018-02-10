@@ -1,9 +1,11 @@
 Inflammatory bowel disease
-Num unmapped entities: 241
+Num unmapped entities: 293
 Mapping: 
  
 Mapping entity: calprotectin
 Mapped calprotectin to Calprotectin
+Mapping entity: wall
+Unable to map entity: wall
 Mapping entity: disease
 Mapped disease to Disease
 Mapping entity: colitis
@@ -14,6 +16,8 @@ Mapping entity: inflammatory bowel disease
 Mapped inflammatory bowel disease to Inflammatory Bowel Disease
 Mapping entity: protein
 Unable to map entity: protein
+Mapping entity: measurement
+Unable to map entity: measurement
 Mapping entity: indium
 Mapped indium to Indium
 Mapping entity: gold
@@ -22,14 +26,22 @@ Mapping entity: irritable bowel syndrome
 Mapped irritable bowel syndrome to Irritable Bowel Syndrome
 Mapping entity: coeliac disease
 Mapped coeliac disease to Coeliac Disease
+Mapping entity: lesion
+Unable to map entity: lesion
 Mapping entity: gluten
 Unable to map entity: gluten
+Mapping entity: small intestine
+Unable to map entity: small intestine
 Mapping entity: lead
 Mapped lead to Lead
+Mapping entity: cancer
+Unable to map entity: cancer
 Mapping entity: interleukin
 Mapped interleukin to Interleukin
 Mapping entity: gene
 Unable to map entity: gene
+Mapping entity: adenocarcinoma
+Unable to map entity: adenocarcinoma
 Mapping entity: beta 2 microglobulin
 Mapped beta 2 microglobulin to Beta 2 microglobulin
 Mapping entity: injury
@@ -44,12 +56,16 @@ Mapping entity: prostaglandin
 Mapped prostaglandin to Prostaglandin
 Mapping entity: atherosclerosis
 Mapped atherosclerosis to Atherosclerosis
+Mapping entity: failure
+Unable to map entity: failure
 Mapping entity: arthritis
 Mapped arthritis to Arthritis
 Mapping entity: rheumatoid arthritis
 Mapped rheumatoid arthritis to Rheumatoid Arthritis
 Mapping entity: autoimmune disease
 Mapped autoimmune disease to Autoimmune Disease
+Mapping entity: allergy
+Unable to map entity: allergy
 Mapping entity: rhinitis
 Mapped rhinitis to Rhinitis
 Mapping entity: allergic rhinitis
@@ -64,10 +80,16 @@ Mapping entity: angioedema
 Mapped angioedema to Angioedema
 Mapping entity: urticaria
 Mapped urticaria to Urticaria
+Mapping entity: prostate
+Unable to map entity: prostate
 Mapping entity: zileuton
 Mapped zileuton to Zileuton
 Mapping entity: allergic asthma
 Unable to map entity: allergic asthma
+Mapping entity: lung
+Unable to map entity: lung
+Mapping entity: conjunctiva
+Unable to map entity: conjunctiva
 Mapping entity: exercise
 Mapped exercise to Exercise
 Mapping entity: psoriasis
@@ -76,6 +98,8 @@ Mapping entity: acne
 Unable to map entity: acne
 Mapping entity: acne vulgaris
 Mapped acne vulgaris to Acne Vulgaris
+Mapping entity: facial
+Unable to map entity: facial
 Mapping entity: clinical trial
 Unable to map entity: clinical trial
 Mapping entity: imatinib
@@ -86,8 +110,12 @@ Mapping entity: myeloid leukemia
 Mapped myeloid leukemia to Myeloid leukemia
 Mapping entity: fiber
 Mapped fiber to Fiber
+Mapping entity: diarrhea
+Unable to map entity: diarrhea
 Mapping entity: constipation
 Unable to map entity: constipation
+Mapping entity: nutrition
+Unable to map entity: nutrition
 Mapping entity: inulin
 Unable to map entity: inulin
 Mapping entity: oligosaccharide
@@ -96,6 +124,10 @@ Mapping entity: acid
 Unable to map entity: acid
 Mapping entity: fatty acid
 Unable to map entity: fatty acid
+Mapping entity: food
+Unable to map entity: food
+Mapping entity: behavior
+Unable to map entity: behavior
 Mapping entity: feces
 Mapped feces to Feces
 Mapping entity: celiac disease
@@ -106,6 +138,8 @@ Mapping entity: schizophrenia
 Unable to map entity: schizophrenia
 Mapping entity: obesity
 Unable to map entity: obesity
+Mapping entity: liver
+Unable to map entity: liver
 Mapping entity: fatty liver
 Mapped fatty liver to Fatty liver
 Mapping entity: atopy
@@ -116,22 +150,32 @@ Mapping entity: endothelium
 Mapped endothelium to Endothelium
 Mapping entity: infiltration
 Unable to map entity: infiltration
+Mapping entity: synovial membrane
+Unable to map entity: synovial membrane
 Mapping entity: expression
 Mapped expression to Expression
 Mapping entity: thyroiditis
 Mapped thyroiditis to Thyroiditis
 Mapping entity: autoimmune thyroiditis
 Mapped autoimmune thyroiditis to Autoimmune thyroiditis
+Mapping entity: lymphocyte
+Unable to map entity: lymphocyte
 Mapping entity: recruitment
 Mapped recruitment to Recruitment
 Mapping entity: indeterminate colitis
 Mapped indeterminate colitis to Indeterminate colitis
 Mapping entity: inflammatory disorder
 Unable to map entity: inflammatory disorder
+Mapping entity: immune system
+Unable to map entity: immune system
 Mapping entity: entire colon
 Unable to map entity: entire colon
+Mapping entity: rectum
+Unable to map entity: rectum
 Mapping entity: movement
 Unable to map entity: movement
+Mapping entity: bloating
+Unable to map entity: bloating
 Mapping entity: eating
 Mapped eating to Eating
 Mapping entity: air
@@ -164,6 +208,8 @@ Mapping entity: microscopic colitis
 Mapped microscopic colitis to Microscopic colitis
 Mapping entity: entire gastrointestinal tract
 Mapped entire gastrointestinal tract to Tract
+Mapping entity: large intestine
+Unable to map entity: large intestine
 Mapping entity: vasculitis
 Unable to map entity: vasculitis
 Mapping entity: small vessel vasculitis
@@ -178,6 +224,8 @@ Mapping entity: rapidly progressive glomerulonephritis
 Mapped rapidly progressive glomerulonephritis to Rapidly progressive glomerulonephritis
 Mapping entity: crescentic glomerulonephritis
 Unable to map entity: crescentic glomerulonephritis
+Mapping entity: eosinophilic
+Unable to map entity: eosinophilic
 Mapping entity: drug
 Mapped drug to Drug
 Mapping entity: cystic fibrosis
@@ -192,15 +240,18 @@ Mapping entity: hepatitis
 Unable to map entity: hepatitis
 Mapping entity: autoimmune hepatitis
 Unable to map entity: autoimmune hepatitis
-Mapping entity: autoimmune liver disease
-Mapped autoimmune liver disease to Disease
-Merged apps for entities: Disease and autoimmune liver disease
+Mapping entity: liver disease
+Unable to map entity: liver disease
 Mapping entity: systemic vasculitis
 Mapped systemic vasculitis to Systemic vasculitis
 Mapping entity: nutrients
 Mapped nutrients to Nutrients
+Mapping entity: circulatory system
+Unable to map entity: circulatory system
 Mapping entity: toxin
 Mapped toxin to Toxin
+Mapping entity: health
+Unable to map entity: health
 Mapping entity: food allergy
 Mapped food allergy to Food Allergy
 Mapping entity: shock
@@ -209,6 +260,8 @@ Mapping entity: septic shock
 Mapped septic shock to Septic Shock
 Mapping entity: aspirin
 Mapped aspirin to Aspirin
+Mapping entity: dysplasia
+Unable to map entity: dysplasia
 Mapping entity: tuberculosis
 Mapped tuberculosis to Tuberculosis
 Mapping entity: diagnosis
@@ -233,26 +286,40 @@ Mapping entity: folic acid
 Mapped folic acid to Folic Acid
 Mapping entity: gluten sensitivity
 Mapped gluten sensitivity to Gluten sensitivity
+Mapping entity: heart
+Unable to map entity: heart
 Mapping entity: blood
 Mapped blood to Blood
 Mapping entity: blood diseases
 Unable to map entity: blood diseases
 Mapping entity: anemia
 Unable to map entity: anemia
+Mapping entity: brain
+Unable to map entity: brain
 Mapping entity: dementia
 Unable to map entity: dementia
 Mapping entity: multiple sclerosis
 Unable to map entity: multiple sclerosis
 Mapping entity: transient ischemic attack
 Mapped transient ischemic attack to Attack
+Mapping entity: stroke
+Unable to map entity: stroke
 Mapping entity: anorexia nervosa
 Unable to map entity: anorexia nervosa
+Mapping entity: report
+Unable to map entity: report
 Mapping entity: foods
 Unable to map entity: foods
+Mapping entity: weight
+Unable to map entity: weight
 Mapping entity: management
 Unable to map entity: management
 Mapping entity: eating disorder
 Mapped eating disorder to Eating Disorder
+Mapping entity: appetite
+Unable to map entity: appetite
+Mapping entity: pain
+Unable to map entity: pain
 Mapping entity: vomiting
 Unable to map entity: vomiting
 Mapping entity: epithelium
@@ -261,6 +328,8 @@ Mapping entity: nucleotide
 Mapped nucleotide to Nucleotide
 Mapping entity: molecule
 Mapped molecule to Molecule
+Mapping entity: intracellular
+Unable to map entity: intracellular
 Mapping entity: dipeptide
 Mapped dipeptide to Dipeptide
 Mapping entity: gastroenteritis
@@ -289,6 +358,7 @@ Mapping entity: psoriatic arthritis
 Mapped psoriatic arthritis to Psoriatic Arthritis
 Mapping entity: infectious disease
 Unable to map entity: infectious disease
+Mapping entity: fever
 Mapping entity: uveitis
 Mapping entity: eye
 Unable to map entity: eye
@@ -298,6 +368,8 @@ Mapping entity: pyoderma gangrenosum
 Unable to map entity: pyoderma gangrenosum
 Mapping entity: erythema nodosum
 Mapped erythema nodosum to Erythema nodosum
+Mapping entity: bacteroides fragilis
+Unable to map entity: bacteroides fragilis
 Mapping entity: polysaccharide
 Unable to map entity: polysaccharide
 Mapping entity: blood test
@@ -308,6 +380,8 @@ Mapping entity: endometriosis
 Unable to map entity: endometriosis
 Mapping entity: lupus erythematosus
 Mapped lupus erythematosus to Lupus Erythematosus
+Mapping entity: pelvic inflammatory disease
+Unable to map entity: pelvic inflammatory disease
 Mapping entity: leiomyoma
 Mapped leiomyoma to Leiomyoma
 Mapping entity: immunosuppressive acidic protein
@@ -322,18 +396,26 @@ Mapping entity: calcium
 Mapped calcium to Calcium
 Mapping entity: mineral
 Mapped mineral to Mineral
+Mapping entity: hypertension
+Unable to map entity: hypertension
 Mapping entity: defecation
 Mapped defecation to Defecation
+Mapping entity: small intestinal bacterial overgrowth
+Unable to map entity: small intestinal bacterial overgrowth
 Mapping entity: intestinal infection
 Mapped intestinal infection to Intestinal infection
 Mapping entity: age
 Unable to map entity: age
+Mapping entity: history
+Unable to map entity: history
 Mapping entity: bile
 Mapped bile to Bile
 Mapping entity: bile acid
 Unable to map entity: bile acid
 Mapping entity: malabsorption
 Unable to map entity: malabsorption
+Mapping entity: bile acid malabsorption
+Unable to map entity: bile acid malabsorption
 Mapping entity: azathioprine
 Mapped azathioprine to Azathioprine
 Mapping entity: immunosuppressive therapy
@@ -354,8 +436,8 @@ Mapping entity: neuromyelitis
 Unable to map entity: neuromyelitis
 Mapping entity: neuromyelitis optica
 Unable to map entity: neuromyelitis optica
-Mapping entity: restrictive lung disease
-Mapped restrictive lung disease to Restrictive lung disease
+Mapping entity: lung disease
+Unable to map entity: lung disease
 Mapping entity: steroid
 Mapped steroid to Steroid
 Mapping entity: immunology
@@ -366,8 +448,14 @@ Mapping entity: insulin
 Mapped insulin to Insulin
 Mapping entity: abscisic acid
 Mapped abscisic acid to Abscisic Acid
+Mapping entity: gastroenterology
+Unable to map entity: gastroenterology
 Mapping entity: division
 Unable to map entity: division
+Mapping entity: clinic
+Unable to map entity: clinic
+Mapping entity: joint
+Unable to map entity: joint
 Mapping entity: bleeding
 Mapped bleeding to Bleeding
 Mapping entity: infectious colitis
@@ -404,6 +492,8 @@ Mapping entity: traumatic brain injury
 Unable to map entity: traumatic brain injury
 Mapping entity: appearance
 Mapped appearance to Appearance
+Mapping entity: pattern
+Unable to map entity: pattern
 Mapping entity: cytokine
 Mapped cytokine to Cytokine
 Mapping entity: candidiasis
@@ -416,14 +506,22 @@ Mapping entity: manipulation
 Unable to map entity: manipulation
 Mapping entity: immunodeficiency
 Mapped immunodeficiency to Immunodeficiency
+Mapping entity: catheter
+Unable to map entity: catheter
 Mapping entity: sepsis
 Unable to map entity: sepsis
 Mapping entity: vitamin d deficiency
 Unable to map entity: vitamin d deficiency
 Mapping entity: fat
 Unable to map entity: fat
+Mapping entity: placenta
+Unable to map entity: placenta
+Mapping entity: blood flow
+Unable to map entity: blood flow
 Mapping entity: renal failure
 Mapped renal failure to Renal Failure
+Mapping entity: histone
+Unable to map entity: histone
 Mapping entity: histone deacetylase inhibitor
 Mapped histone deacetylase inhibitor to Histone deacetylase inhibitor
 Mapping entity: brain damage
@@ -448,6 +546,10 @@ Mapping entity: ileus
 Mapped ileus to Ileus
 Mapping entity: intussusception
 Mapped intussusception to Intussusception
+Mapping entity: enterocolitis
+Unable to map entity: enterocolitis
+Mapping entity: necrotizing enterocolitis
+Unable to map entity: necrotizing enterocolitis
 Mapping entity: infective diarrhea
 Unable to map entity: infective diarrhea
 Mapping entity: reflex
@@ -484,7 +586,7 @@ Mapping entity: sugar
 Mapped sugar to Sugar
 Mapping entity: cramp
 Unable to map entity: cramp
-Num mapped entities: 137
+Num mapped entities: 136
 Filtering: 
  
 Removed entity: Calprotectin
@@ -585,7 +687,6 @@ Removed entity: Transplantation
 Matched entity: Pemphigus for category: Autoimmune%20diseases
 Matched entity: Dermatitis for category: Autoimmune%20diseases
 Removed entity: Atopic dermatitis
-Matched entity: Restrictive lung disease for category: Respiratory%20therapy
 Removed entity: Steroid
 Matched entity: Immunology for category: Immunology
 Removed entity: Linoleic acid
@@ -624,8 +725,903 @@ Matched entity: Coffee for category: IARC%20Group%202B%20carcinogens
 Matched entity: Alcohol for category: Alcohols
 Matched entity: Sorbitol for category: Commodity%20chemicals
 Removed entity: Sugar
+Disease 0.43737572505559
+Inflammatory bowel disease 0.1712028908348248
+Irritable bowel syndrome 0.038804300847114365
+Arthritis 0.03044846556610085
+Rheumatoid arthritis 0.01654825752930488
+Atherosclerosis 0.014662195963148994
+Blood 0.011845981752980971
+Coeliac disease 0.011204951282787723
+Diabetes mellitus 0.010859385116696941
+Drug 0.009722947830219562
+Asthma 0.009555663852346375
+Eating 0.009534288767910808
+Short bowel syndrome 0.00833628446072388
+Autoimmune disease 0.007581829760926176
+Volvulus 0.007157681289517754
+Fatty liver 0.007138104243204367
+Lead 0.007019576604799242
+Lupus erythematosus 0.006956079364430148
+Defecation 0.006882832720179323
+Indium 0.00682870873326256
+Vitamin 0.006421267790743845
+Spondylitis 0.005645794994322205
+Immunology 0.005274914382502685
+Abscisic acid 0.005274914382502685
+Feces 0.005132055945931954
+Candidiasis 0.004844913431996911
+Aspirin 0.004835078132752815
+Hyperthyroidism 0.0048276423647724736
+Thyroiditis 0.0047909854941681216
+Tuberculosis 0.0043693140064036025
+Granuloma 0.004264020816005248
+Ileus 0.004232572007442313
+Cytokine 0.003952168230055599
+Granulomatosis with polyangiitis 0.003837618734404723
+Rhinitis 0.003710418390023362
+Conjunctivitis 0.003710418390023362
+Cystic fibrosis 0.003613652933543268
+Endothelium 0.003593239120626091
+Erythema nodosum 0.0034399511477852317
+Bile 0.003370541142256263
+Peptic ulcer 0.0033683731466649758
+Fibromyalgia 0.003218916400550415
+Hypothyroidism 0.003218428243181649
+Riboflavin 0.003218428243181649
+Folic acid 0.003218428243181649
+Sorbitol 0.002982084739589049
+Laxative 0.0029251092820754415
+Leiomyoma 0.0026778071670358014
+Osteopontin 0.0026778071670358014
+Insulin 0.0026374571912513426
+Antigen 0.0025459062777395264
+Psoriatic arthritis 0.0024158527063242643
+Autoimmune thyroiditis 0.0023954927470840608
+Gold 0.0022762362444208534
+Pemphigus 0.0022157533630914133
+Toxin 0.0021195041961390017
+Septic shock 0.0021195041961390017
+Fruit 0.001988056493059366
+Oil 0.001988056493059366
+Calcium 0.0018559800121649682
+Angioedema 0.001855209195011681
+Arthropathy 0.0018004330328716411
+Juvenile idiopathic arthritis 0.0018004330328716411
+Growth factor 0.0017852047780238676
+Glomerulonephritis 0.001705608326402099
+Poisoning 0.0016841865733324879
+Anxiety disorder 0.0015483159199961478
+Dermatitis 0.0014771689087276088
+Radiation proctitis 0.0013148926836844188
+Risk factor 0.0013148926836844188
+Colonoscopy 0.0013148926836844188
+Kidney failure 0.0011685985430283144
+Spinal cord injury 0.001072972133516805
+Reflex 9.94028246529683E-4
+Gastrocolic reflex 9.94028246529683E-4
+Dietary fiber 9.94028246529683E-4
+Coffee 9.94028246529683E-4
+Alcohol 9.94028246529683E-4
+Eating disorder 9.794391354355197E-4
+Blood test 8.926023890119338E-4
+Primary sclerosing cholangitis 8.528041632010495E-4
+Azathioprine 7.385844543638044E-4
+Rapidly progressive glomerulonephritis 4.264020816005248E-4
+Systemic vasculitis 4.264020816005248E-4
+Inflammatory bowel disease
+Num unmapped entities: 293
+Mapping: 
+ 
+Mapping entity: calprotectin
+Mapped calprotectin to Calprotectin
+Mapping entity: wall
+Unable to map entity: wall
+Mapping entity: disease
+Mapped disease to Disease
+Mapping entity: colitis
+Unable to map entity: colitis
+Mapping entity: ulcerative colitis
+Unable to map entity: ulcerative colitis
+Mapping entity: inflammatory bowel disease
+Mapped inflammatory bowel disease to Inflammatory Bowel Disease
+Mapping entity: protein
+Unable to map entity: protein
+Mapping entity: measurement
+Unable to map entity: measurement
+Mapping entity: indium
+Mapped indium to Indium
+Mapping entity: gold
+Mapped gold to Gold
+Mapping entity: irritable bowel syndrome
+Mapped irritable bowel syndrome to Irritable Bowel Syndrome
+Mapping entity: coeliac disease
+Mapped coeliac disease to Coeliac Disease
+Mapping entity: lesion
+Unable to map entity: lesion
+Mapping entity: gluten
+Unable to map entity: gluten
+Mapping entity: small intestine
+Unable to map entity: small intestine
+Mapping entity: lead
+Mapped lead to Lead
+Mapping entity: cancer
+Unable to map entity: cancer
+Mapping entity: interleukin
+Mapped interleukin to Interleukin
+Mapping entity: gene
+Unable to map entity: gene
+Mapping entity: adenocarcinoma
+Unable to map entity: adenocarcinoma
+Mapping entity: beta 2 microglobulin
+Mapped beta 2 microglobulin to Beta 2 microglobulin
+Mapping entity: injury
+Unable to map entity: injury
+Mapping entity: various
+Unable to map entity: various
+Mapping entity: activity
+Unable to map entity: activity
+Mapping entity: process
+Unable to map entity: process
+Mapping entity: prostaglandin
+Mapped prostaglandin to Prostaglandin
+Mapping entity: atherosclerosis
+Mapped atherosclerosis to Atherosclerosis
+Mapping entity: failure
+Unable to map entity: failure
+Mapping entity: arthritis
+Mapped arthritis to Arthritis
+Mapping entity: rheumatoid arthritis
+Mapped rheumatoid arthritis to Rheumatoid Arthritis
+Mapping entity: autoimmune disease
+Mapped autoimmune disease to Autoimmune Disease
+Mapping entity: allergy
+Unable to map entity: allergy
+Mapping entity: rhinitis
+Mapped rhinitis to Rhinitis
+Mapping entity: allergic rhinitis
+Unable to map entity: allergic rhinitis
+Mapping entity: conjunctivitis
+Mapped conjunctivitis to Conjunctivitis
+Mapping entity: asthma
+Mapped asthma to Asthma
+Mapping entity: eczema
+Unable to map entity: eczema
+Mapping entity: angioedema
+Mapped angioedema to Angioedema
+Mapping entity: urticaria
+Mapped urticaria to Urticaria
+Mapping entity: prostate
+Unable to map entity: prostate
+Mapping entity: zileuton
+Mapped zileuton to Zileuton
+Mapping entity: allergic asthma
+Unable to map entity: allergic asthma
+Mapping entity: lung
+Unable to map entity: lung
+Mapping entity: conjunctiva
+Unable to map entity: conjunctiva
+Mapping entity: exercise
+Mapped exercise to Exercise
+Mapping entity: psoriasis
+Unable to map entity: psoriasis
+Mapping entity: acne
+Unable to map entity: acne
+Mapping entity: acne vulgaris
+Mapped acne vulgaris to Acne Vulgaris
+Mapping entity: facial
+Unable to map entity: facial
+Mapping entity: clinical trial
+Unable to map entity: clinical trial
+Mapping entity: imatinib
+Unable to map entity: imatinib
+Mapping entity: leukemia
+Unable to map entity: leukemia
+Mapping entity: myeloid leukemia
+Mapped myeloid leukemia to Myeloid leukemia
+Mapping entity: fiber
+Mapped fiber to Fiber
+Mapping entity: diarrhea
+Unable to map entity: diarrhea
+Mapping entity: constipation
+Unable to map entity: constipation
+Mapping entity: nutrition
+Unable to map entity: nutrition
+Mapping entity: inulin
+Unable to map entity: inulin
+Mapping entity: oligosaccharide
+Unable to map entity: oligosaccharide
+Mapping entity: acid
+Unable to map entity: acid
+Mapping entity: fatty acid
+Unable to map entity: fatty acid
+Mapping entity: food
+Unable to map entity: food
+Mapping entity: behavior
+Unable to map entity: behavior
+Mapping entity: feces
+Mapped feces to Feces
+Mapping entity: celiac disease
+Unable to map entity: celiac disease
+Mapping entity: diabetes type
+Unable to map entity: diabetes type
+Mapping entity: schizophrenia
+Unable to map entity: schizophrenia
+Mapping entity: obesity
+Unable to map entity: obesity
+Mapping entity: liver
+Unable to map entity: liver
+Mapping entity: fatty liver
+Mapped fatty liver to Fatty liver
+Mapping entity: atopy
+Unable to map entity: atopy
+Mapping entity: human tissue
+Mapped human tissue to Human tissue
+Mapping entity: endothelium
+Mapped endothelium to Endothelium
+Mapping entity: infiltration
+Unable to map entity: infiltration
+Mapping entity: synovial membrane
+Unable to map entity: synovial membrane
+Mapping entity: expression
+Mapped expression to Expression
+Mapping entity: thyroiditis
+Mapped thyroiditis to Thyroiditis
+Mapping entity: autoimmune thyroiditis
+Mapped autoimmune thyroiditis to Autoimmune thyroiditis
+Mapping entity: lymphocyte
+Unable to map entity: lymphocyte
+Mapping entity: recruitment
+Mapped recruitment to Recruitment
+Mapping entity: indeterminate colitis
+Mapped indeterminate colitis to Indeterminate colitis
+Mapping entity: inflammatory disorder
+Unable to map entity: inflammatory disorder
+Mapping entity: immune system
+Unable to map entity: immune system
+Mapping entity: entire colon
+Unable to map entity: entire colon
+Mapping entity: rectum
+Unable to map entity: rectum
+Mapping entity: movement
+Unable to map entity: movement
+Mapping entity: bloating
+Unable to map entity: bloating
+Mapping entity: eating
+Mapped eating to Eating
+Mapping entity: air
+Mapped air to Air
+Mapping entity: diabetes mellitus
+Mapped diabetes mellitus to Diabetes Mellitus
+Mapping entity: dyspepsia
+Mapped dyspepsia to Dyspepsia
+Mapping entity: transient
+Mapped transient to Transient
+Mapping entity: milk
+Unable to map entity: milk
+Mapping entity: milk intolerance
+Unable to map entity: milk intolerance
+Mapping entity: lactose
+Unable to map entity: lactose
+Mapping entity: lactose intolerance
+Unable to map entity: lactose intolerance
+Mapping entity: infection
+Unable to map entity: infection
+Mapping entity: poisoning
+Mapped poisoning to Poisoning
+Mapping entity: food poisoning
+Mapped food poisoning to Food Poisoning
+Mapping entity: ulcer
+Unable to map entity: ulcer
+Mapping entity: peptic ulcer
+Mapped peptic ulcer to Peptic Ulcer
+Mapping entity: microscopic colitis
+Mapped microscopic colitis to Microscopic colitis
+Mapping entity: entire gastrointestinal tract
+Mapped entire gastrointestinal tract to Tract
+Mapping entity: large intestine
+Unable to map entity: large intestine
+Mapping entity: vasculitis
+Unable to map entity: vasculitis
+Mapping entity: small vessel vasculitis
+Unable to map entity: small vessel vasculitis
+Mapping entity: granulomatosis
+Mapped granulomatosis to Granulomatosis
+Mapping entity: granulomatosis with polyangiitis
+Mapped granulomatosis with polyangiitis to Granulomatosis with polyangiitis
+Mapping entity: glomerulonephritis
+Mapped glomerulonephritis to Glomerulonephritis
+Mapping entity: rapidly progressive glomerulonephritis
+Mapped rapidly progressive glomerulonephritis to Rapidly progressive glomerulonephritis
+Mapping entity: crescentic glomerulonephritis
+Unable to map entity: crescentic glomerulonephritis
+Mapping entity: eosinophilic
+Unable to map entity: eosinophilic
+Mapping entity: drug
+Mapped drug to Drug
+Mapping entity: cystic fibrosis
+Mapped cystic fibrosis to Cystic Fibrosis
+Mapping entity: antigen
+Mapped antigen to Antigen
+Mapping entity: cholangitis
+Unable to map entity: cholangitis
+Mapping entity: sclerosing cholangitis
+Mapped sclerosing cholangitis to Sclerosing cholangitis
+Mapping entity: hepatitis
+Unable to map entity: hepatitis
+Mapping entity: autoimmune hepatitis
+Unable to map entity: autoimmune hepatitis
+Mapping entity: liver disease
+Unable to map entity: liver disease
+Mapping entity: systemic vasculitis
+Mapped systemic vasculitis to Systemic vasculitis
+Mapping entity: nutrients
+Mapped nutrients to Nutrients
+Mapping entity: circulatory system
+Unable to map entity: circulatory system
+Mapping entity: toxin
+Mapped toxin to Toxin
+Mapping entity: health
+Unable to map entity: health
+Mapping entity: food allergy
+Mapped food allergy to Food Allergy
+Mapping entity: shock
+Mapped shock to Shock
+Mapping entity: septic shock
+Mapped septic shock to Septic Shock
+Mapping entity: aspirin
+Mapped aspirin to Aspirin
+Mapping entity: dysplasia
+Unable to map entity: dysplasia
+Mapping entity: tuberculosis
+Mapped tuberculosis to Tuberculosis
+Mapping entity: diagnosis
+Unable to map entity: diagnosis
+Mapping entity: anxiety disorder
+Mapped anxiety disorder to Anxiety Disorder
+Mapping entity: hypothyroidism
+Mapped hypothyroidism to Hypothyroidism
+Mapping entity: hyperthyroidism
+Mapped hyperthyroidism to Hyperthyroidism
+Mapping entity: hyperprolactinemia
+Mapped hyperprolactinemia to Hyperprolactinemia
+Mapping entity: metabolic disorders
+Unable to map entity: metabolic disorders
+Mapping entity: vitamin
+Mapped vitamin to Vitamin
+Mapping entity: riboflavin
+Mapped riboflavin to Riboflavin
+Mapping entity: vitamin b12
+Unable to map entity: vitamin b12
+Mapping entity: folic acid
+Mapped folic acid to Folic Acid
+Mapping entity: gluten sensitivity
+Mapped gluten sensitivity to Gluten sensitivity
+Mapping entity: heart
+Unable to map entity: heart
+Mapping entity: blood
+Mapped blood to Blood
+Mapping entity: blood diseases
+Unable to map entity: blood diseases
+Mapping entity: anemia
+Unable to map entity: anemia
+Mapping entity: brain
+Unable to map entity: brain
+Mapping entity: dementia
+Unable to map entity: dementia
+Mapping entity: multiple sclerosis
+Unable to map entity: multiple sclerosis
+Mapping entity: transient ischemic attack
+Mapped transient ischemic attack to Attack
+Mapping entity: stroke
+Unable to map entity: stroke
+Mapping entity: anorexia nervosa
+Unable to map entity: anorexia nervosa
+Mapping entity: report
+Unable to map entity: report
+Mapping entity: foods
+Unable to map entity: foods
+Mapping entity: weight
+Unable to map entity: weight
+Mapping entity: management
+Unable to map entity: management
+Mapping entity: eating disorder
+Mapped eating disorder to Eating Disorder
+Mapping entity: appetite
+Unable to map entity: appetite
+Mapping entity: pain
+Unable to map entity: pain
+Mapping entity: vomiting
+Unable to map entity: vomiting
+Mapping entity: epithelium
+Mapped epithelium to Epithelium
+Mapping entity: nucleotide
+Mapped nucleotide to Nucleotide
+Mapping entity: molecule
+Mapped molecule to Molecule
+Mapping entity: intracellular
+Unable to map entity: intracellular
+Mapping entity: dipeptide
+Mapped dipeptide to Dipeptide
+Mapping entity: gastroenteritis
+Unable to map entity: gastroenteritis
+Mapping entity: appendicitis
+Unable to map entity: appendicitis
+Mapping entity: volvulus
+Mapped volvulus to Volvulus
+Mapping entity: pancreatic insufficiency
+Unable to map entity: pancreatic insufficiency
+Mapping entity: short bowel syndrome
+Mapped short bowel syndrome to Short bowel syndrome
+Mapping entity: laxative
+Mapped laxative to Laxative
+Mapping entity: receptor
+Mapped receptor to Receptor
+Mapping entity: cannabinoid
+Mapped cannabinoid to Cannabinoid
+Mapping entity: motility
+Unable to map entity: motility
+Mapping entity: spondylitis
+Mapped spondylitis to Spondylitis
+Mapping entity: ankylosing spondylitis
+Unable to map entity: ankylosing spondylitis
+Mapping entity: psoriatic arthritis
+Mapped psoriatic arthritis to Psoriatic Arthritis
+Mapping entity: infectious disease
+Unable to map entity: infectious disease
+Mapping entity: fever
+Mapping entity: uveitis
+Mapping entity: eye
+Unable to map entity: eye
+Mapping entity: pyoderma
+Unable to map entity: pyoderma
+Mapping entity: pyoderma gangrenosum
+Unable to map entity: pyoderma gangrenosum
+Mapping entity: erythema nodosum
+Mapped erythema nodosum to Erythema nodosum
+Mapping entity: bacteroides fragilis
+Unable to map entity: bacteroides fragilis
+Mapping entity: polysaccharide
+Unable to map entity: polysaccharide
+Mapping entity: blood test
+Mapped blood test to Blood Test
+Mapping entity: elevation
+Unable to map entity: elevation
+Mapping entity: endometriosis
+Unable to map entity: endometriosis
+Mapping entity: lupus erythematosus
+Mapped lupus erythematosus to Lupus Erythematosus
+Mapping entity: pelvic inflammatory disease
+Unable to map entity: pelvic inflammatory disease
+Mapping entity: leiomyoma
+Mapped leiomyoma to Leiomyoma
+Mapping entity: immunosuppressive acidic protein
+Unable to map entity: immunosuppressive acidic protein
+Mapping entity: haptoglobin
+Unable to map entity: haptoglobin
+Mapping entity: osteopontin
+Mapped osteopontin to Osteopontin
+Mapping entity: growth factor
+Mapped growth factor to Growth Factor
+Mapping entity: calcium
+Mapped calcium to Calcium
+Mapping entity: mineral
+Mapped mineral to Mineral
+Mapping entity: hypertension
+Unable to map entity: hypertension
+Mapping entity: defecation
+Mapped defecation to Defecation
+Mapping entity: small intestinal bacterial overgrowth
+Unable to map entity: small intestinal bacterial overgrowth
+Mapping entity: intestinal infection
+Mapped intestinal infection to Intestinal infection
+Mapping entity: age
+Unable to map entity: age
+Mapping entity: history
+Unable to map entity: history
+Mapping entity: bile
+Mapped bile to Bile
+Mapping entity: bile acid
+Unable to map entity: bile acid
+Mapping entity: malabsorption
+Unable to map entity: malabsorption
+Mapping entity: bile acid malabsorption
+Unable to map entity: bile acid malabsorption
+Mapping entity: azathioprine
+Mapped azathioprine to Azathioprine
+Mapping entity: immunosuppressive therapy
+Unable to map entity: immunosuppressive therapy
+Mapping entity: transplant
+Unable to map entity: transplant
+Mapping entity: transplantation
+Mapped transplantation to Transplantation
+Mapping entity: pemphigus
+Mapped pemphigus to Pemphigus
+Mapping entity: dermatitis
+Mapped dermatitis to Dermatitis
+Mapping entity: atopic dermatitis
+Mapped atopic dermatitis to Atopic Dermatitis
+Mapping entity: myasthenia gravis
+Unable to map entity: myasthenia gravis
+Mapping entity: neuromyelitis
+Unable to map entity: neuromyelitis
+Mapping entity: neuromyelitis optica
+Unable to map entity: neuromyelitis optica
+Mapping entity: lung disease
+Unable to map entity: lung disease
+Mapping entity: steroid
+Mapped steroid to Steroid
+Mapping entity: immunology
+Mapped immunology to Immunology
+Mapping entity: linoleic acid
+Mapped linoleic acid to Linoleic Acid
+Mapping entity: insulin
+Mapped insulin to Insulin
+Mapping entity: abscisic acid
+Mapped abscisic acid to Abscisic Acid
+Mapping entity: gastroenterology
+Unable to map entity: gastroenterology
+Mapping entity: division
+Unable to map entity: division
+Mapping entity: clinic
+Unable to map entity: clinic
+Mapping entity: joint
+Unable to map entity: joint
+Mapping entity: bleeding
+Mapped bleeding to Bleeding
+Mapping entity: infectious colitis
+Mapped infectious colitis to Infectious colitis
+Mapping entity: hemorrhoids
+Mapped hemorrhoids to Hemorrhoids
+Mapping entity: anal fissure
+Unable to map entity: anal fissure
+Mapping entity: ischemic colitis
+Mapped ischemic colitis to Ischemic colitis
+Mapping entity: proctitis
+Unable to map entity: proctitis
+Mapping entity: radiation proctitis
+Mapped radiation proctitis to Radiation proctitis
+Mapping entity: risk factor
+Mapped risk factor to Risk factor
+Mapping entity: colonoscopy
+Mapped colonoscopy to Colonoscopy
+Mapping entity: amyotrophic lateral sclerosis
+Unable to map entity: amyotrophic lateral sclerosis
+Mapping entity: traumatic encephalopathy
+Unable to map entity: traumatic encephalopathy
+Mapping entity: epilepsy
+Unable to map entity: epilepsy
+Mapping entity: seizure disorder
+Unable to map entity: seizure disorder
+Mapping entity: fibromyalgia
+Mapped fibromyalgia to Fibromyalgia
+Mapping entity: glaucoma
+Unable to map entity: glaucoma
+Mapping entity: spinal cord injury
+Mapped spinal cord injury to Spinal Cord Injury
+Mapping entity: traumatic brain injury
+Unable to map entity: traumatic brain injury
+Mapping entity: appearance
+Mapped appearance to Appearance
+Mapping entity: pattern
+Unable to map entity: pattern
+Mapping entity: cytokine
+Mapped cytokine to Cytokine
+Mapping entity: candidiasis
+Mapped candidiasis to Candidiasis
+Mapping entity: mucocutaneous candidiasis
+Unable to map entity: mucocutaneous candidiasis
+Mapping entity: function
+Mapped function to Function
+Mapping entity: manipulation
+Unable to map entity: manipulation
+Mapping entity: immunodeficiency
+Mapped immunodeficiency to Immunodeficiency
+Mapping entity: catheter
+Unable to map entity: catheter
+Mapping entity: sepsis
+Unable to map entity: sepsis
+Mapping entity: vitamin d deficiency
+Unable to map entity: vitamin d deficiency
+Mapping entity: fat
+Unable to map entity: fat
+Mapping entity: placenta
+Unable to map entity: placenta
+Mapping entity: blood flow
+Unable to map entity: blood flow
+Mapping entity: renal failure
+Mapped renal failure to Renal Failure
+Mapping entity: histone
+Unable to map entity: histone
+Mapping entity: histone deacetylase inhibitor
+Mapped histone deacetylase inhibitor to Histone deacetylase inhibitor
+Mapping entity: brain damage
+Unable to map entity: brain damage
+Mapping entity: chronic disease
+Mapped chronic disease to Chronic disease
+Mapping entity: mesalazine
+Unable to map entity: mesalazine
+Mapping entity: name
+Unable to map entity: name
+Mapping entity: aminosalicylic acid
+Mapped aminosalicylic acid to Aminosalicylic acid
+Mapping entity: arthropathy
+Mapped arthropathy to Arthropathy
+Mapping entity: scleroderma
+Unable to map entity: scleroderma
+Mapping entity: juvenile idiopathic arthritis
+Mapped juvenile idiopathic arthritis to Juvenile Idiopathic Arthritis
+Mapping entity: diarrhoea
+Unable to map entity: diarrhoea
+Mapping entity: ileus
+Mapped ileus to Ileus
+Mapping entity: intussusception
+Mapped intussusception to Intussusception
+Mapping entity: enterocolitis
+Unable to map entity: enterocolitis
+Mapping entity: necrotizing enterocolitis
+Unable to map entity: necrotizing enterocolitis
+Mapping entity: infective diarrhea
+Unable to map entity: infective diarrhea
+Mapping entity: reflex
+Mapped reflex to Reflex
+Mapping entity: gastrocolic reflex
+Mapped gastrocolic reflex to Gastrocolic reflex
+Mapping entity: dietary fiber
+Mapped dietary fiber to Dietary Fiber
+Mapping entity: rice
+Unable to map entity: rice
+Mapping entity: fruit
+Mapped fruit to Fruit
+Mapping entity: fresh fruit
+Unable to map entity: fresh fruit
+Mapping entity: vegetable
+Unable to map entity: vegetable
+Mapping entity: meat
+Unable to map entity: meat
+Mapping entity: red meat
+Mapped red meat to Red Meat
+Mapping entity: oil
+Mapped oil to Oil
+Mapping entity: chocolate
+Mapped chocolate to Chocolate
+Mapping entity: coffee
+Mapped coffee to Coffee
+Mapping entity: alcoholic beverage
+Unable to map entity: alcoholic beverage
+Mapping entity: alcohol
+Mapped alcohol to Alcohol
+Mapping entity: sorbitol
+Mapped sorbitol to Sorbitol
+Mapping entity: sugar
+Mapped sugar to Sugar
+Mapping entity: cramp
+Unable to map entity: cramp
+Num mapped entities: 136
+Filtering: 
+ 
+Removed entity: Calprotectin
+Matched entity: Disease for category: Diseases%20and%20disorders
+Matched entity: Inflammatory bowel disease for category: Autoimmune%20diseases
+Matched entity: Indium for category: Chemical%20elements
+Matched entity: Gold for category: Chemical%20elements
+Matched entity: Irritable bowel syndrome for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: Coeliac disease for category: Pediatrics
+Matched entity: Lead for category: Toxicology
+Removed entity: Interleukin
+Removed entity: Beta 2 microglobulin
+Removed entity: Prostaglandin
+Matched entity: Atherosclerosis for category: Inflammations
+Matched entity: Arthritis for category: Inflammations
+Matched entity: Rheumatoid arthritis for category: Autoimmune%20diseases
+Matched entity: Autoimmune disease for category: Autoimmune%20diseases
+Matched entity: Rhinitis for category: Allergology
+Matched entity: Conjunctivitis for category: Inflammations
+Matched entity: Asthma for category: RTT(full)
+Matched entity: Angioedema for category: Effects%20of%20external%20causes
+Removed entity: Urticaria
+Removed entity: Zileuton
+Removed entity: Exercise
+Removed entity: Acne vulgaris
+Removed entity: Myeloid leukemia
+Removed entity: Fiber
+Matched entity: Feces for category: Animal%20physiology
+Matched entity: Fatty liver for category: Medical%20conditions%20related%20to%20obesity
+Removed entity: Human tissue
+Matched entity: Endothelium for category: Angiology
+Removed entity: Expression
+Matched entity: Thyroiditis for category: Inflammations
+Matched entity: Autoimmune thyroiditis for category: Thyroid%20disease
+Removed entity: Recruitment
+Removed entity: Indeterminate colitis
+Matched entity: Eating for category: Physiology
+Removed entity: Air
+Matched entity: Diabetes mellitus for category: Diabetes
+Removed entity: Dyspepsia
+Removed entity: Transience
+Matched entity: Poisoning for category: Diseases%20and%20disorders
+Removed entity: Foodborne illness
+Matched entity: Peptic ulcer for category: Acute%20pain
+Removed entity: Microscopic colitis
+Removed entity: Tract
+Matched entity: Granuloma for category: Anatomical%20pathology
+Matched entity: Granulomatosis with polyangiitis for category: Autoimmune%20diseases
+Matched entity: Glomerulonephritis for category: Inflammations
+Matched entity: Rapidly progressive glomerulonephritis for category: Kidney%20diseases
+Matched entity: Drug for category: Drugs
+Matched entity: Cystic fibrosis for category: Pediatrics
+Matched entity: Antigen for category: Immune%20system
+Matched entity: Primary sclerosing cholangitis for category: Inflammations
+Matched entity: Systemic vasculitis for category: Vascular-related%20cutaneous%20conditions
+Removed entity: Nutrients
+Matched entity: Toxin for category: Toxicology
+Removed entity: Food Allergy
+Removed entity: Shock
+Matched entity: Septic shock for category: Medical%20emergencies
+Matched entity: Aspirin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Tuberculosis for category: RTT(full)
+Matched entity: Anxiety disorder for category: Psychiatric%20diagnosis
+Matched entity: Hypothyroidism for category: RTT(full)
+Matched entity: Hyperthyroidism for category: Thyroid%20disease
+Removed entity: Hyperprolactinemia
+Matched entity: Vitamin for category: Nutrition
+Matched entity: Riboflavin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Folic acid for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Gluten sensitivity
+Matched entity: Blood for category: Hematology
+Removed entity: Attack
+Matched entity: Eating disorder for category: Psychiatric%20diagnosis
+Removed entity: Epithelium
+Removed entity: Nucleotide
+Removed entity: Molecule
+Removed entity: Dipeptide
+Matched entity: Volvulus for category: Diseases%20of%20intestines
+Matched entity: Short bowel syndrome for category: Diseases%20of%20intestines
+Matched entity: Laxative for category: Gastroenterology
+Removed entity: Receptor
+Removed entity: Cannabinoid
+Matched entity: Spondylitis for category: Orthopedic%20problems
+Matched entity: Psoriatic arthritis for category: Autoimmune%20diseases
+Matched entity: Erythema nodosum for category: Autoimmune%20diseases
+Matched entity: Blood test for category: Blood%20tests
+Matched entity: Lupus erythematosus for category: Autoimmune%20diseases
+Matched entity: Leiomyoma for category: Anatomical%20pathology
+Matched entity: Osteopontin for category: Glycoproteins
+Matched entity: Growth factor for category: Immune%20system
+Matched entity: Calcium for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Mineral
+Matched entity: Defecation for category: Digestive%20system
+Removed entity: Intestinal infection
+Matched entity: Bile for category: Digestive%20system
+Matched entity: Azathioprine for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Transplantation
+Matched entity: Pemphigus for category: Autoimmune%20diseases
+Matched entity: Dermatitis for category: Autoimmune%20diseases
+Removed entity: Atopic dermatitis
+Removed entity: Steroid
+Matched entity: Immunology for category: Immunology
+Removed entity: Linoleic acid
+Matched entity: Insulin for category: World%20Anti-Doping%20Agency%20prohibited%20substances
+Matched entity: Abscisic acid for category: Alcohols
+Removed entity: Bleeding
+Removed entity: Infectious colitis
+Removed entity: Hemorrhoids
+Removed entity: Ischemic colitis
+Matched entity: Radiation proctitis for category: Radiation%20therapy
+Matched entity: Risk factor for category: Epidemiology
+Matched entity: Colonoscopy for category: Endoscopy
+Matched entity: Fibromyalgia for category: Disorders%20of%20fascia
+Matched entity: Spinal cord injury for category: Medical%20emergencies
+Removed entity: Appearance
+Matched entity: Cytokine for category: Immune%20system
+Matched entity: Candidiasis for category: Mycosis-related%20cutaneous%20conditions
+Removed entity: Function
+Removed entity: Immunodeficiency
+Matched entity: Kidney failure for category: Organ%20failure
+Removed entity: Histone deacetylase inhibitor
+Removed entity: Chronic disease
+Removed entity: Aminosalicylic acid
+Matched entity: Arthropathy for category: Inflammatory%20polyarthropathies
+Matched entity: Juvenile idiopathic arthritis for category: Pediatrics
+Matched entity: Ileus for category: Digestive%20system
+Removed entity: Intussusception
+Matched entity: Reflex for category: Reflexes
+Matched entity: Gastrocolic reflex for category: Physiology
+Matched entity: Dietary fiber for category: Nutrition
+Matched entity: Fruit for category: Pollination
+Removed entity: Red Meat
+Matched entity: Oil for category: Foods
+Removed entity: Chocolate
+Matched entity: Coffee for category: IARC%20Group%202B%20carcinogens
+Matched entity: Alcohol for category: Alcohols
+Matched entity: Sorbitol for category: Commodity%20chemicals
+Removed entity: Sugar
+Disease 0.43737572505559
+Inflammatory bowel disease 0.1712028908348248
+Irritable bowel syndrome 0.038804300847114365
+Arthritis 0.03044846556610085
+Rheumatoid arthritis 0.01654825752930488
+Atherosclerosis 0.014662195963148994
+Blood 0.011845981752980971
+Coeliac disease 0.011204951282787723
+Diabetes mellitus 0.010859385116696941
+Drug 0.009722947830219562
+Asthma 0.009555663852346375
+Eating 0.009534288767910808
+Short bowel syndrome 0.00833628446072388
+Autoimmune disease 0.007581829760926176
+Volvulus 0.007157681289517754
+Fatty liver 0.007138104243204367
+Lead 0.007019576604799242
+Lupus erythematosus 0.006956079364430148
+Defecation 0.006882832720179323
+Indium 0.00682870873326256
+Vitamin 0.006421267790743845
+Spondylitis 0.005645794994322205
+Immunology 0.005274914382502685
+Abscisic acid 0.005274914382502685
+Feces 0.005132055945931954
+Candidiasis 0.004844913431996911
+Aspirin 0.004835078132752815
+Hyperthyroidism 0.0048276423647724736
+Thyroiditis 0.0047909854941681216
+Tuberculosis 0.0043693140064036025
+Granuloma 0.004264020816005248
+Ileus 0.004232572007442313
+Cytokine 0.003952168230055599
+Granulomatosis with polyangiitis 0.003837618734404723
+Rhinitis 0.003710418390023362
+Conjunctivitis 0.003710418390023362
+Cystic fibrosis 0.003613652933543268
+Endothelium 0.003593239120626091
+Erythema nodosum 0.0034399511477852317
+Bile 0.003370541142256263
+Peptic ulcer 0.0033683731466649758
+Fibromyalgia 0.003218916400550415
+Hypothyroidism 0.003218428243181649
+Riboflavin 0.003218428243181649
+Folic acid 0.003218428243181649
+Sorbitol 0.002982084739589049
+Laxative 0.0029251092820754415
+Leiomyoma 0.0026778071670358014
+Osteopontin 0.0026778071670358014
+Insulin 0.0026374571912513426
+Antigen 0.0025459062777395264
+Psoriatic arthritis 0.0024158527063242643
+Autoimmune thyroiditis 0.0023954927470840608
+Gold 0.0022762362444208534
+Pemphigus 0.0022157533630914133
+Toxin 0.0021195041961390017
+Septic shock 0.0021195041961390017
+Fruit 0.001988056493059366
+Oil 0.001988056493059366
+Calcium 0.0018559800121649682
+Angioedema 0.001855209195011681
+Arthropathy 0.0018004330328716411
+Juvenile idiopathic arthritis 0.0018004330328716411
+Growth factor 0.0017852047780238676
+Glomerulonephritis 0.001705608326402099
+Poisoning 0.0016841865733324879
+Anxiety disorder 0.0015483159199961478
+Dermatitis 0.0014771689087276088
+Radiation proctitis 0.0013148926836844188
+Risk factor 0.0013148926836844188
+Colonoscopy 0.0013148926836844188
+Kidney failure 0.0011685985430283144
+Spinal cord injury 0.001072972133516805
+Reflex 9.94028246529683E-4
+Gastrocolic reflex 9.94028246529683E-4
+Dietary fiber 9.94028246529683E-4
+Coffee 9.94028246529683E-4
+Alcohol 9.94028246529683E-4
+Eating disorder 9.794391354355197E-4
+Blood test 8.926023890119338E-4
+Primary sclerosing cholangitis 8.528041632010495E-4
+Azathioprine 7.385844543638044E-4
+Rapidly progressive glomerulonephritis 4.264020816005248E-4
+Systemic vasculitis 4.264020816005248E-4
 Contact dermatitis
-Num unmapped entities: 152
+Num unmapped entities: 184
 Mapping: 
  
 Mapping entity: dermatitis
@@ -638,6 +1634,12 @@ Mapping entity: irritant
 Unable to map entity: irritant
 Mapping entity: stasis dermatitis
 Unable to map entity: stasis dermatitis
+Mapping entity: allergy
+Unable to map entity: allergy
+Mapping entity: history
+Unable to map entity: history
+Mapping entity: lesion
+Unable to map entity: lesion
 Mapping entity: skin lesion
 Unable to map entity: skin lesion
 Mapping entity: allergen
@@ -653,12 +1655,20 @@ Mapping entity: foods
 Unable to map entity: foods
 Mapping entity: dyshidrosis
 Unable to map entity: dyshidrosis
+Mapping entity: pompholyx
+Unable to map entity: pompholyx
 Mapping entity: contact allergen
 Mapped contact allergen to Contact allergen
+Mapping entity: ear
+Unable to map entity: ear
 Mapping entity: release
 Unable to map entity: release
 Mapping entity: address
 Mapped address to Address
+Mapping entity: human skin
+Unable to map entity: human skin
+Mapping entity: immune system
+Unable to map entity: immune system
 Mapping entity: risk factor
 Mapped risk factor to Risk factor
 Mapping entity: substance
@@ -671,6 +1681,8 @@ Mapping entity: sunlight
 Mapped sunlight to Sunlight
 Mapping entity: diagnosis
 Unable to map entity: diagnosis
+Mapping entity: poison
+Unable to map entity: poison
 Mapping entity: urticaria
 Mapped urticaria to Urticaria
 Mapping entity: urushiol
@@ -688,6 +1700,8 @@ Mapping entity: cream
 Mapped cream to Cream
 Mapping entity: per
 Unable to map entity: per
+Mapping entity: rectum
+Unable to map entity: rectum
 Mapping entity: leaves
 Mapped leaves to Leaves
 Mapping entity: anaphylaxis
@@ -704,6 +1718,8 @@ Mapping entity: blepharitis
 Unable to map entity: blepharitis
 Mapping entity: rosacea
 Mapped rosacea to Rosacea
+Mapping entity: simplex
+Unable to map entity: simplex
 Mapping entity: herpes simplex
 Unable to map entity: herpes simplex
 Mapping entity: varicella
@@ -714,6 +1730,8 @@ Mapping entity: seborrheic dermatitis
 Mapped seborrheic dermatitis to Seborrheic dermatitis
 Mapping entity: vulvitis
 Mapped vulvitis to Vulvitis
+Mapping entity: vulva
+Unable to map entity: vulva
 Mapping entity: lichen
 Unable to map entity: lichen
 Mapping entity: application
@@ -736,10 +1754,18 @@ Mapping entity: hydrocortisone
 Mapped hydrocortisone to Hydrocortisone
 Mapping entity: name
 Unable to map entity: name
+Mapping entity: report
+Unable to map entity: report
+Mapping entity: eyelid
+Unable to map entity: eyelid
+Mapping entity: eyelid dermatitis
+Unable to map entity: eyelid dermatitis
 Mapping entity: insect repellent
 Unable to map entity: insect repellent
 Mapping entity: ingestion
 Mapped ingestion to Ingestion
+Mapping entity: central nervous system
+Unable to map entity: central nervous system
 Mapping entity: central nervous system depression
 Mapped central nervous system depression to Central Nervous System Depression
 Mapping entity: coordination
@@ -758,6 +1784,8 @@ Mapping entity: balsam of peru
 Mapped balsam of peru to Peru
 Mapping entity: stomatitis
 Unable to map entity: stomatitis
+Mapping entity: tongue
+Unable to map entity: tongue
 Mapping entity: cheilitis
 Mapped cheilitis to Cheilitis
 Mapping entity: pruritus
@@ -770,6 +1798,8 @@ Mapping entity: rhinitis
 Mapped rhinitis to Rhinitis
 Mapping entity: conjunctivitis
 Mapped conjunctivitis to Conjunctivitis
+Mapping entity: semen
+Unable to map entity: semen
 Mapping entity: intercourse
 Unable to map entity: intercourse
 Mapping entity: acne
@@ -792,6 +1822,8 @@ Mapping entity: allergic reaction
 Mapped allergic reaction to Allergic Reaction
 Mapping entity: psoriasis
 Unable to map entity: psoriasis
+Mapping entity: chickenpox
+Unable to map entity: chickenpox
 Mapping entity: caterpillar dermatitis
 Unable to map entity: caterpillar dermatitis
 Mapping entity: patch test
@@ -800,6 +1832,8 @@ Mapping entity: latex
 Mapped latex to Latex
 Mapping entity: latex allergy
 Mapped latex allergy to Latex Allergy
+Mapping entity: catheter
+Unable to map entity: catheter
 Mapping entity: radical
 Mapped radical to Radical
 Mapping entity: prostatectomy
@@ -810,12 +1844,16 @@ Mapping entity: wound
 Unable to map entity: wound
 Mapping entity: open wound
 Unable to map entity: open wound
+Mapping entity: pain
+Unable to map entity: pain
 Mapping entity: contact urticaria
 Mapped contact urticaria to Contact urticaria
 Mapping entity: removal
 Mapped removal to Removal
 Mapping entity: water repellent
 Mapped water repellent to Water repellent
+Mapping entity: dermis
+Unable to map entity: dermis
 Mapping entity: zinc
 Mapped zinc to Zinc
 Mapping entity: zinc oxide
@@ -824,10 +1862,16 @@ Mapping entity: talc
 Mapped talc to Talc
 Mapping entity: kaolin
 Mapped kaolin to Kaolin
+Mapping entity: hospital
+Unable to map entity: hospital
+Mapping entity: head
+Unable to map entity: head
 Mapping entity: root
 Mapped root to Root
 Mapping entity: nipple
 Mapped nipple to Nipple
+Mapping entity: health
+Unable to map entity: health
 Mapping entity: polylysine
 Mapped polylysine to Polylysine
 Mapping entity: desonide
@@ -838,6 +1882,14 @@ Mapping entity: disease
 Mapped disease to Disease
 Mapping entity: eye
 Unable to map entity: eye
+Mapping entity: throat
+Unable to map entity: throat
+Mapping entity: pharynx
+Unable to map entity: pharynx
+Mapping entity: larynx
+Unable to map entity: larynx
+Mapping entity: hair
+Unable to map entity: hair
 Mapping entity: dye
 Mapped dye to Dye
 Mapping entity: hair dye
@@ -885,10 +1937,14 @@ Mapping entity: thimerosal
 Mapped thimerosal to Thimerosal
 Mapping entity: osteochondritis
 Unable to map entity: osteochondritis
+Mapping entity: failure
+Unable to map entity: failure
 Mapping entity: renal failure
 Mapped renal failure to Renal Failure
 Mapping entity: chromium
 Mapped chromium to Chromium
+Mapping entity: cement
+Unable to map entity: cement
 Mapping entity: tea
 Mapped tea to Tea
 Mapping entity: bullous dermatosis
@@ -903,8 +1959,11 @@ Mapping entity: lactone
 Mapped lactone to Lactone
 Mapping entity: pollen
 Mapped pollen to Pollen
+Mapping entity: fever
 Mapping entity: triethanolamine
 Mapped triethanolamine to Triethanolamine
+Mapping entity: respiratory tract
+Unable to map entity: respiratory tract
 Mapping entity: diethanolamine
 Mapped diethanolamine to Diethanolamine
 Mapping entity: dermatitis herpetiformis
@@ -1024,8 +2083,52 @@ Matched entity: Farnesol for category: Alcohols
 Removed entity: Hydroxybenzoic acid
 Matched entity: Biopsy for category: Biopsy
 Removed entity: Dust
+Dermatitis 0.46883147893828647
+Contact dermatitis 0.2881023268918311
+Allergen 0.037863123764773514
+Nickel 0.026118047682752735
+Asthma 0.012322010479872619
+Alcohol 0.011848434505784763
+Oil 0.010838431072975694
+Lead 0.009070124930506436
+Disease 0.007369943870753406
+Chemical substance 0.006459822981090897
+Feces 0.006307051802705703
+Prostatectomy 0.005997463137386617
+Exudate 0.005842281850519765
+Diethanolamine 0.005608882325904738
+Anaphylaxis 0.005587292945510014
+Cheilitis 0.005565282812463277
+Rhinitis 0.005565282812463277
+Conjunctivitis 0.005565282812463277
+Hand eczema 0.005161045574695797
+Biopsy 0.004352571099160839
+Ingestion 0.003864215502449084
+Contact urticaria 0.0038451112269542007
+Kidney failure 0.0037865273856297543
+Zinc 0.00377349282096069
+Impetigo 0.003705018773412771
+Candidiasis 0.003705018773412771
+Farnesol 0.0036570734579159103
+Tracheitis 0.0035984778824319657
+Esophagitis 0.0035984778824319657
+Propylene glycol 0.003565116098239109
+Lactone 0.003475484015316697
+Pollen 0.003475484015316697
+Lichen planus 0.00229960090490972
+Hydrocortisone 0.0022232137989064375
+Chromium 0.0021582728604093927
+Risk factor 0.002064573072298664
+Nipple 0.00193777683240123
+Ointment 0.0019263455742646815
+Triethanolamine 0.001869627441968246
+Leaf 0.0018624309818366712
+Latex allergy 0.0014993657843466541
+Central nervous system depression 0.0014248174980585383
+Phytochemical 0.0011584946717722324
+Drug 0.00114980045245486
 Gut-brain axis
-Num unmapped entities: 39
+Num unmapped entities: 52
 Mapping: 
  
 Mapping entity: material
@@ -1050,6 +2153,12 @@ Mapping entity: various
 Unable to map entity: various
 Mapping entity: iron
 Mapped iron to Iron
+Mapping entity: inertia
+Unable to map entity: inertia
+Mapping entity: mass
+Unable to map entity: mass
+Mapping entity: fluid
+Unable to map entity: fluid
 Mapping entity: qrs axis
 Unable to map entity: qrs axis
 Mapping entity: frontal plane
@@ -1073,18 +2182,32 @@ Mapping entity: attitude
 Mapped attitude to Attitude
 Mapping entity: stabilization
 Unable to map entity: stabilization
+Mapping entity: orbit
+Unable to map entity: orbit
 Mapping entity: pitch
 Mapped pitch to Pitch
 Mapping entity: astigmatism
 Unable to map entity: astigmatism
 Mapping entity: fiber
 Mapped fiber to Fiber
+Mapping entity: volume
+Unable to map entity: volume
 Mapping entity: removal
 Mapped removal to Removal
 Mapping entity: transplantation
 Mapped transplantation to Transplantation
 Mapping entity: diagonal axis
 Unable to map entity: diagonal axis
+Mapping entity: joint
+Unable to map entity: joint
+Mapping entity: space
+Unable to map entity: space
+Mapping entity: length
+Unable to map entity: length
+Mapping entity: behavior
+Unable to map entity: behavior
+Mapping entity: weight
+Unable to map entity: weight
 Mapping entity: brass
 Unable to map entity: brass
 Mapping entity: metal
@@ -1097,6 +2220,12 @@ Mapping entity: adjustment
 Unable to map entity: adjustment
 Mapping entity: water
 Unable to map entity: water
+Mapping entity: head
+Unable to map entity: head
+Mapping entity: rectum
+Unable to map entity: rectum
+Mapping entity: radius
+Unable to map entity: radius
 Mapping entity: waste material
 Unable to map entity: waste material
 Mapping entity: photon
@@ -1127,18 +2256,31 @@ Matched entity: Temperature for category: Physical%20quantities
 Removed entity: Vibration
 Removed entity: Photon
 Removed entity: Function
+Magnesium 0.055615632336142265
+Iron 0.04146335197156112
+Lead 0.03469422167387235
+Temperature 0.018342941286640255
+Coronal plane 0.004046564017173976
 Antibiotic misuse
-Num unmapped entities: 89
+Num unmapped entities: 113
 Mapping: 
  
 Mapping entity: antibiotic
 Mapped antibiotic to Antibiotic
+Mapping entity: health
+Unable to map entity: health
 Mapping entity: drug
 Mapped drug to Drug
 Mapping entity: drug resistance
 Unable to map entity: drug resistance
 Mapping entity: antifungal
 Unable to map entity: antifungal
+Mapping entity: failure
+Unable to map entity: failure
+Mapping entity: weight
+Unable to map entity: weight
+Mapping entity: history
+Unable to map entity: history
 Mapping entity: administration
 Mapped administration to Administration
 Mapping entity: rest
@@ -1147,22 +2289,35 @@ Mapping entity: prescription
 Mapped prescription to Prescription
 Mapping entity: common cold
 Unable to map entity: common cold
+Mapping entity: respiratory tract
+Unable to map entity: respiratory tract
 Mapping entity: infection
 Unable to map entity: infection
 Mapping entity: respiratory tract infection
 Unable to map entity: respiratory tract infection
 Mapping entity: promotion
 Unable to map entity: promotion
+Mapping entity: food
+Unable to map entity: food
 Mapping entity: protein
 Unable to map entity: protein
 Mapping entity: animal protein
 Unable to map entity: animal protein
+Mapping entity: throat
+Unable to map entity: throat
+Mapping entity: fever
 Mapping entity: rheumatic fever
 Mapped rheumatic fever to Rheumatic Fever
+Mapping entity: heart
+Unable to map entity: heart
 Mapping entity: disease
 Mapped disease to Disease
 Mapping entity: heart disease
 Mapped heart disease to Heart Disease
+Mapping entity: valve replacement
+Unable to map entity: valve replacement
+Mapping entity: heart valve
+Unable to map entity: heart valve
 Mapping entity: per
 Unable to map entity: per
 Mapping entity: erythromycin
@@ -1171,8 +2326,12 @@ Mapping entity: injection
 Unable to map entity: injection
 Mapping entity: eye
 Unable to map entity: eye
+Mapping entity: conjunctiva
+Unable to map entity: conjunctiva
 Mapping entity: conjunctivitis
 Mapped conjunctivitis to Conjunctivitis
+Mapping entity: ear
+Unable to map entity: ear
 Mapping entity: otitis
 Mapped otitis to Otitis
 Mapping entity: otitis externa
@@ -1189,6 +2348,8 @@ Mapping entity: dermatitis
 Mapped dermatitis to Dermatitis
 Mapping entity: contact dermatitis
 Mapped contact dermatitis to Contact dermatitis
+Mapping entity: staphylococcus
+Unable to map entity: staphylococcus
 Mapping entity: race
 Unable to map entity: race
 Mapping entity: pesticide
@@ -1209,6 +2370,8 @@ Mapping entity: chemical
 Mapped chemical to Chemical
 Mapping entity: chemical compound
 Unable to map entity: chemical compound
+Mapping entity: culture
+Unable to map entity: culture
 Mapping entity: agar
 Unable to map entity: agar
 Mapping entity: root
@@ -1219,6 +2382,8 @@ Mapping entity: fertilizer
 Mapped fertilizer to Fertilizer
 Mapping entity: water
 Unable to map entity: water
+Mapping entity: death
+Unable to map entity: death
 Mapping entity: oxygen
 Mapped oxygen to Oxygen
 Mapping entity: otitis media
@@ -1241,16 +2406,22 @@ Mapping entity: hormone
 Mapped hormone to Hormone
 Mapping entity: molecule
 Mapped molecule to Molecule
+Mapping entity: fermentation
+Unable to map entity: fermentation
 Mapping entity: process
 Unable to map entity: process
 Mapping entity: nutrients
 Mapped nutrients to Nutrients
 Mapping entity: vocal
 Unable to map entity: vocal
+Mapping entity: hospital
+Unable to map entity: hospital
 Mapping entity: drug prescription
 Mapped drug prescription to Drug prescription
 Mapping entity: self-control
 Mapped self-control to Self-control
+Mapping entity: discipline
+Unable to map entity: discipline
 Mapping entity: triclosan
 Unable to map entity: triclosan
 Mapping entity: soap
@@ -1261,6 +2432,8 @@ Mapping entity: malaria
 Unable to map entity: malaria
 Mapping entity: mucus
 Unable to map entity: mucus
+Mapping entity: immune system
+Unable to map entity: immune system
 Mapping entity: management
 Unable to map entity: management
 Mapping entity: beta-lactam
@@ -1269,6 +2442,8 @@ Mapping entity: vancomycin
 Unable to map entity: vancomycin
 Mapping entity: doxycycline
 Unable to map entity: doxycycline
+Mapping entity: chlamydophila pneumoniae
+Unable to map entity: chlamydophila pneumoniae
 Mapping entity: scheduling
 Mapped scheduling to Scheduling
 Mapping entity: zopiclone
@@ -1288,6 +2463,8 @@ Mapping entity: dicloxacillin
 Unable to map entity: dicloxacillin
 Mapping entity: beta-lactamase
 Mapped beta-lactamase to Beta-lactamase
+Mapping entity: ring
+Unable to map entity: ring
 Mapping entity: carbapenem
 Mapped carbapenem to Carbapenem
 Mapping entity: enzyme
@@ -1304,6 +2481,10 @@ Mapping entity: tetracycline
 Unable to map entity: tetracycline
 Mapping entity: tetracyclines
 Mapped tetracyclines to Tetracyclines
+Mapping entity: report
+Unable to map entity: report
+Mapping entity: diarrhea
+Unable to map entity: diarrhea
 Mapping entity: acute diarrhea
 Mapped acute diarrhea to Acute diarrhea
 Mapping entity: hemolytic uremic syndrome
@@ -1359,18 +2540,46 @@ Removed entity: Animal feed
 Removed entity: Tetracycline antibiotics
 Removed entity: Acute diarrhea
 Removed entity: Hemolytic Uremic Syndrome
+Drug 0.17786265533492973
+Oxygen 0.05182765310452953
+Disease 0.04422805175890613
+Pesticide 0.038569711909152815
+Alcohol 0.03604258556575582
+Tuberculosis 0.03434456748172634
+Rheumatic fever 0.031509576454730674
+Influenza 0.028970531909832356
+Hormone 0.023857748274883076
+Otitis 0.019432511822331675
+Otitis media 0.015891845760251995
+Conjunctivitis 0.01062199818623904
+Cellulitis 0.01062199818623904
+Dermatitis 0.00708133212415936
+Contact dermatitis 0.00708133212415936
+Chemical substance 0.005567139362465029
+Ampicillin 0.0024815512113014406
+Beta-lactamase 0.0019210153666323515
+Enzyme 0.0010938316295318715
+Enzyme inhibitor 5.469158147659357E-4
+Substance abuse 3.966937370383562E-4
 Legionella
-Num unmapped entities: 51
+Num unmapped entities: 60
 Mapping: 
  
+Mapping entity: legionella
+Unable to map entity: legionella
+Mapping entity: fever
 Mapping entity: pontiac fever
 Mapped pontiac fever to Pontiac fever
+Mapping entity: legionella pneumophila
+Unable to map entity: legionella pneumophila
 Mapping entity: water
 Unable to map entity: water
 Mapping entity: disease
 Mapped disease to Disease
 Mapping entity: aerosol
 Unable to map entity: aerosol
+Mapping entity: health
+Unable to map entity: health
 Mapping entity: diagnosis
 Unable to map entity: diagnosis
 Mapping entity: pneumonia
@@ -1422,18 +2631,24 @@ Mapping entity: drinking
 Mapped drinking to Drinking
 Mapping entity: name
 Unable to map entity: name
+Mapping entity: mycobacterium
+Unable to map entity: mycobacterium
 Mapping entity: various
 Unable to map entity: various
 Mapping entity: hot water
 Mapped hot water to Hot Water
 Mapping entity: legionella pneumonia
 Unable to map entity: legionella pneumonia
+Mapping entity: culture
+Unable to map entity: culture
 Mapping entity: antigen of legionella
 Mapped antigen of legionella to Legionella
 Mapping entity: investigations
 Unable to map entity: investigations
 Mapping entity: release
 Unable to map entity: release
+Mapping entity: nursing
+Unable to map entity: nursing
 Mapping entity: extraction
 Unable to map entity: extraction
 Mapping entity: base
@@ -1450,10 +2665,14 @@ Mapping entity: protein
 Unable to map entity: protein
 Mapping entity: hemolysis
 Unable to map entity: hemolysis
+Mapping entity: cytotoxicity
+Unable to map entity: cytotoxicity
 Mapping entity: peptide
 Unable to map entity: peptide
 Mapping entity: carbon
 Unable to map entity: carbon
+Mapping entity: lung
+Unable to map entity: lung
 Mapping entity: tap water
 Mapped tap water to Tap Water
 Mapping entity: air
@@ -1486,22 +2705,39 @@ Removed entity: Acetyltransferase
 Removed entity: Reading
 Removed entity: Tap water
 Removed entity: Air
+Disease 0.1786776623655743
+Pneumonia 0.10392892311856217
+Pontiac fever 0.05683053002600884
+Catalase 0.044675990291463394
+Antigen 0.021787826634737027
+Temperature 0.01924428551615562
+Blood 0.00717210114615305
+Legionella 0.004237339876267537
+Drinking 0.0030921753666497214
+Antibody 0.003025269001978138
+Iron 0.003025269001978138
 Irritable bowel syndrome
-Num unmapped entities: 205
+Num unmapped entities: 249
 Mapping: 
  
 Mapping entity: constipation
 Unable to map entity: constipation
 Mapping entity: irritable bowel syndrome
 Mapped irritable bowel syndrome to Irritable Bowel Syndrome
+Mapping entity: pattern
+Unable to map entity: pattern
 Mapping entity: bile
 Mapped bile to Bile
 Mapping entity: acid
 Unable to map entity: acid
 Mapping entity: bile acid
 Unable to map entity: bile acid
+Mapping entity: diarrhea
+Unable to map entity: diarrhea
 Mapping entity: diagnosis
 Unable to map entity: diagnosis
+Mapping entity: review
+Unable to map entity: review
 Mapping entity: lactobacillus
 Mapped lactobacillus to Lactobacillus
 Mapping entity: probiotic agent
@@ -1512,6 +2748,8 @@ Mapping entity: cholangitis
 Unable to map entity: cholangitis
 Mapping entity: fiber
 Mapped fiber to Fiber
+Mapping entity: nutrition
+Unable to map entity: nutrition
 Mapping entity: inulin
 Unable to map entity: inulin
 Mapping entity: oligosaccharide
@@ -1524,18 +2762,28 @@ Mapping entity: ulcerative colitis
 Unable to map entity: ulcerative colitis
 Mapping entity: fatty acid
 Unable to map entity: fatty acid
+Mapping entity: food
+Unable to map entity: food
+Mapping entity: pain
+Unable to map entity: pain
 Mapping entity: insomnia
 Mapped insomnia to Insomnia
 Mapping entity: calprotectin
 Mapped calprotectin to Calprotectin
+Mapping entity: wall
+Unable to map entity: wall
 Mapping entity: protein
 Unable to map entity: protein
+Mapping entity: measurement
+Unable to map entity: measurement
 Mapping entity: indium
 Mapped indium to Indium
 Mapping entity: gold
 Mapped gold to Gold
 Mapping entity: coeliac disease
 Mapped coeliac disease to Coeliac Disease
+Mapping entity: lesion
+Unable to map entity: lesion
 Mapping entity: gluten
 Unable to map entity: gluten
 Mapping entity: fructose
@@ -1565,6 +2813,10 @@ Mapped lead to Lead
 Mapping entity: serotonin
 Unable to map entity: serotonin
 Mapping entity: ondansetron
+Mapping entity: central nervous system
+Unable to map entity: central nervous system
+Mapping entity: rheumatology
+Unable to map entity: rheumatology
 Mapping entity: rheumatism
 Unable to map entity: rheumatism
 Mapping entity: connective tissue
@@ -1577,16 +2829,26 @@ Mapping entity: drug
 Mapped drug to Drug
 Mapping entity: nutrients
 Mapped nutrients to Nutrients
+Mapping entity: circulatory system
+Unable to map entity: circulatory system
 Mapping entity: toxin
 Mapped toxin to Toxin
 Mapping entity: antigen
 Mapped antigen to Antigen
+Mapping entity: health
+Unable to map entity: health
+Mapping entity: allergy
+Unable to map entity: allergy
 Mapping entity: food allergy
 Mapped food allergy to Food Allergy
 Mapping entity: infection
 Unable to map entity: infection
+Mapping entity: liver
+Unable to map entity: liver
 Mapping entity: fatty liver
 Mapped fatty liver to Fatty liver
+Mapping entity: liver disease
+Unable to map entity: liver disease
 Mapping entity: diabetes mellitus
 Mapped diabetes mellitus to Diabetes Mellitus
 Mapping entity: shock
@@ -1615,6 +2877,8 @@ Mapping entity: attention deficit hyperactivity disorder
 Mapped attention deficit hyperactivity disorder to Attention deficit
 Mapping entity: asthma
 Mapped asthma to Asthma
+Mapping entity: brain
+Unable to map entity: brain
 Mapping entity: injury
 Unable to map entity: injury
 Mapping entity: traumatic brain injury
@@ -1639,16 +2903,22 @@ Mapping entity: endometriosis
 Unable to map entity: endometriosis
 Mapping entity: epilepsy
 Unable to map entity: epilepsy
+Mapping entity: hypertension
+Unable to map entity: hypertension
 Mapping entity: essential hypertension
 Mapped essential hypertension to Essential Hypertension
 Mapping entity: glaucoma
 Unable to map entity: glaucoma
+Mapping entity: fertility
+Unable to map entity: fertility
 Mapping entity: nausea
 Unable to map entity: nausea
 Mapping entity: vomiting
 Unable to map entity: vomiting
 Mapping entity: ischemic encephalopathy
 Unable to map entity: ischemic encephalopathy
+Mapping entity: stenosis
+Unable to map entity: stenosis
 Mapping entity: spinal stenosis
 Unable to map entity: spinal stenosis
 Mapping entity: depressive disorder
@@ -1663,10 +2933,18 @@ Mapping entity: restless legs
 Mapped restless legs to Restless legs
 Mapping entity: schizophrenia
 Unable to map entity: schizophrenia
+Mapping entity: hearing
+Unable to map entity: hearing
 Mapping entity: hearing loss
 Unable to map entity: hearing loss
 Mapping entity: stress urinary incontinence
 Unable to map entity: stress urinary incontinence
+Mapping entity: stroke
+Unable to map entity: stroke
+Mapping entity: joint
+Unable to map entity: joint
+Mapping entity: tennis elbow
+Unable to map entity: tennis elbow
 Mapping entity: tinnitus
 Mapped tinnitus to Tinnitus
 Mapping entity: pruritus
@@ -1685,6 +2963,10 @@ Mapping entity: administration
 Mapped administration to Administration
 Mapping entity: drug administration
 Mapped drug administration to Drug administration
+Mapping entity: abdomen
+Unable to map entity: abdomen
+Mapping entity: bloating
+Unable to map entity: bloating
 Mapping entity: guar gum
 Mapped guar gum to Guar Gum
 Mapping entity: water
@@ -1693,12 +2975,16 @@ Mapping entity: laxative
 Mapped laxative to Laxative
 Mapping entity: burning mouth syndrome
 Unable to map entity: burning mouth syndrome
+Mapping entity: facial
+Unable to map entity: facial
 Mapping entity: atypical facial pain
 Mapped atypical facial pain to Pain
 Mapping entity: atypical odontalgia
 Unable to map entity: atypical odontalgia
 Mapping entity: functional disorder
 Unable to map entity: functional disorder
+Mapping entity: psychogenic pain
+Unable to map entity: psychogenic pain
 Mapping entity: back pain
 Unable to map entity: back pain
 Mapping entity: functional abdominal pain syndrome
@@ -1771,6 +3057,8 @@ Mapping entity: alverine
 Mapped alverine to Alverine
 Mapping entity: smooth muscle relaxant
 Unable to map entity: smooth muscle relaxant
+Mapping entity: uterus
+Unable to map entity: uterus
 Mapping entity: diverticular disease
 Mapped diverticular disease to Diverticular disease
 Mapping entity: activity
@@ -1789,14 +3077,20 @@ Mapping entity: intervention
 Unable to map entity: intervention
 Mapping entity: menopausal syndrome
 Unable to map entity: menopausal syndrome
+Mapping entity: fecal incontinence
+Unable to map entity: fecal incontinence
 Mapping entity: encopresis
 Unable to map entity: encopresis
 Mapping entity: defecation
 Mapped defecation to Defecation
+Mapping entity: liquid
+Unable to map entity: liquid
 Mapping entity: mucus
 Unable to map entity: mucus
 Mapping entity: feces
 Mapped feces to Feces
+Mapping entity: medical diagnosis
+Unable to map entity: medical diagnosis
 Mapping entity: food intolerance
 Mapped food intolerance to Food Intolerance
 Mapping entity: barium
@@ -1811,6 +3105,8 @@ Mapping entity: appendicitis
 Unable to map entity: appendicitis
 Mapping entity: acute appendicitis
 Unable to map entity: acute appendicitis
+Mapping entity: cancer
+Unable to map entity: cancer
 Mapping entity: ischemic colitis
 Mapped ischemic colitis to Ischemic colitis
 Mapping entity: function
@@ -1825,22 +3121,30 @@ Mapping entity: eczema
 Unable to map entity: eczema
 Mapping entity: rhinitis
 Mapped rhinitis to Rhinitis
+Mapping entity: eosinophilic
+Unable to map entity: eosinophilic
 Mapping entity: esophagitis
 Mapped esophagitis to Esophagitis
 Mapping entity: eosinophilic esophagitis
 Mapped eosinophilic esophagitis to Eosinophilic esophagitis
+Mapping entity: mucositis
+Unable to map entity: mucositis
 Mapping entity: influenza
 Mapped influenza to Influenza
 Mapping entity: avian influenza
 Unable to map entity: avian influenza
 Mapping entity: anthrax
 Mapped anthrax to Anthrax
+Mapping entity: kidney
+Unable to map entity: kidney
 Mapping entity: lubiprostone
 Mapped lubiprostone to Lubiprostone
 Mapping entity: chronic diarrhea
 Mapped chronic diarrhea to Chronic diarrhea
 Mapping entity: diabetes type
 Unable to map entity: diabetes type
+Mapping entity: carcinoid
+Unable to map entity: carcinoid
 Mapping entity: carcinoid syndrome
 Unable to map entity: carcinoid syndrome
 Mapping entity: arthritis
@@ -1867,8 +3171,12 @@ Mapping entity: migraine
 Mapped migraine to Migraine
 Mapping entity: process
 Unable to map entity: process
+Mapping entity: head
+Unable to map entity: head
 Mapping entity: screening
 Mapped screening to Screening
+Mapping entity: weight
+Unable to map entity: weight
 Mapping entity: thyroiditis
 Mapped thyroiditis to Thyroiditis
 Mapping entity: autoimmune thyroiditis
@@ -1877,6 +3185,10 @@ Mapping entity: dermatitis
 Mapped dermatitis to Dermatitis
 Mapping entity: dermatitis herpetiformis
 Unable to map entity: dermatitis herpetiformis
+Mapping entity: autonomic nervous system
+Unable to map entity: autonomic nervous system
+Mapping entity: acquired disorder
+Unable to map entity: acquired disorder
 Mapping entity: chemical
 Mapped chemical to Chemical
 Mapping entity: alcohol intoxication
@@ -1897,8 +3209,14 @@ Mapping entity: motility
 Unable to map entity: motility
 Mapping entity: ion
 Mapped ion to Ion
+Mapping entity: fluid
+Unable to map entity: fluid
 Mapping entity: balance
 Mapped balance to Balance
+Mapping entity: fluid balance
+Unable to map entity: fluid balance
+Mapping entity: secretion
+Unable to map entity: secretion
 Num mapped entities: 107
 Filtering: 
  
@@ -2009,8 +3327,71 @@ Removed entity: Receptor
 Removed entity: Cannabinoid
 Removed entity: Ion
 Removed entity: Balance
+Irritable bowel syndrome 0.4216785114845304
+Disease 0.15168826825357326
+Fibromyalgia 0.057224472435745646
+Chronic fatigue syndrome 0.052127046015277324
+Inflammatory bowel disease 0.05020446232745003
+Insomnia 0.01896977788562951
+Drug 0.017391109087761605
+Bile 0.014066367174737285
+Coeliac disease 0.0105248584813005
+Calcium 0.008984210672816706
+Laxative 0.008910240350358244
+Serine 0.007921186704955355
+Lead 0.007104742689794107
+Fatty liver 0.00672433984222273
+Septic shock 0.00672433984222273
+Alverine 0.006595052547573124
+Defecation 0.006420795605168253
+Lubiprostone 0.006043019524499952
+Eating 0.005407355658008933
+Colonoscopy 0.00535704130691118
+Arthritis 0.00517575957248428
+Rheumatoid arthritis 0.00517575957248428
+Asthma 0.005117829105111511
+Pain 0.005086110895456499
+Rhinitis 0.004988889244277313
+Anthrax 0.004972868405342576
+Alcohol 0.004903201499638948
+Indium 0.004716315338974752
+Tuberculosis 0.004566423668554716
+Feces 0.004280530403445502
+Diverticular disease 0.003957031528543874
+Chemical substance 0.0039497792761770565
+Reflex 0.0038672046291565445
+Gastrocolic reflex 0.0038672046291565445
+Migraine 0.0035936842691266825
+Sorbitol 0.003559569915560095
+Personality disorder 0.0034085437836456458
+Anxiety disorder 0.0034085437836456458
+Influenza 0.003315245603561718
+Peptic ulcer 0.003080302057704776
+Tegaserod 0.002978429611587193
+Dermatitis 0.002737899989486561
+Drinking 0.0026806813239698465
+Barium 0.00267852065345559
+Biopsy 0.0026403955683184516
+Diabetes mellitus 0.0026041072534316685
+Fruit 0.0023730466103733965
+Oil 0.0023730466103733965
+Posttraumatic stress disorder 0.002210649027270085
+Toxin 0.0021279124491585615
+Antigen 0.0021279124491585615
+Esophagitis 0.001662963081425771
+Gold 0.0015721051129915843
+Poisoning 0.001540151028852388
+Carpal tunnel syndrome 0.0015046475115401193
+Intracerebral hemorrhage 0.0015046475115401193
+Cocaine 0.0015046475115401193
+Essential hypertension 0.0015046475115401193
+Vascular dementia 0.0015046475115401193
+Thyroiditis 0.0013689499947432805
+Autoimmune thyroiditis 0.0013689499947432805
+Dietary fiber 0.0011865233051866983
+Coffee 0.0011865233051866983
 Norepinephrine
-Num unmapped entities: 136
+Num unmapped entities: 163
 Mapping: 
  
 Mapping entity: venlafaxine
@@ -2023,12 +3404,18 @@ Mapping entity: dopamine
 Unable to map entity: dopamine
 Mapping entity: neurotransmitter
 Mapped neurotransmitter to Neurotransmitter
+Mapping entity: brain
+Unable to map entity: brain
 Mapping entity: drug
 Mapped drug to Drug
 Mapping entity: cocaine
 Mapped cocaine to Cocaine
 Mapping entity: chemical
 Mapped chemical to Chemical
+Mapping entity: nerve
+Unable to map entity: nerve
+Mapping entity: extracellular
+Unable to map entity: extracellular
 Mapping entity: release
 Unable to map entity: release
 Mapping entity: receptor
@@ -2041,6 +3428,8 @@ Mapping entity: eye
 Unable to map entity: eye
 Mapping entity: process
 Unable to map entity: process
+Mapping entity: pupil
+Unable to map entity: pupil
 Mapping entity: bupropion
 Mapped bupropion to Bupropion
 Mapping entity: activity
@@ -2063,12 +3452,18 @@ Mapping entity: methamphetamine
 Unable to map entity: methamphetamine
 Mapping entity: imipramine
 Unable to map entity: imipramine
+Mapping entity: central nervous system
+Unable to map entity: central nervous system
 Mapping entity: enzyme
 Mapped enzyme to Enzyme
 Mapping entity: tyrosine
 Unable to map entity: tyrosine
+Mapping entity: intracellular
+Unable to map entity: intracellular
 Mapping entity: expression
 Mapped expression to Expression
+Mapping entity: secretion
+Unable to map entity: secretion
 Mapping entity: suppression
 Unable to map entity: suppression
 Mapping entity: protein
@@ -2087,6 +3482,8 @@ Mapping entity: clinical trial
 Unable to map entity: clinical trial
 Mapping entity: guanethidine
 Unable to map entity: guanethidine
+Mapping entity: action potential
+Unable to map entity: action potential
 Mapping entity: amitriptyline
 Unable to map entity: amitriptyline
 Mapping entity: nortriptyline
@@ -2105,6 +3502,10 @@ Mapping entity: blood
 Mapped blood to Blood
 Mapping entity: sugar
 Mapped sugar to Sugar
+Mapping entity: blood sugar
+Unable to map entity: blood sugar
+Mapping entity: weight
+Unable to map entity: weight
 Mapping entity: function
 Mapped function to Function
 Mapping entity: lurasidone
@@ -2125,10 +3526,14 @@ Mapping entity: local anesthetic
 Unable to map entity: local anesthetic
 Mapping entity: elevation
 Unable to map entity: elevation
+Mapping entity: pharmacology
+Unable to map entity: pharmacology
 Mapping entity: mental disorder
 Unable to map entity: mental disorder
 Mapping entity: synephrine
 Unable to map entity: synephrine
+Mapping entity: vein
+Unable to map entity: vein
 Mapping entity: phenylephrine
 Unable to map entity: phenylephrine
 Mapping entity: management
@@ -2161,10 +3566,14 @@ Mapping entity: duloxetine
 Unable to map entity: duloxetine
 Mapping entity: milnacipran
 Mapped milnacipran to Milnacipran
+Mapping entity: pain
+Unable to map entity: pain
 Mapping entity: hormone
 Mapped hormone to Hormone
 Mapping entity: gland
 Mapped gland to Gland
+Mapping entity: forebrain
+Unable to map entity: forebrain
 Mapping entity: panic disorder
 Unable to map entity: panic disorder
 Mapping entity: disease
@@ -2175,12 +3584,20 @@ Mapping entity: atomoxetine
 Unable to map entity: atomoxetine
 Mapping entity: insulin
 Mapped insulin to Insulin
+Mapping entity: biochemistry
+Unable to map entity: biochemistry
 Mapping entity: stain
 Unable to map entity: stain
 Mapping entity: dopexamine
 Mapped dopexamine to Dopexamine
+Mapping entity: heart
+Unable to map entity: heart
+Mapping entity: failure
+Unable to map entity: failure
 Mapping entity: heart failure
 Mapped heart failure to Heart Failure
+Mapping entity: cardiac surgery
+Unable to map entity: cardiac surgery
 Mapping entity: dobutamine
 Mapped dobutamine to Dobutamine
 Mapping entity: levosimendan
@@ -2195,6 +3612,8 @@ Mapping entity: first line treatment
 Mapped first line treatment to First line treatment
 Mapping entity: heart rate
 Mapped heart rate to Heart Rate
+Mapping entity: bradycardia
+Unable to map entity: bradycardia
 Mapping entity: blood pressure
 Unable to map entity: blood pressure
 Mapping entity: dopa
@@ -2209,6 +3628,8 @@ Mapping entity: vitamin
 Mapped vitamin to Vitamin
 Mapping entity: vasodilator
 Mapped vasodilator to Vasodilator
+Mapping entity: carotid body
+Unable to map entity: carotid body
 Mapping entity: oxygen
 Mapped oxygen to Oxygen
 Mapping entity: serum
@@ -2217,6 +3638,8 @@ Mapping entity: ethylamine
 Mapped ethylamine to Ethylamine
 Mapping entity: electron
 Mapped electron to Electron
+Mapping entity: ring
+Unable to map entity: ring
 Mapping entity: piperazine
 Unable to map entity: piperazine
 Mapping entity: glaucoma
@@ -2236,6 +3659,8 @@ Mapping entity: carbon fiber
 Unable to map entity: carbon fiber
 Mapping entity: adenosine
 Mapped adenosine to Adenosine
+Mapping entity: measurement
+Unable to map entity: measurement
 Mapping entity: fruit
 Mapped fruit to Fruit
 Mapping entity: oxidase
@@ -2260,6 +3685,8 @@ Mapping entity: enjoyment of life
 Mapped enjoyment of life to Life
 Mapping entity: histamine
 Mapped histamine to Histamine
+Mapping entity: fluid
+Unable to map entity: fluid
 Mapping entity: intracellular fluid
 Mapped intracellular fluid to Intracellular fluid
 Mapping entity: storage
@@ -2276,14 +3703,22 @@ Mapping entity: glucocorticoid
 Mapped glucocorticoid to Glucocorticoid
 Mapping entity: steroid hormone
 Mapped steroid hormone to Steroid Hormone
+Mapping entity: liver
+Unable to map entity: liver
 Mapping entity: peptide
 Unable to map entity: peptide
+Mapping entity: intake
+Unable to map entity: intake
 Mapping entity: prazosin
 Mapped prazosin to Prazosin
+Mapping entity: tail
+Unable to map entity: tail
 Mapping entity: suspension
 Unable to map entity: suspension
 Mapping entity: reserpine
 Unable to map entity: reserpine
+Mapping entity: hypothermia
+Unable to map entity: hypothermia
 Num mapped entities: 64
 Filtering: 
  
@@ -2351,20 +3786,58 @@ Removed entity: Glutamate
 Removed entity: Glucocorticoid
 Removed entity: Steroid hormone
 Matched entity: Prazosin for category: Phenol%20ethers
+Norepinephrine 0.7613259801696233
+Drug 0.04136922783289096
+Enzyme 0.02553047294634218
+Bupropion 0.014711344693733565
+Insulin 0.012398775501903894
+Blood 0.011560071717141822
+Chemical substance 0.011503659885515861
+Hormone 0.011269253313091556
+Milnacipran 0.010227161045713511
+Motivation 0.009045954068068813
+Cocaine 0.008782701088519106
+Disease 0.008729964952740555
+Oxygen 0.007617391252198359
+Heart failure 0.006114627125157543
+Vitamin 0.0060505404043636555
+Amoxapine 0.005702484913351459
+Prazosin 0.005498026070519807
+Histamine 0.0051864820213094985
+Glucose 0.004945969777909667
+Estrone 0.004678993062968376
+Migraine 0.003846942021903345
+Anesthetic 0.0032418054186782955
+Septic shock 0.0030252702021818277
+Heart rate 0.0030252702021818277
+Chloride 0.0026749944245246507
+Ziprasidone 0.0025138126237893937
+Gland 0.0021023942878915726
+Fruit 0.001786524854832133
+G protein 0.0017377774898631431
+Alcohol 0.001282314007301115
+Lurasidone 0.0012569063118946968
+Risperidone 0.0012569063118946968
 Gut flora
-Num unmapped entities: 114
+Num unmapped entities: 140
 Mapping: 
  
+Mapping entity: brain
+Unable to map entity: brain
 Mapping entity: various
 Unable to map entity: various
 Mapping entity: disease
 Mapped disease to Disease
 Mapping entity: epithelium
 Mapped epithelium to Epithelium
+Mapping entity: food
+Unable to map entity: food
 Mapping entity: obesity
 Unable to map entity: obesity
 Mapping entity: process
 Unable to map entity: process
+Mapping entity: pattern
+Unable to map entity: pattern
 Mapping entity: drive
 Mapped drive to Drive
 Mapping entity: fiber
@@ -2377,12 +3850,24 @@ Mapping entity: toxin
 Mapped toxin to Toxin
 Mapping entity: feeding
 Mapped feeding to Feeding
+Mapping entity: facial
+Unable to map entity: facial
+Mapping entity: large intestine
+Unable to map entity: large intestine
 Mapping entity: air
 Mapped air to Air
 Mapping entity: meat
 Unable to map entity: meat
+Mapping entity: clostridium perfringens
+Unable to map entity: clostridium perfringens
+Mapping entity: behavior
+Unable to map entity: behavior
 Mapping entity: serotonin
 Unable to map entity: serotonin
+Mapping entity: review
+Unable to map entity: review
+Mapping entity: central nervous system
+Unable to map entity: central nervous system
 Mapping entity: inflammatory bowel disease
 Mapped inflammatory bowel disease to Inflammatory Bowel Disease
 Mapping entity: colitis
@@ -2391,13 +3876,21 @@ Mapping entity: ulcerative colitis
 Unable to map entity: ulcerative colitis
 Mapping entity: driving
 Unable to map entity: driving
+Mapping entity: nerve
+Unable to map entity: nerve
+Mapping entity: vagus nerve
+Unable to map entity: vagus nerve
 Mapping entity: water
 Unable to map entity: water
 Mapping entity: soil
 Mapping entity: microbiology
 Unable to map entity: microbiology
+Mapping entity: health
+Unable to map entity: health
 Mapping entity: antibiotic
 Mapped antibiotic to Antibiotic
+Mapping entity: fermentation
+Unable to map entity: fermentation
 Mapping entity: carbohydrate
 Mapped carbohydrate to Carbohydrate
 Mapping entity: acid
@@ -2436,6 +3929,8 @@ Mapping entity: infection
 Unable to map entity: infection
 Mapping entity: immunodeficiency
 Mapped immunodeficiency to Immunodeficiency
+Mapping entity: space
+Unable to map entity: space
 Mapping entity: activity
 Unable to map entity: activity
 Mapping entity: chemical
@@ -2460,6 +3955,8 @@ Mapping entity: enzyme
 Mapped enzyme to Enzyme
 Mapping entity: polysaccharide
 Unable to map entity: polysaccharide
+Mapping entity: weight
+Unable to map entity: weight
 Mapping entity: starch
 Unable to map entity: starch
 Mapping entity: sugar
@@ -2474,12 +3971,22 @@ Mapping entity: sugar alcohol
 Mapped sugar alcohol to Sugar Alcohol
 Mapping entity: mucus
 Unable to map entity: mucus
+Mapping entity: small intestinal bacterial overgrowth
+Unable to map entity: small intestinal bacterial overgrowth
 Mapping entity: periodontal disease
 Unable to map entity: periodontal disease
 Mapping entity: chronic fatigue syndrome
 Mapped chronic fatigue syndrome to Chronic Fatigue Syndrome
+Mapping entity: cancer
+Unable to map entity: cancer
 Mapping entity: bacterial vaginosis
 Mapped bacterial vaginosis to Bacterial Vaginosis
+Mapping entity: biochemistry
+Unable to map entity: biochemistry
+Mapping entity: training
+Unable to map entity: training
+Mapping entity: immune system
+Unable to map entity: immune system
 Mapping entity: biotin
 Unable to map entity: biotin
 Mapping entity: gene
@@ -2518,12 +4025,16 @@ Mapping entity: feces
 Mapped feces to Feces
 Mapping entity: name
 Unable to map entity: name
+Mapping entity: diarrhea
+Unable to map entity: diarrhea
 Mapping entity: wood
 Unable to map entity: wood
 Mapping entity: per
 Unable to map entity: per
 Mapping entity: carbon
 Unable to map entity: carbon
+Mapping entity: death
+Unable to map entity: death
 Mapping entity: sewage
 Mapped sewage to Sewage
 Mapping entity: infectious disease
@@ -2554,10 +4065,16 @@ Mapping entity: palladium
 Unable to map entity: palladium
 Mapping entity: copper
 Unable to map entity: copper
+Mapping entity: mass
+Unable to map entity: mass
 Mapping entity: nucleic acid
 Mapped nucleic acid to Nucleic Acid
 Mapping entity: pseudomembranous colitis
 Mapped pseudomembranous colitis to Pseudomembranous Colitis
+Mapping entity: enterocolitis
+Unable to map entity: enterocolitis
+Mapping entity: neutropenic enterocolitis
+Unable to map entity: neutropenic enterocolitis
 Mapping entity: indole
 Unable to map entity: indole
 Mapping entity: ammonia
@@ -2582,6 +4099,8 @@ Mapping entity: insulin
 Mapped insulin to Insulin
 Mapping entity: administration
 Mapped administration to Administration
+Mapping entity: respiratory tract
+Unable to map entity: respiratory tract
 Num mapped entities: 63
 Filtering: 
  
@@ -2648,42 +4167,105 @@ Matched entity: Hormone for category: Physiology
 Matched entity: Glucose for category: World%20Health%20Organization%20essential%20medicines
 Matched entity: Insulin for category: World%20Anti-Doping%20Agency%20prohibited%20substances
 Removed entity: Administration
+Disease 0.16373837420055132
+Eating 0.05119756114769576
+Feces 0.03535895519441948
+Vitamin 0.02883031643115362
+Toxin 0.019825883064517196
+Nitrogen 0.01978558202802888
+Lead 0.01711887060712373
+Inflammatory bowel disease 0.016918269481224497
+Ammonia 0.016073669210866465
+Histamine 0.014435530912322483
+Carbohydrate 0.013432992912246724
+Hydrogen 0.011538671161780515
+Bile 0.007889631460809381
+Gland 0.007889631460809381
+Enzyme 0.0063136417435128885
+Alcohol 0.0063136417435128885
+Insulin 0.005023627629733708
+Chronic fatigue syndrome 0.004141933850584852
+Bacterial vaginosis 0.004141933850584852
+Chemical substance 0.003863901424293523
+Esophagitis 0.003863901424293523
+Gastritis 0.003863901424293523
+Dietary fiber 0.003582658079079513
+Acetic acid 0.003582658079079513
+Hormone 0.0033490850864891387
+Glucose 0.0033490850864891387
+Nucleic acid 0.003234134770611272
+Cholera 0.0030357824527723586
+Anthrax 0.0030357824527723586
+Leprosy 0.0030357824527723586
+Tuberculosis 0.0030357824527723586
+Folic acid 0.0028123777870039677
+Oil 0.0020238549685149057
+Blood 0.0016745425432445693
+Gold 0.0010119274842574529
 Noise-induced hearing loss
-Num unmapped entities: 78
+Num unmapped entities: 113
 Mapping: 
  
+Mapping entity: hearing
+Unable to map entity: hearing
 Mapping entity: hearing loss
 Unable to map entity: hearing loss
 Mapping entity: infection
 Unable to map entity: infection
+Mapping entity: ear
+Unable to map entity: ear
 Mapping entity: syphilis
 Unable to map entity: syphilis
 Mapping entity: rubella
 Unable to map entity: rubella
 Mapping entity: perception
 Unable to map entity: perception
+Mapping entity: volume
+Unable to map entity: volume
 Mapping entity: both ears
 Unable to map entity: both ears
+Mapping entity: confusion
+Unable to map entity: confusion
 Mapping entity: screening
 Mapped screening to Screening
+Mapping entity: inner ear
+Unable to map entity: inner ear
+Mapping entity: incus
+Unable to map entity: incus
+Mapping entity: stapes
+Unable to map entity: stapes
+Mapping entity: nerve
+Unable to map entity: nerve
 Mapping entity: outer ear
 Unable to map entity: outer ear
 Mapping entity: cerumen
 Unable to map entity: cerumen
 Mapping entity: gene
 Unable to map entity: gene
+Mapping entity: child
+Unable to map entity: child
+Mapping entity: vestibulocochlear nerve
+Unable to map entity: vestibulocochlear nerve
 Mapping entity: various
 Unable to map entity: various
+Mapping entity: eardrum
+Unable to map entity: eardrum
+Mapping entity: cochlear implant
+Unable to map entity: cochlear implant
 Mapping entity: discussion
 Mapped discussion to Discussion
 Mapping entity: injury
 Unable to map entity: injury
+Mapping entity: simplex
+Unable to map entity: simplex
 Mapping entity: herpes simplex
 Unable to map entity: herpes simplex
 Mapping entity: oxygen
 Mapped oxygen to Oxygen
 Mapping entity: toxemia
 Unable to map entity: toxemia
+Mapping entity: weight
+Unable to map entity: weight
 Mapping entity: birth weight
 Unable to map entity: birth weight
 Mapping entity: alcohol
@@ -2708,10 +4290,18 @@ Mapping entity: education
 Mapped education to Education
 Mapping entity: evaluation
 Mapped evaluation to Evaluation
+Mapping entity: bone
+Unable to map entity: bone
 Mapping entity: process
 Unable to map entity: process
 Mapping entity: vibration
 Mapped vibration to Vibration
+Mapping entity: forehead
+Unable to map entity: forehead
+Mapping entity: head
+Unable to map entity: head
+Mapping entity: brain
+Unable to map entity: brain
 Mapping entity: lead
 Mapped lead to Lead
 Mapping entity: arsenic
@@ -2722,14 +4312,26 @@ Mapping entity: construction
 Unable to map entity: construction
 Mapping entity: function
 Mapped function to Function
+Mapping entity: health
+Unable to map entity: health
+Mapping entity: history
+Unable to map entity: history
 Mapping entity: audiometric test
 Unable to map entity: audiometric test
+Mapping entity: earwax
+Unable to map entity: earwax
 Mapping entity: management
 Unable to map entity: management
 Mapping entity: intervention
 Unable to map entity: intervention
 Mapping entity: hemifacial microsomia
 Mapped hemifacial microsomia to Hemifacial Microsomia
+Mapping entity: stenosis
+Unable to map entity: stenosis
+Mapping entity: temporal bone
+Unable to map entity: temporal bone
+Mapping entity: training
+Unable to map entity: training
 Mapping entity: eye
 Unable to map entity: eye
 Mapping entity: distorted hearing
@@ -2753,6 +4355,8 @@ Unable to map entity: effusion
 Mapping entity: otitis media with effusion
 Mapped otitis media with effusion to Otitis media
 Merged apps for entities: Otitis media and otitis media with effusion
+Mapping entity: hair
+Unable to map entity: hair
 Mapping entity: air
 Mapped air to Air
 Mapping entity: gold
@@ -2763,10 +4367,16 @@ Mapping entity: cleft palate
 Unable to map entity: cleft palate
 Mapping entity: microtia
 Mapped microtia to Microtia
+Mapping entity: space
+Unable to map entity: space
 Mapping entity: ear structure
 Unable to map entity: ear structure
 Mapping entity: diagnosis
 Unable to map entity: diagnosis
+Mapping entity: measurement
+Unable to map entity: measurement
+Mapping entity: calibration
+Unable to map entity: calibration
 Mapping entity: stickler syndrome
 Mapped stickler syndrome to Stickler Syndrome
 Mapping entity: disease
@@ -2781,8 +4391,12 @@ Mapping entity: acoustic neuroma
 Mapped acoustic neuroma to Acoustic Neuroma
 Mapping entity: sound level
 Unable to map entity: sound level
+Mapping entity: pattern
+Unable to map entity: pattern
 Mapping entity: complete deafness
 Unable to map entity: complete deafness
+Mapping entity: kidney
+Unable to map entity: kidney
 Mapping entity: proteinuria
 Mapped proteinuria to Proteinuria
 Mapping entity: transient
@@ -2793,6 +4407,8 @@ Mapping entity: developmental delay
 Unable to map entity: developmental delay
 Mapping entity: mental retardation
 Mapped mental retardation to Mental Retardation
+Mapping entity: behavior
+Unable to map entity: behavior
 Mapping entity: ability to speak
 Mapped ability to speak to Speak
 Mapping entity: congenital blindness
@@ -2801,12 +4417,20 @@ Mapping entity: velopharyngeal inadequacy
 Unable to map entity: velopharyngeal inadequacy
 Mapping entity: tinnitus
 Mapped tinnitus to Tinnitus
+Mapping entity: vertigo
+Unable to map entity: vertigo
+Mapping entity: pain
+Unable to map entity: pain
 Mapping entity: coal
 Unable to map entity: coal
+Mapping entity: barotrauma
+Unable to map entity: barotrauma
 Mapping entity: vocal
 Unable to map entity: vocal
 Mapping entity: rinne test
 Mapped rinne test to Rinne test
+Mapping entity: report
+Unable to map entity: report
 Mapping entity: pitch
 Mapped pitch to Pitch
 Num mapped entities: 32
@@ -2844,14 +4468,30 @@ Removed entity: Speak
 Removed entity: Tinnitus
 Removed entity: Rinne test
 Removed entity: Pitch
+Presbycusis 0.0961068787457384
+Auditory processing disorder 0.05200326836571781
+Disease 0.036827355183653175
+Blood 0.02565036455552036
+Otitis media 0.02229803607588655
+Education 0.02187825027209434
+Evaluation 0.02149362219660064
+Lead 0.0214574260177351
+Hemifacial microsomia 0.02064697975660086
+Gold 0.01935058131804268
+Stickler syndrome 0.018715681586482097
+Vestibular schwannoma 0.018576509735539065
+Otitis 0.015654396821488115
+Oxygen 0.007649783085338433
+Alcohol 0.007649783085338433
 Fever
-Num unmapped entities: 180
+Num unmapped entities: 223
 Mapping: 
  
 Mapping entity: ribavirin
 Mapped ribavirin to Ribavirin
 Mapping entity: hepatitis
 Unable to map entity: hepatitis
+Mapping entity: fever
 Mapping entity: viral hemorrhagic fever
 Mapped viral hemorrhagic fever to Fever
 Mapping entity: interferon
@@ -2893,6 +4533,8 @@ Mapping entity: infectious disease notification
 Unable to map entity: infectious disease notification
 Mapping entity: rest
 Mapped rest to Rest
+Mapping entity: report
+Unable to map entity: report
 Mapping entity: smallpox
 Mapped smallpox to Smallpox
 Mapping entity: cholera
@@ -2915,8 +4557,16 @@ Mapping entity: puerperal fever
 Mapped puerperal fever to Puerperal fever
 Mapping entity: start
 Mapped start to Start
+Mapping entity: head
+Unable to map entity: head
+Mapping entity: health
+Unable to map entity: health
+Mapping entity: hospital
+Unable to map entity: hospital
 Mapping entity: schooling
 Mapped schooling to Schooling
+Mapping entity: mass
+Unable to map entity: mass
 Mapping entity: anthrax
 Mapped anthrax to Anthrax
 Mapping entity: tularemia
@@ -2993,11 +4643,19 @@ Mapping entity: tick paralysis
 Unable to map entity: tick paralysis
 Mapping entity: feeding
 Mapped feeding to Feeding
+Mapping entity: ebola virus
+Unable to map entity: ebola virus
 Mapping entity: ebola virus disease
 Mapped ebola virus disease to Ebola Virus Disease
 Mapping entity: marburg virus disease
 Mapped marburg virus disease to Disease
 Merged apps for entities: Disease and marburg virus disease
+Mapping entity: rickettsia rickettsii
+Unable to map entity: rickettsia rickettsii
+Mapping entity: myalgia
+Unable to map entity: myalgia
+Mapping entity: pain
+Unable to map entity: pain
 Mapping entity: boutonneuse fever
 Unable to map entity: boutonneuse fever
 Mapping entity: neurotoxin
@@ -3018,8 +4676,12 @@ Mapping entity: hypotension
 Mapped hypotension to Hypotension
 Mapping entity: shock
 Mapped shock to Shock
+Mapping entity: malaise
+Unable to map entity: malaise
 Mapping entity: vomiting
 Unable to map entity: vomiting
+Mapping entity: diarrhea
+Unable to map entity: diarrhea
 Mapping entity: south american hemorrhagic fever
 Unable to map entity: south american hemorrhagic fever
 Mapping entity: heroin
@@ -3032,10 +4694,14 @@ Mapping entity: endocarditis
 Unable to map entity: endocarditis
 Mapping entity: infective endocarditis
 Mapped infective endocarditis to Infective endocarditis
+Mapping entity: enterobacter
+Unable to map entity: enterobacter
 Mapping entity: jaundice
 Unable to map entity: jaundice
 Mapping entity: hematemesis
 Unable to map entity: hematemesis
+Mapping entity: heat
+Unable to map entity: heat
 Mapping entity: malaria
 Unable to map entity: malaria
 Mapping entity: quinine
@@ -3044,8 +4710,14 @@ Mapping entity: paratyphoid fever
 Unable to map entity: paratyphoid fever
 Mapping entity: serotype
 Unable to map entity: serotype
+Mapping entity: salmonella
+Unable to map entity: salmonella
+Mapping entity: appetite
+Unable to map entity: appetite
 Mapping entity: color
 Unable to map entity: color
+Mapping entity: training
+Unable to map entity: training
 Mapping entity: injury
 Unable to map entity: injury
 Mapping entity: vaccine
@@ -3058,6 +4730,8 @@ Mapping entity: trachoma
 Unable to map entity: trachoma
 Mapping entity: leptospirosis
 Mapped leptospirosis to Leptospirosis
+Mapping entity: kawasaki disease
+Unable to map entity: kawasaki disease
 Mapping entity: paracetamol
 Unable to map entity: paracetamol
 Mapping entity: ibuprofen
@@ -3072,18 +4746,24 @@ Mapping entity: aspirin
 Mapped aspirin to Aspirin
 Mapping entity: mercury
 Unable to map entity: mercury
+Mapping entity: biochemistry
+Unable to map entity: biochemistry
 Mapping entity: tuberculosis
 Mapped tuberculosis to Tuberculosis
 Mapping entity: drug resistance
 Unable to map entity: drug resistance
 Mapping entity: superadded infection
 Unable to map entity: superadded infection
+Mapping entity: allergy
+Unable to map entity: allergy
 Mapping entity: drug allergy
 Mapped drug allergy to Drug Allergy
 Mapping entity: rifampicin
 Mapped rifampicin to Rifampicin
 Mapping entity: rabies
 Mapped rabies to Rabies
+Mapping entity: epidemic
+Unable to map entity: epidemic
 Mapping entity: brazilian hemorrhagic fever
 Mapped brazilian hemorrhagic fever to Fever
 Merged apps for entities: Fever and brazilian hemorrhagic fever
@@ -3091,8 +4771,14 @@ Mapping entity: pel
 Unable to map entity: pel
 Mapping entity: familial mediterranean fever
 Mapped familial mediterranean fever to Familial Mediterranean Fever
+Mapping entity: failure
+Unable to map entity: failure
 Mapping entity: renal failure
 Mapped renal failure to Renal Failure
+Mapping entity: liver
+Unable to map entity: liver
+Mapping entity: liver failure
+Unable to map entity: liver failure
 Mapping entity: amyloidosis
 Unable to map entity: amyloidosis
 Mapping entity: mycosis
@@ -3105,6 +4791,8 @@ Mapping entity: quarantine
 Mapped quarantine to Quarantine
 Mapping entity: investigations
 Unable to map entity: investigations
+Mapping entity: meningococcal disease
+Unable to map entity: meningococcal disease
 Mapping entity: measles
 Mapped measles to Measles
 Mapping entity: mediterranean spotted fever
@@ -3138,34 +4826,56 @@ Mapping entity: tetracycline
 Unable to map entity: tetracycline
 Mapping entity: per
 Unable to map entity: per
+Mapping entity: foot
+Unable to map entity: foot
 Mapping entity: foot injury
 Unable to map entity: foot injury
 Mapping entity: appearance
 Mapped appearance to Appearance
 Mapping entity: ankle injury
 Mapped ankle injury to Ankle injury
+Mapping entity: history
+Unable to map entity: history
 Mapping entity: fascia
 Unable to map entity: fascia
 Mapping entity: seed
 Mapping entity: lead
 Mapped lead to Lead
+Mapping entity: tendon
+Unable to map entity: tendon
+Mapping entity: death
+Unable to map entity: death
 Mapping entity: insecticide
 Mapped insecticide to Insecticide
 Mapping entity: insect repellent
 Unable to map entity: insect repellent
+Mapping entity: physician
+Unable to map entity: physician
 Mapping entity: various
 Unable to map entity: various
+Mapping entity: prognosis
+Unable to map entity: prognosis
 Mapping entity: constipation
 Unable to map entity: constipation
+Mapping entity: confusion
+Unable to map entity: confusion
 Mapping entity: arthritis
 Mapped arthritis to Arthritis
+Mapping entity: septic arthritis
+Unable to map entity: septic arthritis
 Mapping entity: dengue hemorrhagic fever
 Mapped dengue hemorrhagic fever to Fever
 Merged apps for entities: Fever and dengue hemorrhagic fever
+Mapping entity: joint
+Unable to map entity: joint
 Mapping entity: borreliosis
 Unable to map entity: borreliosis
 Mapping entity: pyemia
 Unable to map entity: pyemia
+Mapping entity: staphylococcus
+Unable to map entity: staphylococcus
+Mapping entity: anaplasma
+Unable to map entity: anaplasma
 Mapping entity: louping ill
 Unable to map entity: louping ill
 Mapping entity: rat bite
@@ -3175,6 +4885,8 @@ Mapped rat bite fever to Fever
 Merged apps for entities: Fever and rat bite fever
 Mapping entity: water
 Unable to map entity: water
+Mapping entity: food
+Unable to map entity: food
 Mapping entity: pasteurization
 Mapped pasteurization to Pasteurization
 Mapping entity: milk
@@ -3199,10 +4911,16 @@ Mapping entity: bismuth
 Mapped bismuth to Bismuth
 Mapping entity: agar
 Unable to map entity: agar
+Mapping entity: intracellular
+Unable to map entity: intracellular
 Mapping entity: vasculitis
 Unable to map entity: vasculitis
+Mapping entity: eschar
+Unable to map entity: eschar
 Mapping entity: lymph
 Mapped lymph to Lymph
+Mapping entity: fluid
+Unable to map entity: fluid
 Mapping entity: nausea
 Unable to map entity: nausea
 Mapping entity: tetracyclines
@@ -3211,11 +4929,17 @@ Mapping entity: blood test
 Mapped blood test to Blood Test
 Mapping entity: hop
 Unable to map entity: hop
+Mapping entity: review
+Unable to map entity: review
 Mapping entity: fort bragg fever
 Mapped fort bragg fever to Fever
 Merged apps for entities: Fever and fort bragg fever
+Mapping entity: rickettsia prowazekii
+Unable to map entity: rickettsia prowazekii
 Mapping entity: biopsy
 Mapped biopsy to Biopsy
+Mapping entity: liver biopsy
+Unable to map entity: liver biopsy
 Mapping entity: viral hepatitis
 Unable to map entity: viral hepatitis
 Num mapped entities: 83
@@ -3304,8 +5028,54 @@ Matched entity: Lymph for category: Lymphatic%20system
 Removed entity: Tetracycline antibiotics
 Matched entity: Blood test for category: Blood%20tests
 Matched entity: Biopsy for category: Biopsy
+Disease 0.18707793624448793
+Dengue fever 0.06739704852436647
+Blood 0.06383970703497341
+Fever 0.05059909072087161
+Rocky Mountain spotted fever 0.025293118028759512
+Lead 0.022235057160098992
+Cholera 0.021988849801346466
+Leptospirosis 0.02159747659004119
+Diphtheria 0.019100050269384466
+Babesiosis 0.018537772343722496
+Arthritis 0.0175771669406993
+Biopsy 0.01619917709427026
+Rift Valley fever 0.014493338616713413
+Lassa fever 0.013935643172880227
+Tularemia 0.013581482091603123
+Scarlet fever 0.012733366846256311
+Familial Mediterranean fever 0.012227915631297753
+Drug 0.010114193073057574
+Bismuth 0.008560980366938592
+Queensland tick typhus 0.008198820671550904
+Oroya fever 0.006577265014379143
+Influenza 0.006192700092742013
+Kidney failure 0.006113957815648876
+Anthrax 0.006112958619648045
+Glanders 0.006112958619648045
+Psittacosis 0.006112958619648045
+Rabies 0.006090161370584693
+Quarantine 0.006065130919822367
+Rickettsialpox 0.005941628122315634
+Ribavirin 0.005853867663194518
+Ibuprofen 0.0058350742297601415
+Aspirin 0.0058350742297601415
+Rifampicin 0.005190435694355367
+Edema 0.004682641664314021
+Hypotension 0.004682641664314021
+Ehrlichiosis 0.004495887942948604
+Antibody 0.004280490183469296
+Measles 0.003387835165394876
+Feces 0.00285702330454305
+Vitamin 0.0019805427074385444
+Tuberculosis 0.0017301452314517891
+Drug allergy 0.0017301452314517891
+Eating 0.0014986293143162011
+Lymph 0.001412578418891272
+Blood test 0.001412578418891272
+Toxin 0.0010747196958953483
 Antiviral drug
-Num unmapped entities: 147
+Num unmapped entities: 180
 Mapping: 
  
 Mapping entity: ganciclovir
@@ -3336,8 +5106,14 @@ Mapping entity: drug resistance
 Unable to map entity: drug resistance
 Mapping entity: lead
 Mapped lead to Lead
+Mapping entity: immune system
+Unable to map entity: immune system
+Mapping entity: culture
+Unable to map entity: culture
 Mapping entity: antiviral therapy
 Unable to map entity: antiviral therapy
+Mapping entity: review
+Unable to map entity: review
 Mapping entity: peer review
 Mapped peer review to Peer Review
 Mapping entity: clinical trial
@@ -3358,8 +5134,12 @@ Mapping entity: thymidine
 Unable to map entity: thymidine
 Mapping entity: thymidine kinase
 Mapped thymidine kinase to Thymidine kinase
+Mapping entity: death
+Unable to map entity: death
 Mapping entity: gene
 Unable to map entity: gene
+Mapping entity: simplex
+Unable to map entity: simplex
 Mapping entity: herpes simplex
 Unable to map entity: herpes simplex
 Mapping entity: varicella
@@ -3370,12 +5150,25 @@ Mapping entity: hepatitis
 Unable to map entity: hepatitis
 Mapping entity: rna polymerase inhibitor
 Mapped rna polymerase inhibitor to Inhibitor
+Mapping entity: hypertension
+Unable to map entity: hypertension
+Mapping entity: heart
+Unable to map entity: heart
+Mapping entity: throat
+Unable to map entity: throat
 Mapping entity: pneumonia
 Mapped pneumonia to Pneumonia
 Mapping entity: dehydration
 Unable to map entity: dehydration
+Mapping entity: cancer
+Unable to map entity: cancer
+Mapping entity: history
+Unable to map entity: history
+Mapping entity: fever
 Mapping entity: coughing
 Mapped coughing to Coughing
+Mapping entity: hospital
+Unable to map entity: hospital
 Mapping entity: septicaemia
 Unable to map entity: septicaemia
 Mapping entity: bronchopneumonia
@@ -3386,10 +5179,16 @@ Mapping entity: heart disease
 Mapped heart disease to Heart Disease
 Mapping entity: enzyme
 Mapped enzyme to Enzyme
+Mapping entity: ebola virus
+Unable to map entity: ebola virus
 Mapping entity: yellow fever
 Mapped yellow fever to Yellow Fever
 Mapping entity: molecule
 Mapped molecule to Molecule
+Mapping entity: mass
+Unable to map entity: mass
+Mapping entity: health
+Unable to map entity: health
 Mapping entity: oseltamivir
 Mapping entity: zanamivir
 Unable to map entity: zanamivir
@@ -3423,6 +5222,8 @@ Mapping entity: vidarabine
 Unable to map entity: vidarabine
 Mapping entity: management
 Unable to map entity: management
+Mapping entity: food
+Unable to map entity: food
 Mapping entity: administration
 Mapped administration to Administration
 Mapping entity: drug administration
@@ -3435,18 +5236,26 @@ Mapping entity: guanine
 Unable to map entity: guanine
 Mapping entity: antibody
 Mapped antibody to Antibody
+Mapping entity: titer
+Unable to map entity: titer
 Mapping entity: antibiotic
 Mapped antibiotic to Antibiotic
 Mapping entity: antifungal
 Unable to map entity: antifungal
+Mapping entity: monoclonal
+Unable to map entity: monoclonal
 Mapping entity: aciclovir
 Mapped aciclovir to Aciclovir
 Mapping entity: lamivudine
 Mapped lamivudine to Lamivudine
 Mapping entity: protease
 Unable to map entity: protease
+Mapping entity: pharmacology
+Unable to map entity: pharmacology
 Mapping entity: fat
 Unable to map entity: fat
+Mapping entity: saturated fat
+Unable to map entity: saturated fat
 Mapping entity: alcohol
 Mapped alcohol to Alcohol
 Mapping entity: fatty alcohol
@@ -3475,6 +5284,8 @@ Mapping entity: screening
 Mapped screening to Screening
 Mapping entity: smallpox
 Mapped smallpox to Smallpox
+Mapping entity: kidney
+Unable to map entity: kidney
 Mapping entity: neuraminidase inhibitor
 Unable to map entity: neuraminidase inhibitor
 Mapping entity: amantadine
@@ -3507,12 +5318,16 @@ Mapping entity: vildagliptin
 Unable to map entity: vildagliptin
 Mapping entity: polymer
 Mapped polymer to Polymer
+Mapping entity: joint
+Unable to map entity: joint
 Mapping entity: base
 Unable to map entity: base
 Mapping entity: lassa fever
 Mapped lassa fever to Lassa Fever
 Mapping entity: ebola virus disease
 Mapped ebola virus disease to Ebola Virus Disease
+Mapping entity: foot
+Unable to map entity: foot
 Mapping entity: rift valley fever
 Mapped rift valley fever to Rift Valley Fever
 Mapping entity: nucleic acid
@@ -3523,12 +5338,20 @@ Mapping entity: carcinogen
 Unable to map entity: carcinogen
 Mapping entity: supportive care
 Mapped supportive care to Supportive care
+Mapping entity: pain
+Unable to map entity: pain
+Mapping entity: fluid
+Unable to map entity: fluid
 Mapping entity: balance
 Mapped balance to Balance
+Mapping entity: fluid balance
+Unable to map entity: fluid balance
 Mapping entity: swine influenza
 Mapped swine influenza to Swine Influenza
 Mapping entity: ion
 Mapped ion to Ion
+Mapping entity: influenza a virus
+Unable to map entity: influenza a virus
 Mapping entity: poultry
 Unable to map entity: poultry
 Mapping entity: malaria
@@ -3545,8 +5368,12 @@ Mapping entity: genome
 Unable to map entity: genome
 Mapping entity: viral genome
 Unable to map entity: viral genome
+Mapping entity: chickenpox
+Unable to map entity: chickenpox
 Mapping entity: water
 Unable to map entity: water
+Mapping entity: intake
+Unable to map entity: intake
 Mapping entity: water intake
 Unable to map entity: water intake
 Mapping entity: paracetamol
@@ -3559,6 +5386,8 @@ Mapping entity: lactoferrin
 Unable to map entity: lactoferrin
 Mapping entity: ribavirin
 Mapped ribavirin to Ribavirin
+Mapping entity: biochemistry
+Unable to map entity: biochemistry
 Mapping entity: microbiology
 Unable to map entity: microbiology
 Mapping entity: neuralgia
@@ -3575,12 +5404,16 @@ Mapping entity: antiepileptics
 Mapped antiepileptics to Antiepileptics
 Mapping entity: endocrine function
 Unable to map entity: endocrine function
+Mapping entity: stent
+Unable to map entity: stent
 Mapping entity: analgesic
 Unable to map entity: analgesic
 Mapping entity: tramadol
 Mapped tramadol to Tramadol
 Mapping entity: penciclovir
 Mapped penciclovir to Penciclovir
+Mapping entity: child
+Unable to map entity: child
 Mapping entity: neutropenia
 Mapped neutropenia to Neutropenia
 Mapping entity: complication
@@ -3589,6 +5422,8 @@ Mapping entity: transient
 Mapped transient to Transient
 Mapping entity: immunoglobulin
 Unable to map entity: immunoglobulin
+Mapping entity: respiratory tract
+Unable to map entity: respiratory tract
 Mapping entity: polyethylene
 Mapped polyethylene to Polyethylene
 Mapping entity: glycol
@@ -3681,10 +5516,48 @@ Removed entity: Transience
 Matched entity: Polyethylene for category: Commodity%20chemicals
 Removed entity: Glycol
 Removed entity: Telaprevir
+Drug 0.5068068331591378
+Influenza 0.1030223549461512
+Rimantadine 0.03967662297874342
+Amantadine 0.034399671493890505
+Disease 0.03355165912476557
+Pneumonia 0.02920349393958744
+Aciclovir 0.02457001084360704
+Chemical substance 0.02449046319957625
+Thymidine kinase 0.014100089614332107
+Lamivudine 0.014006914268476113
+Lead 0.013495112558803531
+Dengue fever 0.013433930905592691
+Ribavirin 0.01205283437490363
+Decitabine 0.009367411607936369
+Gemcitabine 0.009367411607936369
+Pyrophosphate 0.009238444919007138
+Neuralgia 0.008448578683671779
+Postherpetic neuralgia 0.008448578683671779
+Enzyme 0.006956771539351746
+Antibody 0.006308139779820738
+Neutropenia 0.005415291881153383
+Pesticide 0.005247185726156205
+Zinc 0.00517945817965378
+Memantine 0.005082082962159524
+Tramadol 0.0050566769833637025
+Oxygen 0.004516131356599018
+Anesthetic 0.0038845936347403354
+Lassa fever 0.00368767001096363
+Rift Valley fever 0.003674252169807909
+Polyethylene 0.003565858606535424
+Keratitis 0.003154069889910369
+Nucleic acid 0.0026235928630781026
+Alcohol 0.00258972908982689
+Fatty alcohol 0.00258972908982689
+Saxagliptin 0.002441985201436339
+Tromantadine 0.002441985201436339
 Diarrhea
-Num unmapped entities: 164
+Num unmapped entities: 201
 Mapping: 
  
+Mapping entity: diarrhea
+Unable to map entity: diarrhea
 Mapping entity: acute diarrhea
 Mapped acute diarrhea to Acute diarrhea
 Mapping entity: antibiotic
@@ -3695,16 +5568,22 @@ Mapping entity: intussusception
 Mapped intussusception to Intussusception
 Mapping entity: blood
 Mapped blood to Blood
+Mapping entity: blood vessel
+Unable to map entity: blood vessel
 Mapping entity: vaccine
 Unable to map entity: vaccine
 Mapping entity: rotavirus vaccine
 Mapped rotavirus vaccine to Rotavirus vaccine
+Mapping entity: review
+Unable to map entity: review
 Mapping entity: age
 Unable to map entity: age
 Mapping entity: saccharomyces boulardii
 Mapped saccharomyces boulardii to Saccharomyces boulardii
 Mapping entity: lactobacillus
 Mapped lactobacillus to Lactobacillus
+Mapping entity: volume
+Unable to map entity: volume
 Mapping entity: hypokalemia
 Mapped hypokalemia to Hypokalemia
 Mapping entity: dehydration
@@ -3715,12 +5594,16 @@ Mapping entity: nausea
 Unable to map entity: nausea
 Mapping entity: vomiting
 Unable to map entity: vomiting
+Mapping entity: pain
+Unable to map entity: pain
 Mapping entity: glucose
 Mapped glucose to Glucose
 Mapping entity: achlorhydria
 Mapped achlorhydria to Achlorhydria
 Mapping entity: flushing
 Mapped flushing to Flushing
+Mapping entity: carcinoid
+Unable to map entity: carcinoid
 Mapping entity: carcinoid syndrome
 Unable to map entity: carcinoid syndrome
 Mapping entity: loperamide
@@ -3739,6 +5622,8 @@ Mapping entity: chemotherapy
 Unable to map entity: chemotherapy
 Mapping entity: irinotecan
 Mapped irinotecan to Irinotecan
+Mapping entity: food
+Unable to map entity: food
 Mapping entity: contaminated food
 Unable to map entity: contaminated food
 Mapping entity: water
@@ -3777,6 +5662,8 @@ Mapping entity: lactose
 Unable to map entity: lactose
 Mapping entity: lactose intolerance
 Unable to map entity: lactose intolerance
+Mapping entity: intake
+Unable to map entity: intake
 Mapping entity: fructose
 Unable to map entity: fructose
 Mapping entity: malabsorption
@@ -3797,10 +5684,14 @@ Mapping entity: soap
 Unable to map entity: soap
 Mapping entity: pneumonia
 Mapped pneumonia to Pneumonia
+Mapping entity: child
+Unable to map entity: child
 Mapping entity: yeast
 Mapped yeast to Yeast
 Mapping entity: infection
 Unable to map entity: infection
+Mapping entity: behavior
+Unable to map entity: behavior
 Mapping entity: eating
 Mapped eating to Eating
 Mapping entity: toilet
@@ -3817,12 +5708,18 @@ Mapping entity: collagenous colitis
 Unable to map entity: collagenous colitis
 Mapping entity: colonoscopy
 Mapped colonoscopy to Colonoscopy
+Mapping entity: histopathology
+Unable to map entity: histopathology
+Mapping entity: malnutrition
+Unable to map entity: malnutrition
 Mapping entity: helminthiasis
 Mapped helminthiasis to Helminthiasis
 Mapping entity: entacapone
 Mapped entacapone to Entacapone
 Mapping entity: drug
 Mapped drug to Drug
+Mapping entity: weight
+Unable to map entity: weight
 Mapping entity: potassium
 Unable to map entity: potassium
 Mapping entity: codeine
@@ -3839,20 +5736,32 @@ Mapping entity: secretory diarrhea
 Mapped secretory diarrhea to Secretory diarrhea
 Mapping entity: gastroenteritis
 Unable to map entity: gastroenteritis
+Mapping entity: death
+Unable to map entity: death
+Mapping entity: health
+Unable to map entity: health
 Mapping entity: defecation
 Mapped defecation to Defecation
 Mapping entity: gastroparesis
 Unable to map entity: gastroparesis
+Mapping entity: bloating
+Unable to map entity: bloating
 Mapping entity: delayed gastric emptying
 Mapped delayed gastric emptying to Delayed gastric emptying
 Mapping entity: hypoglycemia
 Unable to map entity: hypoglycemia
+Mapping entity: blood sugar
+Unable to map entity: blood sugar
 Mapping entity: movement
 Unable to map entity: movement
+Mapping entity: small intestine
+Unable to map entity: small intestine
 Mapping entity: hyperglycemia
 Unable to map entity: hyperglycemia
 Mapping entity: cholera
 Mapped cholera to Cholera
+Mapping entity: fluid
+Unable to map entity: fluid
 Mapping entity: clear fluid
 Unable to map entity: clear fluid
 Mapping entity: start
@@ -3865,8 +5774,12 @@ Mapping entity: electrolyte
 Mapped electrolyte to Electrolyte
 Mapping entity: diagnosis
 Unable to map entity: diagnosis
+Mapping entity: wall
+Unable to map entity: wall
 Mapping entity: eosinophilia
 Mapped eosinophilia to Eosinophilia
+Mapping entity: malaise
+Unable to map entity: malaise
 Mapping entity: brainerd diarrhea
 Unable to map entity: brainerd diarrhea
 Mapping entity: process
@@ -3887,10 +5800,14 @@ Mapping entity: cholera toxin
 Mapped cholera toxin to Cholera toxin
 Mapping entity: protein
 Unable to map entity: protein
+Mapping entity: liquid
+Unable to map entity: liquid
 Mapping entity: skin turgor
 Mapped skin turgor to Skin turgor
 Mapping entity: hypotension
 Mapped hypotension to Hypotension
+Mapping entity: failure
+Unable to map entity: failure
 Mapping entity: renal failure
 Mapped renal failure to Renal Failure
 Mapping entity: coma
@@ -3926,10 +5843,15 @@ Mapping entity: truncal vagotomy
 Unable to map entity: truncal vagotomy
 Mapping entity: selective vagotomy
 Unable to map entity: selective vagotomy
+Mapping entity: celiac artery
+Unable to map entity: celiac artery
 Mapping entity: function
 Mapped function to Function
+Mapping entity: cancer
+Unable to map entity: cancer
 Mapping entity: clostridium difficile infection
 Unable to map entity: clostridium difficile infection
+Mapping entity: fever
 Mapping entity: toxic megacolon
 Mapped toxic megacolon to Toxic megacolon
 Mapping entity: sepsis
@@ -3940,6 +5862,12 @@ Mapping entity: clostridium difficile diarrhea
 Mapped clostridium difficile diarrhea to Clostridium difficile diarrhea
 Mapping entity: antifolate
 Unable to map entity: antifolate
+Mapping entity: bile acid malabsorption
+Unable to map entity: bile acid malabsorption
+Mapping entity: allergy
+Unable to map entity: allergy
+Mapping entity: history
+Unable to map entity: history
 Mapping entity: third generation cephalosporin
 Mapped third generation cephalosporin to Third generation cephalosporin
 Mapping entity: shiga toxin
@@ -3952,6 +5880,8 @@ Mapping entity: dyspepsia
 Mapped dyspepsia to Dyspepsia
 Mapping entity: feeding
 Mapped feeding to Feeding
+Mapping entity: kidney
+Unable to map entity: kidney
 Mapping entity: injection
 Unable to map entity: injection
 Mapping entity: anaphylaxis
@@ -3972,14 +5902,22 @@ Mapping entity: fatty acid
 Unable to map entity: fatty acid
 Mapping entity: feces
 Mapped feces to Feces
+Mapping entity: myalgia
+Unable to map entity: myalgia
 Mapping entity: dysentery
 Unable to map entity: dysentery
 Mapping entity: inflammatory diarrhea
 Unable to map entity: inflammatory diarrhea
+Mapping entity: ileum
+Unable to map entity: ileum
 Mapping entity: chloride
 Mapped chloride to Chloride
+Mapping entity: secretion
+Unable to map entity: secretion
 Mapping entity: opium
 Mapped opium to Opium
+Mapping entity: fulminant
+Unable to map entity: fulminant
 Mapping entity: glass
 Mapped glass to Glass
 Mapping entity: juice
@@ -3992,6 +5930,8 @@ Mapping entity: flutamide
 Unable to map entity: flutamide
 Mapping entity: androgen
 Mapped androgen to Androgen
+Mapping entity: prostate
+Unable to map entity: prostate
 Mapping entity: bicalutamide
 Mapped bicalutamide to Bicalutamide
 Mapping entity: antiandrogen
@@ -4006,6 +5946,10 @@ Mapping entity: enterotoxin
 Unable to map entity: enterotoxin
 Mapping entity: medullary thyroid carcinoma
 Unable to map entity: medullary thyroid carcinoma
+Mapping entity: liver
+Unable to map entity: liver
+Mapping entity: metastasis
+Unable to map entity: metastasis
 Mapping entity: calcitonin
 Mapped calcitonin to Calcitonin
 Mapping entity: peptide
@@ -4103,10 +6047,58 @@ Removed entity: Antiandrogen
 Matched entity: Nilutamide for category: Organofluorides
 Removed entity: Expression
 Removed entity: Calcitonin
+Disease 0.0740997065708953
+Pneumonia 0.041435576641145486
+Eating 0.04073438199168469
+Irritable bowel syndrome 0.0405353419389804
+Bile 0.04033187705581852
+Helminthiasis 0.03690619943300203
+Rotavirus vaccine 0.033590870876976035
+Blood 0.03347903619454793
+Defecation 0.028918444814845012
+Lead 0.02506437253274326
+Vagotomy 0.023651760773947417
+Diarrhea 0.021977034272801895
+Colonoscopy 0.020495188847785624
+Glucose 0.01993551295930067
+Irinotecan 0.019548746284989336
+Toxin 0.0191593932325079
+Achlorhydria 0.01817232692464694
+Candidiasis 0.016983701437592723
+Toxic megacolon 0.0168116056662175
+Giardiasis 0.01673740564120896
+Anaphylaxis 0.016726859071806807
+Zinc 0.01659095334184838
+Entacapone 0.016229056544947194
+Cholera 0.016143840300272126
+Drug 0.014400146883633152
+Loperamide 0.014325593219120724
+Carbohydrate 0.011130199306900377
+Postcholecystectomy syndrome 0.010523122238716622
+Inflammatory bowel disease 0.009395611255710902
+Electrolyte 0.007327344356470589
+Bicalutamide 0.0070926768828707045
+Nilutamide 0.0070926768828707045
+Diphenoxylate 0.006749210313511091
+Feces 0.0055650996534501885
+Magnesium 0.005289558103961179
+Neutropenia 0.004910503155944933
+Coeliac disease 0.0035263720693074524
+Vitamin 0.0035263720693074524
+Sorbitol 0.0035263720693074524
+Ingestion 0.0024424481188235294
+Hypotension 0.002390267934366754
+Colesevelam 0.001900452845572553
+Chloride 0.0018445921302868062
+Kidney failure 0.0015935119562445026
+Coma 7.967559781222513E-4
+Cause of death 7.967559781222513E-4
 Allergy
-Num unmapped entities: 139
+Num unmapped entities: 166
 Mapping: 
  
+Mapping entity: allergy
+Unable to map entity: allergy
 Mapping entity: asthma
 Mapped asthma to Asthma
 Mapping entity: immunology
@@ -4117,6 +6109,10 @@ Mapping entity: serum
 Mapped serum to Serum
 Mapping entity: immunoglobulin
 Unable to map entity: immunoglobulin
+Mapping entity: food
+Unable to map entity: food
+Mapping entity: review
+Unable to map entity: review
 Mapping entity: allergy to soy
 Unable to map entity: allergy to soy
 Mapping entity: foods
@@ -4133,6 +6129,8 @@ Mapping entity: ingestion
 Mapped ingestion to Ingestion
 Mapping entity: anaphylaxis
 Mapped anaphylaxis to Anaphylaxis
+Mapping entity: immune system
+Unable to map entity: immune system
 Mapping entity: allergens
 Unable to map entity: allergens
 Mapping entity: pollen
@@ -4141,16 +6139,22 @@ Mapping entity: grass pollen
 Unable to map entity: grass pollen
 Mapping entity: food allergy
 Mapped food allergy to Food Allergy
+Mapping entity: lettuce
+Unable to map entity: lettuce
 Mapping entity: celery
 Mapped celery to Celery
 Mapping entity: corn
 Mapped corn to Corn
 Mapping entity: grapes
 Mapped grapes to Grapes
+Mapping entity: throat
+Unable to map entity: throat
 Mapping entity: cypress pollen
 Unable to map entity: cypress pollen
 Mapping entity: protease
 Unable to map entity: protease
+Mapping entity: report
+Unable to map entity: report
 Mapping entity: smoke
 Unable to map entity: smoke
 Mapping entity: cigarette smoke
@@ -4166,6 +6170,8 @@ Mapping entity: serine
 Mapped serine to Serine
 Mapping entity: serine protease
 Unable to map entity: serine protease
+Mapping entity: prolamin
+Unable to map entity: prolamin
 Mapping entity: allergen
 Mapped allergen to Allergen
 Mapping entity: aspirin
@@ -4196,10 +6202,16 @@ Mapping entity: nut allergy
 Unable to map entity: nut allergy
 Mapping entity: seafood
 Unable to map entity: seafood
+Mapping entity: sesame
+Unable to map entity: sesame
 Mapping entity: rice
 Unable to map entity: rice
 Mapping entity: inhaling
 Mapped inhaling to Inhaling
+Mapping entity: poison
+Unable to map entity: poison
+Mapping entity: clinic
+Unable to map entity: clinic
 Mapping entity: various
 Unable to map entity: various
 Mapping entity: plague
@@ -4224,6 +6236,8 @@ Mapping entity: chemical
 Mapped chemical to Chemical
 Mapping entity: substance
 Mapped substance to Substance
+Mapping entity: chemical substance
+Unable to map entity: chemical substance
 Mapping entity: iodine
 Mapped iodine to Iodine
 Mapping entity: drug
@@ -4234,6 +6248,8 @@ Mapping entity: name
 Unable to map entity: name
 Mapping entity: attitude
 Mapped attitude to Attitude
+Mapping entity: health
+Unable to map entity: health
 Mapping entity: allergy testing
 Mapped allergy testing to Allergy testing
 Mapping entity: counseling
@@ -4242,10 +6258,16 @@ Mapping entity: advice
 Mapped advice to Advice
 Mapping entity: examination
 Unable to map entity: examination
+Mapping entity: physical examination
+Unable to map entity: physical examination
+Mapping entity: history
+Unable to map entity: history
 Mapping entity: administration
 Mapped administration to Administration
 Mapping entity: drug administration
 Mapped drug administration to Drug administration
+Mapping entity: subcutaneous tissue
+Unable to map entity: subcutaneous tissue
 Mapping entity: application
 Mapped application to Application
 Mapping entity: povidone iodine
@@ -4254,16 +6276,24 @@ Mapping entity: impetigo
 Mapped impetigo to Impetigo
 Mapping entity: solution
 Unable to map entity: solution
+Mapping entity: hair
+Unable to map entity: hair
 Mapping entity: iodine solution
 Unable to map entity: iodine solution
 Mapping entity: paracetamol
 Unable to map entity: paracetamol
+Mapping entity: pharmacist
+Unable to map entity: pharmacist
 Mapping entity: allergen extract
 Unable to map entity: allergen extract
+Mapping entity: hospital
+Unable to map entity: hospital
 Mapping entity: process
 Unable to map entity: process
 Mapping entity: immunotherapy
 Mapped immunotherapy to Immunotherapy
+Mapping entity: tongue
+Unable to map entity: tongue
 Mapping entity: oxygen
 Mapped oxygen to Oxygen
 Mapping entity: dust
@@ -4272,8 +6302,6 @@ Mapping entity: house dust
 Mapped house dust to House dust
 Mapping entity: cedar pollen
 Unable to map entity: cedar pollen
-Mapping entity: history and physical examination
-Mapped history and physical examination to History and physical
 Mapping entity: food intolerance
 Mapped food intolerance to Food Intolerance
 Mapping entity: allergic asthma
@@ -4284,6 +6312,8 @@ Mapping entity: latex allergy
 Mapped latex allergy to Latex Allergy
 Mapping entity: shock
 Mapped shock to Shock
+Mapping entity: head
+Unable to map entity: head
 Mapping entity: acid
 Unable to map entity: acid
 Mapping entity: anesthetic
@@ -4294,6 +6324,8 @@ Mapping entity: education
 Mapped education to Education
 Mapping entity: management
 Unable to map entity: management
+Mapping entity: training
+Unable to map entity: training
 Mapping entity: oil
 Mapped oil to Oil
 Mapping entity: sesame oil
@@ -4302,6 +6334,8 @@ Mapping entity: sesame seed
 Unable to map entity: sesame seed
 Mapping entity: allergic reaction
 Mapped allergic reaction to Allergic Reaction
+Mapping entity: nutrition
+Unable to map entity: nutrition
 Mapping entity: lead
 Mapped lead to Lead
 Mapping entity: epinephrine
@@ -4320,6 +6354,8 @@ Mapping entity: saliva
 Mapped saliva to Saliva
 Mapping entity: ulcer
 Unable to map entity: ulcer
+Mapping entity: allergy to cats
+Unable to map entity: allergy to cats
 Mapping entity: childhood asthma
 Unable to map entity: childhood asthma
 Mapping entity: conjunctivitis
@@ -4350,12 +6386,15 @@ Mapping entity: release
 Unable to map entity: release
 Mapping entity: pollen allergen
 Unable to map entity: pollen allergen
+Mapping entity: intracellular
+Unable to map entity: intracellular
 Mapping entity: fusion protein
 Unable to map entity: fusion protein
 Mapping entity: lactobacillus
 Mapped lactobacillus to Lactobacillus
 Mapping entity: sensitization
 Mapped sensitization to Sensitization
+Mapping entity: fever
 Mapping entity: flavoring
 Mapped flavoring to Flavoring
 Mapping entity: chlorphenamine
@@ -4366,6 +6405,8 @@ Mapping entity: antihistamine
 Mapped antihistamine to Antihistamine
 Mapping entity: decongestant
 Unable to map entity: decongestant
+Mapping entity: stroke
+Unable to map entity: stroke
 Mapping entity: investigations
 Unable to map entity: investigations
 Mapping entity: meat
@@ -4376,6 +6417,8 @@ Mapping entity: grain
 Unable to map entity: grain
 Mapping entity: mulberries
 Mapped mulberries to Mulberries
+Mapping entity: weight
+Unable to map entity: weight
 Mapping entity: flowers
 Mapped flowers to Flowers
 Mapping entity: butter
@@ -4384,7 +6427,7 @@ Mapping entity: peanut butter
 Unable to map entity: peanut butter
 Mapping entity: sunflower seed
 Mapped sunflower seed to Sunflower seed
-Num mapped entities: 73
+Num mapped entities: 72
 Filtering: 
  
 Matched entity: Asthma for category: RTT(full)
@@ -4428,7 +6471,6 @@ Matched entity: Immunotherapy for category: Immunology
 Matched entity: Oxygen for category: Chemical%20elements
 Removed entity: Dust
 Removed entity: House dust
-Removed entity: History and physical
 Removed entity: Food Intolerance
 Removed entity: Latex
 Matched entity: Latex allergy for category: Allergology
@@ -4460,22 +6502,73 @@ Removed entity: Morus (plant)
 Removed entity: Flowers
 Removed entity: Butter
 Removed entity: Sunflower seed
+Immunology 0.199490472815385
+Asthma 0.17987241805606966
+Allergen 0.0830991428697589
+Pollen 0.06481241404076987
+Anaphylaxis 0.05785525834137835
+Immunotherapy 0.032850890649661936
+Allergy test 0.02140071381535888
+Anesthetic 0.019171524063723605
+Rhinitis 0.01793482302382251
+Latex allergy 0.015253670558636353
+Iodine 0.01400962617380539
+Chemical substance 0.013934618417958643
+Histamine 0.013867902566263636
+Angioedema 0.012250940895074948
+Gliadin 0.011354002610555402
+Oil 0.009520391057062988
+Blood 0.009026068814259748
+Saliva 0.008358982309202869
+Education 0.007936250434213903
+Disease 0.007602783423612187
+Rabies 0.0074726962408966455
+Drug 0.006266515456938419
+Cellulitis 0.005604522180672484
+Serine 0.004392383976194691
+Drug allergy 0.00407656938903909
+Ingestion 0.0034180613731802103
+Maize 0.0033323663871859463
+Impetigo 0.003284919101848992
+Lead 0.003151968549885591
+Breathing 0.0031294831772583987
+Dermatitis 0.0026623423673790905
+Aspirin 0.0021961919880973454
+Conjunctivitis 0.001996756775534318
+Oxygen 0.0013422253871933354
+Contact dermatitis 0.0013311711836895453
 Large intestine
-Num unmapped entities: 133
+Num unmapped entities: 190
 Mapping: 
  
+Mapping entity: small intestine
+Unable to map entity: small intestine
+Mapping entity: large intestine
+Unable to map entity: large intestine
+Mapping entity: jejunum
+Unable to map entity: jejunum
+Mapping entity: ileum
+Unable to map entity: ileum
+Mapping entity: rectum
+Unable to map entity: rectum
 Mapping entity: division
 Unable to map entity: division
 Mapping entity: bile
 Mapped bile to Bile
+Mapping entity: liver
+Unable to map entity: liver
 Mapping entity: cholecystokinin
 Mapped cholecystokinin to Cholecystokinin
 Mapping entity: per
 Unable to map entity: per
 Mapping entity: water
 Unable to map entity: water
+Mapping entity: secretion
+Unable to map entity: secretion
 Mapping entity: motility
 Unable to map entity: motility
+Mapping entity: diarrhea
+Unable to map entity: diarrhea
 Mapping entity: chronic diarrhea
 Mapped chronic diarrhea to Chronic diarrhea
 Mapping entity: disease
@@ -4488,6 +6581,8 @@ Mapping entity: colitis
 Unable to map entity: colitis
 Mapping entity: ulcerative colitis
 Unable to map entity: ulcerative colitis
+Mapping entity: lung
+Unable to map entity: lung
 Mapping entity: metal
 Unable to map entity: metal
 Mapping entity: metal element
@@ -4500,43 +6595,72 @@ Mapping entity: material
 Unable to map entity: material
 Mapping entity: waste material
 Unable to map entity: waste material
+Mapping entity: fluid
+Unable to map entity: fluid
 Mapping entity: faeces
 Unable to map entity: faeces
 Mapping entity: lead
 Mapped lead to Lead
 Mapping entity: constipation
 Unable to map entity: constipation
+Mapping entity: pharynx
+Unable to map entity: pharynx
+Mapping entity: length
+Unable to map entity: length
+Mapping entity: food
+Unable to map entity: food
 Mapping entity: epithelium
 Mapped epithelium to Epithelium
 Mapping entity: running
 Mapping entity: gastrointestinal perforation
 Mapped gastrointestinal perforation to Gastrointestinal perforation
+Mapping entity: wall
+Unable to map entity: wall
+Mapping entity: pain
+Unable to map entity: pain
 Mapping entity: sepsis
 Unable to map entity: sepsis
+Mapping entity: heart
+Unable to map entity: heart
 Mapping entity: heart rate
 Mapped heart rate to Heart Rate
+Mapping entity: breathing
+Unable to map entity: breathing
+Mapping entity: fever
+Mapping entity: confusion
+Unable to map entity: confusion
+Mapping entity: volume
+Unable to map entity: volume
 Mapping entity: storage
 Unable to map entity: storage
 Mapping entity: digested food
 Unable to map entity: digested food
+Mapping entity: kidney
+Unable to map entity: kidney
+Mapping entity: extracellular
+Unable to map entity: extracellular
 Mapping entity: process
 Unable to map entity: process
+Mapping entity: intracellular
+Unable to map entity: intracellular
 Mapping entity: diagnosis
 Unable to map entity: diagnosis
 Mapping entity: colonoscopy
 Mapped colonoscopy to Colonoscopy
-Mapping entity: entire large intestine
-Unable to map entity: entire large intestine
 Mapping entity: bleeding
 Mapped bleeding to Bleeding
 Mapping entity: blood
 Mapped blood to Blood
+Mapping entity: weight
+Unable to map entity: weight
 Mapping entity: nutrients
 Mapped nutrients to Nutrients
 Mapping entity: anemia
 Unable to map entity: anemia
 Mapping entity: iron
 Mapped iron to Iron
+Mapping entity: cancer
+Unable to map entity: cancer
 Mapping entity: fructose
 Unable to map entity: fructose
 Mapping entity: hydrogen
@@ -4545,6 +6669,14 @@ Mapping entity: breath
 Mapped breath to Breath
 Mapping entity: breath test
 Mapped breath test to Breath test
+Mapping entity: fermentation
+Unable to map entity: fermentation
+Mapping entity: biochemistry
+Unable to map entity: biochemistry
+Mapping entity: vein
+Unable to map entity: vein
+Mapping entity: portal vein
+Unable to map entity: portal vein
 Mapping entity: carbon
 Unable to map entity: carbon
 Mapping entity: carbon dioxide
@@ -4553,8 +6685,16 @@ Mapping entity: acid
 Unable to map entity: acid
 Mapping entity: fatty acid
 Unable to map entity: fatty acid
+Mapping entity: bloating
+Unable to map entity: bloating
 Mapping entity: exercise
 Mapped exercise to Exercise
+Mapping entity: nutrition
+Unable to map entity: nutrition
+Mapping entity: umbilical cord
+Unable to map entity: umbilical cord
+Mapping entity: gallbladder
+Unable to map entity: gallbladder
 Mapping entity: chemical
 Mapped chemical to Chemical
 Mapping entity: procedure
@@ -4563,6 +6703,8 @@ Mapping entity: surgical procedure
 Unable to map entity: surgical procedure
 Mapping entity: colectomy
 Unable to map entity: colectomy
+Mapping entity: necrosis
+Unable to map entity: necrosis
 Mapping entity: diverticular disease
 Mapped diverticular disease to Diverticular disease
 Mapping entity: endometriosis
@@ -4577,22 +6719,34 @@ Mapping entity: colostomy
 Unable to map entity: colostomy
 Mapping entity: short bowel syndrome
 Mapped short bowel syndrome to Short bowel syndrome
+Mapping entity: enterobacteriaceae
+Unable to map entity: enterobacteriaceae
+Mapping entity: failure
+Unable to map entity: failure
 Mapping entity: starch
 Unable to map entity: starch
 Mapping entity: fiber
 Mapped fiber to Fiber
 Mapping entity: amylase
 Mapped amylase to Amylase
+Mapping entity: intake
+Unable to map entity: intake
 Mapping entity: food intake
 Mapped food intake to Food intake
 Mapping entity: expression
 Mapped expression to Expression
 Mapping entity: balance
 Mapped balance to Balance
+Mapping entity: brain
+Unable to map entity: brain
+Mapping entity: health
+Unable to map entity: health
 Mapping entity: management
 Unable to map entity: management
 Mapping entity: activity
 Unable to map entity: activity
+Mapping entity: bone
+Unable to map entity: bone
 Mapping entity: foreign body
 Mapped foreign body to Foreign Body
 Mapping entity: fat
@@ -4605,8 +6759,12 @@ Mapping entity: noodles
 Mapped noodles to Noodles
 Mapping entity: ganglion
 Unable to map entity: ganglion
+Mapping entity: prenatal development
+Unable to map entity: prenatal development
 Mapping entity: neural crest
 Mapped neural crest to Neural Crest
+Mapping entity: nerve
+Unable to map entity: nerve
 Mapping entity: feces
 Mapped feces to Feces
 Mapping entity: entire colon
@@ -4615,6 +6773,8 @@ Mapping entity: longevity
 Unable to map entity: longevity
 Mapping entity: age
 Unable to map entity: age
+Mapping entity: death
+Unable to map entity: death
 Mapping entity: vinegar
 Mapped vinegar to Vinegar
 Mapping entity: milk
@@ -4624,6 +6784,8 @@ Mapping entity: infection
 Unable to map entity: infection
 Mapping entity: litter
 Mapped litter to Litter
+Mapping entity: mass
+Unable to map entity: mass
 Mapping entity: ingestion
 Mapped ingestion to Ingestion
 Mapping entity: passed out
@@ -4646,6 +6808,14 @@ Mapping entity: nausea
 Unable to map entity: nausea
 Mapping entity: name
 Unable to map entity: name
+Mapping entity: respiratory tract
+Unable to map entity: respiratory tract
+Mapping entity: trachea
+Unable to map entity: trachea
+Mapping entity: conjunctiva
+Unable to map entity: conjunctiva
+Mapping entity: eyelid
+Unable to map entity: eyelid
 Mapping entity: mucin
 Mapped mucin to Mucin
 Mapping entity: tears
@@ -4670,6 +6840,10 @@ Mapping entity: digestive enzyme
 Mapped digestive enzyme to Digestive enzyme
 Mapping entity: cellulose
 Mapped cellulose to Cellulose
+Mapping entity: stoma
+Unable to map entity: stoma
+Mapping entity: abdomen
+Unable to map entity: abdomen
 Mapping entity: laparotomy
 Mapped laparotomy to Laparotomy
 Mapping entity: wound
@@ -4690,8 +6864,14 @@ Mapping entity: vitamin
 Mapped vitamin to Vitamin
 Mapping entity: base
 Unable to map entity: base
+Mapping entity: immune system
+Unable to map entity: immune system
+Mapping entity: head
+Unable to map entity: head
 Mapping entity: muscularis mucosae
 Unable to map entity: muscularis mucosae
+Mapping entity: adenocarcinoma
+Unable to map entity: adenocarcinoma
 Mapping entity: feeding
 Mapped feeding to Feeding
 Mapping entity: defecation
@@ -4714,6 +6894,15 @@ Mapping entity: chyle
 Unable to map entity: chyle
 Mapping entity: juice
 Mapped juice to Juice
+Mapping entity: pancreatic duct
+Unable to map entity: pancreatic duct
+Mapping entity: tongue
+Unable to map entity: tongue
+Mapping entity: lymphatic system
+Unable to map entity: lymphatic system
+Mapping entity: embryo
+Unable to map entity: embryo
+Mapping entity: navel
 Mapping entity: oxygen
 Mapped oxygen to Oxygen
 Mapping entity: lipase
@@ -4794,8 +6983,41 @@ Removed entity: Pancreatic lipase
 Removed entity: Chylomicrons
 Matched entity: Intestinal villus for category: Digestive%20system
 Removed entity: Removal
+Disease 0.0600009400012223
+Bile 0.05410394085495287
+Lead 0.04542940234510436
+Ingestion 0.03666696753919124
+Feces 0.03502499345414675
+Blood 0.03146794815497231
+Chemical substance 0.027323815094933385
+Foreign body 0.02003305274651789
+Laxative 0.01838634390277708
+Enzyme 0.01716693920553647
+Amylase 0.015079724805079962
+Laparotomy 0.014140951520639197
+Cholecystokinin 0.012640534306602776
+Hydrogen 0.011887960462607849
+Intestinal villus 0.01112127865432599
+Gastrointestinal perforation 0.011075849019022659
+Heart rate 0.011075849019022659
+Colonoscopy 0.010752625511112775
+Mucin 0.009045536083114243
+Gland 0.009045536083114243
+Vitamin 0.00882212224009757
+Lymph 0.00756137450025702
+Breathing 0.007132776277564709
+Eating 0.006368620475059061
+Hormone 0.006332168595205684
+Inflammatory bowel disease 0.00580825343561021
+Diverticular disease 0.005161715475474288
+Short bowel syndrome 0.005161715475474288
+Oxygen 0.004228818193211192
+Iron 0.003584208503704258
+Carbohydrate 0.002972944157239539
+Digestive enzyme 0.002972944157239539
+Defecation 0.002684091080064814
 Crohn's disease
-Num unmapped entities: 261
+Num unmapped entities: 312
 Mapping: 
  
 Mapping entity: diagnosis
@@ -4856,6 +7078,8 @@ Mapping entity: multiple sclerosis
 Unable to map entity: multiple sclerosis
 Mapping entity: nasal obstruction
 Unable to map entity: nasal obstruction
+Mapping entity: allergy
+Unable to map entity: allergy
 Mapping entity: sinusitis
 Unable to map entity: sinusitis
 Mapping entity: autoimmune disease
@@ -4870,6 +7094,8 @@ Mapping entity: metal
 Unable to map entity: metal
 Mapping entity: heavy metal
 Mapped heavy metal to Heavy Metal
+Mapping entity: weight
+Unable to map entity: weight
 Mapping entity: body weight
 Mapped body weight to Body Weight
 Mapping entity: lipid
@@ -4902,8 +7128,12 @@ Mapping entity: physical activity
 Mapped physical activity to Physical Activity
 Mapping entity: eating
 Mapped eating to Eating
+Mapping entity: heart
+Unable to map entity: heart
 Mapping entity: heart disease
 Mapped heart disease to Heart Disease
+Mapping entity: stroke
+Unable to map entity: stroke
 Mapping entity: obesity
 Unable to map entity: obesity
 Mapping entity: arthritis
@@ -4912,18 +7142,32 @@ Mapping entity: atherosclerosis
 Mapped atherosclerosis to Atherosclerosis
 Mapping entity: asthma
 Mapped asthma to Asthma
-Mapping entity: chronic liver disease
-Mapped chronic liver disease to Chronic liver disease
+Mapping entity: cancer
+Unable to map entity: cancer
+Mapping entity: liver
+Unable to map entity: liver
+Mapping entity: liver disease
+Unable to map entity: liver disease
+Mapping entity: cirrhosis
+Unable to map entity: cirrhosis
 Mapping entity: diabetes type
 Unable to map entity: diabetes type
+Mapping entity: failure
+Unable to map entity: failure
 Mapping entity: renal failure
 Mapped renal failure to Renal Failure
 Mapping entity: osteoporosis
 Unable to map entity: osteoporosis
+Mapping entity: death
+Unable to map entity: death
+Mapping entity: respiratory disease
+Unable to map entity: respiratory disease
 Mapping entity: communicable disease
 Unable to map entity: communicable disease
 Mapping entity: diabetes mellitus
 Mapped diabetes mellitus to Diabetes Mellitus
+Mapping entity: kidney
+Unable to map entity: kidney
 Mapping entity: kidney disease
 Mapped kidney disease to Kidney disease
 Mapping entity: cataract
@@ -4938,6 +7182,8 @@ Mapping entity: measles
 Mapped measles to Measles
 Mapping entity: blood
 Mapped blood to Blood
+Mapping entity: blood vessel
+Unable to map entity: blood vessel
 Mapping entity: coronary artery disease
 Mapped coronary artery disease to Coronary Artery Disease
 Mapping entity: angina
@@ -4960,6 +7206,10 @@ Mapping entity: thrombosis
 Mapped thrombosis to Thrombosis
 Mapping entity: venous thrombosis
 Mapped venous thrombosis to Venous thrombosis
+Mapping entity: hospital
+Unable to map entity: hospital
+Mapping entity: eosinophilic
+Unable to map entity: eosinophilic
 Mapping entity: granulomatosis
 Mapped granulomatosis to Granulomatosis
 Mapping entity: granulomatosis with polyangiitis
@@ -4970,6 +7220,10 @@ Mapping entity: collagen disease
 Unable to map entity: collagen disease
 Mapping entity: langerhans cell histiocytosis
 Mapped langerhans cell histiocytosis to Histiocytosis
+Mapping entity: granuloma
+Unable to map entity: granuloma
+Mapping entity: bone
+Unable to map entity: bone
 Mapping entity: eosinophilic granuloma of bone
 Mapped eosinophilic granuloma of bone to Eosinophilic granuloma
 Mapping entity: glomus
@@ -4982,24 +7236,35 @@ Mapping entity: endocarditis
 Unable to map entity: endocarditis
 Mapping entity: infectious disease
 Unable to map entity: infectious disease
+Mapping entity: blood flow
+Unable to map entity: blood flow
 Mapping entity: cerebrovascular disease
 Unable to map entity: cerebrovascular disease
+Mapping entity: motor neuron
+Unable to map entity: motor neuron
 Mapping entity: motor neuron disease
 Mapped motor neuron disease to Motor Neuron Disease
 Mapping entity: oxygen
 Mapped oxygen to Oxygen
 Mapping entity: nitrogen
 Mapped nitrogen to Nitrogen
+Mapping entity: health
+Unable to map entity: health
 Mapping entity: dengue
 Mapped dengue to Dengue
+Mapping entity: fever
 Mapping entity: malaria
 Unable to map entity: malaria
 Mapping entity: smallpox
 Mapped smallpox to Smallpox
+Mapping entity: chickenpox
+Unable to map entity: chickenpox
 Mapping entity: coccidioidal granuloma
 Unable to map entity: coccidioidal granuloma
 Mapping entity: diphtheria
 Mapped diphtheria to Diphtheria
+Mapping entity: epidemic
+Unable to map entity: epidemic
 Mapping entity: meningitis
 Unable to map entity: meningitis
 Mapping entity: meningococcal meningitis
@@ -5018,6 +7283,8 @@ Mapping entity: cat scratch disease
 Mapped cat scratch disease to Cat Scratch Disease
 Mapping entity: viral disease
 Mapped viral disease to Viral disease
+Mapping entity: bartonella
+Unable to map entity: bartonella
 Mapping entity: actinomycosis
 Unable to map entity: actinomycosis
 Mapping entity: rickettsialpox
@@ -5054,6 +7321,8 @@ Mapping entity: inflammatory bowel disease
 Mapped inflammatory bowel disease to Inflammatory Bowel Disease
 Mapping entity: blood diseases
 Unable to map entity: blood diseases
+Mapping entity: brain
+Unable to map entity: brain
 Mapping entity: transient
 Mapped transient to Transient
 Mapping entity: transient ischemic attack
@@ -5066,6 +7335,8 @@ Mapping entity: protein
 Unable to map entity: protein
 Mapping entity: function
 Mapped function to Function
+Mapping entity: prion
+Unable to map entity: prion
 Mapping entity: prion disease
 Mapped prion disease to Prion disease
 Mapping entity: amyloidosis
@@ -5078,8 +7349,12 @@ Mapping entity: injury
 Unable to map entity: injury
 Mapping entity: screening
 Mapped screening to Screening
+Mapping entity: gallbladder
+Unable to map entity: gallbladder
 Mapping entity: bile
 Mapped bile to Bile
+Mapping entity: bile duct
+Unable to map entity: bile duct
 Mapping entity: diverticulitis
 Mapped diverticulitis to Diverticulitis
 Mapping entity: irritable bowel syndrome
@@ -5094,6 +7369,8 @@ Mapping entity: myopathy
 Unable to map entity: myopathy
 Mapping entity: male infertility
 Mapped male infertility to Male Infertility
+Mapping entity: neurodegeneration
+Unable to map entity: neurodegeneration
 Mapping entity: per
 Unable to map entity: per
 Mapping entity: whooping cough
@@ -5102,29 +7379,49 @@ Mapping entity: mumps
 Mapped mumps to Mumps
 Mapping entity: types of diseases
 Unable to map entity: types of diseases
+Mapping entity: diarrhea
+Unable to map entity: diarrhea
 Mapping entity: pneumonia
 Mapped pneumonia to Pneumonia
 Mapping entity: foods
 Unable to map entity: foods
+Mapping entity: food
+Unable to map entity: food
+Mapping entity: nutrition
+Unable to map entity: nutrition
+Mapping entity: hypertension
+Unable to map entity: hypertension
+Mapping entity: physician
+Unable to map entity: physician
 Mapping entity: water
 Unable to map entity: water
 Mapping entity: urine
 Unable to map entity: urine
 Mapping entity: lead
 Mapped lead to Lead
+Mapping entity: endocrinology
+Unable to map entity: endocrinology
 Mapping entity: hematology
 Unable to map entity: hematology
+Mapping entity: space
+Unable to map entity: space
 Mapping entity: meetings
 Mapped meetings to Meetings
+Mapping entity: dystrophy
+Unable to map entity: dystrophy
 Mapping entity: muscular dystrophy
 Mapped muscular dystrophy to Muscular Dystrophy
 Mapping entity: chylomicronemia syndrome
 Mapped chylomicronemia syndrome to Chylomicronemia syndrome
+Mapping entity: kawasaki disease
+Unable to map entity: kawasaki disease
 Mapping entity: neuropathy
 Unable to map entity: neuropathy
 Mapping entity: spongiform encephalopathy
 Unable to map entity: spongiform encephalopathy
 Mapping entity: kuru
+Mapping entity: ataxia
+Unable to map entity: ataxia
 Mapping entity: spinocerebellar ataxia
 Mapped spinocerebellar ataxia to Spinocerebellar Ataxia
 Mapping entity: adrenoleukodystrophy
@@ -5169,10 +7466,16 @@ Mapping entity: amyotrophic lateral sclerosis
 Unable to map entity: amyotrophic lateral sclerosis
 Mapping entity: mood disorder
 Unable to map entity: mood disorder
+Mapping entity: neurological disorder
+Unable to map entity: neurological disorder
+Mapping entity: metabolic disorder
+Unable to map entity: metabolic disorder
 Mapping entity: electrolyte
 Mapped electrolyte to Electrolyte
 Mapping entity: rheumatoid arthritis
 Mapped rheumatoid arthritis to Rheumatoid Arthritis
+Mapping entity: clinic
+Unable to map entity: clinic
 Mapping entity: cystitis
 Mapped cystitis to Cystitis
 Mapping entity: pyelonephritis
@@ -5181,6 +7484,8 @@ Mapping entity: urosepsis
 Unable to map entity: urosepsis
 Mapping entity: nephritic syndrome
 Unable to map entity: nephritic syndrome
+Mapping entity: glomerulopathy
+Unable to map entity: glomerulopathy
 Mapping entity: base
 Unable to map entity: base
 Mapping entity: rickets
@@ -5231,18 +7536,32 @@ Mapping entity: mineral
 Mapped mineral to Mineral
 Mapping entity: immunology
 Mapped immunology to Immunology
+Mapping entity: central nervous system
+Unable to map entity: central nervous system
 Mapping entity: metabolic disease
 Mapped metabolic disease to Metabolic disease
+Mapping entity: staphylococcus
+Unable to map entity: staphylococcus
+Mapping entity: lung
+Unable to map entity: lung
 Mapping entity: fat
 Unable to map entity: fat
 Mapping entity: attitude
 Mapped attitude to Attitude
+Mapping entity: culture
+Unable to map entity: culture
+Mapping entity: length
+Unable to map entity: length
 Mapping entity: eye
 Unable to map entity: eye
 Mapping entity: retinopathy
 Unable to map entity: retinopathy
+Mapping entity: nerve
+Unable to map entity: nerve
 Mapping entity: occupational asthma
 Mapped occupational asthma to Occupational Asthma
+Mapping entity: lung disease
+Unable to map entity: lung disease
 Mapping entity: pneumoconiosis
 Unable to map entity: pneumoconiosis
 Mapping entity: mesothelioma
@@ -5253,14 +7572,16 @@ Mapping entity: asbestos
 Mapped asbestos to Asbestos
 Mapping entity: beryllium
 Unable to map entity: beryllium
-Mapping entity: interstitial lung disease
-Mapped interstitial lung disease to Interstitial lung disease
+Mapping entity: lung cancer
+Unable to map entity: lung cancer
 Mapping entity: pulmonary fibrosis
 Mapped pulmonary fibrosis to Pulmonary Fibrosis
 Mapping entity: lipoprotein
 Unable to map entity: lipoprotein
 Mapping entity: low density lipoprotein
 Unable to map entity: low density lipoprotein
+Mapping entity: intake
+Unable to map entity: intake
 Mapping entity: food intake
 Mapped food intake to Food intake
 Mapping entity: vasculitis
@@ -5277,6 +7598,8 @@ Mapping entity: alcoholism
 Unable to map entity: alcoholism
 Mapping entity: chronic alcoholism
 Unable to map entity: chronic alcoholism
+Mapping entity: appetite
+Unable to map entity: appetite
 Mapping entity: temperature
 Mapped temperature to Temperature
 Mapping entity: cystic fibrosis
@@ -5319,7 +7642,7 @@ Mapping entity: seed
 Mapping entity: motor neurone disease
 Mapped motor neurone disease to Disease
 Merged apps for entities: Disease and motor neurone disease
-Num mapped entities: 139
+Num mapped entities: 137
 Filtering: 
  
 Matched entity: Hypothyroidism for category: RTT(full)
@@ -5352,7 +7675,6 @@ Removed entity: Heart Disease
 Matched entity: Arthritis for category: Inflammations
 Matched entity: Atherosclerosis for category: Inflammations
 Matched entity: Asthma for category: RTT(full)
-Matched entity: Chronic liver disease for category: Diseases%20of%20liver
 Matched entity: Kidney failure for category: Organ%20failure
 Matched entity: Diabetes mellitus for category: Diabetes
 Matched entity: Kidney disease for category: Kidney%20diseases
@@ -5447,7 +7769,6 @@ Removed entity: Attitude
 Matched entity: Occupational asthma for category: Asthma
 Matched entity: Silicosis for category: Connective%20tissue%20diseases
 Matched entity: Asbestos for category: Occupational%20safety%20and%20health
-Matched entity: Interstitial lung disease for category: Lung%20disorders
 Matched entity: Pulmonary fibrosis for category: Lung%20disorders
 Removed entity: Food intake
 Removed entity: Chronic disease
@@ -5461,12 +7782,101 @@ Removed entity: Human genome
 Removed entity: Fuel
 Removed entity: Chestnut
 Removed entity: Crop
+Disease 0.7192744271613416
+Kidney disease 0.010805771499693244
+Atherosclerosis 0.010525059954880359
+Blood 0.010205487753305995
+Tuberculosis 0.008973131998832078
+Leukodystrophy 0.008670725108463699
+Pesticide 0.008483158925224898
+Diabetes mellitus 0.008329423636549217
+Measles 0.00816640866646352
+Drug 0.008118457344746295
+Arthritis 0.00791977053181395
+Coronary artery disease 0.007206070217929771
+Lead 0.006549512440054379
+Enzyme 0.006502617374837271
+Heart failure 0.006359547599144592
+Leprosy 0.005750422451155389
+Autoimmune disease 0.005729891319915181
+Rheumatoid arthritis 0.005658462520669349
+Hypothyroidism 0.005420065638362999
+Asthma 0.005343745193369356
+Hyperthyroidism 0.004981012499217159
+Vitamin 0.004981012499217159
+Influenza 0.00496050628390114
+Immunology 0.004817264370651226
+Kidney failure 0.004762534843566769
+Alcohol 0.004045158757586112
+Coeliac disease 0.0036200989206379153
+Diverticulitis 0.0033307577420719804
+Riboflavin 0.0033206749994781053
+Folic acid 0.0033206749994781053
+Inflammatory bowel disease 0.0033206749994781053
+Eating 0.003292751028873786
+Oxygen 0.003283300933308752
+Temperature 0.0031638538233646043
+Silicosis 0.0030159870918325523
+Asbestos 0.0030159870918325523
+Pemphigus 0.0026094402269108232
+Rickettsialpox 0.0026094402269108232
+Electrolyte 0.002361024566473799
+Bile 0.00222050516138132
+Pantothenate kinase 0.0021681077336264277
+Cystic fibrosis 0.002102996676563698
+Familial dysautonomia 0.002102996676563698
+Glycogen 0.002102996676563698
+Mucolipidosis 0.002102996676563698
+Thyroiditis 0.0020993906388848934
+Fibromyalgia 0.0020993906388848934
+Occupational asthma 0.0020106580612217016
+Mumps 0.0019913022360459726
+Pneumonia 0.0019913022360459726
+Nephritis 0.001952997701682221
+Dengue fever 0.0017396268179405488
+Myocardial infarction 0.0016530243099282717
+Thrombosis 0.0016530243099282717
+Venous thrombosis 0.0016530243099282717
+Nitrogen 0.0016195391599320911
+Anxiety disorder 0.0015975046135384573
+Paraplegia 0.001491110850795774
+Cofactor (biochemistry) 0.001491110850795774
+Coenzyme Q10 0.001491110850795774
+Chronic fatigue syndrome 0.001491110850795774
+Retinitis pigmentosa 0.001491110850795774
+Sleep apnea 0.0013995937592565955
+Granuloma 0.0013241776214981049
+Granulomatosis with polyangiitis 0.0013241776214981049
+Glomus tumor 0.0013241776214981049
+Renal function 0.0013019984677881474
+Poisoning 0.001269490845912793
+Irritable bowel syndrome 0.00111025258069066
+Risk factor 0.0010810902239745826
+Osteomalacia 0.001071779121003054
+Osteogenesis imperfecta 0.001071779121003054
+Calcium 0.001071779121003054
+Rheumatic fever 0.001071779121003054
+Lupus erythematosus 0.001071779121003054
+Rhinitis 0.001071779121003054
+Conjunctivitis 0.001071779121003054
+Dermatitis 0.001071779121003054
+Drug allergy 0.001071779121003054
+Pulmonary fibrosis 0.0010053290306108508
+Diphtheria 8.698134089702744E-4
+Scarlet fever 8.698134089702744E-4
+Aneurysm 8.265121549641359E-4
+Aortic aneurysm 8.265121549641359E-4
+Delusional disorder 6.997968796282978E-4
 Cholera
-Num unmapped entities: 96
+Num unmapped entities: 118
 Mapping: 
  
 Mapping entity: cholera
 Mapped cholera to Cholera
+Mapping entity: epidemic
+Unable to map entity: epidemic
+Mapping entity: vibrio cholerae
+Unable to map entity: vibrio cholerae
 Mapping entity: water
 Unable to map entity: water
 Mapping entity: mobility
@@ -5483,8 +7893,12 @@ Mapping entity: name
 Unable to map entity: name
 Mapping entity: faeces
 Unable to map entity: faeces
+Mapping entity: diarrhea
+Unable to map entity: diarrhea
 Mapping entity: snow
 Unable to map entity: snow
+Mapping entity: physician
+Unable to map entity: physician
 Mapping entity: removal
 Mapped removal to Removal
 Mapping entity: air
@@ -5495,6 +7909,12 @@ Mapping entity: phosphorus
 Unable to map entity: phosphorus
 Mapping entity: drinking
 Mapped drinking to Drinking
+Mapping entity: pattern
+Unable to map entity: pattern
+Mapping entity: food
+Unable to map entity: food
+Mapping entity: death
+Unable to map entity: death
 Mapping entity: sewage
 Mapped sewage to Sewage
 Mapping entity: fresh water
@@ -5503,6 +7923,8 @@ Mapping entity: vomiting
 Unable to map entity: vomiting
 Mapping entity: various
 Unable to map entity: various
+Mapping entity: head
+Unable to map entity: head
 Mapping entity: microbiology
 Unable to map entity: microbiology
 Mapping entity: address
@@ -5510,32 +7932,43 @@ Mapped address to Address
 Mapping entity: delegation
 Mapped delegation to Delegation
 Mapping entity: lake
+Mapping entity: space
+Unable to map entity: space
 Mapping entity: immunology
 Mapped immunology to Immunology
 Mapping entity: blood
 Mapped blood to Blood
 Mapping entity: plasma
 Mapped plasma to Plasma
+Mapping entity: blood plasma
+Unable to map entity: blood plasma
 Mapping entity: foods
 Unable to map entity: foods
 Mapping entity: struck
 Mapped struck to Struck
 Mapping entity: boiled water
 Mapped boiled water to Boiled Water
+Mapping entity: fever
 Mapping entity: typhoid fever
 Unable to map entity: typhoid fever
 Mapping entity: dysentery
 Unable to map entity: dysentery
 Mapping entity: hepatitis
 Unable to map entity: hepatitis
+Mapping entity: hospital
+Unable to map entity: hospital
 Mapping entity: infection
 Unable to map entity: infection
 Mapping entity: walking
 Unable to map entity: walking
 Mapping entity: smallpox
 Mapped smallpox to Smallpox
+Mapping entity: history
+Unable to map entity: history
 Mapping entity: wool
 Unable to map entity: wool
+Mapping entity: abdomen
+Unable to map entity: abdomen
 Mapping entity: tobacco
 Unable to map entity: tobacco
 Mapping entity: fruit
@@ -5554,12 +7987,18 @@ Mapping entity: protein
 Unable to map entity: protein
 Mapping entity: rice
 Unable to map entity: rice
+Mapping entity: small intestine
+Unable to map entity: small intestine
+Mapping entity: liquid
+Unable to map entity: liquid
 Mapping entity: dehydration
 Unable to map entity: dehydration
 Mapping entity: skin turgor
 Mapped skin turgor to Skin turgor
 Mapping entity: hypotension
 Mapped hypotension to Hypotension
+Mapping entity: failure
+Unable to map entity: failure
 Mapping entity: renal failure
 Mapped renal failure to Renal Failure
 Mapping entity: coma
@@ -5576,6 +8015,8 @@ Mapping entity: cause of death
 Mapped cause of death to Cause of death
 Mapping entity: age
 Unable to map entity: age
+Mapping entity: health
+Unable to map entity: health
 Mapping entity: construction
 Unable to map entity: construction
 Mapping entity: color
@@ -5609,6 +8050,8 @@ Mapping entity: port
 Unable to map entity: port
 Mapping entity: gold
 Mapped gold to Gold
+Mapping entity: child
+Unable to map entity: child
 Mapping entity: solution
 Unable to map entity: solution
 Mapping entity: sodium
@@ -5623,12 +8066,16 @@ Mapping entity: carbonate
 Unable to map entity: carbonate
 Mapping entity: phosphate
 Mapped phosphate to Phosphate
+Mapping entity: heart
+Unable to map entity: heart
 Mapping entity: muscle tissue
 Mapped muscle tissue to Muscle tissue
 Mapping entity: plague
 Mapped plague to Plague
 Mapping entity: bubonic plague
 Mapped bubonic plague to Bubonic Plague
+Mapping entity: mass
+Unable to map entity: mass
 Mapping entity: bathing
 Unable to map entity: bathing
 Mapping entity: vaccine
@@ -5649,6 +8096,8 @@ Mapping entity: ingestion
 Mapped ingestion to Ingestion
 Mapping entity: quarantine
 Mapped quarantine to Quarantine
+Mapping entity: fluid
+Unable to map entity: fluid
 Mapping entity: body fluid
 Mapped body fluid to Body fluid
 Mapping entity: secretory diarrhea
@@ -5706,12 +8155,45 @@ Matched entity: Body fluid for category: Medical%20terminology
 Matched entity: Diarrhea for category: Conditions%20diagnosed%20by%20stool%20test
 Removed entity: Chlorophyll
 Matched entity: Temperature for category: Physical%20quantities
+Cholera 0.8579622769481432
+Disease 0.06463413000689221
+Drinking 0.014817640601917936
+Blood 0.010927045462247714
+Immunology 0.004626491526521643
+Tuberculosis 0.004338153026263215
+Bile 0.003801092825179305
+Gold 0.0035867788618308034
+Toxin 0.002642212358913988
+Hypotension 0.002642212358913988
+Measles 0.002602891815757929
+Dengue fever 0.002602891815757929
+Quarantine 0.002340859792731058
+Fruit 0.002317443321819109
+Temperature 0.0023121727854671964
+Nitrogen 0.002081508940721667
+Ingestion 0.002048252318639676
+Body fluid 0.002028122074721841
+Diarrhea 0.002028122074721841
+Kidney failure 0.0017614749059426589
+Chloride 0.001467163353482219
+Phosphate 0.001467163353482219
+Muscle tissue 0.001467163353482219
+Coma 8.807374529713294E-4
+Cause of death 8.807374529713294E-4
+Drug 8.676306052526429E-4
+Lead 8.676306052526429E-4
 Immunology
-Num unmapped entities: 47
+Num unmapped entities: 67
 Mapping: 
  
 Mapping entity: immunology
 Mapped immunology to Immunology
+Mapping entity: discipline
+Unable to map entity: discipline
+Mapping entity: health
+Unable to map entity: health
+Mapping entity: immune system
+Unable to map entity: immune system
 Mapping entity: gene
 Unable to map entity: gene
 Mapping entity: vaccine
@@ -5728,10 +8210,14 @@ Mapping entity: antigen
 Mapped antigen to Antigen
 Mapping entity: robin
 Mapped robin to Robin
+Mapping entity: allergy
+Unable to map entity: allergy
 Mapping entity: education
 Mapped education to Education
 Mapping entity: management
 Unable to map entity: management
+Mapping entity: training
+Unable to map entity: training
 Mapping entity: per
 Unable to map entity: per
 Mapping entity: microbiology
@@ -5752,12 +8238,20 @@ Mapping entity: serum
 Mapped serum to Serum
 Mapping entity: immunoglobulin
 Unable to map entity: immunoglobulin
+Mapping entity: food
+Unable to map entity: food
+Mapping entity: review
+Unable to map entity: review
 Mapping entity: peer review
 Mapped peer review to Peer Review
+Mapping entity: cancer
+Unable to map entity: cancer
 Mapping entity: meetings
 Mapped meetings to Meetings
 Mapping entity: attitude
 Mapped attitude to Attitude
+Mapping entity: rheumatology
+Unable to map entity: rheumatology
 Mapping entity: transplantation
 Mapped transplantation to Transplantation
 Mapping entity: infection
@@ -5772,32 +8266,54 @@ Mapping entity: insulin
 Mapped insulin to Insulin
 Mapping entity: diabetes mellitus
 Mapped diabetes mellitus to Diabetes Mellitus
+Mapping entity: head
+Unable to map entity: head
 Mapping entity: t cell subsets
 Unable to map entity: t cell subsets
 Mapping entity: blood
 Mapped blood to Blood
 Mapping entity: transplant
 Unable to map entity: transplant
+Mapping entity: nerve
+Unable to map entity: nerve
 Mapping entity: leprosy
 Mapped leprosy to Leprosy
+Mapping entity: mycobacterium
+Unable to map entity: mycobacterium
 Mapping entity: immunotherapy
 Mapped immunotherapy to Immunotherapy
+Mapping entity: hospital
+Unable to map entity: hospital
 Mapping entity: clinical investigation
 Unable to map entity: clinical investigation
 Mapping entity: various
 Unable to map entity: various
+Mapping entity: hematopoietic stem cell
+Unable to map entity: hematopoietic stem cell
+Mapping entity: physician
+Unable to map entity: physician
+Mapping entity: attending physician
+Unable to map entity: attending physician
+Mapping entity: bone
+Unable to map entity: bone
 Mapping entity: marrow
 Mapped marrow to Marrow
 Mapping entity: bone marrow
 Mapped bone marrow to Bone Marrow
+Mapping entity: joint
+Unable to map entity: joint
 Mapping entity: obsessive compulsive disorder
 Mapped obsessive compulsive disorder to Obsessive Compulsive Disorder
 Mapping entity: protein
 Unable to map entity: protein
+Mapping entity: biochemistry
+Unable to map entity: biochemistry
 Mapping entity: hematology
 Unable to map entity: hematology
 Mapping entity: leukemia
 Unable to map entity: leukemia
+Mapping entity: child
+Unable to map entity: child
 Mapping entity: immunodeficiency
 Mapped immunodeficiency to Immunodeficiency
 Mapping entity: process
@@ -5832,18 +8348,37 @@ Removed entity: Marrow
 Matched entity: Bone marrow for category: Skeletal%20system
 Removed entity: Obsessive Compulsive Disorder
 Removed entity: Immunodeficiency
+Immunology 0.8759697325232607
+Asthma 0.054684829369206586
+Antibody 0.016050695070954767
+Disease 0.01067297071373606
+Leprosy 0.007726372511733346
+Antigen 0.007640790583738285
+Education 0.004823104769516513
+Blood 0.004764985822861978
+Evaluation 0.0041704680918168025
+Immunotherapy 0.003474651653460198
+Bone marrow 0.0027957581765533585
+Arthritis 0.001806410178290323
+Rheumatoid arthritis 0.001806410178290323
+Insulin 0.001806410178290323
+Diabetes mellitus 0.001806410178290323
 Riboflavin
-Num unmapped entities: 156
+Num unmapped entities: 182
 Mapping: 
  
 Mapping entity: enzyme
 Mapped enzyme to Enzyme
+Mapping entity: biochemistry
+Unable to map entity: biochemistry
 Mapping entity: molecule
 Mapped molecule to Molecule
 Mapping entity: riboflavin
 Mapped riboflavin to Riboflavin
 Mapping entity: vitamin
 Mapped vitamin to Vitamin
+Mapping entity: small intestine
+Unable to map entity: small intestine
 Mapping entity: kinase
 Unable to map entity: kinase
 Mapping entity: riboflavin kinase
@@ -5862,14 +8397,20 @@ Mapping entity: protein
 Unable to map entity: protein
 Mapping entity: various
 Unable to map entity: various
+Mapping entity: corynebacterium
+Unable to map entity: corynebacterium
 Mapping entity: antibiotic
 Mapped antibiotic to Antibiotic
 Mapping entity: ampicillin
 Mapped ampicillin to Ampicillin
+Mapping entity: food
+Unable to map entity: food
 Mapping entity: chemical
 Mapped chemical to Chemical
 Mapping entity: color
 Unable to map entity: color
+Mapping entity: culture
+Unable to map entity: culture
 Mapping entity: pyridine
 Mapped pyridine to Pyridine
 Mapping entity: acid
@@ -5888,6 +8429,8 @@ Mapping entity: glutathione reductase
 Mapped glutathione reductase to Glutathione reductase
 Mapping entity: ribulose
 Unable to map entity: ribulose
+Mapping entity: ring
+Unable to map entity: ring
 Mapping entity: riboflavin synthase
 Unable to map entity: riboflavin synthase
 Mapping entity: bifunctional enzyme
@@ -5902,6 +8445,10 @@ Mapping entity: breakfast cereal
 Unable to map entity: breakfast cereal
 Mapping entity: pasta
 Unable to map entity: pasta
+Mapping entity: liquid
+Unable to map entity: liquid
+Mapping entity: solubility
+Unable to map entity: solubility
 Mapping entity: water
 Unable to map entity: water
 Mapping entity: food coloring
@@ -5912,12 +8459,24 @@ Mapping entity: pteridine
 Mapped pteridine to Pteridine
 Mapping entity: adenosine diphosphate
 Unable to map entity: adenosine diphosphate
+Mapping entity: failure
+Unable to map entity: failure
 Mapping entity: failure to thrive
 Mapped failure to thrive to Thrive
+Mapping entity: death
+Unable to map entity: death
+Mapping entity: ataxia
+Unable to map entity: ataxia
 Mapping entity: dermatitis
 Mapped dermatitis to Dermatitis
+Mapping entity: hair
+Unable to map entity: hair
 Mapping entity: corneal opacity
 Unable to map entity: corneal opacity
+Mapping entity: kidney
+Unable to map entity: kidney
+Mapping entity: liver
+Unable to map entity: liver
 Mapping entity: storage
 Unable to map entity: storage
 Mapping entity: oxidoreductase
@@ -5934,6 +8493,8 @@ Mapping entity: transferase
 Mapped transferase to Transferase
 Mapping entity: urine
 Unable to map entity: urine
+Mapping entity: intake
+Unable to map entity: intake
 Mapping entity: dietary intake
 Unable to map entity: dietary intake
 Mapping entity: eating
@@ -5946,6 +8507,8 @@ Mapping entity: disease
 Mapped disease to Disease
 Mapping entity: inflammatory bowel disease
 Mapped inflammatory bowel disease to Inflammatory Bowel Disease
+Mapping entity: heart
+Unable to map entity: heart
 Mapping entity: heart disease
 Mapped heart disease to Heart Disease
 Mapping entity: celiac disease
@@ -5974,6 +8537,8 @@ Mapping entity: eye
 Unable to map entity: eye
 Mapping entity: collagen
 Unable to map entity: collagen
+Mapping entity: cornea
+Unable to map entity: cornea
 Mapping entity: procedure
 Unable to map entity: procedure
 Mapping entity: blood
@@ -5982,6 +8547,10 @@ Mapping entity: transfusion
 Mapped transfusion to Transfusion
 Mapping entity: blood transfusion
 Mapped blood transfusion to Blood Transfusion
+Mapping entity: chromatography
+Unable to map entity: chromatography
+Mapping entity: volume
+Unable to map entity: volume
 Mapping entity: antibacterial drugs
 Unable to map entity: antibacterial drugs
 Mapping entity: plasma
@@ -5996,10 +8565,16 @@ Mapping entity: antibody
 Mapped antibody to Antibody
 Mapping entity: specific antibody
 Mapped specific antibody to Specific antibody
+Mapping entity: embryo
+Unable to map entity: embryo
 Mapping entity: biopsy
 Mapped biopsy to Biopsy
+Mapping entity: cancer
+Unable to map entity: cancer
 Mapping entity: diagnosis
 Unable to map entity: diagnosis
+Mapping entity: prognosis
+Unable to map entity: prognosis
 Mapping entity: termination of pregnancy
 Mapped termination of pregnancy to Termination of pregnancy
 Mapping entity: nicotinamide adenine dinucleotide phosphate
@@ -6064,10 +8639,14 @@ Mapping entity: egg yolk
 Mapped egg yolk to Egg yolk
 Mapping entity: flavoprotein
 Unable to map entity: flavoprotein
+Mapping entity: health
+Unable to map entity: health
 Mapping entity: amyotrophic lateral sclerosis
 Unable to map entity: amyotrophic lateral sclerosis
 Mapping entity: fatty acid
 Unable to map entity: fatty acid
+Mapping entity: fatty acid metabolism
+Unable to map entity: fatty acid metabolism
 Mapping entity: fat
 Unable to map entity: fat
 Mapping entity: anemia
@@ -6120,6 +8699,10 @@ Mapping entity: uracil
 Mapped uracil to Uracil
 Mapping entity: corn
 Mapped corn to Corn
+Mapping entity: fermentation
+Unable to map entity: fermentation
+Mapping entity: ectasia
+Unable to map entity: ectasia
 Mapping entity: corneal ectasia
 Mapped corneal ectasia to Corneal Ectasia
 Mapping entity: keratoconus
@@ -6232,8 +8815,45 @@ Matched entity: Zinc for category: Chemical%20elements
 Matched entity: Iodine for category: World%20Health%20Organization%20essential%20medicines
 Removed entity: Red Meat
 Removed entity: Cobalamin
+Riboflavin 0.6314163433434715
+Enzyme 0.06455163063981213
+Vitamin 0.04809132640658661
+Phosphate 0.039091744133840554
+Blood 0.02424430085963801
+Disease 0.0213204571069165
+Reductase 0.019918948549284624
+Niacin 0.011243472288863519
+Folic acid 0.010514029872949625
+Dehydrogenase 0.009758848915878823
+Ampicillin 0.00808321131458103
+Iron 0.008048721461161517
+Nucleic acid 0.00742541756087742
+Choline 0.00737831569376364
+Nicotinamide 0.007253432578996896
+Zinc 0.007063027097564658
+Calcium 0.006636689719945843
+Glucose 0.0058911836705128305
+Keratoconus 0.005530148095374401
+Gold 0.005224609475905236
+Antibody 0.005046408887546269
+Iodine 0.004902968729663549
+Blood transfusion 0.004728168209351782
+Migraine 0.004442908673604643
+Dermatitis 0.00401264346860277
+Maize 0.003686765396916267
+Ammonia 0.002962862406277464
+Magnesium 0.0029570830907905774
+Chemical substance 0.0026944037715270095
+Pyridine 0.0026944037715270095
+Heart failure 0.0026361541421335622
+Hydrogen 0.001966174370212588
+Corneal ectatic disorders 0.0018433826984581335
+Eating 0.001687770502882839
+Inflammatory bowel disease 0.001687770502882839
+Biopsy 0.0016821362958487564
+Abortion 0.0016821362958487564
 Sugar
-Num unmapped entities: 120
+Num unmapped entities: 145
 Mapping: 
  
 Mapping entity: sugar
@@ -6266,12 +8886,22 @@ Mapping entity: molasses
 Unable to map entity: molasses
 Mapping entity: sucrose
 Mapped sucrose to Sucrose
+Mapping entity: health
+Unable to map entity: health
+Mapping entity: weight
+Unable to map entity: weight
 Mapping entity: obesity
 Unable to map entity: obesity
+Mapping entity: heart
+Unable to map entity: heart
 Mapping entity: disease
 Mapped disease to Disease
 Mapping entity: heart disease
 Mapped heart disease to Heart Disease
+Mapping entity: liver
+Unable to map entity: liver
+Mapping entity: liver disease
+Unable to map entity: liver disease
 Mapping entity: gout
 Unable to map entity: gout
 Mapping entity: fruit
@@ -6282,14 +8912,22 @@ Mapping entity: juice
 Mapped juice to Juice
 Mapping entity: fruit juice
 Mapped fruit juice to Fruit juice
+Mapping entity: intake
+Unable to map entity: intake
 Mapping entity: foods
 Unable to map entity: foods
 Mapping entity: eating
 Mapped eating to Eating
 Mapping entity: habits
 Unable to map entity: habits
+Mapping entity: cancer
+Unable to map entity: cancer
+Mapping entity: liquid
+Unable to map entity: liquid
 Mapping entity: application
 Mapped application to Application
+Mapping entity: nutrition
+Unable to map entity: nutrition
 Mapping entity: icing
 Mapped icing to Icing
 Mapping entity: icing sugar
@@ -6319,6 +8957,8 @@ Mapping entity: water
 Unable to map entity: water
 Mapping entity: radical
 Mapped radical to Radical
+Mapping entity: food
+Unable to map entity: food
 Mapping entity: various
 Unable to map entity: various
 Mapping entity: fuel
@@ -6345,8 +8985,14 @@ Mapping entity: chronic disease
 Mapped chronic disease to Chronic disease
 Mapping entity: carbohydrate
 Mapped carbohydrate to Carbohydrate
+Mapping entity: mass
+Unable to map entity: mass
 Mapping entity: consultation
 Unable to map entity: consultation
+Mapping entity: report
+Unable to map entity: report
+Mapping entity: review
+Unable to map entity: review
 Mapping entity: white sugar
 Unable to map entity: white sugar
 Mapping entity: mineral
@@ -6356,12 +9002,16 @@ Mapped country of origin to Origin
 Mapping entity: jaggery
 Mapping entity: chemical
 Mapped chemical to Chemical
+Mapping entity: death
+Unable to map entity: death
 Mapping entity: river
 Mapped river to River
 Mapping entity: crop
 Mapped crop to Crop
 Mapping entity: wine
 Unable to map entity: wine
+Mapping entity: fermentation
+Unable to map entity: fermentation
 Mapping entity: grapes
 Mapped grapes to Grapes
 Mapping entity: yeast
@@ -6398,10 +9048,14 @@ Mapping entity: hyperglycemia
 Unable to map entity: hyperglycemia
 Mapping entity: blood
 Mapped blood to Blood
+Mapping entity: blood sugar
+Unable to map entity: blood sugar
 Mapping entity: hyperglycaemia
 Mapped hyperglycaemia to Hyperglycaemia
 Mapping entity: plasma
 Mapped plasma to Plasma
+Mapping entity: blood plasma
+Unable to map entity: blood plasma
 Mapping entity: start
 Mapped start to Start
 Mapping entity: extraction
@@ -6412,8 +9066,16 @@ Mapping entity: decision making
 Unable to map entity: decision making
 Mapping entity: sugar alcohol
 Mapped sugar alcohol to Sugar Alcohol
+Mapping entity: tooth
+Unable to map entity: tooth
+Mapping entity: pain
+Unable to map entity: pain
+Mapping entity: diarrhea
+Unable to map entity: diarrhea
 Mapping entity: sucralose
 Unable to map entity: sucralose
+Mapping entity: joint
+Unable to map entity: joint
 Mapping entity: wheat
 Unable to map entity: wheat
 Mapping entity: liqueur
@@ -6424,6 +9086,8 @@ Mapping entity: fertilizer
 Mapped fertilizer to Fertilizer
 Mapping entity: hexose
 Mapped hexose to Hexose
+Mapping entity: volume
+Unable to map entity: volume
 Mapping entity: berry
 Mapped berry to Berry
 Mapping entity: dehydration
@@ -6436,6 +9100,8 @@ Mapping entity: grain
 Unable to map entity: grain
 Mapping entity: rest
 Mapped rest to Rest
+Mapping entity: history
+Unable to map entity: history
 Mapping entity: root
 Mapped root to Root
 Mapping entity: bacon
@@ -6468,8 +9134,12 @@ Mapping entity: coagulation
 Mapped coagulation to Coagulation
 Mapping entity: air
 Mapped air to Air
+Mapping entity: wall
+Unable to map entity: wall
 Mapping entity: hydrogen
 Mapped hydrogen to Hydrogen
+Mapping entity: hospital
+Unable to map entity: hospital
 Mapping entity: vodka
 Mapping entity: thinking
 Mapped thinking to Thinking
@@ -6544,3 +9214,22 @@ Matched entity: Coagulation for category: Traumatology
 Removed entity: Air
 Matched entity: Hydrogen for category: Chemical%20elements
 Removed entity: Thinking
+Glyphosate 0.06107757343382898
+Chemical substance 0.03771344454225545
+Glucose 0.03268101893215316
+Alcohol 0.02340352625955635
+Fruit 0.02318191078797807
+Blood 0.020868435478484285
+Leaf 0.011564620287346759
+Maize 0.011160604658167763
+Disease 0.010830224812119532
+Coagulation 0.008658848287517062
+Hydrogen 0.008658848287517062
+Eating 0.007278469619771644
+Dietary fiber 0.006491336838085178
+Glucose 0.005658012634570064
+Lead 0.004133607217129561
+Carbohydrate 0.004133607217129561
+Diabetes mellitus 0.0035517551923478882
+Insulin 0.0035517551923478882
+Enzyme 0.0017808616825745905

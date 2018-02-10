@@ -44,6 +44,7 @@ public class DocumentLinkReader {
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
 		this.documents=orchestrator.getDocuments(query, 50);
+		System.out.println("got docs");
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
 	}
 	

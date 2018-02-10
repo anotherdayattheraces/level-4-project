@@ -1,0 +1,19 @@
+﻿1 Inflammatory bowel disease
+2 Contact dermatitis
+3 Gut-brain axis
+4 Antibiotic misuse
+5 Legionella
+6 Irritable bowel syndrome
+7 Norepinephrine
+8 Gut flora
+9 Noise-induced hearing loss
+10 Fever
+11 Antiviral drug
+12 Diarrhea
+13 Allergy
+14 Large intestine
+15 Crohn's disease
+16 Cholera
+17 Immunology
+18 Riboflavin
+19 Sugar

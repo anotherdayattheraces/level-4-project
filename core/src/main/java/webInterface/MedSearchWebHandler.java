@@ -1,10 +1,7 @@
 package webInterface;
 
-import org.lemurproject.galago.core.index.stats.IndexPartStatistics;
 import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.parse.Document.DocumentComponents;
-import org.lemurproject.galago.core.retrieval.query.Node;
-import org.lemurproject.galago.core.retrieval.query.StructuredQuery;
 import org.lemurproject.galago.tupleflow.web.WebHandler;
 import org.lemurproject.galago.utility.Parameters;
 import org.lemurproject.galago.utility.StreamUtil;
@@ -383,8 +380,8 @@ public class MedSearchWebHandler implements WebHandler{
 	        writer.append("<title>MedSearch 3000</title></head>");
 	        writer.append("<body>");
 	        writer.append("<center><br/><br/><div id=\"box\">"
-	                //+ "<a href=\"http://lemurproject.org\">"
-	                + "<img src=\"C:/Work/Project/samples/prototype4/level-4-project/core/images\"/><br/>\n");
+	                + "<a href=\"http://lemurproject.org\">"
+	                + "<img src=\"/images/medsearch.png\"/></a><br/>\n");
 	        writer.append("<form action=\"search\"><input name=\"q\" size=\"40\">"
 	                + "<input value=\"Search\" type=\"submit\" /></form><br/><br/>");
 	        writer.append("</div></center></body></html>\n");

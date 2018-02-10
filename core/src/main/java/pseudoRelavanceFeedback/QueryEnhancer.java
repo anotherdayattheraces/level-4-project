@@ -4,32 +4,33 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
+
+import org.lemurproject.galago.core.retrieval.prf.WeightedTerm;
+
 import entityRetrieval.core.Entity;
 import evaluation.DocumentLinkReader;
 
 public class QueryEnhancer {
-	private ArrayList<Long> documents;
+	private ArrayList<Entity> terms;
 	private PrintStream outputStream;
+	private int numTerms;
 
 	
-	public QueryEnhancer(ArrayList<Long> documents){
-		this.documents=documents;
+	public QueryEnhancer(ArrayList<Entity> terms, PrintStream outputStream){
+		this.terms=terms;
+		this.outputStream=outputStream;
 	}
+	
 
-	public static ArrayList<Entity> enhanceQuery(){
-		DocumentLinkReader linker = new DocumentLinkReader();
-		ArrayList<Entity> entities = linker.getEntitiesFromLinks();
-		for(Entity e:entities){
-			e.calculateIDF(50);
-			e.calculateTFIDF();
-			}
-		Collections.sort(entities,QueryEnhancer.tfidf);
-		for(Entity e:entities){
-			System.out.println("Entity name: "+e.getName()+" entity ID: "+e.getId()+" tfidf: "+e.getTFIDF());
-			}
+	public static ArrayList<String> enhanceQuery(){
 		return null;
 	}
-	
+	public List<WeightedTerm> convertToGalago(){
+		List<WeightedTerm> wTerms = new ArrayList<WeightedTerm>();
+		return wTerms;
+		
+	}
 	
 	public static void sortBytfidf(ArrayList<Entity> unorderedList){ // method for sorting entities in a list by their score
 	}

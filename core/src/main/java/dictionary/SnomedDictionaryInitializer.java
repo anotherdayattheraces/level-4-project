@@ -14,7 +14,7 @@ public class SnomedDictionaryInitializer extends DictionaryInitializer{
 		this.filepath=filepath;
 	}
 	public SnomedDictionaryInitializer(){
-		this.filepath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedDictionary.txt";
+		this.filepath="C:/Work/Project/samples/prototype4/level-4-project/core/EnhancedSnomedDictionary.txt";
 	}
 
 	public DictionaryHashMap initialize() throws IOException {
