@@ -24,13 +24,12 @@ public class DocumentLinkReader {
 	private String path;
 	private String query;
 	private HashMap<String,ArrayList<Entity>> mapping;
-	private HashMap<Long,Integer> entitiesPerDoc;
 	private ArrayList<String> topics;
 	public int topicChoice;
 
 	
 	public DocumentLinkReader(){
-		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
 		Pair<Integer, String> topicChoicePair=MedLinkEvaluator.generateRandomTopic(topics);
 		this.query=topicChoicePair.getR();
 		this.topicChoice=topicChoicePair.getL();
@@ -49,7 +48,7 @@ public class DocumentLinkReader {
 	}
 	
 	public DocumentLinkReader(int topicChoice){
-		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
 		this.query=topics.get(topicChoice);
 		this.topicChoice=topicChoice;
 		System.out.println("Chosen query: "+query);

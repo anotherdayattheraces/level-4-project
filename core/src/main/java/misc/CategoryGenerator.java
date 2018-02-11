@@ -19,8 +19,8 @@ import org.lemurproject.galago.core.parse.Document.DocumentComponents;
 
 public class CategoryGenerator {
 	private HashMap<String,ArrayList<String>> mappedEntities;
-	private String path;
 	private String mappingPath;
+	private String path;
 	
 	public CategoryGenerator(){
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";

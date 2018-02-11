@@ -9,6 +9,7 @@ import java.util.HashMap;
 
 import dictionary.DictionaryHashMap;
 import entityRetrieval.core.Pair;
+import evaluation.TopicToEntityMapper;
 
 public class ResultsAnalyzer {
 	private String resultFile;
@@ -75,6 +76,82 @@ public class ResultsAnalyzer {
 				System.out.println(pair.getL()+" apps: "+pair.getR());
 			}
 	}
+		
+		public void findRemovedEntities() throws IOException{
+			String extraDetailsFile = "C:/Work/Project/samples/prototype4/level-4-project/core/Eval/50-STANDARD-ALLTOPICS/MLextraDetails.txt";
+			String qrelFile = "C:/Work/Project/samples/prototype4/level-4-project/core/OLDfilteredQrels.txt";
+			HashMap<String,ArrayList<String>> removedEntities = new HashMap<String,ArrayList<String>>();
+			ArrayList<String> topics = TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/OLDtopics.txt");
+			FileReader file = new FileReader(extraDetailsFile);
+			BufferedReader br = new BufferedReader(file);
+			String line;
+			String currentTopic = null;
+			while((line=br.readLine())!=null){
+				if(topics.contains(line.trim())){
+					currentTopic=line.trim();
+					removedEntities.put(currentTopic, new ArrayList<String>());
+				}
+				else{
+					if(line.startsWith("Removed entity: ")){
+						System.out.println(line.substring("Removed entity: ".length()));
+						removedEntities.get(currentTopic).add(line.substring("Removed entity: ".length()));
+					}
+					
+				}
+			}
+			HashMap<String,ArrayList<String>> finalRemovedEntities = new HashMap<String,ArrayList<String>>();
+			br.close();
+			FileReader file2 = new FileReader(qrelFile);
+			BufferedReader br2 = new BufferedReader(file2);
+			currentTopic = null;
+			Boolean first=false;
+			while((line=br2.readLine())!=null){
+				String[] split = line.split(" ");
+				if(!split[0].replaceAll("%20"," ").equals(currentTopic)){
+					currentTopic=split[0].replaceAll("%20", " ");
+					finalRemovedEntities.put(currentTopic, new ArrayList<String>());
+					System.out.println("new topic: "+currentTopic);
+					first=true;
+				}
+				System.out.println("Current te: "+split[2].replaceAll("%20", " ")+" for topic: "+currentTopic);
+			
+				for(int i=0;i<removedEntities.get(currentTopic).size();i++){
+					if(first){
+						System.out.println("removed entity: "+removedEntities.get(currentTopic).get(i));
+					}
+					if(removedEntities.get(currentTopic).get(i).equals(split[2].replaceAll("%20", " "))){ 
+						finalRemovedEntities.get(currentTopic).add(split[2].replaceAll("%20", " "));
+						
+						break;
+					}
+				}
+				first=false;
+			}
+			br2.close();
+			for(String key:finalRemovedEntities.keySet()){
+				for(String entity:finalRemovedEntities.get(key)){
+					System.out.println("Removed entity: "+entity+" for topic: "+key);
+				}
+			}
+		}
+		public void getINFO(Boolean stats) throws IOException{
+			String resultsFile = "C:/Work/Project/samples/prototype4/level-4-project/core/Eval/50-STANDARD-ALLTOPICS/KBfullDetails.txt";
+			FileReader file = new FileReader(resultsFile);
+			BufferedReader br = new BufferedReader(file);
+			String line;
+			while((line=br.readLine())!=null){
+				if(!line.startsWith("map")) continue;
+				//System.out.println(line);
+				String[] split = line.split("\\s+");
+				if(stats){
+					System.out.println(split[2].replaceAll("%20", " "));
+				}
+				else{
+					System.out.println(split[1].replaceAll("%20", " "));
+				}
+		}
+			br.close();
+		}
 	
 	
 }

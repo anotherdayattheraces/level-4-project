@@ -39,18 +39,17 @@
 39 Insular cortex
 40 Gastrointestinal stromal tumor
 41 Amblyopia
-42 Cigna
-43 Troglitazone
-44 Dilated cardiomyopathy
-45 Parathyroid chief cell
-46 Mycotoxin
-47 Cyclin
-48 Nebulizer
-49 Autophagy
-50 Generalized anxiety disorder
-51 Paget's disease of bone
-52 Women's health
-53 Anesthesia awareness
-54 Triptan
-55 Enoyl CoA isomerase
-56 Paleolithic diet
+42 Troglitazone
+43 Dilated cardiomyopathy
+44 Parathyroid chief cell
+45 Mycotoxin
+46 Cyclin
+47 Nebulizer
+48 Autophagy
+49 Generalized anxiety disorder
+50 Paget's disease of bone
+51 Women's health
+52 Anesthesia awareness
+53 Triptan
+54 Enoyl CoA isomerase
+55 Paleolithic diet

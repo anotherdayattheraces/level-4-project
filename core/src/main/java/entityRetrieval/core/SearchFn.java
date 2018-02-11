@@ -5,14 +5,10 @@ import java.io.PrintStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.lemurproject.galago.core.tools.Search;
-import org.lemurproject.galago.core.tools.SearchWebHandler;
-
 import webInterface.MedSearchWebHandler;
 import webInterface.MedStreamContextHandler;
 import webInterface.MedWebServer;
 import org.lemurproject.galago.tupleflow.web.WebHandler;
-import org.lemurproject.galago.tupleflow.web.WebServerException;
 import org.lemurproject.galago.utility.Parameters;
 
 public class SearchFn {

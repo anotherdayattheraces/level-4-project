@@ -22,18 +22,27 @@ public class QueryEnhancer {
 		this.outputStream=outputStream;
 	}
 	
+	public String enhanceQuery(){
+		
+		ArrayList<Entity> entityList = new ArrayList<Entity>();
+		for(Entity e:mmentities){
+			e.calculateIDF(50);
+			e.calculateTFIDF();
+			System.out.println("Entity name: "+e.getName()+" entity ID: "+e.getId()+" tfidf: "+e.getTFIDF());
+			}
+	
 
 	public static ArrayList<String> enhanceQuery(){
 		return null;
 	}
 	public List<WeightedTerm> convertToGalago(){
 		List<WeightedTerm> wTerms = new ArrayList<WeightedTerm>();
-		return wTerms;
-		
+		return wTerms;	
 	}
 	
 	public static void sortBytfidf(ArrayList<Entity> unorderedList){ // method for sorting entities in a list by their score
 	}
+	
 	public static Comparator<Entity> tfidf = new Comparator<Entity>() {
 
 		public int compare(Entity e1, Entity e2) {

@@ -46,7 +46,7 @@ public class MedLink {
 	
 	
 	public MedLink(){
-		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/OLDtopics.txt");
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
 		Pair<Integer, String> topicChoicePair=MedLinkEvaluator.generateRandomTopic(topics);
 		this.query=topicChoicePair.getR();
 		this.topicChoice=topicChoicePair.getL();
@@ -64,7 +64,7 @@ public class MedLink {
 		this.snomedToWikiMappings=readInMappings(mappingPath);
 	}
 	public MedLink(int topicChoice){
-		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/OLDtopics.txt");
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
 		this.query=topics.get(topicChoice);
 		this.topicChoice=topicChoice;
 		System.out.println("Chosen query: "+query);

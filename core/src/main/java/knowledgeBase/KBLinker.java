@@ -29,7 +29,7 @@ public class KBLinker {
 
 	
 	public KBLinker(){
-		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
 		Pair<Integer, String> topicChoicePair=MedLinkEvaluator.generateRandomTopic(topics);
 		this.query=topicChoicePair.getR();
@@ -39,7 +39,7 @@ public class KBLinker {
 		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 	}
 	public KBLinker(int topicChoice){
-		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
 		this.query=topics.get(topicChoice);
 		this.topicChoice=topicChoice;

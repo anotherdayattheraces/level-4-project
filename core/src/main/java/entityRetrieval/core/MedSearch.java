@@ -14,6 +14,7 @@ import org.lemurproject.galago.core.parse.Document.DocumentComponents;
 import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
+import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
 import org.lemurproject.galago.core.retrieval.query.Node;
 import org.lemurproject.galago.core.retrieval.query.SimpleQuery;
 import org.lemurproject.galago.core.retrieval.query.StructuredQuery;
@@ -22,6 +23,7 @@ import org.lemurproject.galago.utility.Parameters;
 
 import customEntityLinker.MedLink;
 import evaluation.DocumentLinkReader;
+import evaluation.MedLinkEvaluator;
 import knowledgeBase.KBLinker;
 import metamap.MetaMapEntityLinker;
 
@@ -69,25 +71,31 @@ public class MedSearch{
     public SearchResult runQuery(String query, Parameters p){
     	String linkType = p.get("linkType", "ML");
     	ArrayList<Entity> results;
+    	List<ScoredDocument> scoredDocs = null;
     	if(linkType=="ML"){
     		MedLink medlink = new MedLink();
     		results = medlink.matchEntities(System.out);
+    		scoredDocs=medlink.getScoredDocs();
     	}
     	else if(linkType=="LR"){
     		DocumentLinkReader documentlinkreader = new DocumentLinkReader(query);
     		results = documentlinkreader.getEntitiesFromLinks();
+    		scoredDocs=documentlinkreader.getScoredDocuments();
     	}
     	else if(linkType=="KB"){
     		KBLinker kblinker = new KBLinker();
     		results=kblinker.getEntitiesFromText();
+    		scoredDocs=kblinker.getScoredDocuments();
     	}
     	else if(linkType=="MM"){
     		MetaMapEntityLinker metamapentitylinker = new MetaMapEntityLinker();
     		results=metamapentitylinker.generateEntities(System.out);
+    		scoredDocs=metamapentitylinker.getScoredDocuments();
     	}
     	else{
     		return null;
-    	}
+    	} 
+    	calculateScores(results,scoredDocs);
     	return convertToSearchResult(results,query);
     }
     
@@ -147,6 +155,12 @@ public class MedSearch{
     	}
     	searchresult.query=new Node();
     	return searchresult;
+    }
+    public void calculateScores(ArrayList<Entity> results, List<ScoredDocument> scoredDocs){
+    	scoredDocs=MedLinkEvaluator.calculateEntitiesPerDoc(results, scoredDocs);
+    	Map<ScoredDocument, Double> finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
+    	MedLinkEvaluator.setMentionProbablities(results, scoredDocs); //calculate the mention probabilities for each entity per doc
+		MedLinkEvaluator.setScores(results, finalDocScores);//set scores for all entities, using entity metadata
     }
 
 }
