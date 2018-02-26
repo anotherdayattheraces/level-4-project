@@ -105,13 +105,18 @@ public class DocumentLinkReader {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
 		System.out.println("Num unfiltered entities: "+foundEntities.size());
 		KBFilter kbfilter = new KBFilter(foundEntities);
 		foundEntities=kbfilter.filterEntities(null);
 		System.out.println("Num filtered entities: "+foundEntities.size());
+		
 		foundEntities=MedLink.scoreAndRankEntities(foundEntities, getScoredDocuments());
 		//this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
 		//MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
+		for(Entity e:foundEntities){
+			System.out.println(e.getName());
+		}
 		return foundEntities;
 	}
 	public List<ScoredDocument> getScoredDocuments(){

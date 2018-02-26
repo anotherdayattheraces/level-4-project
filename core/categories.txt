@@ -76,11 +76,7 @@ Skin%20anatomy///413
 Human%20throat///409
 Medical%20equipment///393
 Prosthetics///388
-Plumbing///383
 Gustatory%20system///377
-Knowledge%20sharing///375
-Valves///375
-Education///375
 Animal%20locomotion///371
 Liver///370
 Disability///364
@@ -113,7 +109,6 @@ Enzymes%20of%20known%20structure///285
 Heart///282
 Larynx///276
 Facial%20features///275
-Plant%20morphology///272
 Tongue///269
 Aorta///259
 Vagina///251
@@ -127,7 +122,6 @@ Developmental%20biology///235
 Gene%20complexes///235
 Causes%20of%20death///234
 Long%20bones///231
-Topology///228
 Surgical%20procedures///226
 General%20surgery///224
 Surgical%20removal%20procedures///223
@@ -143,10 +137,6 @@ Rare%20diseases///207
 Bones%20of%20the%20vertebral%20column///205
 Drugs///203
 Diseases%20of%20arteries,%20arterioles%20and%20capillaries///201
-Space///198
-Spacetime///198
-Geometry///198
-Nothing///198
 Vertebrate%20anatomy///198
 Pathology///197
 Angiology///187

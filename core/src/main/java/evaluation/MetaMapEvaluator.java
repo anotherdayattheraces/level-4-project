@@ -26,12 +26,12 @@ public class MetaMapEvaluator {
 
 	public MetaMapEvaluator(Boolean multiple){ //multiple=true if you want to carry out a set comparison, false for single eval
 		try {
-			this.outputStream = new PrintStream(new FileOutputStream("MMextraDetails.txt",true));
+			this.outputStream = new PrintStream(new FileOutputStream("MM50extraDetails.txt",true));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/filteredQrels.txt";
-		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MMResults.txt";
+		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MM50Results.txt";
 		this.topicRuns = new ArrayList<TopicRun>();
 		if(multiple){
 			int runNum=1;
@@ -53,7 +53,7 @@ public class MetaMapEvaluator {
 		List<ScoredDocument> scoredDocs = kblinker.getScoredDocuments();
 		Map<ScoredDocument, Double> finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
 		scoredDocs = MedLinkEvaluator.calculateEntitiesPerDoc(returnedEntities,scoredDocs);
-		Boolean customScore = false;
+		Boolean customScore = true;
 		if(customScore){
 			MedLinkEvaluator.setMentionProbablities(returnedEntities, scoredDocs); //calculate the mention probabilities for each entity per doc
 			MedLinkEvaluator.setScores(returnedEntities, finalDocScores);//set scores for all entities, using entity metadata
@@ -79,7 +79,7 @@ public class MetaMapEvaluator {
 		topicRuns.add(new TopicRun(kblinker.getQuery(),kblinker.topicChoice,returnedEntities));
 	}
 	public void evaluate(){
-		KBLinkerEvaluator.createResultsFile("MMResults.txt", topicRuns);
+		KBLinkerEvaluator.createResultsFile("MM50Results.txt", topicRuns);
 		KBLinkerEvaluator.runEval(runFile,qrelFile);
 
 	}

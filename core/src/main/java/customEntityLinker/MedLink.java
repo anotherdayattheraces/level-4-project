@@ -269,7 +269,11 @@ public class MedLink {
 			Boolean mapped=false;
 			String mappedName = null;
 			outputStream.println("Mapping entity: "+e.getName());
-			
+			if(e.getName().length()<3){
+				for(int i=e.getName().length();i<=3;i++){
+					e.setName(e.getName()+" ");
+				}
+			}
 			if(!snomedToWikiMappings.containsKey(e.getName().substring(0, 3).toLowerCase())){
 				//System.out.println("Unable to map entity: "+e.getName());
 				continue;
@@ -386,6 +390,19 @@ public class MedLink {
 		return entities;
 	}
 	
-
-
+	public static ArrayList<String> readBlackList(String path) throws IOException{
+		FileReader file = null;
+		try {
+			file = new FileReader(path);
+		} catch (FileNotFoundException e1) {
+			e1.printStackTrace();
+		}
+		BufferedReader br = new BufferedReader(file);
+		String line;
+		ArrayList<String> blacklist = new ArrayList<String>();
+		while((line=br.readLine())!=null){
+			blacklist.add(line);
+		}
+		return blacklist;
+	}
 }

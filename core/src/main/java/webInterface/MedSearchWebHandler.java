@@ -311,7 +311,7 @@ public class MedSearchWebHandler implements WebHandler{
 
 	    public void handleDocCount(HttpServletRequest request, HttpServletResponse response)
 	            throws Exception {
-	        String exp = request.getParameter("expression");
+	       String exp = request.getParameter("expression");
 	        long count = search.docCount(exp);
 	        PrintWriter writer = response.getWriter();
 	        XMLOutputter outputter = new XMLOutputter(writer, "UTF-8");

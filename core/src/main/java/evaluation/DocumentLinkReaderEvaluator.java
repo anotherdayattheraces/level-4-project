@@ -37,7 +37,7 @@ public class DocumentLinkReaderEvaluator {
 		}
 	}
 	public void addQuery(DocumentLinkReader dlr){ //add a completed topic run to be used for evaluation
-		Boolean customScore=false;
+		Boolean customScore=true;
 		ArrayList<Entity> returnedEntities = dlr.getEntitiesFromLinks();
 		List<ScoredDocument> scoredDocs = dlr.getScoredDocuments();
 		scoredDocs = MedLinkEvaluator.calculateEntitiesPerDoc(returnedEntities,scoredDocs);

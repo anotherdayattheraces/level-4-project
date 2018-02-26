@@ -33,17 +33,14 @@ public class GalagoOrchestrator {
 		try {
 			transformed = retrieval.transformQuery(root, p);
 		} catch (Exception e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		List<ScoredDocument> results = null;
 		try {
 			results = retrieval.executeQuery(transformed, p).scoredDocuments;
 		} catch (Exception e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		//System.out.println(transformed.toSimplePrettyString());
 		return results;
 
 		

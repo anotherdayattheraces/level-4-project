@@ -58,7 +58,7 @@ public class KBLinkerEvaluator {
 		List<ScoredDocument> scoredDocs = kblinker.getScoredDocuments();
 		Map<ScoredDocument, Double> finalDocScores = RelevanceModel1.logstoposteriors(scoredDocs);
 		scoredDocs = MedLinkEvaluator.calculateEntitiesPerDoc(returnedEntities,scoredDocs);
-		Boolean customScore=false;
+		Boolean customScore=true;
 		if(customScore){
 			MedLinkEvaluator.setMentionProbablities(returnedEntities, scoredDocs); //calculate the mention probabilities for each entity per doc
 			MedLinkEvaluator.setScores(returnedEntities, finalDocScores);//set scores for all entities, using entity metadata
@@ -120,13 +120,11 @@ public class KBLinkerEvaluator {
 		p.set("judgments", qrelFile);
 		p.set("summary", true);
 		p.set("details", true);
-
 		Eval eval = new Eval();
 		PrintStream printstream =null;
 		try {
 			printstream = new PrintStream(new FileOutputStream("fullDetails.txt",true));
 		} catch (FileNotFoundException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		try {

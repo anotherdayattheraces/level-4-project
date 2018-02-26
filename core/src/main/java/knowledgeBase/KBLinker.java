@@ -36,7 +36,7 @@ public class KBLinker {
 		this.topicChoice=topicChoicePair.getL();
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 75); //get top 50 documents from galago search of query
 	}
 	public KBLinker(int topicChoice){
 		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
@@ -45,7 +45,7 @@ public class KBLinker {
 		this.topicChoice=topicChoice;
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 75); //get top 50 documents from galago search of query
 	}
 	
 	public ArrayList<Entity> getEntitiesFromText(){
@@ -123,6 +123,7 @@ public class KBLinker {
 				}
 			}
 		}
+		
 		System.out.println("Num unfiltered entities: "+entities.size());
 		KBFilter kbfilter = new KBFilter(entities);
 		entities=kbfilter.filterEntities(null);

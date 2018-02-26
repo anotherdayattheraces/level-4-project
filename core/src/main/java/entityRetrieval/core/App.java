@@ -59,10 +59,10 @@ public class App {
     		
     	}
     	else if(fn.equals("evaluate")){
-    		DocumentLinkReaderEvaluator documentLinkReaderEvaluator = new DocumentLinkReaderEvaluator(true);
-    		documentLinkReaderEvaluator.evaluate();
-    		//MetaMapEvaluator mmeval = new MetaMapEvaluator(true);
-    		//mmeval.evaluate();
+    		//DocumentLinkReaderEvaluator documentLinkReaderEvaluator = new DocumentLinkReaderEvaluator(true);
+    		//documentLinkReaderEvaluator.evaluate();
+    		MetaMapEvaluator mmeval = new MetaMapEvaluator(true);
+    		mmeval.evaluate();
     		//MedLinkEvaluator seval = new MedLinkEvaluator(true);
     		//seval.evaluate();
     		//KBLinkerEvaluator kble = new KBLinkerEvaluator(true);
@@ -79,8 +79,11 @@ public class App {
     		//QueryEnhancer.enhanceQuery();
     		//QrelFilter qf = new QrelFilter();
     		//qf.filterByMapping();
-    		ResultsAnalyzer ra = new ResultsAnalyzer(null);
-    		ra.getINFO(true);
+    		ResultsAnalyzer ra = new ResultsAnalyzer("KB");
+    		//ra.getINFO(true);
+    		//ra.findUnmappedEntities();
+    		ra.findCommonEntities();
+    		//Del.getStats(true);
     		//SnomedDictionaryEnhancer sde = new SnomedDictionaryEnhancer();
     		//sde.enhanceDictionary();
     		//sde.mapSythesizedEntities();

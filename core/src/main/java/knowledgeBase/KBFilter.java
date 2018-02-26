@@ -64,7 +64,12 @@ public class KBFilter {
 	}
 	
 	public ArrayList<Entity> filterEntities(PrintStream outputStream){ //using the instance arraylist of entities return a list of entities that have at least 1 category in the top N categories 
-		HashMap<String,ArrayList<String>> entityToCategoriesMapping = getEntityCategories(kbPath,returnedEntities);
+		Pair<HashMap<String,ArrayList<String>>,ArrayList<Entity>> pair = getEntityCategories(kbPath,returnedEntities);
+		HashMap<String,ArrayList<String>> entityToCategoriesMapping = pair.getL();
+		returnedEntities = pair.getR();
+		for(Entity e:returnedEntities){
+			System.out.println("final entity "+e.getName());
+		}
 		ArrayList<Entity> filteredEntities = new ArrayList<Entity>();
 		for(Entity entity:returnedEntities){
 			if((entityToCategoriesMapping.get(entity.getName())!=null)){
@@ -84,7 +89,7 @@ public class KBFilter {
 		return filteredEntities;
 	}
 	
-	public static HashMap<String,ArrayList<String>> getEntityCategories(String kbPath, ArrayList<Entity> returnedEntities){ //using the list of entities given on initilization, find the associated categories for each entity
+	public static Pair<HashMap<String,ArrayList<String>>,ArrayList<Entity>> getEntityCategories(String kbPath, ArrayList<Entity> returnedEntities){ //using the list of entities given on initilization, find the associated categories for each entity
 		DiskIndex index=null;
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, true, true );
 		String categoryIndicator = "<link tokenizeTagContent=\"false\">Category:";
@@ -113,6 +118,7 @@ public class KBFilter {
 				System.out.println("Unable to match entity: "+entity.getName());
 				continue;
 			}
+			Boolean alreadyExists=false;
 			entityToCategoriesMapping.put(entity.getName(), new ArrayList<String>());
 			for (int i = -1; (i = document.text.indexOf(categoryIndicator, i + 1)) != -1; i++) { //iterate through document text looking for redirect pattern - indicates redirect 
 				int start = i+categoryIndicator.length();
@@ -127,25 +133,43 @@ public class KBFilter {
 				if(redirectPair.getR()==null) continue; //the redirected entity was not contained within the kb
 				entityToCategoriesMapping.remove(entity.getName()); //remove the old entity -> categories mapping 
 				System.out.println("Removed entity: "+entity.getName()+" replaced with: "+redirectPair.getL());
-				Boolean alreadyExists=false;
+				
 				for(Entity re:redirectedEntities){
 					if(re.getName().equals(redirectPair.getL())){ // if the redirected entity is already present - merge the two
 						re.mergeEntityApps(entity);
+						System.out.println("Merging entity: "+entity.getName()+" with entity: "+re.getName());
 						alreadyExists=true;
+						break;
 					}
 				}
 				if(alreadyExists) continue;
 				entity.setName(redirectPair.getL()); //set new entity name
 				entityToCategoriesMapping.put(entity.getName(), new ArrayList<String>());
 				entityToCategoriesMapping.get(entity.getName()).addAll(redirectPair.getR());
+				System.out.println("Adding redirected entity: "+entity.getName());
+
 				redirectedEntities.add(entity);
 			}
 			else{
+				for(Entity e:redirectedEntities){
+					if(e.getName().equals(entity.getName())){
+						alreadyExists=true;
+						e.mergeEntityApps(entity);
+						System.out.println("Merging entity: "+entity.getName()+" with entity: "+e.getName());
+						break;
+					}
+				}
+				
+				if(alreadyExists) continue;
+				System.out.println("Adding unredirected entity: "+entity.getName());
 				redirectedEntities.add(entity);
 			}
 				}
+		for(Entity e:redirectedEntities){
+			System.out.println("finalish entity "+e.getName());
+		}
 		returnedEntities = redirectedEntities;
-		return entityToCategoriesMapping;
+		return new Pair<HashMap<String,ArrayList<String>>,ArrayList<Entity>>(entityToCategoriesMapping,returnedEntities);
 	}
 	public static Boolean findCategoryMatch(ArrayList<String> topCategories, ArrayList<String> entityCategories, Entity currentEntity, PrintStream outputStream){ //given list of top N categories and an entity's associated categories, see if you can match any
 		for(String category:topCategories){

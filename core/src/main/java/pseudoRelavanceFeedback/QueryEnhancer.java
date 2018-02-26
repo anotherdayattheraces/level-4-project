@@ -25,16 +25,16 @@ public class QueryEnhancer {
 	public String enhanceQuery(){
 		
 		ArrayList<Entity> entityList = new ArrayList<Entity>();
-		for(Entity e:mmentities){
+		for(Entity e:entityList){
 			e.calculateIDF(50);
 			e.calculateTFIDF();
 			System.out.println("Entity name: "+e.getName()+" entity ID: "+e.getId()+" tfidf: "+e.getTFIDF());
 			}
-	
-
-	public static ArrayList<String> enhanceQuery(){
 		return null;
 	}
+	
+
+	
 	public List<WeightedTerm> convertToGalago(){
 		List<WeightedTerm> wTerms = new ArrayList<WeightedTerm>();
 		return wTerms;	

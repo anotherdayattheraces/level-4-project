@@ -44,7 +44,7 @@ public class MetaMapEntityLinker {
 	
 	public MetaMapEntityLinker(){
 		//this.options = setOptions("-A,-K,-R [SNOMEDCT]");
-		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
 		Pair<Integer, String> topicChoicePair=MedLinkEvaluator.generateRandomTopic(topics);
 		this.query=topicChoicePair.getR();
 		this.topicChoice=topicChoicePair.getL();
@@ -59,7 +59,7 @@ public class MetaMapEntityLinker {
 	}
 	public MetaMapEntityLinker(int topicChoice){
 		//this.options = setOptions("-A,-K,-R [SNOMEDCT]");
-		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/treccar/topics.txt");
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
 		this.query=topics.get(topicChoice);
 		this.topicChoice=topicChoice;
 		System.out.println("Chosen query: "+query);
