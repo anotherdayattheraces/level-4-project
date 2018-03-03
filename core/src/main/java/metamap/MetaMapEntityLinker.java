@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import org.lemurproject.galago.core.index.disk.DiskIndex;
 import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
@@ -26,6 +27,7 @@ import gov.nih.nlm.nls.metamap.PCM;
 import gov.nih.nlm.nls.metamap.Result;
 import gov.nih.nlm.nls.metamap.Utterance;
 import knowledgeBase.KBFilter;
+import knowledgeBase.SnomedToWikiMapper;
 
 
 
@@ -37,8 +39,8 @@ public class MetaMapEntityLinker {
 	private String mappingPath;
 	private HashMap<String,HashMap<String,String>> snomedToWikiMappings;
 	private ArrayList<String> topics;
-	private HashMap<Long,Integer> entitiesPerDoc;
 	public int topicChoice;
+	private ArrayList<String> blacklist;
 	
 
 	
@@ -70,6 +72,11 @@ public class MetaMapEntityLinker {
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
 		this.snomedToWikiMappings=MedLink.readInMappings(mappingPath);
+		try {
+			this.blacklist=MedLink.readBlackList("C:/Work/Project/samples/prototype4/level-4-project/core/MetaMapBlacklist.txt");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public ArrayList<Entity> generateEntities(PrintStream outputStream){
@@ -132,10 +139,18 @@ public class MetaMapEntityLinker {
 		outputStream.println(query);
 		System.out.println("Num unmapped entities: "+foundEntities.size());
 		outputStream.println("Num unmapped entities: "+foundEntities.size());
-		foundEntities = MedLink.mapEntities(snomedToWikiMappings, foundEntities, outputStream); //map snomed Entities to wiki entities
+		Pair<ArrayList<Entity>,ArrayList<Entity>> pair = MedLink.mapEntities(snomedToWikiMappings, foundEntities, outputStream,blacklist);
+		foundEntities = pair.getL(); //map snomed Entities to wiki entities
+		ArrayList<Entity> unmapped = pair.getR();
 		outputStream.println("Num mapped entities: "+foundEntities.size());
 		System.out.println("Num mapped-unfiltered entities: "+foundEntities.size());
-		KBFilter kbfilter = new KBFilter(foundEntities);
+		unmapped = mapDirectlyToKB(unmapped);
+		outputStream.println("Num KB-mapped entities: "+unmapped.size());
+
+		foundEntities=merge(foundEntities,unmapped);
+		outputStream.println("Num Final-mapped entities: "+foundEntities.size());
+
+		KBFilter kbfilter = new KBFilter(foundEntities,blacklist);
 		foundEntities=kbfilter.filterEntities(outputStream);
 		System.out.println("Num filtered entities: "+foundEntities.size());
 		//this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
@@ -161,7 +176,7 @@ public class MetaMapEntityLinker {
 	public void addEntity(Ev mapEv, ArrayList<Entity> entities, ScoredDocument docid){
 		for(Entity e:entities){
 			try {
-				if(e.getName().equals(mapEv.getPreferredName())){
+				if(e.getName().equals(mapEv.getPreferredName().toLowerCase())){
 					e.addAppearance(docid);
 					return;
 				}
@@ -191,4 +206,62 @@ public class MetaMapEntityLinker {
 	public int getMaxTopics(){
 		return this.topics.size();
 	}
+	public static ArrayList<Entity> mapDirectlyToKB(ArrayList<Entity> unmappedEntities){
+		DiskIndex index = null;
+		Document.DocumentComponents dc = new Document.DocumentComponents( false, true, true );
+
+		try {
+			index = new DiskIndex("C:/Work/Project/samples/Unprocessed_Index");
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		ArrayList<Entity> mappedEntities = new ArrayList<Entity>();
+		Document doc = null;
+		for(Entity e:unmappedEntities){
+			if(e.getName().length()<2) continue;
+			String transformedName = SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(e.getName());
+			try {
+				doc=index.getDocument(transformedName, dc);
+			} catch (IOException e1) {
+				e1.printStackTrace();
+			}
+			if(doc==null){
+				 transformedName = SnomedToWikiMapper.formatEntityName(transformedName);
+				try {
+					doc=index.getDocument(transformedName, dc);
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}
+			}
+			if(doc!=null){
+				if(doc.text.contains("#REDIRECT")){
+					transformedName = KBFilter.searchRedirect(index,dc,doc.text);
+				}
+				if(transformedName==null){
+					System.out.println("NULL REDIRECT");
+					continue;
+				}
+				e.setName(transformedName);
+				mappedEntities.add(e);
+			}
+		}
+		return mappedEntities;
+	}
+	public static ArrayList<Entity> merge(ArrayList<Entity> mapped,ArrayList<Entity> redirected){
+		int size = mapped.size();
+		for(int i=0;i<redirected.size();i++){
+			Boolean exists=false;
+				for(int j=0;j<size;j++){
+					if(mapped.get(j).getName().equals(redirected.get(i).getName())){
+						exists=true;
+						mapped.get(j).mergeEntityApps(redirected.get(i));
+					}
+			}
+				if(!exists){
+					mapped.add(redirected.get(i));
+				}
+				
+			}
+		return mapped;
+		}
 }

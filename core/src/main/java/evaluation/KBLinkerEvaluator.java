@@ -48,7 +48,7 @@ public class KBLinkerEvaluator {
 	
 	public void evaluate(){
 		createResultsFile("KBResults.txt", topicRuns);
-		runEval(runFile,qrelFile);
+		runEval(runFile,qrelFile,"KB");
 
 	}
 
@@ -114,7 +114,7 @@ public class KBLinkerEvaluator {
 			e.printStackTrace();
 		}
 	}
-	public static void runEval(String runFile, String qrelFile){ //static method to be used by other eval classes takes both run/qrel files and uses galago api to compute statistics
+	public static void runEval(String runFile, String qrelFile,String prefix){ //static method to be used by other eval classes takes both run/qrel files and uses galago api to compute statistics
 		Parameters p = Parameters.create();
 		p.set("baseline", runFile); //set fileName of results file
 		p.set("judgments", qrelFile);
@@ -123,7 +123,7 @@ public class KBLinkerEvaluator {
 		Eval eval = new Eval();
 		PrintStream printstream =null;
 		try {
-			printstream = new PrintStream(new FileOutputStream("fullDetails.txt",true));
+			printstream = new PrintStream(new FileOutputStream(prefix+"fullDetails.txt",true));
 		} catch (FileNotFoundException e1) {
 			e1.printStackTrace();
 		}

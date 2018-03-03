@@ -10,6 +10,7 @@ import org.lemurproject.galago.core.index.disk.DiskIndex;
 import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 
+import customEntityLinker.MedLink;
 import entityRetrieval.core.Entity;
 import entityRetrieval.core.GalagoOrchestrator;
 import entityRetrieval.core.Pair;
@@ -24,9 +25,7 @@ public class KBLinker {
 	private HashMap<Long,Integer> entitiesPerDoc;
 	private ArrayList<String> topics;
 	public int topicChoice;
-	
-
-
+	private ArrayList<String> blacklist;
 	
 	public KBLinker(){
 		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
@@ -37,6 +36,11 @@ public class KBLinker {
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 75); //get top 50 documents from galago search of query
+		try {
+			this.blacklist=MedLink.readBlackList("C:/Work/Project/samples/prototype4/level-4-project/core/KblinkerBlacklist.txt");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	public KBLinker(int topicChoice){
 		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
@@ -45,7 +49,12 @@ public class KBLinker {
 		this.topicChoice=topicChoice;
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 75); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+		try {
+			this.blacklist=MedLink.readBlackList("C:/Work/Project/samples/prototype4/level-4-project/core/KblinkerBlacklist.txt");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public ArrayList<Entity> getEntitiesFromText(){
@@ -94,14 +103,14 @@ public class KBLinker {
 				onePreviousWord=currentWord;
 				lineNum++;
 				currentWord = currentWord.substring(0, 1).toUpperCase()+currentWord.substring(1); //format current word: brass -> Brass
-				if(twoWords!=null){
+				if(twoWords!=null&&!blacklist.contains(twoWords)){
 					twoWords = SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(twoWords);
 					if(searcher.lookupTerm(twoWords)){
 						addEntity(twoWords,entities,sd);
 						//System.out.println("Found entity: "+twoWords);
 					}
 				}
-				if(threeWords!=null){
+				if(threeWords!=null&&!blacklist.contains(fourWords)){
 					threeWords = SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(threeWords);
 					if(searcher.lookupTerm(threeWords)){
 						addEntity(threeWords,entities,sd);
@@ -109,7 +118,7 @@ public class KBLinker {
 
 					}
 				}
-				if(fourWords!=null){
+				if(fourWords!=null&&!blacklist.contains(fourWords)){
 					fourWords = SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(fourWords);
 					if(searcher.lookupTerm(fourWords)){
 						addEntity(fourWords,entities,sd);
@@ -117,7 +126,7 @@ public class KBLinker {
 
 					}
 				}
-				if(searcher.lookupTerm(currentWord)){
+				if(searcher.lookupTerm(currentWord)&&!blacklist.contains(currentWord)){
 					addEntity(currentWord,entities,sd);
 					//System.out.println("Found entity: "+currentWord);
 				}
@@ -125,7 +134,7 @@ public class KBLinker {
 		}
 		
 		System.out.println("Num unfiltered entities: "+entities.size());
-		KBFilter kbfilter = new KBFilter(entities);
+		KBFilter kbfilter = new KBFilter(entities,blacklist);
 		entities=kbfilter.filterEntities(null);
 		System.out.println("Num filtered entities: "+entities.size());
 		//this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(entities);

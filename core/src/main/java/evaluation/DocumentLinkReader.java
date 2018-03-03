@@ -107,7 +107,7 @@ public class DocumentLinkReader {
 		}
 		
 		System.out.println("Num unfiltered entities: "+foundEntities.size());
-		KBFilter kbfilter = new KBFilter(foundEntities);
+		KBFilter kbfilter = new KBFilter(foundEntities,new ArrayList<String>());
 		foundEntities=kbfilter.filterEntities(null);
 		System.out.println("Num filtered entities: "+foundEntities.size());
 		

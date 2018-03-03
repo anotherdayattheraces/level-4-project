@@ -21,13 +21,16 @@ public class KBFilter {
 	private ArrayList<String> categories;
 	private String path;
 	private String kbPath;
+	private static ArrayList<String> blacklist;
 	
-	public KBFilter(ArrayList<Entity> returnedEntities){
+	public KBFilter(ArrayList<Entity> returnedEntities, ArrayList<String> blacklist){
 		this.path="C:/Work/Project/samples/prototype4/level-4-project/core/categories.txt";
 		this.kbPath="C:/Work/Project/samples/Unprocessed_Index";
 		this.categories=readInCategories(path);
 		this.returnedEntities=returnedEntities;
+		this.blacklist=blacklist;
 	}
+	
 
 		
 	public static ArrayList<String> readInCategories(String path){ //read in saved file of top categories
@@ -67,9 +70,6 @@ public class KBFilter {
 		Pair<HashMap<String,ArrayList<String>>,ArrayList<Entity>> pair = getEntityCategories(kbPath,returnedEntities);
 		HashMap<String,ArrayList<String>> entityToCategoriesMapping = pair.getL();
 		returnedEntities = pair.getR();
-		for(Entity e:returnedEntities){
-			System.out.println("final entity "+e.getName());
-		}
 		ArrayList<Entity> filteredEntities = new ArrayList<Entity>();
 		for(Entity entity:returnedEntities){
 			if((entityToCategoriesMapping.get(entity.getName())!=null)){
@@ -133,7 +133,7 @@ public class KBFilter {
 				if(redirectPair.getR()==null) continue; //the redirected entity was not contained within the kb
 				entityToCategoriesMapping.remove(entity.getName()); //remove the old entity -> categories mapping 
 				System.out.println("Removed entity: "+entity.getName()+" replaced with: "+redirectPair.getL());
-				
+				if(blacklist.contains(redirectPair.getL())) continue;
 				for(Entity re:redirectedEntities){
 					if(re.getName().equals(redirectPair.getL())){ // if the redirected entity is already present - merge the two
 						re.mergeEntityApps(entity);
@@ -165,9 +165,7 @@ public class KBFilter {
 				redirectedEntities.add(entity);
 			}
 				}
-		for(Entity e:redirectedEntities){
-			System.out.println("finalish entity "+e.getName());
-		}
+		
 		returnedEntities = redirectedEntities;
 		return new Pair<HashMap<String,ArrayList<String>>,ArrayList<Entity>>(entityToCategoriesMapping,returnedEntities);
 	}
@@ -200,6 +198,24 @@ public class KBFilter {
 		String redirect = docText.substring(start,end);
 		System.out.println("Redirected from entity: "+entity+" to entity: "+redirect);
 		return new Pair<String, ArrayList<String>>(redirect,findEntityCategories(index,redirect,dc));
+	}
+	public static String searchRedirect(DiskIndex index, DocumentComponents dc, String docText){  //given a known redirect - find the redirected entity's categories
+		int start = 0;
+		if(docText.contains("#REDIRECT <link tokenizeTagContent=\"false\">")){ //there is a subtle difference between the two strings, this i think is due to incorrect formatting but it was giving me the wrong entities so i need to address both cases
+			start = docText.indexOf("#REDIRECT <link tokenizeTagContent=\"false\">")+43; //plus 43 because its the length of "#REDIRECT <link tokenizeTagContent="false">" plus a space
+		}
+		else if(docText.contains("#REDIRECT<link tokenizeTagContent=\"false\">")){
+			start = docText.indexOf("#REDIRECT<link tokenizeTagContent=\"false\">")+42;
+		}
+		
+		else{
+			System.out.println("Redirect with improper formatting");
+			return null;
+		}
+		int end = docText.indexOf("</link>");
+		String redirect = docText.substring(start,end);
+		System.out.println("Redirected to entity: "+redirect);
+		return redirect;
 	}
 	
 	public static ArrayList<String> findEntityCategories(DiskIndex index, String entity, DocumentComponents dc){ //given a wiki entity, find all categories associated from its wiki page or the page it redirects to

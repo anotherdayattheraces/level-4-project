@@ -71,7 +71,7 @@ public class DocumentLinkReaderEvaluator {
 	}
 	public void evaluate(){
 		KBLinkerEvaluator.createResultsFile("DLRResults.txt", topicRuns);
-		KBLinkerEvaluator.runEval(runFile,qrelFile);
+		KBLinkerEvaluator.runEval(runFile,qrelFile,"DLR");
 
 	}
 	

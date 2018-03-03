@@ -26,12 +26,12 @@ public class MetaMapEvaluator {
 
 	public MetaMapEvaluator(Boolean multiple){ //multiple=true if you want to carry out a set comparison, false for single eval
 		try {
-			this.outputStream = new PrintStream(new FileOutputStream("MM50extraDetails.txt",true));
+			this.outputStream = new PrintStream(new FileOutputStream("MMextraDetails.txt",true));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/filteredQrels.txt";
-		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MM50Results.txt";
+		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/MetaMapfilteredQrels.txt";
+		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MMResults.txt";
 		this.topicRuns = new ArrayList<TopicRun>();
 		if(multiple){
 			int runNum=1;
@@ -79,8 +79,8 @@ public class MetaMapEvaluator {
 		topicRuns.add(new TopicRun(kblinker.getQuery(),kblinker.topicChoice,returnedEntities));
 	}
 	public void evaluate(){
-		KBLinkerEvaluator.createResultsFile("MM50Results.txt", topicRuns);
-		KBLinkerEvaluator.runEval(runFile,qrelFile);
+		KBLinkerEvaluator.createResultsFile("MMResults.txt", topicRuns);
+		KBLinkerEvaluator.runEval(runFile,qrelFile,"MM");
 
 	}
 	

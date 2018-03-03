@@ -61,10 +61,10 @@ public class App {
     	else if(fn.equals("evaluate")){
     		//DocumentLinkReaderEvaluator documentLinkReaderEvaluator = new DocumentLinkReaderEvaluator(true);
     		//documentLinkReaderEvaluator.evaluate();
-    		MetaMapEvaluator mmeval = new MetaMapEvaluator(true);
-    		mmeval.evaluate();
-    		//MedLinkEvaluator seval = new MedLinkEvaluator(true);
-    		//seval.evaluate();
+    		//MetaMapEvaluator mmeval = new MetaMapEvaluator(true);
+    		//mmeval.evaluate();
+    		MedLinkEvaluator seval = new MedLinkEvaluator(true);
+    		  seval.evaluate();
     		//KBLinkerEvaluator kble = new KBLinkerEvaluator(true);
     		//kble.evaluate();
     	}
@@ -77,12 +77,14 @@ public class App {
     		//TopicToEntityMapper ttem = new TopicToEntityMapper();
     		//ttem.saveFilteredQrels(ttem.filterQrels());
     		//QueryEnhancer.enhanceQuery();
+    		SnomedDictionaryInitializer sdi = new SnomedDictionaryInitializer();
+    		sdi.initialize();
     		//QrelFilter qf = new QrelFilter();
     		//qf.filterByMapping();
-    		ResultsAnalyzer ra = new ResultsAnalyzer("KB");
+    		//ResultsAnalyzer ra = new ResultsAnalyzer("KB");
     		//ra.getINFO(true);
     		//ra.findUnmappedEntities();
-    		ra.findCommonEntities();
+    		//ra.findCommonEntities();
     		//Del.getStats(true);
     		//SnomedDictionaryEnhancer sde = new SnomedDictionaryEnhancer();
     		//sde.enhanceDictionary();

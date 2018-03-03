@@ -31,7 +31,7 @@ public class MedLinkEvaluator {
 
 
 	public MedLinkEvaluator(Boolean multiple){ //multiple=true if you want to carry out a set comparison, false for single eval
-		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/filteredQrels.txt";
+		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/MedLinkfilteredQrels.txt";
 		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MLResults.txt";
 		try {
 			this.outputStream = new PrintStream(new FileOutputStream("MLextraDetails.txt",true));
@@ -44,7 +44,7 @@ public class MedLinkEvaluator {
 			MedLink medLinker = new MedLink(0);
 			addQuery(medLinker);
 			DictionaryHashMap reusableDictionary = new DictionaryHashMap(medLinker.getDictionary().getDictionary());
-			while(runNum<medLinker.getMaxTopics()){
+			while(runNum<1){
 				MedLink medLinkerMul = new MedLink(runNum,reusableDictionary); //compute map of all queries
 				addQuery(medLinkerMul);
 				runNum++;
@@ -93,7 +93,7 @@ public class MedLinkEvaluator {
 	
 	public void evaluate(){
 		KBLinkerEvaluator.createResultsFile("MLResults.txt", topicRuns);
-		KBLinkerEvaluator.runEval(runFile,qrelFile);
+		KBLinkerEvaluator.runEval(runFile,qrelFile,"ML");
 	}
 
 	

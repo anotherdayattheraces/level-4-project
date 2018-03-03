@@ -31,8 +31,23 @@ public class SnomedDictionaryInitializer extends DictionaryInitializer{
 			dictionary.addEntity(new Entity(name,id));
 			
 		}
+		printStats(dictionary);
 		br.close();
 		return dictionary;
+	}
+	
+	public void printStats(DictionaryHashMap dictionary){
+		System.out.println("Num keys :"+dictionary.getDictionary().keySet().size());
+		int max =0;
+		String maxkey = null;
+		for(String key:dictionary.getDictionary().keySet()){
+			if(dictionary.getDictionary().get(key).size()>max){
+				max=dictionary.getDictionary().get(key).size();
+				maxkey=key;
+			}
+		}
+		System.out.println("max bucket: "+max+" string: "+maxkey);
+		
 	}
 
 }

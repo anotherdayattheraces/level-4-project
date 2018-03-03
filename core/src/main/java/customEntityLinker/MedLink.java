@@ -28,6 +28,8 @@ import evaluation.EntityMatcher;
 import evaluation.MedLinkEvaluator;
 import evaluation.TopicToEntityMapper;
 import knowledgeBase.KBFilter;
+import knowledgeBase.SnomedToWikiMapper;
+import metamap.MetaMapEntityLinker;
 
 
 public class MedLink {
@@ -41,6 +43,8 @@ public class MedLink {
 	private ArrayList<String> topics;
 	public int topicChoice;
 	private static String kbPath ="C:/Work/Project/samples/Unprocessed_Index";
+	private ArrayList<String> blacklist;
+
 
 
 	
@@ -62,6 +66,12 @@ public class MedLink {
 		this.scoredDocs = orchestrator.getDocuments(query, 25); //get top 50 documents from galago search of query
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
 		this.snomedToWikiMappings=readInMappings(mappingPath);
+		try {
+			this.blacklist=MedLink.readBlackList("C:/Work/Project/samples/prototype4/level-4-project/core/MedLinkBlacklist.txt");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
 	}
 	public MedLink(int topicChoice){
 		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
@@ -78,7 +88,13 @@ public class MedLink {
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
-		this.snomedToWikiMappings=readInMappings(mappingPath);	
+		this.snomedToWikiMappings=readInMappings(mappingPath);
+		try {
+			this.blacklist=MedLink.readBlackList("C:/Work/Project/samples/prototype4/level-4-project/core/MedLinkBlacklist.txt");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
 	}
 	public MedLink(int topicChoice, DictionaryHashMap dictionary){
 		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
@@ -90,7 +106,12 @@ public class MedLink {
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
-		this.snomedToWikiMappings=readInMappings(mappingPath);	
+		this.snomedToWikiMappings=readInMappings(mappingPath);
+		try {
+			this.blacklist=MedLink.readBlackList("C:/Work/Project/samples/prototype4/level-4-project/core/MedLinkBlacklist.txt");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public ArrayList<Entity> matchEntities(PrintStream outputStream){
@@ -122,6 +143,8 @@ public class MedLink {
 				return null;
 			}
 			int line=1;
+			ArrayList<String> unmapped = new ArrayList<String>();
+
 			for(String term : doc.terms ) {
 				//System.out.println(term);
 				term = term.toLowerCase();
@@ -138,7 +161,6 @@ public class MedLink {
 				Boolean two=false;
 				Boolean three=false;
 				Boolean four=false;
-				
 				if(doubleTerm){
 					twoWords=previousTerm+" "+term;
 					//System.out.println(twoWords);
@@ -162,16 +184,37 @@ public class MedLink {
 				if(dictionary.lookupString(term)){ //dictionary contains term
 						one = true;
 					}
-				if(doubleTerm&&dictionary.lookupString(twoWords)){
+				else{
+					unmapped.add(term);
+				}
+				if(doubleTerm){
+					if(dictionary.lookupString(twoWords)){
+						
 						//System.out.println("found match for term: "+twoWords);
 						two = true;
 					}
-				if(tripleTerm&&dictionary.lookupString(threeWords)){
+					else{
+						unmapped.add(twoWords);
+					}
+				}
+				if(tripleTerm){
+					if(dictionary.lookupString(threeWords)){
 						three = true;
 					}
-				if(quadTerm&&dictionary.lookupString(fourWords)){
+				else{
+					unmapped.add(threeWords);
+				}
+				}
+				if(quadTerm){
+					if(dictionary.lookupString(threeWords)){
 						four = true;
 					}
+				
+				else{
+					unmapped.add(fourWords);
+				}
+				}
+				
 					if(!one&&!two&&!three&&!four) continue; //no entity matches
 							if(one){
 								if(!addAppearance(foundEntities,term,sd)){
@@ -210,7 +253,7 @@ public class MedLink {
 										
 									}			
 								}
-							}
+							} 
 							else if(four){
 								if(!addAppearance(foundEntities,fourWords,sd)){
 									if(foundEntities.isEmpty()){
@@ -225,6 +268,7 @@ public class MedLink {
 								}
 							}
 					}
+			foundEntities=MetaMapEntityLinker.merge(matchDirectlyToKB(unmapped),foundEntities);
 							
 						}
 		try {
@@ -238,13 +282,14 @@ public class MedLink {
 		outputStream.println("Num unmapped entities: "+foundEntities.size());
 		outputStream.println("Mapping: ");
 		outputStream.println(" ");
-		foundEntities = mapEntities(snomedToWikiMappings, foundEntities,outputStream); //map snomed Entities to wiki entities
+		Pair<ArrayList<Entity>,ArrayList<Entity>> pair = mapEntities(snomedToWikiMappings, foundEntities,outputStream,blacklist);
+		foundEntities = pair.getL(); //map snomed Entities to wiki entities
 		
 		outputStream.println("Num mapped entities: "+foundEntities.size());
 		outputStream.println("Filtering: ");
 		outputStream.println(" ");
 		System.out.println("Num mapped-unfiltered entities: "+foundEntities.size());
-		KBFilter kbfilter = new KBFilter(foundEntities);
+		KBFilter kbfilter = new KBFilter(foundEntities,blacklist);
 		foundEntities=kbfilter.filterEntities(outputStream);
 		System.out.println("Num filtered entities: "+foundEntities.size());
 		
@@ -263,12 +308,13 @@ public class MedLink {
 		return this.query;
 	}
 	
-	public static ArrayList<Entity> mapEntities( HashMap<String,HashMap<String,String>> snomedToWikiMappings, ArrayList<Entity> unmappedEntities, PrintStream outputStream){
+	public static Pair<ArrayList<Entity>,ArrayList<Entity>> mapEntities( HashMap<String,HashMap<String,String>> snomedToWikiMappings, ArrayList<Entity> unmappedEntities, PrintStream outputStream,ArrayList<String> blacklist){
 		ArrayList<Entity> mappedEntities = new ArrayList<Entity>();
+		ArrayList<Entity> unMappableEntities = new ArrayList<Entity>();
+
 		for(Entity e:unmappedEntities){
 			Boolean mapped=false;
 			String mappedName = null;
-			outputStream.println("Mapping entity: "+e.getName());
 			if(e.getName().length()<3){
 				for(int i=e.getName().length();i<=3;i++){
 					e.setName(e.getName()+" ");
@@ -283,9 +329,10 @@ public class MedLink {
 				mappedName=snomedToWikiMappings.get(e.getName().substring(0, 3).toLowerCase()).get(EntityMatcher.removeBracketDescription(e.getName().toLowerCase().trim()));
 				outputStream.println("Formatted: "+e.getName()+" without brackets");
 			}
+		
 			if(mappedName!=null){
+				if(blacklist.contains(mappedName)) continue;
 				outputStream.println("Mapped "+e.getName()+" to "+mappedName);
-				//System.out.println("Mapped "+e.getName()+" to "+mappedName);
 				Boolean merge=false;
 				for(Entity entity:mappedEntities){
 					if(entity.getName().equals(mappedName)){
@@ -304,11 +351,12 @@ public class MedLink {
 				mapped=true;
 			}
 			if(!mapped){
+				unMappableEntities.add(e);
 				outputStream.println("Unable to map entity: "+e.getName());
 				System.out.println("Unable to map entity: "+e.getName());
 			}
 		}
-		return mappedEntities;
+		return new Pair<ArrayList<Entity>,ArrayList<Entity>>(mappedEntities,unMappableEntities);
 	}
 	public static HashMap<String,HashMap<String,String>> readInMappings(String mappingPath){
 		FileReader file = null;
@@ -405,4 +453,46 @@ public class MedLink {
 		}
 		return blacklist;
 	}
+	public ArrayList<Entity> matchDirectlyToKB(ArrayList<String> unmapped){
+		DiskIndex index = null;
+		Document.DocumentComponents dc = new Document.DocumentComponents( false, true, true );
+
+		try {
+			index = new DiskIndex("C:/Work/Project/samples/Unprocessed_Index");
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		ArrayList<Entity> mappedEntities = new ArrayList<Entity>();
+		Document doc = null;
+		for(String s:unmapped){
+			if(s.length()<2) continue;
+			String transformedName = SnomedToWikiMapper.formatEntityNameFirstLetterUpperCase(s);
+			try {
+				doc=index.getDocument(transformedName, dc);
+			} catch (IOException e1) {
+				e1.printStackTrace();
+			}
+			if(doc==null){
+				 transformedName = SnomedToWikiMapper.formatEntityName(transformedName);
+				try {
+					doc=index.getDocument(transformedName, dc);
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}
+			}
+			if(doc!=null){
+				if(doc.text.contains("#REDIRECT")){
+					transformedName = KBFilter.searchRedirect(index,dc,doc.text);
+				}
+				if(transformedName==null){
+					System.out.println("NULL REDIRECT");
+					continue;
+				}
+				
+				mappedEntities.add(new Entity(s,s.replaceAll(" ", "%20")));
+			}
+		}
+		return mappedEntities;
+	}
+	
 }

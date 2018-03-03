@@ -177,7 +177,7 @@ public class ResultsAnalyzer {
 					}
 				}
 			}
-			HashMap<String,ArrayList<String>> finalRemovedEntities = new HashMap<String,ArrayList<String>>();
+			HashMap<String,ArrayList<String>> finalRemovedEntities = new HashMap<String,ArrayList<String>>(); //hashmap of qrel entities which were unmapped
 			br.close();
 			FileReader file2 = new FileReader(qrelFile);
 			BufferedReader br2 = new BufferedReader(file2);

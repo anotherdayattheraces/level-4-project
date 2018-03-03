@@ -311,7 +311,7 @@ public class SnomedDictionaryEnhancer {
 		catch (IOException e1) {
 			e1.printStackTrace();
 		}
-		KBFilter kbf = new KBFilter(unfilteredEntities);
+		KBFilter kbf = new KBFilter(unfilteredEntities,new ArrayList<String>());
 		unfilteredEntities = kbf.filterEntities(System.out);
 		PrintStream newFilteredMappedEntities = null;
 		try {
