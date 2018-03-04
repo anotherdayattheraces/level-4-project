@@ -11,6 +11,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
+
+import org.apache.commons.lang3.time.StopWatch;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
 import org.lemurproject.galago.core.retrieval.prf.WeightedTerm;
@@ -33,12 +35,15 @@ public class MedLinkEvaluator {
 	public MedLinkEvaluator(Boolean multiple){ //multiple=true if you want to carry out a set comparison, false for single eval
 		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/MedLinkfilteredQrels.txt";
 		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MLResults.txt";
+		StopWatch stopWatch = new StopWatch();
+
 		try {
 			this.outputStream = new PrintStream(new FileOutputStream("MLextraDetails.txt",true));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 		this.topicRuns = new ArrayList<TopicRun>();
+		stopWatch.start();
 		if(multiple){
 			int runNum=1;
 			MedLink medLinker = new MedLink(0);
@@ -54,6 +59,10 @@ public class MedLinkEvaluator {
 			MedLink medLinker = new MedLink();//generate random query
 			addQuery(medLinker);
 		}
+	    stopWatch.stop();
+	    outputStream.println("Time taken: "+stopWatch.getTime()/1000+" seconds");
+
+
 	}
 	public void addQuery(MedLink medLinker){ //add a completed topic run to be used for evaluation
 		Boolean customScore = true;

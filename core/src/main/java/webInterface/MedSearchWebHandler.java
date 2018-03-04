@@ -254,7 +254,7 @@ public class MedSearchWebHandler implements WebHandler{
 	                outputter.pcdata(item.url);
 	                outputter.endTag();
 	            }
-
+	        
 	            if (item.summary != null) {
 	                outputter.startTag("snippet");
 	                outputter.pcdata(item.summary);
@@ -389,6 +389,8 @@ public class MedSearchWebHandler implements WebHandler{
 	    }
 
 	    public void handle(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+	    	System.out.println("request: "+request.toString());
+	    	System.out.println(request.getPathInfo());
 	        if (request.getPathInfo().equals("/search")) {
 	            try {
 	                handleSearch(request, response);
@@ -405,6 +407,7 @@ public class MedSearchWebHandler implements WebHandler{
 	                throw new ServletException("Caught exception from handleSearchXML", e);
 	            }
 	        } else if (request.getPathInfo().equals("/snippet")) {
+	        	System.out.println("snippet");
 	            handleSnippet(request, response);
 	        } else if (request.getPathInfo().startsWith("/images")) {
 	            handleImage(request, response);

@@ -12,9 +12,11 @@ import org.lemurproject.galago.utility.Parameters;
 
 public class GalagoOrchestrator {
 	private String path;
+	Node root;
 	
 	public GalagoOrchestrator(){
 		this.path = "C:/Work/Project/samples/treccar/paragraphcorpus";
+		
 	}
 	public List<ScoredDocument> getDocuments(String query,int docsNeeded){
 		Retrieval retrieval = null;
@@ -28,7 +30,7 @@ public class GalagoOrchestrator {
 	    p.set("resultCount", docsNeeded);
 	    p.set("requested", docsNeeded);
 	    p.set("index", path);
-		Node root = StructuredQuery.parse(query);
+		this.root = StructuredQuery.parse(query);
 		Node transformed = null;
 		try {
 			transformed = retrieval.transformQuery(root, p);
@@ -42,12 +44,8 @@ public class GalagoOrchestrator {
 			e1.printStackTrace();
 		}
 		return results;
-
-		
-		
-		
-	    
-		
-		
+	}
+	public Node getRoot(){
+		return this.root;
 	}
 }

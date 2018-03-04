@@ -2,12 +2,14 @@ package entityRetrieval.core;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 import org.lemurproject.galago.core.index.corpus.SnippetGenerator;
+import org.lemurproject.galago.core.index.disk.DiskIndex;
 import org.lemurproject.galago.core.index.stats.IndexPartStatistics;
 import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.parse.Document.DocumentComponents;
@@ -33,6 +35,7 @@ public class MedSearch{
 	public SnippetGenerator generator;
     protected Retrieval retrieval;
     private Search search;
+    private Node root;
 	
 
 	public MedSearch(Parameters params) throws Exception {
@@ -69,28 +72,32 @@ public class MedSearch{
         return retrieval;
     }
     public SearchResult runQuery(String query, Parameters p){
-    	String linkType = p.get("linkType", "ML");
+    	String linkType = p.get("linkType", "LR");
     	ArrayList<Entity> results;
     	List<ScoredDocument> scoredDocs = null;
     	if(linkType=="ML"){
     		MedLink medlink = new MedLink();
     		results = medlink.matchEntities(System.out);
     		scoredDocs=medlink.getScoredDocs();
+    		this.root=medlink.root;
     	}
     	else if(linkType=="LR"){
     		DocumentLinkReader documentlinkreader = new DocumentLinkReader(query);
     		results = documentlinkreader.getEntitiesFromLinks();
     		scoredDocs=documentlinkreader.getScoredDocuments();
+    		this.root=documentlinkreader.root;
     	}
     	else if(linkType=="KB"){
     		KBLinker kblinker = new KBLinker();
     		results=kblinker.getEntitiesFromText();
     		scoredDocs=kblinker.getScoredDocuments();
+    		this.root=kblinker.root;
     	}
     	else if(linkType=="MM"){
     		MetaMapEntityLinker metamapentitylinker = new MetaMapEntityLinker();
     		results=metamapentitylinker.generateEntities(System.out);
     		scoredDocs=metamapentitylinker.getScoredDocuments();
+    		this.root=metamapentitylinker.root;
     	}
     	else{
     		return null;
@@ -104,13 +111,15 @@ public class MedSearch{
     }
     
     public String getSummary(Document document, Set<String> query) throws IOException {
-        /*if (document.metadata.containsKey("description")) {
-         String description = document.metadata.get("description");
+    	System.out.println(query.size());
+        if (document.metadata.containsKey("description")) {
+        	System.out.println("has description");
+        	String description = document.metadata.get("description");
 
          if (description.length() > 10) {
-         return generator.highlight(description, query);
+        	 return generator.highlight(description, query);
+         	}
          }
-         }*/
 
         return generator.getSnippet(document.text, query);
     }
@@ -143,6 +152,20 @@ public class MedSearch{
     
     public SearchResult convertToSearchResult(ArrayList<Entity> results, String query){
     	SearchResult searchresult = new SearchResult();
+    	DiskIndex index = null;
+		Document.DocumentComponents dc = new Document.DocumentComponents( false, true, true );
+        Set<String> queryTerms = StructuredQuery.findQueryTerms(root);
+        if(queryTerms.size()==0){
+        	for(String s:query.split(" ")){
+        		queryTerms.add(s);
+        	}
+        }
+		try {
+			index = new DiskIndex("C:/Work/Project/samples/Unprocessed_Index");
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+    	
     	for(Entity entity:results){
     		SearchResultItem sri = new SearchResultItem();
     		sri.identifier=entity.getName();
@@ -150,6 +173,8 @@ public class MedSearch{
     		sri.rank=entity.getRank();
     		sri.score=entity.getScore();
     		sri.url=entity.getId();
+    		sri.summary=getSummary(entity,index,dc,queryTerms);
+    		System.out.println(sri.summary);
     		searchresult.items.add(sri);
    
     	}
@@ -162,5 +187,21 @@ public class MedSearch{
     	MedLinkEvaluator.setMentionProbablities(results, scoredDocs); //calculate the mention probabilities for each entity per doc
 		MedLinkEvaluator.setScores(results, finalDocScores);//set scores for all entities, using entity metadata
     }
-
+    public String getSummary(Entity entity, DiskIndex index, DocumentComponents dc, Set<String> queryTerms){
+ 		Document doc = null;
+		try {
+			doc=index.getDocument(entity.getName(), dc);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		try {
+			return getSummary(doc,queryTerms);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return null;
+		
+    }
 }
+

@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+
+import org.apache.commons.lang3.time.StopWatch;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
 import org.lemurproject.galago.core.retrieval.prf.WeightedTerm;
@@ -25,14 +27,17 @@ public class MetaMapEvaluator {
 	
 
 	public MetaMapEvaluator(Boolean multiple){ //multiple=true if you want to carry out a set comparison, false for single eval
+		StopWatch stopWatch = new StopWatch();
+
 		try {
-			this.outputStream = new PrintStream(new FileOutputStream("MMextraDetails.txt",true));
+			this.outputStream = new PrintStream(new FileOutputStream("MM100extraDetails.txt",true));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/MetaMapfilteredQrels.txt";
-		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MMResults.txt";
+		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MM100Results.txt";
 		this.topicRuns = new ArrayList<TopicRun>();
+		stopWatch.start();
 		if(multiple){
 			int runNum=1;
 			MetaMapEntityLinker mmlinker = new MetaMapEntityLinker(0);
@@ -47,6 +52,9 @@ public class MetaMapEvaluator {
 			MetaMapEntityLinker kbLinker = new MetaMapEntityLinker();//generate random query
 			addQuery(kbLinker);
 		}
+	    stopWatch.stop();
+	    outputStream.println("Time taken: "+stopWatch.getTime()/1000+" seconds");
+
 	}
 	public void addQuery(MetaMapEntityLinker kblinker){ //add a completed topic run to be used for evaluation
 		ArrayList<Entity> returnedEntities = kblinker.generateEntities(outputStream);
@@ -79,8 +87,8 @@ public class MetaMapEvaluator {
 		topicRuns.add(new TopicRun(kblinker.getQuery(),kblinker.topicChoice,returnedEntities));
 	}
 	public void evaluate(){
-		KBLinkerEvaluator.createResultsFile("MMResults.txt", topicRuns);
-		KBLinkerEvaluator.runEval(runFile,qrelFile,"MM");
+		KBLinkerEvaluator.createResultsFile("MM100Results.txt", topicRuns);
+		KBLinkerEvaluator.runEval(runFile,qrelFile,"MM100");
 
 	}
 	

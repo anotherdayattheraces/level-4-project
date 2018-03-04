@@ -11,13 +11,10 @@ public class Entity {
 	private String id;
 	private double score;
 	private HashMap<ScoredDocument,Integer> appearances;
-	private double idf;
-	private double tfidf;
 	private HashMap<Long,Double> mentionProbability;
 	private int rank;
-	private double precision;
-	private Boolean relevant;
 	private long document;
+	private String summary;
 	
 	public Entity(String name, String id, double score, ScoredDocument scoredDoc){
 		this.name = name;
@@ -49,8 +46,8 @@ public class Entity {
 	public String getName(){
 		return this.name;
 	}
-	public Boolean getRelevant(){
-		return this.relevant;
+	public void setSummary(String summary){
+		 this.summary=summary;
 	}
 	public String getId(){
 		return this.id;
@@ -104,35 +101,8 @@ public class Entity {
 		}
 		return appearances;
 	}
-	public double getTFIDF(){
-		return this.tfidf;
-	}
-	public void calculateIDF(double numDocs){
-		double docAppearances = this.appearances.size();
-		this.idf=Math.log10(numDocs/docAppearances);
-	}
-	public void calculateTFIDF(){
-		double tfidf = 0;
-		for(Pair<Long,Integer> pair:this.appearancesToArray()){
-			tfidf+=pair.getR();
-		}
-		this.tfidf = (this.idf*tfidf);
-	}
-	public int getRank(){
-		return this.rank;
-	}
-	public double setPrecision(double currentSum,int rank,int related){
-		if(related==1){
-			this.relevant=true;
-		}
-		currentSum=+related;
-		this.precision = (currentSum)/rank;
-		return currentSum;
-		
-	}
-	public double getPrecision(){
-		return this.precision;
-	}
+	
+	
 	public HashMap<ScoredDocument,Integer> getAppearances(){
 		return this.appearances;
 	}
@@ -155,5 +125,9 @@ public class Entity {
 	public long getDocument(){
 		return this.document;
 	}
+	public int getRank() {
+		return this.rank;
+	}
+	
 				
 }

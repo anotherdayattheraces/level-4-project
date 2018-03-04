@@ -1,0 +1,2494 @@
+Inflammatory bowel disease
+Num unmapped entities: 1356
+Mapping: 
+ 
+Unable to map entity: inflammatory bowel
+Unable to map entity: conditions
+Unable to map entity: ulcerative
+Unable to map entity: ulcerative
+Unable to map entity: are
+Unable to map entity: principal
+Unable to map entity: inflammatory bowel
+Unable to map entity: important
+Unable to map entity: note
+Unable to map entity: can
+Unable to map entity: the mouth
+Unable to map entity: ulcerative
+Unable to map entity: affects
+Unable to map entity: hypothesis
+Unable to map entity: hypothesis
+Unable to map entity: immunological
+Unable to map entity: have
+Unable to map entity: been
+Unable to map entity: have been
+Unable to map entity: observed
+Unable to map entity: humans
+Unable to map entity: humans only
+Unable to map entity: last
+Unable to map entity: years
+Unable to map entity: have
+Unable to map entity: practices
+Unable to map entity: have
+Unable to map entity: from
+Unable to map entity: parasitic
+Unable to map entity: parasitic
+Unable to map entity: worms
+Unable to map entity: parasitic worms
+Unable to map entity: helminths
+Unable to map entity: childhood
+Unable to map entity: suis
+Unable to map entity: suis
+Unable to map entity: ova
+Unable to map entity: pig
+Unable to map entity: eggs
+Unable to map entity: treating
+Unable to map entity: lesser
+Unable to map entity: extent
+Unable to map entity: two
+Unable to map entity: this
+Unable to map entity: hypothesis
+Unable to map entity: there
+Unable to map entity: anecdotal evidence
+Unable to map entity: treatment
+Unable to map entity: with
+Unable to map entity: incidence
+Unable to map entity: other
+Unable to map entity: inflammatory disorders
+Unable to map entity: some
+Unable to map entity: scientific evidence
+Unable to map entity: the course
+Unable to map entity: multiple
+Unable to map entity: multiple
+Unable to map entity: very
+Unable to map entity: favorably
+Unable to map entity: helminth infection
+Unable to map entity: studied
+Unable to map entity: treatment
+Unable to map entity: this
+Unable to map entity: irritable
+Unable to map entity: irritable
+Unable to map entity: origin
+Unable to map entity: results
+Unable to map entity: gut
+Unable to map entity: gut
+Unable to map entity: dysfunction
+Unable to map entity: causes
+Unable to map entity: visceral hypersensitivity
+Unable to map entity: results
+Unable to map entity: recurrent
+Unable to map entity: well
+Unable to map entity: dietary
+Unable to map entity: prevent
+Unable to map entity: over
+Unable to map entity: soluble
+Unable to map entity: dietary
+Unable to map entity: supplements
+Unable to map entity: dairy product
+Unable to map entity: products
+Unable to map entity: careful
+Unable to map entity: fresh
+Unable to map entity: vegetables
+Unable to map entity: high
+Unable to map entity: regular
+Unable to map entity: lessen
+Unable to map entity: symptoms
+Unable to map entity: include
+Unable to map entity: fatty
+Unable to map entity: fried
+Unable to map entity: products
+Unable to map entity: even
+Unable to map entity: when
+Unable to map entity: intolerance
+Unable to map entity: regular
+Unable to map entity: alcoholic
+Unable to map entity: carbonation
+Unable to map entity: carbonation
+Unable to map entity: containing
+Unable to map entity: artificial
+Unable to map entity: substitute
+Unable to map entity: sugar substitute
+Unable to map entity: found
+Unable to map entity: patients
+Unable to map entity: the age
+Unable to map entity: found
+Unable to map entity: men
+Unable to map entity: intestines
+Unable to map entity: squeeze
+Unable to map entity: too
+Unable to map entity: enough
+Unable to map entity: too
+Unable to map entity: quickly
+Unable to map entity: too
+Unable to map entity: intestines
+Unable to map entity: include
+Unable to map entity: spastic colon
+Unable to map entity: irritable
+Unable to map entity: symptoms
+Unable to map entity: the condition
+Unable to map entity: will
+Unable to map entity: under
+Unable to map entity: stress
+Unable to map entity: travel
+Unable to map entity: times
+Unable to map entity: other times
+Unable to map entity: when
+Unable to map entity: the daily
+Unable to map entity: routine
+Unable to map entity: symptoms
+Unable to map entity: include
+Unable to map entity: abdominal cramp
+Unable to map entity: after
+Unable to map entity: bowel movement
+Unable to map entity: feeling
+Unable to map entity: even
+Unable to map entity: after
+Unable to map entity: one
+Unable to map entity: has
+Unable to map entity: has been
+Unable to map entity: acute
+Unable to map entity: bowels
+Unable to map entity: infectious diarrhoea
+Unable to map entity: infectious diarrhoea
+Unable to map entity: ischaemia
+Unable to map entity: ischaemia
+Unable to map entity: impaction
+Unable to map entity: faecal impaction
+Unable to map entity: impaction
+Unable to map entity: faecal impaction
+Unable to map entity: obstruction
+Unable to map entity: obstruction
+Unable to map entity: disorder
+Unable to map entity: parts
+Unable to map entity: tract
+Unable to map entity: illness
+Unable to map entity: pseudoobstruction
+Unable to map entity: pseudoobstruction
+Unable to map entity: necrotizing
+Unable to map entity: necrotizing
+Unable to map entity: associated
+Unable to map entity: crohn’s disease
+Unable to map entity: crohn’s disease
+Unable to map entity: the cause
+Unable to map entity: autoimmune
+Unable to map entity: families
+Unable to map entity: certain
+Unable to map entity: infections
+Unable to map entity: environmental
+Unable to map entity: factors
+Unable to map entity: environmental factors
+Unable to map entity: autoimmune
+Unable to map entity: type
+Unable to map entity: 1 diabetes mellitus
+Unable to map entity: type
+Unable to map entity: graves
+Unable to map entity: graves disease
+Unable to map entity: graves
+Unable to map entity: graves disease
+Unable to map entity: rheumatoid
+Unable to map entity: rheumatoid
+Unable to map entity: systemic lupus
+Unable to map entity: systemic lupus
+Unable to map entity: difficult
+Unable to map entity: psoriatic
+Unable to map entity: psoriatic arthropathy
+Unable to map entity: psoriatic
+Unable to map entity: psoriatic arthropathy
+Unable to map entity: adult
+Unable to map entity: adult onset stills disease
+Unable to map entity: adult
+Unable to map entity: adult onset stills disease
+Unable to map entity: juvenile
+Unable to map entity: idiopathic
+Unable to map entity: juvenile
+Unable to map entity: idiopathic
+Unable to map entity: international
+Unable to map entity: mesalamine
+Unable to map entity: states
+Unable to map entity: anti-inflammatory
+Unable to map entity: anti
+Unable to map entity: anti
+Unable to map entity: treat
+Unable to map entity: inflamed
+Unable to map entity: inflammatory diseases
+Unable to map entity: blau
+Unable to map entity: blau
+Unable to map entity: addition
+Unable to map entity: chronic
+Unable to map entity: low
+Unable to map entity: vascular system
+Unable to map entity: aspect
+Unable to map entity: defense
+Unable to map entity: trauma
+Unable to map entity: inflammatory response
+Unable to map entity: reactions
+Unable to map entity: flow
+Unable to map entity: cellular
+Unable to map entity: wounded
+Unable to map entity: infected
+Unable to map entity: however
+Unable to map entity: chronic
+Unable to map entity: low
+Unable to map entity: long
+Unable to map entity: term
+Unable to map entity: long term
+Unable to map entity: consequences
+Unable to map entity: renal
+Unable to map entity: chronic
+Unable to map entity: low
+Unable to map entity: obese
+Unable to map entity: individuals
+Unable to map entity: mice
+Unable to map entity: detected
+Unable to map entity: mice
+Unable to map entity: diet
+Unable to map entity: aid
+Unable to map entity: cell
+Unable to map entity: signaling
+Unable to map entity: cell signaling
+Unable to map entity: responses
+Unable to map entity: specifically
+Unable to map entity: sending
+Unable to map entity: sites
+Unable to map entity: trauma
+Unable to map entity: proinflammatory
+Unable to map entity: mothers
+Unable to map entity: composition
+Unable to map entity: responses
+Unable to map entity: offspring
+Unable to map entity: in utero
+Unable to map entity: however
+Unable to map entity: proinflammatory
+Unable to map entity: body
+Unable to map entity: deposition
+Unable to map entity: because
+Unable to map entity: addition
+Unable to map entity: histone deacetylase
+Unable to map entity: inhibitor
+Unable to map entity: histone deacetylase
+Unable to map entity: reduce
+Unable to map entity: proinflammatory
+Unable to map entity: mediators
+Unable to map entity: neuroglia
+Unable to map entity: neuroglia
+Unable to map entity: glial cells
+Unable to map entity: improved
+Unable to map entity: cell
+Unable to map entity: cell function
+Unable to map entity: survival
+Unable to map entity: preeclampsia
+Unable to map entity: preterm birth
+Unable to map entity: induce
+Unable to map entity: chronic
+Unable to map entity: unclear
+Unable to map entity: how
+Unable to map entity: between
+Unable to map entity: diet
+Unable to map entity: chronic
+Unable to map entity: pancreatic
+Unable to map entity: pancreatic
+Unable to map entity: short
+Unable to map entity: short
+Unable to map entity: produce
+Unable to map entity: problems
+Unable to map entity: complex
+Unable to map entity: host
+Unable to map entity: probiotics
+Unable to map entity: there are
+Unable to map entity: their
+Unable to map entity: safety
+Unable to map entity: venous
+Unable to map entity: venous catheter
+Unable to map entity: venous
+Unable to map entity: central venous catheters
+Unable to map entity: valve
+Unable to map entity: valve
+Unable to map entity: premature infants
+Unable to map entity: adverse
+Unable to map entity: passage
+Unable to map entity: organs
+Unable to map entity: adverse
+Unable to map entity: probiotics
+Unable to map entity: lowered
+Unable to map entity: who
+Unable to map entity: fungemia
+Unable to map entity: fungemia
+Unable to map entity: fungemia
+Unable to map entity: in the blood
+Unable to map entity: fatal
+Unable to map entity: emerging
+Unable to map entity: pathogenesis
+Unable to map entity: pathogenesis
+Unable to map entity: pathogenesis
+Unable to map entity: postulates
+Unable to map entity: three
+Unable to map entity: degradation
+Unable to map entity: 1 degradation
+Unable to map entity: luminal
+Unable to map entity: contents
+Unable to map entity: into
+Unable to map entity: lamina
+Unable to map entity: immune cells
+Unable to map entity: inappropriate
+Unable to map entity: immune response
+Unable to map entity: the development
+Unable to map entity: initiates
+Unable to map entity: self
+Unable to map entity: cycle
+Unable to map entity: nevertheless
+Unable to map entity: body of evidence
+Unable to map entity: intestinal permeability
+Unable to map entity: primary
+Unable to map entity: etiology
+Unable to map entity: medicine
+Unable to map entity: pathogenesis
+Unable to map entity: recently
+Unable to map entity: mediates
+Unable to map entity: pattern recognition receptors
+Unable to map entity: downstream
+Unable to map entity: signalling
+Unable to map entity: subsequently
+Unable to map entity: adaptive
+Unable to map entity: adaptive immune response
+Unable to map entity: clearance
+Unable to map entity: the infection
+Unable to map entity: autosomal recessive
+Unable to map entity: form
+Unable to map entity: homozygous
+Unable to map entity: mutations
+Unable to map entity: mutations
+Unable to map entity: immunity
+Unable to map entity: immunity
+Unable to map entity: pathogen
+Unable to map entity: pathogen
+Unable to map entity: pathogen
+Unable to map entity: burns
+Unable to map entity: dual
+Unable to map entity: ability
+Unable to map entity: potent
+Unable to map entity: chemotactic
+Unable to map entity: chemotactic
+Unable to map entity: hete
+Unable to map entity: otherwise
+Unable to map entity: leukocytes
+Unable to map entity: macrophages
+Unable to map entity: dendritic
+Unable to map entity: dendritic
+Unable to map entity: resolvin
+Unable to map entity: subfamily
+Unable to map entity: digestive
+Unable to map entity: digestive tract
+Unable to map entity: the stomach
+Unable to map entity: rare
+Unable to map entity: presentation
+Unable to map entity: feature
+Unable to map entity: ulcers
+Unable to map entity: ulcers
+Unable to map entity: total
+Unable to map entity: thickness
+Unable to map entity: the stomach
+Unable to map entity: bleed
+Unable to map entity: perforate
+Unable to map entity: loss of appetite
+Unable to map entity: checking
+Unable to map entity: stools
+Unable to map entity: remain
+Unable to map entity: away
+Unable to map entity: reporting
+Unable to map entity: further
+Unable to map entity: lateral sclerosis
+Unable to map entity: lateral sclerosis
+Unable to map entity: als
+Unable to map entity: traumatic
+Unable to map entity: traumatic
+Unable to map entity: chronic pain
+Unable to map entity: severe
+Unable to map entity: parkinsons
+Unable to map entity: parkinsons disease
+Unable to map entity: parkinsons
+Unable to map entity: parkinsons disease
+Unable to map entity: post
+Unable to map entity: traumatic
+Unable to map entity: post traumatic
+Unable to map entity: traumatic stress
+Unable to map entity: post traumatic stress
+Unable to map entity: post traumatic stress disorder
+Unable to map entity: post
+Unable to map entity: traumatic
+Unable to map entity: post traumatic
+Unable to map entity: traumatic stress
+Unable to map entity: post traumatic stress
+Unable to map entity: post traumatic stress disorder
+Unable to map entity: sickle cell anemia
+Unable to map entity: sickle cell anemia
+Unable to map entity: cord
+Unable to map entity: cord
+Unable to map entity: cord
+Unable to map entity: tourettes syndrome
+Unable to map entity: tourettes syndrome
+Unable to map entity: traumatic
+Unable to map entity: traumatic
+Unable to map entity: the state
+Unable to map entity: board
+Unable to map entity: focus
+Unable to map entity: potential
+Unable to map entity: hemorrhoidal
+Unable to map entity: proximal
+Unable to map entity: tenesmus
+Unable to map entity: anal
+Unable to map entity: change
+Unable to map entity: caliber
+Unable to map entity: diverticular
+Unable to map entity: diverticular bleeding
+Unable to map entity: arteriovenous
+Unable to map entity: nonsteroidal
+Unable to map entity: nonsteroidal
+Unable to map entity: diverticular
+Unable to map entity: diverticular bleeding
+Unable to map entity: hemodynamic
+Unable to map entity: compromise
+Unable to map entity: dyspnea
+Unable to map entity: lightheadedness
+Unable to map entity: molecular
+Unable to map entity: molecular medicine
+Unable to map entity: mechanisms
+Unable to map entity: enteric
+Unable to map entity: identifying
+Unable to map entity: therapeutic
+Unable to map entity: targets
+Unable to map entity: the center
+Unable to map entity: discovered
+Unable to map entity: the mechanism
+Unable to map entity: action
+Unable to map entity: mechanism of action
+Unable to map entity: conjugated
+Unable to map entity: conjugated linoleic acid
+Unable to map entity: conjugated
+Unable to map entity: conjugated linoleic acid
+Unable to map entity: effects
+Unable to map entity: enteric
+Unable to map entity: program
+Unable to map entity: performance
+Unable to map entity: computing
+Unable to map entity: high performance computing
+Unable to map entity: simulate
+Unable to map entity: systems
+Unable to map entity: immunologists
+Unable to map entity: conduct
+Unable to map entity: in silico
+Unable to map entity: experiments
+Unable to map entity: down
+Unable to map entity: experimental
+Unable to map entity: design
+Unable to map entity: experimental design
+Unable to map entity: validate
+Unable to map entity: hypotheses
+Unable to map entity: the center
+Unable to map entity: university
+Unable to map entity: university of virginia
+Unable to map entity: department
+Unable to map entity: university
+Unable to map entity: north carolina
+Unable to map entity: chapel hill
+Unable to map entity: medical schools
+Unable to map entity: leading
+Unable to map entity: several
+Unable to map entity: clinical trials
+Unable to map entity: established
+Unable to map entity: partnership
+Unable to map entity: the division
+Unable to map entity: translational
+Unable to map entity: program
+Unable to map entity: immunosuppressive
+Unable to map entity: transplant rejection
+Unable to map entity: behçets
+Unable to map entity: behçets
+Unable to map entity: atopic
+Unable to map entity: atopic
+Unable to map entity: gravis
+Unable to map entity: gravis
+Unable to map entity: optica
+Unable to map entity: optica
+Unable to map entity: devics
+Unable to map entity: restrictive
+Unable to map entity: restrictive
+Unable to map entity: gut–brain axis
+Unable to map entity: gut–brain axis
+Unable to map entity: small intestinal
+Unable to map entity: bacterial overgrowth
+Unable to map entity: small intestinal bacterial overgrowth
+Unable to map entity: small intestinal
+Unable to map entity: bacterial overgrowth
+Unable to map entity: small intestinal bacterial overgrowth
+Unable to map entity: life
+Unable to map entity: event
+Unable to map entity: functional gastrointestinal disorder
+Unable to map entity: functional gastrointestinal disorder
+Unable to map entity: signs
+Unable to map entity: the absence
+Unable to map entity: greater
+Unable to map entity: family
+Unable to map entity: family history
+Unable to map entity: preliminary
+Unable to map entity: demonstrated
+Unable to map entity: effectiveness
+Unable to map entity: colorectal
+Unable to map entity: colorectal cancer
+Unable to map entity: colorectal
+Unable to map entity: colorectal cancer
+Unable to map entity: frequency
+Unable to map entity: prebiotics
+Unable to map entity: the number
+Unable to map entity: episodes
+Unable to map entity: needing
+Unable to map entity: the rise
+Unable to map entity: the rise
+Unable to map entity: figure
+Unable to map entity: the north
+Unable to map entity: north south
+Unable to map entity: gradient
+Unable to map entity: inversely related
+Unable to map entity: distribution
+Unable to map entity: figure
+Unable to map entity: parasites
+Unable to map entity: phenotype
+Unable to map entity: fleming
+Unable to map entity: improve
+Unable to map entity: act
+Unable to map entity: fashion
+Unable to map entity: lee
+Unable to map entity: test
+Unable to map entity: marker
+Unable to map entity: useful
+Unable to map entity: differential diagnosis
+Unable to map entity: effective method
+Unable to map entity: screen
+Unable to map entity: stage
+Unable to map entity: ovarian
+Unable to map entity: ovarian cancer
+Unable to map entity: specificity
+Unable to map entity: sensitivity and specificity
+Unable to map entity: premenopausal
+Unable to map entity: ovarian
+Unable to map entity: ovarian cancer
+Unable to map entity: accurate
+Unable to map entity: stage
+Unable to map entity: ovarian
+Unable to map entity: ovarian cancer
+Unable to map entity: fully
+Unable to map entity: stage
+Unable to map entity: ovarian
+Unable to map entity: ovarian cancer
+Unable to map entity: level
+Unable to map entity: elevated
+Unable to map entity: non cancerous
+Unable to map entity: uterine
+Unable to map entity: fibroids
+Unable to map entity: uterine fibroids
+Unable to map entity: uterine
+Unable to map entity: fibroids
+Unable to map entity: uterine fibroids
+Unable to map entity: ovarian
+Unable to map entity: cysts
+Unable to map entity: ovarian cysts
+Unable to map entity: ovarian
+Unable to map entity: cysts
+Unable to map entity: ovarian cysts
+Unable to map entity: ovarian
+Unable to map entity: ovarian cancer
+Unable to map entity: testing
+Unable to map entity: tumor markers
+Unable to map entity: ovarian
+Unable to map entity: ovarian cancer
+Unable to map entity: alpha
+Unable to map entity: alpha
+Unable to map entity: mesothelin
+Unable to map entity: mesothelin
+Unable to map entity: mesothelin
+Unable to map entity: lysophosphatidic acid
+Unable to map entity: lysophosphatidic acid
+Unable to map entity: fibroblast
+Unable to map entity: fibroblast
+Unable to map entity: beneficial
+Unable to map entity: pathogenic
+Unable to map entity: reside
+Unable to map entity: tissues
+Unable to map entity: microorganism
+Unable to map entity: protects
+Unable to map entity: protects
+Unable to map entity: rashes
+Unable to map entity: rashes
+Unable to map entity: the eye
+Unable to map entity: tired
+Unable to map entity: the skin
+Unable to map entity: rashes
+Unable to map entity: nodosum erythema
+Unable to map entity: biomedical research
+Unable to map entity: driver
+Unable to map entity: behcets
+Unable to map entity: behcets disease
+Unable to map entity: behcets
+Unable to map entity: behcets disease
+Unable to map entity: infectious diseases
+Unable to map entity: gastrointestinal system
+Unable to map entity: they
+Unable to map entity: thus
+Unable to map entity: role
+Unable to map entity: play
+Unable to map entity: role
+Unable to map entity: the natural
+Unable to map entity: flora
+Unable to map entity: gut flora
+Unable to map entity: activation
+Unable to map entity: role
+Unable to map entity: cannabinoid receptor
+Unable to map entity: agonists
+Unable to map entity: receptor agonists
+Unable to map entity: cannabinoid receptor agonists
+Unable to map entity: need
+Unable to map entity: out
+Unable to map entity: urinary
+Unable to map entity: urinary tract
+Unable to map entity: urinary
+Unable to map entity: urinary tract
+Unable to map entity: urinary tract infections
+Unable to map entity: whipples
+Unable to map entity: whipples
+Unable to map entity: coeliac
+Unable to map entity: coeliac
+Unable to map entity: abuse
+Unable to map entity: laxative abuse
+Unable to map entity: somewhat
+Unable to map entity: exhibits
+Unable to map entity: rather
+Unable to map entity: homologous
+Unable to map entity: mucosa
+Unable to map entity: oligomerization
+Unable to map entity: domain
+Unable to map entity: caspase
+Unable to map entity: domain
+Unable to map entity: caspase recruitment domain
+Unable to map entity: card15
+Unable to map entity: effector
+Unable to map entity: card15
+Unable to map entity: mucosal
+Unable to map entity: microbes
+Unable to map entity: the immune
+Unable to map entity: gastrointestinal disorders
+Unable to map entity: general
+Unable to map entity: authors
+Unable to map entity: prior
+Unable to map entity: create
+Unable to map entity: persons
+Unable to map entity: causing
+Unable to map entity: alterations
+Unable to map entity: authors
+Unable to map entity: documented
+Unable to map entity: conscious
+Unable to map entity: importance
+Unable to map entity: strictly
+Unable to map entity: consume
+Unable to map entity: trigger
+Unable to map entity: promote
+Unable to map entity: the other hand
+Unable to map entity: anxiety
+Unable to map entity: cross
+Unable to map entity: contamination
+Unable to map entity: cross contamination
+Unable to map entity: authors
+Unable to map entity: suggest
+Unable to map entity: professionals
+Unable to map entity: the presence
+Unable to map entity: gastrointestinal symptom
+Unable to map entity: decreased appetite
+Unable to map entity: distension
+Unable to map entity: dieting
+Unable to map entity: the possible
+Unable to map entity: endocrine diseases
+Unable to map entity: hypo
+Unable to map entity: metabolic
+Unable to map entity: gastrointestinal diseases
+Unable to map entity: non celiac gluten sensitivity
+Unable to map entity: non celiac gluten sensitivity
+Unable to map entity: cerebral
+Unable to map entity: accidents
+Unable to map entity: attack
+Unable to map entity: attack
+Unable to map entity: degenerative diseases
+Unable to map entity: first
+Unable to map entity: excluded
+Unable to map entity: cant
+Unable to map entity: excluded
+Unable to map entity: specific
+Unable to map entity: antibodies
+Unable to map entity: specific antibodies
+Unable to map entity: transglutaminase
+Unable to map entity: antibodies
+Unable to map entity: transglutaminase antibodies
+Unable to map entity: transglutaminase
+Unable to map entity: antibodies
+Unable to map entity: transglutaminase antibodies
+Unable to map entity: villi
+Unable to map entity: villi
+Unable to map entity: the risk
+Unable to map entity: groups
+Unable to map entity: prevention
+Unable to map entity: colonoscopies
+Unable to map entity: colonoscopies
+Unable to map entity: colonoscopies
+Unable to map entity: less than
+Unable to map entity: yearly
+Unable to map entity: intestinal mucosal barrier
+Unable to map entity: human gastrointestinal tract
+Unable to map entity: adequate
+Unable to map entity: containment
+Unable to map entity: the intestine
+Unable to map entity: separation
+Unable to map entity: proper
+Unable to map entity: vital
+Unable to map entity: intestinal mucosal barrier
+Unable to map entity: numerous
+Unable to map entity: allergies
+Unable to map entity: food allergies
+Unable to map entity: microbial
+Unable to map entity: fatty liver disease
+Unable to map entity: fatty liver disease
+Unable to map entity: septic
+Unable to map entity: septic
+Unable to map entity: vessel
+Unable to map entity: vasculitides
+Unable to map entity: pauci
+Unable to map entity: limited
+Unable to map entity: vasculitides
+Unable to map entity: directed
+Unable to map entity: pauci
+Unable to map entity: the target
+Unable to map entity: antigenic
+Unable to map entity: pauci
+Unable to map entity: syndromes
+Unable to map entity: parasitic infections
+Unable to map entity: inflammatory condition
+Unable to map entity: the large
+Unable to map entity: believe
+Unable to map entity: abnormal
+Unable to map entity: peptic ulcer disease
+Unable to map entity: abdominal surgery
+Unable to map entity: abdominal surgery
+Unable to map entity: pancolitis
+Unable to map entity: kind
+Unable to map entity: currently
+Unable to map entity: genes
+Unable to map entity: increase
+Unable to map entity: pancolitis
+Unable to map entity: pancolitis
+Unable to map entity: pancolitis
+Unable to map entity: forcing
+Unable to map entity: where the
+Unable to map entity: the majority
+Unable to map entity: the goal
+Unable to map entity: quality of life
+Unable to map entity: minimization
+Unable to map entity: agents
+Unable to map entity: corticosteroids
+Unable to map entity: pancolitis
+Unable to map entity: little
+Unable to map entity: improvement
+Unable to map entity: corticosteroids
+Unable to map entity: case
+Unable to map entity: expose
+Unable to map entity: the patient
+Unable to map entity: compromised
+Unable to map entity: compromised immune system
+Unable to map entity: final
+Unable to map entity: reserved
+Unable to map entity: case
+Unable to map entity: removed
+Unable to map entity: cures
+Unable to map entity: pancolitis
+Unable to map entity: chance
+Unable to map entity: undergo
+Unable to map entity: collect
+Unable to map entity: the end
+Unable to map entity: attached
+Unable to map entity: latter
+Unable to map entity: case
+Unable to map entity: diseased
+Unable to map entity: removed
+Unable to map entity: muscles
+Unable to map entity: still
+Unable to map entity: collection
+Unable to map entity: large bowel
+Unable to map entity: large bowel
+Unable to map entity: bowel inflammation
+Unable to map entity: shows
+Unable to map entity: characteristics
+Unable to map entity: standing
+Unable to map entity: sulfate
+Unable to map entity: areas
+Unable to map entity: lymphocytic infiltration
+Unable to map entity: meca
+Unable to map entity: lymphoid
+Unable to map entity: therefore
+Unable to map entity: bona
+Unable to map entity: bona fide
+Unable to map entity: facilitate
+Unable to map entity: scale
+Unable to map entity: influx
+Unable to map entity: amplification
+Unable to map entity: stimulus
+Unable to map entity: synovium
+Unable to map entity: hashimoto’s thyroiditis
+Unable to map entity: areas
+Unable to map entity: lymphocytic infiltration
+Unable to map entity: contain
+Unable to map entity: plump
+Unable to map entity: expressing
+Unable to map entity: meca
+Unable to map entity: mediating
+Unable to map entity: meca
+Unable to map entity: venules
+Unable to map entity: plump
+Unable to map entity: meca
+Unable to map entity: spondyloarthropathies
+Unable to map entity: spondyloarthropathies
+Unable to map entity: spondyloarthropathies
+Unable to map entity: types of cancer
+Unable to map entity: relationship
+Unable to map entity: categorizations
+Unable to map entity: the vienna
+Unable to map entity: classification
+Unable to map entity: categories
+Unable to map entity: structures
+Unable to map entity: without
+Unable to map entity: strictures
+Unable to map entity: soluble fiber
+Unable to map entity: discomfort
+Unable to map entity: soluble fiber
+Unable to map entity: oligosaccharides
+Unable to map entity: clostridium difficile
+Unable to map entity: clostridium difficile
+Unable to map entity: acids
+Unable to map entity: fatty acids
+Unable to map entity: produced
+Unable to map entity: managing
+Unable to map entity: modification
+Unable to map entity: choices
+Unable to map entity: the tissue
+Unable to map entity: animal
+Unable to map entity: animal
+Unable to map entity: human genetic
+Unable to map entity: genetic studies
+Unable to map entity: b chronic
+Unable to map entity: allergic inflammation
+Unable to map entity: allergic inflammation
+Unable to map entity: clinical use
+Unable to map entity: successful
+Unable to map entity: controlled
+Unable to map entity: the usa
+Unable to map entity: exercise induced asthma
+Unable to map entity: mild
+Unable to map entity: trial
+Unable to map entity: trial
+Unable to map entity: combining
+Unable to map entity: chronic myeloid leukemia
+Unable to map entity: chronic myeloid leukemia
+Unable to map entity: new
+Unable to map entity: initial
+Unable to map entity: foreign
+Unable to map entity: insults
+Unable to map entity: recruit
+Unable to map entity: feed
+Unable to map entity: parent
+Unable to map entity: resolution
+Unable to map entity: active
+Unable to map entity: set
+Unable to map entity: motion
+Unable to map entity: into motion
+Unable to map entity: initiating
+Unable to map entity: instruct
+Unable to map entity: assume
+Unable to map entity: resolution
+Unable to map entity: the normal
+Unable to map entity: switching
+Unable to map entity: diverse
+Unable to map entity: class
+Unable to map entity: switching
+Unable to map entity: class switching
+Unable to map entity: resist
+Unable to map entity: possess
+Unable to map entity: resolve
+Unable to map entity: more than
+Unable to map entity: for each
+Unable to map entity: models
+Unable to map entity: knockout
+Unable to map entity: knock
+Unable to map entity: knock out
+Unable to map entity: knock out mice
+Unable to map entity: beta
+Unable to map entity: microglobulin
+Unable to map entity: beta
+Unable to map entity: microglobulin
+Unable to map entity: cadherin
+Unable to map entity: cadherin
+Unable to map entity: cadherin
+Unable to map entity: adenomas
+Unable to map entity: carcinomas
+Unable to map entity: faecal calprotectin
+Unable to map entity: since
+Unable to map entity: faecal calprotectin
+Unable to map entity: leucocytes
+Unable to map entity: leucocytes
+Unable to map entity: leucocytes
+Unable to map entity: the gold standard
+Unable to map entity: faecal calprotectin
+Unable to map entity: faecal calprotectin
+Unable to map entity: degree
+Unable to map entity: free
+Unable to map entity: free
+Mapped calprotectin to Calprotectin
+Unable to map entity: wall
+Unable to map entity: colitis
+Unable to map entity: ulcerative colitis
+Mapped inflammatory bowel disease to Inflammatory Bowel Disease
+Unable to map entity: protein
+Unable to map entity: measurement
+Mapped indium to Indium
+Mapped gold to Gold
+Mapped irritable bowel syndrome to Irritable Bowel Syndrome
+Mapped coeliac disease to Coeliac Disease
+Unable to map entity: lesion
+Unable to map entity: gluten
+Unable to map entity: small intestine
+Unable to map entity: cancer
+Mapped interleukin to Interleukin
+Unable to map entity: gene
+Unable to map entity: adenocarcinoma
+Mapped beta 2 microglobulin to Beta 2 microglobulin
+Unable to map entity: injury
+Unable to map entity: various
+Unable to map entity: activity
+Unable to map entity: process
+Mapped prostaglandin to Prostaglandin
+Mapped atherosclerosis to Atherosclerosis
+Unable to map entity: failure
+Mapped arthritis to Arthritis
+Mapped rheumatoid arthritis to Rheumatoid Arthritis
+Mapped autoimmune disease to Autoimmune Disease
+Unable to map entity: allergy
+Mapped rhinitis to Rhinitis
+Unable to map entity: allergic rhinitis
+Mapped conjunctivitis to Conjunctivitis
+Mapped asthma to Asthma
+Unable to map entity: eczema
+Mapped angioedema to Angioedema
+Mapped urticaria to Urticaria
+Unable to map entity: prostate
+Mapped zileuton to Zileuton
+Unable to map entity: allergic asthma
+Unable to map entity: lung
+Unable to map entity: conjunctiva
+Mapped exercise to Exercise
+Unable to map entity: psoriasis
+Unable to map entity: acne
+Mapped acne vulgaris to Acne Vulgaris
+Unable to map entity: facial
+Unable to map entity: clinical trial
+Unable to map entity: imatinib
+Unable to map entity: leukemia
+Mapped myeloid leukemia to Myeloid leukemia
+Mapped fiber to Fiber
+Unable to map entity: diarrhea
+Unable to map entity: constipation
+Unable to map entity: nutrition
+Unable to map entity: inulin
+Unable to map entity: oligosaccharide
+Unable to map entity: acid
+Unable to map entity: fatty acid
+Unable to map entity: food
+Unable to map entity: behavior
+Mapped feces to Feces
+Unable to map entity: celiac disease
+Unable to map entity: diabetes type
+Unable to map entity: schizophrenia
+Unable to map entity: obesity
+Unable to map entity: liver
+Mapped fatty liver to Fatty liver
+Unable to map entity: atopy
+Mapped human tissue to Human tissue
+Mapped endothelium to Endothelium
+Unable to map entity: infiltration
+Unable to map entity: synovial membrane
+Mapped expression to Expression
+Mapped thyroiditis to Thyroiditis
+Mapped autoimmune thyroiditis to Autoimmune thyroiditis
+Unable to map entity: lymphocyte
+Mapped recruitment to Recruitment
+Mapped indeterminate colitis to Indeterminate colitis
+Unable to map entity: inflammatory disorder
+Unable to map entity: immune system
+Unable to map entity: entire colon
+Unable to map entity: rectum
+Unable to map entity: movement
+Unable to map entity: bloating
+Mapped eating to Eating
+Mapped air to Air
+Mapped diabetes mellitus to Diabetes Mellitus
+Mapped dyspepsia to Dyspepsia
+Mapped transient to Transient
+Unable to map entity: milk
+Unable to map entity: milk intolerance
+Unable to map entity: lactose
+Unable to map entity: lactose intolerance
+Unable to map entity: infection
+Mapped poisoning to Poisoning
+Mapped food poisoning to Food Poisoning
+Unable to map entity: ulcer
+Mapped peptic ulcer to Peptic Ulcer
+Mapped microscopic colitis to Microscopic colitis
+Mapped entire gastrointestinal tract to Tract
+Unable to map entity: large intestine
+Unable to map entity: vasculitis
+Unable to map entity: small vessel vasculitis
+Mapped granulomatosis to Granulomatosis
+Mapped granulomatosis with polyangiitis to Granulomatosis with polyangiitis
+Mapped glomerulonephritis to Glomerulonephritis
+Mapped rapidly progressive glomerulonephritis to Rapidly progressive glomerulonephritis
+Unable to map entity: crescentic glomerulonephritis
+Unable to map entity: eosinophilic
+Mapped cystic fibrosis to Cystic Fibrosis
+Mapped antigen to Antigen
+Unable to map entity: cholangitis
+Mapped sclerosing cholangitis to Sclerosing cholangitis
+Unable to map entity: hepatitis
+Unable to map entity: autoimmune hepatitis
+Unable to map entity: liver disease
+Mapped systemic vasculitis to Systemic vasculitis
+Mapped nutrients to Nutrients
+Unable to map entity: circulatory system
+Mapped toxin to Toxin
+Unable to map entity: health
+Mapped food allergy to Food Allergy
+Mapped shock to Shock
+Mapped septic shock to Septic Shock
+Mapped aspirin to Aspirin
+Unable to map entity: dysplasia
+Mapped tuberculosis to Tuberculosis
+Unable to map entity: diagnosis
+Mapped anxiety disorder to Anxiety Disorder
+Mapped hypothyroidism to Hypothyroidism
+Mapped hyperthyroidism to Hyperthyroidism
+Mapped hyperprolactinemia to Hyperprolactinemia
+Unable to map entity: metabolic disorders
+Mapped vitamin to Vitamin
+Mapped riboflavin to Riboflavin
+Unable to map entity: vitamin b12
+Mapped folic acid to Folic Acid
+Mapped gluten sensitivity to Gluten sensitivity
+Unable to map entity: heart
+Unable to map entity: blood diseases
+Unable to map entity: anemia
+Unable to map entity: brain
+Unable to map entity: dementia
+Unable to map entity: multiple sclerosis
+Mapped transient ischemic attack to Attack
+Unable to map entity: stroke
+Unable to map entity: anorexia nervosa
+Unable to map entity: report
+Unable to map entity: foods
+Unable to map entity: weight
+Unable to map entity: management
+Mapped eating disorder to Eating Disorder
+Unable to map entity: appetite
+Unable to map entity: pain
+Unable to map entity: vomiting
+Mapped epithelium to Epithelium
+Mapped nucleotide to Nucleotide
+Mapped molecule to Molecule
+Unable to map entity: intracellular
+Mapped dipeptide to Dipeptide
+Unable to map entity: gastroenteritis
+Unable to map entity: appendicitis
+Mapped volvulus to Volvulus
+Unable to map entity: pancreatic insufficiency
+Mapped short bowel syndrome to Short bowel syndrome
+Mapped laxative to Laxative
+Mapped receptor to Receptor
+Mapped cannabinoid to Cannabinoid
+Unable to map entity: motility
+Mapped spondylitis to Spondylitis
+Unable to map entity: ankylosing spondylitis
+Mapped psoriatic arthritis to Psoriatic Arthritis
+Unable to map entity: infectious disease
+Unable to map entity: eye
+Unable to map entity: pyoderma
+Unable to map entity: pyoderma gangrenosum
+Mapped erythema nodosum to Erythema nodosum
+Unable to map entity: bacteroides fragilis
+Unable to map entity: polysaccharide
+Mapped blood test to Blood Test
+Unable to map entity: elevation
+Unable to map entity: endometriosis
+Mapped lupus erythematosus to Lupus Erythematosus
+Unable to map entity: pelvic inflammatory disease
+Mapped leiomyoma to Leiomyoma
+Unable to map entity: immunosuppressive acidic protein
+Unable to map entity: haptoglobin
+Mapped osteopontin to Osteopontin
+Mapped growth factor to Growth Factor
+Mapped calcium to Calcium
+Mapped mineral to Mineral
+Unable to map entity: hypertension
+Mapped defecation to Defecation
+Mapped intestinal infection to Intestinal infection
+Unable to map entity: age
+Unable to map entity: history
+Mapped bile to Bile
+Unable to map entity: bile acid
+Unable to map entity: malabsorption
+Unable to map entity: bile acid malabsorption
+Mapped azathioprine to Azathioprine
+Unable to map entity: immunosuppressive therapy
+Unable to map entity: transplant
+Mapped transplantation to Transplantation
+Mapped pemphigus to Pemphigus
+Mapped dermatitis to Dermatitis
+Mapped atopic dermatitis to Atopic Dermatitis
+Unable to map entity: myasthenia gravis
+Unable to map entity: neuromyelitis
+Unable to map entity: neuromyelitis optica
+Unable to map entity: lung disease
+Mapped steroid to Steroid
+Mapped immunology to Immunology
+Mapped linoleic acid to Linoleic Acid
+Mapped insulin to Insulin
+Mapped abscisic acid to Abscisic Acid
+Unable to map entity: gastroenterology
+Unable to map entity: division
+Unable to map entity: clinic
+Unable to map entity: joint
+Mapped bleeding to Bleeding
+Mapped infectious colitis to Infectious colitis
+Mapped hemorrhoids to Hemorrhoids
+Unable to map entity: anal fissure
+Mapped ischemic colitis to Ischemic colitis
+Unable to map entity: proctitis
+Mapped radiation proctitis to Radiation proctitis
+Mapped risk factor to Risk factor
+Mapped colonoscopy to Colonoscopy
+Unable to map entity: amyotrophic lateral sclerosis
+Unable to map entity: traumatic encephalopathy
+Unable to map entity: epilepsy
+Unable to map entity: seizure disorder
+Mapped fibromyalgia to Fibromyalgia
+Unable to map entity: glaucoma
+Mapped spinal cord injury to Spinal Cord Injury
+Unable to map entity: traumatic brain injury
+Mapped appearance to Appearance
+Unable to map entity: pattern
+Mapped cytokine to Cytokine
+Mapped candidiasis to Candidiasis
+Unable to map entity: mucocutaneous candidiasis
+Mapped function to Function
+Unable to map entity: manipulation
+Mapped immunodeficiency to Immunodeficiency
+Unable to map entity: catheter
+Unable to map entity: sepsis
+Unable to map entity: vitamin d deficiency
+Unable to map entity: fat
+Unable to map entity: placenta
+Unable to map entity: blood flow
+Mapped renal failure to Renal Failure
+Unable to map entity: histone
+Mapped histone deacetylase inhibitor to Histone deacetylase inhibitor
+Unable to map entity: brain damage
+Mapped chronic disease to Chronic disease
+Unable to map entity: mesalazine
+Unable to map entity: name
+Mapped aminosalicylic acid to Aminosalicylic acid
+Mapped arthropathy to Arthropathy
+Unable to map entity: scleroderma
+Mapped juvenile idiopathic arthritis to Juvenile Idiopathic Arthritis
+Unable to map entity: diarrhoea
+Mapped ileus to Ileus
+Mapped intussusception to Intussusception
+Unable to map entity: enterocolitis
+Unable to map entity: necrotizing enterocolitis
+Unable to map entity: infective diarrhea
+Mapped reflex to Reflex
+Mapped gastrocolic reflex to Gastrocolic reflex
+Mapped dietary fiber to Dietary Fiber
+Unable to map entity: rice
+Mapped fruit to Fruit
+Unable to map entity: fresh fruit
+Unable to map entity: vegetable
+Unable to map entity: meat
+Mapped red meat to Red Meat
+Mapped oil to Oil
+Mapped chocolate to Chocolate
+Mapped coffee to Coffee
+Unable to map entity: alcoholic beverage
+Mapped sorbitol to Sorbitol
+Mapped sugar to Sugar
+Unable to map entity: cramp
+Num mapped entities: 131
+Filtering: 
+ 
+Removed entity: Calprotectin
+Matched entity: Inflammatory bowel disease for category: Autoimmune%20diseases
+Matched entity: Indium for category: Chemical%20elements
+Matched entity: Gold for category: Chemical%20elements
+Matched entity: Irritable bowel syndrome for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: Coeliac disease for category: Pediatrics
+Removed entity: Interleukin
+Removed entity: Prostaglandin
+Matched entity: Atherosclerosis for category: Inflammations
+Matched entity: Arthritis for category: Inflammations
+Matched entity: Rheumatoid arthritis for category: Autoimmune%20diseases
+Matched entity: Autoimmune disease for category: Autoimmune%20diseases
+Matched entity: Rhinitis for category: Allergology
+Matched entity: Conjunctivitis for category: Inflammations
+Matched entity: Asthma for category: RTT(full)
+Matched entity: Angioedema for category: Effects%20of%20external%20causes
+Removed entity: Zileuton
+Removed entity: Acne vulgaris
+Removed entity: Myeloid leukemia
+Removed entity: Fiber
+Matched entity: Feces for category: Animal%20physiology
+Matched entity: Fatty liver for category: Medical%20conditions%20related%20to%20obesity
+Matched entity: Endothelium for category: Angiology
+Removed entity: Expression
+Matched entity: Thyroiditis for category: Inflammations
+Matched entity: Autoimmune thyroiditis for category: Thyroid%20disease
+Removed entity: Recruitment
+Matched entity: Eating for category: Physiology
+Matched entity: Diabetes mellitus for category: Diabetes
+Removed entity: Transience
+Matched entity: Poisoning for category: Diseases%20and%20disorders
+Removed entity: Foodborne illness
+Matched entity: Peptic ulcer for category: Acute%20pain
+Removed entity: Microscopic colitis
+Removed entity: Tract
+Matched entity: Granuloma for category: Anatomical%20pathology
+Matched entity: Granulomatosis with polyangiitis for category: Autoimmune%20diseases
+Matched entity: Glomerulonephritis for category: Inflammations
+Matched entity: Rapidly progressive glomerulonephritis for category: Kidney%20diseases
+Matched entity: Cystic fibrosis for category: Pediatrics
+Matched entity: Antigen for category: Immune%20system
+Matched entity: Primary sclerosing cholangitis for category: Inflammations
+Matched entity: Systemic vasculitis for category: Vascular-related%20cutaneous%20conditions
+Matched entity: Toxin for category: Toxicology
+Removed entity: Food Allergy
+Removed entity: Shock
+Matched entity: Septic shock for category: Medical%20emergencies
+Matched entity: Aspirin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Tuberculosis for category: RTT(full)
+Matched entity: Anxiety disorder for category: Psychiatric%20diagnosis
+Matched entity: Hypothyroidism for category: RTT(full)
+Matched entity: Hyperthyroidism for category: Thyroid%20disease
+Matched entity: Vitamin for category: Nutrition
+Matched entity: Riboflavin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Folic acid for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Attack
+Matched entity: Eating disorder for category: Psychiatric%20diagnosis
+Removed entity: Epithelium
+Removed entity: Nucleotide
+Removed entity: Molecule
+Removed entity: Dipeptide
+Matched entity: Volvulus for category: Diseases%20of%20intestines
+Matched entity: Short bowel syndrome for category: Diseases%20of%20intestines
+Matched entity: Laxative for category: Gastroenterology
+Removed entity: Receptor
+Removed entity: Cannabinoid
+Matched entity: Spondylitis for category: Orthopedic%20problems
+Matched entity: Psoriatic arthritis for category: Autoimmune%20diseases
+Matched entity: Erythema nodosum for category: Autoimmune%20diseases
+Matched entity: Blood test for category: Blood%20tests
+Matched entity: Lupus erythematosus for category: Autoimmune%20diseases
+Matched entity: Leiomyoma for category: Anatomical%20pathology
+Matched entity: Osteopontin for category: Glycoproteins
+Matched entity: Growth factor for category: Immune%20system
+Matched entity: Calcium for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Mineral
+Matched entity: Defecation for category: Digestive%20system
+Removed entity: Intestinal infection
+Matched entity: Bile for category: Digestive%20system
+Matched entity: Azathioprine for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Pemphigus for category: Autoimmune%20diseases
+Matched entity: Dermatitis for category: Autoimmune%20diseases
+Removed entity: Atopic dermatitis
+Removed entity: Steroid
+Matched entity: Immunology for category: Immunology
+Removed entity: Linoleic acid
+Matched entity: Insulin for category: World%20Anti-Doping%20Agency%20prohibited%20substances
+Matched entity: Abscisic acid for category: Alcohols
+Removed entity: Bleeding
+Removed entity: Infectious colitis
+Removed entity: Ischemic colitis
+Matched entity: Radiation proctitis for category: Radiation%20therapy
+Matched entity: Risk factor for category: Epidemiology
+Matched entity: Colonoscopy for category: Endoscopy
+Matched entity: Fibromyalgia for category: Disorders%20of%20fascia
+Matched entity: Spinal cord injury for category: Medical%20emergencies
+Removed entity: Appearance
+Matched entity: Cytokine for category: Immune%20system
+Matched entity: Candidiasis for category: Mycosis-related%20cutaneous%20conditions
+Removed entity: Function
+Removed entity: Immunodeficiency
+Matched entity: Kidney failure for category: Organ%20failure
+Removed entity: Histone deacetylase inhibitor
+Removed entity: Aminosalicylic acid
+Matched entity: Arthropathy for category: Inflammatory%20polyarthropathies
+Matched entity: Juvenile idiopathic arthritis for category: Pediatrics
+Matched entity: Ileus for category: Digestive%20system
+Removed entity: Intussusception
+Matched entity: Reflex for category: Reflexes
+Matched entity: Gastrocolic reflex for category: Physiology
+Matched entity: Dietary fiber for category: Nutrition
+Matched entity: Fruit for category: Pollination
+Removed entity: Red Meat
+Matched entity: Oil for category: Foods
+Removed entity: Chocolate
+Matched entity: Coffee for category: IARC%20Group%202B%20carcinogens
+Removed entity: Sorbitol
+Removed entity: Sugar
+Inflammatory bowel disease 0.38529221828096605
+Irritable bowel syndrome 0.07059276276714166
+Arthritis 0.04377017958449734
+Feces 0.023949594414349122
+Rheumatoid arthritis 0.023455981613030655
+Atherosclerosis 0.02316223462511677
+Coeliac disease 0.020123743022866562
+Diabetes mellitus 0.017314783716527015
+Short bowel syndrome 0.016591497490610736
+Autoimmune disease 0.016030291323419932
+Asthma 0.015910328471129838
+Eating 0.0156998185669892
+Fatty liver 0.013429240886197855
+Defecation 0.011909685428193678
+Lupus erythematosus 0.010724371532931855
+Indium 0.010622435807297315
+Volvulus 0.010527585556985528
+Aspirin 0.010476002620964433
+Tuberculosis 0.01019506601494174
+Vitamin 0.010064556977456923
+Fibromyalgia 0.009120263134892842
+Cytokine 0.008063578038140156
+Spondylitis 0.007955138218832463
+Hyperthyroidism 0.007560288450930483
+Bile 0.007415190512963779
+Candidiasis 0.006661755968995753
+Thyroiditis 0.006502051742085307
+Ileus 0.006348858011163469
+Immunology 0.006154066779586466
+Abscisic acid 0.006154066779586466
+Cystic fibrosis 0.0055285395915901075
+Peptic ulcer 0.005473606363330585
+Erythema nodosum 0.00540563751794822
+Granuloma 0.005200025385372253
+Hypothyroidism 0.005040192300620322
+Riboflavin 0.005040192300620322
+Folic acid 0.005040192300620322
+Endothelium 0.00487653880656398
+Granulomatosis with polyangiitis 0.004680022846835028
+Rhinitis 0.0043288214550272555
+Conjunctivitis 0.0043288214550272555
+Leiomyoma 0.004325688500596296
+Osteopontin 0.004325688500596296
+Laxative 0.004178727545822059
+Pemphigus 0.003692922271819022
+Antigen 0.003547865675878656
+Gold 0.0035408119357657718
+Psoriatic arthritis 0.0035139675728352937
+Autoimmune thyroiditis 0.0032510258710426536
+Calcium 0.003093300020274947
+Insulin 0.003077033389793233
+Fruit 0.0030724509438190203
+Oil 0.0030724509438190203
+Spinal cord injury 0.0030400877116309472
+Toxin 0.0030278631373414303
+Septic shock 0.0030278631373414303
+Kidney failure 0.0029214963575707863
+Growth factor 0.0028837923337308633
+Poisoning 0.0027368031816652925
+Radiation proctitis 0.0026297853673688375
+Risk factor 0.0026297853673688375
+Colonoscopy 0.0026297853673688375
+Dermatitis 0.0024619481812126814
+Anxiety disorder 0.00236801258352352
+Arthropathy 0.002280548508304079
+Juvenile idiopathic arthritis 0.002280548508304079
+Angioedema 0.0021644107275136278
+Glomerulonephritis 0.0020800101541489013
+Eating disorder 0.0016323985590591995
+Reflex 0.0015362254719095102
+Gastrocolic reflex 0.0015362254719095102
+Dietary fiber 0.0015362254719095102
+Coffee 0.0015362254719095102
+Blood test 0.0014418961668654316
+Azathioprine 0.0012309740906063407
+Primary sclerosing cholangitis 0.0010400050770744507
+Rapidly progressive glomerulonephritis 5.200025385372253E-4
+Systemic vasculitis 5.200025385372253E-4
+Time taken: 94
+Inflammatory bowel disease
+Num unmapped entities: 292
+Mapping: 
+ 
+Mapped calprotectin to Calprotectin
+Unable to map entity: wall
+Unable to map entity: colitis
+Unable to map entity: ulcerative colitis
+Mapped inflammatory bowel disease to Inflammatory Bowel Disease
+Unable to map entity: protein
+Unable to map entity: measurement
+Mapped indium to Indium
+Mapped gold to Gold
+Mapped irritable bowel syndrome to Irritable Bowel Syndrome
+Mapped coeliac disease to Coeliac Disease
+Unable to map entity: lesion
+Unable to map entity: gluten
+Unable to map entity: small intestine
+Unable to map entity: cancer
+Mapped interleukin to Interleukin
+Unable to map entity: gene
+Unable to map entity: adenocarcinoma
+Mapped beta 2 microglobulin to Beta 2 microglobulin
+Unable to map entity: injury
+Unable to map entity: various
+Unable to map entity: activity
+Unable to map entity: process
+Mapped prostaglandin to Prostaglandin
+Mapped atherosclerosis to Atherosclerosis
+Unable to map entity: failure
+Mapped arthritis to Arthritis
+Mapped rheumatoid arthritis to Rheumatoid Arthritis
+Mapped autoimmune disease to Autoimmune Disease
+Unable to map entity: allergy
+Mapped rhinitis to Rhinitis
+Unable to map entity: allergic rhinitis
+Mapped conjunctivitis to Conjunctivitis
+Mapped asthma to Asthma
+Unable to map entity: eczema
+Mapped angioedema to Angioedema
+Mapped urticaria to Urticaria
+Unable to map entity: prostate
+Mapped zileuton to Zileuton
+Unable to map entity: allergic asthma
+Unable to map entity: lung
+Unable to map entity: conjunctiva
+Mapped exercise to Exercise
+Unable to map entity: psoriasis
+Unable to map entity: acne
+Mapped acne vulgaris to Acne Vulgaris
+Unable to map entity: facial
+Unable to map entity: clinical trial
+Unable to map entity: imatinib
+Unable to map entity: leukemia
+Mapped myeloid leukemia to Myeloid leukemia
+Mapped fiber to Fiber
+Unable to map entity: diarrhea
+Unable to map entity: constipation
+Unable to map entity: nutrition
+Unable to map entity: inulin
+Unable to map entity: oligosaccharide
+Unable to map entity: acid
+Unable to map entity: fatty acid
+Unable to map entity: food
+Unable to map entity: behavior
+Mapped feces to Feces
+Unable to map entity: celiac disease
+Unable to map entity: diabetes type
+Unable to map entity: schizophrenia
+Unable to map entity: obesity
+Unable to map entity: liver
+Mapped fatty liver to Fatty liver
+Unable to map entity: atopy
+Mapped human tissue to Human tissue
+Mapped endothelium to Endothelium
+Unable to map entity: infiltration
+Unable to map entity: synovial membrane
+Mapped expression to Expression
+Mapped thyroiditis to Thyroiditis
+Mapped autoimmune thyroiditis to Autoimmune thyroiditis
+Unable to map entity: lymphocyte
+Mapped recruitment to Recruitment
+Mapped indeterminate colitis to Indeterminate colitis
+Unable to map entity: inflammatory disorder
+Unable to map entity: immune system
+Unable to map entity: entire colon
+Unable to map entity: rectum
+Unable to map entity: movement
+Unable to map entity: bloating
+Mapped eating to Eating
+Mapped air to Air
+Mapped diabetes mellitus to Diabetes Mellitus
+Mapped dyspepsia to Dyspepsia
+Mapped transient to Transient
+Unable to map entity: milk
+Unable to map entity: milk intolerance
+Unable to map entity: lactose
+Unable to map entity: lactose intolerance
+Unable to map entity: infection
+Mapped poisoning to Poisoning
+Mapped food poisoning to Food Poisoning
+Unable to map entity: ulcer
+Mapped peptic ulcer to Peptic Ulcer
+Mapped microscopic colitis to Microscopic colitis
+Mapped entire gastrointestinal tract to Tract
+Unable to map entity: large intestine
+Unable to map entity: vasculitis
+Unable to map entity: small vessel vasculitis
+Mapped granulomatosis to Granulomatosis
+Mapped granulomatosis with polyangiitis to Granulomatosis with polyangiitis
+Mapped glomerulonephritis to Glomerulonephritis
+Mapped rapidly progressive glomerulonephritis to Rapidly progressive glomerulonephritis
+Unable to map entity: crescentic glomerulonephritis
+Unable to map entity: eosinophilic
+Mapped cystic fibrosis to Cystic Fibrosis
+Mapped antigen to Antigen
+Unable to map entity: cholangitis
+Mapped sclerosing cholangitis to Sclerosing cholangitis
+Unable to map entity: hepatitis
+Unable to map entity: autoimmune hepatitis
+Unable to map entity: liver disease
+Mapped systemic vasculitis to Systemic vasculitis
+Mapped nutrients to Nutrients
+Unable to map entity: circulatory system
+Mapped toxin to Toxin
+Unable to map entity: health
+Mapped food allergy to Food Allergy
+Mapped shock to Shock
+Mapped septic shock to Septic Shock
+Mapped aspirin to Aspirin
+Unable to map entity: dysplasia
+Mapped tuberculosis to Tuberculosis
+Unable to map entity: diagnosis
+Mapped anxiety disorder to Anxiety Disorder
+Mapped hypothyroidism to Hypothyroidism
+Mapped hyperthyroidism to Hyperthyroidism
+Mapped hyperprolactinemia to Hyperprolactinemia
+Unable to map entity: metabolic disorders
+Mapped vitamin to Vitamin
+Mapped riboflavin to Riboflavin
+Unable to map entity: vitamin b12
+Mapped folic acid to Folic Acid
+Mapped gluten sensitivity to Gluten sensitivity
+Unable to map entity: heart
+Unable to map entity: blood diseases
+Unable to map entity: anemia
+Unable to map entity: brain
+Unable to map entity: dementia
+Unable to map entity: multiple sclerosis
+Mapped transient ischemic attack to Attack
+Unable to map entity: stroke
+Unable to map entity: anorexia nervosa
+Unable to map entity: report
+Unable to map entity: foods
+Unable to map entity: weight
+Unable to map entity: management
+Mapped eating disorder to Eating Disorder
+Unable to map entity: appetite
+Unable to map entity: pain
+Unable to map entity: vomiting
+Mapped epithelium to Epithelium
+Mapped nucleotide to Nucleotide
+Mapped molecule to Molecule
+Unable to map entity: intracellular
+Mapped dipeptide to Dipeptide
+Unable to map entity: gastroenteritis
+Unable to map entity: appendicitis
+Mapped volvulus to Volvulus
+Unable to map entity: pancreatic insufficiency
+Mapped short bowel syndrome to Short bowel syndrome
+Mapped laxative to Laxative
+Mapped receptor to Receptor
+Mapped cannabinoid to Cannabinoid
+Unable to map entity: motility
+Mapped spondylitis to Spondylitis
+Unable to map entity: ankylosing spondylitis
+Mapped psoriatic arthritis to Psoriatic Arthritis
+Unable to map entity: infectious disease
+Unable to map entity: eye
+Unable to map entity: pyoderma
+Unable to map entity: pyoderma gangrenosum
+Mapped erythema nodosum to Erythema nodosum
+Unable to map entity: bacteroides fragilis
+Unable to map entity: polysaccharide
+Mapped blood test to Blood Test
+Unable to map entity: elevation
+Unable to map entity: endometriosis
+Mapped lupus erythematosus to Lupus Erythematosus
+Unable to map entity: pelvic inflammatory disease
+Mapped leiomyoma to Leiomyoma
+Unable to map entity: immunosuppressive acidic protein
+Unable to map entity: haptoglobin
+Mapped osteopontin to Osteopontin
+Mapped growth factor to Growth Factor
+Mapped calcium to Calcium
+Mapped mineral to Mineral
+Unable to map entity: hypertension
+Mapped defecation to Defecation
+Mapped intestinal infection to Intestinal infection
+Unable to map entity: age
+Unable to map entity: history
+Mapped bile to Bile
+Unable to map entity: bile acid
+Unable to map entity: malabsorption
+Unable to map entity: bile acid malabsorption
+Mapped azathioprine to Azathioprine
+Unable to map entity: immunosuppressive therapy
+Unable to map entity: transplant
+Mapped transplantation to Transplantation
+Mapped pemphigus to Pemphigus
+Mapped dermatitis to Dermatitis
+Mapped atopic dermatitis to Atopic Dermatitis
+Unable to map entity: myasthenia gravis
+Unable to map entity: neuromyelitis
+Unable to map entity: neuromyelitis optica
+Unable to map entity: lung disease
+Mapped steroid to Steroid
+Mapped immunology to Immunology
+Mapped linoleic acid to Linoleic Acid
+Mapped insulin to Insulin
+Mapped abscisic acid to Abscisic Acid
+Unable to map entity: gastroenterology
+Unable to map entity: division
+Unable to map entity: clinic
+Unable to map entity: joint
+Mapped bleeding to Bleeding
+Mapped infectious colitis to Infectious colitis
+Mapped hemorrhoids to Hemorrhoids
+Unable to map entity: anal fissure
+Mapped ischemic colitis to Ischemic colitis
+Unable to map entity: proctitis
+Mapped radiation proctitis to Radiation proctitis
+Mapped risk factor to Risk factor
+Mapped colonoscopy to Colonoscopy
+Unable to map entity: amyotrophic lateral sclerosis
+Unable to map entity: traumatic encephalopathy
+Unable to map entity: epilepsy
+Unable to map entity: seizure disorder
+Mapped fibromyalgia to Fibromyalgia
+Unable to map entity: glaucoma
+Mapped spinal cord injury to Spinal Cord Injury
+Unable to map entity: traumatic brain injury
+Mapped appearance to Appearance
+Unable to map entity: pattern
+Mapped cytokine to Cytokine
+Mapped candidiasis to Candidiasis
+Unable to map entity: mucocutaneous candidiasis
+Mapped function to Function
+Unable to map entity: manipulation
+Mapped immunodeficiency to Immunodeficiency
+Unable to map entity: catheter
+Unable to map entity: sepsis
+Unable to map entity: vitamin d deficiency
+Unable to map entity: fat
+Unable to map entity: placenta
+Unable to map entity: blood flow
+Mapped renal failure to Renal Failure
+Unable to map entity: histone
+Mapped histone deacetylase inhibitor to Histone deacetylase inhibitor
+Unable to map entity: brain damage
+Mapped chronic disease to Chronic disease
+Unable to map entity: mesalazine
+Unable to map entity: name
+Mapped aminosalicylic acid to Aminosalicylic acid
+Mapped arthropathy to Arthropathy
+Unable to map entity: scleroderma
+Mapped juvenile idiopathic arthritis to Juvenile Idiopathic Arthritis
+Unable to map entity: diarrhoea
+Mapped ileus to Ileus
+Mapped intussusception to Intussusception
+Unable to map entity: enterocolitis
+Unable to map entity: necrotizing enterocolitis
+Unable to map entity: infective diarrhea
+Mapped reflex to Reflex
+Mapped gastrocolic reflex to Gastrocolic reflex
+Mapped dietary fiber to Dietary Fiber
+Unable to map entity: rice
+Mapped fruit to Fruit
+Unable to map entity: fresh fruit
+Unable to map entity: vegetable
+Unable to map entity: meat
+Mapped red meat to Red Meat
+Mapped oil to Oil
+Mapped chocolate to Chocolate
+Mapped coffee to Coffee
+Unable to map entity: alcoholic beverage
+Mapped sorbitol to Sorbitol
+Mapped sugar to Sugar
+Unable to map entity: cramp
+Num mapped entities: 131
+Filtering: 
+ 
+Matched entity: Inflammatory bowel disease for category: Autoimmune%20diseases
+Removed entity: ulcerative
+Removed entity: ARE
+Removed entity: principal
+Removed entity: Importance
+Removed entity: note
+Removed entity: only
+Removed entity: can
+Removed entity: hypothesis
+Matched entity: Immunology for category: Immunology
+Removed entity: have
+Removed entity: been
+Removed entity: Observation
+Removed entity: last
+Removed entity: from
+Matched entity: Helminths for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: helminths for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: childhood for category: Childhood
+Removed entity: suis
+Removed entity: ova
+Removed entity: tso
+Removed entity: pig
+Removed entity: eggs
+Removed entity: treating
+Removed entity: lesser
+Removed entity: extent
+Removed entity: 2 (number)
+Removed entity: this
+Removed entity: there
+Removed entity: anecdotal evidence
+Removed entity: treatment
+Removed entity: with
+Removed entity: incidence
+Removed entity: other
+Removed entity: some
+Removed entity: scientific evidence
+Removed entity: The Course
+Removed entity: multiple
+Removed entity: very
+Removed entity: Favor
+Matched entity: Helminthiasis for category: Conditions%20diagnosed%20by%20stool%20test
+Removed entity: irritable
+Removed entity: IBS
+Removed entity: unknown
+Removed entity: origin
+Removed entity: often
+Removed entity: results
+Removed entity: gut
+Removed entity: dysfunction
+Removed entity: causes
+Removed entity: Recurrence
+Removed entity: well
+Removed entity: prevent
+Removed entity: over
+Matched entity: Solubility for category: Physical%20quantities
+Removed entity: dairy product
+Removed entity: products
+Removed entity: careful
+Removed entity: fresh
+Removed entity: high
+Removed entity: regular
+Removed entity: Lessines
+Removed entity: 2000
+Removed entity: Drink
+Removed entity: Inclusion
+Removed entity: fatty
+Removed entity: fried
+Removed entity: even
+Removed entity: when
+Removed entity: intolerance
+Removed entity: carbonation
+Matched entity: Artificiality for category: Anthropology
+Removed entity: substitute
+Removed entity: sugar substitute
+Removed entity: found
+Removed entity: The Age
+Removed entity: Woman
+Removed entity: Man
+Removed entity: squeeze
+Removed entity: too
+Removed entity: enough
+Removed entity: quickly
+Matched entity: Irritable bowel syndrome for category: Conditions%20diagnosed%20by%20stool%20test
+Removed entity: will
+Removed entity: under
+Removed entity: stress
+Removed entity: travel
+Removed entity: The Times (disambiguation)
+Removed entity: routine
+Removed entity: after
+Removed entity: bowel movement
+Removed entity: feeling
+Removed entity: HAS
+Removed entity: acute
+Removed entity: ischaemia
+Removed entity: impaction
+Removed entity: obstruction
+Removed entity: disorder
+Removed entity: tract
+Matched entity: Necrosis for category: Necrosis
+Removed entity: associated
+Matched entity: Crohn's disease for category: Inflammations
+Removed entity: families
+Removed entity: type
+Removed entity: graves
+Removed entity: rheumatoid
+Removed entity: psoriatic arthropathy
+Removed entity: adult
+Removed entity: juvenile
+Removed entity: international
+Removed entity: anti-inflammatory
+Removed entity: anti
+Removed entity: treat
+Removed entity: inflamed
+Removed entity: blau
+Removed entity: addition
+Removed entity: chronic
+Removed entity: low
+Matched entity: Circulatory system for category: Angiology
+Removed entity: aspect
+Removed entity: defense
+Removed entity: trauma
+Removed entity: reactions
+Removed entity: flow
+Removed entity: cellular
+Removed entity: order
+Removed entity: wounded
+Removed entity: Infection (disambiguation)
+Removed entity: however
+Removed entity: long
+Removed entity: term
+Removed entity: Term (time)
+Removed entity: consequences
+Matched entity: Kidney for category: Endocrine%20system
+Removed entity: ETC
+Removed entity: Sensor
+Removed entity: diet
+Removed entity: aid
+Removed entity: cell
+Removed entity: Signal
+Matched entity: cell signaling for category: Human%20female%20endocrine%20system
+Removed entity: Specific
+Removed entity: The Biz (album)
+Removed entity: sites
+Removed entity: Messenger RNA
+Removed entity: proinflammatory
+Removed entity: composition
+Removed entity: offspring
+Matched entity: in utero for category: Uterus
+Removed entity: MCP
+Removed entity: body
+Removed entity: deposition
+Removed entity: because
+Removed entity: histone deacetylase
+Removed entity: inhibitor
+Removed entity: neuroglia
+Removed entity: Neuroglia
+Removed entity: improved
+Removed entity: survival
+Matched entity: preterm birth for category: Women's%20health
+Removed entity: induce
+Removed entity: Clarification
+Removed entity: how
+Removed entity: between
+Removed entity: short
+Matched entity: produce for category: Foods
+Removed entity: problems
+Removed entity: complex
+Removed entity: host
+Removed entity: They
+Removed entity: safety
+Matched entity: Vein for category: Veins
+Matched entity: Peripheral venous catheter for category: Catheters
+Removed entity: valve
+Matched entity: Preterm birth for category: Women's%20health
+Removed entity: adverse
+Removed entity: passage
+Removed entity: lowered
+Removed entity: who
+Removed entity: DMX (rapper)
+Matched entity: fungemia for category: Animal%20fungal%20diseases
+Removed entity: fatal
+Removed entity: emerging
+Matched entity: pathogenesis for category: Pathology
+Removed entity: Axiom
+Removed entity: degradation
+Removed entity: luminal
+Removed entity: into
+Removed entity: lamina
+Matched entity: Immune system for category: Immune%20system
+Removed entity: what
+Removed entity: Initiation
+Removed entity: self
+Removed entity: cycle
+Removed entity: nevertheless
+Matched entity: intestinal permeability for category: Digestive%20system
+Removed entity: primary
+Removed entity: etiology
+Matched entity: medicine for category: Medicine
+Removed entity: recently
+Removed entity: mediates
+Removed entity: downstream
+Removed entity: subsequently
+Matched entity: Adaptive behavior for category: Behavior
+Matched entity: Adaptive immune system for category: Immune%20system
+Removed entity: clearance
+Removed entity: form
+Removed entity: Zygosity
+Removed entity: mutations
+Removed entity: immunity
+Matched entity: pathogen for category: Infectious%20diseases
+Removed entity: burns
+Removed entity: dual
+Removed entity: ability
+Removed entity: potent
+Removed entity: Vâlcele, Covasna
+Removed entity: otherwise
+Removed entity: macrophages
+Removed entity: dendritic
+Removed entity: resolvin
+Removed entity: subfamily
+Removed entity: ANY
+Removed entity: digestive
+Removed entity: ITS
+Removed entity: rare
+Removed entity: presentation
+Removed entity: feature
+Removed entity: total
+Removed entity: thickness
+Removed entity: Check
+Removed entity: remain
+Removed entity: away
+Removed entity: own
+Removed entity: reporting
+Removed entity: further
+Removed entity: als
+Removed entity: Trauma
+Removed entity: CTE
+Removed entity: chronic pain
+Removed entity: severe
+Removed entity: post
+Matched entity: Posttraumatic stress disorder for category: Psychiatric%20diagnosis
+Removed entity: traumatic stress
+Removed entity: sickle cell anemia
+Removed entity: cord
+Removed entity: board
+Removed entity: focus
+Removed entity: potential
+Removed entity: tenesmus
+Removed entity: anal
+Removed entity: change
+Removed entity: caliber
+Removed entity: diverticular bleeding
+Removed entity: arteriovenous
+Removed entity: AVM
+Removed entity: nonsteroidal
+Removed entity: asked
+Removed entity: compromise
+Removed entity: Shortness of breath
+Matched entity: lightheadedness for category: Symptoms%20and%20signs:%20Cognition,%20perception,%20emotional%20state%20and%20behaviour
+Removed entity: Molecule
+Removed entity: molecular medicine
+Removed entity: 2002
+Removed entity: Identification
+Removed entity: targets
+Removed entity: action
+Removed entity: mechanism of action
+Removed entity: conjugated linoleic acid
+Removed entity: program
+Removed entity: performance
+Removed entity: computing
+Removed entity: Supercomputer
+Removed entity: conduct
+Removed entity: in silico
+Removed entity: down
+Matched entity: design for category: Design
+Removed entity: validate
+Removed entity: Hypothesis
+Removed entity: university
+Removed entity: department
+Removed entity: North Carolina
+Removed entity: Chapel Hill
+Removed entity: leading
+Removed entity: several
+Removed entity: partnership
+Matched entity: Immunosuppression for category: Immune%20system
+Removed entity: transplant rejection
+Removed entity: gravis
+Removed entity: optica
+Removed entity: devics
+Matched entity: gut–brain axis for category: Digestive%20system
+Matched entity: Small intestine for category: Organs%20(anatomy)
+Matched entity: Small intestinal bacterial overgrowth for category: Gastrointestinal%20tract%20disorders
+Matched entity: small intestinal bacterial overgrowth for category: Gastrointestinal%20tract%20disorders
+Removed entity: life
+Removed entity: event
+Matched entity: functional gastrointestinal disorder for category: Gastrointestinal%20tract%20disorders
+Removed entity: signs
+Removed entity: greater
+Removed entity: family
+Removed entity: preliminary
+Removed entity: demonstrated
+Removed entity: effectiveness
+Matched entity: Large intestine for category: Organs%20(anatomy)
+Matched entity: colorectal cancer for category: Infectious%20causes%20of%20cancer
+Matched entity: frequency for category: Physical%20quantities
+Matched entity: Prebiotic (nutrition) for category: Digestive%20system
+Removed entity: episodes
+Removed entity: Need
+Removed entity: figure
+Removed entity: North (disambiguation)
+Removed entity: gradient
+Removed entity: Inverse relation
+Removed entity: distribution
+Removed entity: phenotype
+Removed entity: fleming
+Removed entity: Improvement
+Removed entity: act
+Removed entity: fashion
+Removed entity: lee
+Removed entity: test
+Removed entity: marker
+Removed entity: 125
+Removed entity: useful
+Matched entity: differential diagnosis for category: Medical%20terminology
+Removed entity: effective method
+Removed entity: screen
+Removed entity: stage
+Removed entity: ovarian cancer
+Removed entity: due
+Removed entity: specificity
+Matched entity: sensitivity and specificity for category: Accuracy%20and%20precision
+Removed entity: premenopausal
+Removed entity: 200
+Matched entity: Accuracy and precision for category: Metrology
+Removed entity: fully
+Removed entity: level
+Removed entity: uterine
+Removed entity: Test
+Removed entity: CA 15-3
+Removed entity: alpha
+Matched entity: mesothelin for category: Proteins
+Removed entity: lysophosphatidic acid
+Removed entity: fibroblast
+Removed entity: beneficial
+Matched entity: Pathogen for category: Infectious%20diseases
+Removed entity: Residence
+Removed entity: tissues
+Removed entity: microorganism
+Removed entity: protects
+Removed entity: PSA
+Removed entity: rashes
+Removed entity: Eye (disambiguation)
+Removed entity: tired
+Matched entity: Erythema nodosum for category: Autoimmune%20diseases
+Removed entity: Medical research
+Removed entity: driver
+Removed entity: behcets disease
+Removed entity: they
+Removed entity: Thus (company)
+Removed entity: role
+Removed entity: play
+Removed entity: upon
+Removed entity: flora
+Matched entity: gut flora for category: Digestive%20system
+Removed entity: activation
+Removed entity: cannabinoid receptor
+Removed entity: Cannabinoid
+Removed entity: need
+Removed entity: ruled
+Removed entity: out
+Removed entity: urinary
+Removed entity: urinary tract infections
+Removed entity: coeliac
+Removed entity: abuse
+Matched entity: Laxative for category: Gastroenterology
+Removed entity: somewhat
+Removed entity: rather
+Removed entity: Homology
+Removed entity: oligomerization
+Removed entity: domain
+Removed entity: caspase
+Removed entity: CARD domain
+Removed entity: effector
+Removed entity: mucosal
+Removed entity: Microorganism
+Removed entity: Be More
+Removed entity: General officer
+Removed entity: prior
+Removed entity: create
+Removed entity: alterations
+Removed entity: importance
+Removed entity: trigger
+Removed entity: anxiety
+Removed entity: cross
+Removed entity: contamination
+Removed entity: Contamination
+Removed entity: suggest
+Removed entity: distension
+Removed entity: dieting
+Removed entity: hypo
+Removed entity: cerebral
+Removed entity: attack
+Removed entity: degenerative diseases
+Removed entity: first
+Removed entity: Exclude
+Removed entity: cant
+Removed entity: specific
+Matched entity: Antibody for category: Immune%20system
+Removed entity: transglutaminase
+Removed entity: villi
+Removed entity: prevention
+Matched entity: Colonoscopy for category: Endoscopy
+Removed entity: Inequality (mathematics)
+Removed entity: get
+Matched entity: intestinal mucosal barrier for category: Digestive%20system
+Removed entity: containment
+Removed entity: separation
+Removed entity: proper
+Removed entity: vital
+Matched entity: Allergy for category: Immune%20system
+Removed entity: Food allergy
+Matched entity: Fatty liver for category: Medical%20conditions%20related%20to%20obesity
+Removed entity: septic
+Removed entity: vessel
+Matched entity: Granulomatosis with polyangiitis for category: Autoimmune%20diseases
+Removed entity: pauci
+Removed entity: limited
+Removed entity: Director
+Matched entity: Antigen for category: Immune%20system
+Removed entity: parasitic infections
+Removed entity: English subjunctive
+Removed entity: believe
+Removed entity: peptic ulcer disease
+Matched entity: abdominal surgery for category: General%20surgery
+Matched entity: pancolitis for category: Gastrointestinal%20tract%20disorders
+Removed entity: kind
+Removed entity: currently
+Removed entity: genes
+Removed entity: increase
+Removed entity: forcing
+Removed entity: quality of life
+Removed entity: corticosteroids
+Removed entity: little
+Removed entity: improvement
+Removed entity: case
+Removed entity: expose
+Removed entity: Compromise
+Removed entity: Immunodeficiency
+Removed entity: final
+Removed entity: Reserve
+Removed entity: Remove
+Removed entity: cures
+Removed entity: chance
+Removed entity: collect
+Removed entity: The End
+Removed entity: attached
+Removed entity: latter
+Removed entity: diseased
+Removed entity: still
+Removed entity: collection
+Removed entity: shows
+Removed entity: standing
+Removed entity: sulfate
+Removed entity: areas
+Removed entity: MECA
+Matched entity: Lymphatic system for category: Animal%20anatomy
+Removed entity: Logical consequence
+Removed entity: bona
+Removed entity: fide
+Removed entity: bona fide
+Removed entity: likely
+Removed entity: facilitate
+Removed entity: scale
+Removed entity: influx
+Removed entity: amplification
+Removed entity: stimulus
+Matched entity: Synovial membrane for category: Soft%20tissue
+Removed entity: Expression
+Removed entity: mediating
+Matched entity: Spondyloarthropathy for category: Arthritis
+Removed entity: List of cancer types
+Removed entity: relationship
+Removed entity: classification
+Removed entity: categories
+Removed entity: without
+Matched entity: Stenosis for category: Medical%20terminology
+Removed entity: soluble fiber
+Removed entity: discomfort
+Removed entity: clostridium difficile
+Removed entity: Producer
+Removed entity: managing
+Removed entity: modification
+Removed entity: animal
+Removed entity: human genetic
+Matched entity: allergic inflammation for category: Allergology
+Matched entity: Clinic for category: Types%20of%20healthcare%20facilities
+Removed entity: mild
+Removed entity: trial
+Removed entity: combining
+Removed entity: Chronic myelogenous leukemia
+Removed entity: SPM
+Removed entity: new
+Removed entity: initial
+Removed entity: foreign
+Removed entity: recruit
+Removed entity: feed
+Removed entity: parent
+Removed entity: resolution
+Removed entity: active
+Removed entity: set
+Removed entity: motion
+Removed entity: initiating
+Removed entity: instruct
+Removed entity: switching
+Removed entity: class
+Removed entity: resist
+Removed entity: vivo
+Removed entity: possess
+Removed entity: resolve
+Removed entity: for each
+Removed entity: knockout
+Removed entity: knock
+Removed entity: knock out
+Removed entity: beta
+Matched entity: microglobulin for category: Proteins
+Removed entity: cadherin
+Removed entity: faecal calprotectin
+Removed entity: since
+Removed entity: degree
+Removed entity: free
+Removed entity: Calprotectin
+Matched entity: Indium for category: Chemical%20elements
+Matched entity: Gold for category: Chemical%20elements
+Matched entity: Coeliac disease for category: Pediatrics
+Removed entity: Interleukin
+Removed entity: Prostaglandin
+Matched entity: Atherosclerosis for category: Inflammations
+Matched entity: Arthritis for category: Inflammations
+Matched entity: Rheumatoid arthritis for category: Autoimmune%20diseases
+Matched entity: Autoimmune disease for category: Autoimmune%20diseases
+Matched entity: Rhinitis for category: Allergology
+Matched entity: Conjunctivitis for category: Inflammations
+Matched entity: Asthma for category: RTT(full)
+Matched entity: Angioedema for category: Effects%20of%20external%20causes
+Removed entity: Zileuton
+Removed entity: Acne vulgaris
+Removed entity: Myeloid leukemia
+Removed entity: Fiber
+Matched entity: Feces for category: Animal%20physiology
+Matched entity: Endothelium for category: Angiology
+Matched entity: Thyroiditis for category: Inflammations
+Matched entity: Autoimmune thyroiditis for category: Thyroid%20disease
+Removed entity: Recruitment
+Matched entity: Eating for category: Physiology
+Matched entity: Diabetes mellitus for category: Diabetes
+Removed entity: Transience
+Matched entity: Poisoning for category: Diseases%20and%20disorders
+Removed entity: Foodborne illness
+Matched entity: Peptic ulcer for category: Acute%20pain
+Removed entity: Microscopic colitis
+Removed entity: Tract
+Matched entity: Granuloma for category: Anatomical%20pathology
+Matched entity: Glomerulonephritis for category: Inflammations
+Matched entity: Rapidly progressive glomerulonephritis for category: Kidney%20diseases
+Matched entity: Cystic fibrosis for category: Pediatrics
+Matched entity: Primary sclerosing cholangitis for category: Inflammations
+Matched entity: Systemic vasculitis for category: Vascular-related%20cutaneous%20conditions
+Matched entity: Toxin for category: Toxicology
+Removed entity: Food Allergy
+Removed entity: Shock
+Matched entity: Septic shock for category: Medical%20emergencies
+Matched entity: Aspirin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Tuberculosis for category: RTT(full)
+Matched entity: Anxiety disorder for category: Psychiatric%20diagnosis
+Matched entity: Hypothyroidism for category: RTT(full)
+Matched entity: Hyperthyroidism for category: Thyroid%20disease
+Matched entity: Vitamin for category: Nutrition
+Matched entity: Riboflavin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Folic acid for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Attack
+Matched entity: Eating disorder for category: Psychiatric%20diagnosis
+Removed entity: Epithelium
+Removed entity: Nucleotide
+Removed entity: Dipeptide
+Matched entity: Volvulus for category: Diseases%20of%20intestines
+Matched entity: Short bowel syndrome for category: Diseases%20of%20intestines
+Removed entity: Receptor
+Matched entity: Spondylitis for category: Orthopedic%20problems
+Matched entity: Psoriatic arthritis for category: Autoimmune%20diseases
+Matched entity: Blood test for category: Blood%20tests
+Matched entity: Lupus erythematosus for category: Autoimmune%20diseases
+Matched entity: Leiomyoma for category: Anatomical%20pathology
+Matched entity: Osteopontin for category: Glycoproteins
+Matched entity: Growth factor for category: Immune%20system
+Matched entity: Calcium for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Mineral
+Matched entity: Defecation for category: Digestive%20system
+Removed entity: Intestinal infection
+Matched entity: Bile for category: Digestive%20system
+Matched entity: Azathioprine for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Pemphigus for category: Autoimmune%20diseases
+Matched entity: Dermatitis for category: Autoimmune%20diseases
+Removed entity: Atopic dermatitis
+Removed entity: Steroid
+Removed entity: Linoleic acid
+Matched entity: Insulin for category: World%20Anti-Doping%20Agency%20prohibited%20substances
+Matched entity: Abscisic acid for category: Alcohols
+Removed entity: Bleeding
+Removed entity: Infectious colitis
+Removed entity: Ischemic colitis
+Matched entity: Radiation proctitis for category: Radiation%20therapy
+Matched entity: Risk factor for category: Epidemiology
+Matched entity: Fibromyalgia for category: Disorders%20of%20fascia
+Matched entity: Spinal cord injury for category: Medical%20emergencies
+Removed entity: Appearance
+Matched entity: Cytokine for category: Immune%20system
+Matched entity: Candidiasis for category: Mycosis-related%20cutaneous%20conditions
+Removed entity: Function
+Matched entity: Kidney failure for category: Organ%20failure
+Removed entity: Histone deacetylase inhibitor
+Removed entity: Aminosalicylic acid
+Matched entity: Arthropathy for category: Inflammatory%20polyarthropathies
+Matched entity: Juvenile idiopathic arthritis for category: Pediatrics
+Matched entity: Ileus for category: Digestive%20system
+Removed entity: Intussusception
+Matched entity: Reflex for category: Reflexes
+Matched entity: Gastrocolic reflex for category: Physiology
+Matched entity: Dietary fiber for category: Nutrition
+Matched entity: Fruit for category: Pollination
+Removed entity: Red Meat
+Matched entity: Oil for category: Foods
+Removed entity: Chocolate
+Matched entity: Coffee for category: IARC%20Group%202B%20carcinogens
+Removed entity: Sorbitol
+Removed entity: Sugar
+Inflammatory bowel disease 0.38529221828096605
+Irritable bowel syndrome 0.07059276276714166
+Arthritis 0.04377017958449734
+Feces 0.023949594414349122
+Rheumatoid arthritis 0.023455981613030655
+Atherosclerosis 0.02316223462511677
+Coeliac disease 0.020123743022866562
+Diabetes mellitus 0.017314783716527015
+Short bowel syndrome 0.016591497490610736
+Autoimmune disease 0.016030291323419932
+Asthma 0.015910328471129838
+Eating 0.0156998185669892
+Fatty liver 0.013429240886197855
+Defecation 0.011909685428193678
+Lupus erythematosus 0.010724371532931855
+Indium 0.010622435807297315
+Volvulus 0.010527585556985528
+Aspirin 0.010476002620964433
+Tuberculosis 0.01019506601494174
+Vitamin 0.010064556977456923
+Fibromyalgia 0.009120263134892842
+Cytokine 0.008063578038140156
+Spondylitis 0.007955138218832463
+Hyperthyroidism 0.007560288450930483
+Bile 0.007415190512963779
+Candidiasis 0.006661755968995753
+Thyroiditis 0.006502051742085307
+Ileus 0.006348858011163469
+Immunology 0.006154066779586466
+Abscisic acid 0.006154066779586466
+Cystic fibrosis 0.0055285395915901075
+Peptic ulcer 0.005473606363330585
+Erythema nodosum 0.00540563751794822
+Granuloma 0.005200025385372253
+Hypothyroidism 0.005040192300620322
+Riboflavin 0.005040192300620322
+Folic acid 0.005040192300620322
+Endothelium 0.00487653880656398
+Granulomatosis with polyangiitis 0.004680022846835028
+Rhinitis 0.0043288214550272555
+Conjunctivitis 0.0043288214550272555
+Leiomyoma 0.004325688500596296
+Osteopontin 0.004325688500596296
+Laxative 0.004178727545822059
+Pemphigus 0.003692922271819022
+Antigen 0.003547865675878656
+Gold 0.0035408119357657718
+Psoriatic arthritis 0.0035139675728352937
+Autoimmune thyroiditis 0.0032510258710426536
+Calcium 0.003093300020274947
+Insulin 0.003077033389793233
+Fruit 0.0030724509438190203
+Oil 0.0030724509438190203
+Spinal cord injury 0.0030400877116309472
+Toxin 0.0030278631373414303
+Septic shock 0.0030278631373414303
+Kidney failure 0.0029214963575707863
+Growth factor 0.0028837923337308633
+Poisoning 0.0027368031816652925
+Colonoscopy 0.0026297853673688375
+Radiation proctitis 0.0026297853673688375
+Risk factor 0.0026297853673688375
+Dermatitis 0.0024619481812126814
+Anxiety disorder 0.00236801258352352
+Arthropathy 0.002280548508304079
+Juvenile idiopathic arthritis 0.002280548508304079
+Angioedema 0.0021644107275136278
+Glomerulonephritis 0.0020800101541489013
+Eating disorder 0.0016323985590591995
+Reflex 0.0015362254719095102
+Gastrocolic reflex 0.0015362254719095102
+Dietary fiber 0.0015362254719095102
+Coffee 0.0015362254719095102
+Blood test 0.0014418961668654316
+Azathioprine 0.0012309740906063407
+Primary sclerosing cholangitis 0.0010400050770744507
+Rapidly progressive glomerulonephritis 5.200025385372253E-4
+Systemic vasculitis 5.200025385372253E-4
+Helminths 0.0
+helminths 0.0
+childhood 0.0
+Helminthiasis 0.0
+Solubility 0.0
+Artificiality 0.0
+Necrosis 0.0
+Crohn's disease 0.0
+Circulatory system 0.0
+Kidney 0.0
+cell signaling 0.0
+in utero 0.0
+preterm birth 0.0
+produce 0.0
+Vein 0.0
+Peripheral venous catheter 0.0
+Preterm birth 0.0
+fungemia 0.0
+pathogenesis 0.0
+Immune system 0.0
+intestinal permeability 0.0
+medicine 0.0
+Adaptive behavior 0.0
+Adaptive immune system 0.0
+pathogen 0.0
+Posttraumatic stress disorder 0.0
+lightheadedness 0.0
+design 0.0
+Immunosuppression 0.0
+gut–brain axis 0.0
+Small intestine 0.0
+Small intestinal bacterial overgrowth 0.0
+small intestinal bacterial overgrowth 0.0
+functional gastrointestinal disorder 0.0
+Large intestine 0.0
+colorectal cancer 0.0
+frequency 0.0
+Prebiotic (nutrition) 0.0
+differential diagnosis 0.0
+sensitivity and specificity 0.0
+Accuracy and precision 0.0
+mesothelin 0.0
+Pathogen 0.0
+gut flora 0.0
+Antibody 0.0
+intestinal mucosal barrier 0.0
+Allergy 0.0
+abdominal surgery 0.0
+pancolitis 0.0
+Lymphatic system 0.0
+Synovial membrane 0.0
+Spondyloarthropathy 0.0
+Stenosis 0.0
+allergic inflammation 0.0
+Clinic 0.0
+microglobulin 0.0
+Time taken: 183 seconds

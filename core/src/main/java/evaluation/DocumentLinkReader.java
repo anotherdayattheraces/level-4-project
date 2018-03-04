@@ -12,6 +12,7 @@ import org.lemurproject.galago.core.index.disk.DiskIndex;
 import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.parse.Tag;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
+import org.lemurproject.galago.core.retrieval.query.Node;
 
 import customEntityLinker.MedLink;
 import entityRetrieval.core.Entity;
@@ -26,6 +27,8 @@ public class DocumentLinkReader {
 	private HashMap<String,ArrayList<Entity>> mapping;
 	private ArrayList<String> topics;
 	public int topicChoice;
+	public Node root;
+
 
 	
 	public DocumentLinkReader(){
@@ -36,6 +39,7 @@ public class DocumentLinkReader {
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
 		this.documents=orchestrator.getDocuments(query, 50);
+		this.root=orchestrator.getRoot();
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
 	}
 	public DocumentLinkReader(String query){
@@ -43,6 +47,7 @@ public class DocumentLinkReader {
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
 		this.documents=orchestrator.getDocuments(query, 50);
+		this.root=orchestrator.getRoot();
 		System.out.println("got docs");
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
 	}
@@ -54,6 +59,7 @@ public class DocumentLinkReader {
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
 		this.documents=orchestrator.getDocuments(query, 50);
+		this.root=orchestrator.getRoot();
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
 	}
 	

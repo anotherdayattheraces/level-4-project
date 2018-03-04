@@ -31,7 +31,6 @@ import metamap.MetaMapEntityLinker;
 import misc.CategoryGenerator;
 import misc.QrelFilter;
 import misc.ResultsAnalyzer;
-import pseudoRelavanceFeedback.QueryEnhancer;
 import webInterface.MedStreamContextHandler;
 import webInterface.MedWebServer;
 
@@ -61,10 +60,10 @@ public class App {
     	else if(fn.equals("evaluate")){
     		//DocumentLinkReaderEvaluator documentLinkReaderEvaluator = new DocumentLinkReaderEvaluator(true);
     		//documentLinkReaderEvaluator.evaluate();
-    		//MetaMapEvaluator mmeval = new MetaMapEvaluator(true);
-    		//mmeval.evaluate();
-    		MedLinkEvaluator seval = new MedLinkEvaluator(true);
-    		  seval.evaluate();
+    		MetaMapEvaluator mmeval = new MetaMapEvaluator(true);
+    		mmeval.evaluate();
+    		//MedLinkEvaluator seval = new MedLinkEvaluator(true);
+    		//seval.evaluate();
     		//KBLinkerEvaluator kble = new KBLinkerEvaluator(true);
     		//kble.evaluate();
     	}

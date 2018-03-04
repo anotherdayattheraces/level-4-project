@@ -1,0 +1,3357 @@
+Inflammatory bowel disease
+Num unmapped entities: 610
+Formatted: tests (qualifier value) without brackets
+Unable to map entity: tests (qualifier value)
+Mapped feces to Feces
+Unable to map entity: used by
+Unable to map entity: preposition for
+Unable to map entity: inflammatory bowel diseases
+Unable to map entity: group a
+Unable to map entity: pathologic processes
+Unable to map entity: inflammation
+Unable to map entity: intestinal wall structure
+Unable to map entity: crohn disease
+Unable to map entity: ulcerative colitis
+Unable to map entity: primary
+Unable to map entity: types of diseases
+Unable to map entity: inflammatory
+Unable to map entity: intestines
+Unable to map entity: neutrophil
+Unable to map entity: proteins
+Unable to map entity: cytoplasmic matrix
+Formatted: levels (qualifier value) without brackets
+Unable to map entity: levels (qualifier value)
+Unable to map entity: indium-111
+Unable to map entity: leukocytes
+Unable to map entity: in addition to
+Mapped irritable bowel syndrome to Irritable Bowel Syndrome
+Unable to map entity: celiac disease
+Unable to map entity: mental concentration
+Unable to map entity: degree or extent
+Unable to map entity: lesion of mucosa
+Unable to map entity: homo sapiens
+Unable to map entity: inflammatory disorder
+Unable to map entity: large
+Unable to map entity: intestines, small
+Unable to map entity: good
+Unable to map entity: chronic inflammation
+Unable to map entity: entire colon
+Unable to map entity: chronic
+Unable to map entity: primary malignant neoplasm
+Unable to map entity: mus
+Unable to map entity: associated with
+Unable to map entity: malignant tumor of colon
+Unable to map entity: phenotype
+Unable to map entity: adenoma
+Unable to map entity: carcinoma
+Unable to map entity: activities
+Unable to map entity: view
+Unable to map entity: organism
+Unable to map entity: body tissue
+Unable to map entity: traumatic and/or non-traumatic injury
+Unable to map entity: numerous
+Unable to map entity: various patch test substance
+Unable to map entity: cell type
+Unable to map entity: cells
+Unable to map entity: feeding patient
+Unable to map entity: dorsal
+Unable to map entity: wound healing
+Formatted: limited (extensiveness) without brackets
+Unable to map entity: limited (extensiveness)
+Unable to map entity: motion
+Mapped dinoprostone to Dinoprostone
+Unable to map entity: prostaglandin d2
+Unable to map entity: phenotype determination
+Unable to map entity: percent normal
+Unable to map entity: polyunsaturated fatty acids
+Unable to map entity: excessive
+Mapped atherosclerosis to Atherosclerosis
+Unable to map entity: vision
+Unable to map entity: reflecting
+Unable to map entity: class
+Unable to map entity: worse
+Unable to map entity: natural
+Unable to map entity: work
+Unable to map entity: one
+Unable to map entity: clinical action
+Unable to map entity: inflammatory cell
+Unable to map entity: indicated
+Unable to map entity: type - attribute
+Unable to map entity: animals
+Unable to map entity: widening
+Unable to map entity: pathogenic organism
+Mapped chronic inflammatory disorder to Disorder
+Mapped rheumatoid arthritis to Rheumatoid Arthritis
+Unable to map entity: autoimmune diseases
+Unable to map entity: hypersensitivity
+Mapped rhinitis to Rhinitis
+Mapped conjunctivitis to Conjunctivitis
+Mapped asthma to Asthma
+Unable to map entity: exanthema
+Unable to map entity: eczema
+Unable to map entity: anti-inflammatory agents, non-steroidal
+Formatted: induce (action) without brackets
+Unable to map entity: induce (action)
+Unable to map entity: acute allergic reaction
+Mapped angioedema to Angioedema
+Mapped urticaria to Urticaria
+Formatted: certain (qualifier value) without brackets
+Unable to map entity: certain (qualifier value)
+Unable to map entity: prostate
+Unable to map entity: pancreas
+Unable to map entity: use of
+Mapped cardiac arrest to Cardiac Arrest
+Unable to map entity: successful
+Unable to map entity: singular
+Unable to map entity: united states
+Mapped prophylactic treatment to Prophylactic treatment
+Unable to map entity: allergic asthma
+Unable to map entity: lung
+Unable to map entity: conjunctiva
+Unable to map entity: asthma, exercise-induced
+Formatted: some (qualifier value) without brackets
+Unable to map entity: some (qualifier value)
+Formatted: current (present time) without brackets
+Unable to map entity: current (present time)
+Mapped acne vulgaris to Acne Vulgaris
+Unable to map entity: mild to moderate
+Unable to map entity: face
+Unable to map entity: combine
+Unable to map entity: myeloid leukemia, chronic
+Unable to map entity: soluble fiber
+Unable to map entity: dietary supplements
+Unable to map entity: diarrhea
+Unable to map entity: constipation
+Unable to map entity: oligosaccharides
+Unable to map entity: feeling relief
+Formatted: clostridium difficile (bacteria) without brackets
+Unable to map entity: clostridium difficile (bacteria)
+Unable to map entity: fatty acids, volatile
+Unable to map entity: acids
+Mapped dietary fiber to Dietary Fiber
+Unable to map entity: diet
+Unable to map entity: food
+Unable to map entity: disease behavior
+Unable to map entity: classification
+Unable to map entity: three
+Unable to map entity: stenosis
+Unable to map entity: penetration
+Unable to map entity: etiology
+Unable to map entity: intestinal obstruction
+Formatted: diameter (qualifier value) without brackets
+Unable to map entity: diameter (qualifier value)
+Unable to map entity: intestinal fistula
+Unable to map entity: causing
+Unable to map entity: pathologic fistula
+Unable to map entity: diabetes mellitus, non-insulin-dependent
+Unable to map entity: spondylarthropathies
+Unable to map entity: primary malignant neoplasm of liver
+Unable to map entity: obesity
+Unable to map entity: atopy
+Unable to map entity: case unit dose
+Unable to map entity: relationships
+Unable to map entity: blood vessel
+Mapped appearance to Appearance
+Mapped human tissue to Human tissue
+Unable to map entity: within
+Unable to map entity: standing position
+Mapped endothelium to Endothelium
+Unable to map entity: synovial membrane
+Unable to map entity: lymphocyte
+Unable to map entity: perivascular
+Unable to map entity: infiltration
+Unable to map entity: expression procedure
+Unable to map entity: most
+Unable to map entity: extensive
+Unable to map entity: patients
+Unable to map entity: large lymphocyte
+Unable to map entity: intellectual scale
+Unable to map entity: stimulus
+Unable to map entity: occurrence
+Unable to map entity: gastrointestinal tract structure
+Unable to map entity: thyroid gland
+Unable to map entity: hashimoto disease
+Unable to map entity: dense
+Formatted: containing (qualifier) without brackets
+Unable to map entity: containing (qualifier)
+Unable to map entity: patient observation
+Unable to map entity: pathogenesis
+Unable to map entity: atypical lymphocyte
+Unable to map entity: site of
+Formatted: including (qualifier) without brackets
+Unable to map entity: including (qualifier)
+Unable to map entity: presence
+Unable to map entity: major
+Unable to map entity: systemic disease
+Unable to map entity: involvement with
+Mapped entire gastrointestinal tract to Tract
+Unable to map entity: two
+Formatted: affect (mental function) without brackets
+Unable to map entity: affect (mental function)
+Mapped crohn's disease of large bowel to Large bowel
+Unable to map entity: large intestine
+Mapped indeterminate colitis to Indeterminate colitis
+Unable to map entity: consistency
+Unable to map entity: elements
+Unable to map entity: linear
+Unable to map entity: physicians
+Unable to map entity: persons
+Unable to map entity: colon part
+Unable to map entity: left
+Unable to map entity: worsening pattern
+Unable to map entity: focal
+Unable to map entity: disease remission
+Formatted: objective (goal) without brackets
+Unable to map entity: objective (goal)
+Unable to map entity: perceived quality of life
+Unable to map entity: reduction - action
+Unable to map entity: needs
+Unable to map entity: pharmaceutical preparations
+Unable to map entity: anti-inflammatory agents
+Unable to map entity: adrenal cortex hormones
+Unable to map entity: immunologic adjuvants
+Unable to map entity: immune system
+Formatted: severe (severity modifier) without brackets
+Unable to map entity: severe (severity modifier)
+Unable to map entity: frequent
+Unable to map entity: little's disease
+Formatted: case (situation) without brackets
+Unable to map entity: case (situation)
+Unable to map entity: end-stage
+Unable to map entity: availability of
+Unable to map entity: qualitative form
+Unable to map entity: high
+Unable to map entity: hemorrhage
+Unable to map entity: ulcer
+Unable to map entity: rectum
+Formatted: preventing (action) without brackets
+Unable to map entity: preventing (action)
+Unable to map entity: place
+Formatted: stop (qualifier value) without brackets
+Unable to map entity: stop (qualifier value)
+Unable to map entity: entire anus
+Unable to map entity: muscle
+Mapped defecation to Defecation
+Unable to map entity: take
+Unable to map entity: abdominal bloating
+Unable to map entity: hyperphagia
+Unable to map entity: aerophagy
+Mapped nonulcer dyspepsia to Nonulcer dyspepsia
+Unable to map entity: transitory
+Unable to map entity: rare
+Unable to map entity: lactose intolerance
+Unable to map entity: parasitism
+Unable to map entity: parasitic diseases
+Unable to map entity: communicable diseases
+Mapped giardiasis to Giardiasis
+Mapped food poisoning to Food Poisoning
+Unable to map entity: bacteria
+Mapped peptic ulcer to Peptic Ulcer
+Unable to map entity: abdomen
+Unable to map entity: recent
+Unable to map entity: folded structure
+Unable to map entity: affecting
+Formatted: subtype (attribute) without brackets
+Unable to map entity: subtype (attribute)
+Unable to map entity: antineutrophil cytoplasmic antibodies
+Formatted: structure of small blood vessel (organ) without brackets
+Unable to map entity: structure of small blood vessel (organ)
+Unable to map entity: vasculitis
+Mapped systemic vasculitis to Systemic vasculitis
+Unable to map entity: microscopic polyangiitis
+Mapped rapidly progressive glomerulonephritis to Rapidly progressive glomerulonephritis
+Unable to map entity: necrotizing
+Mapped idiopathic crescentic glomerulonephritis to Glomerulonephritis
+Unable to map entity: kidney
+Mapped granulomatosis to Granulomatosis
+Unable to map entity: churg-strauss syndrome
+Unable to map entity: drug-induced
+Unable to map entity: direct type of relationship
+Unable to map entity: cytoplasmic antineutrophil cytoplasmic antibody
+Mapped cystic fibrosis to Cystic Fibrosis
+Unable to map entity: antigens
+Mapped primary sclerosing cholangitis to Primary Sclerosing Cholangitis
+Unable to map entity: arthritis, gouty
+Unable to map entity: antibodies
+Unable to map entity: hepatitis, autoimmune
+Unable to map entity: parasitic infection
+Mapped inflammatory bowel disease agent to Inflammatory bowel disease
+Unable to map entity: intestinal mucosa
+Formatted: ensure (product) without brackets
+Unable to map entity: ensure (product)
+Unable to map entity: entire lumen of body system
+Unable to map entity: phenobarbital
+Unable to map entity: marital separation
+Unable to map entity: uncontrolled
+Unable to map entity: mucous membrane
+Unable to map entity: systemic circulatory system
+Mapped injury due to exposure to external cause to External cause
+Mapped molecule to Molecule
+Mapped toxin to Toxin
+Formatted: vital (qualifier value) without brackets
+Unable to map entity: vital (qualifier value)
+Unable to map entity: intestinal diseases
+Mapped diabetes mellitus to Diabetes Mellitus
+Unable to map entity: metabolic syndrome x
+Unable to map entity: non-alcoholic fatty liver disease
+Mapped septic shock to Septic Shock
+Unable to map entity: severe inflammation
+Unable to map entity: aspirin prophylaxis
+Mapped colonoscopy to Colonoscopy
+Unable to map entity: annual
+Unable to map entity: year
+Unable to map entity: approximate
+Unable to map entity: dysplasia
+Mapped specific antibody to Specific antibody
+Unable to map entity: transglutaminases
+Formatted: absence (morphologic abnormality) without brackets
+Unable to map entity: absence (morphologic abnormality)
+Unable to map entity: anxiety disorders
+Formatted: first (number) without brackets
+Unable to map entity: first (number)
+Formatted: out (direction) without brackets
+Unable to map entity: out (direction)
+Unable to map entity: endocrine system diseases
+Mapped hypothyroidism to Hypothyroidism
+Mapped hyperthyroidism to Hyperthyroidism
+Unable to map entity: geographic state
+Formatted: abnormally low (qualifier value) without brackets
+Unable to map entity: abnormally low (qualifier value)
+Unable to map entity: vitamin disease
+Mapped riboflavin to Riboflavin
+Mapped gluten sensitivity to Gluten sensitivity
+Unable to map entity: heart diseases
+Unable to map entity: hematological disease
+Unable to map entity: anemia
+Unable to map entity: vitamin b 12
+Unable to map entity: blood folate measurement
+Mapped degenerative brain disorder to Disorder
+Merged apps for entities: Disorder and degenerative brain disorder
+Unable to map entity: dementia
+Unable to map entity: multiple sclerosis
+Unable to map entity: huntington disease
+Mapped myocardial infarction to Myocardial Infarction
+Mapped cerebrovascular accident to Cerebrovascular Accident
+Mapped transient ischemic attack to Attack
+Unable to map entity: gastrointestinal diseases
+Unable to map entity: eating practice
+Unable to map entity: anorexia nervosa
+Unable to map entity: gastrointestinal symptom
+Unable to map entity: eating disorders
+Unable to map entity: journalist
+Unable to map entity: reporting
+Unable to map entity: unresolved
+Unable to map entity: eating routine
+Unable to map entity: precipitating factors
+Unable to map entity: body weight decreased
+Unable to map entity: hand
+Unable to map entity: decrease in appetite
+Unable to map entity: diarrhea and vomiting, symptom
+Mapped failure to thrive to Thrive
+Unable to map entity: vomiting
+Unable to map entity: possible diagnosis
+Unable to map entity: decreased
+Formatted: recognition (psychology) without brackets
+Unable to map entity: recognition (psychology)
+Unable to map entity: mammals
+Unable to map entity: downstream
+Unable to map entity: blood group antibody a
+Unable to map entity: immune response
+Unable to map entity: gastroenteritis
+Formatted: acute appendicitis nos (disorder) without brackets
+Unable to map entity: acute appendicitis nos (disorder)
+Unable to map entity: intestinal volvulus
+Unable to map entity: urinary tract infection
+Unable to map entity: pancreatic diseases
+Unable to map entity: insufficiency
+Mapped short bowel syndrome to Short bowel syndrome
+Unable to map entity: abuse of laxatives
+Unable to map entity: differential diagnosis
+Unable to map entity: motility result
+Unable to map entity: primary disease
+Unable to map entity: ankylosing spondylitis
+Mapped arthritis to Arthritis
+Unable to map entity: cardiovascular system
+Unable to map entity: oral region
+Unable to map entity: physical findings
+Unable to map entity: abdominal pain
+Unable to map entity: hemorrhagic
+Unable to map entity: extrinsic
+Mapped dermatitis to Dermatitis
+Unable to map entity: eye
+Unable to map entity: fatigue
+Unable to map entity: emotions
+Unable to map entity: tired
+Unable to map entity: erythema
+Unable to map entity: intestinal cancer
+Unable to map entity: bacteroides fragilis
+Unable to map entity: animals, laboratory
+Unable to map entity: colitis
+Unable to map entity: polysaccharides
+Unable to map entity: differential quality
+Unable to map entity: screening procedure
+Unable to map entity: stage
+Unable to map entity: malignant neoplasm of ovary
+Unable to map entity: elevation
+Unable to map entity: upper
+Unable to map entity: postmenopausal state
+Formatted: accurate (qualifier) without brackets
+Unable to map entity: accurate (qualifier)
+Unable to map entity: disorder of pregnancy
+Unable to map entity: uterine fibroids
+Unable to map entity: menstruation
+Unable to map entity: lupus erythematosus, systemic
+Unable to map entity: pelvic inflammatory disease
+Unable to map entity: endometrioma
+Unable to map entity: mucin-1 antigen
+Unable to map entity: haptoglobins
+Unable to map entity: allergic condition
+Unable to map entity: diabetes mellitus, insulin-dependent
+Unable to map entity: sepsis
+Unable to map entity: generalized
+Unable to map entity: non-infected
+Unable to map entity: preliminary
+Mapped calcium to Calcium
+Unable to map entity: minerals
+Unable to map entity: colorectal
+Mapped hypertensive disease to Hypertensive disease
+Unable to map entity: frequency of bowel action
+Unable to map entity: numbers
+Unable to map entity: episode of
+Formatted: patient need for (contextual qualifier) without brackets
+Unable to map entity: patient need for (contextual qualifier)
+Unable to map entity: antibiotics
+Unable to map entity: total
+Unable to map entity: child
+Formatted: elderly (population group) without brackets
+Unable to map entity: elderly (population group)
+Unable to map entity: month
+Unable to map entity: axis vertebra
+Unable to map entity: bacterial resistance
+Unable to map entity: propensity to adverse reactions to food
+Formatted: onset of (contextual qualifier) without brackets
+Unable to map entity: onset of (contextual qualifier)
+Unable to map entity: triggered by
+Formatted: intestinal infectious disease (disorder) without brackets
+Unable to map entity: intestinal infectious disease (disorder)
+Unable to map entity: stress
+Unable to map entity: life event observable
+Unable to map entity: asymptomatic
+Unable to map entity: age
+Unable to map entity: gastrointestinal hemorrhage
+Unable to map entity: history of inflammatory bowel disease
+Unable to map entity: bile acids
+Mapped malabsorption syndrome to Malabsorption syndrome
+Mapped azathioprine to Azathioprine
+Unable to map entity: therapeutic immunosuppression
+Formatted: prevent (product) without brackets
+Unable to map entity: prevent (product)
+Unable to map entity: graft rejection
+Unable to map entity: hepatitis
+Unable to map entity: dermatitis, atopic
+Unable to map entity: myasthenia gravis
+Unable to map entity: neuromyelitis
+Unable to map entity: steroids
+Unable to map entity: investigates
+Formatted: mechanism (attribute) without brackets
+Unable to map entity: mechanism (attribute)
+Unable to map entity: immunity
+Unable to map entity: immune system diseases
+Unable to map entity: central
+Mapped abscisic acid to Abscisic Acid
+Unable to map entity: apply - action
+Unable to map entity: helping behavior
+Unable to map entity: behavior
+Unable to map entity: rapid
+Formatted: thin (qualifier value) without brackets
+Unable to map entity: thin (qualifier value)
+Unable to map entity: universities
+Unable to map entity: chapel
+Formatted: gastroenterology (field) without brackets
+Unable to map entity: gastroenterology (field)
+Unable to map entity: ambulatory care facilities
+Unable to map entity: joints
+Unable to map entity: has focus
+Unable to map entity: bleeding hemorrhoids
+Formatted: mixed (qualifier value) without brackets
+Unable to map entity: mixed (qualifier value)
+Unable to map entity: proximal
+Unable to map entity: hemorrhagic diarrhea
+Unable to map entity: rectal tenesmus
+Unable to map entity: medical history
+Mapped infectious colitis to Infectious colitis
+Unable to map entity: dyschezia
+Mapped hemorrhoids to Hemorrhoids
+Unable to map entity: anal fissure
+Unable to map entity: change in stool caliber
+Unable to map entity: colitis, ischemic
+Unable to map entity: painless
+Unable to map entity: arteriovenous hemangioma
+Unable to map entity: congenital arteriovenous malformation
+Mapped radiation proctitis to Radiation proctitis
+Unable to map entity: ulceration of colon
+Unable to map entity: colonoscopic polypectomy
+Unable to map entity: dyspnea
+Unable to map entity: lightheadedness
+Unable to map entity: amyotrophic lateral sclerosis
+Unable to map entity: epilepsy, post-traumatic
+Unable to map entity: epilepsy
+Mapped fibromyalgia to Fibromyalgia
+Unable to map entity: hepatitis c virus
+Unable to map entity: pain
+Unable to map entity: anemia, sickle cell
+Unable to map entity: spinal cord
+Unable to map entity: spinal cord injuries
+Unable to map entity: stomach
+Unable to map entity: thick
+Unable to map entity: stomach wall structure
+Formatted: perforation (observation) without brackets
+Unable to map entity: perforation (observation)
+Formatted: loss of appetite (finding) without brackets
+Unable to map entity: loss of appetite (finding)
+Formatted: checking (action) without brackets
+Unable to map entity: checking (action)
+Unable to map entity: week
+Unable to map entity: burn injury
+Unable to map entity: disease progression
+Mapped function to Function
+Unable to map entity: chemotactic factors
+Unable to map entity: asthenia
+Unable to map entity: hydroxyeicosatetraenoic acids
+Unable to map entity: histiocytes
+Unable to map entity: subfamily
+Unable to map entity: yeasts
+Unable to map entity: signal transduction
+Unable to map entity: interleukin-2
+Unable to map entity: interleukin-6
+Unable to map entity: efficient
+Unable to map entity: autosomal recessive inheritance
+Unable to map entity: disease susceptibility
+Unable to map entity: candidiasis, chronic mucocutaneous
+Unable to map entity: mutation
+Unable to map entity: associated disorder
+Unable to map entity: catabolism
+Unable to map entity: exposure to
+Unable to map entity: evidence of
+Unable to map entity: structure of valve of vein
+Unable to map entity: infant, premature
+Unable to map entity: malaise
+Unable to map entity: viable
+Unable to map entity: bacteremia
+Unable to map entity: immunologic deficiency syndromes
+Unable to map entity: lower - spatial qualifier
+Unable to map entity: immune system processes
+Unable to map entity: fungemia
+Unable to map entity: vitamin d deficiency
+Unable to map entity: diet, high-fat
+Unable to map entity: hepatitis, chronic
+Unable to map entity: placenta
+Unable to map entity: brain
+Unable to map entity: body system
+Unable to map entity: physiological
+Unable to map entity: increased vascular flow
+Unable to map entity: increased
+Unable to map entity: cardiovascular diseases
+Unable to map entity: glycosuria, renal
+Formatted: failure (biologic function) without brackets
+Unable to map entity: failure (biologic function)
+Unable to map entity: kidney failure
+Formatted: detected (finding) without brackets
+Unable to map entity: detected (finding)
+Mapped fish-eye disease to Fish-eye disease
+Unable to map entity: rna, messenger
+Formatted: mother (person) without brackets
+Unable to map entity: mother (person)
+Unable to map entity: menopause
+Formatted: colon structure (body structure) without brackets
+Unable to map entity: colon structure (body structure)
+Unable to map entity: deposition
+Unable to map entity: neuroglia
+Formatted: reduction (chemical) without brackets
+Unable to map entity: reduction (chemical)
+Unable to map entity: neurons
+Unable to map entity: entire cell
+Mapped fatty liver to Fatty liver
+Unable to map entity: brain injuries
+Unable to map entity: pre-eclampsia
+Unable to map entity: premature birth
+Formatted: synovitis, granulomatous, with uveitis and cranial neuropathies (disorder) without brackets
+Unable to map entity: synovitis, granulomatous, with uveitis and cranial neuropathies (disorder)
+Unable to map entity: mesalamine
+Mapped aminosalicylic acid to Aminosalicylic acid
+Mapped aspirin to Aspirin
+Unable to map entity: proctitis
+Unable to map entity: entire rectum
+Mapped crohn's disease in remission to Crohn's disease
+Mapped arthropathy to Arthropathy
+Unable to map entity: juvenile
+Mapped lupus erythematosus to Lupus Erythematosus
+Unable to map entity: graves disease
+Unable to map entity: difficult
+Unable to map entity: dysentery
+Unable to map entity: fecal impaction
+Mapped intussusception to Intussusception
+Formatted: illness (finding) without brackets
+Unable to map entity: illness (finding)
+Unable to map entity: intestinal pseudo-obstruction
+Unable to map entity: enterocolitis, necrotizing
+Mapped gastrocolic reflex to Gastrocolic reflex
+Unable to map entity: dairy products
+Unable to map entity: soybeans
+Unable to map entity: soy bean product
+Unable to map entity: fresh fruit
+Unable to map entity: vegetables
+Unable to map entity: insoluble fiber
+Unable to map entity: small
+Unable to map entity: quantity
+Formatted: van (physical object) without brackets
+Unable to map entity: van (physical object)
+Mapped red meat to Red Meat
+Unable to map entity: dietary fats and oils
+Unable to map entity: solid
+Unable to map entity: alcoholic beverages
+Unable to map entity: ethanol
+Unable to map entity: carbonated beverages
+Unable to map entity: carbonates
+Unable to map entity: artificial sweeteners
+Unable to map entity: male population group
+Mapped barotrauma of descent to Descent
+Unable to map entity: hardness
+Unable to map entity: slow
+Unable to map entity: enterospasm
+Unable to map entity: daily
+Unable to map entity: movement
+Unable to map entity: widespread
+Unable to map entity: lacking
+Unable to map entity: helminths
+Unable to map entity: childhood
+Unable to map entity: trichuris suis
+Unable to map entity: ovum
+Unable to map entity: sus scrofa
+Unable to map entity: trichocephalus trichiura
+Unable to map entity: infection by trichuris trichiura
+Unable to map entity: smaller
+Unable to map entity: extent
+Unable to map entity: course
+Unable to map entity: very
+Unable to map entity: changing
+Mapped helminthiasis to Helminthiasis
+Mapped crohn's disease of small intestine to Small intestine
+Num mapped entities: 74
+Num KB-mapped entities: 152
+Num Final-mapped entities: 225
+Matched entity: Feces for category: Animal%20physiology
+Matched entity: Irritable bowel syndrome for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: Atherosclerosis for category: Inflammations
+Removed entity: Disorder
+Matched entity: Rheumatoid arthritis for category: Autoimmune%20diseases
+Matched entity: Rhinitis for category: Allergology
+Matched entity: Conjunctivitis for category: Inflammations
+Matched entity: Asthma for category: RTT(full)
+Matched entity: Angioedema for category: Effects%20of%20external%20causes
+Removed entity: Acne vulgaris
+Matched entity: Dietary fiber for category: Nutrition
+Removed entity: Appearance
+Matched entity: Endothelium for category: Angiology
+Removed entity: Tract
+Matched entity: Large intestine for category: Organs%20(anatomy)
+Matched entity: Inflammatory bowel disease for category: Autoimmune%20diseases
+Matched entity: Defecation for category: Digestive%20system
+Matched entity: Giardiasis for category: Zoonoses
+Removed entity: Foodborne illness
+Matched entity: Peptic ulcer for category: Acute%20pain
+Matched entity: Systemic vasculitis for category: Vascular-related%20cutaneous%20conditions
+Matched entity: Rapidly progressive glomerulonephritis for category: Kidney%20diseases
+Matched entity: Glomerulonephritis for category: Inflammations
+Matched entity: Granuloma for category: Anatomical%20pathology
+Matched entity: Cystic fibrosis for category: Pediatrics
+Matched entity: Primary sclerosing cholangitis for category: Inflammations
+Removed entity: External cause
+Removed entity: Molecule
+Matched entity: Toxin for category: Toxicology
+Matched entity: Diabetes mellitus for category: Diabetes
+Matched entity: Septic shock for category: Medical%20emergencies
+Matched entity: Colonoscopy for category: Endoscopy
+Matched entity: Antibody for category: Immune%20system
+Matched entity: Hypothyroidism for category: RTT(full)
+Matched entity: Hyperthyroidism for category: Thyroid%20disease
+Matched entity: Riboflavin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Myocardial infarction for category: Medical%20emergencies
+Matched entity: Stroke for category: Causes%20of%20death
+Removed entity: Attack
+Removed entity: Thrive
+Matched entity: Short bowel syndrome for category: Diseases%20of%20intestines
+Matched entity: Arthritis for category: Inflammations
+Matched entity: Dermatitis for category: Autoimmune%20diseases
+Matched entity: Calcium for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Hypertension for category: RTT(full)
+Matched entity: Azathioprine for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Abscisic acid for category: Alcohols
+Removed entity: Infectious colitis
+Matched entity: Radiation proctitis for category: Radiation%20therapy
+Matched entity: Fibromyalgia for category: Disorders%20of%20fascia
+Removed entity: Function
+Matched entity: Fish-eye disease for category: Autosomal%20recessive%20disorders
+Matched entity: Fatty liver for category: Medical%20conditions%20related%20to%20obesity
+Removed entity: Aminosalicylic acid
+Matched entity: Aspirin for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Crohn's disease for category: Inflammations
+Matched entity: Arthropathy for category: Inflammatory%20polyarthropathies
+Matched entity: Lupus erythematosus for category: Autoimmune%20diseases
+Removed entity: Intussusception
+Matched entity: Gastrocolic reflex for category: Physiology
+Removed entity: Red Meat
+Removed entity: Descent
+Matched entity: Helminthiasis for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: Small intestine for category: Organs%20(anatomy)
+Removed entity: Primary
+Matched entity: Neutrophil for category: Cell%20biology
+Removed entity: Indium-111
+Removed entity: Attentional control
+Removed entity: Homo sapiens
+Removed entity: Chronic
+Removed entity: Phenotype
+Removed entity: Organism
+Matched entity: Cell type for category: Developmental%20biology
+Removed entity: Motion
+Removed entity: Prostaglandin D2
+Removed entity: Vision
+Removed entity: Class
+Matched entity: Pathogen for category: Infectious%20diseases
+Matched entity: Prostate for category: Glands
+Matched entity: Lung for category: Human%20anatomy%20by%20organ
+Matched entity: Conjunctiva for category: Human%20eye%20anatomy
+Removed entity: Soluble fiber
+Matched entity: Diarrhea for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: Clostridium difficile (bacteria) for category: Gram-positive%20bacteria
+Removed entity: Diet
+Matched entity: Food for category: Foods
+Removed entity: Classification
+Matched entity: Stenosis for category: Medical%20terminology
+Removed entity: Etiology
+Matched entity: Blood vessel for category: Soft%20tissue
+Matched entity: Synovial membrane for category: Soft%20tissue
+Matched entity: Lymphocyte for category: Immune%20system
+Removed entity: Stimulus
+Matched entity: Hashimoto's thyroiditis for category: Autoimmune%20diseases
+Matched entity: Pathogenesis for category: Pathology
+Removed entity: 2 (number)
+Removed entity: Consistency
+Removed entity: Anti-inflammatory
+Matched entity: Immune system for category: Immune%20system
+Removed entity: Frequent
+Matched entity: Spastic diplegia for category: Disability
+Removed entity: High
+Removed entity: Bleeding
+Matched entity: Rectum for category: Digestive%20system
+Removed entity: Polyphagia
+Removed entity: Rare
+Matched entity: Abdomen for category: Animal%20anatomy
+Matched entity: Necrosis for category: Necrosis
+Matched entity: Kidney for category: Endocrine%20system
+Matched entity: Eosinophilic granulomatosis with polyangiitis for category: Autoimmune%20diseases
+Removed entity: Marital separation
+Matched entity: Non-alcoholic fatty liver disease for category: Diseases%20of%20liver
+Removed entity: Approximate
+Matched entity: Dysplasia for category: Noninflammatory%20disorders%20of%20female%20genital%20tract
+Removed entity: Huntington disease
+Removed entity: Reporting
+Removed entity: Downstream
+Matched entity: Differential diagnosis for category: Medical%20terminology
+Removed entity: Tired
+Matched entity: Bacteroides fragilis for category: Gram-negative%20bacteria
+Removed entity: Stage
+Removed entity: Upper
+Matched entity: Pelvic inflammatory disease for category: Bacterial%20diseases
+Removed entity: Endometrioma
+Removed entity: Generalization
+Removed entity: Preliminary
+Removed entity: Total
+Matched entity: Child for category: Childhood
+Removed entity: Month
+Removed entity: Stress
+Removed entity: Bile acids
+Removed entity: Atopic dermatitis
+Removed entity: Immunity
+Matched entity: Behavior for category: Human%20behavior
+Removed entity: University
+Removed entity: Ischemic colitis
+Removed entity: Shortness of breath
+Matched entity: Lightheadedness for category: Symptoms%20and%20signs:%20Cognition,%20perception,%20emotional%20state%20and%20behaviour
+Matched entity: Post-traumatic epilepsy for category: Medical%20signs
+Matched entity: Pain for category: Acute%20pain
+Matched entity: Sickle-cell disease for category: Autosomal%20recessive%20disorders
+Matched entity: Spinal cord injury for category: Medical%20emergencies
+Removed entity: Week
+Removed entity: Histiocytes
+Removed entity: Subfamily
+Matched entity: Signal transduction for category: Cell%20biology
+Matched entity: Malaise for category: Symptoms%20and%20signs
+Removed entity: Immunodeficiency
+Matched entity: Fungemia for category: Animal%20fungal%20diseases
+Matched entity: Placenta for category: Organs%20(anatomy)
+Matched entity: Brain for category: Organs%20(anatomy)
+Matched entity: Glycosuria for category: Diabetes
+Matched entity: Kidney failure for category: Organ%20failure
+Removed entity: Messenger RNA
+Removed entity: Deposition
+Removed entity: Neuroglia
+Removed entity: Neurons
+Matched entity: Preterm birth for category: Women's%20health
+Removed entity: Juvenile
+Matched entity: Necrotizing enterocolitis for category: Gastrointestinal%20tract%20disorders
+Matched entity: Alcoholic drink for category: GABAA%20receptor%20positive%20allosteric%20modulators
+Matched entity: Hardness for category: Materials%20science
+Matched entity: Helminths for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: Childhood for category: Childhood
+Removed entity: Smaller
+Removed entity: Extent
+Removed entity: Very
+Contact dermatitis
+Num unmapped entities: 486
+Mapped dermatitis to Dermatitis
+Unable to map entity: group a
+Unable to map entity: dermatologic disorders
+Unable to map entity: dermatitis, atopic
+Unable to map entity: dermatitis, allergic contact
+Unable to map entity: dermatitis, irritant
+Unable to map entity: stasis dermatitis
+Unable to map entity: frequent
+Formatted: case (situation) without brackets
+Unable to map entity: case (situation)
+Unable to map entity: postthrombotic syndrome
+Unable to map entity: return to
+Unable to map entity: type - attribute
+Unable to map entity: social and personal history
+Unable to map entity: exanthema
+Unable to map entity: hand
+Unable to map entity: persons
+Unable to map entity: moist
+Unable to map entity: exposure to
+Mapped substance to Substance
+Unable to map entity: sensitive
+Unable to map entity: very
+Unable to map entity: one
+Formatted: first (number) without brackets
+Unable to map entity: first (number)
+Unable to map entity: hardness
+Unable to map entity: first sign
+Unable to map entity: presence
+Unable to map entity: skin specimen
+Unable to map entity: site of lesion
+Unable to map entity: causing
+Unable to map entity: drainage procedure
+Unable to map entity: scab
+Mapped airway resistance to Airway resistance
+Unable to map entity: intellectual scale
+Unable to map entity: thickened
+Unable to map entity: skin lesion
+Unable to map entity: take
+Formatted: including (qualifier) without brackets
+Unable to map entity: including (qualifier)
+Unable to map entity: papule
+Unable to map entity: bulla
+Formatted: vesicle (morphologic abnormality) without brackets
+Unable to map entity: vesicle (morphologic abnormality)
+Unable to map entity: redness
+Unable to map entity: menopause
+Unable to map entity: precipitating factors
+Unable to map entity: therapeutic tactile stimulation
+Unable to map entity: per second
+Unable to map entity: widespread
+Mapped appearance to Appearance
+Unable to map entity: day
+Unable to map entity: two
+Unable to map entity: allergens
+Formatted: stat (do immediately) without brackets
+Unable to map entity: stat (do immediately)
+Unable to map entity: three
+Unable to map entity: dermatitis, photoallergic
+Unable to map entity: divide
+Unable to map entity: dermatitis, phototoxic
+Mapped photoallergy to Photoallergy
+Mapped sensitization to Sensitization
+Mapped allergy to nickel to Nickel
+Mapped contact dermatitis to Contact dermatitis
+Unable to map entity: high
+Unable to map entity: food
+Unable to map entity: in addition to
+Unable to map entity: patients
+Unable to map entity: vesicular eczema of hands and/or feet
+Formatted: top (position) without brackets
+Unable to map entity: top (position)
+Mapped contact allergen to Contact allergen
+Unable to map entity: jewelry
+Unable to map entity: hypersensitivity
+Unable to map entity: involvement with
+Unable to map entity: ear structure
+Unable to map entity: skin mark
+Mapped pruritus to Pruritus
+Unable to map entity: erythema
+Formatted: abnormally low (qualifier value) without brackets
+Unable to map entity: abnormally low (qualifier value)
+Formatted: release - action (qualifier value) without brackets
+Unable to map entity: release - action (qualifier value)
+Unable to map entity: quantity
+Unable to map entity: homo sapiens
+Unable to map entity: integer +2
+Unable to map entity: euro currency
+Unable to map entity: distal
+Unable to map entity: per year
+Unable to map entity: personal status - adopted
+Unable to map entity: positioning attribute
+Unable to map entity: approximate
+Formatted: affect (mental function) without brackets
+Unable to map entity: affect (mental function)
+Unable to map entity: irritant behavior
+Unable to map entity: immune system
+Unable to map entity: support, device
+Unable to map entity: past
+Unable to map entity: detergents
+Unable to map entity: acids
+Unable to map entity: oils
+Unable to map entity: organic solvent product
+Mapped sunlight to Sunlight
+Unable to map entity: patch tests
+Mapped toxicodendron radicans poisoning to Poisoning
+Unable to map entity: quercus
+Unable to map entity: poison sumac
+Mapped urticaria to Urticaria
+Formatted: induce (action) without brackets
+Unable to map entity: induce (action)
+Formatted: spreading (qualifier value) without brackets
+Unable to map entity: spreading (qualifier value)
+Unable to map entity: strong
+Unable to map entity: grease
+Unable to map entity: dissolve - routeofadministration
+Unable to map entity: person exposed to disease
+Unable to map entity: metals
+Unable to map entity: mercurial
+Unable to map entity: therapeutic
+Unable to map entity: cutaneous patch
+Unable to map entity: haptens
+Unable to map entity: rectal route of drug administration
+Unable to map entity: plant leaves
+Mapped anaphylaxis to Anaphylaxis
+Unable to map entity: most
+Unable to map entity: occurrence
+Unable to map entity: primary operation
+Unable to map entity: contact with plants
+Unable to map entity: plants
+Unable to map entity: peeling - action
+Unable to map entity: mangifera indica
+Formatted: drink (dietary substance) without brackets
+Unable to map entity: drink (dietary substance)
+Unable to map entity: bacterial infections
+Unable to map entity: eyelid gland
+Unable to map entity: various patch test substance
+Unable to map entity: etiology
+Unable to map entity: blepharitis
+Mapped rosacea to Rosacea
+Mapped molluscum contagiosum to Molluscum contagiosum
+Mapped seborrheic dermatitis to Seborrheic dermatitis
+Unable to map entity: parasitic infection
+Unable to map entity: communicable diseases
+Unable to map entity: demodex mite
+Unable to map entity: infestation by phthirus
+Unable to map entity: inflammation of vulva
+Mapped lichen sclerosus et atrophicus to Lichen sclerosus
+Unable to map entity: bacteria
+Unable to map entity: mycoses
+Unable to map entity: parasites
+Unable to map entity: infant
+Unable to map entity: diaper
+Unable to map entity: left
+Unable to map entity: preposition for
+Unable to map entity: time periods
+Unable to map entity: increasing
+Formatted: frequencies (time pattern) without brackets
+Unable to map entity: frequencies (time pattern)
+Unable to map entity: emollients
+Unable to map entity: vulval eczema
+Unable to map entity: pheromone
+Unable to map entity: entire vulva
+Unable to map entity: laundry detergent
+Unable to map entity: treated with
+Formatted: prevent (product) without brackets
+Unable to map entity: prevent (product)
+Unable to map entity: sodium bicarbonate
+Unable to map entity: wound healing
+Unable to map entity: vulva
+Unable to map entity: hydrocortisone topical preparation
+Mapped hydrocortisone to Hydrocortisone
+Unable to map entity: used by
+Unable to map entity: mixture
+Formatted: indication of (contextual qualifier) without brackets
+Unable to map entity: indication of (contextual qualifier)
+Unable to map entity: late
+Unable to map entity: use of
+Unable to map entity: recent
+Unable to map entity: year
+Unable to map entity: reporting
+Unable to map entity: precursor b-cell lymphoblastic leukemia
+Unable to map entity: clinical action
+Unable to map entity: relationships
+Unable to map entity: epoxy resins
+Unable to map entity: hardener
+Unable to map entity: spray dosage form
+Unable to map entity: localized desquamation
+Unable to map entity: case unit dose
+Mapped contact dermatitis of eyelid to Contact dermatitis
+Merged apps for entities: Contact dermatitis and contact dermatitis of eyelid
+Unable to map entity: surgical transfer - action
+Unable to map entity: eyelid structure
+Unable to map entity: class
+Unable to map entity: acute
+Unable to map entity: inhalation vapor
+Unable to map entity: tactile
+Unable to map entity: skin
+Unable to map entity: resulting in
+Unable to map entity: abnormal coordination
+Unable to map entity: very high
+Unable to map entity: mental concentration
+Unable to map entity: walled
+Unable to map entity: generalized
+Unable to map entity: drowsiness
+Unable to map entity: nausea
+Unable to map entity: unconscious state
+Unable to map entity: pulmonary aspiration
+Unable to map entity: repeat
+Formatted: severe (severity modifier) without brackets
+Unable to map entity: severe (severity modifier)
+Unable to map entity: direct type of relationship
+Unable to map entity: hour
+Unable to map entity: chemical burns
+Unable to map entity: retained
+Unable to map entity: infrequent
+Formatted: north american origin (finding) without brackets
+Unable to map entity: north american origin (finding)
+Unable to map entity: therapeutic procedure
+Unable to map entity: bees
+Unable to map entity: dental occlusion
+Unable to map entity: urtica dioica
+Unable to map entity: toxicodendron radicans
+Formatted: orange (fruit) without brackets
+Unable to map entity: orange (fruit)
+Unable to map entity: iodides
+Unable to map entity: yellow color
+Unable to map entity: poison ivy dermatitis
+Unable to map entity: antipruritics
+Unable to map entity: application procedure
+Unable to map entity: decreased
+Unable to map entity: numerous
+Unable to map entity: atopy
+Unable to map entity: eczema
+Unable to map entity: peruvian balsam
+Unable to map entity: chemicals
+Unable to map entity: contact reaction
+Unable to map entity: stomatitis
+Unable to map entity: inflammation
+Unable to map entity: tongue
+Unable to map entity: pain
+Unable to map entity: superficial ulcer
+Unable to map entity: oropharyngeal
+Unable to map entity: structure of mucous membrane of lip
+Unable to map entity: structure of angle of mouth
+Unable to map entity: anal part of perineum
+Unable to map entity: possible diagnosis
+Mapped feces to Feces
+Mapped hand eczema to Hand eczema
+Formatted: resistant (qualifier value) without brackets
+Unable to map entity: resistant (qualifier value)
+Unable to map entity: plantar - anatomical location
+Mapped rhinitis to Rhinitis
+Mapped conjunctivitis to Conjunctivitis
+Unable to map entity: boyfriend
+Unable to map entity: plant seeds
+Unable to map entity: coca
+Formatted: some (qualifier value) without brackets
+Unable to map entity: some (qualifier value)
+Formatted: mechanism (attribute) without brackets
+Unable to map entity: mechanism (attribute)
+Unable to map entity: upper
+Mapped extrinsic allergic alveolitis to Extrinsic allergic alveolitis
+Unable to map entity: asthma, occupational
+Mapped tracheitis to Tracheitis
+Unable to map entity: occupational bronchitis
+Unable to map entity: worse
+Unable to map entity: pharmaceutical preparations
+Unable to map entity: associated with
+Unable to map entity: sunburn
+Unable to map entity: chickenpox
+Unable to map entity: animals
+Unable to map entity: fungi
+Unable to map entity: nonvenomous insect bite with infection
+Unable to map entity: bite injury
+Unable to map entity: sting injury
+Unable to map entity: insect bites
+Unable to map entity: culicidae
+Unable to map entity: fleas
+Unable to map entity: mites
+Unable to map entity: urtica
+Unable to map entity: caterpillar
+Unable to map entity: moths
+Unable to map entity: hair
+Unable to map entity: caterpillar dermatitis
+Unable to map entity: french race
+Unable to map entity: childhood
+Unable to map entity: united states
+Unable to map entity: occupations
+Unable to map entity: delayed hypersensitivity
+Unable to map entity: vision
+Unable to map entity: transdermal patch
+Unable to map entity: negative
+Formatted: tests (qualifier value) without brackets
+Unable to map entity: tests (qualifier value)
+Mapped latex allergy to Latex Allergy
+Unable to map entity: place
+Unable to map entity: catheter device
+Unable to map entity: clinical act of insertion
+Unable to map entity: urinary system
+Mapped radical prostatectomy to Radical prostatectomy
+Unable to map entity: open wound
+Unable to map entity: week
+Unable to map entity: with intensity
+Unable to map entity: urology
+Unable to map entity: large
+Unable to map entity: prurigo
+Unable to map entity: well differentiated
+Mapped contact urticaria to Contact urticaria
+Unable to map entity: welts
+Unable to map entity: hours/day
+Unable to map entity: singular
+Unable to map entity: chronic
+Mapped chronic contact dermatitis to Dermatitis
+Merged apps for entities: Dermatitis and chronic contact dermatitis
+Unable to map entity: removal technique
+Unable to map entity: feeling relief
+Unable to map entity: dairy cream
+Mapped water repellent to Water repellent
+Unable to map entity: water
+Unable to map entity: stratum corneum
+Unable to map entity: dermis
+Unable to map entity: environment
+Mapped kaolin to Kaolin
+Unable to map entity: skin layer
+Unable to map entity: dermatologic agents
+Unable to map entity: extrinsic
+Unable to map entity: population group
+Unable to map entity: western europe
+Unable to map entity: male population group
+Unable to map entity: short-term
+Formatted: containing (qualifier) without brackets
+Unable to map entity: containing (qualifier)
+Unable to map entity: within
+Unable to map entity: ethnic european
+Unable to map entity: five
+Unable to map entity: cent
+Unable to map entity: european country
+Formatted: limited (extensiveness) without brackets
+Unable to map entity: limited (extensiveness)
+Unable to map entity: butting
+Unable to map entity: materials
+Unable to map entity: little's disease
+Unable to map entity: evidence of
+Formatted: attended (qualifier value) without brackets
+Unable to map entity: attended (qualifier value)
+Unable to map entity: college
+Unable to map entity: classical example
+Unable to map entity: obtain
+Unable to map entity: universities
+Unable to map entity: genus paris
+Unable to map entity: architect
+Unable to map entity: entire head
+Formatted: son (person) without brackets
+Unable to map entity: son (person)
+Unable to map entity: dermatologist
+Unable to map entity: investigates
+Unable to map entity: lymphocyte
+Unable to map entity: skin structure of nipple
+Unable to map entity: histopathology
+Unable to map entity: public health service
+Unable to map entity: jewish, follower of religion
+Unable to map entity: inferior
+Unable to map entity: initially
+Unable to map entity: allergy to penicillin
+Unable to map entity: laboratory procedures
+Formatted: detected (finding) without brackets
+Unable to map entity: detected (finding)
+Unable to map entity: topical form corticosteroids
+Unable to map entity: availability of
+Unable to map entity: treatment intent
+Unable to map entity: atopic dermatitis/eczema
+Unable to map entity: good
+Unable to map entity: adrenal cortex hormones
+Unable to map entity: classification
+Unable to map entity: purified protein derivative of tuberculin
+Unable to map entity: inhalation dosing unit
+Unable to map entity: skin absorption
+Unable to map entity: eye symptom
+Unable to map entity: throat irritation
+Unable to map entity: larynx
+Mapped id reaction to Id reaction
+Unable to map entity: clothing
+Formatted: ink (substance) without brackets
+Unable to map entity: ink (substance)
+Unable to map entity: dyes
+Unable to map entity: dyed hair
+Unable to map entity: leather
+Formatted: certain (qualifier value) without brackets
+Unable to map entity: certain (qualifier value)
+Unable to map entity: ethanol
+Unable to map entity: dry skin
+Unable to map entity: desiccation
+Unable to map entity: glycerin
+Mapped skin irritation to Skin irritation
+Unable to map entity: microbicides
+Mapped allergic contact urticaria to Urticaria
+Merged apps for entities: Urticaria and allergic contact urticaria
+Unable to map entity: allergy to ethanol
+Unable to map entity: isopropyl alcohol
+Unable to map entity: entire hand
+Unable to map entity: rare
+Unable to map entity: lower - spatial qualifier
+Mapped washing hands, function to Function
+Unable to map entity: exfoliative dermatitis
+Unable to map entity: lichen disease
+Unable to map entity: pityriasis rubra pilaris
+Unable to map entity: adverse reaction to drug
+Unable to map entity: smaller
+Unable to map entity: lymphoma, t-cell, cutaneous
+Unable to map entity: sezary syndrome
+Mapped edema to Edema
+Unable to map entity: sore to touch
+Unable to map entity: glossitis
+Unable to map entity: sole of foot
+Unable to map entity: qualitative form
+Unable to map entity: irritants
+Unable to map entity: black color
+Formatted: air (substance) without brackets
+Unable to map entity: air (substance)
+Unable to map entity: genus
+Unable to map entity: topical surface
+Unable to map entity: entire scalp
+Unable to map entity: scurfiness of scalp
+Unable to map entity: lipids
+Unable to map entity: drug vehicle
+Unable to map entity: annual
+Unable to map entity: attention
+Unable to map entity: stage
+Unable to map entity: lepidoptera
+Formatted: covered (qualifier value) without brackets
+Unable to map entity: covered (qualifier value)
+Unable to map entity: vertebral column
+Mapped toxin to Toxin
+Unable to map entity: entire skin
+Unable to map entity: cutaneous route of drug administration
+Mapped toxic effect of venom to Toxic effect
+Mapped asthma to Asthma
+Unable to map entity: hemorrhage
+Unable to map entity: allergic asthma
+Unable to map entity: concept attribute
+Formatted: chromium product (pharmacologic preparation) without brackets
+Unable to map entity: chromium product (pharmacologic preparation)
+Mapped paint to Paint
+Unable to map entity: industrial cement
+Mapped skin ulcer to Skin ulcer
+Unable to map entity: ulcer
+Unable to map entity: solutions
+Unable to map entity: publications
+Unable to map entity: without
+Unable to map entity: adverse effects
+Unable to map entity: adverse reactions
+Unable to map entity: linear iga bullous dermatosis
+Unable to map entity: asteraceae
+Unable to map entity: phytochemicals
+Unable to map entity: florist
+Unable to map entity: hay fever
+Mapped triethanolamine to Triethanolamine
+Unable to map entity: sunscreening agents
+Unable to map entity: ear drops
+Unable to map entity: respiratory system
+Mapped toxic effect to Toxic effect
+Merged apps for entities: Toxic effect and toxic effect
+Unable to map entity: nose breathing
+Unable to map entity: specific qualifier value
+Unable to map entity: rats, wistar
+Mapped diethanolamine to Diethanolamine
+Unable to map entity: focal inflammation
+Unable to map entity: male gender
+Unable to map entity: herpes zoster disease
+Mapped impetigo to Impetigo
+Mapped candidiasis to Candidiasis
+Unable to map entity: essential
+Unable to map entity: seizures
+Unable to map entity: well defined
+Unable to map entity: helping behavior
+Unable to map entity: pathogenic organism
+Unable to map entity: health personnel
+Formatted: wash (cleansing action) without brackets
+Unable to map entity: wash (cleansing action)
+Unable to map entity: tissue damage
+Unable to map entity: nurses
+Unable to map entity: arabic numeral 55
+Unable to map entity: skin problem
+Unable to map entity: equivocal
+Formatted: patient need for (contextual qualifier) without brackets
+Unable to map entity: patient need for (contextual qualifier)
+Formatted: helix (snails) without brackets
+Unable to map entity: helix (snails)
+Unable to map entity: postauricular
+Unable to map entity: folded structure
+Mapped entire external auditory canal to Auditory canal
+Unable to map entity: affected site
+Unable to map entity: boraginaceae
+Unable to map entity: poodle superbreed
+Unable to map entity: speothos venaticus
+Unable to map entity: dog family
+Unable to map entity: bush
+Unable to map entity: cutaneous stick
+Unable to map entity: phenolics
+Mapped gland to Gland
+Unable to map entity: primary
+Mapped farnesol to Farnesol
+Unable to map entity: hydroquinone
+Unable to map entity: contact sensitivity response
+Unable to map entity: arecaceae
+Unable to map entity: difficult
+Unable to map entity: definitive
+Unable to map entity: spongiosis
+Unable to map entity: inspiration function
+Unable to map entity: with - dosing instruction fragment
+Unable to map entity: low dose
+Formatted: scrapings (specimen) without brackets
+Unable to map entity: scrapings (specimen)
+Unable to map entity: incised wound
+Unable to map entity: powder dose form
+Unable to map entity: eye
+Num mapped entities: 46
+Num KB-mapped entities: 113
+Num Final-mapped entities: 159
+Matched entity: Dermatitis for category: Autoimmune%20diseases
+Removed entity: Substance
+Matched entity: Airway resistance for category: Respiratory%20therapy
+Removed entity: Appearance
+Matched entity: Photodermatitis for category: Skin%20conditions%20resulting%20from%20physical%20factors
+Removed entity: Sensitization
+Matched entity: Nickel for category: Chemical%20elements
+Matched entity: Contact dermatitis for category: Allergology
+Matched entity: Allergen for category: Immune%20system
+Removed entity: Itch
+Removed entity: Sunlight
+Matched entity: Poisoning for category: Diseases%20and%20disorders
+Matched entity: Anaphylaxis for category: Allergology
+Removed entity: Rosacea
+Removed entity: Molluscum contagiosum
+Removed entity: Lichen sclerosus
+Matched entity: Hydrocortisone for category: World%20Health%20Organization%20essential%20medicines
+Matched entity: Feces for category: Animal%20physiology
+Matched entity: Hand eczema for category: Eczema
+Matched entity: Rhinitis for category: Allergology
+Matched entity: Conjunctivitis for category: Inflammations
+Removed entity: Hypersensitivity pneumonitis
+Matched entity: Tracheitis for category: Human%20head%20and%20neck
+Matched entity: Latex allergy for category: Allergology
+Matched entity: Prostatectomy for category: Surgical%20removal%20procedures
+Matched entity: Contact urticaria for category: Contact%20dermatitis
+Removed entity: Kaolin
+Matched entity: Id reaction for category: Eczema
+Removed entity: Function
+Matched entity: Edema for category: Medical%20signs
+Matched entity: Toxin for category: Toxicology
+Matched entity: Asthma for category: RTT(full)
+Removed entity: Paint
+Removed entity: Cutaneous condition
+Matched entity: Triethanolamine for category: Amines
+Matched entity: Diethanolamine for category: Alcohols
+Matched entity: Impetigo for category: Pediatrics
+Matched entity: Candidiasis for category: Mycosis-related%20cutaneous%20conditions
+Matched entity: Gland for category: Glands
+Matched entity: Farnesol for category: Alcohols
+Removed entity: Atopic dermatitis
+Removed entity: Frequent
+Removed entity: Moist
+Removed entity: Sensitive
+Removed entity: Very
+Matched entity: Hardness for category: Materials%20science
+Removed entity: Bulla
+Removed entity: Redness
+Removed entity: Day
+Removed entity: 2 (number)
+Removed entity: High
+Matched entity: Food for category: Foods
+Removed entity: Jewelry
+Removed entity: Homo sapiens
+Removed entity: Approximate
+Matched entity: Immune system for category: Immune%20system
+Removed entity: Past
+Removed entity: Mercurial
+Matched entity: Mangifera indica for category: Plants%20described%20in%201753
+Removed entity: Etiology
+Removed entity: Infant
+Matched entity: Vulva for category: Pelvis
+Removed entity: Mixture
+Removed entity: Late
+Removed entity: Reporting
+Removed entity: Class
+Removed entity: Acute
+Removed entity: Attentional control
+Removed entity: Generalization
+Removed entity: Unconscious State
+Removed entity: Hour
+Matched entity: Tongue for category: Digestive%20system
+Matched entity: Pain for category: Acute%20pain
+Removed entity: Boyfriend
+Removed entity: Coca
+Removed entity: Upper
+Matched entity: Chickenpox for category: Pediatrics
+Removed entity: Urtica
+Matched entity: Hair for category: Human%20hair
+Matched entity: Childhood for category: Childhood
+Removed entity: Vision
+Removed entity: Week
+Removed entity: Prurigo
+Removed entity: Chronic
+Matched entity: Dermis for category: Skin%20anatomy
+Removed entity: Western Europe
+Removed entity: Cent
+Matched entity: Spastic diplegia for category: Disability
+Removed entity: University
+Matched entity: Lymphocyte for category: Immune%20system
+Matched entity: Histopathology for category: Anatomical%20pathology
+Removed entity: Inferior
+Removed entity: Classification
+Matched entity: Larynx for category: Human%20head%20and%20neck
+Removed entity: Clothing
+Removed entity: Desiccation
+Removed entity: Rare
+Removed entity: Erythroderma
+Removed entity: Smaller
+Matched entity: Sole (foot) for category: Foot
+Removed entity: Genus
+Removed entity: Attention
+Removed entity: Stage
+Removed entity: Bleeding
+Removed entity: Solutions
+Removed entity: Without
+Removed entity: Adverse effects
+Removed entity: Asteraceae
+Removed entity: Sunscreen
+Removed entity: Ear drops
+Removed entity: Male gender
+Removed entity: Essential
+Removed entity: Epileptic seizure
+Matched entity: Pathogen for category: Infectious%20diseases
+Matched entity: Nursing for category: Healthcare%20occupations
+Removed entity: Bush
+Removed entity: Primary
+Removed entity: Arecaceae
+Removed entity: Spongiosis
+Gut-brain axis
+Num unmapped entities: 361
+Unable to map entity: crystal - body material
+Unable to map entity: one
+Unable to map entity: crystal structure
+Unable to map entity: cervus axis
+Unable to map entity: two
+Unable to map entity: light
+Unable to map entity: travel
+Unable to map entity: in addition to
+Unable to map entity: slow
+Unable to map entity: optic axis
+Unable to map entity: materials
+Unable to map entity: negative
+Unable to map entity: genus axis
+Unable to map entity: classical example
+Unable to map entity: toxic epidermal necrolysis
+Unable to map entity: use of
+Unable to map entity: inferior esophageal sphincter structure
+Formatted: release - action (qualifier value) without brackets
+Unable to map entity: release - action (qualifier value)
+Unable to map entity: slightly
+Unable to map entity: has focus
+Unable to map entity: ethnic european
+Unable to map entity: shift displacement
+Unable to map entity: day
+Unable to map entity: operative surgical procedures
+Unable to map entity: first revision
+Unable to map entity: major
+Formatted: first (number) without brackets
+Unable to map entity: first (number)
+Unable to map entity: major axis
+Unable to map entity: surgical revision
+Unable to map entity: elements
+Unable to map entity: swelling
+Unable to map entity: editions
+Unable to map entity: three
+Unable to map entity: secondary to
+Unable to map entity: per second
+Unable to map entity: introduces
+Unable to map entity: horizontal
+Unable to map entity: changing
+Unable to map entity: crystal birefringence
+Unable to map entity: degree or extent
+Unable to map entity: percent normal
+Unable to map entity: primary operation
+Unable to map entity: numerous
+Unable to map entity: classification
+Formatted: orientation (spatial) without brackets
+Unable to map entity: orientation (spatial)
+Mapped removal by grinding to Grinding
+Formatted: levels (qualifier value) without brackets
+Unable to map entity: levels (qualifier value)
+Unable to map entity: angular
+Unable to map entity: direct type of relationship
+Unable to map entity: work
+Unable to map entity: component object
+Unable to map entity: thick
+Unable to map entity: incised wound
+Unable to map entity: surface
+Unable to map entity: anatomic plane
+Unable to map entity: index of refraction - unit
+Mapped lead to Lead
+Unable to map entity: axis vertebra
+Formatted: boat (physical object) without brackets
+Unable to map entity: boat (physical object)
+Unable to map entity: application procedure
+Unable to map entity: teaching principal
+Unable to map entity: rotated
+Unable to map entity: singular
+Unable to map entity: true
+Unable to map entity: advanced phase
+Formatted: including (qualifier) without brackets
+Unable to map entity: including (qualifier)
+Unable to map entity: late
+Formatted: release (procedure) without brackets
+Unable to map entity: release (procedure)
+Unable to map entity: four
+Unable to map entity: revisions
+Unable to map entity: second edition
+Unable to map entity: preposition for
+Unable to map entity: positioning attribute
+Unable to map entity: control function
+Unable to map entity: linear
+Unable to map entity: stage
+Unable to map entity: used by
+Unable to map entity: tumor stage
+Mapped axis of motion to Motion
+Unable to map entity: stage level 2
+Unable to map entity: persons
+Unable to map entity: microscopes
+Formatted: slide (glass microscope) without brackets
+Unable to map entity: slide (glass microscope)
+Unable to map entity: frequent
+Unable to map entity: separate
+Formatted: positioning patient (procedure) without brackets
+Unable to map entity: positioning patient (procedure)
+Unable to map entity: combine
+Unable to map entity: various patch test substance
+Unable to map entity: five
+Unable to map entity: six
+Unable to map entity: very
+Unable to map entity: first edition
+Unable to map entity: good
+Unable to map entity: third edition
+Mapped iron to Iron
+Formatted: minor (person) without brackets
+Unable to map entity: minor (person)
+Unable to map entity: expanding
+Unable to map entity: professional guide
+Formatted: top (position) without brackets
+Unable to map entity: top (position)
+Unable to map entity: primary
+Unable to map entity: symmetrical
+Formatted: relative (related person) without brackets
+Unable to map entity: relative (related person)
+Unable to map entity: central
+Unable to map entity: mass, a measure of quantity of matter
+Unable to map entity: menopause
+Unable to map entity: post
+Formatted: stop (qualifier value) without brackets
+Unable to map entity: stop (qualifier value)
+Unable to map entity: flexible
+Unable to map entity: retained
+Unable to map entity: ratio
+Unable to map entity: dependent - ability
+Unable to map entity: temporal periods of day
+Unable to map entity: face
+Unable to map entity: medical gas cylinders
+Unable to map entity: biomedical tube device
+Formatted: frame (physical object) without brackets
+Unable to map entity: frame (physical object)
+Unable to map entity: motion
+Unable to map entity: per day
+Unable to map entity: assault
+Formatted: released (action) without brackets
+Unable to map entity: released (action)
+Formatted: each (qualifier value) without brackets
+Unable to map entity: each (qualifier value)
+Unable to map entity: patch - extended release film
+Unable to map entity: availability of
+Formatted: qrs axis (observable entity) without brackets
+Unable to map entity: qrs axis (observable entity)
+Formatted: electrical (qualifier value) without brackets
+Unable to map entity: electrical (qualifier value)
+Unable to map entity: coronal
+Unable to map entity: type - attribute
+Unable to map entity: left
+Unable to map entity: spatial displacement
+Unable to map entity: right
+Unable to map entity: lead i
+Unable to map entity: upper
+Unable to map entity: comprehension
+Unable to map entity: variant
+Unable to map entity: third
+Mapped qrs complex feature to Feature
+Unable to map entity: lead ii
+Formatted: deer (mammal) without brackets
+Unable to map entity: deer (mammal)
+Unable to map entity: subspecies
+Unable to map entity: disputes
+Unable to map entity: continuous
+Unable to map entity: within
+Unable to map entity: three-dimensional
+Unable to map entity: give - dosing instruction imperative
+Unable to map entity: torch syndrome
+Unable to map entity: french race
+Unable to map entity: eighth
+Unable to map entity: seconds
+Unable to map entity: crisis
+Unable to map entity: geographic state
+Unable to map entity: german race
+Formatted: air (substance) without brackets
+Unable to map entity: air (substance)
+Formatted: stat (do immediately) without brackets
+Unable to map entity: stat (do immediately)
+Unable to map entity: entire hand
+Unable to map entity: road
+Unable to map entity: difficult
+Unable to map entity: empowered
+Unable to map entity: numbers
+Mapped barotrauma of descent to Descent
+Unable to map entity: take
+Unable to map entity: heavy sensation quality
+Unable to map entity: ships
+Unable to map entity: large
+Unable to map entity: quantity
+Unable to map entity: biological transport
+Unable to map entity: same as
+Unable to map entity: tactile
+Unable to map entity: activities
+Unable to map entity: identical
+Unable to map entity: feeling content
+Unable to map entity: arrow
+Unable to map entity: esthesia
+Unable to map entity: directions
+Unable to map entity: geometry
+Unable to map entity: density
+Unable to map entity: bilateral
+Formatted: radicals (chemistry) without brackets
+Unable to map entity: radicals (chemistry)
+Formatted: common (qualifier value) without brackets
+Unable to map entity: common (qualifier value)
+Unable to map entity: generalized
+Unable to map entity: concentric
+Unable to map entity: bipolar
+Formatted: case (situation) without brackets
+Unable to map entity: case (situation)
+Unable to map entity: focal
+Unable to map entity: geometric radius
+Unable to map entity: pencil
+Unable to map entity: proximal
+Formatted: satellite (minor structure) without brackets
+Unable to map entity: satellite (minor structure)
+Unable to map entity: spacecraft
+Unable to map entity: rotational
+Unable to map entity: small
+Formatted: stabilized (qualifier value) without brackets
+Unable to map entity: stabilized (qualifier value)
+Unable to map entity: point a
+Unable to map entity: fixed behavior
+Unable to map entity: less than
+Unable to map entity: stabilization
+Unable to map entity: approach
+Unable to map entity: ocular orbit
+Unable to map entity: drug vehicle
+Unable to map entity: mechanical methods
+Unable to map entity: longitudinal
+Unable to map entity: without
+Unable to map entity: place
+Unable to map entity: refractive errors
+Mapped axis of cylinder to Cylinder
+Unable to map entity: against-the-rule astigmatism
+Formatted: objective (goal) without brackets
+Unable to map entity: objective (goal)
+Unable to map entity: compensated
+Unable to map entity: total
+Unable to map entity: cities
+Unable to map entity: unilateral
+Unable to map entity: vision
+Unable to map entity: concurrent
+Unable to map entity: off axis
+Mapped hemp fiber to Hemp fiber
+Formatted: containing (qualifier) without brackets
+Unable to map entity: containing (qualifier)
+Formatted: affect (mental function) without brackets
+Unable to map entity: affect (mental function)
+Unable to map entity: volume fraction
+Unable to map entity: entire cell
+Unable to map entity: ovum
+Unable to map entity: dorsal
+Unable to map entity: ventral
+Unable to map entity: yellow color
+Unable to map entity: premature ventricular contractions
+Unable to map entity: specific qualifier value
+Mapped excision to Excision
+Unable to map entity: anterior
+Unable to map entity: tonsillectomy and adenoidectomy
+Unable to map entity: with shape
+Unable to map entity: diagonal axis
+Unable to map entity: diagonal
+Unable to map entity: telescopes
+Unable to map entity: joints
+Unable to map entity: paper
+Unable to map entity: solid
+Unable to map entity: physical object
+Unable to map entity: body of axis
+Unable to map entity: view
+Formatted: retraction (finding) without brackets
+Unable to map entity: retraction (finding)
+Unable to map entity: rapidly
+Unable to map entity: attention
+Unable to map entity: curved
+Unable to map entity: length
+Unable to map entity: inverse
+Unable to map entity: inequalities
+Unable to map entity: primary myelofibrosis
+Unable to map entity: specimen size
+Unable to map entity: natures
+Unable to map entity: most
+Unable to map entity: equivalent weight
+Unable to map entity: radiation
+Unable to map entity: intermediate
+Unable to map entity: magnitude
+Unable to map entity: in transit
+Formatted: midline (qualifier value) without brackets
+Unable to map entity: midline (qualifier value)
+Formatted: prevent (product) without brackets
+Unable to map entity: prevent (product)
+Unable to map entity: pulmonary decompression injury
+Unable to map entity: inferior
+Unable to map entity: consistency
+Unable to map entity: metals
+Unable to map entity: instrument - device
+Unable to map entity: massive
+Unable to map entity: calculi
+Unable to map entity: metal framework
+Unable to map entity: biomedical monitors
+Unable to map entity: thermometer, device
+Unable to map entity: relieving
+Unable to map entity: coraciidae
+Unable to map entity: pounds
+Unable to map entity: unit
+Unable to map entity: case unit dose
+Unable to map entity: push - dosing instruction imperative
+Unable to map entity: fine - adjective
+Unable to map entity: distilled alcoholic beverage
+Unable to map entity: eccentric
+Formatted: artificial (qualifier value) without brackets
+Unable to map entity: artificial (qualifier value)
+Formatted: stella (bacteria) without brackets
+Unable to map entity: stella (bacteria)
+Unable to map entity: eight
+Unable to map entity: recent
+Unable to map entity: water
+Unable to map entity: cutting sensation quality
+Unable to map entity: integer +5
+Unable to map entity: arabic numeral 55
+Unable to map entity: open
+Unable to map entity: widening
+Unable to map entity: machine
+Unable to map entity: anatomical segmentation
+Unable to map entity: minor axis
+Formatted: flank (surface region) without brackets
+Unable to map entity: flank (surface region)
+Unable to map entity: entire rectum
+Unable to map entity: measures
+Unable to map entity: first degree
+Formatted: insertion of pack (procedure) without brackets
+Unable to map entity: insertion of pack (procedure)
+Unable to map entity: angstrom
+Unable to map entity: diffuse
+Unable to map entity: preference
+Unable to map entity: dimensions
+Unable to map entity: intellectual scale
+Formatted: indication of (contextual qualifier) without brackets
+Unable to map entity: indication of (contextual qualifier)
+Unable to map entity: extrinsic
+Formatted: meters (physical object) without brackets
+Unable to map entity: meters (physical object)
+Unable to map entity: relationships
+Unable to map entity: shapes
+Unable to map entity: observation parameter
+Unable to map entity: identified
+Unable to map entity: publications
+Unable to map entity: fluorides
+Unable to map entity: measurement
+Formatted: compressing (action) without brackets
+Unable to map entity: compressing (action)
+Unable to map entity: needs
+Unable to map entity: tapering - action
+Unable to map entity: compensation as a defense mechanism
+Unable to map entity: purpose
+Unable to map entity: surgical transfer - action
+Unable to map entity: waste products
+Unable to map entity: entire head
+Unable to map entity: full
+Formatted: on (qualifier value) without brackets
+Unable to map entity: on (qualifier value)
+Unable to map entity: formed
+Unable to map entity: poles
+Unable to map entity: supine position
+Unable to map entity: flat shape
+Unable to map entity: photons
+Unable to map entity: pathologic fistula
+Unable to map entity: combined
+Unable to map entity: essential
+Unable to map entity: qualitative form
+Unable to map entity: branch of
+Unable to map entity: strong
+Unable to map entity: folded structure
+Unable to map entity: replacement
+Unable to map entity: functional modification
+Unable to map entity: kingdom
+Unable to map entity: black african
+Unable to map entity: objective observation
+Unable to map entity: hand
+Unable to map entity: monkeys
+Unable to map entity: languages
+Unable to map entity: gram per deciliter
+Unable to map entity: african race
+Unable to map entity: duplicate
+Num mapped entities: 9
+Num KB-mapped entities: 92
+Num Final-mapped entities: 99
+Matched entity: Lead for category: Toxicology
+Removed entity: Motion
+Matched entity: Iron for category: Chemical%20elements
+Removed entity: Feature
+Removed entity: Descent
+Removed entity: Cylinder
+Removed entity: Fiber crop
+Removed entity: Excision
+Removed entity: 2 (number)
+Removed entity: Light
+Removed entity: Travel
+Removed entity: Day
+Removed entity: Semi-major and semi-minor axes
+Removed entity: Introduces
+Removed entity: Horizontal
+Removed entity: Classification
+Removed entity: Angular
+Removed entity: True
+Removed entity: Late
+Removed entity: 4 (number)
+Removed entity: Metal Box
+Removed entity: Stage
+Removed entity: Frequent
+Removed entity: 6 (number)
+Removed entity: Very
+Removed entity: Primary
+Removed entity: Symmetry
+Removed entity: Post
+Removed entity: Coronal
+Removed entity: Upper
+Removed entity: Comprehension
+Matched entity: Subspecies for category: Biology%20terminology
+Removed entity: Three-dimensional space
+Removed entity: Road
+Removed entity: Empowered
+Removed entity: List of logic symbols
+Removed entity: Geometry
+Matched entity: Density for category: Physical%20quantities
+Removed entity: Bilateral
+Removed entity: Generalization
+Removed entity: Concentric
+Removed entity: Spacecraft
+Removed entity: Point
+Removed entity: Inequality (mathematics)
+Removed entity: Approach
+Removed entity: Ocular orbit
+Removed entity: Longitudinal
+Removed entity: Without
+Removed entity: Total
+Removed entity: Vision
+Removed entity: Volume fraction
+Removed entity: Paper
+Removed entity: Attention
+Matched entity: Length for category: Length
+Removed entity: Inverse
+Removed entity: Equivalent weight
+Removed entity: Magnitude
+Removed entity: In Transit
+Removed entity: Inferior
+Removed entity: Consistency
+Removed entity: Massive
+Removed entity: Roller
+Removed entity: Unit
+Removed entity: Eccentric
+Removed entity: Open
+Removed entity: First degree
+Matched entity: Measurement for category: Metrology
+Removed entity: Purpose
+Removed entity: Waste products
+Removed entity: Essential
+Removed entity: Replacement
+Antibiotic misuse
+Num unmapped entities: 408
+Unable to map entity: antibiotics
+Mapped drug abuse to Drug Abuse
+Unable to map entity: in addition to
+Formatted: resistant (qualifier value) without brackets
+Unable to map entity: resistant (qualifier value)
+Formatted: including (qualifier) without brackets
+Unable to map entity: including (qualifier)
+Unable to map entity: bacteria
+Unable to map entity: medication response
+Unable to map entity: used by
+Unable to map entity: treatment intent
+Unable to map entity: widening
+Unable to map entity: one
+Unable to map entity: three
+Formatted: certain (qualifier value) without brackets
+Unable to map entity: certain (qualifier value)
+Unable to map entity: type - attribute
+Unable to map entity: mutation
+Unable to map entity: bacterial typing
+Formatted: acquired (qualifier value) without brackets
+Unable to map entity: acquired (qualifier value)
+Mapped appearance to Appearance
+Unable to map entity: gradual
+Unable to map entity: microbicides
+Unable to map entity: difficult
+Unable to map entity: pharmaceutical preparations
+Unable to map entity: high
+Unable to map entity: adverse effects
+Unable to map entity: numerous
+Unable to map entity: per year
+Unable to map entity: communicable diseases
+Unable to map entity: class
+Unable to map entity: fungi
+Unable to map entity: antibiotics, antifungal
+Unable to map entity: antiviral agents
+Unable to map entity: antiprotozoal agents
+Unable to map entity: excessive
+Unable to map entity: use of
+Mapped prophylactic treatment to Prophylactic treatment
+Unable to map entity: prophylactic behavior
+Unable to map entity: antibiotic prophylaxis
+Unable to map entity: dosage
+Unable to map entity: patients
+Unable to map entity: medical history
+Unable to map entity: take
+Unable to map entity: course
+Unable to map entity: prescription procedure
+Unable to map entity: virus diseases
+Unable to map entity: common cold
+Unable to map entity: room of building - study
+Unable to map entity: respiratory tract infections
+Unable to map entity: physicians
+Unable to map entity: intervention regimes
+Unable to map entity: generalized
+Unable to map entity: therapeutic procedure
+Unable to map entity: purpose
+Unable to map entity: enteral route of drug administration
+Unable to map entity: homo sapiens
+Unable to map entity: muscle rigidity
+Unable to map entity: measures
+Formatted: tests (qualifier value) without brackets
+Unable to map entity: tests (qualifier value)
+Formatted: prevent (product) without brackets
+Unable to map entity: prevent (product)
+Unable to map entity: increasing
+Unable to map entity: animals
+Unable to map entity: singular
+Formatted: limited (extensiveness) without brackets
+Unable to map entity: limited (extensiveness)
+Unable to map entity: animal protein
+Unable to map entity: treated with
+Unable to map entity: persons
+Mapped streptococcal sore throat to Throat
+Unable to map entity: streptococcal infections
+Unable to map entity: throat antibiotic
+Unable to map entity: penicillins
+Mapped rheumatic fever to Rheumatic Fever
+Unable to map entity: frequent
+Mapped pharyngitis to Pharyngitis
+Unable to map entity: sore throat
+Unable to map entity: availability of
+Mapped rheumatic heart disease to Rheumatic Heart Disease
+Unable to map entity: prolonged menses
+Unable to map entity: return to
+Unable to map entity: percent normal
+Unable to map entity: activities
+Unable to map entity: occurrence
+Unable to map entity: replacement
+Mapped repair of heart valve to Heart valve
+Unable to map entity: intensive care unit
+Unable to map entity: books
+Formatted: first (number) without brackets
+Unable to map entity: first (number)
+Unable to map entity: seconds
+Unable to map entity: bacterial infections
+Unable to map entity: erythromycin
+Unable to map entity: associated with
+Unable to map entity: widespread
+Unable to map entity: microbiology subtype strains
+Unable to map entity: most
+Unable to map entity: drug administration routes
+Unable to map entity: oral cavity
+Unable to map entity: case unit dose
+Unable to map entity: depth
+Unable to map entity: sitting position
+Unable to map entity: intravenous therapy
+Unable to map entity: injection route of drug administration
+Unable to map entity: infection by site
+Unable to map entity: easy
+Unable to map entity: eye drops
+Unable to map entity: drops - drug form
+Unable to map entity: conjunctiva
+Mapped conjunctivitis to Conjunctivitis
+Unable to map entity: ear drops
+Mapped infection of ear to Ear
+Unable to map entity: acute
+Unable to map entity: otitis externa
+Unable to map entity: infective otitis externa
+Unable to map entity: topical surface
+Unable to map entity: dermatologic disorders
+Mapped acne vulgaris to Acne Vulgaris
+Mapped cellulitis to Cellulitis
+Unable to map entity: site of
+Unable to map entity: volume
+Unable to map entity: application procedure
+Unable to map entity: surgical wound
+Unable to map entity: reporting
+Unable to map entity: operative surgical procedures
+Unable to map entity: etiology
+Formatted: some (qualifier value) without brackets
+Unable to map entity: some (qualifier value)
+Unable to map entity: hypersensitivity
+Mapped contact dermatitis to Contact dermatitis
+Unable to map entity: clinical action
+Formatted: methicillin resistant staphylococcus aureus (organism) without brackets
+Unable to map entity: methicillin resistant staphylococcus aureus (organism)
+Unable to map entity: menopause
+Unable to map entity: strong
+Unable to map entity: recent
+Mapped entire upper arm to Arm
+Unable to map entity: smaller
+Unable to map entity: plants
+Unable to map entity: insecta
+Formatted: induce (action) without brackets
+Unable to map entity: induce (action)
+Unable to map entity: good
+Unable to map entity: butterflies
+Unable to map entity: male gender
+Unable to map entity: wolbachia
+Formatted: on (qualifier value) without brackets
+Unable to map entity: on (qualifier value)
+Unable to map entity: islands
+Unable to map entity: five
+Unable to map entity: year
+Unable to map entity: repeat
+Unable to map entity: exposure to
+Unable to map entity: ethanol
+Unable to map entity: diet
+Unable to map entity: anti-bacterial agents
+Unable to map entity: types of drugs
+Unable to map entity: pathogenic organism
+Mapped cardiac arrest to Cardiac Arrest
+Unable to map entity: determination of bacterial growth
+Unable to map entity: numbers
+Unable to map entity: influenza virus vaccine
+Unable to map entity: organism
+Unable to map entity: identified
+Unable to map entity: chemicals
+Formatted: property (attribute) without brackets
+Unable to map entity: property (attribute)
+Unable to map entity: work
+Formatted: bacterial culture (procedure) without brackets
+Unable to map entity: bacterial culture (procedure)
+Unable to map entity: spore stain
+Unable to map entity: green color
+Unable to map entity: mold spore
+Unable to map entity: culture plate
+Unable to map entity: presence
+Unable to map entity: filamentous fungus
+Unable to map entity: preposition for
+Unable to map entity: investigates
+Unable to map entity: revealed
+Unable to map entity: demonstrates
+Mapped plant roots to Plant roots
+Unable to map entity: drug used
+Unable to map entity: daily
+Unable to map entity: weight gain
+Formatted: illness (finding) without brackets
+Unable to map entity: illness (finding)
+Unable to map entity: resistant bacteria
+Unable to map entity: surgical transfer - action
+Mapped airway resistance to Airway resistance
+Formatted: animal feed (substance) without brackets
+Unable to map entity: animal feed (substance)
+Unable to map entity: fertilizers
+Unable to map entity: hardness
+Unable to map entity: drugs, non-prescription
+Unable to map entity: deterioration of status
+Unable to map entity: quantity
+Unable to map entity: approach
+Unable to map entity: tissue damage
+Unable to map entity: corrected
+Unable to map entity: viable
+Unable to map entity: major
+Unable to map entity: face
+Unable to map entity: stress
+Unable to map entity: environment
+Formatted: severe (severity modifier) without brackets
+Unable to map entity: severe (severity modifier)
+Unable to map entity: bacterial resistance
+Mapped fuel to Fuel
+Unable to map entity: child
+Mapped otitis media to Otitis media
+Formatted: breed (group) without brackets
+Unable to map entity: breed (group)
+Unable to map entity: asian indian
+Unable to map entity: little's disease
+Unable to map entity: needs
+Unable to map entity: anabolism
+Unable to map entity: population group
+Unable to map entity: retained
+Formatted: automated (qualifier value) without brackets
+Unable to map entity: automated (qualifier value)
+Unable to map entity: reduction - action
+Unable to map entity: give - dosing instruction imperative
+Unable to map entity: vaccination
+Mapped tuberculosis to Tuberculosis
+Unable to map entity: classification
+Unable to map entity: right
+Formatted: affect (mental function) without brackets
+Unable to map entity: affect (mental function)
+Unable to map entity: age
+Unable to map entity: country
+Unable to map entity: natural
+Unable to map entity: food
+Formatted: containing (qualifier) without brackets
+Unable to map entity: containing (qualifier)
+Unable to map entity: food sweetener
+Unable to map entity: food coloring agents
+Mapped flavoring to Flavoring
+Unable to map entity: preference
+Unable to map entity: indicated
+Formatted: artificial (qualifier value) without brackets
+Unable to map entity: artificial (qualifier value)
+Unable to map entity: viral respiratory infection
+Unable to map entity: accelerated
+Unable to map entity: resulting in
+Unable to map entity: exertion
+Formatted: current (present time) without brackets
+Unable to map entity: current (present time)
+Formatted: objective (goal) without brackets
+Unable to map entity: objective (goal)
+Unable to map entity: atmosphere, unit of pressure
+Unable to map entity: paper
+Unable to map entity: counter device
+Unable to map entity: pessimistic
+Formatted: fear (mental process) without brackets
+Unable to map entity: fear (mental process)
+Unable to map entity: successful
+Unable to map entity: diagnostic
+Unable to map entity: readiness
+Unable to map entity: fermentation
+Formatted: per month (qualifier value) without brackets
+Unable to map entity: per month (qualifier value)
+Unable to map entity: expiration, function
+Unable to map entity: changing
+Unable to map entity: extrinsic
+Unable to map entity: place - dosing instruction imperative
+Unable to map entity: abstract thinking ability
+Unable to map entity: control function
+Unable to map entity: drug abuser
+Unable to map entity: specific qualifier value
+Unable to map entity: universities
+Unable to map entity: scientist
+Unable to map entity: behavior
+Unable to map entity: vocal function
+Unable to map entity: excitement emotion
+Unable to map entity: cities
+Unable to map entity: central
+Unable to map entity: educational process of instructing
+Unable to map entity: organized
+Unable to map entity: medical specialities
+Unable to map entity: hospital specialist
+Unable to map entity: bilateral
+Unable to map entity: pediatric discipline
+Unable to map entity: hospitals, pediatric
+Unable to map entity: late
+Formatted: prescription of drug (procedure) without brackets
+Unable to map entity: prescription of drug (procedure)
+Unable to map entity: self-control as a personality trait
+Unable to map entity: within
+Unable to map entity: triclosan
+Formatted: out (direction) without brackets
+Unable to map entity: out (direction)
+Unable to map entity: grade
+Unable to map entity: lacking
+Unable to map entity: evidence of
+Unable to map entity: weight measurement scales
+Unable to map entity: relationships
+Unable to map entity: resistant organism
+Unable to map entity: decreased drug resistance
+Unable to map entity: malaria
+Formatted: case (situation) without brackets
+Unable to map entity: case (situation)
+Mapped influenza to Influenza
+Unable to map entity: stage level 1
+Unable to map entity: tumor stage
+Formatted: thin (qualifier value) without brackets
+Unable to map entity: thin (qualifier value)
+Unable to map entity: nose
+Unable to map entity: dorsal
+Unable to map entity: day
+Unable to map entity: thickened
+Unable to map entity: yellow color
+Unable to map entity: immune system
+Unable to map entity: off
+Unable to map entity: initially
+Unable to map entity: attention
+Unable to map entity: methods
+Unable to map entity: generic drugs
+Formatted: writing (function) without brackets
+Unable to map entity: writing (function)
+Unable to map entity: empowered
+Formatted: detected (finding) without brackets
+Unable to map entity: detected (finding)
+Unable to map entity: comprehension
+Unable to map entity: acanthamoeba
+Unable to map entity: affecting
+Unable to map entity: two
+Unable to map entity: laboratory culture
+Unable to map entity: acanthamoeba polyphaga
+Unable to map entity: epiphysial cartilage
+Unable to map entity: sarcodina
+Unable to map entity: left
+Unable to map entity: measurement
+Mapped toxic effect to Toxic effect
+Unable to map entity: antibiotic tested
+Unable to map entity: monobactams
+Formatted: sample: no organism cultured (finding) without brackets
+Unable to map entity: sample: no organism cultured (finding)
+Unable to map entity: when - dosing instruction fragment
+Unable to map entity: macrolide antibiotics
+Unable to map entity: antibiotics, aminoglycoside
+Unable to map entity: rifampin
+Formatted: susceptibility (property) (qualifier value) without brackets
+Unable to map entity: susceptibility (property) (qualifier value)
+Unable to map entity: very
+Unable to map entity: chlamydia trachomatis
+Unable to map entity: scheduled - procedure status
+Unable to map entity: perception
+Mapped substance to Substance
+Unable to map entity: primary
+Unable to map entity: integer +2
+Unable to map entity: post
+Unable to map entity: disputes
+Formatted: levels (qualifier value) without brackets
+Unable to map entity: levels (qualifier value)
+Unable to map entity: combined
+Unable to map entity: euphoric mood
+Unable to map entity: withdrawal symptoms
+Unable to map entity: addictive behavior
+Unable to map entity: physical addiction
+Unable to map entity: continuous
+Unable to map entity: medical counseling
+Unable to map entity: mental disorders
+Unable to map entity: dysphoric mood
+Unable to map entity: feeling hopeless
+Unable to map entity: slow
+Unable to map entity: worried
+Unable to map entity: anxiety
+Unable to map entity: abnormal behavior
+Unable to map entity: normal behavior
+Formatted: indication of (contextual qualifier) without brackets
+Unable to map entity: indication of (contextual qualifier)
+Unable to map entity: decreased
+Unable to map entity: health authority
+Unable to map entity: upper respiratory infections
+Unable to map entity: asymptomatic
+Unable to map entity: gram-positive bacteria
+Unable to map entity: staphylococcus aureus
+Unable to map entity: product base
+Unable to map entity: beta-lactams
+Formatted: ring (shape) without brackets
+Unable to map entity: ring (shape)
+Unable to map entity: cephalosporins
+Unable to map entity: carbapenems
+Unable to map entity: has focus
+Formatted: mechanism (attribute) without brackets
+Unable to map entity: mechanism (attribute)
+Unable to map entity: interested
+Formatted: step (specific stage) without brackets
+Unable to map entity: step (specific stage)
+Unable to map entity: large
+Unable to map entity: folded structure
+Unable to map entity: use - dosing instruction imperative
+Unable to map entity: home environment
+Mapped advice to Advice
+Unable to map entity: reversal - action
+Mapped adoption to Adoption
+Unable to map entity: helping behavior
+Unable to map entity: architect
+Unable to map entity: greek letter lambda
+Unable to map entity: united states
+Unable to map entity: tetracycline antibiotics
+Unable to map entity: open
+Unable to map entity: right patent
+Formatted: release - action (qualifier value) without brackets
+Unable to map entity: release - action (qualifier value)
+Unable to map entity: controlled by
+Unable to map entity: catch - finding of sensory dimension of pain
+Formatted: covered (qualifier value) without brackets
+Unable to map entity: covered (qualifier value)
+Unable to map entity: antimicrobial susceptibility
+Formatted: done (qualifier value) without brackets
+Unable to map entity: done (qualifier value)
+Unable to map entity: kirby-bauer disk-diffusion method
+Unable to map entity: small
+Unable to map entity: place
+Unable to map entity: sensitive
+Unable to map entity: percent inhibition
+Unable to map entity: dilution technique
+Unable to map entity: minimum inhibitory concentration measurement
+Unable to map entity: test result
+Unable to map entity: uniform - quality
+Unable to map entity: every - dosing instruction fragment
+Mapped acute diarrhea to Acute diarrhea
+Unable to map entity: hemolytic-uremic syndrome
+Unable to map entity: shigella
+Unable to map entity: diarrhea
+Unable to map entity: antibiotic-associated diarrhea
+Unable to map entity: one opening
+Formatted: son (person) without brackets
+Unable to map entity: son (person)
+Unable to map entity: videocassette
+Num mapped entities: 27
+Num KB-mapped entities: 98
+Num Final-mapped entities: 125
+Matched entity: Substance abuse for category: Psychiatric%20diagnosis
+Removed entity: Appearance
+Matched entity: Throat for category: Human%20head%20and%20neck
+Matched entity: Rheumatic fever for category: Inflammations
+Matched entity: Pharyngitis for category: Inflammations
+Matched entity: Heart valve for category: Cardiac%20anatomy
+Matched entity: Conjunctivitis for category: Inflammations
+Matched entity: Ear for category: Human%20head%20and%20neck
+Removed entity: Acne vulgaris
+Matched entity: Cellulitis for category: Inflammations
+Matched entity: Contact dermatitis for category: Allergology
+Matched entity: Arm for category: Upper%20limb%20anatomy
+Removed entity: Root
+Matched entity: Airway resistance for category: Respiratory%20therapy
+Removed entity: Fuel
+Matched entity: Otitis media for category: Pediatrics
+Matched entity: Tuberculosis for category: RTT(full)
+Removed entity: Flavor
+Matched entity: Influenza for category: Healthcare-associated%20infections
+Removed entity: Substance
+Removed entity: Advice
+Removed entity: Adoption
+Removed entity: Acute diarrhea
+Removed entity: Gradual
+Removed entity: High
+Removed entity: Adverse effects
+Removed entity: Class
+Removed entity: Antiviral drug
+Removed entity: Antiprotozoal
+Removed entity: Viral disease
+Removed entity: Generalization
+Removed entity: Purpose
+Removed entity: Homo sapiens
+Removed entity: Frequent
+Removed entity: Replacement
+Matched entity: Intensive care unit for category: Intensive%20care%20medicine
+Matched entity: Route of administration for category: Drugs
+Removed entity: Easy
+Matched entity: Conjunctiva for category: Human%20eye%20anatomy
+Removed entity: Ear drops
+Removed entity: Acute
+Matched entity: Volume for category: Volume
+Removed entity: Reporting
+Removed entity: Etiology
+Removed entity: Smaller
+Removed entity: Male gender
+Matched entity: Wolbachia for category: Gram-negative%20bacteria
+Removed entity: Diet
+Matched entity: Pathogen for category: Infectious%20diseases
+Removed entity: Organism
+Matched entity: Hardness for category: Materials%20science
+Removed entity: Approach
+Removed entity: Stress
+Matched entity: Child for category: Childhood
+Matched entity: Spastic diplegia for category: Disability
+Matched entity: Anabolism for category: Metabolism
+Removed entity: Classification
+Removed entity: Country
+Matched entity: Food for category: Foods
+Matched entity: Exertion for category: Effects%20of%20external%20causes
+Removed entity: Paper
+Matched entity: Fermentation for category: Metabolism
+Removed entity: University
+Removed entity: Scientist
+Matched entity: Behavior for category: Human%20behavior
+Removed entity: Bilateral
+Removed entity: Late
+Removed entity: Day
+Matched entity: Immune system for category: Immune%20system
+Removed entity: Attention
+Removed entity: Methods
+Removed entity: Empowered
+Removed entity: Comprehension
+Removed entity: Acanthamoeba
+Removed entity: 2 (number)
+Matched entity: Epiphyseal plate for category: Skeletal%20system
+Matched entity: Measurement for category: Metrology
+Matched entity: Rifampicin for category: World%20Health%20Organization%20essential%20medicines
+Removed entity: Very
+Removed entity: Primary
+Removed entity: Post
+Removed entity: Physical addiction
+Removed entity: Anxiety
+Matched entity: Gram-positive bacteria for category: Gram-positive%20bacteria
+Removed entity: Tetracycline antibiotics
+Removed entity: Open
+Removed entity: Sensitive
+Matched entity: Diarrhea for category: Conditions%20diagnosed%20by%20stool%20test
+Legionella
+Num unmapped entities: 225
+Mapped pontiac fever to Pontiac fever
+Formatted: including (qualifier) without brackets
+Unable to map entity: including (qualifier)
+Unable to map entity: tatlockia micdadei
+Unable to map entity: legionella anisa
+Unable to map entity: legionella cherrii
+Unable to map entity: organism
+Unable to map entity: mastigophora
+Unable to map entity: gram-negative bacteria
+Unable to map entity: legionella
+Formatted: heat (physical force) without brackets
+Unable to map entity: heat (physical force)
+Unable to map entity: water specimen
+Unable to map entity: major
+Unable to map entity: homo sapiens
+Unable to map entity: component object
+Unable to map entity: phagocytosis
+Unable to map entity: in transit
+Unable to map entity: leukocytes
+Unable to map entity: legionellosis
+Unable to map entity: pathogenic organism
+Unable to map entity: environmental pool
+Unable to map entity: ships
+Unable to map entity: etiology
+Unable to map entity: legionnaires' disease
+Unable to map entity: most
+Unable to map entity: legionella pneumophila serogroup 1
+Unable to map entity: communicable diseases
+Unable to map entity: inspiration function
+Unable to map entity: aerosols
+Unable to map entity: pulmonary aspiration
+Unable to map entity: persons
+Unable to map entity: immunocompromised host
+Unable to map entity: chronic
+Unable to map entity: heart diseases
+Unable to map entity: infrequent
+Unable to map entity: associated with
+Unable to map entity: blood vessel
+Unable to map entity: specific qualifier value
+Formatted: prevent (product) without brackets
+Unable to map entity: prevent (product)
+Unable to map entity: case unit dose
+Unable to map entity: reporting
+Unable to map entity: ethnic european
+Unable to map entity: preposition for
+Formatted: limited (extensiveness) without brackets
+Unable to map entity: limited (extensiveness)
+Unable to map entity: relationships
+Formatted: illness (finding) without brackets
+Unable to map entity: illness (finding)
+Unable to map entity: medical surveillance
+Unable to map entity: revealed
+Unable to map entity: distal
+Formatted: levels (qualifier value) without brackets
+Unable to map entity: levels (qualifier value)
+Unable to map entity: mortality vital statistics
+Formatted: current (present time) without brackets
+Unable to map entity: current (present time)
+Formatted: michigan (geographic location) without brackets
+Unable to map entity: michigan (geographic location)
+Formatted: first (number) without brackets
+Unable to map entity: first (number)
+Formatted: case (situation) without brackets
+Unable to map entity: case (situation)
+Unable to map entity: symptom mild
+Mapped influenza to Influenza
+Formatted: mild (qualifier value) without brackets
+Unable to map entity: mild (qualifier value)
+Mapped pneumonia to Pneumonia
+Unable to map entity: disease outbreaks
+Unable to map entity: blood specimen
+Unable to map entity: identified
+Formatted: detected (finding) without brackets
+Unable to map entity: detected (finding)
+Unable to map entity: bacteria
+Mapped sputum to Sputum
+Mapped coughing to Coughing
+Unable to map entity: antigens
+Unable to map entity: urine specimen
+Unable to map entity: legionella antibody
+Unable to map entity: immunoglobulin level - finding
+Unable to map entity: two
+Unable to map entity: urinalysis
+Mapped antigen test to Antigen test
+Unable to map entity: rapid
+Unable to map entity: very
+Unable to map entity: singular
+Formatted: percent (qualifier value) without brackets
+Unable to map entity: percent (qualifier value)
+Unable to map entity: use of
+Unable to map entity: laboratory procedures
+Mapped cognitive function: initiation to Initiation
+Unable to map entity: helping behavior
+Formatted: subtype (attribute) without brackets
+Unable to map entity: subtype (attribute)
+Unable to map entity: used by
+Unable to map entity: environment
+Unable to map entity: source of infection
+Mapped microbial culture of sputum to Microbial culture
+Unable to map entity: respiratory sample
+Unable to map entity: stains
+Unable to map entity: silver color
+Mapped yeast culture to Yeast culture
+Mapped cysteine to Cysteine
+Unable to map entity: type - attribute
+Unable to map entity: inhalation vapor
+Unable to map entity: water
+Formatted: containing (qualifier) without brackets
+Unable to map entity: containing (qualifier)
+Unable to map entity: classification
+Unable to map entity: date in time
+Unable to map entity: legionellales
+Unable to map entity: proteobacteria
+Unable to map entity: negative
+Unable to map entity: q fever
+Unable to map entity: fluoribacter gormanii
+Unable to map entity: specimen from patient
+Unable to map entity: toothbrushing
+Unable to map entity: mammals
+Unable to map entity: chemotaxis
+Unable to map entity: legionella waltersii
+Unable to map entity: within
+Formatted: acquired (qualifier value) without brackets
+Unable to map entity: acquired (qualifier value)
+Unable to map entity: classical example
+Unable to map entity: hotel
+Unable to map entity: male population group
+Unable to map entity: patient outcome - died
+Unable to map entity: causative_agents
+Formatted: indication of (contextual qualifier) without brackets
+Unable to map entity: indication of (contextual qualifier)
+Unable to map entity: biocides
+Formatted: mycobacterium avium (bacteria) without brackets
+Unable to map entity: mycobacterium avium (bacteria)
+Unable to map entity: various patch test substance
+Unable to map entity: exposure to
+Formatted: particulate (substance) without brackets
+Unable to map entity: particulate (substance)
+Unable to map entity: inhalation dosing unit
+Unable to map entity: open
+Mapped hot water to Hot Water
+Mapped tap water to Tap Water
+Unable to map entity: natural
+Unable to map entity: paracentesis
+Unable to map entity: natural pond
+Unable to map entity: legionella antigen assay
+Formatted: some (qualifier value) without brackets
+Unable to map entity: some (qualifier value)
+Unable to map entity: offered
+Unable to map entity: obtain
+Unable to map entity: hour
+Formatted: microbial culture (procedure) without brackets
+Unable to map entity: microbial culture (procedure)
+Unable to map entity: easy
+Unable to map entity: sputum specimen
+Mapped legionella pneumophila serogroup 1 antigen to Legionella pneumophila
+Unable to map entity: non-infected
+Unable to map entity: microbiology subtype strains
+Unable to map entity: public health investigation of communicable disease outbreak
+Unable to map entity: motor retardation
+Unable to map entity: primary operation
+Unable to map entity: aerosol dose form
+Unable to map entity: place
+Formatted: maintaining (action) without brackets
+Unable to map entity: maintaining (action)
+Unable to map entity: frequent
+Formatted: release (procedure) without brackets
+Unable to map entity: release (procedure)
+Unable to map entity: enteral route of drug administration
+Unable to map entity: health care facility
+Unable to map entity: nursing homes
+Unable to map entity: patients
+Unable to map entity: one
+Unable to map entity: involvement with
+Unable to map entity: presence
+Unable to map entity: high
+Unable to map entity: inferior
+Unable to map entity: heavy sensation quality
+Unable to map entity: laboratory culture
+Unable to map entity: liter/second
+Mapped buffered charcoal yeast extract agar to Buffered charcoal yeast extract agar
+Unable to map entity: polymerase chain reaction
+Formatted: done (qualifier value) without brackets
+Unable to map entity: done (qualifier value)
+Formatted: abnormally low (qualifier value) without brackets
+Unable to map entity: abnormally low (qualifier value)
+Unable to map entity: crossbreeding
+Unable to map entity: adjustment action
+Unable to map entity: quantity
+Unable to map entity: anabolism
+Mapped acetyltransferase to Acetyltransferase
+Unable to map entity: in addition to
+Mapped function to Function
+Unable to map entity: directly observed therapy
+Unable to map entity: proteins
+Unable to map entity: essential
+Formatted: tests (qualifier value) without brackets
+Unable to map entity: tests (qualifier value)
+Unable to map entity: patterns
+Unable to map entity: peptides
+Unable to map entity: peptide hydrolases
+Mapped appearance to Appearance
+Unable to map entity: lipopolysaccharides
+Unable to map entity: amino acids
+Unable to map entity: legionella geestiana
+Unable to map entity: legionella lytica
+Unable to map entity: formed
+Unable to map entity: legionella worsleiensis
+Unable to map entity: legionella parisiensis
+Unable to map entity: genus paris
+Unable to map entity: legionella erythra
+Unable to map entity: legionella moravica
+Unable to map entity: legionella nautarum
+Unable to map entity: legionella hackeliae
+Unable to map entity: aspirate substance
+Unable to map entity: legionella janestowniensis
+Unable to map entity: gram-positive bacteria
+Unable to map entity: moist
+Formatted: new york (geographic location) without brackets
+Unable to map entity: new york (geographic location)
+Unable to map entity: tatlockia macaechernii
+Unable to map entity: legionella oakridgensis
+Unable to map entity: legionella wadsworthii
+Formatted: over (spatial) without brackets
+Unable to map entity: over (spatial)
+Unable to map entity: legionella quateirensis
+Unable to map entity: legionella steigerwaltii
+Unable to map entity: st. croix
+Unable to map entity: united states virgin islands
+Unable to map entity: legionella fallonii
+Unable to map entity: legionella quinlivanii
+Unable to map entity: legionella londiniensis
+Unable to map entity: legionella brunensis
+Unable to map entity: spore stain
+Unable to map entity: bacteria, aerobic
+Unable to map entity: legionella santicrucis
+Unable to map entity: legionella fairfieldensis
+Unable to map entity: legionella rowbothamii
+Unable to map entity: legionella spiritensis
+Unable to map entity: distilled alcoholic beverage
+Unable to map entity: legionella gratiana
+Num mapped entities: 17
+Num KB-mapped entities: 64
+Num Final-mapped entities: 81
+Matched entity: Pontiac fever for category: Epidemiology
+Matched entity: Influenza for category: Healthcare-associated%20infections
+Matched entity: Pneumonia for category: RTT(full)
+Removed entity: Sputum
+Removed entity: Cough
+Removed entity: ELISA
+Removed entity: Initiation
+Removed entity: Yeast culture
+Removed entity: Cysteine
+Removed entity: Hot Water
+Removed entity: Tap water
+Matched entity: Legionella pneumophila for category: Gram-negative%20bacteria
+Removed entity: Buffered charcoal yeast extract agar
+Removed entity: Acetyltransferase
+Removed entity: Function
+Removed entity: Appearance
+Removed entity: Tatlockia micdadei
+Removed entity: Legionella anisa
+Removed entity: Legionella cherrii
+Removed entity: Organism
+Matched entity: Gram-negative bacteria for category: Gram-negative%20bacteria
+Matched entity: Legionella for category: Gram-negative%20bacteria
+Removed entity: Homo sapiens
+Removed entity: In Transit
+Matched entity: Pathogen for category: Infectious%20diseases
+Removed entity: Etiology
+Removed entity: Chronic
+Matched entity: Blood vessel for category: Soft%20tissue
+Removed entity: Reporting
+Removed entity: Medical surveillance
+Removed entity: 2 (number)
+Removed entity: Very
+Removed entity: Stain (disambiguation)
+Removed entity: Classification
+Removed entity: Legionellales
+Matched entity: Proteobacteria for category: Gram-negative%20bacteria
+Matched entity: Fever for category: Fever
+Removed entity: Tooth brushing
+Removed entity: Legionella waltersii
+Removed entity: Hotel
+Removed entity: Open
+Matched entity: Paracentesis for category: Surgical%20procedures
+Removed entity: Hour
+Removed entity: Easy
+Removed entity: Frequent
+Matched entity: Nursing home care for category: Types%20of%20healthcare%20facilities
+Removed entity: High
+Removed entity: Inferior
+Removed entity: Crossbreed
+Matched entity: Anabolism for category: Metabolism
+Removed entity: Essential
+Removed entity: Legionella lytica
+Removed entity: Legionella parisiensis
+Removed entity: Legionella moravica
+Matched entity: Gram-positive bacteria for category: Gram-positive%20bacteria
+Removed entity: Moist
+Removed entity: United States Virgin Islands
+Removed entity: Legionella fallonii
+Removed entity: Legionella santicrucis
+Removed entity: Legionella fairfieldensis
+Irritable bowel syndrome
+Num unmapped entities: 463
+Unable to map entity: investigates
+Unable to map entity: irritable bowel syndrome characterized by constipation
+Mapped irritable bowel syndrome to Irritable Bowel Syndrome
+Mapped feces to Feces
+Unable to map entity: patterns
+Unable to map entity: patients
+Unable to map entity: primary operation
+Unable to map entity: bile acids
+Unable to map entity: diarrhea
+Unable to map entity: frequent
+Unable to map entity: principal diagnosis
+Unable to map entity: use of
+Unable to map entity: within
+Unable to map entity: day
+Unable to map entity: retention of content
+Unable to map entity: reporting
+Unable to map entity: cholestyramine resin
+Unable to map entity: singular
+Unable to map entity: probiotic agent
+Unable to map entity: persons
+Unable to map entity: crohn disease
+Unable to map entity: helping behavior
+Unable to map entity: case unit dose
+Unable to map entity: uncertainty
+Unable to map entity: type - attribute
+Unable to map entity: work
+Mapped lactobacillus to Lactobacillus
+Unable to map entity: bifidobacterium
+Unable to map entity: used by
+Formatted: prevent (product) without brackets
+Unable to map entity: prevent (product)
+Unable to map entity: necrotizing
+Mapped neonatal infectious disorder to Disorder
+Unable to map entity: soluble fiber
+Unable to map entity: dietary supplements
+Unable to map entity: constipation
+Unable to map entity: oligosaccharides
+Unable to map entity: feeling relief
+Unable to map entity: inflammatory bowel diseases
+Unable to map entity: ulcerative colitis
+Formatted: clostridium difficile (bacteria) without brackets
+Unable to map entity: clostridium difficile (bacteria)
+Unable to map entity: fatty acids, volatile
+Unable to map entity: acids
+Unable to map entity: clinical action
+Unable to map entity: intestines
+Mapped dietary fiber to Dietary Fiber
+Unable to map entity: diet
+Unable to map entity: preposition for
+Unable to map entity: food
+Unable to map entity: stress
+Unable to map entity: chronic
+Unable to map entity: human platelet antigens
+Unable to map entity: axis vertebra
+Formatted: including (qualifier) without brackets
+Unable to map entity: including (qualifier)
+Unable to map entity: abdominal pain
+Unable to map entity: mucous membrane
+Unable to map entity: changed status
+Unable to map entity: in addition to
+Formatted: levels (qualifier value) without brackets
+Unable to map entity: levels (qualifier value)
+Unable to map entity: high
+Unable to map entity: facultative anaerobic bacteria
+Unable to map entity: escherichia coli
+Unable to map entity: firmicutes
+Formatted: bacteroidetes (class) without brackets
+Unable to map entity: bacteroidetes (class)
+Unable to map entity: consciousness clear
+Unable to map entity: consistency
+Unable to map entity: behavior
+Unable to map entity: irritable mood
+Unable to map entity: depressed mood
+Unable to map entity: mood insomnia
+Formatted: tests (qualifier value) without brackets
+Unable to map entity: tests (qualifier value)
+Unable to map entity: group a
+Unable to map entity: pathologic processes
+Unable to map entity: inflammation
+Unable to map entity: intestinal wall structure
+Unable to map entity: primary
+Unable to map entity: types of diseases
+Unable to map entity: inflammatory
+Unable to map entity: neutrophil
+Unable to map entity: proteins
+Unable to map entity: cytoplasmic matrix
+Unable to map entity: indium-111
+Unable to map entity: leukocytes
+Unable to map entity: celiac disease
+Unable to map entity: mental concentration
+Unable to map entity: degree or extent
+Unable to map entity: lesion of mucosa
+Unable to map entity: occurrence
+Unable to map entity: identified
+Unable to map entity: normal
+Unable to map entity: fructose
+Unable to map entity: seizures
+Formatted: case (situation) without brackets
+Unable to map entity: case (situation)
+Unable to map entity: etiology
+Unable to map entity: intestinal diseases
+Unable to map entity: tissue damage
+Formatted: some (qualifier value) without brackets
+Unable to map entity: some (qualifier value)
+Mapped fibromyalgia to Fibromyalgia
+Mapped chronic fatigue syndrome to Chronic Fatigue Syndrome
+Unable to map entity: hypersensitivity
+Formatted: mechanism (attribute) without brackets
+Unable to map entity: mechanism (attribute)
+Unable to map entity: evidence of
+Unable to map entity: intermediate
+Unable to map entity: urology
+Unable to map entity: non-celiac gluten sensitivity
+Mapped gastrocolic reflex to Gastrocolic reflex
+Unable to map entity: pathogenesis
+Unable to map entity: very
+Unable to map entity: serotonin
+Unable to map entity: tonics
+Unable to map entity: stretching exercises
+Unable to map entity: pain
+Unable to map entity: neuraxis
+Unable to map entity: college
+Unable to map entity: classification
+Unable to map entity: ethnic european
+Unable to map entity: rheumatism
+Unable to map entity: give - dosing instruction imperative
+Unable to map entity: pharmacotherapy
+Unable to map entity: support, device
+Unable to map entity: inferior
+Unable to map entity: musculoskeletal diseases
+Unable to map entity: connective tissue
+Unable to map entity: geographic state
+Unable to map entity: mental disorders
+Mapped mixed anxiety and depressive disorder to Depressive disorder
+Unable to map entity: anti-inflammatory agents, non-steroidal
+Mapped specific antibody to Specific antibody
+Unable to map entity: transglutaminases
+Formatted: absence (morphologic abnormality) without brackets
+Unable to map entity: absence (morphologic abnormality)
+Unable to map entity: intestinal mucosa
+Unable to map entity: homo sapiens
+Unable to map entity: gastrointestinal tract structure
+Formatted: ensure (product) without brackets
+Unable to map entity: ensure (product)
+Unable to map entity: entire lumen of body system
+Unable to map entity: phenobarbital
+Unable to map entity: marital separation
+Formatted: preventing (action) without brackets
+Unable to map entity: preventing (action)
+Unable to map entity: uncontrolled
+Unable to map entity: systemic circulatory system
+Mapped injury due to exposure to external cause to External cause
+Mapped molecule to Molecule
+Mapped toxin to Toxin
+Unable to map entity: antigens
+Formatted: vital (qualifier value) without brackets
+Unable to map entity: vital (qualifier value)
+Unable to map entity: numerous
+Mapped diabetes mellitus to Diabetes Mellitus
+Unable to map entity: metabolic syndrome x
+Unable to map entity: non-alcoholic fatty liver disease
+Mapped septic shock to Septic Shock
+Unable to map entity: house mice
+Unable to map entity: biopsy sample
+Formatted: colon structure (body structure) without brackets
+Unable to map entity: colon structure (body structure)
+Unable to map entity: three
+Unable to map entity: introduction procedure
+Unable to map entity: widespread
+Unable to map entity: associated with
+Unable to map entity: colitis
+Unable to map entity: variant
+Formatted: illness (finding) without brackets
+Unable to map entity: illness (finding)
+Unable to map entity: communicable diseases
+Unable to map entity: protozoa
+Unable to map entity: strong
+Unable to map entity: brain diseases
+Unable to map entity: possible diagnosis
+Unable to map entity: fertility
+Unable to map entity: nausea
+Unable to map entity: vomiting
+Unable to map entity: hot flushes
+Unable to map entity: photopsia
+Unable to map entity: hypoxic brain damage
+Unable to map entity: infant, newborn
+Unable to map entity: spinal stenosis of lumbar region
+Mapped disorder of lumbar spine to Lumbar spine
+Unable to map entity: labor pain
+Unable to map entity: stenosis of intestine
+Mapped major depressive disorder to Disorder
+Merged apps for entities: Disorder and major depressive disorder
+Unable to map entity: spinal diseases
+Mapped depressive disorder to Depressive disorder
+Merged apps for entities: Depressive disorder and depressive disorder
+Unable to map entity: limb structure
+Unable to map entity: myopia
+Unable to map entity: obesity
+Unable to map entity: polycystic ovary syndrome
+Unable to map entity: premenstrual symptom
+Unable to map entity: addictive behavior
+Formatted: sensorineural hearing loss (disorder) without brackets
+Unable to map entity: sensorineural hearing loss (disorder)
+Unable to map entity: urinary stress incontinence
+Unable to map entity: temporomandibular joint dysfunction syndrome
+Unable to map entity: tennis elbow
+Unable to map entity: induction of labor procedure
+Mapped tinnitus to Tinnitus
+Unable to map entity: uterine fibroids
+Unable to map entity: dementia, vascular
+Mapped general adaptation syndrome to General Adaptation Syndrome
+Unable to map entity: whiplash injuries
+Unable to map entity: pharmaceutical preparations
+Unable to map entity: market
+Unable to map entity: adverse effects
+Unable to map entity: cardiovascular system
+Unable to map entity: relieving
+Unable to map entity: abdominal bloating
+Unable to map entity: treatment intent
+Unable to map entity: chronic idiopathic constipation
+Mapped guar gum to Guar Gum
+Unable to map entity: water
+Unable to map entity: laxatives
+Mapped defecation to Defecation
+Formatted: relieved (qualifier value) without brackets
+Unable to map entity: relieved (qualifier value)
+Unable to map entity: chronic colitis
+Unable to map entity: one
+Unable to map entity: major
+Unable to map entity: pain, burning
+Mapped atypical facial pain to Pain
+Unable to map entity: toothache
+Unable to map entity: neuromuscular diseases
+Unable to map entity: collagen diseases
+Unable to map entity: functional disorder
+Unable to map entity: somatoform disorder
+Mapped somatoform pain disorder to Disorder
+Merged apps for entities: Disorder and somatoform pain disorder
+Unable to map entity: psychogenic
+Unable to map entity: sensitive
+Unable to map entity: personality sensitivity
+Unable to map entity: greater
+Unable to map entity: back pain
+Unable to map entity: chronic neck pain
+Unable to map entity: chronic abdominal pain
+Unable to map entity: functional abdominal pain syndrome
+Unable to map entity: continuous
+Unable to map entity: presence
+Unable to map entity: less than
+Unable to map entity: therapeutic procedure
+Unable to map entity: menopause
+Unable to map entity: altered bowel function
+Unable to map entity: diagnostic
+Unable to map entity: dysentery
+Unable to map entity: relationships
+Unable to map entity: direct type of relationship
+Unable to map entity: good
+Unable to map entity: dairy products
+Unable to map entity: soybeans
+Unable to map entity: soy bean product
+Unable to map entity: fresh fruit
+Unable to map entity: vegetables
+Unable to map entity: insoluble fiber
+Unable to map entity: small
+Unable to map entity: quantity
+Formatted: van (physical object) without brackets
+Unable to map entity: van (physical object)
+Mapped red meat to Red Meat
+Unable to map entity: dietary fats and oils
+Unable to map entity: lactose intolerance
+Unable to map entity: solid
+Unable to map entity: alcoholic beverages
+Unable to map entity: ethanol
+Unable to map entity: carbonated beverages
+Unable to map entity: carbonates
+Formatted: containing (qualifier) without brackets
+Unable to map entity: containing (qualifier)
+Unable to map entity: artificial sweeteners
+Unable to map entity: most
+Unable to map entity: age
+Unable to map entity: male population group
+Mapped barotrauma of descent to Descent
+Unable to map entity: hardness
+Unable to map entity: slow
+Unable to map entity: enterospasm
+Unable to map entity: entire colon
+Unable to map entity: worsening pattern
+Unable to map entity: place
+Unable to map entity: daily
+Unable to map entity: movement
+Unable to map entity: emotions
+Unable to map entity: hyperphagia
+Unable to map entity: aerophagy
+Mapped nonulcer dyspepsia to Nonulcer dyspepsia
+Unable to map entity: transitory
+Unable to map entity: rare
+Unable to map entity: parasitism
+Unable to map entity: parasitic diseases
+Mapped giardiasis to Giardiasis
+Mapped food poisoning to Food Poisoning
+Unable to map entity: bacteria
+Formatted: severe (severity modifier) without brackets
+Unable to map entity: severe (severity modifier)
+Mapped peptic ulcer to Peptic Ulcer
+Unable to map entity: intestinal obstruction
+Formatted: certain (qualifier value) without brackets
+Unable to map entity: certain (qualifier value)
+Unable to map entity: abdomen
+Unable to map entity: smooth muscle relaxant
+Unable to map entity: muscle
+Unable to map entity: uterus
+Unable to map entity: causing
+Unable to map entity: diverticulosis
+Unable to map entity: qualitative form
+Unable to map entity: linear
+Unable to map entity: food particle
+Unable to map entity: normal muscle function
+Unable to map entity: heartburn
+Formatted: smooth muscle (tissue) without brackets
+Unable to map entity: smooth muscle (tissue)
+Unable to map entity: myometrium
+Unable to map entity: dysmenorrhea
+Unable to map entity: little's disease
+Unable to map entity: numbers
+Unable to map entity: exertion
+Unable to map entity: various patch test substance
+Unable to map entity: quality
+Unable to map entity: intervention regimes
+Mapped medical procedure to Medical Procedure
+Unable to map entity: cognitive therapy
+Unable to map entity: chronic back pain
+Unable to map entity: heart
+Mapped thoracic mammary region to Region
+Unable to map entity: menopausal syndrome
+Unable to map entity: chronic pain in face
+Unable to map entity: urinary bladder
+Unable to map entity: facial pain
+Unable to map entity: chronic pelvic pain of female
+Unable to map entity: fecal incontinence
+Unable to map entity: anus
+Unable to map entity: extravasation
+Unable to map entity: functional encopresis
+Unable to map entity: lacking
+Mapped intestinal gas to Intestinal gas
+Unable to map entity: flatulence
+Unable to map entity: fluid loss
+Unable to map entity: elements
+Unable to map entity: physical findings
+Formatted: continent (qualifier value) without brackets
+Unable to map entity: continent (qualifier value)
+Formatted: maintaining (action) without brackets
+Unable to map entity: maintaining (action)
+Unable to map entity: complication of delivery
+Unable to map entity: colorectal
+Unable to map entity: involvement with
+Unable to map entity: structure of sphincter ani muscle
+Formatted: food intolerance (disorder) without brackets
+Unable to map entity: food intolerance (disorder)
+Unable to map entity: overflow incontinence of urine
+Unable to map entity: home environment
+Unable to map entity: lower gastrointestinal tract contrast procedure
+Formatted: checking (action) without brackets
+Unable to map entity: checking (action)
+Unable to map entity: polyps
+Unable to map entity: medical examination
+Mapped colonoscopy to Colonoscopy
+Unable to map entity: primary malignant neoplasm
+Unable to map entity: formed
+Mapped intussusception to Intussusception
+Unable to map entity: laboratory procedures
+Formatted: acute appendicitis nos (disorder) without brackets
+Unable to map entity: acute appendicitis nos (disorder)
+Unable to map entity: between intestinal loops
+Formatted: affect (mental function) without brackets
+Unable to map entity: affect (mental function)
+Unable to map entity: adhesion of intestine
+Unable to map entity: tissue adhesions
+Unable to map entity: irritable bowel syndrome with diarrhea
+Unable to map entity: reduction - action
+Unable to map entity: changing
+Unable to map entity: differential diagnosis
+Unable to map entity: malignant tumor of colon
+Unable to map entity: colitis, ischemic
+Unable to map entity: gynecology
+Unable to map entity: endometriosis of intestine
+Unable to map entity: comprehension
+Mapped structure of porta hepatis to Porta hepatis
+Unable to map entity: chronic eczema
+Mapped hepatitis c to Hepatitis C
+Formatted: chief complaint (finding) without brackets
+Unable to map entity: chief complaint (finding)
+Mapped asthma to Asthma
+Mapped rhinitis to Rhinitis
+Unable to map entity: headache
+Mapped eosinophilic esophagitis to Eosinophilic esophagitis
+Unable to map entity: mucositis
+Unable to map entity: influenza in birds
+Unable to map entity: traveler's diarrhea
+Unable to map entity: impaired health
+Unable to map entity: loose
+Unable to map entity: hiv seropositivity
+Formatted: current (present time) without brackets
+Unable to map entity: current (present time)
+Unable to map entity: liver
+Unable to map entity: kidney
+Unable to map entity: pregnancy
+Unable to map entity: cavia
+Unable to map entity: child
+Unable to map entity: contraindicated
+Mapped chronic diarrhea to Chronic diarrhea
+Unable to map entity: diabetes type
+Unable to map entity: malignant carcinoid syndrome
+Unable to map entity: autoimmune diseases
+Unable to map entity: arthritis, gouty
+Unable to map entity: microbiology subtype strains
+Unable to map entity: animals
+Unable to map entity: antibiotics
+Unable to map entity: pediatric discipline
+Unable to map entity: gastrointestinal diseases
+Unable to map entity: delivery system
+Unable to map entity: vaccines
+Unable to map entity: immunoglobulins
+Unable to map entity: immune system processes
+Unable to map entity: antibiotic-associated diarrhea
+Unable to map entity: specific qualifier value
+Unable to map entity: personal appearance
+Mapped calcium polycarbophil to Calcium polycarbophil
+Unable to map entity: twelve
+Unable to map entity: eight
+Unable to map entity: week
+Unable to map entity: in transit
+Unable to map entity: increased frequency of defecation
+Unable to map entity: personality disorders
+Mapped drug abuse to Drug Abuse
+Unable to map entity: anxiety disorders
+Mapped sexual dysfunction to Sexual Dysfunction
+Mapped hypertensive disease to Hypertensive disease
+Mapped low back pain to Pain
+Merged apps for entities: Pain and low back pain
+Unable to map entity: affecting
+Unable to map entity: middle east
+Unable to map entity: rumination
+Unable to map entity: nonprofit organizations
+Unable to map entity: mosses
+Unable to map entity: head
+Unable to map entity: application procedure
+Unable to map entity: celiac disease screen
+Unable to map entity: type 1
+Formatted: insufficient (qualifier) without brackets
+Unable to map entity: insufficient (qualifier)
+Unable to map entity: weight gain
+Unable to map entity: unexplained weight loss
+Unable to map entity: dermatitis herpetiformis
+Unable to map entity: hereditary
+Unable to map entity: trauma, nervous system
+Unable to map entity: autonomic nervous system
+Unable to map entity: sympathetic nervous system
+Unable to map entity: temporomandibular joint
+Unable to map entity: joint structure of pelvis
+Mapped post-traumatic stress disorder to Disorder
+Merged apps for entities: Disorder and post-traumatic stress disorder
+Unable to map entity: chronic cystitis
+Unable to map entity: dysuria
+Unable to map entity: profound
+Unable to map entity: increased belching
+Unable to map entity: xerostomia
+Unable to map entity: confusion
+Unable to map entity: alcoholic intoxication
+Unable to map entity: difficulty
+Formatted: relative (related person) without brackets
+Unable to map entity: relative (related person)
+Unable to map entity: mood disorders
+Unable to map entity: bipolar disorder
+Mapped attention deficit hyperactivity disorder to Attention deficit
+Unable to map entity: physical and emotional exhaustion state
+Mapped minimal brain dysfunction to Dysfunction
+Unable to map entity: alcoholic intoxication, chronic
+Unable to map entity: antidepressive agents
+Unable to map entity: natural
+Unable to map entity: activities
+Unable to map entity: motility result
+Formatted: induce (action) without brackets
+Unable to map entity: induce (action)
+Unable to map entity: peristalsis
+Unable to map entity: intestinal motility
+Unable to map entity: ions
+Unable to map entity: fluid balance
+Unable to map entity: acute
+Unable to map entity: organism
+Unable to map entity: catabolism
+Unable to map entity: relapse
+Num mapped entities: 44
+Num KB-mapped entities: 123
+Num Final-mapped entities: 166
+Matched entity: Irritable bowel syndrome for category: Conditions%20diagnosed%20by%20stool%20test
+Matched entity: Feces for category: Animal%20physiology
+Removed entity: Lactobacillus
+Removed entity: Disorder
+Matched entity: Dietary fiber for category: Nutrition
+Matched entity: Fibromyalgia for category: Disorders%20of%20fascia
+Matched entity: Chronic fatigue syndrome for category: Neurological%20disorders
+Matched entity: Gastrocolic reflex for category: Physiology
+Matched entity: Antibody for category: Immune%20system
+Removed entity: External cause
+Removed entity: Molecule
+Matched entity: Toxin for category: Toxicology
+Matched entity: Diabetes mellitus for category: Diabetes
+Matched entity: Septic shock for category: Medical%20emergencies
+Removed entity: Lumbar spine
+Removed entity: Tinnitus
+Removed entity: Guar gum
+Matched entity: Defecation for category: Digestive%20system
+Matched entity: Pain for category: Acute%20pain
+Removed entity: Red Meat
+Removed entity: Descent
+Matched entity: Giardiasis for category: Zoonoses
+Removed entity: Foodborne illness
+Matched entity: Peptic ulcer for category: Acute%20pain
+Matched entity: Medical procedure for category: Medical%20terminology
+Removed entity: Region
+Matched entity: Colonoscopy for category: Endoscopy
+Removed entity: Intussusception
+Removed entity: Porta hepatis
+Matched entity: Hepatitis C for category: RTT(full)
+Matched entity: Asthma for category: RTT(full)
+Matched entity: Rhinitis for category: Allergology
+Removed entity: Eosinophilic esophagitis
+Removed entity: Chronic diarrhea
+Removed entity: Polycarbophil calcium
+Matched entity: Substance abuse for category: Psychiatric%20diagnosis
+Matched entity: Sexual dysfunction for category: Psychiatric%20diagnosis
+Matched entity: Hypertension for category: RTT(full)
+Removed entity: Attention deficit
+Removed entity: Dysfunction
+Removed entity: Bile acids
+Matched entity: Diarrhea for category: Conditions%20diagnosed%20by%20stool%20test
+Removed entity: Frequent
+Removed entity: Day
+Removed entity: Reporting
+Matched entity: Crohn's disease for category: Inflammations
+Matched entity: Uncertainty for category: Measurement
+Matched entity: Necrosis for category: Necrosis
+Removed entity: Soluble fiber
+Matched entity: Clostridium difficile (bacteria) for category: Gram-positive%20bacteria
+Removed entity: Diet
+Matched entity: Food for category: Foods
+Removed entity: Stress
+Removed entity: Chronic
+Removed entity: High
+Removed entity: Consistency
+Matched entity: Behavior for category: Human%20behavior
+Matched entity: Depression (mood) for category: Psychiatric%20diagnosis
+Removed entity: Primary
+Matched entity: Neutrophil for category: Cell%20biology
+Removed entity: Indium-111
+Removed entity: Attentional control
+Removed entity: Epileptic seizure
+Removed entity: Etiology
+Matched entity: Pathogenesis for category: Pathology
+Removed entity: Very
+Removed entity: Stretching exercises
+Removed entity: Classification
+Removed entity: Pharmacotherapy
+Removed entity: Inferior
+Removed entity: Homo sapiens
+Removed entity: Marital separation
+Matched entity: Non-alcoholic fatty liver disease for category: Diseases%20of%20liver
+Removed entity: Protozoa
+Matched entity: Fertility for category: Demography
+Matched entity: Tennis elbow for category: Inflammations
+Matched entity: Vascular dementia for category: Psychiatric%20diagnosis
+Removed entity: Market
+Removed entity: Adverse effects
+Removed entity: Psychogenic
+Removed entity: Sensitive
+Removed entity: Greater
+Removed entity: Inequality (mathematics)
+Matched entity: Alcoholic drink for category: GABAA%20receptor%20positive%20allosteric%20modulators
+Matched entity: Hardness for category: Materials%20science
+Removed entity: Polyphagia
+Removed entity: Rare
+Matched entity: Abdomen for category: Animal%20anatomy
+Matched entity: Uterus for category: Organs%20(anatomy)
+Matched entity: Myometrium for category: Pelvis
+Matched entity: Spastic diplegia for category: Disability
+Matched entity: Exertion for category: Effects%20of%20external%20causes
+Matched entity: Heart for category: Organs%20(anatomy)
+Matched entity: Urinary bladder for category: Organs%20(anatomy)
+Matched entity: Orofacial pain for category: Pain
+Matched entity: Fecal incontinence for category: Gastrointestinal%20tract%20disorders
+Matched entity: Large intestine for category: Organs%20(anatomy)
+Removed entity: Medical examination
+Matched entity: Differential diagnosis for category: Medical%20terminology
+Removed entity: Ischemic colitis
+Removed entity: Comprehension
+Matched entity: Mucositis for category: Gastrointestinal%20tract%20disorders
+Removed entity: Loose
+Matched entity: Liver for category: Organs%20(anatomy)
+Matched entity: Kidney for category: Endocrine%20system
+Removed entity: Cavia
+Matched entity: Child for category: Childhood
+Removed entity: Vaccines
+Removed entity: Human physical appearance
+Removed entity: Week
+Removed entity: In Transit
+Removed entity: Middle East
+Removed entity: Rumination
+Removed entity: Mosses
+Matched entity: Head for category: Head
+Removed entity: Type
+Matched entity: Autonomic nervous system for category: Autonomic%20nervous%20system
+Removed entity: Sympathetic nervous system
+Matched entity: Confusion for category: Neurological%20disorders
+Matched entity: Fluid balance for category: Nutrition
+Removed entity: Acute
+Removed entity: Organism
+Removed entity: Relapse

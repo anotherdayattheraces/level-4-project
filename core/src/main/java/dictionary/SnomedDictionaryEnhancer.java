@@ -77,8 +77,7 @@ public class SnomedDictionaryEnhancer {
 		String line;
 		try {
 			while((line=br.readLine())!=null){
-				String[] terms = line.split(" //")[0].split(" ");
-				
+				String[] terms = line.split(" //")[0].split(" ");	
 				switch (terms.length){
 				case 3:
 					Addfix(terms[0],onePrefixes);
@@ -238,7 +237,7 @@ public class SnomedDictionaryEnhancer {
 		}
 	}
 	
-	public void mapSythesizedEntities(){
+	public void mapSynthesizedEntities(){
 		PrintStream newMappedEntities=null;
 		try {
 			newMappedEntities = new PrintStream(new FileOutputStream("NewMappedEntities.txt",true));
@@ -284,7 +283,7 @@ public class SnomedDictionaryEnhancer {
 		}
 	
 	}
-	public void filterSythesizedEntitiesByCategory(){
+	public void filterSynthesizedEntitiesByCategory(){
 		FileReader file = null;
 		try {
 			file = new FileReader(newMappedEntitiesPath);

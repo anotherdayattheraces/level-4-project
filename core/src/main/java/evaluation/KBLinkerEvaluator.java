@@ -11,6 +11,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
+
+import org.apache.commons.lang3.time.StopWatch;
 import org.lemurproject.galago.core.eval.Eval;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
@@ -24,11 +26,20 @@ public class KBLinkerEvaluator {
 	private ArrayList<TopicRun> topicRuns;
 	private String qrelFile;
 	private String runFile;
+	private PrintStream outputStream;
+
 
 	public KBLinkerEvaluator(Boolean multiple){ //multiple=true if you want to carry out a set comparison, false for single eval
 		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/filteredQrels.txt";
 		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/KBResults.txt";
+		try {
+			this.outputStream = new PrintStream(new FileOutputStream("KBextraDetails.txt",true));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		StopWatch stopWatch = new StopWatch();
 		this.topicRuns = new ArrayList<TopicRun>();
+		stopWatch.start();
 		if(multiple){
 			int runNum=1;
 			KBLinker kbLinker = new KBLinker(0); //need to initialize first linker to access non static method getMaxTopics()
@@ -44,6 +55,8 @@ public class KBLinkerEvaluator {
 			KBLinker kbLinker = new KBLinker();//generate random query
 			addQuery(kbLinker);
 		}
+	    stopWatch.stop();
+	    outputStream.println("Time taken: "+stopWatch.getTime()/1000+" seconds");
 	}
 	
 	public void evaluate(){

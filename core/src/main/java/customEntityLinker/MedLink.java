@@ -18,6 +18,7 @@ import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
 import org.lemurproject.galago.core.retrieval.prf.RelevanceModel1;
+import org.lemurproject.galago.core.retrieval.query.Node;
 
 import dictionary.DictionaryHashMap;
 import dictionary.SnomedDictionaryInitializer;
@@ -44,6 +45,8 @@ public class MedLink {
 	public int topicChoice;
 	private static String kbPath ="C:/Work/Project/samples/Unprocessed_Index";
 	private ArrayList<String> blacklist;
+	public Node root;
+
 
 
 
@@ -64,6 +67,7 @@ public class MedLink {
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 25); //get top 50 documents from galago search of query
+		this.root=orchestrator.getRoot();
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
 		this.snomedToWikiMappings=readInMappings(mappingPath);
 		try {
@@ -87,6 +91,7 @@ public class MedLink {
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+		this.root=orchestrator.getRoot();
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
 		this.snomedToWikiMappings=readInMappings(mappingPath);
 		try {
@@ -105,6 +110,7 @@ public class MedLink {
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+		this.root=orchestrator.getRoot();
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
 		this.snomedToWikiMappings=readInMappings(mappingPath);
 		try {
@@ -124,6 +130,7 @@ public class MedLink {
 			e1.printStackTrace();
 			return null;
 		}
+		ArrayList<Entity> alreadyMapped = new ArrayList<Entity>();
 		String previousTerm=null; // the previous term
 		String twopreviousTerm=null; // the term before the previous term
 		String threepreviousTerm=null;
@@ -268,8 +275,12 @@ public class MedLink {
 								}
 							}
 					}
-			foundEntities=MetaMapEntityLinker.merge(matchDirectlyToKB(unmapped),foundEntities);
-							
+			if(alreadyMapped.isEmpty()){
+				alreadyMapped=matchDirectlyToKB(unmapped);
+			}
+			else{
+				alreadyMapped=MetaMapEntityLinker.merge(matchDirectlyToKB(unmapped),alreadyMapped);
+			}				
 						}
 		try {
 			index.close();
@@ -289,6 +300,7 @@ public class MedLink {
 		outputStream.println("Filtering: ");
 		outputStream.println(" ");
 		System.out.println("Num mapped-unfiltered entities: "+foundEntities.size());
+		foundEntities=MetaMapEntityLinker.merge(alreadyMapped,foundEntities);
 		KBFilter kbfilter = new KBFilter(foundEntities,blacklist);
 		foundEntities=kbfilter.filterEntities(outputStream);
 		System.out.println("Num filtered entities: "+foundEntities.size());

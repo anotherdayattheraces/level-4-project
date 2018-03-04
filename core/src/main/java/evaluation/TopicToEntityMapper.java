@@ -57,6 +57,13 @@ public class TopicToEntityMapper {
 		}
 		int i=0;
 		FileInputStream inputStream=null;
+		DiskIndex index=null;
+		try {
+			index = new DiskIndex("C:/Work/Project/samples/Unprocessed_Index");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		Document.DocumentComponents dc = new Document.DocumentComponents( false, true, true );
 		while(i++<3){
 			if(i==2){
 				qrelPath="C:/Work/Project/samples/prototype4/level-4-project/core/qrels/automatic.benchmarkY1test.cbor.hierarchical.entity.qrels";

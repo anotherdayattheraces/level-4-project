@@ -12,6 +12,7 @@ import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.retrieval.Retrieval;
 import org.lemurproject.galago.core.retrieval.RetrievalFactory;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
+import org.lemurproject.galago.core.retrieval.query.Node;
 
 import customEntityLinker.MedLink;
 import entityRetrieval.core.Entity;
@@ -41,9 +42,9 @@ public class MetaMapEntityLinker {
 	private ArrayList<String> topics;
 	public int topicChoice;
 	private ArrayList<String> blacklist;
+	public Node root;
 	
 
-	
 	public MetaMapEntityLinker(){
 		//this.options = setOptions("-A,-K,-R [SNOMEDCT]");
 		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
@@ -54,7 +55,8 @@ public class MetaMapEntityLinker {
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
 		this.mapping = mapper.generateRelevantEntities(query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 100); //get top 50 documents from galago search of query
+		this.root=orchestrator.getRoot();
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
 		this.snomedToWikiMappings=MedLink.readInMappings(mappingPath);
@@ -68,7 +70,8 @@ public class MetaMapEntityLinker {
 		TopicToEntityMapper mapper = new TopicToEntityMapper();
 		this.mapping = mapper.generateRelevantEntities(query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 100); //get top 50 documents from galago search of query
+		this.root=orchestrator.getRoot();
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
 		this.snomedToWikiMappings=MedLink.readInMappings(mappingPath);
@@ -264,4 +267,5 @@ public class MetaMapEntityLinker {
 			}
 		return mapped;
 		}
+	
 }

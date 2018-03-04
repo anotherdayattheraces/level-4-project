@@ -183,6 +183,7 @@ public class SnomedToWikiMapper {
 		StringBuilder formattedName = new StringBuilder();
 		for(int i=0;i<entityTerms.length;i++){
 			String word = entityTerms[i];
+			if(word.length()<2) continue;
 			if(i==0){
 				word = entityTerms[i].substring(0, 1).toUpperCase()+entityTerms[i].substring(1);
 			}

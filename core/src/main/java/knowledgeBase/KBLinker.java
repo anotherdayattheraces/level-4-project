@@ -9,6 +9,7 @@ import java.util.List;
 import org.lemurproject.galago.core.index.disk.DiskIndex;
 import org.lemurproject.galago.core.parse.Document;
 import org.lemurproject.galago.core.retrieval.ScoredDocument;
+import org.lemurproject.galago.core.retrieval.query.Node;
 
 import customEntityLinker.MedLink;
 import entityRetrieval.core.Entity;
@@ -22,11 +23,11 @@ public class KBLinker {
 	private String query;
 	private HashMap<String,ArrayList<Entity>> mapping;
 	private List<ScoredDocument> scoredDocs;
-	private HashMap<Long,Integer> entitiesPerDoc;
 	private ArrayList<String> topics;
 	public int topicChoice;
 	private ArrayList<String> blacklist;
-	
+	public Node root;
+
 	public KBLinker(){
 		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
@@ -36,6 +37,7 @@ public class KBLinker {
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 75); //get top 50 documents from galago search of query
+		this.root=orchestrator.getRoot();
 		try {
 			this.blacklist=MedLink.readBlackList("C:/Work/Project/samples/prototype4/level-4-project/core/KblinkerBlacklist.txt");
 		} catch (IOException e) {
@@ -50,6 +52,7 @@ public class KBLinker {
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
 		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
+		this.root=orchestrator.getRoot();
 		try {
 			this.blacklist=MedLink.readBlackList("C:/Work/Project/samples/prototype4/level-4-project/core/KblinkerBlacklist.txt");
 		} catch (IOException e) {
