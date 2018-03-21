@@ -2,6 +2,9 @@ package entityRetrieval.core;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -36,6 +39,9 @@ public class MedSearch{
     protected Retrieval retrieval;
     private Search search;
     private Node root;
+    private HashMap<String,ArrayList<Entity>> categoryToEntities;
+    public ArrayList<Pair<String,Double>> topCategories;
+    public HashMap<String,ArrayList<Entity>> finalEntityCategories;
 	
 
 	public MedSearch(Parameters params) throws Exception {
@@ -75,6 +81,7 @@ public class MedSearch{
     	String linkType = p.get("linkType", "LR");
     	ArrayList<Entity> results;
     	List<ScoredDocument> scoredDocs = null;
+    	HashMap<Entity,ArrayList<String>> categories = null;
     	if(linkType=="ML"){
     		MedLink medlink = new MedLink();
     		results = medlink.matchEntities(System.out);
@@ -86,6 +93,8 @@ public class MedSearch{
     		results = documentlinkreader.getEntitiesFromLinks();
     		scoredDocs=documentlinkreader.getScoredDocuments();
     		this.root=documentlinkreader.root;
+    		categories = new HashMap<Entity,ArrayList<String>>();
+    		categories.putAll(documentlinkreader.getFinalEntityCategories());
     	}
     	else if(linkType=="KB"){
     		KBLinker kblinker = new KBLinker();
@@ -101,8 +110,15 @@ public class MedSearch{
     	}
     	else{
     		return null;
-    	} 
-    	calculateScores(results,scoredDocs);
+    	}
+    	for(Entity entity:results){
+    		System.out.println(entity.getName()+" "+entity.getScore());
+    	}
+    	topCategories = getTopCategories(categories);
+    	rescoreCategories(topCategories,results);
+    	topCategories.removeAll(enforceCategoryBlacklist(topCategories));
+    	finalEntityCategories = getFinalEntityCategories(topCategories,results);
+    	topCategories.add(0, new Pair<String,Double>("Overview",Double.MAX_VALUE));
     	return convertToSearchResult(results,query);
     }
     
@@ -111,16 +127,14 @@ public class MedSearch{
     }
     
     public String getSummary(Document document, Set<String> query) throws IOException {
-    	System.out.println(query.size());
-        if (document.metadata.containsKey("description")) {
-        	System.out.println("has description");
-        	String description = document.metadata.get("description");
+        ///if (document.metadata.containsKey("description")) {
+        //	String description = document.metadata.get("description");
+    //}
 
-         if (description.length() > 10) {
-        	 return generator.highlight(description, query);
-         	}
-         }
-
+    //     if (description.length() > 10) {
+      //  	 return generator.highlight(description, query);
+        // 	}
+         //}
         return generator.getSnippet(document.text, query);
     }
     public long xCount(String nodeString) throws Exception {
@@ -165,16 +179,19 @@ public class MedSearch{
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
-    	
+    	int rankModifier=0;
     	for(Entity entity:results){
     		SearchResultItem sri = new SearchResultItem();
     		sri.identifier=entity.getName();
     		sri.displayTitle=entity.getName();
-    		sri.rank=entity.getRank();
+    		sri.rank=entity.getRank()-rankModifier;
     		sri.score=entity.getScore();
     		sri.url=entity.getId();
     		sri.summary=getSummary(entity,index,dc,queryTerms);
-    		System.out.println(sri.summary);
+    		if(sri.summary.equals("NO DOC")){
+    			rankModifier++;
+    			continue;
+    		}
     		searchresult.items.add(sri);
    
     	}
@@ -188,11 +205,15 @@ public class MedSearch{
 		MedLinkEvaluator.setScores(results, finalDocScores);//set scores for all entities, using entity metadata
     }
     public String getSummary(Entity entity, DiskIndex index, DocumentComponents dc, Set<String> queryTerms){
+    	System.out.println(entity.getName());
  		Document doc = null;
 		try {
 			doc=index.getDocument(entity.getName(), dc);
 		} catch (IOException e) {
 			e.printStackTrace();
+		}
+		if(doc==null){
+			return "NO DOC";
 		}
 		
 		try {
@@ -203,5 +224,131 @@ public class MedSearch{
 		return null;
 		
     }
+    public ArrayList<Pair<String,Double>> getTopCategories(HashMap<Entity,ArrayList<String>> categories){
+    	ArrayList<Pair<String,Double>> categoryAggregate = new ArrayList<Pair<String,Double>>();
+    	categoryToEntities=new HashMap<String,ArrayList<Entity>>();
+    	for(Entity key:categories.keySet()){
+    		for(String category:categories.get(key)){
+    			addCategory(categoryAggregate,category,key);
+    		}
+    	}
+    	Collections.sort(categoryAggregate, score );
+		return categoryAggregate;
+    }
+    public void addCategory(ArrayList<Pair<String,Double>> cats,String cat,Entity entity){
+    	for(Pair<String,Double> c:cats){
+    		if(c.getL().equals(cat)){
+    			c.setR(c.getR()+1);
+    			if(!categoryToEntities.containsKey(c.getL())){
+    				categoryToEntities.put(c.getL(), new ArrayList<Entity>());
+    			}
+    			if(!categoryToEntities.get(cat).contains(entity)){
+    	    		categoryToEntities.get(cat).add(entity);
+    	    	}
+    			return;
+    		}
+    	}
+    	if(!categoryToEntities.containsKey(cat)){
+			categoryToEntities.put(cat, new ArrayList<Entity>());
+		}
+    	if(!categoryToEntities.get(cat).contains(entity)){
+    		categoryToEntities.get(cat).add(entity);
+    	}
+    	cats.add(new Pair<String,Double>(cat,1d));
+    	
+    }
+    public static void sortByScore(ArrayList<Pair<String,Double>> unorderedList){ // method for sorting entities in a list by their score
+	}
+	public static Comparator<Pair<String,Double>> score = new Comparator<Pair<String,Double>>() {
+
+
+		public int compare(Pair<String, Double> o1, Pair<String, Double> o2) {
+			return Double.compare(o2.getR(), o1.getR());
+		}};
+		
+	public void rescoreCategories(ArrayList<Pair<String,Double>> topCategories, ArrayList<Entity> results){
+		int maxScore = results.size();
+		for(Pair<String,Double> pair:topCategories){ //for each top appearing category
+			for(Entity entity:categoryToEntities.get(pair.getL())){ //for each entity that is mapped to by each category
+				pair.setR(pair.getR()+(maxScore-entity.getRank()));
+			}
+		}
+		Collections.sort(topCategories,score);
+	}
+	public Entity getEntity(ArrayList<Entity> results,Entity entity){
+		for(Entity e:results){
+			if(e.equals(entity)){
+				return e;
+			}
+		}
+		return null;
+	}
+	public HashMap<String,ArrayList<Entity>> getFinalEntityCategories(ArrayList<Pair<String,Double>> topCategories, ArrayList<Entity> results){
+		HashMap<String,ArrayList<Entity>> finalCategories = initCategories(results);
+		for(Pair<String,Double> pair:topCategories){
+			ArrayList<Entity> toAdd = sortCategoryMapping(pair.getL(),finalCategories);
+			finalCategories.put(pair.getL(), toAdd);
+		}
+		finalCategories.put("Additional information", new ArrayList<Entity>());
+		for(Entity entity:results){
+			if(!hasEntity(finalCategories,entity)){
+				finalCategories.get("Additional information").add(entity);
+			}
+		}
+		return finalCategories;
+
+	}
+	public HashMap<String,ArrayList<Entity>> initCategories(ArrayList<Entity> results){
+		HashMap<String,ArrayList<Entity>> finalCategories = new HashMap<String,ArrayList<Entity>>();
+		finalCategories.put("Overview", new ArrayList<Entity>());
+		for(int i=0;i<3&&i<results.size();i++){
+			finalCategories.get("Overview").add(results.get(i));
+		}
+		return finalCategories;
+		
+	}
+	public boolean hasEntity(HashMap<String,ArrayList<Entity>> categories,Entity entity){
+		for(String key:categories.keySet()){
+			for(Entity e:categories.get(key)){
+				if(e.equals(entity)){
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	public ArrayList<Entity> sortCategoryMapping(String category, HashMap<String,ArrayList<Entity>> finalCategories){
+		ArrayList<Entity> mapping = categoryToEntities.get(category);
+		Collections.sort(mapping, MedLinkEvaluator.score);
+		ArrayList<Entity> toAdd = new ArrayList<Entity>();		
+		for(int i=0;i<mapping.size();i++){
+			if(!hasEntity(finalCategories,mapping.get(i))){
+				toAdd.add(mapping.get(i));
+			}
+			if(toAdd.size()>=3){
+				break;
+			}
+		}
+		return toAdd;
+	}
+	
+	public ArrayList<Pair<String,Double>> enforceCategoryBlacklist(ArrayList<Pair<String,Double>> categories){
+		ArrayList<String> blacklist = new ArrayList<String>();
+		ArrayList<Pair<String,Double>> toRemove = new ArrayList<Pair<String,Double>>();
+		blacklist.add("Articles containing video clips");
+		blacklist.add("Animal anatomy");
+		blacklist.add("RTT");
+		blacklist.add("RTT(full)");
+
+		for(Pair<String,Double> category:categories){
+			for(String black:blacklist){
+				if(black.equals(category.getL().replaceAll("%20", " "))){
+					toRemove.add(category);
+				}
+			}
+		}
+		return toRemove;
+	}
+	
 }
 

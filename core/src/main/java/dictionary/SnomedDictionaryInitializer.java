@@ -37,7 +37,7 @@ public class SnomedDictionaryInitializer extends DictionaryInitializer{
 	}
 	
 	public void printStats(DictionaryHashMap dictionary){
-		System.out.println("Num keys :"+dictionary.getDictionary().keySet().size());
+		//System.out.println("Num keys :"+dictionary.getDictionary().keySet().size());
 		int max =0;
 		String maxkey = null;
 		for(String key:dictionary.getDictionary().keySet()){
@@ -46,7 +46,7 @@ public class SnomedDictionaryInitializer extends DictionaryInitializer{
 				maxkey=key;
 			}
 		}
-		System.out.println("max bucket: "+max+" string: "+maxkey);
+		//System.out.println("max bucket: "+max+" string: "+maxkey);
 		
 	}
 

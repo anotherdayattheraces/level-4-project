@@ -36,7 +36,7 @@ public class KBLinker {
 		this.topicChoice=topicChoicePair.getL();
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 75); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 		this.root=orchestrator.getRoot();
 		try {
 			this.blacklist=MedLink.readBlackList("C:/Work/Project/samples/prototype4/level-4-project/core/KblinkerBlacklist.txt");
@@ -60,6 +60,17 @@ public class KBLinker {
 		}
 	}
 	
+	public KBLinker(int i, String topicPath) {
+		this.topics=TopicToEntityMapper.readTopics(topicPath);
+		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
+		this.query=topics.get(i);
+		System.out.println("Chosen query: "+query);
+		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
+		this.scoredDocs = orchestrator.getDocuments(query, 1);
+		this.root=orchestrator.getRoot();
+		this.blacklist=new ArrayList<String>();
+
+	}
 	public ArrayList<Entity> getEntitiesFromText(){
 		ArrayList<Entity> entities = new ArrayList<Entity>();
 		KBSearcher searcher = new KBSearcher();
@@ -135,7 +146,10 @@ public class KBLinker {
 				}
 			}
 		}
-		
+		boolean t=true;
+		if(t==true){
+			return entities;
+		}
 		System.out.println("Num unfiltered entities: "+entities.size());
 		KBFilter kbfilter = new KBFilter(entities,blacklist);
 		entities=kbfilter.filterEntities(null);

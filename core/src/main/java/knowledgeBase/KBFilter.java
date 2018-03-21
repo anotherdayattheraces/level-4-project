@@ -22,10 +22,12 @@ public class KBFilter {
 	private String path;
 	private String kbPath;
 	private static ArrayList<String> blacklist;
+	public HashMap<Entity,ArrayList<String>> entityToCategoriesMapping;
 	
 	public KBFilter(ArrayList<Entity> returnedEntities, ArrayList<String> blacklist){
 		this.path="C:/Work/Project/samples/prototype4/level-4-project/core/categories.txt";
 		this.kbPath="C:/Work/Project/samples/Unprocessed_Index";
+		
 		this.categories=readInCategories(path);
 		this.returnedEntities=returnedEntities;
 		this.blacklist=blacklist;
@@ -67,29 +69,34 @@ public class KBFilter {
 	}
 	
 	public ArrayList<Entity> filterEntities(PrintStream outputStream){ //using the instance arraylist of entities return a list of entities that have at least 1 category in the top N categories 
-		Pair<HashMap<String,ArrayList<String>>,ArrayList<Entity>> pair = getEntityCategories(kbPath,returnedEntities);
-		HashMap<String,ArrayList<String>> entityToCategoriesMapping = pair.getL();
+		Pair<HashMap<Entity,ArrayList<String>>,ArrayList<Entity>> pair = getEntityCategories(kbPath,returnedEntities);
+		entityToCategoriesMapping = pair.getL();
 		returnedEntities = pair.getR();
 		ArrayList<Entity> filteredEntities = new ArrayList<Entity>();
 		for(Entity entity:returnedEntities){
-			if((entityToCategoriesMapping.get(entity.getName())!=null)){
-				Boolean catMatch = findCategoryMatch(categories,entityToCategoriesMapping.get(entity.getName()),entity,outputStream);
+			if((entityToCategoriesMapping.get(entity)!=null)){
+				Boolean catMatch = findCategoryMatch(categories,entityToCategoriesMapping.get(entity),entity,outputStream);
 				if(catMatch){
 					filteredEntities.add(entity);
 				}
 				else{
-					if(outputStream!=null) outputStream.println("Removed entity: "+entity.getName());
+					if(outputStream!=null) //outputStream.println("Removed entity: "+entity.getName());
 					System.out.println("Removed entity: "+entity.getName());
+					entityToCategoriesMapping.remove(entity);
 					}
 				}
 			else{
-				if(outputStream!=null) outputStream.println("Removed entity: "+entity.getName());
+				if(outputStream!=null){
+					//outputStream.println("Removed entity: "+entity.getName());
+					entityToCategoriesMapping.remove(entity);
+				}
+				
 				}
 			}
 		return filteredEntities;
 	}
 	
-	public static Pair<HashMap<String,ArrayList<String>>,ArrayList<Entity>> getEntityCategories(String kbPath, ArrayList<Entity> returnedEntities){ //using the list of entities given on initilization, find the associated categories for each entity
+	public static Pair<HashMap<Entity,ArrayList<String>>,ArrayList<Entity>> getEntityCategories(String kbPath, ArrayList<Entity> returnedEntities){ //using the list of entities given on initilization, find the associated categories for each entity
 		DiskIndex index=null;
 		Document.DocumentComponents dc = new Document.DocumentComponents( false, true, true );
 		String categoryIndicator = "<link tokenizeTagContent=\"false\">Category:";
@@ -99,7 +106,7 @@ public class KBFilter {
 			e.printStackTrace();
 		}
 		ArrayList<Entity> redirectedEntities = new ArrayList<Entity>();
-		HashMap<String,ArrayList<String>> entityToCategoriesMapping = new HashMap<String,ArrayList<String>>();
+		HashMap<Entity,ArrayList<String>> entityToCategoriesMapping = new HashMap<Entity,ArrayList<String>>();
 		for(Entity entity:returnedEntities){
 			Document document=null;
 			try {
@@ -119,19 +126,19 @@ public class KBFilter {
 				continue;
 			}
 			Boolean alreadyExists=false;
-			entityToCategoriesMapping.put(entity.getName(), new ArrayList<String>());
+			entityToCategoriesMapping.put(entity, new ArrayList<String>());
 			for (int i = -1; (i = document.text.indexOf(categoryIndicator, i + 1)) != -1; i++) { //iterate through document text looking for redirect pattern - indicates redirect 
 				int start = i+categoryIndicator.length();
 				int end = document.text.substring(start).indexOf("</link>")+start;
 				String category = document.text.substring(start, end);
 				category = category.replaceAll(" ", "%20");				
-				entityToCategoriesMapping.get(entity.getName()).add(category);
+				entityToCategoriesMapping.get(entity).add(category);
 																				}
-			if(entityToCategoriesMapping.get(entity.getName()).isEmpty()&&document.text.contains("#REDIRECT")){ //if there is no categories for an entity - possibly is a redirect
+			if(entityToCategoriesMapping.get(entity).isEmpty()&&document.text.contains("#REDIRECT")){ //if there is no categories for an entity - possibly is a redirect
 				Pair<String, ArrayList<String>> redirectPair = searchRedirect(index,dc,document.text,entity.getName()); //retrieve the new entity name and it's categories
 				if(redirectPair==null) continue;
 				if(redirectPair.getR()==null) continue; //the redirected entity was not contained within the kb
-				entityToCategoriesMapping.remove(entity.getName()); //remove the old entity -> categories mapping 
+				entityToCategoriesMapping.remove(entity); //remove the old entity -> categories mapping 
 				System.out.println("Removed entity: "+entity.getName()+" replaced with: "+redirectPair.getL());
 				if(blacklist.contains(redirectPair.getL())) continue;
 				for(Entity re:redirectedEntities){
@@ -144,8 +151,8 @@ public class KBFilter {
 				}
 				if(alreadyExists) continue;
 				entity.setName(redirectPair.getL()); //set new entity name
-				entityToCategoriesMapping.put(entity.getName(), new ArrayList<String>());
-				entityToCategoriesMapping.get(entity.getName()).addAll(redirectPair.getR());
+				entityToCategoriesMapping.put(entity, new ArrayList<String>());
+				entityToCategoriesMapping.get(entity).addAll(redirectPair.getR());
 				System.out.println("Adding redirected entity: "+entity.getName());
 
 				redirectedEntities.add(entity);
@@ -165,15 +172,15 @@ public class KBFilter {
 				redirectedEntities.add(entity);
 			}
 				}
-		
 		returnedEntities = redirectedEntities;
-		return new Pair<HashMap<String,ArrayList<String>>,ArrayList<Entity>>(entityToCategoriesMapping,returnedEntities);
+		System.out.println(returnedEntities.size());
+		return new Pair<HashMap<Entity,ArrayList<String>>,ArrayList<Entity>>(entityToCategoriesMapping,returnedEntities);
 	}
 	public static Boolean findCategoryMatch(ArrayList<String> topCategories, ArrayList<String> entityCategories, Entity currentEntity, PrintStream outputStream){ //given list of top N categories and an entity's associated categories, see if you can match any
 		for(String category:topCategories){
 			for(String entityCat:entityCategories){
 				if(category.equals(entityCat)){
-					if(outputStream!=null) outputStream.println("Matched entity: "+currentEntity.getName()+" for category: "+entityCat);
+					if(outputStream!=null) //outputStream.println("Matched entity: "+currentEntity.getName()+" for category: "+entityCat);
 					System.out.println("Matched entity: "+currentEntity.getName()+" for category: "+entityCat);
 					return true;
 				}

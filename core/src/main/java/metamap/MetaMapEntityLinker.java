@@ -52,10 +52,10 @@ public class MetaMapEntityLinker {
 		this.query=topicChoicePair.getR();
 		this.topicChoice=topicChoicePair.getL();
 		System.out.println("Chosen query: "+query);
-		TopicToEntityMapper mapper = new TopicToEntityMapper();
-		this.mapping = mapper.generateRelevantEntities(query);
+		//TopicToEntityMapper mapper = new TopicToEntityMapper();
+		//this.mapping = mapper.generateRelevantEntities(query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 100); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 		this.root=orchestrator.getRoot();
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
@@ -67,10 +67,10 @@ public class MetaMapEntityLinker {
 		this.query=topics.get(topicChoice);
 		this.topicChoice=topicChoice;
 		System.out.println("Chosen query: "+query);
-		TopicToEntityMapper mapper = new TopicToEntityMapper();
-		this.mapping = mapper.generateRelevantEntities(query);
+		//TopicToEntityMapper mapper = new TopicToEntityMapper();
+		//this.mapping = mapper.generateRelevantEntities(query);
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 100); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 		this.root=orchestrator.getRoot();
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
@@ -82,6 +82,22 @@ public class MetaMapEntityLinker {
 		}
 	}
 	
+	public MetaMapEntityLinker(int i, String topicPath) {
+		this.topics=TopicToEntityMapper.readTopics(topicPath);
+		this.query=topics.get(topicChoice);
+		System.out.println("Chosen query: "+query);		
+		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
+		this.scoredDocs = orchestrator.getDocuments(query, 1); 
+		this.root=orchestrator.getRoot();
+		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
+		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
+		this.snomedToWikiMappings=MedLink.readInMappings(mappingPath);
+		try {
+			this.blacklist=MedLink.readBlackList("C:/Work/Project/samples/prototype4/level-4-project/core/MetaMapBlacklist.txt");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 	public ArrayList<Entity> generateEntities(PrintStream outputStream){
 		ArrayList<Entity> foundEntities = new ArrayList<Entity>();
 		Retrieval index=null;

@@ -133,6 +133,12 @@ public class KBLinkerEvaluator {
 		p.set("judgments", qrelFile);
 		p.set("summary", true);
 		p.set("details", true);
+		String[] metrics = {"R1","R2","R3","R4","R5","R10","R15","R20","R25","R30","R40","R50","R75","R100"};
+		p.set("metrics",metrics);
+
+
+
+		
 		Eval eval = new Eval();
 		PrintStream printstream =null;
 		try {

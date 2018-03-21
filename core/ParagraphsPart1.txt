@@ -1,0 +1,2006 @@
+---------------------------------------------------------------------------------
+Although a relatively new test, faecal calprotectin is regularly used as indicator for <link tokenizeTagContent="false">Inflammatory%20bowel%20diseases</link> 
+<page>Inflammatory bowel diseases</page> 
+inflammatory bowel diseases (IBD) during treatment and as diagnostic marker.  IBD are a group of conditions that cause a <link tokenizeTagContent="false">Wikt:pathological</link> 
+<page>Wikt:pathological</page> 
+pathological <link tokenizeTagContent="false">Inflammation</link> 
+<page>Inflammation</page> 
+inflammation of the <link tokenizeTagContent="false">Bowel</link> 
+<page>Bowel</page> 
+bowel wall. <link tokenizeTagContent="false">Crohn's%20disease</link> 
+<page>Crohn's disease</page> 
+Crohn's disease and <link tokenizeTagContent="false">Ulcerative%20colitis</link> 
+<page>Ulcerative colitis</page> 
+ulcerative colitis are the principal types of inflammatory bowel disease. Inflammatory processes result in an influx of neutrophils into the bowel <link tokenizeTagContent="false">Lumen%20(anatomy)</link> 
+<page>Lumen (anatomy)</page> 
+lumen. Since calprotectin comprises as much as 60% of the soluble protein content of the cytosol of neutrophils, it can serve as a marker for the level of intestinal inflammation. Measurement of faecal calprotectin has been shown to be strongly correlated with 111-<link tokenizeTagContent="false">Indium</link> 
+<page>Indium</page> 
+indium-labelled <link tokenizeTagContent="false">Leucocytes</link> 
+<page>Leucocytes</page> 
+leucocytes - considered the gold standard measurement of <link tokenizeTagContent="false">Intestinal</link> 
+<page>Intestinal</page> 
+intestinal inflammation. Levels of faecal calprotectin are '''normal''' in patients with <link tokenizeTagContent="false">Irritable%20bowel%20syndrome</link> 
+<page>Irritable bowel syndrome</page> 
+irritable bowel syndrome (IBS). In untreated coeliac disease, concentration levels of faecal calprotectin correlate with the degree of <link tokenizeTagContent="false">Coeliac%20disease</link> 
+<page>Coeliac disease</page> 
+intestinal mucosal lesion and normalize with a <link tokenizeTagContent="false">Gluten-free%20diet</link> 
+<page>Gluten-free diet</page> 
+gluten-free diet.
+--------------
+Inflammatory bowel disease
+Num unmapped entities: 14
+Mapping: 
+ 
+Identified: calprotectin mapped to: Calprotectin
+Identified: disease mapped to: Disease
+Identified: inflammatory bowel disease mapped to: Inflammatory Bowel Disease
+Identified: indium mapped to: Indium
+Identified: gold mapped to: Gold
+Identified: irritable bowel syndrome mapped to: Irritable Bowel Syndrome
+Identified: coeliac disease mapped to: Coeliac Disease
+Num mapped entities: 6
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Dermatitis is a group of skin conditions that includes <link tokenizeTagContent="false">Atopic%20dermatitis</link> 
+<page>Atopic dermatitis</page> 
+atopic dermatitis, <link tokenizeTagContent="false">Allergic%20contact%20dermatitis</link> 
+<page>Allergic contact dermatitis</page> 
+allergic contact dermatitis, <link tokenizeTagContent="false">Irritant%20contact%20dermatitis</link> 
+<page>Irritant contact dermatitis</page> 
+irritant contact dermatitis, and <link tokenizeTagContent="false">Stasis%20dermatitis</link> 
+<page>Stasis dermatitis</page> 
+stasis dermatitis.<ref name=Ned2012/> The exact cause of dermatitis is often unclear.<ref name=NIH2013/> Cases are believed to often involve a combination of irritation, <link tokenizeTagContent="false">Allergy</link> 
+<page>Allergy</page> 
+allergy, and <link tokenizeTagContent="false">Venous%20stasis</link> 
+<page>Venous stasis</page> 
+poor venous return. The type of dermatitis is generally determined by the person's history and the location of the rash. For example, irritant dermatitis often occurs on the hands of people who frequently get them wet. Allergic contact dermatitis, however, can occur following brief exposures to substances a person is sensitive to.<ref name=Ned2012/>
+--------------
+Contact dermatitis
+Num unmapped entities: 7
+Mapping: 
+ 
+Identified: dermatitis mapped to: Dermatitis
+Identified: atopic dermatitis mapped to: Atopic Dermatitis
+Identified: contact dermatitis mapped to: Contact dermatitis
+Num mapped entities: 3
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+'''Uniaxial crystals''' are transmissive optical elements in which the refractive index of one <link tokenizeTagContent="false">Crystal%20axis</link> 
+<page>Crystal axis</page> 
+crystal axis is different from the other two crystal axes (i.e. ''n'' ≠ ''n'' = ''n''). This unique axis is called the <link tokenizeTagContent="false">Extraordinary%20axis</link> 
+<page>Extraordinary axis</page> 
+extraordinary axis and is also referred to as the <link tokenizeTagContent="false">Optic%20axis%20of%20a%20crystal</link> 
+<page>Optic axis of a crystal</page> 
+optic axis. Light travels with a higher phase velocity through an axis that has the smallest <link tokenizeTagContent="false">Refractive%20index</link> 
+<page>Refractive index</page> 
+refractive index and this axis is called the <link tokenizeTagContent="false">Fast%20axis</link> 
+<page>Fast axis</page> 
+fast axis. Similarly, an axis which has the highest refractive index is called a <link tokenizeTagContent="false">Slow%20axis</link> 
+<page>Slow axis</page> 
+slow axis since the <link tokenizeTagContent="false">Phase%20velocity</link> 
+<page>Phase velocity</page> 
+phase velocity of light is the lowest along this axis. The optic axis can be the fast or the slow axis for the crystal depending upon the material. Negative uniaxial crystals (e.g. <link tokenizeTagContent="false">Calcite</link> 
+<page>Calcite</page> 
+calcite CaCO, <link tokenizeTagContent="false">Ruby</link> 
+<page>Ruby</page> 
+ruby AlO) have ''n'' < ''n'' so for these crystals, the extraordinary axis (optic axis) is the fast axis whereas for positive uniaxial crystals (e.g. <link tokenizeTagContent="false">Quartz</link> 
+<page>Quartz</page> 
+quartz SiO, <link tokenizeTagContent="false">Sellaite</link> 
+<page>Sellaite</page> 
+sellaite (<link tokenizeTagContent="false">Magnesium%20fluoride</link> 
+<page>Magnesium fluoride</page> 
+magnesium fluoride) MgF, <link tokenizeTagContent="false">Rutile</link> 
+<page>Rutile</page> 
+rutile TiO), ''n'' > ''n '' and thus the extraordinary axis (optic axis) is the slow axis.
+--------------
+Gut-brain axis
+Num unmapped entities: 4
+Mapping: 
+ 
+Identified: magnesium mapped to: Magnesium
+Identified: fluoride mapped to: Fluoride
+Num mapped entities: 2
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+'''Antibiotic misuse''', sometimes called '''antibiotic abuse''' or '''antibiotic overuse''', refers to the misuse or overuse of <link tokenizeTagContent="false">Antibiotic</link> 
+<page>Antibiotic</page> 
+antibiotics, with potentially serious effects on health. It is a contributing factor to the development of <link tokenizeTagContent="false">Antibiotic%20resistance</link> 
+<page>Antibiotic resistance</page> 
+antibiotic resistance, including the creation of <link tokenizeTagContent="false">Antibiotic%20resistance</link> 
+<page>Antibiotic resistance</page> 
+multidrug-resistant bacteria, informally called "super bugs": relatively harmless bacteria can develop resistance to multiple antibiotics and cause life-threatening infections.
+--------------
+Antibiotic misuse
+Num unmapped entities: 2
+Mapping: 
+ 
+Identified: antibiotic mapped to: Antibiotic
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Species of ''Legionella'' known to cause Pontiac fever include ''<link tokenizeTagContent="false">Legionella%20pneumophila</link> 
+<page>Legionella pneumophila</page> 
+Legionella pneumophila'', ''<link tokenizeTagContent="false">Legionella%20longbeachae</link> 
+<page>Legionella longbeachae</page> 
+Legionella longbeachae'', ''<link tokenizeTagContent="false">Legionella%20feeleii</link> 
+<page>Legionella feeleii</page> 
+Legionella feeleii'', ''Legionella micdadei'', and ''<link tokenizeTagContent="false">Legionella%20anisa</link> 
+<page>Legionella anisa</page> 
+Legionella anisa''.
+--------------
+Legionella
+Num unmapped entities: 4
+Mapping: 
+ 
+Identified: pontiac fever mapped to: Pontiac fever
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Renzapride was being investigated for the treatment of constipation-predominant <link tokenizeTagContent="false">Irritable%20bowel%20syndrome</link> 
+<page>Irritable bowel syndrome</page> 
+irritable bowel syndrome (IBS-C). It is also potentially effective for <link tokenizeTagContent="false">Irritable%20bowel%20syndrome</link> 
+<page>Irritable bowel syndrome</page> 
+irritable bowel syndrome with alternating stool pattern (IBS-A).  It is being developed by <link tokenizeTagContent="false">Alizyme</link> 
+<page>Alizyme</page> 
+Alizyme <link tokenizeTagContent="false">Public%20limited%20company</link> 
+<page>Public limited company</page> 
+plc of the United Kingdom.
+--------------
+Irritable bowel syndrome
+Num unmapped entities: 3
+Mapping: 
+ 
+Identified: irritable bowel syndrome mapped to: Irritable Bowel Syndrome
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Venlafaxine is usually categorized as a <link tokenizeTagContent="false">Serotonin-norepinephrine%20reuptake%20inhibitor</link> 
+<page>Serotonin-norepinephrine reuptake inhibitor</page> 
+serotonin-norepinephrine reuptake inhibitor (SNRI), but it has been referred to as a <link tokenizeTagContent="false">Serotonin-norepinephrine-dopamine%20reuptake%20inhibitor</link> 
+<page>Serotonin-norepinephrine-dopamine reuptake inhibitor</page> 
+serotonin-norepinephrine-dopamine reuptake inhibitor (SNDRI). It works by blocking the <link tokenizeTagContent="false">Monoamine%20transporter</link> 
+<page>Monoamine transporter</page> 
+transporter "reuptake" proteins for key <link tokenizeTagContent="false">Neurotransmitter</link> 
+<page>Neurotransmitter</page> 
+neurotransmitters affecting mood, thereby leaving more active neurotransmitters in the <link tokenizeTagContent="false">Synapse</link> 
+<page>Synapse</page> 
+synapse. The neurotransmitters affected are <link tokenizeTagContent="false">Serotonin</link> 
+<page>Serotonin</page> 
+serotonin and <link tokenizeTagContent="false">Norepinephrine</link> 
+<page>Norepinephrine</page> 
+norepinephrine. Additionally, in high doses it weakly inhibits the reuptake of <link tokenizeTagContent="false">Dopamine</link> 
+<page>Dopamine</page> 
+dopamine, with recent evidence showing that the <link tokenizeTagContent="false">Norepinephrine%20transporter</link> 
+<page>Norepinephrine transporter</page> 
+norepinephrine transporter also transports some <link tokenizeTagContent="false">Dopamine</link> 
+<page>Dopamine</page> 
+dopamine as well, since dopamine is inactivated by norepinephrine reuptake in the <link tokenizeTagContent="false">Frontal%20cortex</link> 
+<page>Frontal cortex</page> 
+frontal cortex. The frontal cortex largely lacks dopamine transporters, therefore venlafaxine can increase dopamine neurotransmission in this part of the brain.
+--------------
+Norepinephrine
+Num unmapped entities: 6
+Mapping: 
+ 
+Identified: norepinephrine mapped to: Norepinephrine
+Identified: neurotransmitter mapped to: Neurotransmitter
+Num mapped entities: 2
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Interest in the relationship between gut flora and neuropsychiatric issues was sparked by a 2004 study showing that germ-free mice showed an exaggerated HPA axis response to stress compared to non-GF laboratory mice.<ref name=2014Wangrev/>  As of January 2016, most of the work that has been done on the role of gut flora in the gut-brain axis had been conducted in animals, or characterizing the various neuroactive compounds that gut flora can produce, and studies with humans measuring differences between people with various psychiatric and neurological differences, or changes to gut flora in response to stress, or measuring effects of various <link tokenizeTagContent="false">Probiotics</link> 
+<page>Probiotics</page> 
+probiotics (dubbed "psychobiotics in this context), had generally been small and could not be generalized; whether changes to gut flora are a result of disease, a cause of disease, or both in any number of possible feedback loops in the gut-brain axis, remained unclear.<ref name=2014Wangrev/><ref name=JFP2016rev/>
+--------------
+Gut flora
+Num unmapped entities: 3
+Mapping: 
+ 
+Identified: disease mapped to: Disease
+Num mapped entities: 0
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Hearing loss may be caused by a number of factors, including: <link tokenizeTagContent="false">Genetics</link> 
+<page>Genetics</page> 
+genetics, <link tokenizeTagContent="false">Ageing</link> 
+<page>Ageing</page> 
+ageing, <link tokenizeTagContent="false">Noise-induced%20hearing%20loss</link> 
+<page>Noise-induced hearing loss</page> 
+exposure to noise, some <link tokenizeTagContent="false">Infection</link> 
+<page>Infection</page> 
+infections, birth complications, trauma to the ear, and certain medications or toxins. A common condition that results in hearing loss is <link tokenizeTagContent="false">Chronic%20ear%20infections</link> 
+<page>Chronic ear infections</page> 
+chronic ear infections. Certain infections during pregnancy such as <link tokenizeTagContent="false">Syphilis</link> 
+<page>Syphilis</page> 
+syphilis and <link tokenizeTagContent="false">Rubella</link> 
+<page>Rubella</page> 
+rubella may also cause hearing loss. Hearing loss is diagnosed when <link tokenizeTagContent="false">Hearing%20testing</link> 
+<page>Hearing testing</page> 
+hearing testing finds that a person is unable to hear 25 <link tokenizeTagContent="false">Decibels</link> 
+<page>Decibels</page> 
+decibels in at least one ear.<ref name=WHO2015/> Testing for poor hearing is recommended for all newborns.<ref name=Las2014/> Hearing loss can be categorised as mild, moderate, moderate-severe, severe, or profound.<ref name=WHO2015/> There are three main types of hearing loss, <link tokenizeTagContent="false">Conductive%20hearing%20loss</link> 
+<page>Conductive hearing loss</page> 
+conductive hearing loss, <link tokenizeTagContent="false">Sensorineural%20hearing%20loss</link> 
+<page>Sensorineural hearing loss</page> 
+sensorineural hearing loss, and mixed hearing loss.
+--------------
+Noise-induced hearing loss
+Num unmapped entities: 6
+Mapping: 
+ 
+Num mapped entities: 0
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Ribavirin is used primarily to treat <link tokenizeTagContent="false">Hepatitis%20C</link> 
+<page>Hepatitis C</page> 
+hepatitis C and <link tokenizeTagContent="false">Viral%20hemorrhagic%20fever</link> 
+<page>Viral hemorrhagic fever</page> 
+viral hemorrhagic fevers (which is an orphan indication in most countries). In this former indication the oral (capsule or tablet) form of ribavirin is used in combination with <link tokenizeTagContent="false">Pegylated%20interferon%20alpha</link> 
+<page>Pegylated interferon alpha</page> 
+pegylated <link tokenizeTagContent="false">Interferon%20alfa</link> 
+<page>Interferon alfa</page> 
+interferon alfa. Including in people coinfected with <link tokenizeTagContent="false">Hepatitis%20B</link> 
+<page>Hepatitis B</page> 
+hepatitis B, <link tokenizeTagContent="false">Human%20Immunodeficiency%20Virus</link> 
+<page>Human Immunodeficiency Virus</page> 
+HIV and in the pediatric population. <link tokenizeTagContent="false">Statin</link> 
+<page>Statin</page> 
+Statins may improve this combination's efficacy in treating hepatitis C. Ribavirin is the only known treatment for a variety of <link tokenizeTagContent="false">Viral%20hemorrhagic%20fever</link> 
+<page>Viral hemorrhagic fever</page> 
+viral hemorrhagic fevers, including <link tokenizeTagContent="false">Lassa%20fever</link> 
+<page>Lassa fever</page> 
+Lassa fever, <link tokenizeTagContent="false">Crimean-Congo%20hemorrhagic%20fever</link> 
+<page>Crimean-Congo hemorrhagic fever</page> 
+Crimean-Congo hemorrhagic fever, <link tokenizeTagContent="false">Venezuelan%20hemorrhagic%20fever</link> 
+<page>Venezuelan hemorrhagic fever</page> 
+Venezuelan hemorrhagic fever, and <link tokenizeTagContent="false">Hantavirus</link> 
+<page>Hantavirus</page> 
+Hantavirus infection, although data regarding these infections are scarce and the drug might be effective only in early stages. It is noted by the <link tokenizeTagContent="false">USAMRIID</link> 
+<page>USAMRIID</page> 
+USAMRIID that "Ribavirin has poor in vitro and in vivo activity against the <link tokenizeTagContent="false">Filoviruses</link> 
+<page>Filoviruses</page> 
+filoviruses (<link tokenizeTagContent="false">Ebola</link> 
+<page>Ebola</page> 
+Ebola and <link tokenizeTagContent="false">Marburg%20Virus</link> 
+<page>Marburg Virus</page> 
+Marburg) and the <link tokenizeTagContent="false">Flaviviruses</link> 
+<page>Flaviviruses</page> 
+flaviviruses (<link tokenizeTagContent="false">Dengue</link> 
+<page>Dengue</page> 
+dengue, <link tokenizeTagContent="false">Yellow%20fever</link> 
+<page>Yellow fever</page> 
+yellow fever, <link tokenizeTagContent="false">Omsk%20hemorrhagic%20fever</link> 
+<page>Omsk hemorrhagic fever</page> 
+Omsk hemorrhagic fever, and <link tokenizeTagContent="false">Kyasanur%20forest%20disease</link> 
+<page>Kyasanur forest disease</page> 
+Kyasanur forest disease)" The aerosol form has been used in the past to treat <link tokenizeTagContent="false">Respiratory%20syncytial%20virus</link> 
+<page>Respiratory syncytial virus</page> 
+respiratory syncytial virus-related diseases in children, although the evidence to support this is rather weak.
+--------------
+Fever
+Num unmapped entities: 19
+Mapping: 
+ 
+Identified: ribavirin mapped to: Ribavirin
+Identified: viral hemorrhagic fever mapped to: Fever
+Identified: interferon mapped to: Interferon
+Identified: interferon alfa mapped to: Interferon alfa
+Identified: immunodeficiency mapped to: Immunodeficiency
+Identified: lassa fever mapped to: Lassa Fever
+Identified: congo hemorrhagic fever mapped to: Fever
+Identified: venezuelan hemorrhagic fever mapped to: Venezuelan hemorrhagic fever
+Identified: drug mapped to: Drug
+Identified: dengue mapped to: Dengue
+Identified: yellow fever mapped to: Yellow Fever
+Identified: omsk hemorrhagic fever mapped to: Fever
+Identified: disease mapped to: Disease
+Identified: kyasanur forest disease mapped to: Disease
+Num mapped entities: 9
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+All three currently licensed anti-HCMV drugs target the viral <link tokenizeTagContent="false">DNA%20polymerase</link> 
+<page>DNA polymerase</page> 
+DNA polymerase, pUL54. <link tokenizeTagContent="false">Ganciclovir</link> 
+<page>Ganciclovir</page> 
+Ganciclovir (GCV) acts as nucleoside analogue. Its antiviral activity requires phosphorylation by the HCMV protein kinase, pUL97. The second drug, <link tokenizeTagContent="false">Cidofovir</link> 
+<page>Cidofovir</page> 
+Cidofovir (CDV), is a nucleotide analogue, which is already phosphorylated and thus active. Finally, <link tokenizeTagContent="false">Foscarnet</link> 
+<page>Foscarnet</page> 
+Foscarnet (FOS) has a different mode of action. It directly inhibits polymerase function by blocking the <link tokenizeTagContent="false">Pyrophosphate</link> 
+<page>Pyrophosphate</page> 
+pyrophosphate binding site of pUL54 (note: investigational drug <link tokenizeTagContent="false">Letermovir</link> 
+<page>Letermovir</page> 
+letermovir acts through a mechanism that involves viral terminase).Two HCMV proteins are implicated in antiviral resistance against these three drugs: pUL97 and pUL54. Specific mutations in pUL97 can cause reduced phosphorylation activity of this viral protein kinase. Thus, fewer monophosphorylated – and thus active – GCV can be synthesized, leading to antiviral resistance against GCV. About 90% of all GCV resistances are caused by such mutations in UL97. Mutations in pUL54 may have different effects leading to antiviral <link tokenizeTagContent="false">Drug%20resistance</link> 
+<page>Drug resistance</page> 
+drug resistance: A. They can lead to decreased affinity to antiviral compounds. This resistance mechanism concerns GCV, CDV and FOS and may lead to multidrug resistance. B. Some mutations in pUL54 can increase the polymerase’s <link tokenizeTagContent="false">Exonuclease</link> 
+<page>Exonuclease</page> 
+exonuclease activity. This causes enhanced recognition of incorporated GCV and CDV. As a result, these dNTP analogues are excised more efficiently.Major risk factors for HCMV drug resistance are the residual capacity of the host’s immune system to control viral replication and the overall amount and duration of viral replication.HCMV antiviral drug resistance can be detected by phenotypic or by genotypic drug resistance testing. Phenotypic resistance testing involves cultivation of the virus in cell culture and testing its susceptibility using different antiviral drug concentrations in order to determine <link tokenizeTagContent="false">EC50</link> 
+<page>EC50</page> 
+EC50 values. In contrast, genotypic resistance testing means the detection of resistance associated mutations in UL97 and UL54 by <link tokenizeTagContent="false">Sequencing</link> 
+<page>Sequencing</page> 
+sequencing. Genotypic resistance testing is becoming the method of choice because it is faster, but requires previous phenotypic characterisation of each newly found mutation. This can be performed via a web-based search tool that links a patient’s HCMV sequence to a database containing all published UL97 and UL54 mutations and corresponding antiviral drug susceptibility phenotypes.
+--------------
+Antiviral drug
+Num unmapped entities: 16
+Mapping: 
+ 
+Identified: protein kinase mapped to: Protein Kinase
+Identified: drug mapped to: Drug
+Identified: nucleotide mapped to: Nucleotide
+Identified: function mapped to: Function
+Identified: pyrophosphate mapped to: Pyrophosphate
+Identified: lead mapped to: Lead
+Num mapped entities: 4
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Many studies show that probiotics exhibit a protective effect against different types of acute <link tokenizeTagContent="false">Diarrhea</link> 
+<page>Diarrhea</page> 
+diarrhea, such as <link tokenizeTagContent="false">Antibiotic-associated%20diarrhea</link> 
+<page>Antibiotic-associated diarrhea</page> 
+antibiotic-associated diarrhea, traveller’s diarrhea and viral diarrhea. In the United States, more than 15 million children develop acute diarrhea per year, with the treatment typically being rehydration and recuperative procedures. As many prevention methods for diarrhea have adverse effects (e.g. intestinal <link tokenizeTagContent="false">Intussusception%20(blood%20vessel%20growth)</link> 
+<page>Intussusception (blood vessel growth)</page> 
+intussusception in the usage of <link tokenizeTagContent="false">Rotavirus</link> 
+<page>Rotavirus</page> 
+rotavirus vaccine), scientists are now turning to probiotics in hope of using it as a supplement to treat acute diarrhea. In a review that covered 34 masked, randomized, placebo-controlled trials related to diarrhea and probiotics, it was concluded that there was an overall reduction of 52% in antibiotic associated diarrhea, an 8% reduction in traveller’s diarrhea, and a 34% reduction in other types of acute diarrhea. These numbers reflect a protective effect against diarrhea in subjects including both adults and children. In terms of children (age < 18 years), seven out of the 12 trials conducted in a health care setting showed a reduction in acute diarrhea of 57%. There was no significant difference in the protective effect of strains, namely ''<link tokenizeTagContent="false">Saccharomyces%20boulardii</link> 
+<page>Saccharomyces boulardii</page> 
+Saccharomyces boulardii'', ''<link tokenizeTagContent="false">Lactobacillus%20rhamnosus</link> 
+<page>Lactobacillus rhamnosus</page> 
+Lactobacillus rhamnosus GG'', ''<link tokenizeTagContent="false">Lactobacillus%20acidophilus</link> 
+<page>Lactobacillus acidophilus</page> 
+Lactobacillus acidophilus'', and ''<link tokenizeTagContent="false">Lactobacillus%20bulgaricus</link> 
+<page>Lactobacillus bulgaricus</page> 
+Lactobacillus bulgaricus''.<ref name=ReferenceA/>
+--------------
+Diarrhea
+Num unmapped entities: 13
+Mapping: 
+ 
+Identified: acute diarrhea mapped to: Acute diarrhea
+Identified: antibiotic mapped to: Antibiotic
+Identified: intussusception mapped to: Intussusception
+Identified: blood mapped to: Blood
+Identified: rotavirus vaccine mapped to: Rotavirus vaccine
+Identified: saccharomyces boulardii mapped to: Saccharomyces boulardii
+Identified: lactobacillus mapped to: Lactobacillus
+Num mapped entities: 6
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+In the US, the <link tokenizeTagContent="false">American%20Academy%20of%20Allergy,%20Asthma%20and%20Immunology</link> 
+<page>American Academy of Allergy, Asthma and Immunology</page> 
+American Academy of Allergy, Asthma and Immunology and the <link tokenizeTagContent="false">National%20Institute%20of%20Allergy%20and%20Infectious%20Diseases</link> 
+<page>National Institute of Allergy and Infectious Diseases</page> 
+National Institute of Allergy and Infectious Diseases have both advised that applied kinesiology should not be used in the diagnosis of allergies. The <link tokenizeTagContent="false">European%20Academy%20of%20Allergology%20and%20Clinical%20Immunology</link> 
+<page>European Academy of Allergology and Clinical Immunology</page> 
+European Academy of Allergology and Clinical Immunology, the <link tokenizeTagContent="false">National%20Institute%20for%20Clinical%20Excellence</link> 
+<page>National Institute for Clinical Excellence</page> 
+National Institute for Clinical Excellence of the UK, the <link tokenizeTagContent="false">Australasian%20Society%20of%20Clinical%20Immunology%20and%20Allergy</link> 
+<page>Australasian Society of Clinical Immunology and Allergy</page> 
+Australasian Society of Clinical Immunology and Allergy and the Allergy Society of South Africa has also advised similarly. The <link tokenizeTagContent="false">World%20Allergy%20Organization</link> 
+<page>World Allergy Organization</page> 
+World Allergy Organization does not have a formal position on applied  kinesiology, but in educational materials from its ''Global Resources In Allergy'' program it lists applied kinesiology as an unproven test and describes it as useless. In 1998, a small pilot study published in the <link tokenizeTagContent="false">International%20Journal%20of%20Neuroscience</link> 
+<page>International Journal of Neuroscience</page> 
+International Journal of Neuroscience showed a correlation between applied kinesiology muscle testings and serum immunoglobulin levels for food allergies. 19 of 21 (90.5%) suspected food allergies diagnosed by applied kinesiology were confirmed by serum immunoglobulin tests.  A follow up review published in 2005 in the Current Opinion of Allergy and Clinical Immunology concluded applied kinesiology had no proven basis for diagnosis.
+--------------
+Allergy
+Num unmapped entities: 8
+Mapping: 
+ 
+Identified: asthma mapped to: Asthma
+Identified: immunology mapped to: Immunology
+Identified: serum mapped to: Serum
+Num mapped entities: 3
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+The lower gastrointestinal tract includes most of the <link tokenizeTagContent="false">Small%20intestine</link> 
+<page>Small intestine</page> 
+small intestine and all of the <link tokenizeTagContent="false">Large%20intestine</link> 
+<page>Large intestine</page> 
+large intestine. In <link tokenizeTagContent="false">Human%20anatomy</link> 
+<page>Human anatomy</page> 
+human anatomy, the ''intestine'' (''bowel'', or ''gut'') is the segment of the gastrointestinal tract extending from the pyloric sphincter of the <link tokenizeTagContent="false">Stomach</link> 
+<page>Stomach</page> 
+stomach to the <link tokenizeTagContent="false">Anus</link> 
+<page>Anus</page> 
+anus and, in humans and other mammals, consists of two segments, the <link tokenizeTagContent="false">Small%20intestine</link> 
+<page>Small intestine</page> 
+small intestine and the <link tokenizeTagContent="false">Large%20intestine</link> 
+<page>Large intestine</page> 
+large intestine. In humans, the small intestine is further subdivided into the <link tokenizeTagContent="false">Duodenum</link> 
+<page>Duodenum</page> 
+duodenum, <link tokenizeTagContent="false">Jejunum</link> 
+<page>Jejunum</page> 
+jejunum and <link tokenizeTagContent="false">Ileum</link> 
+<page>Ileum</page> 
+ileum while the large intestine is subdivided into the <link tokenizeTagContent="false">Cecum</link> 
+<page>Cecum</page> 
+cecum, <link tokenizeTagContent="false">Colon%20(anatomy)</link> 
+<page>Colon (anatomy)</page> 
+colon, <link tokenizeTagContent="false">Rectum</link> 
+<page>Rectum</page> 
+rectum, and <link tokenizeTagContent="false">Anal%20canal</link> 
+<page>Anal canal</page> 
+anal canal.
+--------------
+Large intestine
+Num unmapped entities: 5
+Mapping: 
+ 
+Num mapped entities: 0
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Certain medical conditions can cause chronic fatigue and must be ruled out before a diagnosis of CFS can be given. <link tokenizeTagContent="false">Hypothyroidism</link> 
+<page>Hypothyroidism</page> 
+Hypothyroidism, <link tokenizeTagContent="false">Anemia</link> 
+<page>Anemia</page> 
+anemia, <link tokenizeTagContent="false">Coeliac%20disease</link> 
+<page>Coeliac disease</page> 
+coeliac disease (that can occur without gastrointestinal symptoms), <link tokenizeTagContent="false">Diabetes</link> 
+<page>Diabetes</page> 
+diabetes and certain <link tokenizeTagContent="false">Mental%20disorder</link> 
+<page>Mental disorder</page> 
+psychiatric disorders are a few of the diseases that must be ruled out if the patient presents with appropriate symptoms.<ref name=NICECG53/> Other diseases, listed by the <link tokenizeTagContent="false">Centers%20for%20Disease%20Control%20and%20Prevention</link> 
+<page>Centers for Disease Control and Prevention</page> 
+Centers for Disease Control and Prevention, include <link tokenizeTagContent="false">Infection</link> 
+<page>Infection</page> 
+infectious diseases (such as <link tokenizeTagContent="false">Epstein%E2%80%93Barr%20virus</link> 
+<page>Epstein–Barr virus</page> 
+Epstein–Barr virus, <link tokenizeTagContent="false">Influenza</link> 
+<page>Influenza</page> 
+influenza, <link tokenizeTagContent="false">HIV/AIDS</link> 
+<page>HIV/AIDS</page> 
+HIV infection, <link tokenizeTagContent="false">Tuberculosis</link> 
+<page>Tuberculosis</page> 
+tuberculosis, <link tokenizeTagContent="false">Lyme%20disease</link> 
+<page>Lyme disease</page> 
+Lyme disease), neuroendocrine diseases (such as <link tokenizeTagContent="false">Thyroiditis</link> 
+<page>Thyroiditis</page> 
+thyroiditis, <link tokenizeTagContent="false">Addison's%20disease</link> 
+<page>Addison's disease</page> 
+Addison's disease, <link tokenizeTagContent="false">Adrenal%20insufficiency</link> 
+<page>Adrenal insufficiency</page> 
+adrenal insufficiency, <link tokenizeTagContent="false">Cushing's%20disease</link> 
+<page>Cushing's disease</page> 
+Cushing's disease), <link tokenizeTagContent="false">Hematologic%20diseases</link> 
+<page>Hematologic diseases</page> 
+hematologic diseases (such as occult malignancy, <link tokenizeTagContent="false">Lymphoma</link> 
+<page>Lymphoma</page> 
+lymphoma), rheumatologic diseases (such as <link tokenizeTagContent="false">Fibromyalgia</link> 
+<page>Fibromyalgia</page> 
+fibromyalgia, <link tokenizeTagContent="false">Polymyalgia%20rheumatica</link> 
+<page>Polymyalgia rheumatica</page> 
+polymyalgia rheumatica, <link tokenizeTagContent="false">Sj%C3%B6gren's%20syndrome</link> 
+<page>Sjögren's syndrome</page> 
+Sjögren's syndrome, <link tokenizeTagContent="false">Giant-cell%20arteritis</link> 
+<page>Giant-cell arteritis</page> 
+giant-cell arteritis, <link tokenizeTagContent="false">Polymyositis</link> 
+<page>Polymyositis</page> 
+polymyositis, <link tokenizeTagContent="false">Dermatomyositis</link> 
+<page>Dermatomyositis</page> 
+dermatomyositis), <link tokenizeTagContent="false">Mental%20disorder</link> 
+<page>Mental disorder</page> 
+psychiatric diseases (such as <link tokenizeTagContent="false">Bipolar%20disorder</link> 
+<page>Bipolar disorder</page> 
+bipolar disorder, <link tokenizeTagContent="false">Schizophrenia</link> 
+<page>Schizophrenia</page> 
+schizophrenia, <link tokenizeTagContent="false">Delusional%20disorder</link> 
+<page>Delusional disorder</page> 
+delusional disorders, <link tokenizeTagContent="false">Dementia</link> 
+<page>Dementia</page> 
+dementia, <link tokenizeTagContent="false">Anorexia%20nervosa</link> 
+<page>Anorexia nervosa</page> 
+anorexia/<link tokenizeTagContent="false">Bulimia%20nervosa</link> 
+<page>Bulimia nervosa</page> 
+bulimia nervosa), neuropsychologic diseases (such as <link tokenizeTagContent="false">Obstructive%20sleep%20apnea</link> 
+<page>Obstructive sleep apnea</page> 
+obstructive sleep apnea, <link tokenizeTagContent="false">Parkinsonism</link> 
+<page>Parkinsonism</page> 
+parkinsonism, <link tokenizeTagContent="false">Multiple%20sclerosis</link> 
+<page>Multiple sclerosis</page> 
+multiple sclerosis),  and others (such as nasal obstruction from <link tokenizeTagContent="false">Allergy</link> 
+<page>Allergy</page> 
+allergies, <link tokenizeTagContent="false">Sinusitis</link> 
+<page>Sinusitis</page> 
+sinusitis, anatomic obstruction, <link tokenizeTagContent="false">Autoimmune%20disease</link> 
+<page>Autoimmune disease</page> 
+autoimmune diseases, some <link tokenizeTagContent="false">Chronic%20condition</link> 
+<page>Chronic condition</page> 
+chronic illness, alcohol or <link tokenizeTagContent="false">Substance%20abuse</link> 
+<page>Substance abuse</page> 
+substance abuse, pharmacologic <link tokenizeTagContent="false">Side%20effect</link> 
+<page>Side effect</page> 
+side effects, <link tokenizeTagContent="false">Toxic%20heavy%20metal</link> 
+<page>Toxic heavy metal</page> 
+heavy metal exposure and toxicity, marked body weight fluctuation).
+--------------
+Crohn's disease
+Num unmapped entities: 39
+Mapping: 
+ 
+Identified: hypothyroidism mapped to: Hypothyroidism
+Identified: disease mapped to: Disease
+Identified: coeliac disease mapped to: Coeliac Disease
+Identified: influenza mapped to: Influenza
+Identified: tuberculosis mapped to: Tuberculosis
+Identified: thyroiditis mapped to: Thyroiditis
+Identified: fibromyalgia mapped to: Fibromyalgia
+Identified: polymyalgia mapped to: Polymyalgia
+Identified: giant cell arteritis mapped to: Giant cell arteritis
+Identified: delusional disorder mapped to: Delusional Disorder
+Identified: sleep apnea mapped to: Sleep Apnea
+Identified: parkinsonism mapped to: Parkinsonism
+Identified: autoimmune disease mapped to: Autoimmune Disease
+Identified: alcohol mapped to: Alcohol
+Identified: substance mapped to: Substance
+Identified: substance abuse mapped to: Substance Abuse
+Identified: heavy metal mapped to: Heavy Metal
+Identified: body weight mapped to: Body Weight
+Num mapped entities: 16
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+In 2010 Piarroux was asked by the <link tokenizeTagContent="false">French%20government</link> 
+<page>French government</page> 
+French government to investigate the <link tokenizeTagContent="false">Haiti%20cholera%20outbreak</link> 
+<page>Haiti cholera outbreak</page> 
+Haiti cholera epidemic; questions arose in the <link tokenizeTagContent="false">Scientific%20community</link> 
+<page>Scientific community</page> 
+scientific community as <link tokenizeTagContent="false">Haiti</link> 
+<page>Haiti</page> 
+Haiti had never been hit by <link tokenizeTagContent="false">Cholera</link> 
+<page>Cholera</page> 
+cholera before. His investigation led to the controversial conclusion that the <link tokenizeTagContent="false">Epidemic</link> 
+<page>Epidemic</page> 
+epidemic was imported by <link tokenizeTagContent="false">United%20Nations%20peacekeeping</link> 
+<page>United Nations peacekeeping</page> 
+United Nations soldiers in a <link tokenizeTagContent="false">Nepal</link> 
+<page>Nepal</page> 
+Nepalese <link tokenizeTagContent="false">United%20Nations%20peacekeeping</link> 
+<page>United Nations peacekeeping</page> 
+UN peacekeeping camp near <link tokenizeTagContent="false">Mirebalais</link> 
+<page>Mirebalais</page> 
+Mirebalais in the center of <link tokenizeTagContent="false">Haiti</link> 
+<page>Haiti</page> 
+Haiti. His findings ran counter to the more popular <link tokenizeTagContent="false">Haiti</link> 
+<page>Haiti</page> 
+Haitian environmental <link tokenizeTagContent="false">Cholera</link> 
+<page>Cholera</page> 
+cholera <link tokenizeTagContent="false">Paradigm</link> 
+<page>Paradigm</page> 
+paradigm. <link tokenizeTagContent="false">Rita%20R.%20Colwell</link> 
+<page>Rita R. Colwell</page> 
+Pr Rita Colwell, the main proponent of the environmental theory, postulated it was a "perfect storm" of three converging factors, an <link tokenizeTagContent="false">Earthquake</link> 
+<page>Earthquake</page> 
+earthquake followed by a hot summer and then a <link tokenizeTagContent="false">Hurricane</link> 
+<page>Hurricane</page> 
+Hurricane that triggered the explosive <link tokenizeTagContent="false">Epidemic</link> 
+<page>Epidemic</page> 
+epidemic.  Piarroux agreed that some <link tokenizeTagContent="false">Vibrio%20cholerae</link> 
+<page>Vibrio cholerae</page> 
+vibrios are living in coastal waters, but argued that in <link tokenizeTagContent="false">Haiti</link> 
+<page>Haiti</page> 
+Haiti (as in <link tokenizeTagContent="false">Democratic%20Republic%20of%20Congo</link> 
+<page>Democratic Republic of Congo</page> 
+Democratic Republic of Congo), <link tokenizeTagContent="false">Cholera</link> 
+<page>Cholera</page> 
+cholera didn’t come ex nihilo from coastal water, and further that the storm came after the <link tokenizeTagContent="false">Epidemic</link> 
+<page>Epidemic</page> 
+epidemics had started. Other <link tokenizeTagContent="false">Scientist</link> 
+<page>Scientist</page> 
+scientists demonstrated that the <link tokenizeTagContent="false">Cholera</link> 
+<page>Cholera</page> 
+cholera in <link tokenizeTagContent="false">Haiti</link> 
+<page>Haiti</page> 
+Haiti originated from <link tokenizeTagContent="false">Nepal</link> 
+<page>Nepal</page> 
+Nepal. Human mobility was thus key to <link tokenizeTagContent="false">Transmission%20(medicine)</link> 
+<page>Transmission (medicine)</page> 
+disease transmission in <link tokenizeTagContent="false">Haiti</link> 
+<page>Haiti</page> 
+Haiti.  This was important information for formulating an effective elimination strategy. Details of the political and scientific controversies are presented in ''Deadly River'' by <link tokenizeTagContent="false">Ralph%20R.%20Frerichs</link> 
+<page>Ralph R. Frerichs</page> 
+Ralph R. Frerichs (<link tokenizeTagContent="false">Cornell%20University%20Press</link> 
+<page>Cornell University Press</page> 
+Cornell University Press, 2016). Following the publication of a long time <link tokenizeTagContent="false">United%20Nations%20Special%20Rapporteur</link> 
+<page>United Nations Special Rapporteur</page> 
+United Nations Special Rapporteur, <link tokenizeTagContent="false">Philip%20Alston</link> 
+<page>Philip Alston</page> 
+Philip Alston, the <link tokenizeTagContent="false">Secretary-General%20of%20the%20United%20Nations</link> 
+<page>Secretary-General of the United Nations</page> 
+Secretary-General of the United Nations <link tokenizeTagContent="false">Ban%20Ki-moon</link> 
+<page>Ban Ki-moon</page> 
+Ban Ki-moon acknowledged the role of <link tokenizeTagContent="false">United%20Nations%20peacekeeping</link> 
+<page>United Nations peacekeeping</page> 
+United Nations soldiers in the beginning of the Haitian cholera epidemics. He presently defends a new approach based on an "intense effort to treat and prevent the disease, as well as a concerted effort to deliver material assistance to those most directly affected."
+--------------
+Cholera
+Num unmapped entities: 8
+Mapping: 
+ 
+Identified: cholera mapped to: Cholera
+Identified: disease mapped to: Disease
+Identified: river mapped to: River
+Num mapped entities: 2
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+In his textbooks and other writings, Klein introduced a new concept of <link tokenizeTagContent="false">Immunology</link> 
+<page>Immunology</page> 
+immunology, in which he conceived the discipline as a branch of biological sciences, rather than as a narrow province of medical studies, as it had been represented traditionally. He defined <link tokenizeTagContent="false">Immunology</link> 
+<page>Immunology</page> 
+immunology as the science of self-nonself discrimination, concerned not just with the human <link tokenizeTagContent="false">Species</link> 
+<page>Species</page> 
+species and its animal models (mouse, rabbit, and others), but with all organisms; and not just with issues of human health, but with normal physiological functions, executed with specialized body systems. He was the first to include in an <link tokenizeTagContent="false">Immunology</link> 
+<page>Immunology</page> 
+immunology textbook sections emphasizing the importance of the so-called non-adaptive <link tokenizeTagContent="false">Immune</link> 
+<page>Immune</page> 
+immune system (NAIS; he preferred to call it non-anticipatory). He also gave <link tokenizeTagContent="false">Immunology</link> 
+<page>Immunology</page> 
+immunology a logical internal structure. Instead of organizing his textbooks into sections such as <link tokenizeTagContent="false">Immunochemistry</link> 
+<page>Immunochemistry</page> 
+immunochemistry, <link tokenizeTagContent="false">Immunobiology</link> 
+<page>Immunobiology</page> 
+immunobiology, <link tokenizeTagContent="false">Immunogenetics</link> 
+<page>Immunogenetics</page> 
+immunogenetics, <link tokenizeTagContent="false">Immunopathology</link> 
+<page>Immunopathology</page> 
+immunopathology, and so on, as was then customary (i.e., according to <link tokenizeTagContent="false">Immunology</link> 
+<page>Immunology</page> 
+immunology’s interfaces with other disciplines and leaving very little for <link tokenizeTagContent="false">Immunology</link> 
+<page>Immunology</page> 
+immunology itself), he presented it as a self-contained <link tokenizeTagContent="false">Science</link> 
+<page>Science</page> 
+science. He organized it as a <link tokenizeTagContent="false">Science</link> 
+<page>Science</page> 
+science operating with specialized <link tokenizeTagContent="false">Organ%20(anatomy)</link> 
+<page>Organ (anatomy)</page> 
+organs, cells, <link tokenizeTagContent="false">Gene</link> 
+<page>Gene</page> 
+genes, molecules, mechanisms, <link tokenizeTagContent="false">Phenotype</link> 
+<page>Phenotype</page> 
+phenotypes, and functions.
+--------------
+Immunology
+Num unmapped entities: 5
+Mapping: 
+ 
+Identified: immunology mapped to: Immunology
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+FAD plays a major role as an enzyme <link tokenizeTagContent="false">Cofactor%20(biochemistry)</link> 
+<page>Cofactor (biochemistry)</page> 
+cofactor along with <link tokenizeTagContent="false">Flavin%20mononucleotide</link> 
+<page>Flavin mononucleotide</page> 
+flavin mononucleotide, another molecule originating from riboflavin. Bacteria, fungi and plants can produce <link tokenizeTagContent="false">Riboflavin</link> 
+<page>Riboflavin</page> 
+riboflavin, but other <link tokenizeTagContent="false">Eukaryote</link> 
+<page>Eukaryote</page> 
+eukaryotes, such as humans, have lost the ability to make it. Therefore, humans must obtain riboflavin, also known as vitamin B2, from dietary sources. Riboflavin is generally absorbed in the small intestine and then transported to cells via carrier proteins. <link tokenizeTagContent="false">Riboflavin%20kinase</link> 
+<page>Riboflavin kinase</page> 
+Riboflavin kinase (EC 2.7.1.26) adds a phosphate group to riboflavin to produce flavin mononucleotide, and then <link tokenizeTagContent="false">FMN%20adenylyltransferase</link> 
+<page>FMN adenylyltransferase</page> 
+FAD synthetase attaches an adenine <link tokenizeTagContent="false">Nucleotide</link> 
+<page>Nucleotide</page> 
+nucleotide; both steps require <link tokenizeTagContent="false">Adenosine%20triphosphate</link> 
+<page>Adenosine triphosphate</page> 
+ATP. Bacteria generally have one bi-functional enzyme, but <link tokenizeTagContent="false">Archaea</link> 
+<page>Archaea</page> 
+archaea and eukaryotes usually employ two distinct enzymes. Current research indicates that distinct <link tokenizeTagContent="false">Protein%20isoforms</link> 
+<page>Protein isoforms</page> 
+isoforms exist in the <link tokenizeTagContent="false">Cytosol</link> 
+<page>Cytosol</page> 
+cytosol and <link tokenizeTagContent="false">Mitochondrion</link> 
+<page>Mitochondrion</page> 
+mitochondria. It seems that FAD is synthesized in both locations and potentially transported where needed.
+--------------
+Riboflavin
+Num unmapped entities: 14
+Mapping: 
+ 
+Identified: enzyme mapped to: Enzyme
+Identified: molecule mapped to: Molecule
+Identified: riboflavin mapped to: Riboflavin
+Identified: vitamin mapped to: Vitamin
+Identified: phosphate mapped to: Phosphate
+Identified: adenine mapped to: Adenine
+Identified: nucleotide mapped to: Nucleotide
+Identified: adenosine mapped to: Adenosine
+Num mapped entities: 7
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Sugar sweetened beverages or sugary drinks are beverages that contain any form of added sugars. Out of the entire diet, Americans add sugar to beverages more so than any other product. Sugar-Sweetned beverages or sugary drinks are the leading source of added sugars in the American diet. Added sugars include syrups and other caloric sweeteners. Other examples of added sugars, especially ones that can be listed as an ingredient, include brown sugar, corn sweetener, corn syrup, dextrose, fructose, glucose, high-fructose corn syrup, honey, invert sugar, lactose, malt syrup, maltose, molasses, raw sugar, sucrose, trehalose, and turbinado sugar. The added sugar content is associated with several health concerns like weight gain, obesity, type 2 diabetes, heart disease, liver disease, dental implications, and gout. Naturally occurring sugars, such as those in fruit or milk, are not added sugars. Even though there are several beverages/drinks that have sugar in them, some beverages, such as milk, fruit juice, and diet drinks, fall into a “gray” area because of different contributions to health and weight gain is more complex. Sugar-sweetened beverages contain added sugars such as sucrose or fructose, often in large amounts, which contribute to the overall energy density of diets. The World Health Organization (WHO) has developed guidance on free sugars. Based on the impact of free sugars intake and its effects on weight gain and dental issues the WHO has taken action on such problems. Free sugars include monosaccharides and disaccharides added to foods and beverages by the manufacturer, cook or consumer, and sugars naturally present in honey, syrups, fruit juices and fruit juice concentrates. Current evidence suggests that increasing consumption of sugar-sweetened beverages is associated with weight gain. Reducing consumption of sugar-sweetened beverages can also reduce the risk of unhealthy weight gain in adults.  For a normal calorie diet, calories from added sugars should be less than 10 percent of the daily calorie limit. Eating habits that include a lesser amount of added sugars, that can be from reduced intake of sugary drinks, can be associated with reduced risk of CVD in adults, and moderate evidence indicates that these eating patterns are associated with reduced risk of obesity, type 2 diabetes, and some types of cancer in adults.
+--------------
+Sugar
+Num unmapped entities: 33
+Mapping: 
+ 
+Identified: sugar mapped to: Sugar
+Identified: brown sugar mapped to: Brown Sugar
+Identified: corn mapped to: Corn
+Identified: dextrose mapped to: Dextrose
+Identified: glucose mapped to: Glucose
+Identified: malt mapped to: Malt
+Identified: sucrose mapped to: Sucrose
+Identified: disease mapped to: Disease
+Identified: heart disease mapped to: Heart Disease
+Identified: fruit mapped to: Fruit
+Identified: juice mapped to: Juice
+Identified: fruit juice mapped to: Fruit juice
+Identified: eating mapped to: Eating
+Num mapped entities: 12
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+''P. acanthamoebae'' has shown that it is affected by the presence of <link tokenizeTagContent="false">Antibiotics</link> 
+<page>Antibiotics</page> 
+antibiotics when it is inside of the <link tokenizeTagContent="false">Host%20(biology)</link> 
+<page>Host (biology)</page> 
+host.  One study analyzed two <link tokenizeTagContent="false">Strain%20(biology)</link> 
+<page>Strain (biology)</page> 
+strains of ''P. acanthamoebae'', the Hall’s Coccus <link tokenizeTagContent="false">Strain%20(biology)</link> 
+<page>Strain (biology)</page> 
+strain and the BN9 <link tokenizeTagContent="false">Strain%20(biology)</link> 
+<page>Strain (biology)</page> 
+strain, and tested their response to a number of common <link tokenizeTagContent="false">Antibiotics</link> 
+<page>Antibiotics</page> 
+antibiotics.  They cultured ''<link tokenizeTagContent="false">Acanthamoeba</link> 
+<page>Acanthamoeba</page> 
+Acanthamoeba polyphaga'', a common <link tokenizeTagContent="false">Endosymbiotic</link> 
+<page>Endosymbiotic</page> 
+endosymbiotic host of ''P. acanthamoebae'', in a PYG medium and added 20 μl of ''P. acanthamoebae'' to the growth plates. A portion of the <link tokenizeTagContent="false">Amoeba</link> 
+<page>Amoeba</page> 
+amoeba were left both drug-free and free of ''P. acanthamoebae'' as a control to measure amoebal viability in the medium. Another portion was only subjected to <link tokenizeTagContent="false">Antibiotics</link> 
+<page>Antibiotics</page> 
+antibiotics. The purpose of this is to serve as a control to assess if the <link tokenizeTagContent="false">Amoeba</link> 
+<page>Amoeba</page> 
+amoeba itself displayed any <link tokenizeTagContent="false">Antibiotic</link> 
+<page>Antibiotic</page> 
+antibiotic toxicity. In this experiment, they found that ''Acanthamoeba polyphaga'' was not effected by any of the tested <link tokenizeTagContent="false">Antibiotics</link> 
+<page>Antibiotics</page> 
+antibiotics.  They found that most of the <link tokenizeTagContent="false">Beta-lactam</link> 
+<page>Beta-lactam</page> 
+beta-lactam <link tokenizeTagContent="false">Antibiotics</link> 
+<page>Antibiotics</page> 
+antibiotics,  <link tokenizeTagContent="false">Vancomycin</link> 
+<page>Vancomycin</page> 
+vancomycin, and <link tokenizeTagContent="false">Fluoroquinolones</link> 
+<page>Fluoroquinolones</page> 
+fluoroquinolones had no effect on the growth of ''P. acanthamoebae''.  Because of this, it can be inferred that these two <link tokenizeTagContent="false">Strain%20(biology)</link> 
+<page>Strain (biology)</page> 
+strains of ''P. acanthamoeba'' are resistant to these <link tokenizeTagContent="false">Antibiotics</link> 
+<page>Antibiotics</page> 
+antibiotics. However, both of these <link tokenizeTagContent="false">Strain%20(biology)</link> 
+<page>Strain (biology)</page> 
+strains showed inhibited growth when in the presence of <link tokenizeTagContent="false">Macrolides</link> 
+<page>Macrolides</page> 
+macrolides, <link tokenizeTagContent="false">Doxycycline</link> 
+<page>Doxycycline</page> 
+doxycycline, <link tokenizeTagContent="false">Aminoglycosides</link> 
+<page>Aminoglycosides</page> 
+aminoglycosides, and <link tokenizeTagContent="false">Rifampin</link> 
+<page>Rifampin</page> 
+rifampin.  These results show that ''P. acanthamoebae'' shows susceptibility and resistance to <link tokenizeTagContent="false">Antibiotics</link> 
+<page>Antibiotics</page> 
+antibiotics that is very different from other closely related <link tokenizeTagContent="false">Microbes</link> 
+<page>Microbes</page> 
+microbes, such as ''<link tokenizeTagContent="false">Chlamydia%20trachomatis</link> 
+<page>Chlamydia trachomatis</page> 
+Chlamydia trachomatis'' or ''<link tokenizeTagContent="false">Chlamydophila%20pneumoniae</link> 
+<page>Chlamydophila pneumoniae</page> 
+Chlamydophila pneumoniae''.
+--------------
+Antibiotics
+Num unmapped entities: 6
+Mapping: 
+ 
+Identified: drug mapped to: Drug
+Identified: antibiotic mapped to: Antibiotic
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+'''Antimicrobial resistance''' ('''AMR''') is the ability of a microbe to resist the effects of medication previously used to treat them.  This broader term also covers '''antibiotic resistance''', which applies to <link tokenizeTagContent="false">Bacteria</link> 
+<page>Bacteria</page> 
+bacteria and <link tokenizeTagContent="false">Antibiotic</link> 
+<page>Antibiotic</page> 
+antibiotics. Resistance arises through one of three ways: natural resistance in certain types of bacteria; genetic <link tokenizeTagContent="false">Mutation</link> 
+<page>Mutation</page> 
+mutation; or by one species acquiring resistance from another. Resistance can appear spontaneously because of random mutations; or more commonly following gradual buildup over time, and because of <link tokenizeTagContent="false">Antibiotic%20misuse</link> 
+<page>Antibiotic misuse</page> 
+misuse of antibiotics or antimicrobials. Resistant microbes are increasingly difficult to treat, requiring alternative medications or higher doses—which may be more costly or <link tokenizeTagContent="false">Adverse%20effect</link> 
+<page>Adverse effect</page> 
+more toxic. Microbes resistant to multiple antimicrobials are called <link tokenizeTagContent="false">Multiple%20drug%20resistance</link> 
+<page>Multiple drug resistance</page> 
+multidrug resistant (MDR); or sometimes superbugs. Antimicrobial resistance is on the rise with millions of deaths every year. A few infections are now completely untreatable because of resistance. All classes of microbes develop resistance (fungi, <link tokenizeTagContent="false">Antifungal</link> 
+<page>Antifungal</page> 
+antifungal resistance; <link tokenizeTagContent="false">Virus</link> 
+<page>Virus</page> 
+viruses, <link tokenizeTagContent="false">Antiviral</link> 
+<page>Antiviral</page> 
+antiviral resistance; <link tokenizeTagContent="false">Protozoa</link> 
+<page>Protozoa</page> 
+protozoa, <link tokenizeTagContent="false">Antiprotozoal</link> 
+<page>Antiprotozoal</page> 
+antiprotozoal resistance; <link tokenizeTagContent="false">Bacteria</link> 
+<page>Bacteria</page> 
+bacteria, <link tokenizeTagContent="false">Antibiotic</link> 
+<page>Antibiotic</page> 
+antibiotic resistance).
+--------------
+Antimicrobial resistance
+Num unmapped entities: 4
+Mapping: 
+ 
+Identified: antibiotic mapped to: Antibiotic
+Identified: drug mapped to: Drug
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Cyclical voltammetry can be used to determine the <link tokenizeTagContent="false">Antioxidant</link> 
+<page>Antioxidant</page> 
+antioxidant capacity in food and even skin.   Low molecular weight antioxidants, molecules that prevent other molecules from being oxidized by acting as reducing agents, are important in living cells because they inhibit cell damage or death caused by oxidation reactions that produce radicals.   Examples of antioxidants include flavonoids, whose antioxidant activity is greatly increased with more hydroxyl groups.   Because traditional methods to determine antioxidant capacity involve tedious steps, techniques to increase the rate of the experiment are continually being researched.  One such technique involves cyclic voltammetry because it can measure the antioxidant capacity by quickly measuring the redox behavior over a complex system without the need to measure each component’s antioxidant capacity.   Furthermore, antioxidants are quickly oxidized at inert electrodes, so the half-wave potential can be utilized to determine antioxidant capacity.   It is important to note that whenever cyclic voltammetry is utilized, it is usually compared to spectrophotometry or High Performance Liquid Chromotography (HPLC).   Applications of the technique extend to food chemistry, where it is used to determine the antioxidant activity of redwine, chocolate, and hops.  Additionally, it even has uses in the world of medicine in that it can determine antioxidants in the skin.
+--------------
+Antioxidant
+Num unmapped entities: 7
+Mapping: 
+ 
+Identified: chocolate mapped to: Chocolate
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+'''Aldosterone''', the main <link tokenizeTagContent="false">Mineralocorticoid</link> 
+<page>Mineralocorticoid</page> 
+mineralocorticoid hormone, is a <link tokenizeTagContent="false">Steroid%20hormone</link> 
+<page>Steroid hormone</page> 
+steroid hormone produced by the <link tokenizeTagContent="false">Zona%20glomerulosa</link> 
+<page>Zona glomerulosa</page> 
+zona glomerulosa of the <link tokenizeTagContent="false">Adrenal%20cortex</link> 
+<page>Adrenal cortex</page> 
+adrenal cortex in the <link tokenizeTagContent="false">Adrenal%20gland</link> 
+<page>Adrenal gland</page> 
+adrenal gland. It is essential for sodium conservation in the kidney, salivary glands, sweat glands and colon.  It plays a central role in the <link tokenizeTagContent="false">Homeostasis</link> 
+<page>Homeostasis</page> 
+regulation of the <link tokenizeTagContent="false">Homeostasis</link> 
+<page>Homeostasis</page> 
+plasma sodium (Na), the extracellular <link tokenizeTagContent="false">Homeostasis</link> 
+<page>Homeostasis</page> 
+potassium (K) and <link tokenizeTagContent="false">Homeostasis</link> 
+<page>Homeostasis</page> 
+arterial blood pressure. It does so mainly by acting on the mineralocorticoid receptors in the <link tokenizeTagContent="false">Distal%20tubule</link> 
+<page>Distal tubule</page> 
+distal tubules and <link tokenizeTagContent="false">Collecting%20duct</link> 
+<page>Collecting duct</page> 
+collecting ducts of the <link tokenizeTagContent="false">Nephron</link> 
+<page>Nephron</page> 
+nephron. It influences the reabsorption of <link tokenizeTagContent="false">Sodium</link> 
+<page>Sodium</page> 
+sodium and excretion of <link tokenizeTagContent="false">Potassium</link> 
+<page>Potassium</page> 
+potassium (from and into the tubular fluids, respectively) of the <link tokenizeTagContent="false">Kidney</link> 
+<page>Kidney</page> 
+kidney, thereby indirectly influencing <link tokenizeTagContent="false">Water%20retention%20(medicine)</link> 
+<page>Water retention (medicine)</page> 
+water retention or loss, <link tokenizeTagContent="false">Blood%20pressure</link> 
+<page>Blood pressure</page> 
+blood pressure and <link tokenizeTagContent="false">Homeostasis</link> 
+<page>Homeostasis</page> 
+blood volume. When dysregulated, aldosterone is pathogenic and contributes to the development and progression of <link tokenizeTagContent="false">Cardiovascular%20disease</link> 
+<page>Cardiovascular disease</page> 
+cardiovascular and <link tokenizeTagContent="false">Kidney%20disease</link> 
+<page>Kidney disease</page> 
+renal disease. Aldosterone has exactly the opposite function of the <link tokenizeTagContent="false">Atrial%20natriuretic%20hormone</link> 
+<page>Atrial natriuretic hormone</page> 
+atrial natriuretic hormone secreted by the <link tokenizeTagContent="false">Heart</link> 
+<page>Heart</page> 
+heart.
+--------------
+Homeostasis
+Num unmapped entities: 23
+Mapping: 
+ 
+Identified: aldosterone mapped to: Aldosterone
+Identified: hormone mapped to: Hormone
+Identified: steroid mapped to: Steroid
+Identified: steroid hormone mapped to: Steroid Hormone
+Identified: gland mapped to: Gland
+Identified: sweat mapped to: Sweat
+Identified: plasma mapped to: Plasma
+Identified: blood mapped to: Blood
+Identified: arterial blood mapped to: Arterial blood
+Identified: collecting duct mapped to: Collecting duct
+Identified: blood volume mapped to: Blood volume
+Identified: disease mapped to: Disease
+Identified: kidney disease mapped to: Kidney disease
+Identified: function mapped to: Function
+Num mapped entities: 12
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+'''Bacilli, order <link tokenizeTagContent="false">Lactobacillales</link> 
+<page>Lactobacillales</page> 
+Lactobacillales'''
+--------------
+Lactobacillales
+Num unmapped entities: 0
+Mapping: 
+ 
+Num mapped entities: 0
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Certain medical conditions can cause chronic fatigue and must be ruled out before a diagnosis of CFS can be given. <link tokenizeTagContent="false">Hypothyroidism</link> 
+<page>Hypothyroidism</page> 
+Hypothyroidism, <link tokenizeTagContent="false">Anemia</link> 
+<page>Anemia</page> 
+anemia, <link tokenizeTagContent="false">Coeliac%20disease</link> 
+<page>Coeliac disease</page> 
+coeliac disease (that can occur without gastrointestinal symptoms), <link tokenizeTagContent="false">Diabetes</link> 
+<page>Diabetes</page> 
+diabetes and certain <link tokenizeTagContent="false">Mental%20disorder</link> 
+<page>Mental disorder</page> 
+psychiatric disorders are a few of the diseases that must be ruled out if the patient presents with appropriate symptoms.<ref name=NICECG53/> Other diseases, listed by the <link tokenizeTagContent="false">Centers%20for%20Disease%20Control%20and%20Prevention</link> 
+<page>Centers for Disease Control and Prevention</page> 
+Centers for Disease Control and Prevention, include <link tokenizeTagContent="false">Infection</link> 
+<page>Infection</page> 
+infectious diseases (such as <link tokenizeTagContent="false">Epstein%E2%80%93Barr%20virus</link> 
+<page>Epstein–Barr virus</page> 
+Epstein–Barr virus, <link tokenizeTagContent="false">Influenza</link> 
+<page>Influenza</page> 
+influenza, <link tokenizeTagContent="false">HIV/AIDS</link> 
+<page>HIV/AIDS</page> 
+HIV infection, <link tokenizeTagContent="false">Tuberculosis</link> 
+<page>Tuberculosis</page> 
+tuberculosis, <link tokenizeTagContent="false">Lyme%20disease</link> 
+<page>Lyme disease</page> 
+Lyme disease), neuroendocrine diseases (such as <link tokenizeTagContent="false">Thyroiditis</link> 
+<page>Thyroiditis</page> 
+thyroiditis, <link tokenizeTagContent="false">Addison's%20disease</link> 
+<page>Addison's disease</page> 
+Addison's disease, <link tokenizeTagContent="false">Adrenal%20insufficiency</link> 
+<page>Adrenal insufficiency</page> 
+adrenal insufficiency, <link tokenizeTagContent="false">Cushing's%20disease</link> 
+<page>Cushing's disease</page> 
+Cushing's disease), <link tokenizeTagContent="false">Hematologic%20diseases</link> 
+<page>Hematologic diseases</page> 
+hematologic diseases (such as occult malignancy, <link tokenizeTagContent="false">Lymphoma</link> 
+<page>Lymphoma</page> 
+lymphoma), rheumatologic diseases (such as <link tokenizeTagContent="false">Fibromyalgia</link> 
+<page>Fibromyalgia</page> 
+fibromyalgia, <link tokenizeTagContent="false">Polymyalgia%20rheumatica</link> 
+<page>Polymyalgia rheumatica</page> 
+polymyalgia rheumatica, <link tokenizeTagContent="false">Sj%C3%B6gren's%20syndrome</link> 
+<page>Sjögren's syndrome</page> 
+Sjögren's syndrome, <link tokenizeTagContent="false">Giant-cell%20arteritis</link> 
+<page>Giant-cell arteritis</page> 
+giant-cell arteritis, <link tokenizeTagContent="false">Polymyositis</link> 
+<page>Polymyositis</page> 
+polymyositis, <link tokenizeTagContent="false">Dermatomyositis</link> 
+<page>Dermatomyositis</page> 
+dermatomyositis), <link tokenizeTagContent="false">Mental%20disorder</link> 
+<page>Mental disorder</page> 
+psychiatric diseases (such as <link tokenizeTagContent="false">Bipolar%20disorder</link> 
+<page>Bipolar disorder</page> 
+bipolar disorder, <link tokenizeTagContent="false">Schizophrenia</link> 
+<page>Schizophrenia</page> 
+schizophrenia, <link tokenizeTagContent="false">Delusional%20disorder</link> 
+<page>Delusional disorder</page> 
+delusional disorders, <link tokenizeTagContent="false">Dementia</link> 
+<page>Dementia</page> 
+dementia, <link tokenizeTagContent="false">Anorexia%20nervosa</link> 
+<page>Anorexia nervosa</page> 
+anorexia/<link tokenizeTagContent="false">Bulimia%20nervosa</link> 
+<page>Bulimia nervosa</page> 
+bulimia nervosa), neuropsychologic diseases (such as <link tokenizeTagContent="false">Obstructive%20sleep%20apnea</link> 
+<page>Obstructive sleep apnea</page> 
+obstructive sleep apnea, <link tokenizeTagContent="false">Parkinsonism</link> 
+<page>Parkinsonism</page> 
+parkinsonism, <link tokenizeTagContent="false">Multiple%20sclerosis</link> 
+<page>Multiple sclerosis</page> 
+multiple sclerosis),  and others (such as nasal obstruction from <link tokenizeTagContent="false">Allergy</link> 
+<page>Allergy</page> 
+allergies, <link tokenizeTagContent="false">Sinusitis</link> 
+<page>Sinusitis</page> 
+sinusitis, anatomic obstruction, <link tokenizeTagContent="false">Autoimmune%20disease</link> 
+<page>Autoimmune disease</page> 
+autoimmune diseases, some <link tokenizeTagContent="false">Chronic%20condition</link> 
+<page>Chronic condition</page> 
+chronic illness, alcohol or <link tokenizeTagContent="false">Substance%20abuse</link> 
+<page>Substance abuse</page> 
+substance abuse, pharmacologic <link tokenizeTagContent="false">Side%20effect</link> 
+<page>Side effect</page> 
+side effects, <link tokenizeTagContent="false">Toxic%20heavy%20metal</link> 
+<page>Toxic heavy metal</page> 
+heavy metal exposure and toxicity, marked body weight fluctuation).
+--------------
+Non-communicable disease
+Num unmapped entities: 39
+Mapping: 
+ 
+Identified: hypothyroidism mapped to: Hypothyroidism
+Identified: disease mapped to: Disease
+Identified: coeliac disease mapped to: Coeliac Disease
+Identified: influenza mapped to: Influenza
+Identified: tuberculosis mapped to: Tuberculosis
+Identified: thyroiditis mapped to: Thyroiditis
+Identified: fibromyalgia mapped to: Fibromyalgia
+Identified: polymyalgia mapped to: Polymyalgia
+Identified: giant cell arteritis mapped to: Giant cell arteritis
+Identified: delusional disorder mapped to: Delusional Disorder
+Identified: sleep apnea mapped to: Sleep Apnea
+Identified: parkinsonism mapped to: Parkinsonism
+Identified: autoimmune disease mapped to: Autoimmune Disease
+Identified: alcohol mapped to: Alcohol
+Identified: substance mapped to: Substance
+Identified: substance abuse mapped to: Substance Abuse
+Identified: heavy metal mapped to: Heavy Metal
+Identified: body weight mapped to: Body Weight
+Num mapped entities: 16
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+There have been many studies done to observe the functionality of the primary gustatory cortex and associated structures with various chemical and electrical stimulations as well as observations of patients with lesions and GC epileptic focus.  It has been reported that electrical stimulation of the <link tokenizeTagContent="false">Lingual%20nerve</link> 
+<page>Lingual nerve</page> 
+lingual nerve, <link tokenizeTagContent="false">Chorda%20tympani</link> 
+<page>Chorda tympani</page> 
+chorda tympani, and a lingual branch of the <link tokenizeTagContent="false">Glossopharyngeal%20nerve</link> 
+<page>Glossopharyngeal nerve</page> 
+glossopharyngeal nerve elicit evoked <link tokenizeTagContent="false">Field%20potential</link> 
+<page>Field potential</page> 
+field potential in the frontal operculum. Electrical stimulation of the insula in the human elicit gustatory sensations.    Gustatory information is conveyed to the orbitofrontal cortex, the secondary gustatory cortex from the AI/FO.  Studies have shown that 8% of neurons in the orbitofrontal cortex respond to taste stimuli, and a part of these neurons are finely tuned to particular taste stimuli. It has also been shown in monkeys that the responses of orbitofrontal neurons to taste decreased when the monkey eats to satiety.   Furthermore neurons in the orbitofrontal cortex respond to the visual,and/or <link tokenizeTagContent="false">Olfactory</link> 
+<page>Olfactory</page> 
+olfactory stimuli in addition to the gustatory stimulus.  These results suggest that gustatory neurons in the orbitofrontal cortex may play an important role in food identification and selection.  A patient study reported that damage in the <link tokenizeTagContent="false">Anatomical%20terms%20of%20location</link> 
+<page>Anatomical terms of location</page> 
+rostral part of the insula caused gustatory disturbance, as well as taste recognition and intensity deficits in patients with insular cortex lesions.  It has also been reported that a patient who had an epileptic focus in the frontal operculum and epileptic activity in the focus produced a disagreeable taste.  Activation in the insula also takes place when exposed to gustatory imagery.  Studies compared the activated regions in subjects shown food pictures to those shown location pictures and found that food pictures activated the right insula/operculum and the left orbitofrontal cortex.
+--------------
+Gustatory cortex
+Num unmapped entities: 7
+Mapping: 
+ 
+Identified: chemical mapped to: Chemical
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Ecuador or Ecuadorian organizations participate in the following international organizations:  <link tokenizeTagContent="false">Bolivarian%20Alliance%20for%20the%20Americas</link> 
+<page>Bolivarian Alliance for the Americas</page> 
+Bolivarian Alliance for the Americas (ALBA), <link tokenizeTagContent="false">Andean%20Community%20of%20Nations</link> 
+<page>Andean Community of Nations</page> 
+Andean Community of Nations (CAN), <link tokenizeTagContent="false">Community%20of%20Latin%20American%20and%20Caribbean%20States</link> 
+<page>Community of Latin American and Caribbean States</page> 
+Community of Latin American and Caribbean States (CELAC), <link tokenizeTagContent="false">Economic%20Commission%20for%20Latin%20America%20and%20the%20Caribbean</link> 
+<page>Economic Commission for Latin America and the Caribbean</page> 
+Economic Commission for Latin America and the Caribbean (ECLAC), <link tokenizeTagContent="false">Food%20and%20Agriculture%20Organization</link> 
+<page>Food and Agriculture Organization</page> 
+Food and Agriculture Organization (FAO), Group of Eleven (G-11), Group of 77 (G-77), <link tokenizeTagContent="false">Inter-American%20Development%20Bank</link> 
+<page>Inter-American Development Bank</page> 
+Inter-American Development Bank (IADB), <link tokenizeTagContent="false">International%20Atomic%20Energy%20Agency</link> 
+<page>International Atomic Energy Agency</page> 
+International Atomic Energy Agency (IAEA), International Bank for Reconstruction and Development (<link tokenizeTagContent="false">World%20Bank</link> 
+<page>World Bank</page> 
+World Bank), <link tokenizeTagContent="false">International%20Civil%20Aviation%20Organization</link> 
+<page>International Civil Aviation Organization</page> 
+International Civil Aviation Organization (ICAO), <link tokenizeTagContent="false">International%20Criminal%20Court</link> 
+<page>International Criminal Court</page> 
+ICC, <link tokenizeTagContent="false">International%20Chamber%20of%20Commerce</link> 
+<page>International Chamber of Commerce</page> 
+ICC, <link tokenizeTagContent="false">International%20Red%20Cross%20and%20Red%20Crescent%20Movement</link> 
+<page>International Red Cross and Red Crescent Movement</page> 
+International Red Cross, <link tokenizeTagContent="false">International%20Development%20Association</link> 
+<page>International Development Association</page> 
+International Development Association (IDA), <link tokenizeTagContent="false">International%20Fund%20for%20Agricultural%20Development</link> 
+<page>International Fund for Agricultural Development</page> 
+International Fund for Agricultural Development (IFAD), <link tokenizeTagContent="false">International%20Finance%20Corporation</link> 
+<page>International Finance Corporation</page> 
+International Finance Corporation (IFC), <link tokenizeTagContent="false">International%20Hydrographic%20Organization</link> 
+<page>International Hydrographic Organization</page> 
+International Hydrographic Organization (IHO), <link tokenizeTagContent="false">International%20Labour%20Organization</link> 
+<page>International Labour Organization</page> 
+International Labour Organization (ILO), <link tokenizeTagContent="false">International%20Monetary%20Fund</link> 
+<page>International Monetary Fund</page> 
+IMF, <link tokenizeTagContent="false">International%20Maritime%20Organization</link> 
+<page>International Maritime Organization</page> 
+International Maritime Organization (IMO), <link tokenizeTagContent="false">International%20Telecommunications%20Satellite%20Organization</link> 
+<page>International Telecommunications Satellite Organization</page> 
+International Telecommunications Satellite Organization (Intelsat), <link tokenizeTagContent="false">Interpol%20(organization)</link> 
+<page>Interpol (organization)</page> 
+Interpol, <link tokenizeTagContent="false">International%20Olympic%20Committee</link> 
+<page>International Olympic Committee</page> 
+IOC, <link tokenizeTagContent="false">International%20Organization%20for%20Migration</link> 
+<page>International Organization for Migration</page> 
+International Organization for Migration (IOM), <link tokenizeTagContent="false">International%20Organization%20for%20Standardization</link> 
+<page>International Organization for Standardization</page> 
+International Organization for Standardization (ISO), <link tokenizeTagContent="false">International%20Telecommunication%20Union</link> 
+<page>International Telecommunication Union</page> 
+International Telecommunication Union (ITU), <link tokenizeTagContent="false">International%20Trade%20Union%20Confederation</link> 
+<page>International Trade Union Confederation</page> 
+International Trade Union Confederation (ITUC), <link tokenizeTagContent="false">Latin%20American%20Economic%20System</link> 
+<page>Latin American Economic System</page> 
+Latin American Economic System (LAES), <link tokenizeTagContent="false">Latin%20American%20Integration%20Association</link> 
+<page>Latin American Integration Association</page> 
+Latin American Integration Association (LAIA), <link tokenizeTagContent="false">Non-Aligned%20Movement</link> 
+<page>Non-Aligned Movement</page> 
+Non-Aligned Movement (NAM), <link tokenizeTagContent="false">Organization%20of%20American%20States</link> 
+<page>Organization of American States</page> 
+OAS, <link tokenizeTagContent="false">Agency%20for%20the%20Prohibition%20of%20Nuclear%20Weapons%20in%20Latin%20America%20and%20the%20Caribbean</link> 
+<page>Agency for the Prohibition of Nuclear Weapons in Latin America and the Caribbean</page> 
+Agency for the Prohibition of Nuclear Weapons in Latin America and the Caribbean (OPANAL), <link tokenizeTagContent="false">Organization%20for%20the%20Prohibition%20of%20Chemical%20Weapons</link> 
+<page>Organization for the Prohibition of Chemical Weapons</page> 
+Organization for the Prohibition of Chemical Weapons (OPCW), <link tokenizeTagContent="false">Permanent%20Court%20of%20Arbitration</link> 
+<page>Permanent Court of Arbitration</page> 
+Permanent Court of Arbitration (PCA), <link tokenizeTagContent="false">Rio%20Group</link> 
+<page>Rio Group</page> 
+RG, <link tokenizeTagContent="false">Union%20of%20South%20American%20Nations</link> 
+<page>Union of South American Nations</page> 
+UNASUR (headquarters), <link tokenizeTagContent="false">United%20Nations</link> 
+<page>United Nations</page> 
+United Nations, <link tokenizeTagContent="false">United%20Nations%20Conference%20on%20Trade%20and%20Development</link> 
+<page>United Nations Conference on Trade and Development</page> 
+United Nations Conference on Trade and Development (UNCTAD), <link tokenizeTagContent="false">UNESCO</link> 
+<page>UNESCO</page> 
+United Nations Educational, Scientific, and Cultural Organization (UNESCO), <link tokenizeTagContent="false">United%20Nations%20Industrial%20Development%20Organization</link> 
+<page>United Nations Industrial Development Organization</page> 
+United Nations Industrial Development Organization (UNIDO), <link tokenizeTagContent="false">Universal%20Postal%20Union</link> 
+<page>Universal Postal Union</page> 
+Universal Postal Union (UPU), <link tokenizeTagContent="false">World%20Federation%20of%20Trade%20Unions</link> 
+<page>World Federation of Trade Unions</page> 
+World Federation of Trade Unions (WFTU), <link tokenizeTagContent="false">World%20Health%20Organization</link> 
+<page>World Health Organization</page> 
+World Health Organization (WHO), <link tokenizeTagContent="false">World%20Intellectual%20Property%20Organization</link> 
+<page>World Intellectual Property Organization</page> 
+World Intellectual Property Organization (WIPO), <link tokenizeTagContent="false">World%20Meteorological%20Organization</link> 
+<page>World Meteorological Organization</page> 
+World Meteorological Organization (WMO), <link tokenizeTagContent="false">World%20Tourism%20Organization</link> 
+<page>World Tourism Organization</page> 
+World Tourism Organization (WToO), <link tokenizeTagContent="false">World%20Trade%20Organization</link> 
+<page>World Trade Organization</page> 
+World Trade Organization (WTO)
+--------------
+World Health Organization
+Num unmapped entities: 4
+Mapping: 
+ 
+Identified: chemical mapped to: Chemical
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+<link tokenizeTagContent="false">Renal%20physiology</link> 
+<page>Renal physiology</page> 
+Renal physiology is the study of kidney function, while <link tokenizeTagContent="false">Nephrology</link> 
+<page>Nephrology</page> 
+nephrology is the medical specialty concerned with <link tokenizeTagContent="false">Kidney%20disease</link> 
+<page>Kidney disease</page> 
+kidney diseases. Diseases of the kidney are diverse, but individuals with kidney disease frequently display characteristic clinical features. Common clinical conditions involving the kidney include the <link tokenizeTagContent="false">Nephritic%20syndrome</link> 
+<page>Nephritic syndrome</page> 
+nephritic and <link tokenizeTagContent="false">Nephrotic%20syndrome</link> 
+<page>Nephrotic syndrome</page> 
+nephrotic syndromes, <link tokenizeTagContent="false">Renal%20cyst</link> 
+<page>Renal cyst</page> 
+renal cysts, <link tokenizeTagContent="false">Acute%20kidney%20injury</link> 
+<page>Acute kidney injury</page> 
+acute kidney injury, <link tokenizeTagContent="false">Chronic%20kidney%20disease</link> 
+<page>Chronic kidney disease</page> 
+chronic kidney disease, <link tokenizeTagContent="false">Urinary%20tract%20infection</link> 
+<page>Urinary tract infection</page> 
+urinary tract infection, <link tokenizeTagContent="false">Nephrolithiasis</link> 
+<page>Nephrolithiasis</page> 
+nephrolithiasis, and <link tokenizeTagContent="false">Urinary%20tract%20obstruction</link> 
+<page>Urinary tract obstruction</page> 
+urinary tract obstruction. Various cancers of the kidney exist. The most common adult renal cancer is <link tokenizeTagContent="false">Renal%20cell%20carcinoma</link> 
+<page>Renal cell carcinoma</page> 
+renal cell carcinoma. Cancers, cysts, and some other renal conditions can be managed with removal of the kidney. This is known as <link tokenizeTagContent="false">Nephrectomy</link> 
+<page>Nephrectomy</page> 
+nephrectomy. When <link tokenizeTagContent="false">Renal%20function</link> 
+<page>Renal function</page> 
+renal function, measured by the <link tokenizeTagContent="false">Glomerular%20filtration%20rate</link> 
+<page>Glomerular filtration rate</page> 
+glomerular filtration rate, is persistently poor, <link tokenizeTagContent="false">Dialysis</link> 
+<page>Dialysis</page> 
+dialysis and <link tokenizeTagContent="false">Kidney%20transplantation</link> 
+<page>Kidney transplantation</page> 
+kidney transplantation may be treatment options. Although they are not normally harmful, <link tokenizeTagContent="false">Kidney%20stone</link> 
+<page>Kidney stone</page> 
+kidney stones can be extremely painful.
+--------------
+Kidney stone disease
+Num unmapped entities: 21
+Mapping: 
+ 
+Identified: function mapped to: Function
+Identified: disease mapped to: Disease
+Identified: kidney disease mapped to: Kidney disease
+Identified: nephrolithiasis mapped to: Nephrolithiasis
+Identified: urinary tract obstruction mapped to: Urinary Tract Obstruction
+Identified: removal mapped to: Removal
+Identified: nephrectomy mapped to: Nephrectomy
+Identified: renal function mapped to: Renal function
+Identified: glomerular filtration rate mapped to: Glomerular filtration rate
+Identified: transplantation mapped to: Transplantation
+Num mapped entities: 9
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+In the adult <link tokenizeTagContent="false">Nervous%20system</link> 
+<page>Nervous system</page> 
+nervous system, CRMP expression is significantly downregulated and limited in areas associated with brain <link tokenizeTagContent="false">Neuroplasticity</link> 
+<page>Neuroplasticity</page> 
+plasticity, <link tokenizeTagContent="false">Neurogenesis</link> 
+<page>Neurogenesis</page> 
+neurogenesis, or regeneration.  CRMP1 mRNA is mainly expressed in <link tokenizeTagContent="false">Purkinje%20cells</link> 
+<page>Purkinje cells</page> 
+Purkinje cells of the <link tokenizeTagContent="false">Cerebellum</link> 
+<page>Cerebellum</page> 
+cerebellum.  Among the five members of the CRMP family, CRMP-2 is the most highly expressed in the adult brain, especially in post-mitotic <link tokenizeTagContent="false">Neurons</link> 
+<page>Neurons</page> 
+neurons of the <link tokenizeTagContent="false">Olfactory%20system</link> 
+<page>Olfactory system</page> 
+olfactory system, <link tokenizeTagContent="false">Cerebellum</link> 
+<page>Cerebellum</page> 
+cerebellum, and <link tokenizeTagContent="false">Hippocampus</link> 
+<page>Hippocampus</page> 
+hippocampus.   CRMP-3 mRNA is only expressed in the granular layer of the <link tokenizeTagContent="false">Cerebellum</link> 
+<page>Cerebellum</page> 
+cerebellum, <link tokenizeTagContent="false">Inferior%20olive</link> 
+<page>Inferior olive</page> 
+inferior olive, and <link tokenizeTagContent="false">Dentate%20gyrus</link> 
+<page>Dentate gyrus</page> 
+dentate gyrus of the <link tokenizeTagContent="false">Hippocampus</link> 
+<page>Hippocampus</page> 
+hippocampus.  CRMP-4 is the least expressed protein of CRMP family and its expression is restricted to the <link tokenizeTagContent="false">Olfactory%20bulb</link> 
+<page>Olfactory bulb</page> 
+olfactory bulb, <link tokenizeTagContent="false">Hippocampus</link> 
+<page>Hippocampus</page> 
+hippocampus, and the internal granule layer (IGL) of the <link tokenizeTagContent="false">Cerebellum</link> 
+<page>Cerebellum</page> 
+cerebellum.  Lastly, CRMP-5 is expressed not only in post-mitotic <link tokenizeTagContent="false">Neurons</link> 
+<page>Neurons</page> 
+neurons of the <link tokenizeTagContent="false">Olfactory%20bulb</link> 
+<page>Olfactory bulb</page> 
+olfactory bulb, <link tokenizeTagContent="false">Olfactory%20epithelium</link> 
+<page>Olfactory epithelium</page> 
+olfactory epithelium, and <link tokenizeTagContent="false">Dentate%20gyrus</link> 
+<page>Dentate gyrus</page> 
+dentate gyrus of the <link tokenizeTagContent="false">Hippocampus</link> 
+<page>Hippocampus</page> 
+hippocampus, but also in <link tokenizeTagContent="false">Peripheral%20nervous%20system</link> 
+<page>Peripheral nervous system</page> 
+peripheral nerve axons and <link tokenizeTagContent="false">Sensory%20neurons</link> 
+<page>Sensory neurons</page> 
+sensory neurons.  Other families of CRMP also appear in <link tokenizeTagContent="false">Peripheral</link> 
+<page>Peripheral</page> 
+peripheral tissues.  Expression of CRMPs-1, -4, and -5 in the adult <link tokenizeTagContent="false">Testis</link> 
+<page>Testis</page> 
+testis is detected only in the cell spermatid stage and CRMP-2 mRNA is found in <link tokenizeTagContent="false">Lung</link> 
+<page>Lung</page> 
+lung tissue of the fetal mouse and adult human.
+--------------
+Hippocampus
+Num unmapped entities: 9
+Mapping: 
+ 
+Identified: expression mapped to: Expression
+Identified: epithelium mapped to: Epithelium
+Num mapped entities: 2
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+When roxithromycin is administered with <link tokenizeTagContent="false">Theophylline</link> 
+<page>Theophylline</page> 
+theophylline, some studies have shown an increase in the <link tokenizeTagContent="false">Blood%20plasma</link> 
+<page>Blood plasma</page> 
+plasma concentration of <link tokenizeTagContent="false">Theophylline</link> 
+<page>Theophylline</page> 
+theophylline. A change in dosage is usually not required but patients with high levels of <link tokenizeTagContent="false">Theophylline</link> 
+<page>Theophylline</page> 
+theophylline at the start of the <link tokenizeTagContent="false">Pharmacotherapy</link> 
+<page>Pharmacotherapy</page> 
+treatment should have their plasma levels monitored.
+--------------
+Theophylline
+Num unmapped entities: 6
+Mapping: 
+ 
+Identified: blood mapped to: Blood
+Identified: plasma mapped to: Plasma
+Identified: start mapped to: Start
+Num mapped entities: 2
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+The two major species of deer found in <link tokenizeTagContent="false">North%20America</link> 
+<page>North America</page> 
+North America are the <link tokenizeTagContent="false">White-tailed%20deer</link> 
+<page>White-tailed deer</page> 
+white-tailed deer (''Odocoileus virginianus'') and the <link tokenizeTagContent="false">Mule%20deer</link> 
+<page>Mule deer</page> 
+mule deer (''Odocoileus hemionus''). The most important <link tokenizeTagContent="false">Sense</link> 
+<page>Sense</page> 
+sense in these animals is <link tokenizeTagContent="false">Olfaction</link> 
+<page>Olfaction</page> 
+olfaction (the sense of smell)—so much so that they have an <link tokenizeTagContent="false">Olfaction</link> 
+<page>Olfaction</page> 
+accessory olfaction system.The <link tokenizeTagContent="false">Vomeronasal%20organ</link> 
+<page>Vomeronasal organ</page> 
+vomeronasal organ, located at the base of the <link tokenizeTagContent="false">Nasal%20cavity</link> 
+<page>Nasal cavity</page> 
+nasal cavity, is the sensory organ for this system. Besides locating food and water, deer rely on their two separate olfactory systems to detect the presence of predators, as well as to supply them with information about the identity, sex, dominance status and reproductive status of other deer.<ref name=Miller1990/>
+--------------
+Olfaction
+Num unmapped entities: 4
+Mapping: 
+ 
+Num mapped entities: 0
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+The '''health effects of chocolate''' are the possible positive and negative effects on health of eating <link tokenizeTagContent="false">Chocolate</link> 
+<page>Chocolate</page> 
+chocolate.
+--------------
+Health effects of chocolate
+Num unmapped entities: 3
+Mapping: 
+ 
+Identified: chocolate mapped to: Chocolate
+Identified: eating mapped to: Eating
+Num mapped entities: 2
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Like nearly all other life forms, humans require water for <link tokenizeTagContent="false">Tissue%20hydration</link> 
+<page>Tissue hydration</page> 
+tissue hydration. Lack of hydration causes <link tokenizeTagContent="false">Thirst</link> 
+<page>Thirst</page> 
+thirst, a desire to drink which is regulated by the <link tokenizeTagContent="false">Hypothalamus</link> 
+<page>Hypothalamus</page> 
+hypothalamus in response to subtle changes in the body's <link tokenizeTagContent="false">Electrolyte</link> 
+<page>Electrolyte</page> 
+electrolyte levels and blood volume. A decline in total <link tokenizeTagContent="false">Body%20water</link> 
+<page>Body water</page> 
+body water is called <link tokenizeTagContent="false">Dehydration</link> 
+<page>Dehydration</page> 
+dehydration and will eventually lead to death by <link tokenizeTagContent="false">Hypernatremia</link> 
+<page>Hypernatremia</page> 
+hypernatremia. Methods used in the <link tokenizeTagContent="false">Management%20of%20dehydration</link> 
+<page>Management of dehydration</page> 
+management of dehydration include assisted drinking or <link tokenizeTagContent="false">Oral%20rehydration%20therapy</link> 
+<page>Oral rehydration therapy</page> 
+oral rehydration therapy.
+--------------
+Management of dehydration
+Num unmapped entities: 14
+Mapping: 
+ 
+Identified: electrolyte mapped to: Electrolyte
+Identified: blood mapped to: Blood
+Identified: blood volume mapped to: Blood volume
+Identified: lead mapped to: Lead
+Identified: drinking mapped to: Drinking
+Identified: rehydration therapy mapped to: Rehydration therapy
+Num mapped entities: 4
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Interest in catecholamines and their receptors dominated the Porto Department in the 1960s. Work just before Guimarães' entry had suggested that there might be more than a single <link tokenizeTagContent="false">Adrenergic%20receptor</link> 
+<page>Adrenergic receptor</page> 
+α-adrenoceptor, and so did one of Guimarães' first studies: forerunners of the distinction, important in the <link tokenizeTagContent="false">History%20of%20catecholamine%20research</link> 
+<page>History of catecholamine research</page> 
+history of catecholamine research, between α- and α-adrenoceptors.
+--------------
+History of catecholamine research
+Num unmapped entities: 4
+Mapping: 
+ 
+Identified: receptor mapped to: Receptor
+Identified: adrenergic receptor mapped to: Adrenergic Receptor
+Num mapped entities: 2
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Using the idea of equipotentiality we can explain how someone who’s received damage to a specific part of their brain can relearn how to perform actions that were lost due to brain damage. Since the area of the brain that was originally performing this function is damaged and unusable, the brain compensates and can code that information in other parts of the brain. Through Lashley’s ideas of equipotentiality and the law of mass action, he is saying that the brain is functioning as a whole unit and that over all damage to the brain effects it’s over all functioning. This starts to go against localization theories which would say that the brain is only functioning in specific regions and the brain’s ability to perform at any given task is only effected by the overall damage to that area of the brain and damage to an unrelated area shouldn’t affect the task. However, equipotentiality and the law of mass action don’t mean that there is no localization. There are certain functions that have been pinned to specific parts of the brain, language and the senses for example, but for things like learning or behavior there is no specific area identified yet, and these are the brain activities that have the flexibility to be coded in different areas of the brain after damage has be sustained.
+--------------
+Brain damage
+Num unmapped entities: 6
+Mapping: 
+ 
+Identified: function mapped to: Function
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+A more useful metric is to consider the effects of treatment. If a group of 100 persons all have a 20% ten-year risk of cardiovascular disease it means that we should expect that 20 of these 100 individuals will develop cardiovascular disease (coronary heart disease or stroke) in the next 10 years and eighty of them will not develop cardiovascular disease in the next 10 years. If they were to take a combination of treatments (for example drugs to lower cholesterol levels plus drugs to lower blood pressure) that reduced their risk of cardiovascular disease by half it means that 10 of these 100 individuals should be expected to develop cardiovascular disease in the next 10 years and 90 of them should not be expected to develop cardiovascular disease. If that was the case then 10 of these individuals would have avoided cardiovascular disease by taking treatment for 10 years; 10 would get cardiovascular disease whether or not they took treatment; and 80 would not have got cardiovascular disease whether or not they took treatment.
+--------------
+Cardiovascular disease
+Num unmapped entities: 7
+Mapping: 
+ 
+Identified: disease mapped to: Disease
+Identified: heart disease mapped to: Heart Disease
+Identified: cholesterol mapped to: Cholesterol
+Identified: blood mapped to: Blood
+Num mapped entities: 2
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+A <link tokenizeTagContent="false">Microorganism</link> 
+<page>Microorganism</page> 
+microorganism is considered a <link tokenizeTagContent="false">Probiotic</link> 
+<page>Probiotic</page> 
+probiotic by meeting certain characteristics, such as being of human origin, non-pathogenic, having high resistance to passing through the intestine, and being beneficial to the immune system. In general, they are seen as beneficial to the host’s body and the human health. ''Lactobacillus fermentum'' has been identified as potential <link tokenizeTagContent="false">Probiotic</link> 
+<page>Probiotic</page> 
+probiotic.The use of gut microbes as probiotics in food is aimed towards preventing and treating various health problems. Among these health problems allergies, neoplastic growth, and inflammatory bowel disease are included. Recent areas of study have focused on the influence of probiotics on metabolic functions of their host. One area has been the metabolism of <link tokenizeTagContent="false">Cholesterol</link> 
+<page>Cholesterol</page> 
+cholesterol by LABs acting as probiotics. Research has shown that ''Lactobacillus'' species have been proven to remove cholesterol <link tokenizeTagContent="false">In%20vitro</link> 
+<page>In vitro</page> 
+in vitro through various ways such as assimilation, binding to the surface cells, and incorporation into cellular membranes.
+--------------
+Probiotic
+Num unmapped entities: 8
+Mapping: 
+ 
+Identified: lactobacillus mapped to: Lactobacillus
+Identified: disease mapped to: Disease
+Identified: inflammatory bowel disease mapped to: Inflammatory Bowel Disease
+Identified: cholesterol mapped to: Cholesterol
+Num mapped entities: 3
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Many studies show that probiotics exhibit a protective effect against different types of acute <link tokenizeTagContent="false">Diarrhea</link> 
+<page>Diarrhea</page> 
+diarrhea, such as <link tokenizeTagContent="false">Antibiotic-associated%20diarrhea</link> 
+<page>Antibiotic-associated diarrhea</page> 
+antibiotic-associated diarrhea, traveller’s diarrhea and viral diarrhea. In the United States, more than 15 million children develop acute diarrhea per year, with the treatment typically being rehydration and recuperative procedures. As many prevention methods for diarrhea have adverse effects (e.g. intestinal <link tokenizeTagContent="false">Intussusception%20(blood%20vessel%20growth)</link> 
+<page>Intussusception (blood vessel growth)</page> 
+intussusception in the usage of <link tokenizeTagContent="false">Rotavirus</link> 
+<page>Rotavirus</page> 
+rotavirus vaccine), scientists are now turning to probiotics in hope of using it as a supplement to treat acute diarrhea. In a review that covered 34 masked, randomized, placebo-controlled trials related to diarrhea and probiotics, it was concluded that there was an overall reduction of 52% in antibiotic associated diarrhea, an 8% reduction in traveller’s diarrhea, and a 34% reduction in other types of acute diarrhea. These numbers reflect a protective effect against diarrhea in subjects including both adults and children. In terms of children (age < 18 years), seven out of the 12 trials conducted in a health care setting showed a reduction in acute diarrhea of 57%. There was no significant difference in the protective effect of strains, namely ''<link tokenizeTagContent="false">Saccharomyces%20boulardii</link> 
+<page>Saccharomyces boulardii</page> 
+Saccharomyces boulardii'', ''<link tokenizeTagContent="false">Lactobacillus%20rhamnosus</link> 
+<page>Lactobacillus rhamnosus</page> 
+Lactobacillus rhamnosus GG'', ''<link tokenizeTagContent="false">Lactobacillus%20acidophilus</link> 
+<page>Lactobacillus acidophilus</page> 
+Lactobacillus acidophilus'', and ''<link tokenizeTagContent="false">Lactobacillus%20bulgaricus</link> 
+<page>Lactobacillus bulgaricus</page> 
+Lactobacillus bulgaricus''.<ref name=ReferenceA/>
+--------------
+Traveler's diarrhea
+Num unmapped entities: 13
+Mapping: 
+ 
+Identified: acute diarrhea mapped to: Acute diarrhea
+Identified: antibiotic mapped to: Antibiotic
+Identified: intussusception mapped to: Intussusception
+Identified: blood mapped to: Blood
+Identified: rotavirus vaccine mapped to: Rotavirus vaccine
+Identified: saccharomyces boulardii mapped to: Saccharomyces boulardii
+Identified: lactobacillus mapped to: Lactobacillus
+Num mapped entities: 6
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+The '''sensory cortex''' can refer informally to the primary <link tokenizeTagContent="false">Somatosensory%20cortex</link> 
+<page>Somatosensory cortex</page> 
+somatosensory cortex, or it can be used as a term for the primary and secondary <link tokenizeTagContent="false">Cerebral%20cortex</link> 
+<page>Cerebral cortex</page> 
+cortices of the different <link tokenizeTagContent="false">Sense</link> 
+<page>Sense</page> 
+senses (two cortices each, on left and right <link tokenizeTagContent="false">Cerebral%20hemispheres</link> 
+<page>Cerebral hemispheres</page> 
+hemisphere): the <link tokenizeTagContent="false">Visual%20cortex</link> 
+<page>Visual cortex</page> 
+visual cortex on the <link tokenizeTagContent="false">Occipital%20lobes</link> 
+<page>Occipital lobes</page> 
+occipital lobes, the <link tokenizeTagContent="false">Auditory%20cortex</link> 
+<page>Auditory cortex</page> 
+auditory cortex on the <link tokenizeTagContent="false">Temporal%20lobes</link> 
+<page>Temporal lobes</page> 
+temporal lobes, the <link tokenizeTagContent="false">Olfactory%20cortex</link> 
+<page>Olfactory cortex</page> 
+primary olfactory cortex on the <link tokenizeTagContent="false">Uncus</link> 
+<page>Uncus</page> 
+uncus of the <link tokenizeTagContent="false">Piriform%20cortex</link> 
+<page>Piriform cortex</page> 
+piriform region of the temporal lobes, the <link tokenizeTagContent="false">Gustatory%20cortex</link> 
+<page>Gustatory cortex</page> 
+gustatory cortex on the <link tokenizeTagContent="false">Insular%20cortex</link> 
+<page>Insular cortex</page> 
+insular lobe (also referred to as the insular cortex), and the primary <link tokenizeTagContent="false">Somatosensory%20cortex</link> 
+<page>Somatosensory cortex</page> 
+somatosensory cortex on the anterior <link tokenizeTagContent="false">Parietal%20lobes</link> 
+<page>Parietal lobes</page> 
+parietal lobes. Just posterior to the primary somatosensory cortex lies the somatosensory association cortex, which integrates sensory information from the primary somatosensory cortex (temperature, pressure, etc.) to construct an understanding of the object being felt. Inferior to the frontal lobes are found the olfactory bulbs, which receive sensory input from the olfactory nerves and route those signals throughout the brain. Not all olfactory information is routed to the olfactory cortex. Some neural fibers are routed directly to <link tokenizeTagContent="false">Limbic</link> 
+<page>Limbic</page> 
+limbic structures, while others are routed to the supraorbital region of the frontal lobe. Such a direct limbic connection makes the olfactory sense unique.
+--------------
+Insular cortex
+Num unmapped entities: 5
+Mapping: 
+ 
+Identified: temperature mapped to: Temperature
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+<link tokenizeTagContent="false">Gastrointestinal%20stromal%20tumors</link> 
+<page>Gastrointestinal stromal tumors</page> 
+Gastrointestinal stromal tumors (GIST) are known to withstand cancer chemotherapy treatment and do not respond to any kind of therapy (in 2001) in advanced cases. However, tyrosine kinase inhibitor <link tokenizeTagContent="false">STI571</link> 
+<page>STI571</page> 
+STI571 (imatinib) is effective in the treatment of patients with metastatic gastrointestinal stromal tumors. Gastrointestinal stromal tumors consist of a cluster of mesenchymal neoplasms that are formed from precursors to cells that make up the connective-tissue in the gastrointestinal tract. Most of these tumors are found in the stomach, though they can also be located in the small intestine or elsewhere in the intestinal tract. The cells of these tumors have a growth factor receptor associated with tyrosine kinase activity. This growth factor receptor is called <link tokenizeTagContent="false">C-kit</link> 
+<page>C-kit</page> 
+c-kit and is produced by a proto-oncogene (''c-kit''). Mutation of c-kit causes the constitutive activity of tyrosine kinase, which results in cancerous gastrointestinal stromal tumors. Results of c-kit mutation include unrestricted tyrosine kinase activity and cell proliferation, unregulated phosphorylation of c-kit, and disruption of some communication pathways.  Therapy with <link tokenizeTagContent="false">Imatinib</link> 
+<page>Imatinib</page> 
+imatinib can inhibit the non-normal cell signaling mechanisms in gastrointestinal stromal tumors. This results in significant responses in patients and sustained disease control. By 2001 it was no longer doubted that this inhibitor can be effective and safe in humans. In similar manner, protein tyrosine kinase inhibitor STI571 was found to significantly reduce the physical size of tumors; they decreased roughly 65% in size in 4 months of trialing, and continued to diminish. New lesions did not appear, and a number of the liver metastases completely reduced to non-existence. The single patient in the study remained healthy following treatment. There are no effective means of treatment for advanced gastrointestinal stromal tumors, but that STI571 represents an effective treatment in early stage cancer associated with constitutively active c-kit, by inhibiting unfavourable tyrosine kinase activity.   
+--------------
+Gastrointestinal stromal tumor
+Num unmapped entities: 14
+Mapping: 
+ 
+Identified: growth factor mapped to: Growth Factor
+Identified: receptor mapped to: Receptor
+Identified: oncogene mapped to: Oncogene
+Identified: disease mapped to: Disease
+Num mapped entities: 3
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Deprivation amblyopia (''Amblyopia ex anopsia'') results when the ocular media become <link tokenizeTagContent="false">Opacity%20(optics)</link> 
+<page>Opacity (optics)</page> 
+opaque, such as is the case with <link tokenizeTagContent="false">Congenital%20cataract</link> 
+<page>Congenital cataract</page> 
+congenital cataract or <link tokenizeTagContent="false">Cornea</link> 
+<page>Cornea</page> 
+corneal haziness. These opacities prevent adequate visual input from reaching the eye, and therefore disrupt development. If not treated in a timely fashion, amblyopia may persist even after the cause of the opacity is removed. Sometimes, drooping of the <link tokenizeTagContent="false">Eyelid</link> 
+<page>Eyelid</page> 
+eyelid (<link tokenizeTagContent="false">Ptosis%20(eyelid)</link> 
+<page>Ptosis (eyelid)</page> 
+ptosis) or some other problem causes the upper eyelid to physically occlude a child's vision, which may cause amblyopia quickly.  Occlusion amblyopia may be a complication of a <link tokenizeTagContent="false">Hemangioma</link> 
+<page>Hemangioma</page> 
+hemangioma that blocks some or all of the eye. Other possible causes of deprivation and occlusion amblyopia include obstruction in the vitreous and <link tokenizeTagContent="false">Aphakia</link> 
+<page>Aphakia</page> 
+aphakia. Deprivation amblyopia accounts for less than 3% of all individuals affected by amblyopia.<ref name=Antonio/>
+--------------
+Amblyopia
+Num unmapped entities: 12
+Mapping: 
+ 
+Identified: amblyopia mapped to: Amblyopia
+Identified: complication mapped to: Complication
+Identified: hemangioma mapped to: Hemangioma
+Num mapped entities: 3
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Since the withdrawal in 2000, mechanisms of Troglitazone hepatotoxicity have been extensively studied using a variety of in vivo, in vitro and computational methods.  These studies have suggested that hepatotoxicity of Troglitazone results from a combination of two major factors i) Non-metabolic and ii) Metabolic.  The non-metabolic toxicity is a complex function of drug-protein interactions in the liver and biliary system.  Initially the metabolic toxicity was largely associated with reactive metabolite formation from the thiazolidinedione and chromane rings of Troglitazone.  Moreover, the formation of quinone and o-quinone methide reactive metabolites were proposed to be formed by metabolic oxidation of the OH group of the chromane ring.   Detailed quantum chemical analysis of the metabolic pathways for Troglitazone has shown that quinone reactive metabolite is generated by oxidation of the OH group, but o-quinone methide reactive metabolite is formed by the oxidation of the methyl (CH3) groups ortho to the OH group of the chromane ring.  This understanding has been recently used in the design of novel Troglitazone derivatives with anti-proliferative activity in breast cancer cell lines.
+--------------
+Troglitazone
+Num unmapped entities: 12
+Mapping: 
+ 
+Identified: troglitazone mapped to: Troglitazone
+Identified: hepatotoxicity mapped to: Hepatotoxicity
+Identified: function mapped to: Function
+Identified: drug mapped to: Drug
+Identified: chemical mapped to: Chemical
+Num mapped entities: 4
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Two mutations in Telethonin, <link tokenizeTagContent="false">Threonine</link> 
+<page>Threonine</page> 
+Thr137<link tokenizeTagContent="false">Isoleucine</link> 
+<page>Isoleucine</page> 
+Ile and <link tokenizeTagContent="false">Arginine</link> 
+<page>Arginine</page> 
+Arg153<link tokenizeTagContent="false">Histidine</link> 
+<page>Histidine</page> 
+His have been associated with <link tokenizeTagContent="false">Hypertrophic%20cardiomyopathy</link> 
+<page>Hypertrophic cardiomyopathy</page> 
+hypertrophic cardiomyopathy, which enhance the binding of Telethonin with <link tokenizeTagContent="false">Titin</link> 
+<page>Titin</page> 
+Titin and <link tokenizeTagContent="false">MYOZ2</link> 
+<page>MYOZ2</page> 
+MYOZ2. The <link tokenizeTagContent="false">Glutamate</link> 
+<page>Glutamate</page> 
+Glu132<link tokenizeTagContent="false">Glutamine</link> 
+<page>Glutamine</page> 
+Gln mutation has been associated with <link tokenizeTagContent="false">Dilated%20cardiomyopathy</link> 
+<page>Dilated cardiomyopathy</page> 
+dilated cardiomyopathy, which has the opposite effect in that it impairs the binding of Telethonin with <link tokenizeTagContent="false">Titin</link> 
+<page>Titin</page> 
+Titin and <link tokenizeTagContent="false">MYOZ2</link> 
+<page>MYOZ2</page> 
+MYOZ2. Mutations in <link tokenizeTagContent="false">Titin</link> 
+<page>Titin</page> 
+Titin associated with <link tokenizeTagContent="false">Dilated%20cardiomyopathy</link> 
+<page>Dilated cardiomyopathy</page> 
+dilated cardiomyopathy, including <link tokenizeTagContent="false">Valine</link> 
+<page>Valine</page> 
+Val54<link tokenizeTagContent="false">Methionine</link> 
+<page>Methionine</page> 
+Met, have been shown specifically to impair binding of <link tokenizeTagContent="false">Titin</link> 
+<page>Titin</page> 
+Titin with Telethonin. In a mouse model of <link tokenizeTagContent="false">Dilated%20cardiomyopathy</link> 
+<page>Dilated cardiomyopathy</page> 
+dilated cardiomyopathy, recapitulating the human <link tokenizeTagContent="false">Dilated%20cardiomyopathy</link> 
+<page>Dilated cardiomyopathy</page> 
+dilated cardiomyopathy mutation in <link tokenizeTagContent="false">CSRP3</link> 
+<page>CSRP3</page> 
+MLP, <link tokenizeTagContent="false">Tryptophan</link> 
+<page>Tryptophan</page> 
+Trp4<link tokenizeTagContent="false">Arginine</link> 
+<page>Arginine</page> 
+Arg, studies have found that this mutation disrupts normal binding and localization of <link tokenizeTagContent="false">CSRP3</link> 
+<page>CSRP3</page> 
+MLP with Telethonin. In a rat model of hypertension-induced <link tokenizeTagContent="false">Cardiomyopathy</link> 
+<page>Cardiomyopathy</page> 
+cardiomyopathy, a human variant of <link tokenizeTagContent="false">BMP10</link> 
+<page>BMP10</page> 
+BMP10, <link tokenizeTagContent="false">Threonine</link> 
+<page>Threonine</page> 
+Thr326<link tokenizeTagContent="false">Isoleucine</link> 
+<page>Isoleucine</page> 
+Ile, showed decreased binding to Telethonin and increased extracellular secretion.
+--------------
+Dilated cardiomyopathy
+Num unmapped entities: 15
+Mapping: 
+ 
+Identified: threonine mapped to: Threonine
+Identified: isoleucine mapped to: Isoleucine
+Identified: hypertrophic cardiomyopathy mapped to: Hypertrophic Cardiomyopathy
+Identified: glutamate mapped to: Glutamate
+Identified: glutamine mapped to: Glutamine
+Identified: methionine mapped to: Methionine
+Num mapped entities: 6
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+'''Parathyroid chief cells''' (also called '''parathyroid principal cells''' or simply '''parathyroid cells''') are one of the two cell types of the parathyroid glands, along with <link tokenizeTagContent="false">Oxyphil%20cell%20(parathyroid)</link> 
+<page>Oxyphil cell (parathyroid)</page> 
+oxyphil cells.  The chief cells are much more prevalent in the parathyroid gland than the oxyphil cells. It is perceived that oxyphil cells may be derived from chief cells at puberty, as they are not present at birth like chief cells.
+--------------
+Parathyroid chief cell
+Num unmapped entities: 1
+Mapping: 
+ 
+Identified: gland mapped to: Gland
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+This group of structurally related <link tokenizeTagContent="false">Mycotoxin</link> 
+<page>Mycotoxin</page> 
+mycotoxins has a strong impact on the health of animals and humans. Trichothecenes are powerful inhibitors of protein synthesis. They do this by reacting with components of the ribosomes: the structure within the cell where proteins are made. The specific site of action of T-2 toxin, which is a reaction with a critical site on the ribosomal RNA (rRNA), is known. Protein synthesis is an essential function in all tissues, but tissues where cells are actively and rapidly growing and dividing are very susceptible to the toxins.Trichothecenes are different from most other potential weapons toxins because they can act through the skin. Compared with some of the other mycotoxins such as aflatoxin, the trichothecenes do not appear to require metabolic activation to exert their biological activity. After direct dermal application or oral ingestion, the trichothecene mycotoxins can cause rapid irritation to the skin or intestinal mucosa. In cell-free systems or single cells in culture, these mycotoxins cause a rapid inhibition of protein synthesis and polyribosomal disaggregation. Thus, we can postulate that the trichothecene mycotoxins have molecular capability of direct reaction with cellular components. Despite this direct effect, it is possible to measure the toxicokinetics and the metabolism of the trichothecene mycotoxins.
+--------------
+Mycotoxin
+Num unmapped entities: 11
+Mapping: 
+ 
+Identified: mycotoxin mapped to: Mycotoxin
+Identified: trichothecenes mapped to: Trichothecenes
+Identified: toxin mapped to: Toxin
+Identified: function mapped to: Function
+Identified: aflatoxin mapped to: Aflatoxin
+Identified: application mapped to: Application
+Identified: ingestion mapped to: Ingestion
+Num mapped entities: 7
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+<link tokenizeTagContent="false">Cyclin%20D</link> 
+<page>Cyclin D</page> 
+Cyclin D is the first cyclin produced in the cell cycle, in response to extracellular signals (e.g. <link tokenizeTagContent="false">Growth%20factor</link> 
+<page>Growth factor</page> 
+growth factors). Cyclin D binds to existing <link tokenizeTagContent="false">Cyclin-dependent%20kinase%204</link> 
+<page>Cyclin-dependent kinase 4</page> 
+CDK4, forming the active cyclin D-CDK4 complex. Cyclin D-CDK4 complex in turn phosphorylates the <link tokenizeTagContent="false">Retinoblastoma</link> 
+<page>Retinoblastoma</page> 
+retinoblastoma susceptibility protein (<link tokenizeTagContent="false">Retinoblastoma%20protein</link> 
+<page>Retinoblastoma protein</page> 
+Rb). The hyperphosphorylated Rb dissociates from the E2F/DP1/Rb complex (which was bound to the <link tokenizeTagContent="false">E2F</link> 
+<page>E2F</page> 
+E2F responsive genes, effectively "blocking" them from transcription), activating E2F. Activation of E2F results in transcription of various genes like <link tokenizeTagContent="false">Cyclin%20E</link> 
+<page>Cyclin E</page> 
+cyclin E, <link tokenizeTagContent="false">Cyclin%20A</link> 
+<page>Cyclin A</page> 
+cyclin A, <link tokenizeTagContent="false">DNA%20polymerase</link> 
+<page>DNA polymerase</page> 
+DNA polymerase, <link tokenizeTagContent="false">Thymidine%20kinase</link> 
+<page>Thymidine kinase</page> 
+thymidine kinase, etc. Cyclin E thus produced binds to <link tokenizeTagContent="false">Cyclin-dependent%20kinase%202</link> 
+<page>Cyclin-dependent kinase 2</page> 
+CDK2, forming the cyclin E-CDK2 complex, which pushes the cell from G to S phase (G/S, which initiates the G/M transition). <link tokenizeTagContent="false">Cyclin%20B</link> 
+<page>Cyclin B</page> 
+Cyclin B-cdk1 complex activation causes breakdown of <link tokenizeTagContent="false">Nuclear%20envelope</link> 
+<page>Nuclear envelope</page> 
+nuclear envelope and initiation of <link tokenizeTagContent="false">Prophase</link> 
+<page>Prophase</page> 
+prophase, and subsequently, its deactivation causes the cell to exit mitosis.
+--------------
+Cyclin
+Num unmapped entities: 8
+Mapping: 
+ 
+Identified: growth factor mapped to: Growth Factor
+Identified: retinoblastoma mapped to: Retinoblastoma
+Identified: thymidine kinase mapped to: Thymidine kinase
+Num mapped entities: 3
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+The most commonly used nebulizers are '''Jet nebulizers''', which are also called "atomizers". Jet nebulizers are connected by tubing to a <link tokenizeTagContent="false">Gas%20compressor</link> 
+<page>Gas compressor</page> 
+compressor, that causes <link tokenizeTagContent="false">Compressed%20air</link> 
+<page>Compressed air</page> 
+compressed air or <link tokenizeTagContent="false">Oxygen</link> 
+<page>Oxygen</page> 
+oxygen to flow at high velocity through a liquid medicine to turn it into an <link tokenizeTagContent="false">Aerosol</link> 
+<page>Aerosol</page> 
+aerosol, which is then inhaled by the patient. Currently there seems to be a tendency among physicians to prefer prescription of a <link tokenizeTagContent="false">Pressurized%20Metered%20Dose%20Inhaler</link> 
+<page>Pressurized Metered Dose Inhaler</page> 
+pressurized Metered Dose Inhaler (pMDI) for their patients, instead of a Jet nebulizer that generates a lot more noise (often 60 dB during use) and is less portable due to a heavier weight. However Jet nebulizers are commonly used for patients in hospitals who have difficulty using inhalers, such as in serious cases of respiratory disease, or severe asthma attacks. The main advantage of the Jet nebulizer is related to its low operational cost. If the patient needs to inhale medicine on a daily basis the use of a pMDI can be rather expensive. Today several manufacturers have also managed to lower the weight of the Jet nebulizer down to 635 g, and thereby started to label it as a portable device. Compared to all the competing inhalers and nebulizers, the noise and heavy weight is however still the biggest draw back of the Jet nebulizer. <link tokenizeTagContent="false">Trade%20name</link> 
+<page>Trade name</page> 
+Trade names for jet nebulizers include ''Maxin''.
+--------------
+Nebulizer
+Num unmapped entities: 13
+Mapping: 
+ 
+Identified: air mapped to: Air
+Identified: oxygen mapped to: Oxygen
+Identified: prescription mapped to: Prescription
+Identified: metered dose inhaler mapped to: Metered Dose Inhaler
+Identified: disease mapped to: Disease
+Identified: asthma mapped to: Asthma
+Num mapped entities: 5
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Numerous studies have shown the pathways and associations between ROS levels and apoptosis, but a newer line of study has connected ROS levels and autophagy. ROS can also induce cell death through autophagy, which is a self-catabolic process involving sequestration of cytoplasmic contents (exhausted or damaged organelles and protein aggregates) for degradation in lysosomes. Therefore, autophagy can also regulate the cell’s health in times of oxidative stress. Autophagy can be induced by ROS levels through many different pathways in the cell in an attempt to dispose of harmful organelles and prevent damage, such as carcinogens, without inducing apoptosis. Autophagic cell death can be prompted by the over expression of autophagy where the cell digests too much of itself in an attempt to minimize the damage and can no longer survive. When this type of cell death occurs, an increase or loss of control of autophagy regulating genes is commonly co-observed. Thus, once a more in-depth understanding of autophagic cell death is attained and it’s relation to ROS, this form of programmed cell death may serve as a future cancer therapy.Autophagy and apoptosis are two different cell death mechanisms brought on by high levels of ROS in the cells, however; autophagy and apoptosis rarely act through strictly independent pathways. There is a clear connection between ROS and autophagy and a correlation seen between excessive amounts of ROS leading to apoptosis. The depolarization of the mitochondrial membrane is also characteristic of the initiation of autophagy. When mitochondria are damaged and begin to release ROS, autophagy is initiated to dispose of the damaging organelle. If a drug targets mitochondria and creates ROS, autophagy may dispose of so many mitochondria and other damaged organelles that the cell is no longer viable. The extensive amount of ROS and mitochondrial damage may also signal for apoptosis. The balance of autophagy within the cell and the crosstalk between autophagy and apoptosis mediated by ROS is crucial for a cell’s survival. This crosstalk and connection between autophagy and apoptosis could be a mechanism targeted by cancer therapies or used in combination therapies for highly resistant cancers.
+--------------
+Autophagy
+Num unmapped entities: 9
+Mapping: 
+ 
+Identified: expression mapped to: Expression
+Identified: drug mapped to: Drug
+Identified: balance mapped to: Balance
+Num mapped entities: 2
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+The '''Screen for Child Anxiety Related Emotional Disorders (SCARED)''' is a <link tokenizeTagContent="false">Self-report</link> 
+<page>Self-report</page> 
+self-report screening <link tokenizeTagContent="false">Questionnaire</link> 
+<page>Questionnaire</page> 
+questionnaire for <link tokenizeTagContent="false">Anxiety%20disorders</link> 
+<page>Anxiety disorders</page> 
+anxiety disorders. The questionnaire was developed by Boris Birmaher (MD), Suneeta Khetarpal (MD), Marlane Cully (M.ED), David Brent (MD), and Sandra Mackenzie (PhD) in 1997. The SCARED is a brief self-report instrument intended for children, adolescents, and their parents to complete in about 10 minutes, and can discriminate between depression and anxiety, as well as among distinct anxiety disorders. The SCARED is useful for <link tokenizeTagContent="false">Generalized%20anxiety%20disorder</link> 
+<page>Generalized anxiety disorder</page> 
+generalized anxiety disorder, <link tokenizeTagContent="false">Social%20anxiety%20disorder</link> 
+<page>Social anxiety disorder</page> 
+social anxiety disorder, <link tokenizeTagContent="false">Phobia</link> 
+<page>Phobia</page> 
+phobic disorders, and potentially school anxiety problems. Most available self-report instruments that measure anxiety in children look at general aspects of anxiety rather than <link tokenizeTagContent="false">Diagnostic%20and%20Statistical%20Manual%20of%20Mental%20Disorders</link> 
+<page>Diagnostic and Statistical Manual of Mental Disorders</page> 
+DSM categorizations. The SCARED was developed as an instrument for both children and their parents that would encompass several <link tokenizeTagContent="false">DSM-IV</link> 
+<page>DSM-IV</page> 
+DSM-IV categorizations of the anxiety disorders: <link tokenizeTagContent="false">Panic%20disorder</link> 
+<page>Panic disorder</page> 
+somatic/panic, <link tokenizeTagContent="false">Generalized%20anxiety%20disorder</link> 
+<page>Generalized anxiety disorder</page> 
+generalized anxiety, <link tokenizeTagContent="false">Separation%20anxiety%20disorder</link> 
+<page>Separation anxiety disorder</page> 
+separation anxiety, <link tokenizeTagContent="false">Social%20anxiety%20disorder</link> 
+<page>Social anxiety disorder</page> 
+social phobia, and <link tokenizeTagContent="false">School%20refusal</link> 
+<page>School refusal</page> 
+school phobia.
+--------------
+Generalized anxiety disorder
+Num unmapped entities: 8
+Mapping: 
+ 
+Identified: screening mapped to: Screening
+Identified: anxiety disorder mapped to: Anxiety Disorder
+Identified: separation anxiety mapped to: Separation Anxiety
+Identified: social phobia mapped to: Social Phobia
+Num mapped entities: 4
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+'''Bone pain''' (also known medically by <link tokenizeTagContent="false"></link> 
+<page></page> 
+several other names) is <link tokenizeTagContent="false">Pain</link> 
+<page>Pain</page> 
+pain coming from a <link tokenizeTagContent="false">Bone</link> 
+<page>Bone</page> 
+bone. It occurs as a result of a wide range of diseases and/or physical conditions and may severely impair the quality of life for patients who suffer from it. Bone pain belongs to the class of deep somatic <link tokenizeTagContent="false">Pain</link> 
+<page>Pain</page> 
+pain, often experienced as a dull pain that cannot be localized accurately by the patient. This is in contrast with the pain which is mediated by superficial receptors in, e.g., the skin. Bone pain can have several possible causes ranging from extensive physical stress to serious diseases such as <link tokenizeTagContent="false">Cancer</link> 
+<page>Cancer</page> 
+cancer.For many years it has been known that bones are innervated with sensory <link tokenizeTagContent="false">Neuron</link> 
+<page>Neuron</page> 
+neurons. Yet their exact anatomy remained obscure due to the contrasting physical properties of bone and neural tissue. More recently, it is becoming clear what types of nerves innervated which sections of bone. The periosteal layer of bone tissue is highly pain-sensitive and an important cause of pain in several disease conditions causing bone pain, like <link tokenizeTagContent="false">Bone%20fracture</link> 
+<page>Bone fracture</page> 
+fractures, <link tokenizeTagContent="false">Osteoarthritis</link> 
+<page>Osteoarthritis</page> 
+osteoarthritis, etc. However, in certain diseases the <link tokenizeTagContent="false">Endosteum</link> 
+<page>Endosteum</page> 
+endosteal and <link tokenizeTagContent="false">Haversian%20canal</link> 
+<page>Haversian canal</page> 
+haversian nerve supply seems to play an important role, e.g. in <link tokenizeTagContent="false">Osteomalacia</link> 
+<page>Osteomalacia</page> 
+osteomalacia, <link tokenizeTagContent="false">Osteonecrosis</link> 
+<page>Osteonecrosis</page> 
+osteonecrosis, and other bone diseases. Thus there are several types of bone pain, each with many potential sources or origins of cause.
+--------------
+Paget's disease of bone
+Num unmapped entities: 11
+Mapping: 
+ 
+Identified: disease mapped to: Disease
+Identified: fracture mapped to: Fracture
+Identified: osteoarthritis mapped to: Osteoarthritis
+Identified: endosteum mapped to: Endosteum
+Identified: haversian canal mapped to: Haversian canal
+Identified: osteomalacia mapped to: Osteomalacia
+Num mapped entities: 5
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Rural hospitals and health services•Albury Wodonga Health  •Alexandra District Hospital •Alpine Health •Bairnsdale Regional Health Service •Ballarat Health Services •Barwon Health •Bass Coast Regional Health •Beaufort and Skipton Health Service •Beechworth Health Service •Benalla Health •Bendigo Health Care Group •Boort District Health •Casterton Memorial Hospital•Castlemaine Health •Central Gippsland Health Service•Cobram District Health •Cohuna District Hospital •Colac Area Health•Djerriwarrh Health Services•Dunmunkle Health Services •East Grampians Health Service •East Wimmera Health Service •Echuca Regional Health •Edenhope and District Hospital •Gippsland Southern Health Service •Goulburn Valley Health •Heathcote Health •Hepburn Health Service •Hesse Rural Health Service •Heywood Rural Health •Inglewood and District Health Service •Kerang District Health •Kilmore and District Hospital •Kooweerup Regional Health Service •Kyabram and District Health Service •Kyneton District Health Service •Latrobe Regional Hospital •Lorne Community Hospital•Maldon Hospital •Maryborough District Health Service •Melton Health•Mildura Base Hospital •Moyne Health Services•Nathalia District Hospital •Northeast Health Wangaratta •Numurkah District Health Service •Omeo District Health •Orbost Regional Health•Otway Health and Community Services•Portland District Health•Robinvale District Health Services •Rochester and Elmore District Health Service •Rural Northwest Health •Seymour Health •South Gippsland Hospital •South West Healthcare •Stawell Regional Health •Swan Hill District Health •Tallangatta Health Service •Terang and Mortlake Health Service•Timboon and District Healthcare Service•Upper Murray Health and Community Services •West Gippsland Healthcare Group•West Wimmera Health Service •Western District Health Service •Wimmera Health Care Group •Yarram and District Health Service •Yarrawonga Health •Yea and District Memorial Hospital
+--------------
+Women's health
+Num unmapped entities: 3
+Mapping: 
+ 
+Num mapped entities: 0
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Another potentially disturbing complication where neuromuscular blockade is employed is '<link tokenizeTagContent="false">Anesthesia%20awareness</link> 
+<page>Anesthesia awareness</page> 
+anesthesia awareness'. In this situation, patients paralyzed may awaken during their anesthesia, due to an inappropriate decrease in the level of drugs providing sedation and/or pain relief. If this fact is missed by the anesthesia provider, the patient may be aware of his surroundings, but be incapable of moving or communicating that fact. Neurological monitors are increasingly available that may help decrease the incidence of awareness. Most of these monitors use proprietary algorithms monitoring brain activity via evoked potentials. Despite the widespread marketing of these devices many case reports exist in which awareness under anesthesia has occurred despite apparently adequate anesthesia as measured by the neurologic monitor.
+--------------
+Anesthesia awareness
+Num unmapped entities: 9
+Mapping: 
+ 
+Identified: complication mapped to: Complication
+Identified: communicating mapped to: Communicating
+Num mapped entities: 2
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Arterial surgery is only indicated once there is positive confirmation that the arteries are indeed the source of pain. Some migraine sufferers have a visibly distended artery on the temple during an attack, which confirms that the arteries are involved. The distention usually subsides as the pain is controlled by vasoconstrictor drugs (<link tokenizeTagContent="false">Ergot</link> 
+<page>Ergot</page> 
+ergots or <link tokenizeTagContent="false">Triptans</link> 
+<page>Triptans</page> 
+triptans). In some, this artery is always visible, but it is only when it becomes distended during an attack that it becomes important for diagnosis. Patients who take triptans or ergots for relief of migraine pain are also prime candidates for arterial surgery. The reason for this is that the action of these drugs is to constrict the painfully dilated branches of the external carotid artery - the same arteries that are targeted by the surgery. The purpose of the surgery is to provide a permanent 'triptan or ergot effect'. Most of these arteries are in the scalp and are readily accessible to minimally invasive surgery. This treatment modality is of particular value in: 1) patients who have not responded to preventive drug therapy, 2) patients who are unable to use drug therapy because they experience unacceptable side effects, 3) patients who have to make too frequent use of abortive drugs such as the triptans or ergots, and 4) patients who would prefer not to be on permanent medication. Included in this category are those with Chronic Daily Headache (headache on more than 15 days per month) and patients with what is known as "refractory headache" - headache that has not benefited from any other form of treatment. <link tokenizeTagContent="false">Elliot%20Shevel</link> 
+<page>Elliot Shevel</page> 
+Elliot Shevel, a South African surgeon, showed that patients with chronic migraine experienced a significant reduction in pain levels and significant improvement in their quality of life following the surgery.
+--------------
+Triptan
+Num unmapped entities: 9
+Mapping: 
+ 
+Identified: migraine mapped to: Migraine
+Identified: drug mapped to: Drug
+Num mapped entities: 1
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+<link tokenizeTagContent="false">Mitochondria</link> 
+<page>Mitochondria</page> 
+Mitochondria (both short- and long-chain) of rat <link tokenizeTagContent="false">Liver</link> 
+<page>Liver</page> 
+liver contain more than one enoyl Co-A isomerase. To further support the idea that short- and long-chain isomerases elute at different concentration of potassium phosphate concentration, they do not share similar primary polypeptide structure, hence they must not be evolutionarily related. <link tokenizeTagContent="false">Peroxisome</link> 
+<page>Peroxisome</page> 
+Peroxisomes of <link tokenizeTagContent="false">Plants</link> 
+<page>Plants</page> 
+plants and of rat <link tokenizeTagContent="false">Liver</link> 
+<page>Liver</page> 
+liver are very different in the way they operate. Despite their <link tokenizeTagContent="false">Primary%20structure</link> 
+<page>Primary structure</page> 
+primary structure similarities, there are differences among the different specimen. To begin with, the <link tokenizeTagContent="false">Peroxisome</link> 
+<page>Peroxisome</page> 
+peroxisomes of rat <link tokenizeTagContent="false">Liver</link> 
+<page>Liver</page> 
+liver are a multifunctional <link tokenizeTagContent="false">Enzyme</link> 
+<page>Enzyme</page> 
+enzyme including enoyl-CoA isomerase, enoyl-CoA <link tokenizeTagContent="false">Hydratase</link> 
+<page>Hydratase</page> 
+hydratase, and L-(−)-3-hydroxyacyl-CoA <link tokenizeTagContent="false">Dehydrogenase</link> 
+<page>Dehydrogenase</page> 
+dehydrogenase. Three different <link tokenizeTagContent="false">Enzyme</link> 
+<page>Enzyme</page> 
+enzymes reside on this entity (multifunctional protein) allowing this <link tokenizeTagContent="false">Enzyme</link> 
+<page>Enzyme</page> 
+enzyme to perform isomerization, hydration, and dehydration. Isomerase activity on the multifunctional <link tokenizeTagContent="false">Enzyme</link> 
+<page>Enzyme</page> 
+enzyme occurs at the amino-terminal <link tokenizeTagContent="false">Catalytic</link> 
+<page>Catalytic</page> 
+catalytic half of the protein along with the <link tokenizeTagContent="false">Hydratase</link> 
+<page>Hydratase</page> 
+hydratase activity. The <link tokenizeTagContent="false">Dehydrogenase</link> 
+<page>Dehydrogenase</page> 
+dehydrogenase activity of enoyl-CoA occurs in the carboxyl-terminal. Upon further investigation of the CoA <link tokenizeTagContent="false">Binding%20site</link> 
+<page>Binding site</page> 
+binding site on the amino-terminal half of the multifunctional <link tokenizeTagContent="false">Protein</link> 
+<page>Protein</page> 
+protein, the CoA <link tokenizeTagContent="false">Substrate%20(biochemistry)</link> 
+<page>Substrate (biochemistry)</page> 
+substrate is not transferred through the aqueous phase from the isomerization phase to the site of hydration or does not have a bulk phase. This removes the need for a substrate transferring <link tokenizeTagContent="false">Enzyme</link> 
+<page>Enzyme</page> 
+enzyme. On the other hand, the <link tokenizeTagContent="false">Cotyledon</link> 
+<page>Cotyledon</page> 
+cotyledons convert long-chain 3-trans-enoyl-CoA, long-chain 3-cis-enoyl-CoA, and short-chain 3-cis-enoyl-CoA species into their 2- trans-enoyl-CoA respective forms. As previously mentioned, <link tokenizeTagContent="false">Plant</link> 
+<page>Plant</page> 
+plant enoyl-CoA isomerase exclusively forms the 2-trans <link tokenizeTagContent="false">Isomer</link> 
+<page>Isomer</page> 
+isomer as <link tokenizeTagContent="false">Product%20(biology)</link> 
+<page>Product (biology)</page> 
+product. It does not act on 4-cis-enoyl-CoA species or 2-trans- 4-trans-dienoyl-CoA species.  In comparing the products of the plant <link tokenizeTagContent="false">Peroxisome</link> 
+<page>Peroxisome</page> 
+peroxisome and the multifunctional enzyme of rat <link tokenizeTagContent="false">Liver</link> 
+<page>Liver</page> 
+liver, the plant has no <link tokenizeTagContent="false">Hydratase</link> 
+<page>Hydratase</page> 
+hydratase activity. The Plant form did not form a 2-cis-isomer (from enoyl-CoA hydratase) or D- or L- 3 hydroxy derivative (L-(−)-3-hydroxyacyl-CoA dehydrogenase): products of multifunctional enzyme of rat <link tokenizeTagContent="false">Liver</link> 
+<page>Liver</page> 
+liver. The turnover rates of these the two sub divisions of <link tokenizeTagContent="false">Peroxisome</link> 
+<page>Peroxisome</page> 
+peroxisomes are very different. The Kcat/Km ratio in <link tokenizeTagContent="false">Cotyledon</link> 
+<page>Cotyledon</page> 
+cotyledons is 10^6 M-1s-1 which outperforms the ratio .07 * 10^6 M-1s-1. Due to a high turnover rate, the plant <link tokenizeTagContent="false">Peroxisome</link> 
+<page>Peroxisome</page> 
+peroxisomes contain a lesser amount of enoyl-CoA isomerase than their counterparts in the rat <link tokenizeTagContent="false">Liver</link> 
+<page>Liver</page> 
+liver.
+--------------
+Enoyl CoA isomerase
+Num unmapped entities: 14
+Mapping: 
+ 
+Identified: isomerase mapped to: Isomerase
+Identified: phosphate mapped to: Phosphate
+Identified: enzyme mapped to: Enzyme
+Identified: dehydrogenase mapped to: Dehydrogenase
+Num mapped entities: 3
+Filtering: 
+ 
+---------------------------------------------------------------------------------
+Adoption of the Paleolithic diet assumes that modern humans can reproduce the hunter-gatherer diet. Molecular biologist <link tokenizeTagContent="false">Marion%20Nestle</link> 
+<page>Marion Nestle</page> 
+Marion Nestle argues that "knowledge of the relative proportions of animal and plant foods in the diets of early humans is circumstantial, incomplete, and debatable and there are insufficient data to identify the composition of a genetically determined optimal diet. The evidence related to Paleolithic diets is best interpreted as supporting the idea that diets based largely on plant foods promote health and longevity, at least under conditions of food abundance and physical activity." Ideas about <link tokenizeTagContent="false">Paleolithic</link> 
+<page>Paleolithic</page> 
+Paleolithic diet and nutrition are at best hypothetical.
+--------------
+Paleolithic diet
+Num unmapped entities: 8
+Mapping: 
+ 
+Identified: adoption mapped to: Adoption
+Identified: physical activity mapped to: Physical Activity
+Num mapped entities: 2
+Filtering: 
+ 

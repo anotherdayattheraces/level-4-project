@@ -1,14 +1,20 @@
 package misc;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import customEntityLinker.MedLink;
 import dictionary.DictionaryHashMap;
 import entityRetrieval.core.Pair;
+import evaluation.DocumentLinkReader;
 import evaluation.TopicToEntityMapper;
 
 public class ResultsAnalyzer {
@@ -137,7 +143,7 @@ public class ResultsAnalyzer {
 			}
 		}
 		public void getINFO(Boolean stats) throws IOException{
-			String resultsFile = "C:/Work/Project/samples/prototype4/level-4-project/core/Eval/50-STANDARD-ALL-TOPICS/CAT30/MMfullDetails.txt";
+			String resultsFile = "C:/Work/Project/samples/prototype4/level-4-project/core/Results/KB/50-DOC/30-CAT/KBfullDetails.txt";
 			FileReader file = new FileReader(resultsFile);
 			BufferedReader br = new BufferedReader(file);
 			String line;
@@ -211,6 +217,56 @@ public class ResultsAnalyzer {
 				}
 			}
 		}
+		
+		public void getMap() throws IOException{
+			int doc = 30;
+			String search = "map                             all";
+			for(;doc<=70;doc++){
+				String pathName="C:/Work/Project/samples/prototype4/level-4-project/core/Results/DLR/"+doc+"-DOC/DLRfullDetails.txt";
+				FileReader file = new FileReader(pathName);
+				BufferedReader br = new BufferedReader(file);
+				String line;
+				while((line=br.readLine())!=null){
+					if(line.startsWith(search)){
+
+						System.out.println(line.substring(search.length()));
+					}
+				}
+			}
+		}
+		public void getTopics() throws IOException{
+			String pathName="FinalParagraphJudgementsANSI.txt";
+			FileReader file = new FileReader(pathName);
+			BufferedReader br = new BufferedReader(file);
+			String line;
+			String search = "Topic: ";
+			int num=1;
+			while((line=br.readLine())!=null){
+				if(line.startsWith(search)){
+					System.out.println(line.substring(search.length()));
+					System.out.println(num++);
+
+				}
+			}
+		}
+		public void getPrecision() throws IOException{
+			String pathName="C:/Work/Project/samples/prototype4/level-4-project/core/Results/ML/50-DOC/30-CAT/MLfullDetails.txt";
+			FileReader file = new FileReader(pathName);
+			BufferedReader br = new BufferedReader(file);
+			String line;
+
+			while((line=br.readLine())!=null){
+				if(line.contains("all")){
+					if(line.startsWith("P")){
+						System.out.println(line.substring("P5                              all    ".length()));
+						
+					}
+				}
+			}
+		
+		}
+		
+		
 	
 	
 }

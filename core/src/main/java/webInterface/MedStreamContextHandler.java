@@ -22,8 +22,7 @@ public class MedStreamContextHandler implements WebHandler{
 		this.search = search;
 	}
 
-	public void handle(HttpServletRequest request,
-	          HttpServletResponse response) throws IOException, ServletException {
+	public void handle(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 	    try {
 	      // Recover method
 	      ObjectInputStream ois = new ObjectInputStream(request.getInputStream());

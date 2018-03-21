@@ -30,12 +30,12 @@ public class MetaMapEvaluator {
 		StopWatch stopWatch = new StopWatch();
 
 		try {
-			this.outputStream = new PrintStream(new FileOutputStream("MM100extraDetails.txt",true));
+			this.outputStream = new PrintStream(new FileOutputStream("MMextraDetails.txt",true));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 		this.qrelFile="C:/Work/Project/samples/prototype4/level-4-project/core/MetaMapfilteredQrels.txt";
-		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MM100Results.txt";
+		this.runFile="C:/Work/Project/samples/prototype4/level-4-project/core/MMResults.txt";
 		this.topicRuns = new ArrayList<TopicRun>();
 		stopWatch.start();
 		if(multiple){
@@ -87,8 +87,8 @@ public class MetaMapEvaluator {
 		topicRuns.add(new TopicRun(kblinker.getQuery(),kblinker.topicChoice,returnedEntities));
 	}
 	public void evaluate(){
-		KBLinkerEvaluator.createResultsFile("MM100Results.txt", topicRuns);
-		KBLinkerEvaluator.runEval(runFile,qrelFile,"MM100");
+		KBLinkerEvaluator.createResultsFile("MMResults.txt", topicRuns);
+		KBLinkerEvaluator.runEval(runFile,qrelFile,"MM");
 
 	}
 	

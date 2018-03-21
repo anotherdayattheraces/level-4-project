@@ -28,6 +28,7 @@ public class DocumentLinkReader {
 	private ArrayList<String> topics;
 	public int topicChoice;
 	public Node root;
+	private HashMap<Entity,ArrayList<String>> categories;
 
 
 	
@@ -38,7 +39,7 @@ public class DocumentLinkReader {
 		this.topicChoice=topicChoicePair.getL();
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
-		this.documents=orchestrator.getDocuments(query, 50);
+		this.documents=orchestrator.getDocuments(query, 75);
 		this.root=orchestrator.getRoot();
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
 	}
@@ -46,7 +47,7 @@ public class DocumentLinkReader {
 		this.query=query;
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
-		this.documents=orchestrator.getDocuments(query, 50);
+		this.documents=orchestrator.getDocuments(query, 70);
 		this.root=orchestrator.getRoot();
 		System.out.println("got docs");
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
@@ -59,6 +60,16 @@ public class DocumentLinkReader {
 		System.out.println("Chosen query: "+query);
 		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
 		this.documents=orchestrator.getDocuments(query, 50);
+		this.root=orchestrator.getRoot();
+		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
+	}
+	public DocumentLinkReader(int topicChoice,String topicPath){
+		this.topics=TopicToEntityMapper.readTopics(topicPath);
+		this.query=topics.get(topicChoice);
+		this.topicChoice=topicChoice;
+		System.out.println("Chosen query: "+query);
+		GalagoOrchestrator orchestrator = new GalagoOrchestrator();
+		this.documents=orchestrator.getDocuments(query, 1);
 		this.root=orchestrator.getRoot();
 		this.path="C:/Work/Project/samples/treccar/paragraphcorpus";
 	}
@@ -111,18 +122,15 @@ public class DocumentLinkReader {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+	
 		System.out.println("Num unfiltered entities: "+foundEntities.size());
 		KBFilter kbfilter = new KBFilter(foundEntities,new ArrayList<String>());
 		foundEntities=kbfilter.filterEntities(null);
 		System.out.println("Num filtered entities: "+foundEntities.size());
-		
+		categories=kbfilter.entityToCategoriesMapping;
 		foundEntities=MedLink.scoreAndRankEntities(foundEntities, getScoredDocuments());
 		//this.entitiesPerDoc=MedLinkEvaluator.calculateEntitiesPerDoc(foundEntities);
 		//MedLinkEvaluator.setMentionProbablities(foundEntities, entitiesPerDoc); //calculate the mention probabilities for each entity per doc
-		for(Entity e:foundEntities){
-			System.out.println(e.getName());
-		}
 		return foundEntities;
 	}
 	public List<ScoredDocument> getScoredDocuments(){
@@ -136,6 +144,9 @@ public class DocumentLinkReader {
 	}
 	public int getMaxTopics(){
 		return this.topics.size();
+	}
+	public HashMap<Entity,ArrayList<String>> getFinalEntityCategories(){
+		return this.categories;
 	}
 
 

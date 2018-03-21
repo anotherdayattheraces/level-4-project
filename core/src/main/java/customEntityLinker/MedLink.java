@@ -49,7 +49,31 @@ public class MedLink {
 
 
 
-
+	public MedLink(String query, DictionaryHashMap dictionary){
+		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
+		this.query=query;
+		SnomedDictionaryInitializer sdi = new SnomedDictionaryInitializer();
+		try {
+			this.dictionary = sdi.initialize();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
+		this.snomedToWikiMappings=readInMappings(mappingPath);
+		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
+		this.scoredDocs = new ArrayList<ScoredDocument>();
+		for(int i=0;i<50;i++){
+			this.scoredDocs.addAll(orchestrator.getDocuments(topics.get(i), 2));
+		}
+		//this.scoredDocs = orchestrator.getDocuments(query, 1);
+		try {
+			this.blacklist=MedLink.readBlackList("C:/Work/Project/samples/prototype4/level-4-project/core/MedLinkBlacklist.txt");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
 	
 	
 	public MedLink(){
@@ -66,7 +90,7 @@ public class MedLink {
 		}
 		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
 		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
-		this.scoredDocs = orchestrator.getDocuments(query, 25); //get top 50 documents from galago search of query
+		this.scoredDocs = orchestrator.getDocuments(query, 50); //get top 50 documents from galago search of query
 		this.root=orchestrator.getRoot();
 		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
 		this.snomedToWikiMappings=readInMappings(mappingPath);
@@ -78,7 +102,7 @@ public class MedLink {
 
 	}
 	public MedLink(int topicChoice){
-		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/TopicsExpanded.txt");
 		this.query=topics.get(topicChoice);
 		this.topicChoice=topicChoice;
 		System.out.println("Chosen query: "+query);
@@ -99,10 +123,9 @@ public class MedLink {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
 	}
 	public MedLink(int topicChoice, DictionaryHashMap dictionary){
-		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/topics.txt");
+		this.topics=TopicToEntityMapper.readTopics("C:/Work/Project/samples/prototype4/level-4-project/core/TopicsExpanded.txt");
 		this.query=topics.get(topicChoice);
 		this.topicChoice=topicChoice;
 		System.out.println("Chosen query: "+query);
@@ -120,6 +143,36 @@ public class MedLink {
 		}
 	}
 	
+	public MedLink(int i, String topicPath, DictionaryHashMap dictionary) {
+		if(dictionary==null){
+			SnomedDictionaryInitializer sdi = new SnomedDictionaryInitializer();
+			try {
+				this.dictionary=sdi.initialize();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		else{
+			this.dictionary=dictionary;
+		}
+		this.topics=TopicToEntityMapper.readTopics(topicPath);
+		this.query=topics.get(topicChoice);
+		System.out.println("Chosen query: "+query);
+		this.path =  "C:/Work/Project/samples/treccar/paragraphcorpus";
+		GalagoOrchestrator orchestrator=  new GalagoOrchestrator();
+		this.scoredDocs = orchestrator.getDocuments(query, 1); 
+		this.root=orchestrator.getRoot();
+		this.mappingPath="C:/Work/Project/samples/prototype4/level-4-project/core/SnomedToWikiMappings.txt";
+		this.snomedToWikiMappings=readInMappings(mappingPath);
+		try {
+			this.blacklist=MedLink.readBlackList("C:/Work/Project/samples/prototype4/level-4-project/core/MedLinkBlacklist.txt");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+
 	public ArrayList<Entity> matchEntities(PrintStream outputStream){
 		ArrayList<Entity> foundEntities = new ArrayList<Entity>();
 		Retrieval index=null;
@@ -151,6 +204,9 @@ public class MedLink {
 			}
 			int line=1;
 			ArrayList<String> unmapped = new ArrayList<String>();
+			outputStream.println("---------------------------------------------------------------------------------");
+			outputStream.println(doc.text);
+			outputStream.println("--------------");
 
 			for(String term : doc.terms ) {
 				//System.out.println(term);
@@ -196,8 +252,6 @@ public class MedLink {
 				}
 				if(doubleTerm){
 					if(dictionary.lookupString(twoWords)){
-						
-						//System.out.println("found match for term: "+twoWords);
 						two = true;
 					}
 					else{
@@ -219,9 +273,8 @@ public class MedLink {
 				
 				else{
 					unmapped.add(fourWords);
+					}
 				}
-				}
-				
 					if(!one&&!two&&!three&&!four) continue; //no entity matches
 							if(one){
 								if(!addAppearance(foundEntities,term,sd)){
@@ -244,7 +297,6 @@ public class MedLink {
 									else{
 										foundEntities.add(new Entity(twoWords,twoWords.replaceAll(" ", "%20")));
 										foundEntities.get(foundEntities.size()-1).addAppearance(sd);;
-										
 									}			
 								}
 							}
@@ -257,7 +309,6 @@ public class MedLink {
 									else{
 										foundEntities.add(new Entity(threeWords,threeWords.replaceAll(" ", "%20")));
 										foundEntities.get(foundEntities.size()-1).addAppearance(sd);;
-										
 									}			
 								}
 							} 
@@ -270,7 +321,6 @@ public class MedLink {
 									else{
 										foundEntities.add(new Entity(fourWords,fourWords.replaceAll(" ", "%20")));
 										foundEntities.get(foundEntities.size()-1).addAppearance(sd);;
-										
 									}			
 								}
 							}
@@ -333,23 +383,24 @@ public class MedLink {
 				}
 			}
 			if(!snomedToWikiMappings.containsKey(e.getName().substring(0, 3).toLowerCase())){
-				//System.out.println("Unable to map entity: "+e.getName());
+				System.out.println("Unable to map entity: "+e.getName());
 				continue;
 			}
 			mappedName=snomedToWikiMappings.get(e.getName().substring(0, 3).toLowerCase()).get(e.getName().toLowerCase());
 			if(mappedName==null&&e.getName().contains("(")){
 				mappedName=snomedToWikiMappings.get(e.getName().substring(0, 3).toLowerCase()).get(EntityMatcher.removeBracketDescription(e.getName().toLowerCase().trim()));
-				outputStream.println("Formatted: "+e.getName()+" without brackets");
+				//outputStream.println("Formatted: "+e.getName()+" without brackets");
 			}
 		
 			if(mappedName!=null){
+				outputStream.println("Identified: "+e.getName()+" mapped to: "+mappedName);
 				if(blacklist.contains(mappedName)) continue;
-				outputStream.println("Mapped "+e.getName()+" to "+mappedName);
+				//outputStream.println("Mapped "+e.getName()+" to "+mappedName);
 				Boolean merge=false;
 				for(Entity entity:mappedEntities){
 					if(entity.getName().equals(mappedName)){
 						entity.mergeEntityApps(e);
-						outputStream.println("Merged apps for entities: "+entity.getName()+" and "+e.getName());
+						//outputStream.println("Merged apps for entities: "+entity.getName()+" and "+e.getName());
 						System.out.println("Merged apps for entities: "+entity.getName()+" and "+e.getName());
 						merge=true;
 						break;
@@ -364,7 +415,7 @@ public class MedLink {
 			}
 			if(!mapped){
 				unMappableEntities.add(e);
-				outputStream.println("Unable to map entity: "+e.getName());
+				//outputStream.println("Unable to map entity: "+e.getName());
 				System.out.println("Unable to map entity: "+e.getName());
 			}
 		}
@@ -505,6 +556,15 @@ public class MedLink {
 			}
 		}
 		return mappedEntities;
+	}
+	public static void schedule(PrintStream outputStream){
+		MedLink ml = new MedLink(0);
+		DictionaryHashMap reusableDictionary = new DictionaryHashMap(ml.getDictionary().getDictionary());
+		ml.matchEntities(outputStream);
+		for(int i=1;i<49;i++){
+			MedLink mli = new MedLink(i,reusableDictionary);
+			mli.matchEntities(outputStream);
+		}
 	}
 	
 }

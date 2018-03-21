@@ -49,7 +49,7 @@ public class MedLinkEvaluator {
 			MedLink medLinker = new MedLink(0);
 			addQuery(medLinker);
 			DictionaryHashMap reusableDictionary = new DictionaryHashMap(medLinker.getDictionary().getDictionary());
-			while(runNum<1){
+			while(runNum<medLinker.getMaxTopics()){
 				MedLink medLinkerMul = new MedLink(runNum,reusableDictionary); //compute map of all queries
 				addQuery(medLinkerMul);
 				runNum++;

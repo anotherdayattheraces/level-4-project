@@ -16,9 +16,11 @@ import java.net.URLEncoder;
 import java.util.*;
 import java.util.Map.Entry;
 
+import entityRetrieval.core.Entity;
 import entityRetrieval.core.MedSearch;
 import entityRetrieval.core.MedSearch.SearchResult;
 import entityRetrieval.core.MedSearch.SearchResultItem;
+import entityRetrieval.core.Pair;
 
 public class MedSearchWebHandler implements WebHandler{
 	
@@ -164,26 +166,38 @@ public class MedSearchWebHandler implements WebHandler{
 	        //        "Transformed Query", result.transformedQuery.toString()));
 	        writer.append("</table>");
 	        writer.append("</div>");
-
-	        for (entityRetrieval.core.MedSearch.SearchResultItem item : result.items) {
-	            if(item.displayTitle.trim().isEmpty()) {
-	                item.displayTitle = scrub(item.identifier);
-	                if(item.displayTitle.trim().isEmpty()) {
-	                    item.displayTitle = "&lt;document link&gt;";
-	                }
-	            }
-	            writer.append("<div id=\"result\">\n");
-	            writer.append(String.format("<a href=\"document?identifier=%s\">%s</a><br/>"
-	                    + "<div id=\"summary\">%s</div>\n"
-	                    + "<div id=\"meta\">%s - %s - %.2f</div>\n",
-	                    item.identifier,
-	                    item.displayTitle,
-	                    item.summary,
-	                    scrub(item.identifier),
-	                    scrub(item.url),
-	                    item.score));
-	            writer.append("</div>\n");
+	        for(Pair<String,Double> category:search.topCategories){
+	        	if(search.finalEntityCategories.get(category.getL()).size()==0||search.finalEntityCategories.get(category.getL())==null){
+	        		continue;
+	        	}
+	            writer.append("<div id=\"category\">\n");
+	            writer.append("<strong>"+category.getL().replaceAll("%20", " ")+"</strong>");
+	        	for(Entity entity:search.finalEntityCategories.get(category.getL())){
+	        		for(SearchResultItem item:result.items){
+	        			if(item.displayTitle.trim().isEmpty()) {
+	    	                item.displayTitle = scrub(item.identifier);
+	    	                if(item.displayTitle.trim().isEmpty()) {
+	    	                    item.displayTitle = "&lt;document link&gt;";
+	    	                }
+	    	            }
+	        			if(item.displayTitle.equals(entity.getName())){
+	        				writer.append("<div id=\"result\">\n");
+	        	            writer.append(String.format("<a href=\"document?identifier=%s\">%s</a><br/>"
+	        	                    + "<div id=\"summary\">%s</div>\n"
+	        	                    + "<div id=\"meta\">%s - %s - %.2f</div>\n",
+	        	                    item.identifier,
+	        	                    item.displayTitle,
+	        	                    item.summary,
+	        	                    scrub(item.identifier),
+	        	                    scrub(item.url),
+	        	                    item.score));
+	        	            writer.append("</div>\n");
+	        			}
+	        		}
+	        	}
+	        	writer.append("</div>\n");
 	        }
+	        
 
 	        String startAtString = request.getParameter("start");
 	        String countString = request.getParameter("n");
@@ -309,8 +323,7 @@ public class MedSearchWebHandler implements WebHandler{
 	    //    outputter.endDocument();
 	    //}
 
-	    public void handleDocCount(HttpServletRequest request, HttpServletResponse response)
-	            throws Exception {
+	    public void handleDocCount(HttpServletRequest request, HttpServletResponse response) throws Exception {
 	       String exp = request.getParameter("expression");
 	        long count = search.docCount(exp);
 	        PrintWriter writer = response.getWriter();
@@ -389,8 +402,6 @@ public class MedSearchWebHandler implements WebHandler{
 	    }
 
 	    public void handle(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-	    	System.out.println("request: "+request.toString());
-	    	System.out.println(request.getPathInfo());
 	        if (request.getPathInfo().equals("/search")) {
 	            try {
 	                handleSearch(request, response);
@@ -407,7 +418,6 @@ public class MedSearchWebHandler implements WebHandler{
 	                throw new ServletException("Caught exception from handleSearchXML", e);
 	            }
 	        } else if (request.getPathInfo().equals("/snippet")) {
-	        	System.out.println("snippet");
 	            handleSnippet(request, response);
 	        } else if (request.getPathInfo().startsWith("/images")) {
 	            handleImage(request, response);
